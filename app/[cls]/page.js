@@ -25,7 +25,7 @@ export default async function ClassPage({ params }) {
         {part && <h2>{part}</h2>}
         <div className="grid">{c.chapters.filter(ch => ch.part === part).map((ch, i) => (
           <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
-            <span className="num">{i + 1}</span>
+            <span className="num">{ch.no || i + 1}</span>
             <span><strong>{ch.title}</strong><small>{ch.hi}</small>
               {ch.boards.map(b => <span key={b} className="tag">{b}</span>)}
               {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
