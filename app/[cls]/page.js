@@ -14,12 +14,20 @@ export default async function ClassPage({ params }) {
   const { cls } = await params;
   const c = CLASSES[cls]; if (!c) notFound();
   return (<>
-    <h1>{c.label} Maths</h1>
-    <div className="grid">{c.chapters.map(ch => (
-      <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card">
-        <strong>{ch.title}</strong><br /><small>{ch.hi}</small><br />
-        {ch.boards.map(b => <span key={b} className="tag">{b}</span>)}
-      </Link>))}
-    </div>
+    <div className="page-head"><div className="wrap">
+      <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
+      <h1>{c.label} Maths</h1>
+      <p>{c.chapters.length} chapters for CBSE and ICSE, with video lessons, notes and practice in Hindi + English.</p>
+    </div></div>
+    <section className="section"><div className="wrap">
+      <div className="grid">{c.chapters.map((ch, i) => (
+        <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
+          <span className="num">{i + 1}</span>
+          <span><strong>{ch.title}</strong><small>{ch.hi}</small>
+            {ch.boards.map(b => <span key={b} className="tag">{b}</span>)}
+            {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
+        </Link>))}
+      </div>
+    </div></section>
   </>);
 }

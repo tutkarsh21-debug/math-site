@@ -27,25 +27,44 @@ export default async function Chapter({ params }) {
   const faq = ch.faq || [];
   const ld = faq.length ? { '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } : null;
-  return (<article>
+  const toc = [
+    ['video', 'Video lesson', true], ['formulas', 'Key formulas', ch.formulas], ['concept', 'Concept explained', ch.concept],
+    ['examples', 'Solved examples', ch.examples], ['mistakes', 'Common mistakes', ch.mistakes],
+    ['practice', 'Practice questions', ch.practice], ['faq', 'FAQ', faq.length],
+  ].filter(t => t[2]);
+  return (<>
     {ld && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />}
-    <h1>{ch.title} {c.label} ({ch.hi})</h1>
-    <p>{ch.boards.map(b => <span key={b} className="tag">{b}</span>)}</p>
-    {ch.summary && <p>{ch.summary}</p>}
-    {ch.youtube
-      ? <iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" />
-      : <div className="video ph">Video coming soon</div>}
-    {ch.formulas && <><h2>Key formulas</h2><ul>{ch.formulas.map(f => <li key={f}>{f}</li>)}</ul></>}
-    {ch.concept && <><h2>Concept explained</h2><p>{ch.concept}</p></>}
-    {ch.examples && <><h2>Solved examples</h2>{ch.examples.map(e => (
-      <details key={e.q} className="card"><summary>{e.q}</summary><p>{e.a}</p></details>))}</>}
-    {ch.mistakes && <><h2>Common mistakes</h2><ul>{ch.mistakes.map(m => <li key={m}>{m}</li>)}</ul></>}
-    {ch.practice && <><h2>Practice questions</h2><ol>{ch.practice.map(p => <li key={p}>{p}</li>)}</ol></>}
-    {faq.length > 0 && <><h2>FAQ</h2>{faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</>}
-    <p style={{marginTop:'2rem'}}><a className="btn" href={SITE.telegram}>Join Telegram for daily problems</a></p>
-    <p style={{display:'flex',justifyContent:'space-between'}}>
-      {prev ? <Link href={`/${p.cls}/${prev.slug}`}>← {prev.title}</Link> : <span />}
-      {next && <Link href={`/${p.cls}/${next.slug}`}>{next.title} →</Link>}
-    </p>
-  </article>);
+    <div className="page-head"><div className="wrap">
+      <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
+      <h1>{ch.title} {c.label} ({ch.hi})</h1>
+      <p>{ch.boards.map(b => <span key={b} className="tag">{b}</span>)}</p>
+      {ch.summary && <p style={{marginTop:'.6rem'}}>{ch.summary}</p>}
+    </div></div>
+    <div className="wrap chapter">
+      <article>
+        <div id="video">{ch.youtube
+          ? <iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" />
+          : <div className="video ph">Video coming soon</div>}</div>
+        {toc.length === 1 && <p className="muted" style={{marginTop:'1rem'}}>Notes and practice for this chapter are being prepared.</p>}
+        {ch.formulas && <><h2 id="formulas">Key formulas</h2><ul className="formulas">{ch.formulas.map(f => <li key={f}>{f}</li>)}</ul></>}
+        {ch.concept && <><h2 id="concept">Concept explained</h2><p>{ch.concept}</p></>}
+        {ch.examples && <><h2 id="examples">Solved examples</h2>{ch.examples.map(e => (
+          <details key={e.q}><summary>{e.q}</summary><p>{e.a}</p></details>))}</>}
+        {ch.mistakes && <><h2 id="mistakes">Common mistakes</h2><ul>{ch.mistakes.map(m => <li key={m}>{m}</li>)}</ul></>}
+        {ch.practice && <><h2 id="practice">Practice questions</h2><ol>{ch.practice.map(q => <li key={q}>{q}</li>)}</ol></>}
+        {faq.length > 0 && <><h2 id="faq">FAQ</h2>{faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</>}
+        <p style={{marginTop:'2rem'}}><a className="btn" href={SITE.telegram}>Join Telegram for daily problems</a></p>
+        <p className="prevnext">
+          {prev ? <Link href={`/${p.cls}/${prev.slug}`}>← {prev.title}</Link> : <span />}
+          {next && <Link href={`/${p.cls}/${next.slug}`}>{next.title} →</Link>}
+        </p>
+      </article>
+      <aside className="side">
+        {toc.length > 1 && <div className="card"><h3>On this page</h3>
+          {toc.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</div>}
+        <div className="card"><h3>{c.label} chapters</h3>
+          {c.chapters.map(x => <Link key={x.slug} href={`/${p.cls}/${x.slug}`} aria-current={x.slug === ch.slug ? 'page' : undefined}>{x.title}</Link>)}</div>
+      </aside>
+    </div>
+  </>);
 }
