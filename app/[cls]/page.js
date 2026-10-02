@@ -25,12 +25,12 @@ export default async function ClassPage({ params }) {
       <h1>{c.label} Maths</h1>
       <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons in Hinglish, plus notes and practice.</p>
     </div></div>
-    <section className="section"><div className="wrap boards">
+    <section className="section"><div className="wrap tabs">
       {boards.map(({ b, list }, i) => (<Fragment key={b}>
         <input type="radio" name="board" id={`board-${b}`} defaultChecked={i === 0} />
         <label htmlFor={`board-${b}`}>{b} <small>{list.length}</small></label>
       </Fragment>))}
-      {boards.map(({ b, groups }) => (<div key={b} className={`board-panel panel-${b}`}>
+      {boards.map(({ b, groups }) => (<div key={b} className="tab-panel">
         {groups.map(g => (<div key={g.title || b} className="part">
           {g.title && <h2>{g.title}</h2>}
           <div className="grid">{g.items.map((ch, i) => (
