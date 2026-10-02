@@ -6,7 +6,7 @@ const FEATURES = [
   { icon: 'ƒ', title: 'Key formulas', text: 'All the formulas of a chapter on one page for quick revision.' },
   { icon: '✓', title: 'Solved examples', text: 'Board-style questions solved in full, with the common mistakes pointed out.' },
   { icon: '✎', title: 'Practice questions', text: 'Questions to try on your own after each lesson, plus daily problems on Telegram.' },
-  { icon: 'Aa', title: 'Hindi + English', text: 'Concepts explained in simple Hinglish, so nothing gets lost in the language.' },
+  { icon: 'Aa', title: 'Taught in Hinglish', text: 'Video lessons are explained in simple Hinglish. Notes and practice are in English, as in the exam.' },
   { icon: '★', title: 'CBSE, ICSE and Olympiad', text: 'Both boards are covered, with extra preparation for SOF IMO.' },
 ];
 
@@ -18,7 +18,7 @@ const STEPS = [
 
 const FAQ = [
   { q: 'Which classes and boards are covered?', a: 'Class 8, 9 and 10 Maths for both CBSE and ICSE. ICSE-only chapters such as GST and Shares and Dividend are marked separately.' },
-  { q: 'Which language are the lessons in?', a: 'A mix of Hindi and English. Terms are kept in English as they appear in the exam, and the explanation is in simple Hindi.' },
+  { q: 'Which language are the lessons in?', a: 'Video lessons are taught in Hinglish, a mix of Hindi and English. The notes, solved examples and practice questions on this site are written in English, as they appear in the exam.' },
   { q: 'What do I get on a chapter page?', a: 'The video lesson, key formulas, the concept explained, solved examples, common mistakes, practice questions and FAQs.' },
   { q: 'Do you help with Olympiad preparation?', a: 'Yes. The Olympiad page explains how to prepare for SOF IMO, and practice sets are shared on Telegram.' },
 ];
@@ -31,13 +31,13 @@ export default function Home() {
     { n: classes.length, t: 'Classes (8 to 10)' },
     { n: all.length, t: 'Chapters' },
     { n: 2, t: 'Boards: CBSE and ICSE' },
-    { n: 2, t: 'Languages: Hindi + English' },
+    { n: 'Hinglish', t: 'Language of video lessons' },
   ];
   return (<>
     <section className="hero"><div className="wrap hero-grid">
       <div>
         <span className="eyebrow">CBSE · ICSE · Olympiad</span>
-        <h1>Class 8-10 Maths in Hindi + English, from Basics to Olympiad</h1>
+        <h1>Class 8-10 Maths in Hinglish, from Basics to Olympiad</h1>
         <p>Understand once, score full marks.</p>
         <div className="cta-row">
           <Link className="btn btn-sun" href="/class-10">Start with Class 10</Link>

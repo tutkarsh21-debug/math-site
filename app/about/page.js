@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { SITE } from '@/lib/data';
 export const metadata = { title: `About ${SITE.name}`,
-  description: `${SITE.name} teaches Class 8-10 Maths for CBSE and ICSE in simple Hindi + English, with video lessons, notes, practice and Olympiad preparation.` };
+  description: `${SITE.name} teaches Class 8-10 Maths for CBSE and ICSE, with video lessons in Hinglish, notes and practice in English, and Olympiad preparation.` };
 export default function About() {
   return (<>
     <div className="page-head"><div className="wrap">
@@ -22,8 +22,8 @@ export default function About() {
 
       <h2>How we teach</h2>
       <ul>
-        <li><strong>Hindi + English.</strong> Concepts are explained in simple Hindi, and the terms are kept in
-          English exactly as they appear in the exam.</li>
+        <li><strong>Taught in Hinglish.</strong> Video lessons are explained in simple Hinglish, and the terms are kept in
+          English exactly as they appear in the exam. Notes, examples and practice questions are written in English.</li>
         <li><strong>Concept first.</strong> Every chapter starts with why a method works, before the formula.</li>
         <li><strong>Exam-style practice.</strong> Solved examples are written the way answers are expected in
           the paper, with the common mistakes pointed out.</li>

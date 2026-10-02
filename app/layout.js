@@ -7,8 +7,8 @@ const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name} | Class 8-10 Maths in Hindi + English`, template: `%s | ${SITE.name}` },
-  description: 'Class 8-10 Maths for CBSE and ICSE in Hindi + English: video lessons, notes, practice and Olympiad prep.',
+  title: { default: `${SITE.name} | Class 8-10 Maths for CBSE & ICSE`, template: `%s | ${SITE.name}` },
+  description: 'Class 8-10 Maths for CBSE and ICSE: video lessons in Hinglish, with notes, practice and Olympiad prep.',
 };
 
 const Brand = () => (<Link className="brand" href="/"><img className="logo" src="/logo.svg" alt="" width="34" height="34" />{SITE.name}</Link>);
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           <div className="wrap foot-grid">
             <div>
               <Brand />
-              <p>Class 8-10 Maths for CBSE and ICSE, explained in Hindi + English, from basics to Olympiad.</p>
+              <p>Class 8-10 Maths for CBSE and ICSE, taught in Hinglish, from basics to Olympiad.</p>
             </div>
             <div><h3>Classes</h3>
               {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label} Maths</Link>)}

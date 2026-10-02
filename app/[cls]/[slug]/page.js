@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { CLASSES, SITE } from '@/lib/data';
 
-export const dynamicParams = false;
 export const generateStaticParams = () =>
   Object.entries(CLASSES).flatMap(([cls, c]) => c.chapters.map(ch => ({ cls, slug: ch.slug })));
 

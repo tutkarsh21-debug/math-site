@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BOARDS, CLASSES } from '@/lib/data';
 
-export const dynamicParams = false;
 export const generateStaticParams = () => Object.keys(CLASSES).map(cls => ({ cls }));
 export async function generateMetadata({ params }) {
   const { cls } = await params;
@@ -24,7 +23,7 @@ export default async function ClassPage({ params }) {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
       <h1>{c.label} Maths</h1>
-      <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons, notes and practice in Hindi + English.</p>
+      <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons in Hinglish, plus notes and practice.</p>
     </div></div>
     <section className="section"><div className="wrap boards">
       {boards.map(({ b, list }, i) => (<Fragment key={b}>
