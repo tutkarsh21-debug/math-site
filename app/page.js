@@ -79,7 +79,7 @@ export default function Home() {
       <div className="grid">
         {featured.map(ch => (
           <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="card">
-            <span className="tag">{ch.label}</span>{ch.summary && <span className="tag ready">Notes + practice</span>}
+            <span className="tag">{ch.label} {ch.boards[0]}</span>{ch.summary && <span className="tag ready">Notes + practice</span>}
             <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3>
           </Link>))}
       </div>

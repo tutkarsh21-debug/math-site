@@ -13,11 +13,11 @@ export async function generateMetadata({ params }) {
 export default async function ClassPage({ params }) {
   const { cls } = await params;
   const c = CLASSES[cls]; if (!c) notFound();
-  // One tab per board. CBSE chapters are grouped by book part; ICSE is a single list.
+  // One tab per board, with chapters grouped by book or book part.
   const boards = BOARDS.map(b => {
     const list = c.chapters.filter(ch => ch.boards.includes(b));
-    const parts = b === 'CBSE' ? [...new Set(list.map(ch => ch.part))] : [null];
-    return { b, list, groups: parts.map(p => ({ title: p, items: p === null ? list : list.filter(ch => ch.part === p) })) };
+    const parts = [...new Set(list.map(ch => ch.part))];
+    return { b, list, groups: parts.map(p => ({ title: p, items: list.filter(ch => ch.part === p) })) };
   }).filter(x => x.list.length);
   return (<>
     <div className="page-head"><div className="wrap">
@@ -35,9 +35,8 @@ export default async function ClassPage({ params }) {
           {g.title && <h2>{g.title}</h2>}
           <div className="grid">{g.items.map((ch, i) => (
             <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
-              <span className="num">{(b === 'CBSE' && ch.no) || i + 1}</span>
+              <span className="num">{ch.no || i + 1}</span>
               <span><strong>{ch.title}</strong>
-                {ch.boards.map(x => <span key={x} className="tag">{x}</span>)}
                 {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
             </Link>))}
           </div>
