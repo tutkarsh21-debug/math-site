@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
   const p = await params;
   const { c, ch } = find(p); if (!ch) return {};
   return { title: `${ch.title} ${c.label} | ${ch.boards.join(' & ')} Notes + Video`,
-    description: ch.summary || `${c.label} ${ch.title} (${ch.hi}): video lesson, formulas, examples and practice for ${ch.boards.join(' and ')}.`,
+    description: ch.summary || `${c.label} ${ch.title}: video lesson, formulas, examples and practice for ${ch.boards.join(' and ')}.`,
     alternates: { canonical: `/${p.cls}/${p.slug}` } };
 }
 
@@ -39,7 +39,7 @@ export default async function Chapter({ params }) {
     {ld && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />}
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
-      <h1>{ch.title} {c.label} ({ch.hi})</h1>
+      <h1>{ch.title} {c.label}</h1>
       <p>{ch.boards.map(b => <span key={b} className="tag">{b}</span>)}</p>
       {ch.summary && <p style={{marginTop:'.6rem'}}>{ch.summary}</p>}
     </div></div>

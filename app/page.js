@@ -6,7 +6,7 @@ const FEATURES = [
   { icon: 'ƒ', title: 'Key formulas', text: 'All the formulas of a chapter on one page for quick revision.' },
   { icon: '✓', title: 'Solved examples', text: 'Board-style questions solved in full, with the common mistakes pointed out.' },
   { icon: '✎', title: 'Practice questions', text: 'Questions to try on your own after each lesson, plus daily problems on Telegram.' },
-  { icon: 'अ', title: 'Hindi + English', text: 'Concepts explained in simple Hinglish, so nothing gets lost in the language.' },
+  { icon: 'Aa', title: 'Hindi + English', text: 'Concepts explained in simple Hinglish, so nothing gets lost in the language.' },
   { icon: '★', title: 'CBSE, ICSE and Olympiad', text: 'Both boards are covered, with extra preparation for SOF IMO.' },
 ];
 
@@ -38,7 +38,7 @@ export default function Home() {
       <div>
         <span className="eyebrow">CBSE · ICSE · Olympiad</span>
         <h1>Class 8-10 Maths in Hindi + English, from Basics to Olympiad</h1>
-        <p>Understand once, score full marks. / एक बार समझिए, पूरे अंक लाइए।</p>
+        <p>Understand once, score full marks.</p>
         <div className="cta-row">
           <Link className="btn btn-sun" href="/class-10">Start with Class 10</Link>
           <a className="btn btn-ghost" href={SITE.telegram}>Join Telegram</a>
@@ -80,7 +80,7 @@ export default function Home() {
         {featured.map(ch => (
           <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="card">
             <span className="tag">{ch.label}</span>{ch.summary && <span className="tag ready">Notes + practice</span>}
-            <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3><p>{ch.hi}</p>
+            <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3>
           </Link>))}
       </div>
     </div></section>

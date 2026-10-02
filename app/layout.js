@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
         <header className="site-header"><div className="wrap bar">
           <Brand />
           <nav className="nav">
+            <Link href="/about">About</Link>
             {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label}</Link>)}
             <Link href="/olympiad">Olympiad</Link>
-            <Link href="/about">About</Link>
           </nav>
           <a className="btn btn-sm" href={SITE.telegram}>Join Telegram</a>
         </div></header>

@@ -37,7 +37,7 @@ export default async function ClassPage({ params }) {
           <div className="grid">{g.items.map((ch, i) => (
             <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
               <span className="num">{(b === 'CBSE' && ch.no) || i + 1}</span>
-              <span><strong>{ch.title}</strong><small>{ch.hi}</small>
+              <span><strong>{ch.title}</strong>
                 {ch.boards.map(x => <span key={x} className="tag">{x}</span>)}
                 {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
             </Link>))}

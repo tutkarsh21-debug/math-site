@@ -35,7 +35,7 @@ export default function About() {
         examples, common mistakes, practice questions and FAQs. Chapters are being added one at a time, so
         some pages are still being prepared.</p>
 
-      <h2>एक बार समझिए, पूरे अंक लाइए।</h2>
+      <h2>Understand once, score full marks</h2>
       <p>Understand a chapter properly once, and the marks follow. That is the idea behind everything on this site.</p>
 
       <h2>Stay in touch</h2>
