@@ -11,7 +11,7 @@ export const metadata = {
   description: 'Class 8-10 Maths for CBSE and ICSE in Hindi + English: video lessons, notes, practice and Olympiad prep.',
 };
 
-const Brand = () => (<Link className="brand" href="/"><span className="logo" aria-hidden="true">∑</span>{SITE.name}</Link>);
+const Brand = () => (<Link className="brand" href="/"><img className="logo" src="/logo.svg" alt="" width="34" height="34" />{SITE.name}</Link>);
 
 export default function RootLayout({ children }) {
   const classes = Object.entries(CLASSES);
