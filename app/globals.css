@@ -92,6 +92,8 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 .tag.ready{background:var(--t3);border-color:transparent;color:var(--fg)}
 .chapter-card{display:flex;gap:.9rem;align-items:flex-start}
 .num{flex:none;display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:10px;background:var(--t1);color:var(--brand);font-weight:700}
+.part+.part{margin-top:2.5rem}
+.part h2{margin-bottom:1rem}
 .chapter-card small{display:block;color:var(--muted);margin-bottom:.35rem}
 
 .banner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.2rem;background:linear-gradient(120deg,#0b3a9c,#1d6bf3);color:#fff;border-radius:24px;padding:2rem}

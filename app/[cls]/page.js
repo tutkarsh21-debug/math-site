@@ -13,6 +13,7 @@ export async function generateMetadata({ params }) {
 export default async function ClassPage({ params }) {
   const { cls } = await params;
   const c = CLASSES[cls]; if (!c) notFound();
+  const parts = [...new Set(c.chapters.map(ch => ch.part))];
   return (<>
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
@@ -20,14 +21,17 @@ export default async function ClassPage({ params }) {
       <p>{c.chapters.length} chapters for CBSE and ICSE, with video lessons, notes and practice in Hindi + English.</p>
     </div></div>
     <section className="section"><div className="wrap">
-      <div className="grid">{c.chapters.map((ch, i) => (
-        <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
-          <span className="num">{i + 1}</span>
-          <span><strong>{ch.title}</strong><small>{ch.hi}</small>
-            {ch.boards.map(b => <span key={b} className="tag">{b}</span>)}
-            {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
-        </Link>))}
-      </div>
+      {parts.map(part => (<div key={part || 'all'} className="part">
+        {part && <h2>{part}</h2>}
+        <div className="grid">{c.chapters.filter(ch => ch.part === part).map((ch, i) => (
+          <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
+            <span className="num">{i + 1}</span>
+            <span><strong>{ch.title}</strong><small>{ch.hi}</small>
+              {ch.boards.map(b => <span key={b} className="tag">{b}</span>)}
+              {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
+          </Link>))}
+        </div>
+      </div>))}
     </div></section>
   </>);
 }
