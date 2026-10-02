@@ -6,10 +6,13 @@ export const dynamicParams = false;
 export const generateStaticParams = () =>
   Object.entries(CLASSES).flatMap(([cls, c]) => c.chapters.map(ch => ({ cls, slug: ch.slug })));
 
+// list = the chapters of the same board as this chapter, so prev/next and the sidebar stay within one board.
 const find = ({ cls, slug }) => {
   const c = CLASSES[cls]; if (!c) return {};
-  const i = c.chapters.findIndex(x => x.slug === slug);
-  return { c, i, ch: c.chapters[i] };
+  const ch = c.chapters.find(x => x.slug === slug); if (!ch) return { c };
+  const board = ch.boards[0];
+  const list = c.chapters.filter(x => x.boards.includes(board));
+  return { c, ch, board, list, i: list.indexOf(ch) };
 };
 
 export async function generateMetadata({ params }) {
@@ -22,8 +25,8 @@ export async function generateMetadata({ params }) {
 
 export default async function Chapter({ params }) {
   const p = await params;
-  const { c, i, ch } = find(p); if (!ch) notFound();
-  const prev = c.chapters[i - 1], next = c.chapters[i + 1];
+  const { c, i, ch, board, list } = find(p); if (!ch) notFound();
+  const prev = list[i - 1], next = list[i + 1];
   const faq = ch.faq || [];
   const ld = faq.length ? { '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } : null;
@@ -62,8 +65,8 @@ export default async function Chapter({ params }) {
       <aside className="side">
         {toc.length > 1 && <div className="card"><h3>On this page</h3>
           {toc.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</div>}
-        <div className="card"><h3>{c.label} chapters</h3>
-          {c.chapters.map(x => <Link key={x.slug} href={`/${p.cls}/${x.slug}`} aria-current={x.slug === ch.slug ? 'page' : undefined}>{x.title}</Link>)}</div>
+        <div className="card"><h3>{c.label} {board} chapters</h3>
+          {list.map(x => <Link key={x.slug} href={`/${p.cls}/${x.slug}`} aria-current={x.slug === ch.slug ? 'page' : undefined}>{x.title}</Link>)}</div>
       </aside>
     </div>
   </>);
