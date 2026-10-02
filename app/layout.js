@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
             <div><h3>Connect</h3>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
-              <Link href="/about">About the teacher</Link>
+              <Link href="/about">About {SITE.name}</Link>
             </div>
           </div>
           <div className="wrap copy">© {new Date().getFullYear()} {SITE.name}</div>
