@@ -37,7 +37,7 @@ export default async function ClassPage({ params }) {
             <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
               <span className="num">{ch.no || i + 1}</span>
               <span><strong>{ch.title}</strong>
-                {ch.summary && <span className="tag ready">Notes + practice</span>}</span>
+                {ch.notes && <span className="tag ready">Notes</span>}</span>
             </Link>))}
           </div>
         </div>))}

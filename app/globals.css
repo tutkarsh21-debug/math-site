@@ -125,7 +125,11 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 .side a{display:block;padding:.3rem 0;color:var(--fg);font-size:.95rem}
 .side a[aria-current]{color:var(--brand);font-weight:600}
 .video{aspect-ratio:16/9;width:100%;border:0;border-radius:var(--radius);background:var(--soft)}
-.ph{display:grid;place-items:center;color:var(--muted);border:1px dashed var(--line)}
+.ph{display:grid;place-items:center;color:var(--muted);border:1px dashed var(--line);aspect-ratio:auto;padding:1.1rem}
+.topic{border:1px solid var(--line);border-radius:12px;padding:1rem 1.2rem;margin:.8rem 0;background:var(--card)}
+.topic h3{color:var(--brand);margin-bottom:.4rem}
+.topic ul{margin:0}
+.topic li{margin:.25rem 0}
 .formulas{list-style:none;padding:0;display:grid;gap:.5rem}
 .formulas li{background:var(--soft);border-left:4px solid var(--brand);border-radius:8px;padding:.6rem .9rem;font-weight:500}
 details{border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem;margin:.6rem 0;background:var(--card)}

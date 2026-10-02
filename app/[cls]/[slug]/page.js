@@ -30,7 +30,7 @@ export default async function Chapter({ params }) {
   const ld = faq.length ? { '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) } : null;
   const toc = [
-    ['video', 'Video lesson', true], ['formulas', 'Key formulas', ch.formulas], ['concept', 'Concept explained', ch.concept],
+    ['video', 'Video lesson', true], ['notes', 'Topic-wise notes', ch.notes], ['formulas', 'Key formulas', ch.formulas], ['concept', 'Concept explained', ch.concept],
     ['examples', 'Solved examples', ch.examples], ['mistakes', 'Common mistakes', ch.mistakes],
     ['practice', 'Practice questions', ch.practice], ['faq', 'FAQ', faq.length],
   ].filter(t => t[2]);
@@ -48,6 +48,8 @@ export default async function Chapter({ params }) {
           ? <iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" />
           : <div className="video ph">Video coming soon</div>}</div>
         {toc.length === 1 && <p className="muted" style={{marginTop:'1rem'}}>Notes and practice for this chapter are being prepared.</p>}
+        {ch.notes && <><h2 id="notes">Topic-wise notes</h2>{ch.notes.map(t => (
+          <section key={t.topic} className="topic"><h3>{t.topic}</h3><ul>{t.points.map(p => <li key={p}>{p}</li>)}</ul></section>))}</>}
         {ch.formulas && <><h2 id="formulas">Key formulas</h2><ul className="formulas">{ch.formulas.map(f => <li key={f}>{f}</li>)}</ul></>}
         {ch.concept && <><h2 id="concept">Concept explained</h2><p>{ch.concept}</p></>}
         {ch.examples && <><h2 id="examples">Solved examples</h2>{ch.examples.map(e => (

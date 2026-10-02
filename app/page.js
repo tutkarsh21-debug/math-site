@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CLASSES, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, SITE } from '@/lib/data';
 
 const FEATURES = [
   { icon: '▶', title: 'Video lessons', text: 'Every chapter is taught on video, step by step, the way it is asked in the exam.' },
@@ -26,7 +26,8 @@ const FAQ = [
 export default function Home() {
   const classes = Object.entries(CLASSES);
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
-  const featured = [...all.filter(ch => ch.summary), ...all.filter(ch => !ch.summary)].slice(0, 6);
+  // The first chapter of every class in each board.
+  const featured = BOARDS.flatMap(b => classes.map(([k]) => all.find(ch => ch.cls === k && ch.boards[0] === b))).filter(Boolean);
   const stats = [
     { n: classes.length, t: 'Classes (8 to 10)' },
     { n: all.length, t: 'Chapters' },
@@ -79,7 +80,7 @@ export default function Home() {
       <div className="grid">
         {featured.map(ch => (
           <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="card">
-            <span className="tag">{ch.label} {ch.boards[0]}</span>{ch.summary && <span className="tag ready">Notes + practice</span>}
+            <span className="tag">{ch.label} {ch.boards[0]}</span>{ch.notes && <span className="tag ready">Notes</span>}
             <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3>
           </Link>))}
       </div>
