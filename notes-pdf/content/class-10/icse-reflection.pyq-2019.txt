@@ -1,0 +1,5 @@
+T: Reflection of figures
+Q: [ICSE 2019, 4 marks] Plot $A(0, 5)$, $B(3, 0)$, $C(1, 0)$ and $D(1, -5)$. Reflect $B$, $C$ and $D$ in the $y$-axis to get $B'$, $C'$ and $D'$, and write their coordinates. Join $A, B, C, D, D', C', B', A$ in order and name the closed figure.
+S: Reflection in the $y$-axis changes the sign of $x$: $B'(-3, 0)$, $C'(-1, 0)$ and $D'(-1, -5)$.
+!fig w=280 h=255; Q x1 20 130; Q x2 262 130; Q y1 140 10; Q y2 140 248; D x1 x2; D y1 y2; P A 140 30 tl; P B 200 130 tr; P C 160 130 br; P D 160 230 br; P D' 120 230 bl; P C' 120 130 bl; P B' 80 130 tl; H A B; H B C; H C D; H D D'; H D' C'; H C' B'; H B' A; T 256 146 x; T 152 16 y
+S: **Answer: $B'(-3, 0)$, $C'(-1, 0)$, $D'(-1, -5)$; the figure is an arrow head (a concave heptagon)**

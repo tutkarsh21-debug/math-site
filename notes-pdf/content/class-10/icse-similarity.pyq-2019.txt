@@ -1,0 +1,13 @@
+T: Areas of similar triangles
+Q: [ICSE 2019, 3 marks] In $\triangle PQR$, $\angle PQR = 90°$. $T$ is a point on $PQ$ and $S$ is a point on $PR$ with $\angle PST = 90°$. $PQ = 5$ cm and $PS = 2$ cm. (a) Prove that $\triangle PQR \sim \triangle PST$. (b) Find area of $\triangle PQR$ : area of quadrilateral $SRQT$.
+!fig w=320 h=190; P P 40 40 l; P Q 280 40 tr; P R 280 160 br; P S 125.9 82.9 bl; P T 147.3 40 t; L P Q; L Q R; L P R; H S T; R P Q R; R P S T
+S: (a) $\angle P$ is common and $\angle PQR = \angle PST = 90°$. So $\triangle PQR \sim \triangle PST$ (AA).
+S: (b) $\dfrac{\text{area of } \triangle PQR}{\text{area of } \triangle PST} = \left(\dfrac{PQ}{PS}\right)^2 = \dfrac{25}{4}$
+S: If the area of $\triangle PQR$ is 25 parts, the area of $\triangle PST$ is 4 parts and the quadrilateral $SRQT$ is $25 - 4 = 21$ parts.
+S: **Answer: $25 : 21$**
+
+T: Maps and models
+Q: [ICSE 2019, 3 marks] A model of a building is made with scale factor $1 : 30$. (a) The model is 80 cm high; find the height of the building in metres. (b) A tank on top of the building has a volume of 27 m³; find the volume of the tank on the model.
+S: (a) Height $= 80 \times 30 = 2400$ cm $= 24$ m
+S: (b) Volumes are in the ratio $1^3 : 30^3 = 1 : 27000$. Volume on the model $= \dfrac{27}{27000} = 0.001$ m³ $= 1000$ cm³.
+S: **Answer: (a) 24 m (b) 0.001 m³, that is 1000 cm³**

@@ -1,0 +1,6 @@
+T: Balls, numbered cards and letters
+Q: [ICSE 2017, 3 marks] Sixteen cards are labelled a, b, c, ..., o, p, and one is drawn at random. Find the probability that the letter is (a) a vowel (b) a consonant (c) not one of the letters of the word "median".
+S: (a) Vowels among a to p: a, e, i, o (4 cards). Probability $= \dfrac{4}{16} = \dfrac{1}{4}$.
+S: (b) $1 - \dfrac{1}{4} = \dfrac{3}{4}$
+S: (c) The letters m, e, d, i, a, n are 6 of the 16 cards, so 10 cards are not among them. Probability $= \dfrac{10}{16} = \dfrac{5}{8}$.
+S: **Answer: (a) $\dfrac{1}{4}$ (b) $\dfrac{3}{4}$ (c) $\dfrac{5}{8}$**

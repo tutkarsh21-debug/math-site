@@ -1,0 +1,5 @@
+T: Finding the monthly deposit
+Q: [ICSE 2017, 3 marks] A recurring deposit account is held for 3 years at 7.5% per annum, and the interest on maturity is ₹8325. Find (a) the monthly deposit (b) the maturity value.
+S: (a) $8325 = P \times \dfrac{36 \times 37}{2 \times 12} \times \dfrac{7.5}{100} = P \times 55.5 \times 0.075 = 4.1625P$, so $P = 2000$.
+S: (b) Total deposited $= 2000 \times 36 = 72000$. Maturity value $= 72000 + 8325$.
+S: **Answer: (a) ₹2000 (b) ₹80,325**

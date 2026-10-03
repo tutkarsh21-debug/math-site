@@ -1,0 +1,11 @@
+T: The general term
+Q: [ICSE 2018, 3 marks] $(k - 3)$, $(2k + 1)$ and $(4k + 3)$ are three consecutive terms of an A.P. Find $k$.
+S: The middle term is the average of the other two: $2(2k + 1) = (k - 3) + (4k + 3)$
+S: $4k + 2 = 5k$
+S: **Answer: $k = 2$**
+
+T: Sum of n terms
+Q: [ICSE 2018, 4 marks] The 4th term of an A.P. is 22 and the 15th term is 66. Find the first term and the common difference, and then the sum of the first 8 terms.
+S: $a + 3d = 22$ and $a + 14d = 66$. Subtracting: $11d = 44$, so $d = 4$ and $a = 10$.
+S: $S_8 = \dfrac{8}{2}\left[2(10) + 7(4)\right] = 4 \times 48$
+S: **Answer: $a = 10$, $d = 4$, $S_8 = 192$**

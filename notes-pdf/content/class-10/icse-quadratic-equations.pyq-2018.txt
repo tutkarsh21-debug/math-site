@@ -1,0 +1,12 @@
+T: The quadratic formula
+Q: [ICSE 2018, 4 marks] Solve $x^2 + 7x = 7$, giving the answers correct to two decimal places.
+S: Write it as $x^2 + 7x - 7 = 0$. $D = 49 + 28 = 77$ and $\sqrt{77} \approx 8.775$.
+S: $x = \dfrac{-7 \pm 8.775}{2}$, so $x = 0.8875$ or $x = -7.8875$
+S: **Answer: $x = 0.89$ or $x = -7.89$**
+
+T: Nature of the roots
+Q: [ICSE 2018, 3 marks] Find the values of $k$ for which $x^2 + 4kx + (k^2 - k + 2) = 0$ has equal roots.
+S: Equal roots need $D = 0$: $(4k)^2 - 4(k^2 - k + 2) = 0$
+S: $12k^2 + 4k - 8 = 0$, that is $3k^2 + k - 2 = 0$
+S: $(3k - 2)(k + 1) = 0$
+S: **Answer: $k = \dfrac{2}{3}$ or $k = -1$**

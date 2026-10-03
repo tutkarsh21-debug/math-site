@@ -1,0 +1,5 @@
+T: Problems on numbers
+Q: [ICSE 2019, 3 marks] Two consecutive multiples of 3 are natural numbers with a product of 810. Find them.
+S: Let the numbers be $3x$ and $3x + 3$. Then $3x(3x + 3) = 810$, so $x(x + 1) = 90$.
+S: $x^2 + x - 90 = 0$, so $(x + 10)(x - 9) = 0$ and $x = 9$.
+S: **Answer: 27 and 30**

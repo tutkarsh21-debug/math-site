@@ -1,0 +1,6 @@
+T: Return on investment
+Q: [ICSE 2017, 3 marks] How much must a man invest in ₹50 shares selling at ₹60 to get an income of ₹450, if the dividend is 10%? Find his yield per cent, to the nearest whole number.
+S: Dividend on one share $= 10\%$ of 50 $= 5$. Number of shares needed $= \dfrac{450}{5} = 90$.
+S: Investment $= 90 \times 60 = 5400$
+S: Yield $= \dfrac{5}{60} \times 100 = 8.33\%$
+S: **Answer: ₹5400; yield about 8%**

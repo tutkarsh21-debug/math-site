@@ -1,0 +1,6 @@
+T: Problems with two triangles
+Q: [ICSE 2018, 4 marks] $QR$ is a tower 50 m high and $PT$ is another tower, with $P$ and $Q$ on level ground. From $P$ the angle of elevation of $R$ is $60°$, and from $Q$ the angle of elevation of $T$ is $30°$. Find the height of $PT$ to the nearest metre.
+!fig w=260 h=240; P P 80 215 bl; P Q 180 215 br; P R 180 42 tr; P T 80 157.3 l; L P Q; H Q R; H P T; L P R; L Q T; A Q P R 60°; A P Q T 30°; T 204 130 50 m
+S: In $\triangle PQR$: $\tan 60° = \dfrac{50}{PQ}$, so $PQ = \dfrac{50}{\sqrt{3}}$ m.
+S: In $\triangle TPQ$: $\tan 30° = \dfrac{PT}{PQ}$, so $PT = \dfrac{50}{\sqrt{3}} \times \dfrac{1}{\sqrt{3}} = \dfrac{50}{3} \approx 16.67$
+S: **Answer: about 17 m**

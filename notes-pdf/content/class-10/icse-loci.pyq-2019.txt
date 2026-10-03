@@ -1,0 +1,7 @@
+T: Construction questions
+Q: [ICSE 2019, 4 marks] Using ruler and compasses, construct a semicircle on the diameter $BC = 7$ cm. Locate the point $A$ on the semicircle that is equidistant from $B$ and $C$. Complete the cyclic quadrilateral $ABCD$ with $D$ equidistant from $AB$ and $BC$. Measure $\angle ADC$.
+S: Draw $BC = 7$ cm and its perpendicular bisector, meeting $BC$ at $O$. With centre $O$ and radius 3.5 cm draw the semicircle.
+S: The perpendicular bisector is the locus of points equidistant from $B$ and $C$. It meets the semicircle at $A$.
+S: The bisector of $\angle ABC$ is the locus of points equidistant from $AB$ and $BC$. It meets the semicircle at $D$. Join $AD$ and $DC$.
+S: Check: $\angle BAC = 90°$ and $AB = AC$, so $\angle ABC = 45°$. Opposite angles of a cyclic quadrilateral add up to $180°$.
+S: **Answer: $\angle ADC = 135°$**

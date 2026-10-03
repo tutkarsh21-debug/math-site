@@ -1,0 +1,7 @@
+T: Combining inequations
+Q: [ICSE 2019, 3 marks] Solve $11x - 4 < 15x + 4 \leq 13x + 14$, where $x$ is a whole number. Write the solution set and show it on the number line.
+S: Left part: $-8 < 4x$, so $x > -2$.
+S: Right part: $2x \leq 10$, so $x \leq 5$.
+S: The whole numbers with $-2 < x \leq 5$ are 0, 1, 2, 3, 4, 5.
+S: **Solution set: $\{0, 1, 2, 3, 4, 5\}$**
+!fig w=360 h=60; Q l 20 25; Q r 340 25; L l r; P a 120 25 -; P b 150 25 -; P c 180 25 -; P d 210 25 -; P e 240 25 -; P f 270 25 -; T 60 48 −2; T 90 48 −1; T 120 48 0; T 150 48 1; T 180 48 2; T 210 48 3; T 240 48 4; T 270 48 5; T 300 48 6

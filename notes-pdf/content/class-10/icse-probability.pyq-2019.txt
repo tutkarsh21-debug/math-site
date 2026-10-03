@@ -1,0 +1,6 @@
+T: Balls, numbered cards and letters
+Q: [ICSE 2019, 3 marks] A box holds 25 discs numbered 1 to 25, and one disc is drawn at random. Find the probability that its number is (a) odd (b) divisible by both 2 and 3 (c) less than 16.
+S: (a) Odd numbers from 1 to 25: 13. Probability $= \dfrac{13}{25}$.
+S: (b) Divisible by 2 and 3 means divisible by 6: 6, 12, 18, 24 (4 discs). Probability $= \dfrac{4}{25}$.
+S: (c) Numbers less than 16: 1 to 15 (15 discs). Probability $= \dfrac{15}{25} = \dfrac{3}{5}$.
+S: **Answer: (a) $\dfrac{13}{25}$ (b) $\dfrac{4}{25}$ (c) $\dfrac{3}{5}$**

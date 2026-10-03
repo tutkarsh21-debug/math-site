@@ -1,0 +1,15 @@
+T: Arcs, chords and angles
+Q: [ICSE 2017, 3 marks] $AB$ and $CD$ are parallel chords on opposite sides of the centre of a circle of radius 13 cm. $AB = 24$ cm and $CD = 10$ cm. Find the distance between the chords.
+!fig w=260 h=215; P O 130 110 r; P A 58 80 l; P B 202 80 r; P C 100 182 bl; P D 160 182 br; P N 130 80 t; P M 130 182 b; C O 78; L A B; L C D; D N M; R O N B; R O M D
+S: Draw $ON \perp AB$ and $OM \perp CD$. The perpendicular from the centre bisects a chord, so $AN = 12$ cm and $CM = 5$ cm.
+S: $ON = \sqrt{13^2 - 12^2} = 5$ cm and $OM = \sqrt{13^2 - 5^2} = 12$ cm
+S: The chords are on opposite sides of the centre, so the distance is $ON + OM$.
+S: **Answer: 17 cm**
+
+T: Cyclic quadrilaterals
+Q: [ICSE 2017, 4 marks] $ABCD$ is a cyclic quadrilateral in a circle with centre $O$. $BA$ is produced to $E$ and $\angle DAE = 70°$. Find (a) $\angle BCD$ (b) $\angle BOD$ (c) $\angle OBD$.
+!fig w=290 h=215; P O 140 105 t; P B 78.6 148 l; P D 214.7 111.5 r; P A 177.5 170 b; P C 114.3 34.5 t; P E 256.6 187.6 r; C O 75; L B E; L A D; L B C; L C D; L O B; L O D; L B D; A D A E 70°
+S: (a) The exterior angle of a cyclic quadrilateral equals the interior opposite angle: $\angle BCD = \angle DAE = 70°$.
+S: (b) The angle at the centre is twice the angle at the circumference: $\angle BOD = 2 \times 70° = 140°$.
+S: (c) $OB = OD$ (radii), so $\angle OBD = \dfrac{180° - 140°}{2} = 20°$.
+S: **Answer: (a) $70°$ (b) $140°$ (c) $20°$**

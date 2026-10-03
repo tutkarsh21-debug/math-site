@@ -1,0 +1,7 @@
+T: Mean of grouped data
+Q: [ICSE 2018, 3 marks] The mean of the data below is 24. Find $a$.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Number of students | 7 | $a$ | 8 | 10 | 5 |
+S: Class marks: 5, 15, 25, 35, 45. $\sum f = 30 + a$ and $\sum fx = 35 + 15a + 200 + 350 + 225 = 810 + 15a$
+S: $\dfrac{810 + 15a}{30 + a} = 24$, so $810 + 15a = 720 + 24a$
+S: **Answer: $a = 10$**

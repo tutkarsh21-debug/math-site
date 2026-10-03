@@ -1,0 +1,5 @@
+T: The general term
+Q: [ICSE 2018, 3 marks] The 4th term of a G.P. is 16 and the 7th term is 128. Find the first term and the common ratio.
+S: $ar^3 = 16$ and $ar^6 = 128$. Dividing: $r^3 = 8$, so $r = 2$.
+S: $a = \dfrac{16}{8} = 2$
+S: **Answer: first term 2, common ratio 2**

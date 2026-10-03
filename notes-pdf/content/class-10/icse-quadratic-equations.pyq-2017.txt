@@ -1,0 +1,5 @@
+T: The quadratic formula
+Q: [ICSE 2017, 4 marks] Solve $4x^2 - 5x - 3 = 0$, giving the answers correct to two decimal places.
+S: $D = 25 + 48 = 73$ and $\sqrt{73} \approx 8.544$
+S: $x = \dfrac{5 \pm 8.544}{8}$, so $x = 1.693$ or $x = -0.443$
+S: **Answer: $x = 1.69$ or $x = -0.44$**

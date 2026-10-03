@@ -1,0 +1,6 @@
+T: Combining inequations
+Q: [ICSE 2018, 3 marks] Solve $-2 + 10x \leq 13x + 10 < 24 + 10x$, where $x$ is an integer. Write the solution set and show it on the number line.
+S: Left part: $-12 \leq 3x$, so $x \geq -4$.
+S: Right part: $3x < 14$, so $x < 4\dfrac{2}{3}$.
+S: **Solution set: $\{-4, -3, -2, -1, 0, 1, 2, 3, 4\}$**
+!fig w=360 h=60; Q l 15 25; Q r 345 25; L l r; P a 60 25 -; P b 90 25 -; P c 120 25 -; P d 150 25 -; P e 180 25 -; P f 210 25 -; P g 240 25 -; P h 270 25 -; P i 300 25 -; T 30 48 −5; T 60 48 −4; T 90 48 −3; T 120 48 −2; T 150 48 −1; T 180 48 0; T 210 48 1; T 240 48 2; T 270 48 3; T 300 48 4; T 330 48 5

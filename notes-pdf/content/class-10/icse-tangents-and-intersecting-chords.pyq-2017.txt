@@ -1,0 +1,8 @@
+T: The alternate segment theorem
+Q: [ICSE 2017, 3 marks] $PQ$ is a tangent to a circle at $A$. $B$, $C$ and $D$ are points on the circle such that $AB$ bisects $\angle CAQ$ and $AD$ bisects $\angle PAC$. If $\angle BAQ = 30°$, prove that (a) $BD$ is a diameter (b) $\triangle ABC$ is isosceles.
+!fig w=300 h=200; Q O 150 100; P A 150 175 b; P P 40 175 l; P Q 260 175 r; P B 215 137.5 r; P C 215 62.5 tr; P D 85 62.5 tl; C O 75; L P Q; L A B; L A C; L A D; L B C; L B D
+S: (a) $\angle CAQ = 2 \times 30° = 60°$, so $\angle BAC = 30°$ and $\angle PAC = 180° - 60° = 120°$.
+S: $AD$ bisects $\angle PAC$, so $\angle CAD = 60°$. Then $\angle BAD = \angle BAC + \angle CAD = 30° + 60° = 90°$.
+S: A chord that subtends a right angle at the circumference is a diameter, so $BD$ is a diameter.
+S: (b) By the alternate segment theorem, $\angle ACB = \angle BAQ = 30°$. Also $\angle BAC = 30°$.
+S: Two angles of $\triangle ABC$ are equal, so $AB = BC$. **Both results are proved.**

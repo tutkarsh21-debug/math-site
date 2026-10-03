@@ -1,0 +1,14 @@
+T: Mean of grouped data
+Q: [ICSE 2017, 4 marks] Find the mean of the data below by the step-deviation method.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
+| Number of students | 10 | 9 | 25 | 30 | 16 | 10 |
+S: Class marks: 5, 15, 25, 35, 45, 55. Take $A = 35$ and $h = 10$, so $u$ is $-3, -2, -1, 0, 1, 2$.
+S: $\sum f = 100$ and $\sum fu = -30 - 18 - 25 + 0 + 16 + 20 = -37$
+S: Mean $= 35 + \dfrac{-37}{100} \times 10 = 35 - 3.7$
+S: **Answer: 31.3 marks**
+
+T: Median of raw data
+Q: [ICSE 2017, 3 marks] The marks of 10 students, in ascending order, are $13, 35, 43, 46, x, x + 4, 55, 61, 71, 80$. The median is 48. Find $x$, and then the mode.
+S: With 10 values, the median is the mean of the 5th and 6th: $\dfrac{x + x + 4}{2} = 48$, so $x = 46$.
+S: The data is 13, 35, 43, 46, 46, 50, 55, 61, 71, 80. The value 46 occurs twice.
+S: **Answer: $x = 46$; mode $= 46$**

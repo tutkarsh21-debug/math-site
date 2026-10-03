@@ -1,0 +1,6 @@
+T: Problems on cost and on work
+Q: [ICSE 2018, 3 marks] ₹7500 is divided equally among some children. With 20 fewer children, each would have received ₹100 more. Find the original number of children.
+S: Let there be $x$ children. $\dfrac{7500}{x - 20} - \dfrac{7500}{x} = 100$
+S: $7500 \times 20 = 100x(x - 20)$, so $x^2 - 20x - 1500 = 0$
+S: $(x - 50)(x + 30) = 0$, so $x = 50$.
+S: **Answer: 50 children**

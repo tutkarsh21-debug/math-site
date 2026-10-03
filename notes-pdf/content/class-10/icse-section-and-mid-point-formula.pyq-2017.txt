@@ -1,0 +1,5 @@
+T: The section formula
+Q: [ICSE 2017, 4 marks] $P(1, -2)$ lies on the segment joining $A(3, -6)$ and $B(x, y)$, with $AP : PB = 2 : 3$. Find the coordinates of $B$.
+S: $1 = \dfrac{2x + 3(3)}{5}$, so $2x = -4$ and $x = -2$.
+S: $-2 = \dfrac{2y + 3(-6)}{5}$, so $2y = 8$ and $y = 4$.
+S: **Answer: $B(-2, 4)$**

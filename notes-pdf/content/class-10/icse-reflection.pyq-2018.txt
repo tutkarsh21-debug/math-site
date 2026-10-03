@@ -1,0 +1,7 @@
+T: Invariant points
+Q: [ICSE 2018, 4 marks] $ABCD$ is a quadrilateral with vertices $A(2, 2)$, $B(2, -2)$, $C(0, -1)$ and $D(0, 1)$. (a) Reflect $ABCD$ in the $y$-axis to get $A'B'CD$, and write the coordinates of $A'$ and $B'$. (b) Name two points that are invariant under this reflection. (c) Name the polygon $A'B'CD$.
+S: (a) $A'(-2, 2)$ and $B'(-2, -2)$.
+S: (b) $C$ and $D$ lie on the $y$-axis, which is the mirror line, so they are invariant.
+!fig w=280 h=220; Q x1 20 110; Q x2 262 110; Q y1 140 10; Q y2 140 212; D x1 x2; D y1 y2; P A 210 40 tr; P B 210 180 br; P C 140 145 br; P D 140 75 tr; P A' 70 40 tl; P B' 70 180 bl; L A B; L B C; L D A; H A' B'; H B' C; H C D; H D A'; T 256 126 x; T 152 16 y
+S: (c) $A'B' \parallel DC$ (both vertical) and $A'D = B'C = \sqrt{5}$.
+S: **Answer: $A'(-2, 2)$, $B'(-2, -2)$; invariant points $C$ and $D$; $A'B'CD$ is an isosceles trapezium**

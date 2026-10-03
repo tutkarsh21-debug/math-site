@@ -1,0 +1,7 @@
+T: Problems with two triangles
+Q: [ICSE 2017, 4 marks] From the top of a lighthouse 60 m high, two ships on opposite sides of it are seen at angles of depression of $60°$ and $45°$. Find the distance between the ships to the nearest whole number.
+S: The angle of elevation of the top from each ship equals the angle of depression.
+S: Distance of the first ship $= \dfrac{60}{\tan 60°} = \dfrac{60}{\sqrt{3}} = 20\sqrt{3} \approx 34.64$ m
+S: Distance of the second ship $= \dfrac{60}{\tan 45°} = 60$ m
+S: Total $= 34.64 + 60 = 94.64$
+S: **Answer: about 95 m**

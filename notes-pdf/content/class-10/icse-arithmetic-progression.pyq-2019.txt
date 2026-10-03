@@ -1,0 +1,11 @@
+T: Sum of n terms
+Q: [ICSE 2019, 4 marks] The 4th and 6th terms of an A.P. are 8 and 14. Find (a) the first term (b) the common difference (c) the sum of the first 20 terms.
+S: $a + 3d = 8$ and $a + 5d = 14$. Subtracting: $2d = 6$, so $d = 3$ and $a = -1$.
+S: $S_{20} = \dfrac{20}{2}\left[2(-1) + 19(3)\right] = 10 \times 55$
+S: **Answer: (a) $-1$ (b) 3 (c) 550**
+
+T: Choosing terms conveniently
+Q: [ICSE 2019, 3 marks] The first three terms of an A.P. add up to 42, and the product of the first and third terms is 52. Find the first term and the common difference.
+S: Let the terms be $a - d$, $a$, $a + d$. Their sum is $3a = 42$, so $a = 14$.
+S: $(14 - d)(14 + d) = 52$, so $d^2 = 144$ and $d = \pm 12$.
+S: **Answer: first term 2 with common difference 12, or first term 26 with common difference $-12$**

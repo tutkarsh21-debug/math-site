@@ -1,0 +1,11 @@
+T: Melting and recasting
+Q: [ICSE 2019, 4 marks] A solid metal sphere of radius 6 cm is melted and made into a solid cylinder of height 32 cm. Find (a) the radius of the cylinder (b) its curved surface area. Take $\pi = 3.1$.
+S: (a) $\pi r^2 \times 32 = \dfrac{4}{3}\pi (6)^3 = 288\pi$, so $r^2 = 9$ and $r = 3$ cm.
+S: (b) Curved surface area $= 2\pi rh = 2 \times 3.1 \times 3 \times 32$
+S: **Answer: (a) 3 cm (b) 595.2 cm²**
+
+T: Combination of solids
+Q: [ICSE 2019, 4 marks] A hemispherical hole and a conical hole are scooped out of the two ends of a solid wooden cylinder of height 7 cm and radius 3 cm. The hemisphere and the cone both have radius 3 cm, and the cone is 3 cm high. Find the volume of the remaining solid to the nearest whole number. Take $\pi = \dfrac{22}{7}$.
+S: Cylinder: $\pi (3)^2 (7) = 63\pi$. Hemisphere: $\dfrac{2}{3}\pi (3)^3 = 18\pi$. Cone: $\dfrac{1}{3}\pi (3)^2 (3) = 9\pi$.
+S: Remaining volume $= 63\pi - 18\pi - 9\pi = 36\pi = 36 \times \dfrac{22}{7} \approx 113.14$
+S: **Answer: 113 cm³**

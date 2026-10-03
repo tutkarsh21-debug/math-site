@@ -1,0 +1,5 @@
+T: Proving identities
+Q: [ICSE 2019, 3 marks] Prove that $(\mathrm{cosec}\,\theta - \sin\theta)(\sec\theta - \cos\theta)(\tan\theta + \cot\theta) = 1$.
+S: $\mathrm{cosec}\,\theta - \sin\theta = \dfrac{1 - \sin^2\theta}{\sin\theta} = \dfrac{\cos^2\theta}{\sin\theta}$ and $\sec\theta - \cos\theta = \dfrac{\sin^2\theta}{\cos\theta}$
+S: $\tan\theta + \cot\theta = \dfrac{\sin^2\theta + \cos^2\theta}{\sin\theta\cos\theta} = \dfrac{1}{\sin\theta\cos\theta}$
+S: LHS $= \dfrac{\cos^2\theta}{\sin\theta} \times \dfrac{\sin^2\theta}{\cos\theta} \times \dfrac{1}{\sin\theta\cos\theta} = 1$ = RHS. **Proved.**

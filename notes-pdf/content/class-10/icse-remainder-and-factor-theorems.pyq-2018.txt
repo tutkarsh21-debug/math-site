@@ -1,0 +1,12 @@
+T: Finding unknown constants
+Q: [ICSE 2018, 3 marks] $(x + 2)$ and $(x + 3)$ are factors of $x^3 + ax + b$. Find $a$ and $b$.
+S: $f(-2) = 0$: $-8 - 2a + b = 0$ ... (1)
+S: $f(-3) = 0$: $-27 - 3a + b = 0$ ... (2)
+S: Subtracting (2) from (1): $19 + a = 0$, so $a = -19$. From (1), $b = 8 + 2a = -30$.
+S: **Answer: $a = -19$, $b = -30$**
+
+T: Factorising a cubic polynomial
+Q: [ICSE 2018, 3 marks] Use the remainder theorem to factorise $2x^3 + 3x^2 - 9x - 10$.
+S: Try $x = 2$: $f(2) = 16 + 12 - 18 - 10 = 0$, so $(x - 2)$ is a factor.
+S: Dividing by $(x - 2)$ gives the quotient $2x^2 + 7x + 5 = (2x + 5)(x + 1)$.
+S: **Answer: $(x - 2)(x + 1)(2x + 5)$**

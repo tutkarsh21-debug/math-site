@@ -1,0 +1,11 @@
+T: Forms of the equation
+Q: [ICSE 2018, 4 marks] $A(2, 5)$, $B(-1, 2)$ and $C(5, 8)$ are the vertices of a triangle. $M$ is the point on $AB$ with $AM : MB = 1 : 2$. Find $M$, and then the equation of the line through $C$ and $M$.
+S: $M = \left(\dfrac{1(-1) + 2(2)}{3}, \dfrac{1(2) + 2(5)}{3}\right) = (1, 4)$
+S: Slope of $CM = \dfrac{8 - 4}{5 - 1} = 1$, so $y - 4 = 1(x - 1)$.
+S: **Answer: $M(1, 4)$; the line is $y = x + 3$**
+
+T: Lines parallel or perpendicular to a given line
+Q: [ICSE 2018, 3 marks] The lines $3x - 5y = 7$ and $4x + ay + 9 = 0$ are perpendicular. Find $a$.
+S: Slopes: $\dfrac{3}{5}$ and $-\dfrac{4}{a}$. Perpendicular: $\dfrac{3}{5} \times \left(-\dfrac{4}{a}\right) = -1$
+S: $12 = 5a$
+S: **Answer: $a = \dfrac{12}{5}$**

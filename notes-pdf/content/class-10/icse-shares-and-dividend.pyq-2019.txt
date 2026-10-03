@@ -1,0 +1,13 @@
+T: Dividend
+Q: [ICSE 2019, 3 marks] A man invests ₹4500 in shares of a company paying a 7.5% dividend. The ₹100 shares are available at a discount of 10%. Find (a) the number of shares he buys (b) his annual income.
+S: (a) Market value of one share $= 100 - 10 = 90$. Number of shares $= \dfrac{4500}{90} = 50$.
+S: (b) Dividend on one share $= 7.5\%$ of 100 $= 7.50$. Income $= 50 \times 7.50 = 375$.
+S: **Answer: (a) 50 shares (b) ₹375**
+
+T: Selling and reinvesting
+Q: [ICSE 2019, 4 marks] A man invests ₹8500 in 10%, ₹100 shares at ₹170. He sells them when the price of each share rises by ₹30, and invests the proceeds in 12%, ₹100 shares at ₹125. Find (a) the sale proceeds (b) the number of ₹125 shares he buys (c) the change in his annual income.
+S: Shares bought first $= \dfrac{8500}{170} = 50$, with income $50 \times 10 = 500$.
+S: (a) Selling price $= 170 + 30 = 200$, so the proceeds are $50 \times 200 = 10000$.
+S: (b) New shares $= \dfrac{10000}{125} = 80$
+S: (c) New income $= 80 \times 12 = 960$. Change $= 960 - 500 = 460$.
+S: **Answer: (a) ₹10,000 (b) 80 shares (c) income increases by ₹460**

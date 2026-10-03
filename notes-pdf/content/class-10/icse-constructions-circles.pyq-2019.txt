@@ -1,0 +1,7 @@
+T: Tangents from an external point
+Q: [ICSE 2019, 4 marks] Using ruler and compasses, draw a circle of radius 4 cm with centre $O$. Mark a point $P$ 7 cm from $O$ and construct the two tangents from $P$ to the circle. Measure the length of a tangent.
+S: Draw the circle and mark $P$ with $OP = 7$ cm.
+S: Bisect $OP$ at $M$. With centre $M$ and radius $MO$, draw a circle cutting the given circle at $A$ and $B$.
+S: Join $PA$ and $PB$. These are the tangents, because $\angle OAP = 90°$ (angle in a semicircle).
+S: Check: $PA = \sqrt{7^2 - 4^2} = \sqrt{33} \approx 5.74$ cm.
+S: **Answer: each tangent measures about 5.7 cm**

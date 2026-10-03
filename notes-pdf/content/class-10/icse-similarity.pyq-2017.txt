@@ -1,0 +1,7 @@
+T: Areas of similar triangles
+Q: [ICSE 2017, 3 marks] $S$ is a point on the side $QR$ of $\triangle PQR$ with $\angle PSR = \angle QPR$. $QP = 8$ cm, $PR = 6$ cm and $SR = 3$ cm. (a) Prove that $\triangle PQR \sim \triangle SPR$. (b) Find $QR$ and $PS$. (c) Find $\dfrac{\text{area of } \triangle PQR}{\text{area of } \triangle SPR}$.
+!fig w=320 h=180; P Q 40 150 bl; P R 280 150 br; P S 220 150 b; P P 183.3 78.9 t; L P Q; L Q R; L P R; H P S; T 100 104 8 cm; T 250 108 6 cm; T 250 168 3 cm
+S: (a) $\angle R$ is common and $\angle QPR = \angle PSR$ (given). So $\triangle PQR \sim \triangle SPR$ (AA).
+S: (b) $\dfrac{PQ}{SP} = \dfrac{QR}{PR} = \dfrac{PR}{SR} = \dfrac{6}{3} = 2$. So $QR = 2 \times 6 = 12$ cm and $PS = \dfrac{8}{2} = 4$ cm.
+S: (c) Ratio of areas $= 2^2 = 4$
+S: **Answer: (b) $QR = 12$ cm, $PS = 4$ cm (c) 4**

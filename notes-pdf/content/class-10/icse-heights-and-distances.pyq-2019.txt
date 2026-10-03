@@ -1,0 +1,7 @@
+T: Problems with two triangles
+Q: [ICSE 2019, 4 marks] A man sees the top of a tower at an angle of elevation of $45°$. He walks 20 m straight towards the tower, and the angle of elevation becomes $60°$. Find the height of the tower correct to 2 significant figures.
+!fig w=320 h=200; P A 120 170 bl; P B 175 170 b; P F 250 170 br; P T 250 40 tr; L A F; H F T; L A T; L B T; R T F A; A F A T 45°; A F B T 60°; T 148 188 20 m
+S: Let the height be $h$ and let the man start $x$ m from the tower.
+S: $\tan 45° = \dfrac{h}{x}$, so $x = h$. $\tan 60° = \dfrac{h}{x - 20}$, so $h = \sqrt{3}(h - 20)$.
+S: $h(\sqrt{3} - 1) = 20\sqrt{3}$, so $h = \dfrac{20\sqrt{3}}{\sqrt{3} - 1} = 10\sqrt{3}(\sqrt{3} + 1) = 30 + 10\sqrt{3} \approx 47.32$
+S: **Answer: about 47 m**

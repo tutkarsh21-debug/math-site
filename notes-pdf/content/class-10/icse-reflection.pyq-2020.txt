@@ -1,5 +1,5 @@
 T: Reflection of figures
 Q: [ICSE 2020, 4 marks] Plot $A(-4, 0)$, $B(-3, 2)$, $C(0, 4)$, $D(4, 1)$ and $E(7, 3)$. Reflect $B$, $C$, $D$ and $E$ in the $x$-axis to get $B'$, $C'$, $D'$ and $E'$. Join $A, B, C, D, E, E', D', C', B', A$ in order and name the closed figure.
 S: Reflection in the $x$-axis changes the sign of $y$: $B'(-3, -2)$, $C'(0, -4)$, $D'(4, -1)$ and $E'(7, -3)$.
-!fig w=320 h=215; Q x1 15 108; Q x2 308 108; Q y1 118 8; Q y2 118 208; D x1 x2; D y1 y2; P A 30 108 tl; P B 52 64 tl; P C 118 20 tr; P D 206 86 t; P E 272 42 tr; P E' 272 174 br; P D' 206 130 b; P C' 118 196 br; P B' 52 152 bl; H A B; H B C; H C D; H D E; H E E'; H E' D'; H D' C'; H C' B'; H B' A; T 302 124 x; T 130 14 y
+!fig w=320 h=215; Q x1 15 108; Q x2 308 108; Q y1 118 8; Q y2 118 208; D x1 x2; D y1 y2; P A 30 108 tl; P B 52 64 tl; P C 118 20 tr; P D 206 86 t; P E 272 42 tr; P E' 272 174 br; P D' 206 130 b; P C' 118 196 br; P B' 52 152 bl; H A B; H B C; H C D; H D E; H E E'; H E' D'; H D' C'; H C' B'; H B' A; T 302 124 x; T 104 14 y
 S: **Answer: the figure is shaped like a fish (a concave nonagon, symmetric about the $x$-axis)**

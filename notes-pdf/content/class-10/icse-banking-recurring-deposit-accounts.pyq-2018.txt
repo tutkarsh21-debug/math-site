@@ -1,0 +1,11 @@
+T: Interest and maturity value
+Q: [ICSE 2018, 3 marks] A girl deposits ₹600 a month in a recurring deposit account for $2\dfrac{1}{2}$ years at 10% per annum. Find the maturity value.
+S: $n = 30$ months. Interest $= 600 \times \dfrac{30 \times 31}{2 \times 12} \times \dfrac{10}{100} = 600 \times 38.75 \times 0.1 = 2325$
+S: Total deposited $= 600 \times 30 = 18000$
+S: **Answer: maturity value $=$ ₹20,325**
+
+T: Finding the time
+Q: [ICSE 2018, 3 marks] A recurring deposit account of ₹1000 a month at 10% per annum earns ₹5550 as interest on maturity. For how long was the account held?
+S: $5550 = 1000 \times \dfrac{n(n + 1)}{24} \times \dfrac{10}{100}$, so $n(n + 1) = 1332 = 36 \times 37$
+S: $n = 36$ months
+S: **Answer: 3 years**

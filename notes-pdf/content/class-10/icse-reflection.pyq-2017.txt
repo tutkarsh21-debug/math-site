@@ -1,0 +1,6 @@
+T: Reflection of figures
+Q: [ICSE 2017, 5 marks] Plot $A(0, 4)$, $B(2, 3)$, $C(1, 1)$ and $D(2, 0)$. Reflect $B$, $C$ and $D$ in the $y$-axis to get $B'$, $C'$ and $D'$, and write their coordinates. Join $A, B, C, D, D', C', B', A$ in order and write the equation of the line of symmetry of the figure.
+S: Reflection in the $y$-axis changes the sign of $x$: $B'(-2, 3)$, $C'(-1, 1)$ and $D'(-2, 0)$.
+!fig w=280 h=235; Q x1 20 200; Q x2 262 200; Q y1 140 10; Q y2 140 225; D x1 x2; D y1 y2; P A 140 40 tr; P B 220 80 r; P C 180 160 r; P D 220 200 br; P D' 60 200 bl; P C' 100 160 l; P B' 60 80 l; H A B; H B C; H C D; H D D'; H D' C'; H C' B'; H B' A; T 256 216 x; T 152 16 y
+S: The figure is its own mirror image in the $y$-axis.
+S: **Answer: $B'(-2, 3)$, $C'(-1, 1)$, $D'(-2, 0)$; the line of symmetry is $x = 0$**

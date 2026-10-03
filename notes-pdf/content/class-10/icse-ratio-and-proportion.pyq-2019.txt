@@ -1,0 +1,12 @@
+T: Proportion
+Q: [ICSE 2019, 3 marks] The numbers $K + 3$, $K + 2$, $3K - 7$ and $2K - 3$ are in proportion. Find $K$.
+S: $\dfrac{K + 3}{K + 2} = \dfrac{3K - 7}{2K - 3}$, so $(K + 3)(2K - 3) = (K + 2)(3K - 7)$
+S: $2K^2 + 3K - 9 = 3K^2 - K - 14$, so $K^2 - 4K - 5 = 0$
+S: $(K - 5)(K + 1) = 0$
+S: **Answer: $K = 5$ or $K = -1$**
+
+T: Properties of proportion
+Q: [ICSE 2019, 3 marks] Use the properties of proportion to solve $\dfrac{\sqrt{5x} + \sqrt{2x - 6}}{\sqrt{5x} - \sqrt{2x - 6}} = 4$.
+S: Apply componendo and dividendo: $\dfrac{2\sqrt{5x}}{2\sqrt{2x - 6}} = \dfrac{4 + 1}{4 - 1} = \dfrac{5}{3}$
+S: Square both sides: $\dfrac{5x}{2x - 6} = \dfrac{25}{9}$, so $45x = 50x - 150$
+S: **Answer: $x = 30$**

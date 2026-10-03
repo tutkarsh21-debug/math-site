@@ -1,0 +1,6 @@
+T: Problems on ages
+Q: [ICSE 2017, 4 marks] The ages of two brothers add up to 47 years, and the product of their ages is 550. Find their ages.
+S: Let the elder brother be $x$ years old. Then the younger is $(47 - x)$ years old.
+S: $x(47 - x) = 550$, so $x^2 - 47x + 550 = 0$
+S: $(x - 25)(x - 22) = 0$, so $x = 25$ or $22$. The elder is 25.
+S: **Answer: 25 years and 22 years**

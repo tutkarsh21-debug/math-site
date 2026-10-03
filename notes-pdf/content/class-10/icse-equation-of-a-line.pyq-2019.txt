@@ -1,0 +1,5 @@
+T: Lines parallel or perpendicular to a given line
+Q: [ICSE 2019, 3 marks] The vertices of $\triangle ABC$ are $A(3, 8)$, $B(-1, 2)$ and $C(6, -6)$. Find (a) the slope of $BC$ (b) the equation of the line through $A$ perpendicular to $BC$.
+S: (a) Slope of $BC = \dfrac{-6 - 2}{6 - (-1)} = -\dfrac{8}{7}$
+S: (b) The perpendicular line has slope $\dfrac{7}{8}$: $y - 8 = \dfrac{7}{8}(x - 3)$, so $8y - 64 = 7x - 21$.
+S: **Answer: (a) $-\dfrac{8}{7}$ (b) $7x - 8y + 43 = 0$**

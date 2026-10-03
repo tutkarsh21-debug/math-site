@@ -1,0 +1,14 @@
+T: Areas of similar triangles
+Q: [ICSE 2018, 3 marks] In $\triangle PQR$, $M$ lies on $PQ$ and $N$ lies on $PR$ with $MN \parallel QR$ and $\dfrac{PM}{MQ} = \dfrac{2}{3}$. $MR$ and $NQ$ meet at $O$. (a) Find $\dfrac{MN}{QR}$. (b) Prove that $\triangle OMN \sim \triangle ORQ$. (c) Find area of $\triangle OMN$ : area of $\triangle ORQ$.
+!fig w=340 h=215; P P 150 25 t; P Q 40 190 bl; P R 300 190 br; P M 106 91 l; P N 210 91 r; P O 161.4 119.3 b; L P Q; L P R; L Q R; H M N; L M R; L N Q
+S: (a) $\triangle PMN \sim \triangle PQR$ (AA, because $MN \parallel QR$), so $\dfrac{MN}{QR} = \dfrac{PM}{PQ} = \dfrac{2}{2 + 3} = \dfrac{2}{5}$.
+S: (b) $\angle MON = \angle ROQ$ (vertically opposite) and $\angle OMN = \angle ORQ$ (alternate angles). So $\triangle OMN \sim \triangle ORQ$ (AA).
+S: (c) Ratio of areas $= \left(\dfrac{MN}{QR}\right)^2 = \dfrac{4}{25}$
+S: **Answer: (a) $\dfrac{2}{5}$ (c) $4 : 25$**
+
+T: Maps and models
+Q: [ICSE 2018, 3 marks] On a map drawn to a scale of $1 : 50{,}000$, a rectangular plot $ABCD$ has $AB = 6$ cm and $BC = 8$ cm. Find (a) the actual length of the diagonal $AC$ in km (b) the actual area of the plot in km².
+S: 1 cm on the map is 50,000 cm $= 0.5$ km on the ground.
+S: (a) $AC = \sqrt{6^2 + 8^2} = 10$ cm on the map, which is $10 \times 0.5 = 5$ km.
+S: (b) The actual sides are 3 km and 4 km, so the area is $3 \times 4 = 12$ km².
+S: **Answer: (a) 5 km (b) 12 km²**

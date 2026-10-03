@@ -1,0 +1,6 @@
+T: Return on investment
+Q: [ICSE 2018, 3 marks] A man invests ₹22,500 in ₹50 shares available at a 10% discount. The company pays a 12% dividend. Find (a) the number of shares bought (b) the annual dividend (c) the rate of return on his investment, to the nearest whole number.
+S: (a) Market value $= 50 - 5 = 45$. Number of shares $= \dfrac{22500}{45} = 500$.
+S: (b) Dividend on one share $= 12\%$ of 50 $= 6$. Annual dividend $= 500 \times 6 = 3000$.
+S: (c) Return $= \dfrac{3000}{22500} \times 100 = 13.33\%$
+S: **Answer: (a) 500 shares (b) ₹3000 (c) about 13%**

@@ -1,0 +1,8 @@
+T: Tangent properties
+Q: [ICSE 2019, 3 marks] $AB$ is a diameter of a circle with centre $O$, and $AC$ is the tangent at $A$. $D$ is a point on $AC$, and $BD$ cuts the circle at $E$. The line $OE$ produced meets the tangent at $C$. If $\angle ADB = 55°$, find $x = \angle ACO$ and $y = \angle AOE$.
+!fig w=270 h=270; P O 130 90 l; P A 87.6 132.4 l; P B 172.4 47.6 tr; P E 155.4 144.4 r; P D 147 191.8 l; P C 204.1 248.9 r; C O 60; L A B; L A C; L B D; L O C; A A D B 55°
+S: $\angle BAD = 90°$ (the tangent is perpendicular to the radius at the point of contact).
+S: In $\triangle ABD$: $\angle ABD = 180° - 90° - 55° = 35°$.
+S: $y = \angle AOE = 2 \times \angle ABE = 70°$ (the angle at the centre is twice the angle at the circumference).
+S: In $\triangle OAC$: $x = 180° - 90° - 70° = 20°$.
+S: **Answer: $x = 20°$, $y = 70°$**

@@ -1,0 +1,12 @@
+T: Continued proportion
+Q: [ICSE 2017, 3 marks] $b$ is the mean proportional between $a$ and $c$. Show that $\dfrac{a^4 + a^2b^2 + b^4}{b^4 + b^2c^2 + c^4} = \dfrac{a^2}{c^2}$.
+S: $b$ is the mean proportional, so $b^2 = ac$.
+S: Numerator $= a^4 + a^2(ac) + (ac)^2 = a^2(a^2 + ac + c^2)$
+S: Denominator $= (ac)^2 + (ac)c^2 + c^4 = c^2(a^2 + ac + c^2)$
+S: LHS $= \dfrac{a^2(a^2 + ac + c^2)}{c^2(a^2 + ac + c^2)} = \dfrac{a^2}{c^2}$ = RHS. **Proved.**
+
+T: Properties of proportion
+Q: [ICSE 2017, 3 marks] Given $\dfrac{7m + 2n}{7m - 2n} = \dfrac{5}{3}$, use the properties of proportion to find (a) $m : n$ (b) $\dfrac{m^2 + n^2}{m^2 - n^2}$.
+S: (a) Apply componendo and dividendo: $\dfrac{14m}{4n} = \dfrac{5 + 3}{5 - 3} = 4$, so $\dfrac{m}{n} = \dfrac{8}{7}$.
+S: (b) $\dfrac{m^2}{n^2} = \dfrac{64}{49}$. Apply componendo and dividendo: $\dfrac{m^2 + n^2}{m^2 - n^2} = \dfrac{64 + 49}{64 - 49}$
+S: **Answer: (a) $8 : 7$ (b) $\dfrac{113}{15}$**

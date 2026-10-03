@@ -1,0 +1,11 @@
+T: Cylinder
+Q: [ICSE 2018, 3 marks] The base of a cylindrical vessel has a circumference of 132 cm, and the vessel is 25 cm high. Find (a) its radius (b) its volume. Take $\pi = \dfrac{22}{7}$.
+S: (a) $2 \times \dfrac{22}{7} \times r = 132$, so $r = 21$ cm.
+S: (b) Volume $= \dfrac{22}{7} \times 21 \times 21 \times 25$
+S: **Answer: (a) 21 cm (b) 34,650 cm³**
+
+T: Combination of solids
+Q: [ICSE 2018, 4 marks] A solid is a cylinder with a hemisphere on one end and a cone on the other, all of radius 7 cm. The cylinder and the cone are each 4 cm high. Find the volume of the solid.
+S: Cylinder: $\pi (7)^2 (4) = 196\pi$. Hemisphere: $\dfrac{2}{3}\pi (7)^3 = \dfrac{686\pi}{3}$. Cone: $\dfrac{1}{3}\pi (7)^2 (4) = \dfrac{196\pi}{3}$.
+S: Total $= 196\pi + \dfrac{882\pi}{3} = 196\pi + 294\pi = 490\pi = 490 \times \dfrac{22}{7}$
+S: **Answer: 1540 cm³**

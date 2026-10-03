@@ -1,0 +1,7 @@
+T: Inscribed circle of a triangle
+Q: [ICSE 2017, 4 marks] Using ruler and compasses, construct $\triangle ABC$ with $AB = 7$ cm, $\angle CAB = 60°$ and $AC = 5$ cm. Construct the locus of points equidistant from (a) $AB$ and $AC$ (b) $BA$ and $BC$. Hence construct the circle that touches the three sides of the triangle internally.
+S: Draw $AB = 7$ cm, construct $\angle CAB = 60°$ and cut off $AC = 5$ cm. Join $BC$.
+S: (a) The locus is the bisector of $\angle A$. (b) The locus is the bisector of $\angle B$.
+S: The bisectors meet at $I$, the incentre. From $I$ draw $IN \perp AB$. With centre $I$ and radius $IN$, draw the circle. It touches all three sides.
+S: Check: $BC = \sqrt{49 + 25 - 35} = \sqrt{39} \approx 6.24$ cm, the area is $\dfrac{1}{2} \times 7 \times 5 \times \sin 60° \approx 15.16$ cm² and the semi-perimeter is about 9.12 cm, so the radius is about $\dfrac{15.16}{9.12} \approx 1.7$ cm.
+S: **Answer: the incircle has a radius of about 1.7 cm**

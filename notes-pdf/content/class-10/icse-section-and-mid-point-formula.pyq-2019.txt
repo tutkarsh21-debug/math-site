@@ -1,0 +1,6 @@
+T: The section formula
+Q: [ICSE 2019, 3 marks] $M$ lies on the $x$-axis and $N$ lies on the $y$-axis. The point $P(3, 2)$ divides $MN$ in the ratio $2 : 3$. Find (a) the coordinates of $M$ and $N$ (b) the slope of $MN$.
+S: (a) Let $M = (a, 0)$ and $N = (0, b)$. Then $P = \left(\dfrac{2 \times 0 + 3a}{5}, \dfrac{2b + 3 \times 0}{5}\right)$.
+S: $\dfrac{3a}{5} = 3$ gives $a = 5$, and $\dfrac{2b}{5} = 2$ gives $b = 5$.
+S: (b) Slope of $MN = \dfrac{5 - 0}{0 - 5} = -1$
+S: **Answer: (a) $M(5, 0)$, $N(0, 5)$ (b) slope $= -1$**

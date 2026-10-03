@@ -1,0 +1,7 @@
+T: Circumscribed circle of a triangle
+Q: [ICSE 2018, 4 marks] Using ruler and compasses only, construct $\triangle ABC$ with $BC = 5$ cm, $AB = 6.5$ cm and $\angle ABC = 120°$. (a) Construct its circumcircle. (b) Construct the cyclic quadrilateral $ABCD$ in which $D$ is equidistant from $AB$ and $BC$.
+S: Draw $BC = 5$ cm. At $B$ construct an angle of $120°$ and cut off $BA = 6.5$ cm. Join $AC$.
+S: (a) Draw the perpendicular bisectors of $AB$ and $BC$, meeting at $O$. With centre $O$ and radius $OB$, draw the circle through $A$, $B$ and $C$.
+S: (b) Points equidistant from $AB$ and $BC$ lie on the bisector of $\angle ABC$. Draw this bisector and let it meet the circle again at $D$. Join $AD$ and $CD$.
+S: Check: the bisector cuts the arc $AC$ in half, so $AD = CD$, and $\angle ADC = 180° - 120° = 60°$. So $\triangle ADC$ should be equilateral.
+S: **Answer: $ABCD$ is the required cyclic quadrilateral, with $AD = CD$**

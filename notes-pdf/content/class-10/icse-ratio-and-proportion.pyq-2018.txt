@@ -1,0 +1,6 @@
+T: Properties of proportion
+Q: [ICSE 2018, 3 marks] Use the properties of proportion to solve $\dfrac{2x + \sqrt{4x^2 - 1}}{2x - \sqrt{4x^2 - 1}} = 4$, given that $x$ is positive.
+S: Apply componendo and dividendo: $\dfrac{4x}{2\sqrt{4x^2 - 1}} = \dfrac{4 + 1}{4 - 1}$, so $\dfrac{2x}{\sqrt{4x^2 - 1}} = \dfrac{5}{3}$
+S: Square both sides: $\dfrac{4x^2}{4x^2 - 1} = \dfrac{25}{9}$, so $36x^2 = 100x^2 - 25$
+S: $64x^2 = 25$, and $x$ is positive.
+S: **Answer: $x = \dfrac{5}{8}$**

@@ -1,0 +1,9 @@
+T: Proving identities
+Q: [ICSE 2018, 3 marks] Prove that $\sqrt{\sec^2\theta + \mathrm{cosec}^2\theta} = \tan\theta + \cot\theta$.
+S: $\sec^2\theta + \mathrm{cosec}^2\theta = \dfrac{1}{\cos^2\theta} + \dfrac{1}{\sin^2\theta} = \dfrac{\sin^2\theta + \cos^2\theta}{\sin^2\theta\cos^2\theta} = \dfrac{1}{\sin^2\theta\cos^2\theta}$
+S: LHS $= \dfrac{1}{\sin\theta\cos\theta}$
+S: RHS $= \dfrac{\sin\theta}{\cos\theta} + \dfrac{\cos\theta}{\sin\theta} = \dfrac{\sin^2\theta + \cos^2\theta}{\sin\theta\cos\theta} = \dfrac{1}{\sin\theta\cos\theta}$
+S: LHS = RHS. **Proved.**
+Q: [ICSE 2018, 4 marks] Prove that $(1 + \cot\theta - \mathrm{cosec}\,\theta)(1 + \tan\theta + \sec\theta) = 2$.
+S: LHS $= \left(\dfrac{\sin\theta + \cos\theta - 1}{\sin\theta}\right)\left(\dfrac{\cos\theta + \sin\theta + 1}{\cos\theta}\right) = \dfrac{(\sin\theta + \cos\theta)^2 - 1}{\sin\theta\cos\theta}$
+S: $= \dfrac{1 + 2\sin\theta\cos\theta - 1}{\sin\theta\cos\theta} = 2$ = RHS. **Proved.**

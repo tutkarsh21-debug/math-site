@@ -1,0 +1,5 @@
+T: Sum of n terms
+Q: [ICSE 2019, 3 marks] A G.P. has first term 3, last term 96 and common ratio 2. Find (a) the number of terms (b) their sum.
+S: (a) $3 \times 2^{n-1} = 96$, so $2^{n-1} = 32 = 2^5$ and $n = 6$.
+S: (b) $S_6 = \dfrac{3(2^6 - 1)}{2 - 1} = 3 \times 63$
+S: **Answer: (a) 6 terms (b) 189**

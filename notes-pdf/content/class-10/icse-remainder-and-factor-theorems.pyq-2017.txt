@@ -1,0 +1,5 @@
+T: The remainder theorem
+Q: [ICSE 2017, 3 marks] What must be subtracted from $16x^3 - 8x^2 + 4x + 7$ so that the result has $2x + 1$ as a factor?
+S: The number to subtract is the remainder on division by $2x + 1$, which is $f\left(-\dfrac{1}{2}\right)$.
+S: $f\left(-\dfrac{1}{2}\right) = 16\left(-\dfrac{1}{8}\right) - 8\left(\dfrac{1}{4}\right) + 4\left(-\dfrac{1}{2}\right) + 7 = -2 - 2 - 2 + 7 = 1$
+S: **Answer: 1**

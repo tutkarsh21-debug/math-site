@@ -1,0 +1,5 @@
+T: The quadratic formula
+Q: [ICSE 2019, 3 marks] Solve $x^2 - 4x - 8 = 0$, giving the answers correct to three significant figures.
+S: $D = 16 + 32 = 48$ and $\sqrt{48} \approx 6.928$
+S: $x = \dfrac{4 \pm 6.928}{2}$, so $x = 5.464$ or $x = -1.464$
+S: **Answer: $x = 5.46$ or $x = -1.46$**

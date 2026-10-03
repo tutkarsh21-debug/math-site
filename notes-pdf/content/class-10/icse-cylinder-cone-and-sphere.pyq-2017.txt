@@ -1,0 +1,6 @@
+T: Cone
+Q: [ICSE 2017, 3 marks] A conical tent must hold 77 people, each needing 16 m³ of air. The radius of the tent is 7 m. Find its height and its curved surface area.
+S: Volume needed $= 77 \times 16 = 1232$ m³
+S: $\dfrac{1}{3} \times \dfrac{22}{7} \times 7 \times 7 \times h = 1232$, so $\dfrac{154}{3}h = 1232$ and $h = 24$ m.
+S: Slant height $l = \sqrt{24^2 + 7^2} = 25$ m. Curved surface area $= \dfrac{22}{7} \times 7 \times 25 = 550$ m².
+S: **Answer: height 24 m; curved surface area 550 m²**

@@ -1,0 +1,17 @@
+T: Mode from a histogram
+Q: [ICSE 2018, 4 marks] The runs scored by 50 batsmen are given below. Draw a histogram and estimate the mode.
+| Runs scored | 3000–4000 | 4000–5000 | 5000–6000 | 6000–7000 | 7000–8000 | 8000–9000 | 9000–10000 |
+| Number of batsmen | 4 | 18 | 9 | 6 | 7 | 2 | 4 |
+S: The tallest rectangle is on 4000–5000. Join its top corners to the nearer top corners of the rectangles on either side, and drop a perpendicular from the crossing point to the runs axis.
+S: Check with the formula: mode $= 4000 + \dfrac{18 - 4}{36 - 4 - 9} \times 1000 = 4000 + \dfrac{14000}{23} \approx 4609$
+S: **Answer: mode is about 4600 runs**
+
+T: Reading an ogive
+Q: [ICSE 2018, 6 marks] The heights of 60 boys are given below. Draw an ogive and use it to estimate (a) the median (b) the lower quartile (c) the number of boys taller than 158 cm.
+| Height (cm) | 135–140 | 140–145 | 145–150 | 150–155 | 155–160 | 160–165 | 165–170 |
+| Number of boys | 4 | 8 | 20 | 14 | 7 | 6 | 1 |
+S: Cumulative frequencies: 4, 12, 32, 46, 53, 59, 60. Plot them against the upper limits 140, 145, ..., 170, start the curve at $(135, 0)$ and join the points smoothly.
+S: (a) $\dfrac{N}{2} = 30$: reading across from 30 gives about 149.5 cm.
+S: (b) $\dfrac{N}{4} = 15$: reading across from 15 gives about 146 cm.
+S: (c) Reading up from 158 cm gives about 50 boys, so about $60 - 50 = 10$ are taller.
+S: **Answer: (a) about 149.5 cm (b) about 146 cm (c) about 10 boys**

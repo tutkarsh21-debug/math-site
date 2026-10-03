@@ -1,0 +1,12 @@
+T: The remainder theorem
+Q: [ICSE 2019, 3 marks] Find the remainders when $x^3 + (kx + 8)x + k$ is divided by $x + 1$ and by $x - 2$. The two remainders add up to 1. Find $k$.
+S: $f(x) = x^3 + kx^2 + 8x + k$
+S: $f(-1) = -1 + k - 8 + k = 2k - 9$ and $f(2) = 8 + 4k + 16 + k = 5k + 24$
+S: $(2k - 9) + (5k + 24) = 1$, so $7k = -14$
+S: **Answer: remainders $2k - 9$ and $5k + 24$; $k = -2$**
+
+T: Factorising a cubic polynomial
+Q: [ICSE 2019, 3 marks] Use the factor theorem to show that $(x - 2)$ is a factor of $x^3 + x^2 - 4x - 4$. Then factorise the polynomial completely.
+S: $f(2) = 8 + 4 - 8 - 4 = 0$, so $(x - 2)$ is a factor.
+S: Dividing by $(x - 2)$ gives the quotient $x^2 + 3x + 2 = (x + 1)(x + 2)$.
+S: **Answer: $(x - 2)(x + 1)(x + 2)$**

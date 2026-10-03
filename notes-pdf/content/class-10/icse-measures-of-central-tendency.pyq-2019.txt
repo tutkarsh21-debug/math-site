@@ -1,0 +1,17 @@
+T: Mean of grouped data
+Q: [ICSE 2019, 3 marks] The table shows the number of patients attending a hospital on the days of a month. Find the mean by the short-cut method, taking the assumed mean as 45. Give the answer correct to 2 decimal places.
+| Number of patients | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 | 60–70 |
+| Number of days | 5 | 2 | 7 | 9 | 2 | 5 |
+S: Class marks: 15, 25, 35, 45, 55, 65. With $A = 45$, $d = x - 45$ is $-30, -20, -10, 0, 10, 20$.
+S: $\sum f = 30$ and $\sum fd = -150 - 40 - 70 + 0 + 20 + 100 = -140$
+S: Mean $= 45 + \dfrac{-140}{30} = 45 - 4.67$
+S: **Answer: 40.33 patients**
+
+T: Median of raw data
+Q: [ICSE 2019, 4 marks] The marks (out of 10) of 40 students in a class test are given below. Find (a) the median (b) the mode.
+| Marks | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| Number of students | 1 | 2 | 3 | 3 | 6 | 10 | 5 | 4 | 3 | 3 |
+S: Cumulative frequencies: 1, 3, 6, 9, 15, 25, 30, 34, 37, 40.
+S: (a) $n = 40$ is even, so the median is the mean of the 20th and 21st values. Values 16 to 25 are all 6, so the median is 6.
+S: (b) The highest frequency is 10, for the mark 6.
+S: **Answer: (a) median $= 6$ (b) mode $= 6$**

@@ -1,0 +1,8 @@
+T: Balls, numbered cards and letters
+Q: [ICSE 2018, 4 marks] Cards numbered 2, 4, 6, 8, 10, 12, 14, 16, 18 and 20 are kept in a bag, and one is drawn at random. Find the probability that its number is (a) prime (b) divisible by 4 (c) a multiple of 6 (d) odd.
+S: There are 10 cards.
+S: (a) The only prime is 2. Probability $= \dfrac{1}{10}$.
+S: (b) Divisible by 4: 4, 8, 12, 16, 20. Probability $= \dfrac{5}{10} = \dfrac{1}{2}$.
+S: (c) Multiples of 6: 6, 12, 18. Probability $= \dfrac{3}{10}$.
+S: (d) There are no odd numbers. Probability $= 0$.
+S: **Answer: (a) $\dfrac{1}{10}$ (b) $\dfrac{1}{2}$ (c) $\dfrac{3}{10}$ (d) 0**

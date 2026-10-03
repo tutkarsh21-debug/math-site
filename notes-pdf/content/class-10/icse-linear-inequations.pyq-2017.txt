@@ -1,0 +1,6 @@
+T: Combining inequations
+Q: [ICSE 2017, 3 marks] Solve $-8\dfrac{1}{2} < -\dfrac{1}{2} - 4x \leq 7\dfrac{1}{2}$, where $x$ is an integer, and show the solution set on the number line.
+S: Add $\dfrac{1}{2}$ throughout: $-8 < -4x \leq 8$
+S: Divide by $-4$ and reverse the signs: $2 > x \geq -2$
+S: **Solution set: $\{-2, -1, 0, 1\}$**
+!fig w=360 h=60; Q l 20 25; Q r 340 25; L l r; P a 120 25 -; P b 150 25 -; P c 180 25 -; P d 210 25 -; T 90 48 −3; T 120 48 −2; T 150 48 −1; T 180 48 0; T 210 48 1; T 240 48 2; T 270 48 3

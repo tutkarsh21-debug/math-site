@@ -1,0 +1,12 @@
+T: Addition, subtraction and multiplication by a number
+Q: [ICSE 2018, 3 marks] Find $x$ and $y$ if $2\begin{bmatrix} x & 7 \\ 9 & y - 5 \end{bmatrix} + \begin{bmatrix} 6 & -7 \\ 4 & 5 \end{bmatrix} = \begin{bmatrix} 10 & 7 \\ 22 & 15 \end{bmatrix}$.
+S: Left side $= \begin{bmatrix} 2x + 6 & 14 - 7 \\ 18 + 4 & 2y - 10 + 5 \end{bmatrix} = \begin{bmatrix} 2x + 6 & 7 \\ 22 & 2y - 5 \end{bmatrix}$
+S: $2x + 6 = 10$ gives $x = 2$, and $2y - 5 = 15$ gives $y = 10$.
+S: **Answer: $x = 2$, $y = 10$**
+
+T: Multiplication of matrices
+Q: [ICSE 2018, 3 marks] If $A = \begin{bmatrix} 2 & 3 \\ 5 & 7 \end{bmatrix}$, $B = \begin{bmatrix} 0 & 4 \\ -1 & 7 \end{bmatrix}$ and $C = \begin{bmatrix} 1 & 0 \\ -1 & 4 \end{bmatrix}$, find $AC + B^2 - 10C$.
+S: $AC = \begin{bmatrix} 2 - 3 & 0 + 12 \\ 5 - 7 & 0 + 28 \end{bmatrix} = \begin{bmatrix} -1 & 12 \\ -2 & 28 \end{bmatrix}$
+S: $B^2 = \begin{bmatrix} 0 - 4 & 0 + 28 \\ 0 - 7 & -4 + 49 \end{bmatrix} = \begin{bmatrix} -4 & 28 \\ -7 & 45 \end{bmatrix}$ and $10C = \begin{bmatrix} 10 & 0 \\ -10 & 40 \end{bmatrix}$
+S: $AC + B^2 - 10C = \begin{bmatrix} -1 - 4 - 10 & 12 + 28 - 0 \\ -2 - 7 + 10 & 28 + 45 - 40 \end{bmatrix}$
+S: **Answer: $\begin{bmatrix} -15 & 40 \\ 1 & 33 \end{bmatrix}$**

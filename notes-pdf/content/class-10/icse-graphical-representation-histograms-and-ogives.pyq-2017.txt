@@ -1,0 +1,9 @@
+T: Reading an ogive
+Q: [ICSE 2017, 6 marks] The daily wages of 80 workers are given below. Draw an ogive and use it to estimate (a) the median wage (b) the lower quartile (c) the number of workers who earn more than ₹625 a day.
+| Wages (₹) | 400–450 | 450–500 | 500–550 | 550–600 | 600–650 | 650–700 | 700–750 |
+| Number of workers | 2 | 6 | 12 | 18 | 24 | 13 | 5 |
+S: Cumulative frequencies: 2, 8, 20, 38, 62, 75, 80. Plot them against the upper limits 450, 500, ..., 750, start the curve at $(400, 0)$ and join the points smoothly.
+S: (a) $\dfrac{N}{2} = 40$: reading across from 40 gives about ₹604.
+S: (b) $\dfrac{N}{4} = 20$: reading across from 20 gives ₹550.
+S: (c) Reading up from ₹625 gives about 50 workers, so about $80 - 50 = 30$ earn more.
+S: **Answer: (a) about ₹604 (b) ₹550 (c) about 30 workers**

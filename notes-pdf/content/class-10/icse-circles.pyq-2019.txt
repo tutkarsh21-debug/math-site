@@ -1,0 +1,8 @@
+T: Cyclic quadrilaterals
+Q: [ICSE 2019, 4 marks] $ABCDE$ is a pentagon inscribed in a circle. $AC$ is a diameter, $BC \parallel AE$ and $\angle BAC = 50°$. Find (a) $\angle ACB$ (b) $\angle EDC$ (c) $\angle BEC$. Then prove that $BE$ is also a diameter.
+!fig w=300 h=220; Q O 150 110; P A 70 110 l; P C 230 110 r; P B 136.1 188.8 b; P E 163.9 31.2 t; P D 211.3 58.6 tr; C O 80; L A C; L A B; L B C; L C D; L D E; L E A; A B A C 50°
+S: (a) $\angle ABC = 90°$ (angle in a semicircle), so $\angle ACB = 90° - 50° = 40°$.
+S: (b) $BC \parallel AE$, so $\angle EAC = \angle ACB = 40°$ (alternate angles). $ACDE$ is a cyclic quadrilateral, so $\angle EDC = 180° - 40° = 140°$.
+S: (c) $\angle BEC = \angle BAC = 50°$ (angles in the same segment).
+S: $\angle EAB = \angle EAC + \angle CAB = 40° + 50° = 90°$. A chord that subtends a right angle at the circumference is a diameter.
+S: **Answer: (a) $40°$ (b) $140°$ (c) $50°$; since $\angle EAB = 90°$, $BE$ is a diameter**

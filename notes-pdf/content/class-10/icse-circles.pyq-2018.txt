@@ -1,0 +1,16 @@
+T: Cyclic quadrilaterals
+Q: [ICSE 2018, 4 marks] $PQRS$ is a cyclic quadrilateral with $\angle QPS = 73°$, $\angle PQS = 55°$ and $\angle PSR = 82°$. Find (a) $\angle QRS$ (b) $\angle RQS$ (c) $\angle PRQ$.
+!fig w=300 h=215; Q O 150 110; P P 87 159.3 bl; P Q 213 159.3 br; P R 224.2 80 r; P S 125.3 33.9 t; C O 80; L P Q; L Q R; L R S; L S P; L S Q
+S: (a) Opposite angles of a cyclic quadrilateral add up to $180°$: $\angle QRS = 180° - 73° = 107°$.
+S: (b) In $\triangle PQS$: $\angle PSQ = 180° - 73° - 55° = 52°$, so $\angle QSR = 82° - 52° = 30°$. In $\triangle QRS$: $\angle RQS = 180° - 107° - 30° = 43°$.
+S: (c) $\angle PRQ = \angle PSQ = 52°$ (angles in the same segment).
+S: **Answer: (a) $107°$ (b) $43°$ (c) $52°$**
+
+T: Arcs, chords and angles
+Q: [ICSE 2018, 3 marks] $O$ is the centre of a circle. A line through $O$ meets the circle at $T$ and $S$ and is produced to $R$. A line from $R$ cuts the circle at $Q$ and $P$, with $Q$ nearer to $R$. $QR = OP$ and $\angle ORP = 20°$. Find $x = \angle TOP$.
+!fig w=290 h=200; P O 120 100 t; P T 50 100 l; P S 190 100 tr; P R 251.6 100 r; P Q 185.8 123.9 b; P P 85 160.6 bl; C O 70; L T R; L P R; L O P; L O Q
+S: $OQ = OP$ (radii) and $QR = OP$, so $OQ = QR$. In $\triangle OQR$: $\angle QOR = \angle QRO = 20°$.
+S: Exterior angle of $\triangle OQR$: $\angle OQP = 20° + 20° = 40°$.
+S: $OP = OQ$, so $\angle OPQ = \angle OQP = 40°$.
+S: $x$ is an exterior angle of $\triangle OPR$: $x = \angle OPR + \angle ORP = 40° + 20°$.
+S: **Answer: $x = 60°$**

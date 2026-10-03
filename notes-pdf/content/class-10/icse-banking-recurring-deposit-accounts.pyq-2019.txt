@@ -1,0 +1,5 @@
+T: Finding the monthly deposit
+Q: [ICSE 2019, 3 marks] A recurring deposit account is held for 20 months at 9% per annum, and the interest received on maturity is ₹441. Find the amount deposited each month.
+S: $I = P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$: $441 = P \times \dfrac{20 \times 21}{24} \times \dfrac{9}{100} = 1.575P$
+S: $P = \dfrac{441}{1.575} = 280$
+S: **Answer: ₹280 per month**
