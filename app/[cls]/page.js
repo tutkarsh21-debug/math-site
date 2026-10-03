@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { BOARDS, CLASSES } from '@/lib/data';
+import { BOARDS, CLASSES, MODES } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 
 export const generateStaticParams = () => Object.keys(CLASSES).map(cls => ({ cls }));
@@ -25,6 +25,11 @@ export default async function ClassPage({ params }) {
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
       <h1>{c.label} Maths</h1>
       <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons in Hinglish, plus short notes, a formula bank and a DPP sheet for each chapter.</p>
+      <div className="chips">
+        {MODES.map(m => m.kind === 'self'
+          ? <span key={m.kind} className="chip on">Self Study</span>
+          : <Link key={m.kind} className="chip" href={`${m.href}#${cls}`}>{m.label}</Link>)}
+      </div>
     </div></div>
     <section className="section"><div className="wrap tabs">
       {boards.map(({ b, list }, i) => (<Fragment key={b}>

@@ -1,7 +1,7 @@
 import './globals.css';
 import Link from 'next/link';
 import { Poppins } from 'next/font/google';
-import { CLASSES, SITE } from '@/lib/data';
+import { CLASSES, MODES, SITE } from '@/lib/data';
 
 const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600', '700'], variable: '--font', display: 'swap' });
 
@@ -21,9 +21,9 @@ export default function RootLayout({ children }) {
         <header className="site-header"><div className="wrap bar">
           <Brand />
           <nav className="nav">
-            <Link href="/about">About</Link>
-            {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label}</Link>)}
+            {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
             <Link href="/olympiad">Olympiad</Link>
+            <Link href="/about">About</Link>
           </nav>
           <a className="btn btn-sm" href={SITE.telegram}>Join Telegram</a>
         </div></header>
@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
               {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label} Maths</Link>)}
               <Link href="/olympiad">Olympiad (SOF IMO)</Link>
             </div>
-            <div><h3>Chapters</h3>
-              {classes.map(([k, c]) => <Link key={k} href={`/${k}/${c.chapters[0].slug}`}>{c.chapters[0].title}</Link>)}
+            <div><h3>Learn</h3>
+              {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
             </div>
             <div><h3>Connect</h3>
               <a href={SITE.telegram}>Telegram</a>

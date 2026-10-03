@@ -105,6 +105,29 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 .part h2{margin-bottom:1rem}
 .chapter-card strong{display:block;margin-bottom:.35rem}
 
+/* study modes: badges, course cards, chips, lecture lists */
+.badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.04em;border-radius:6px;padding:.1rem .5rem;vertical-align:middle}
+.badge.live{background:#e5322d;color:#fff}
+.badge.rec{background:#1557d6;color:#fff}
+.badge.self{background:var(--t3);color:var(--fg)}
+.badge.soon{background:var(--soft);color:var(--muted);font-weight:500;letter-spacing:0}
+.course{display:flex;flex-direction:column;gap:.5rem;align-items:flex-start}
+.course h2,.course h3{margin:.3rem 0 0}
+.course ul{margin:.3rem 0;color:var(--muted);font-size:.95rem}
+.course dl{width:100%;margin:.2rem 0 .6rem;border-top:1px solid var(--line)}
+.course dl div{display:flex;justify-content:space-between;gap:1rem;padding:.45rem 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.course dt{color:var(--muted)}
+.course dd{margin:0;font-weight:600;text-align:right}
+.course .go{margin-top:auto;font-weight:600;color:var(--brand)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3rem .9rem;font-size:.9rem;font-weight:600;background:var(--card);color:var(--fg)}
+a.chip:hover{border-color:var(--brand);color:var(--brand);text-decoration:none}
+.chip.on{background:#1557d6;border-color:#1557d6;color:#fff}
+.lectures{margin:.8rem 0 0;padding-left:1.6rem}
+.lectures li{padding:.35rem 0;border-bottom:1px solid var(--line)}
+.lectures li:last-child{border-bottom:0}
+.lectures a{color:var(--fg);margin-right:.6rem}
+
 .banner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.2rem;background:linear-gradient(120deg,#0b3a9c,#1d6bf3);color:#fff;border-radius:24px;padding:2rem}
 .banner h2{margin:0 0 .3rem}
 .banner p{margin:0;opacity:.92}

@@ -1,5 +1,6 @@
+import { Fragment } from 'react';
 import Link from 'next/link';
-import { BOARDS, CLASSES, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, MODES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 
 const FEATURES = [
@@ -42,7 +43,7 @@ export default function Home() {
         <h1>Class 8-10 Maths in Hinglish, from Basics to Olympiad</h1>
         <p>Understand once, score full marks.</p>
         <div className="cta-row">
-          <Link className="btn btn-sun" href="/class-10">Start with Class 10</Link>
+          <Link className="btn btn-sun" href="#explore">Explore courses</Link>
           <a className="btn btn-ghost" href={SITE.telegram}>Join Telegram</a>
         </div>
       </div>
@@ -58,13 +59,22 @@ export default function Home() {
       {stats.map(s => <div key={s.t} className="stat"><b>{s.n}</b><span>{s.t}</span></div>)}
     </div></div>
 
-    <section className="section"><div className="wrap">
-      <div className="section-head"><h2>Explore by class</h2><p>Chapter-wise lessons for the class you are in.</p></div>
-      <div className="grid">
-        {classes.map(([k, c]) => (
-          <Link key={k} href={`/${k}`} className="tile"><h3>{c.label}</h3>
-            <span>{c.chapters.length} chapters</span><span className="go">View chapters →</span></Link>))}
-        <Link href="/olympiad" className="tile"><h3>Olympiad</h3><span>SOF IMO prep</span><span className="go">How to prepare →</span></Link>
+    <section className="section" id="explore"><div className="wrap">
+      <div className="section-head"><h2>Explore courses</h2><p>Choose how you want to study, then pick your class.</p></div>
+      <div className="tabs">
+        {MODES.map((m, i) => (<Fragment key={m.kind}>
+          <input type="radio" name="mode" id={`mode-${m.kind}`} defaultChecked={i === 0} />
+          <label htmlFor={`mode-${m.kind}`}>{m.label}</label>
+        </Fragment>))}
+        {MODES.map(m => (<div key={m.kind} className="tab-panel">
+          <p className="muted"><span className={`badge ${m.kind}`}>{m.badge}</span> {m.text}</p>
+          <div className="grid">
+            {classes.map(([k, c]) => (
+              <Link key={k} href={m.kind === 'self' ? `/${k}` : `${m.href}#${k}`} className="tile"><h3>{c.label}</h3>
+                <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">{m.label} →</span></Link>))}
+            <Link href={m.href} className="tile"><h3>All classes</h3><span>See everything in {m.label}</span><span className="go">Open →</span></Link>
+          </div>
+        </div>))}
       </div>
     </div></section>
 
