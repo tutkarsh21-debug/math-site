@@ -1,0 +1,6 @@
+T: Cyclic quadrilaterals
+Q: [ICSE 2025, 1 mark] $A$, $E$, $C$ and $B$ lie in order on a circle. Chords $AC$ and $BC$ are equal, $BC$ is produced to $D$, and $\angle ACD = 120°$. Find $\angle AEC$. (a) $30°$  (b) $60°$  (c) $90°$  (d) $120°$
+S: $\angle ACB = 180° - 120° = 60°$ (linear pair).
+S: $AC = BC$, so $\angle ABC = \angle BAC = \dfrac{180° - 60°}{2} = 60°$.
+S: $ABCE$ is a cyclic quadrilateral, so $\angle AEC = 180° - \angle ABC = 120°$.
+S: **Answer: (d)**

@@ -1,0 +1,5 @@
+T: Sum of n terms
+Q: [ICSE 2025, 3 marks] An A.P. has first term 5 and last term 50, and its terms add up to 440. Find (a) the number of terms (b) the common difference.
+S: (a) $S = \dfrac{n}{2}(a + l)$: $440 = \dfrac{n}{2}(5 + 50)$, so $n = \dfrac{880}{55} = 16$.
+S: (b) $l = a + (n - 1)d$: $50 = 5 + 15d$, so $d = 3$.
+S: **Answer: (a) 16 terms (b) common difference 3**

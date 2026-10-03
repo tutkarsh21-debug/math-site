@@ -1,0 +1,12 @@
+T: The three basic identities
+Q: [ICSE 2025, 1 mark] Assertion (A): If $\sin^2 A + \sin A = 1$, then $\cos^4 A + \cos^2 A = 1$. Reason (R): $1 - \sin^2 A = \cos^2 A$. (a) A true, R false  (b) A false, R true  (c) both true, and R is the correct reason for A  (d) both true, but R is not the correct reason for A
+S: From the given relation, $\sin A = 1 - \sin^2 A = \cos^2 A$ (using R).
+S: Then $\cos^4 A + \cos^2 A = \sin^2 A + \sin A = 1$. So A is true, and R is exactly what proves it.
+S: **Answer: (c)**
+
+T: Proving identities
+Q: [ICSE 2025, 4 marks] Prove that $\dfrac{(\cot A + \tan A - 1)(\sin A + \cos A)}{\sin^3 A + \cos^3 A} = \sec A\,\mathrm{cosec}\,A$.
+S: $\cot A + \tan A - 1 = \dfrac{\cos^2 A + \sin^2 A - \sin A\cos A}{\sin A\cos A} = \dfrac{1 - \sin A\cos A}{\sin A\cos A}$
+S: $\sin^3 A + \cos^3 A = (\sin A + \cos A)(\sin^2 A - \sin A\cos A + \cos^2 A) = (\sin A + \cos A)(1 - \sin A\cos A)$
+S: LHS $= \dfrac{(1 - \sin A\cos A)(\sin A + \cos A)}{\sin A\cos A\,(\sin A + \cos A)(1 - \sin A\cos A)} = \dfrac{1}{\sin A\cos A}$
+S: $= \sec A\,\mathrm{cosec}\,A$ = RHS. **Proved.**

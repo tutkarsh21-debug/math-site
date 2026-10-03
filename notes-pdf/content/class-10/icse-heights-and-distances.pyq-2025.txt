@@ -1,0 +1,9 @@
+T: Problems with two triangles
+Q: [ICSE 2025, 5 marks] A vertical tower $AB$ stands 100 m from the foot $D$ of a building $CD$. $E$ is the mid-point of $CD$. The angle of depression of the top $A$ of the tower is $35°$ from $C$ and $14°$ from $E$. Using tangent values rounded to two decimal places, find the height of (a) the tower (b) the building.
+!fig w=320 h=255; P B 60 232 bl; P D 260 232 br; P A 60 192 l; P P 260 192 r; P E 260 142 r; P C 260 52 tr; L B D; H A B; H D C; D A P; L A C; L A E; R A B D; R C D B
+S: Draw $AP$ horizontal, meeting $CD$ at $P$. Then $AP = BD = 100$ m and $PD = AB$. The angles of depression equal $\angle CAP = 35°$ and $\angle EAP = 14°$ (alternate angles).
+S: From the tables, $\tan 35° = 0.70$ and $\tan 14° = 0.25$.
+S: $CP = 100\tan 35° = 70$ m and $EP = 100\tan 14° = 25$ m, so $CE = 70 - 25 = 45$ m.
+S: $E$ is the mid-point of $CD$, so $CD = 2 \times 45 = 90$ m and $ED = 45$ m.
+S: $AB = PD = ED - EP = 45 - 25 = 20$ m
+S: **Answer: (a) tower 20 m (b) building 90 m**

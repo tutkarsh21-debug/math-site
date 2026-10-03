@@ -1,0 +1,15 @@
+T: Similar triangles
+Q: [ICSE 2025, 1 mark] $\triangle ABC \sim \triangle EFG$ with $\angle ABC = \angle EFG = 60°$, $AB = 15$ cm, $BC = 3$ cm and $EF = 75$ cm. Find $FG$. (a) 15 cm  (b) 20 cm  (c) 25 cm  (d) 30 cm
+S: Corresponding sides are proportional: $\dfrac{AB}{EF} = \dfrac{BC}{FG}$.
+S: $\dfrac{15}{75} = \dfrac{3}{FG}$, so $FG = 15$ cm.
+S: **Answer: (a)**
+
+T: Maps and models
+Q: [ICSE 2025, 4 marks] In $\triangle ABC$, $\angle ABC = 90°$, $AB = 20$ cm and $AC = 25$ cm. $D$ is a point on $AB$ and $E$ is a point on $AC$ with $DE \perp AC$ and $DE = 3$ cm. (a) Prove that $\triangle ABC \sim \triangle AED$. (b) Find $BC$, $AD$ and $AE$. (c) $BCED$ is a plot of land drawn on a map, and its actual area is 576 m². Find the scale factor of the map.
+!fig w=250 h=235; P B 60 205 bl; P A 60 45 tl; P C 180 205 br; P D 60 85 l; P E 79.2 70.6 tr; L A B; L B C; L A C; H D E; R A B C; R A E D
+S: (a) In $\triangle ABC$ and $\triangle AED$: $\angle A$ is common and $\angle ABC = \angle AED = 90°$. So $\triangle ABC \sim \triangle AED$ (AA).
+S: (b) $BC = \sqrt{25^2 - 20^2} = 15$ cm. From the similar triangles, $\dfrac{AB}{AE} = \dfrac{BC}{ED} = \dfrac{AC}{AD} = \dfrac{15}{3} = 5$.
+S: $AE = \dfrac{20}{5} = 4$ cm and $AD = \dfrac{25}{5} = 5$ cm.
+S: (c) Area of $BCED$ on the map $=$ area of $\triangle ABC$ $-$ area of $\triangle AED$ $= \dfrac{1}{2} \times 20 \times 15 - \dfrac{1}{2} \times 4 \times 3 = 150 - 6 = 144$ cm².
+S: Actual area $= 576$ m² $= 5760000$ cm². $k^2 = \dfrac{144}{5760000} = \dfrac{1}{40000}$, so $k = \dfrac{1}{200}$.
+S: **Answer: (b) $BC = 15$ cm, $AD = 5$ cm, $AE = 4$ cm (c) scale factor $1 : 200$**

@@ -1,0 +1,12 @@
+T: Mean of raw and tabulated data
+Q: [ICSE 2025, 1 mark] Assertion (A): The mean of the first 9 natural numbers is 4.5. Reason (R): Mean $= \dfrac{\text{sum of all the observations}}{\text{total number of observations}}$. (a) A true, R false  (b) A false, R true  (c) both true, and R is the correct reason for A  (d) both true, but R is not the correct reason for A
+S: $1 + 2 + \ldots + 9 = 45$, so the mean is $\dfrac{45}{9} = 5$, not 4.5. A is false.
+S: R is the correct formula for the mean.
+S: **Answer: (b)**
+Q: [ICSE 2025, 3 marks] For the data below, find (a) the mean, to the nearest whole number (b) the median.
+| $x$ | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+| $f$ | 3 | 2 | 2 | 6 | 3 | 5 | 3 |
+S: (a) $\sum f = 24$ and $\sum fx = 30 + 22 + 24 + 78 + 42 + 75 + 48 = 319$. Mean $= \dfrac{319}{24} \approx 13.29$, which is 13 to the nearest whole number.
+S: (b) Cumulative frequencies: 3, 5, 7, 13, 16, 21, 24. With $n = 24$ (even), the median is the mean of the 12th and 13th values.
+S: Values 8 to 13 are all 13, so the 12th and 13th values are both 13.
+S: **Answer: (a) mean $= 13$ (b) median $= 13$**

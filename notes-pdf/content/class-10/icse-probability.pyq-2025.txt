@@ -1,0 +1,12 @@
+T: Probability of an event
+Q: [ICSE 2025, 1 mark] Which of these cannot be the probability of an event? (a) $\dfrac{5}{4}$  (b) 0.25  (c) $\dfrac{1}{33}$  (d) 67%
+S: A probability always lies from 0 to 1. $\dfrac{5}{4} = 1.25$ is greater than 1.
+S: **Answer: (a)**
+
+T: Balls, numbered cards and letters
+Q: [ICSE 2025, 3 marks] A box holds cards numbered 1 to 30, and one card is drawn at random. A wall clock is won for a perfect square, a water bottle for an even number that is also a multiple of 3, and a purse for a prime number. Find the probability of winning (a) the wall clock (b) the water bottle (c) the purse.
+S: There are 30 equally likely outcomes.
+S: (a) Perfect squares: 1, 4, 9, 16, 25 (5 cards). Probability $= \dfrac{5}{30} = \dfrac{1}{6}$.
+S: (b) Even multiples of 3 are the multiples of 6: 6, 12, 18, 24, 30 (5 cards). Probability $= \dfrac{5}{30} = \dfrac{1}{6}$.
+S: (c) Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 (10 cards). Probability $= \dfrac{10}{30} = \dfrac{1}{3}$.
+S: **Answer: (a) $\dfrac{1}{6}$ (b) $\dfrac{1}{6}$ (c) $\dfrac{1}{3}$**

@@ -1,0 +1,12 @@
+T: Sales within a state: CGST and SGST
+Q: [ICSE 2025, 1 mark] An article has a marked price of ₹1375, and CGST is charged at 4%. What is its price including GST? (a) ₹55  (b) ₹110  (c) ₹1430  (d) ₹1485
+S: CGST and SGST are equal, so the total GST rate is $4\% + 4\% = 8\%$.
+S: GST $= 8\%$ of 1375 $= 110$, so the price is $1375 + 110 = 1485$.
+S: **Answer: (d)**
+
+T: A bill with several items
+Q: [ICSE 2025, 4 marks] A bill lists 6 pieces of article A (marked price ₹190 each, GST 12%) and 12 pieces of article B (marked price ₹50 each, GST 18%). A discount of 5% is given on an article when 10 or more pieces of it are bought. The customer paid ₹2000, taken as the bill rounded to the nearest ₹10. Is this amount correct?
+S: Article A: $190 \times 6 = 1140$. Only 6 pieces, so no discount. GST $= 12\%$ of 1140 $= 136.80$. Amount $= 1276.80$.
+S: Article B: $50 \times 12 = 600$. Discount $= 5\%$ of 600 $= 30$, so the taxable value is 570. GST $= 18\%$ of 570 $= 102.60$. Amount $= 672.60$.
+S: Total $= 1276.80 + 672.60 = 1949.40$, which is ₹1950 to the nearest ₹10.
+S: **Answer: the amount paid is not correct. The customer should have paid ₹1950, not ₹2000.**

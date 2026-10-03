@@ -1,0 +1,10 @@
+T: Multiplication of matrices
+Q: [ICSE 2025, 1 mark] If $A = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$, find $A^2$. (a) $\begin{bmatrix} 1 & 1 \\ 0 & 0 \end{bmatrix}$  (b) $\begin{bmatrix} 0 & 0 \\ 1 & 1 \end{bmatrix}$  (c) $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$  (d) $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+S: $A^2 = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} = \begin{bmatrix} 0 + 1 & 0 + 0 \\ 0 + 0 & 1 + 0 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
+S: **Answer: (c)**
+Q: [ICSE 2025, 4 marks] Given $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$, $B = \begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}$ and $C = \begin{bmatrix} -5 & 1 \\ 7 & -4 \end{bmatrix}$, find (a) $A + C$ (b) $B(A + C)$ (c) $5B$ (d) $B(A + C) - 5B$.
+S: (a) $A + C = \begin{bmatrix} 1 - 5 & 2 + 1 \\ 3 + 7 & 4 - 4 \end{bmatrix} = \begin{bmatrix} -4 & 3 \\ 10 & 0 \end{bmatrix}$
+S: (b) $B(A + C) = \begin{bmatrix} 2 & 1 \\ 4 & 2 \end{bmatrix}\begin{bmatrix} -4 & 3 \\ 10 & 0 \end{bmatrix} = \begin{bmatrix} -8 + 10 & 6 + 0 \\ -16 + 20 & 12 + 0 \end{bmatrix} = \begin{bmatrix} 2 & 6 \\ 4 & 12 \end{bmatrix}$
+S: (c) $5B = \begin{bmatrix} 10 & 5 \\ 20 & 10 \end{bmatrix}$
+S: (d) $B(A + C) - 5B = \begin{bmatrix} 2 - 10 & 6 - 5 \\ 4 - 20 & 12 - 10 \end{bmatrix}$
+S: **Answer: (d) $\begin{bmatrix} -8 & 1 \\ -16 & 2 \end{bmatrix}$**

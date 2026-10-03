@@ -1,0 +1,16 @@
+T: Tangent and secant from an external point
+Q: [ICSE 2025, 3 marks] $PT$ is a tangent to a circle at $T$, and a line through $P$ cuts the circle at $R$ and $S$, with $R$ nearer to $P$. (a) Prove that $\triangle PTR \sim \triangle PST$. (b) Prove that $PT^2 = PR \times PS$. (c) If $PR = 4$ cm and $PS = 16$ cm, find $PT$.
+!fig w=280 h=215; P O 130 110 l; P T 165 170.6 br; P P 234.3 130.6 r; P R 200 110 tr; P S 97.2 48.2 tl; Q X 121.7 195.6; C O 70; L P X; L P S; H S T; H R T
+S: (a) In $\triangle PTR$ and $\triangle PST$: $\angle P$ is common, and $\angle PTR = \angle PST$ (angle between tangent and chord equals the angle in the alternate segment). So $\triangle PTR \sim \triangle PST$ (AA).
+S: (b) Corresponding sides are proportional: $\dfrac{PT}{PS} = \dfrac{PR}{PT}$, so $PT^2 = PR \times PS$.
+S: (c) $PT^2 = 4 \times 16 = 64$
+S: **Answer: $PT = 8$ cm**
+
+T: The alternate segment theorem
+Q: [ICSE 2025, 4 marks] $X$, $Y$, $Z$ and $C$ lie on a circle with centre $O$. $AB$ is the tangent at $X$, $OB$ cuts the circle at $C$, and $ZY = XY$. Given $\angle OBX = 32°$ and $\angle AXZ = 66°$, find (a) $\angle BOX$ (b) $\angle CYX$ (c) $\angle ZYX$ (d) $\angle OXY$.
+!fig w=340 h=235; P O 170 120 l; P X 170 210 b; P A 40 210 bl; P B 314 210 br; P C 246.3 167.7 tr; P Z 103.1 59.8 tl; P Y 252.2 83.4 tr; C O 90; L A B; L O X; L O B; L X Z; L X Y; L Z Y; L Y C; A A X Z 66°; A X B O 32°
+S: (a) $OX \perp AB$ (radius and tangent). In $\triangle OXB$: $\angle BOX = 90° - 32° = 58°$.
+S: (b) The arc $CX$ subtends $\angle COX = 58°$ at the centre and $\angle CYX$ on the circle: $\angle CYX = \dfrac{58°}{2} = 29°$.
+S: (c) By the alternate segment theorem, $\angle ZYX = \angle AXZ = 66°$.
+S: (d) $ZY = XY$, so $\angle YXZ = \dfrac{180° - 66°}{2} = 57°$. Also $\angle OXZ = 90° - 66° = 24°$. So $\angle OXY = 57° - 24° = 33°$.
+S: **Answer: (a) $58°$ (b) $29°$ (c) $66°$ (d) $33°$**

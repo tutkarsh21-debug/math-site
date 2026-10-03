@@ -1,0 +1,10 @@
+T: The quadratic formula
+Q: [ICSE 2025, 4 marks] Solve $2x^2 - 5x - 4 = 0$, giving the answers correct to three significant figures.
+S: $a = 2$, $b = -5$, $c = -4$. $D = 25 + 32 = 57$ and $\sqrt{57} \approx 7.550$.
+S: $x = \dfrac{5 \pm 7.550}{4}$, so $x = \dfrac{12.550}{4} = 3.1375$ or $x = \dfrac{-2.550}{4} = -0.6375$
+S: **Answer: $x = 3.14$ or $x = -0.637$** (using $\sqrt{57} = 7.5498$, the second root is $-0.63746$)
+
+T: Nature of the roots
+Q: [ICSE 2025, 1 mark] The equation $3x^2 + \sqrt{7}\,x + 2 = 0$ has: (a) two equal real roots  (b) two distinct real roots  (c) more than two real roots  (d) no real roots
+S: $D = b^2 - 4ac = 7 - 24 = -17$, which is negative.
+S: **Answer: (d)**

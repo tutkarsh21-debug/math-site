@@ -1,0 +1,19 @@
+T: Mode from a histogram
+Q: [ICSE 2025, 3 marks] Draw a histogram for the marks of 164 students given below, and use it to find the mode.
+| Marks | 30–40 | 40–50 | 50–60 | 60–70 | 70–80 |
+| Number of students | 10 | 26 | 40 | 54 | 34 |
+S: Draw a rectangle on each class with height equal to its frequency. The tallest rectangle (60–70) is the modal class.
+S: Join the top corners of the tallest rectangle to the nearer top corners of the rectangles on either side, as shown. From the point where the two lines cross, drop a perpendicular to the marks axis.
+!fig w=330 h=240; Q o 50 200; Q xe 310 200; Q ye 50 20; L o xe; L o ye; Q a0 90 200; Q a1 90 170; Q b0 130 200; Q b1 130 170; Q b2 130 122; Q c0 170 200; Q c1 170 122; Q c2 170 80; Q d0 210 200; Q d1 210 80; Q d2 210 38; Q e0 250 200; Q e1 250 38; Q e2 250 98; Q f0 290 200; Q f1 290 98; F d0 d2 e1 e0; L a0 a1; L a1 b1; L b0 b2; L b2 c1; L c0 c2; L c2 d1; L d0 d2; L d2 e1; L e0 e1; L e2 f1; L f0 f1; D d2 e2; D e1 d1; Q m 226.5 62.7; Q n 226.5 200; H m n; T 90 216 30; T 130 216 40; T 170 216 50; T 210 216 60; T 250 216 70; T 290 216 80; T 226 232 mode; T 36 174 10; T 36 126 26; T 36 84 40; T 36 42 54
+S: The perpendicular meets the axis at about 64.
+S: Check with the formula: mode $= 60 + \dfrac{54 - 40}{2(54) - 40 - 34} \times 10 = 60 + \dfrac{140}{34} \approx 64.1$
+S: **Answer: mode $\approx 64$ marks**
+
+T: Reading an ogive
+Q: [ICSE 2025, 4 marks] An ogive for the monthly salaries of the workers in a factory passes through the points below. Find (a) the total number of workers (b) the median class (c) the lower-quartile class (d) the number of workers earning at least ₹6,000 but less than ₹10,000.
+| Salary less than (₹) | 2000 | 4000 | 6000 | 8000 | 10000 | 12000 |
+| Cumulative number of workers | 10 | 20 | 35 | 55 | 70 | 75 |
+S: (a) The last cumulative frequency is the total. **75 workers.**
+S: (b) $\dfrac{N}{2} = 37.5$. The cumulative frequency passes 37.5 between 6000 (35) and 8000 (55). **Median class: 6000–8000.**
+S: (c) $\dfrac{N}{4} = 18.75$. The cumulative frequency passes 18.75 between 2000 (10) and 4000 (20). **Lower-quartile class: 2000–4000.**
+S: (d) Workers below 10000 minus workers below 6000 $= 70 - 35$. **35 workers.**

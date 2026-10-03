@@ -1,0 +1,8 @@
+T: Reflection of figures
+Q: [ICSE 2025, 5 marks] Plot $A(1, 3)$, $B(1, 2)$ and $C(3, 0)$ on graph paper. (a) Reflect $A$ and $B$ in the $x$-axis to get $E$ and $D$. (b) Reflect $A$ and $B$ in the origin to get $F$ and $G$. (c) Reflect $A$, $B$ and $C$ in the $y$-axis to get $J$, $I$ and $H$. (d) Join $A, B, C, D, E, F, G, H, I, J$ in order and name the closed figure.
+S: (a) Reflection in the $x$-axis changes the sign of $y$: $E(1, -3)$ and $D(1, -2)$.
+S: (b) Reflection in the origin changes both signs: $F(-1, -3)$ and $G(-1, -2)$.
+S: (c) Reflection in the $y$-axis changes the sign of $x$: $J(-1, 3)$, $I(-1, 2)$ and $H(-3, 0)$.
+!fig w=300 h=260; Q x1 20 130; Q x2 285 130; Q y1 150 12; Q y2 150 250; D x1 x2; D y1 y2; P A 180 40 tr; P B 180 70 r; P C 240 130 tr; P D 180 190 r; P E 180 220 br; P F 120 220 bl; P G 120 190 l; P H 60 130 tl; P I 120 70 l; P J 120 40 tl; H A B; H B C; H C D; H D E; H E F; H F G; H G H; H H I; H I J; H J A; T 280 146 x; T 162 18 y
+S: (d) The figure has 10 sides and two of its angles point inwards on each side.
+S: **Answer: a concave decagon, shaped like a double-headed arrow**

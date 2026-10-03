@@ -1,0 +1,13 @@
+T: Interest and maturity value
+Q: [ICSE 2025, 1 mark] A man deposits ₹500 every month for 18 months in a recurring deposit account and earns ₹570 as interest. Which expression gives the maturity amount? (a) ₹$(500 \times 18 + 570)$  (b) ₹$(500 \times 19 + 570)$  (c) ₹$(500 \times 18 \times 19 + 570)$  (d) ₹$(500 \times 9 \times 19 + 570)$
+S: Maturity amount $=$ total money deposited $+$ interest.
+S: Total deposited $= 500 \times 18$.
+S: **Answer: (a)**
+
+T: Finding the rate of interest
+Q: [ICSE 2025, 4 marks] A woman deposits ₹250 a month in a recurring deposit account for 3 years and receives ₹10,110 on maturity. Find (a) the rate of interest (b) how much more interest she would earn by depositing ₹50 more each month, at the same rate and for the same time.
+S: (a) $P = 250$, $n = 36$. Total deposited $= 250 \times 36 = 9000$, so the interest is $10110 - 9000 = 1110$.
+S: $I = P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$: $1110 = 250 \times \dfrac{36 \times 37}{24} \times \dfrac{r}{100} = 138.75\,r$
+S: $r = \dfrac{1110}{138.75} = 8$. **The rate is 8% per annum.**
+S: (b) The extra ₹50 a month earns $50 \times \dfrac{36 \times 37}{24} \times \dfrac{8}{100} = 50 \times 55.5 \times 0.08 = 222$.
+S: **Answer: (a) 8% per annum (b) ₹222 more**

@@ -1,0 +1,5 @@
+T: The general term
+Q: [ICSE 2025, 3 marks] 1701 is the $n$th term of the G.P. $7, 21, 63, \ldots$ Find (a) $n$ (b) the sum of these $n$ terms.
+S: (a) $a = 7$, $r = 3$. $7 \times 3^{n-1} = 1701$, so $3^{n-1} = 243 = 3^5$ and $n = 6$.
+S: (b) $S_6 = \dfrac{a(r^6 - 1)}{r - 1} = \dfrac{7(729 - 1)}{2} = 7 \times 364$
+S: **Answer: (a) $n = 6$ (b) sum $= 2548$**

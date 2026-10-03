@@ -1,0 +1,5 @@
+T: Loci in a triangle
+Q: [ICSE 2025, 1 mark] Statement 1: The point equidistant from three non-collinear points $D$, $E$ and $F$ is the circumcentre of $\triangle DEF$. Statement 2: The incentre of a triangle is the point where the bisectors of its angles meet. (a) both true  (b) both false  (c) 1 true, 2 false  (d) 1 false, 2 true
+S: A point equidistant from the three vertices lies on the perpendicular bisectors of all three sides. That point is the circumcentre, so statement 1 is true.
+S: The angle bisectors meet at the point equidistant from the three sides, which is the incentre, so statement 2 is true.
+S: **Answer: (a)**

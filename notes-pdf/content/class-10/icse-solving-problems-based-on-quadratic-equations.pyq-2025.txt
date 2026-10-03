@@ -1,0 +1,7 @@
+T: Problems on speed, distance and time
+Q: [ICSE 2025, 4 marks] A couple drive 350 km to a hill station. Heavy rain reduces their average speed by 20 km/h, and the journey takes 2 hours longer. Find (a) the original speed of the car (b) the time taken at the reduced speed.
+S: (a) Let the original speed be $x$ km/h. $\dfrac{350}{x - 20} - \dfrac{350}{x} = 2$
+S: $350x - 350(x - 20) = 2x(x - 20)$, so $7000 = 2x^2 - 40x$ and $x^2 - 20x - 3500 = 0$
+S: $(x - 70)(x + 50) = 0$, so $x = 70$ (speed cannot be negative).
+S: (b) Reduced speed $= 50$ km/h, so the time is $\dfrac{350}{50} = 7$ hours.
+S: **Answer: (a) 70 km/h (b) 7 hours**

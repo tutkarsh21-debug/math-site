@@ -1,0 +1,8 @@
+T: Return on investment
+Q: [ICSE 2025, 1 mark] A company pays a 12% dividend on its shares. An investor's return on his investment is 10%. The shares were bought: (a) at par  (b) below par  (c) above par  (d) cannot be determined
+S: The return (10%) is less than the dividend rate (12%), so each share cost more than its nominal value.
+S: **Answer: (c)**
+Q: [ICSE 2025, 3 marks] A man buys ₹200 shares of a company at a premium of 25%. His return on the investment is 5%. Find (a) the market value of a share (b) the dividend per cent declared (c) the number of shares bought if his annual dividend is ₹1000.
+S: (a) Market value $= 200 + 25\%$ of 200 $= 250$. **Market value: ₹250.**
+S: (b) Income per share $= 5\%$ of 250 $= 12.50$. Dividend per cent $= \dfrac{12.50}{200} \times 100$. **Dividend: 6.25%.**
+S: (c) Number of shares $= \dfrac{1000}{12.50}$. **80 shares.**
