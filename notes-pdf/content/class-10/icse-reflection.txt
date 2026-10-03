@@ -1,0 +1,113 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 12
+@title Reflection
+@summary Reflection gives the mirror image of a point or a figure in a line or in a point. This chapter covers reflection in the axes, in the origin and in lines parallel to the axes, and the idea of invariant points.
+
+# Reflection in a line
+- The **reflection (image)** of a point $P$ in a line $l$ is the point $P'$ such that $l$ is the perpendicular bisector of $PP'$.
+- The line $l$ is the **mirror line** (line of reflection or axis of reflection).
+- $P$ and $P'$ are at equal distances from the mirror line, on opposite sides of it.
+- The notation $M_x$ means reflection in the $x$-axis, $M_y$ reflection in the $y$-axis and $M_o$ reflection in the origin.
+
+# Reflection in the axes and in the origin
+| Reflection in | Rule | What changes |
+| The $x$-axis ($M_x$) | $(x, y) \rightarrow (x, -y)$ | Sign of the ordinate |
+| The $y$-axis ($M_y$) | $(x, y) \rightarrow (-x, y)$ | Sign of the abscissa |
+| The origin ($M_o$) | $(x, y) \rightarrow (-x, -y)$ | Signs of both |
+?eg Find the reflection of $P(3, -4)$ in (i) the $x$-axis (ii) the $y$-axis (iii) the origin.
+= (i) Change the sign of the ordinate: $(3, 4)$
+= (ii) Change the sign of the abscissa: $(-3, -4)$
+= (iii) Change both signs: $(-3, 4)$
+=> (i) $(3, 4)$  (ii) $(-3, -4)$  (iii) $(-3, 4)$
+?eg The point $P(2, 3)$ is reflected in the $x$-axis to $P'$, and $P'$ is reflected in the $y$-axis to $P''$. Find $P'$ and $P''$, and name a single transformation that maps $P$ to $P''$.
+= $P' = (2, -3)$
+= $P'' = (-2, -3)$
+=> $P'' = (-2, -3)$, which is the reflection of $P$ in the origin.
+!tip Reflection in the $x$-axis followed by reflection in the $y$-axis (in either order) is the same as reflection in the origin.
+
+# Reflection in a line parallel to an axis
+| Mirror line | Rule |
+| $x = a$ (parallel to the $y$-axis) | $(x, y) \rightarrow (2a - x,\ y)$ |
+| $y = b$ (parallel to the $x$-axis) | $(x, y) \rightarrow (x,\ 2b - y)$ |
+- The mirror line passes through the mid-point of the segment joining a point and its image. This fact finds the mirror line when a point and its image are known.
+?eg Find the reflection of $P(5, 3)$ in (i) the line $x = 2$ (ii) the line $y = -1$.
+= (i) $(2 \times 2 - 5,\ 3) = (-1, 3)$
+= (ii) $(5,\ 2 \times (-1) - 3) = (5, -5)$
+=> (i) $(-1, 3)$  (ii) $(5, -5)$
+?eg The image of $A(1, 2)$ in a line parallel to the $y$-axis is $A'(5, 2)$. Find the equation of the mirror line.
+= The mirror line passes through the mid-point of $AA'$, which is $(3, 2)$, and is parallel to the $y$-axis.
+=> The mirror line is $x = 3$.
+?eg A point $P$ is reflected in the $x$-axis to $P'(4, -5)$. Find $P$, and the reflection of $P$ in the line $y = 2$.
+= Reflection in the $x$-axis changes the sign of the ordinate, so $P = (4, 5)$.
+= Reflection of $P$ in $y = 2$: $(4,\ 2 \times 2 - 5) = (4, -1)$
+=> $P = (4, 5)$; its reflection in $y = 2$ is $(4, -1)$.
+
+# Invariant points
+- A point is **invariant** under a reflection if its image is the point itself.
+- A point is invariant exactly when it lies **on the mirror line**.
+| Reflection in | Invariant points |
+| The $x$-axis | Points on the $x$-axis, $(x, 0)$ |
+| The $y$-axis | Points on the $y$-axis, $(0, y)$ |
+| The origin | Only the origin $(0, 0)$ |
+| The line $x = a$ | Points with abscissa $a$ |
+?eg The point $(k, 0)$ is invariant under reflection in a line $L$, and so is $(0, 0)$. Name the line $L$.
+= Both points lie on the $x$-axis, and invariant points lie on the mirror line.
+=> $L$ is the $x$-axis ($y = 0$).
+
+# Reflection of figures
+- To reflect a figure, reflect each of its vertices and join the images in the same order.
+- Reflection keeps lengths and angles unchanged, so a figure and its image are **congruent**. The orientation is reversed, as in a mirror.
+- A figure together with its reflection is symmetrical about the mirror line.
+?eg $P(3, 4)$ is reflected in the $x$-axis to $Q$; $Q$ is reflected in the $y$-axis to $R$; and $P$ is reflected in the $y$-axis to $S$. Write the coordinates of $Q$, $R$ and $S$, name the figure $PQRS$ and find its area.
+= $Q = (3, -4)$, $R = (-3, -4)$, $S = (-3, 4)$
+= $PQ = 8$ units (vertical) and $QR = 6$ units (horizontal), with right angles at each vertex.
+=> $PQRS$ is a rectangle with area $8 \times 6 = 48$ square units.
+
+# Graph questions: how to answer
+- Use the scale given, plot each point carefully and label it with its coordinates.
+- Write the coordinates of every image asked for.
+- Name the closed figure formed using the geometric name (kite, arrowhead, rectangle, isosceles trapezium, and so on).
+- If asked, state the line of symmetry by its equation, such as $x = 0$ for the $y$-axis.
+
+# Common mistakes
+- Changing the wrong sign: reflection in the $x$-axis changes $y$, not $x$.
+- Using $(a - x, y)$ for reflection in $x = a$. The rule is $(2a - x, y)$.
+- Calling a point invariant when it is not on the mirror line.
+- Joining the image points in a different order from the original figure.
+
+@@formulas
+Reflection in the x-axis | $(x, y) \rightarrow (x, -y)$
+Reflection in the y-axis | $(x, y) \rightarrow (-x, y)$
+Reflection in the origin | $(x, y) \rightarrow (-x, -y)$
+Reflection in the line $x = a$ | $(x, y) \rightarrow (2a - x,\ y)$
+Reflection in the line $y = b$ | $(x, y) \rightarrow (x,\ 2b - y)$
+Mirror line | Perpendicular bisector of the segment joining a point and its image
+Invariant point | A point on the mirror line; its image is itself
+$M_x$ followed by $M_y$ | Same as reflection in the origin
+Equation of the x-axis | $y = 0$
+Equation of the y-axis | $x = 0$
+Figure and its image | Congruent, with lengths and angles unchanged
+
+@@dpp
+Q: Find the reflection of $(-2, 5)$ in the $x$-axis and in the $y$-axis.
+A: $(-2, -5)$ and $(2, 5)$
+Q: Find the reflection of $(4, -7)$ in the origin.
+A: $(-4, 7)$
+Q: Find the reflection of $(3, 6)$ in the line $x = -1$.
+A: $(-5, 6)$
+Q: Find the reflection of $(-2, 1)$ in the line $y = 4$.
+A: $(-2, 7)$
+Q: A point $P$ is reflected in the $y$-axis to $P'(-3, 2)$. Find $P$ and its reflection in the origin.
+A: $P = (3, 2)$; reflection in the origin $(-3, -2)$
+Q: The image of $B(2, -3)$ in a line parallel to the $x$-axis is $B'(2, 7)$. Find the equation of the mirror line.
+A: $y = 2$
+Q: Which of the points $(3, 0)$, $(0, -2)$, $(4, 4)$ and $(-5, 0)$ are invariant under reflection in the $x$-axis?
+A: $(3, 0)$ and $(-5, 0)$
+Q: $A(2, 3)$ is reflected in the origin to $A'$, and $A'$ is reflected in the $x$-axis to $A''$. Find $A'$ and $A''$, and a single reflection that maps $A$ to $A''$.
+A: $A' = (-2, -3)$, $A'' = (-2, 3)$; reflection in the $y$-axis
+Q: $A(1, 4)$ and $B(5, 4)$ are reflected in the $x$-axis to $A'$ and $B'$. Name the figure $ABB'A'$ and find its perimeter.
+A: $A' = (1, -4)$, $B' = (5, -4)$; a rectangle with perimeter $2(4 + 8) = 24$ units
+Q: $P(-3, 2)$ is reflected in the line $x = 1$ to $Q$, and $Q$ is reflected in the line $y = -1$ to $R$. Find $Q$ and $R$.
+A: $Q = (5, 2)$, $R = (5, -4)$

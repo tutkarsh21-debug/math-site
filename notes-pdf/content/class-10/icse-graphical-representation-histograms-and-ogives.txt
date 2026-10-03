@@ -1,0 +1,121 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 23
+@title Graphical Representation (Histograms and Ogives)
+@summary A histogram and an ogive are two graphs of a frequency distribution. This chapter covers how to draw each, and how to read the mode from a histogram and the median and quartiles from an ogive.
+
+# Frequency distributions: the terms
+- **Class interval**: a group such as 10–20. 10 is the lower limit and 20 the upper limit.
+- **Class size (width)** $=$ upper limit $-$ lower limit of a continuous class.
+- **Class mark** $= \dfrac{\text{lower limit} + \text{upper limit}}{2}$.
+- **Frequency**: the number of observations in a class.
+- **Cumulative frequency (c.f.)**: the total of the frequencies up to and including a class.
+- **Exclusive (continuous) form**: 10–20, 20–30, ... The upper limit of one class is the lower limit of the next, and a value equal to the upper limit is counted in the next class.
+- **Inclusive (discontinuous) form**: 10–19, 20–29, ... There is a gap between classes.
+
+# Making classes continuous
+- Histograms and ogives need continuous classes.
+$$\text{Adjustment factor} = \frac{\text{lower limit of a class} - \text{upper limit of the class before it}}{2}$$
+- Subtract the adjustment factor from every lower limit and add it to every upper limit.
+?eg Convert the classes 10–19, 20–29, 30–39 into continuous classes.
+= Adjustment factor $= \dfrac{20 - 19}{2} = 0.5$
+=> 9.5–19.5, 19.5–29.5, 29.5–39.5
+
+# Histogram
+- A **histogram** is a graph of a continuous frequency distribution made of rectangles.
+- Take the class intervals along the $x$-axis and the frequencies along the $y$-axis.
+- Draw a rectangle on each class interval with height equal to its frequency. The rectangles are joined to one another, with **no gaps**.
+- If the first class does not start at zero, show a **kink** (break) on the $x$-axis near the origin.
+- If only class marks are given, find the class limits first: half the difference between two consecutive class marks on either side of each mark.
+?eg The class marks of a distribution are 15, 25, 35, 45. Find the class intervals.
+= The difference between consecutive class marks is 10, so each class extends 5 on either side of its mark.
+=> 10–20, 20–30, 30–40, 40–50
+
+# Mode from a histogram
+- The **modal class** is the class of the tallest rectangle.
+- Step 1: join the top-left corner of the tallest rectangle to the top-left corner of the rectangle on its **right**.
+- Step 2: join the top-right corner of the tallest rectangle to the top-right corner of the rectangle on its **left**.
+- Step 3: from the point where these two lines cross, draw a perpendicular to the $x$-axis.
+- The point where the perpendicular meets the $x$-axis gives the **mode**.
+
+# Cumulative frequency table
+- Add the frequencies one by one to get the cumulative frequencies. The last cumulative frequency equals the total number of observations $N$.
+?eg Prepare a cumulative frequency table for the data below.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Number of students | 4 | 10 | 16 | 14 | 6 |
+= Add the frequencies one after another.
+| Marks | Frequency | Cumulative frequency | Point to plot |
+| 0–10 | 4 | 4 | (10, 4) |
+| 10–20 | 10 | 14 | (20, 14) |
+| 20–30 | 16 | 30 | (30, 30) |
+| 30–40 | 14 | 44 | (40, 44) |
+| 40–50 | 6 | 50 | (50, 50) |
+=> $N = 50$. The points are plotted against the **upper limits** of the classes.
+
+# Ogive
+- An **ogive** is a cumulative frequency curve.
+- Step 1: make the classes continuous and write the cumulative frequencies.
+- Step 2: take the **upper class limits** along the $x$-axis and the cumulative frequencies along the $y$-axis.
+- Step 3: plot the points (upper limit, cumulative frequency).
+- Step 4: also plot the point (lower limit of the first class, 0), because no observation lies below it.
+- Step 5: join the points with a **smooth freehand curve**, not with a ruler.
+- The curve always rises from left to right, in the shape of a stretched S.
+
+# Reading an ogive
+- Let $N$ be the total frequency. To read a value, draw a horizontal line from the required point on the $y$-axis to the curve, then a vertical line down to the $x$-axis.
+| Measure | Read the $x$-value for cumulative frequency |
+| Median | $\dfrac{N}{2}$ |
+| Lower quartile $Q_1$ | $\dfrac{N}{4}$ |
+| Upper quartile $Q_3$ | $\dfrac{3N}{4}$ |
+- **Inter-quartile range** $= Q_3 - Q_1$.
+- To find **how many observations are below a value**: go up from that value on the $x$-axis to the curve and read the cumulative frequency.
+- **Number above a value** $= N -$ number below it.
+?eg For the data in the table above, which cumulative frequencies are used to read the median and the quartiles? If 26 students scored less than 28 marks, how many scored 28 or more?
+= $N = 50$: median at $\dfrac{N}{2} = 25$, $Q_1$ at $\dfrac{N}{4} = 12.5$ and $Q_3$ at $\dfrac{3N}{4} = 37.5$
+= Number scoring 28 or more $= 50 - 26$
+=> Read the curve at 25, 12.5 and 37.5; 24 students scored 28 or more.
+!tip If a percentage is asked, such as "the top 20% of students", change it to a number first: 20% of 50 is 10, so read the curve at cumulative frequency $50 - 10 = 40$.
+
+# Common mistakes
+- Plotting the ogive against class marks or lower limits. Use the **upper limits**.
+- Joining the points of an ogive with straight lines.
+- Leaving gaps between the rectangles of a histogram.
+- Forgetting to make inclusive classes continuous.
+- Reading the median at $N$ instead of $\dfrac{N}{2}$.
+
+@@formulas
+Class mark | $\dfrac{\text{lower limit} + \text{upper limit}}{2}$
+Class size | Upper limit $-$ lower limit (continuous classes)
+Adjustment factor | $\dfrac{\text{lower limit of a class} - \text{upper limit of the previous class}}{2}$
+Histogram | Rectangles on continuous classes; height $=$ frequency; no gaps
+Mode from a histogram | Foot of the perpendicular from the crossing point of the two diagonal lines in the tallest rectangle
+Ogive | Plot (upper class limit, cumulative frequency); join with a smooth curve
+Starting point of an ogive | (lower limit of the first class, 0)
+Median from an ogive | Value at cumulative frequency $\dfrac{N}{2}$
+Lower quartile $Q_1$ | Value at cumulative frequency $\dfrac{N}{4}$
+Upper quartile $Q_3$ | Value at cumulative frequency $\dfrac{3N}{4}$
+Inter-quartile range | $Q_3 - Q_1$
+Number above a value | $N -$ cumulative frequency at that value
+
+@@dpp
+Q: Find the class mark and the class size of the class 25–35.
+A: Class mark 30; class size 10
+Q: Convert the classes 1–10, 11–20, 21–30 into continuous classes.
+A: 0.5–10.5, 10.5–20.5, 20.5–30.5
+Q: The class marks of a distribution are 12, 18, 24, 30. Find the class intervals.
+A: 9–15, 15–21, 21–27, 27–33
+Q: Classes 0–5, 5–10, 10–15, 15–20 have frequencies 3, 7, 9, 5. Write the cumulative frequencies.
+A: 3, 10, 19, 24
+Q: For the data in the previous question, write the points that are plotted to draw the ogive.
+A: (0, 0), (5, 3), (10, 10), (15, 19), (20, 24)
+Q: In a histogram, the tallest rectangle is on the class 30–40. What is the modal class, and between which values does the mode lie?
+A: 30–40; between 30 and 40
+Q: An ogive is drawn for 80 students. At which cumulative frequencies are the median, $Q_1$ and $Q_3$ read?
+A: 40, 20 and 60
+Q: From an ogive, $Q_1 = 32$ and $Q_3 = 58$. Find the inter-quartile range.
+A: 26
+Q: An ogive for 200 workers shows that 150 workers earn less than ₹500 a day. How many earn ₹500 or more? What percentage is this?
+A: 50 workers; 25%
+Q: In a test taken by 120 students, the top 25% are to be given a prize. At which cumulative frequency should the ogive be read to find the lowest mark that wins a prize?
+A: $120 - 30 = 90$

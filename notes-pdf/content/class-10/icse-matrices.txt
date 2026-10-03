@@ -1,0 +1,110 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 9
+@title Matrices
+@summary A matrix is a rectangular arrangement of numbers. This chapter covers the order and types of matrices, adding and subtracting them, multiplying by a number, and multiplying two matrices.
+
+# What a matrix is
+- A **matrix** is a rectangular arrangement of numbers in rows and columns, enclosed in brackets. Each number is an **element**.
+- A matrix with $m$ rows and $n$ columns has **order** $m \times n$ (read "$m$ by $n$") and $m \times n$ elements. Rows are counted first.
+$$A = \begin{bmatrix} 2 & 5 & -1 \\ 0 & 3 & 4 \end{bmatrix} \text{ has 2 rows and 3 columns, so its order is } 2 \times 3.$$
+- Two matrices are **equal** if they have the same order and every pair of corresponding elements is equal.
+| Type | Description | Example |
+| Row matrix | Only one row | $\begin{bmatrix} 3 & 1 & 4 \end{bmatrix}$ |
+| Column matrix | Only one column | $\begin{bmatrix} 2 \\ 7 \end{bmatrix}$ |
+| Square matrix | Rows $=$ columns | $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ |
+| Zero (null) matrix | Every element is 0 | $\begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}$ |
+| Identity (unit) matrix $I$ | Square; 1 on the leading diagonal, 0 elsewhere | $\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$ |
+- The **transpose** $A^t$ is obtained by interchanging the rows and columns of $A$.
+?eg Find $x$ and $y$ if $\begin{bmatrix} x + y & 5 \\ 2 & x - y \end{bmatrix} = \begin{bmatrix} 7 & 5 \\ 2 & 3 \end{bmatrix}$.
+= Equal matrices have equal corresponding elements: $x + y = 7$ and $x - y = 3$
+= Adding: $2x = 10$
+=> $x = 5$, $y = 2$
+
+# Addition, subtraction and multiplication by a number
+- Two matrices can be added or subtracted only if they have the **same order**. Add or subtract the corresponding elements.
+- To multiply a matrix by a number (a **scalar**), multiply every element by that number.
+- $A + B = B + A$, and $A + O = A$ where $O$ is the zero matrix of the same order.
+?eg If $A = \begin{bmatrix} 2 & -1 \\ 3 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} 1 & 5 \\ -2 & 0 \end{bmatrix}$, find $A + B$ and $2A - 3B$.
+= $A + B = \begin{bmatrix} 2 + 1 & -1 + 5 \\ 3 - 2 & 4 + 0 \end{bmatrix} = \begin{bmatrix} 3 & 4 \\ 1 & 4 \end{bmatrix}$
+= $2A = \begin{bmatrix} 4 & -2 \\ 6 & 8 \end{bmatrix}$ and $3B = \begin{bmatrix} 3 & 15 \\ -6 & 0 \end{bmatrix}$
+=> $A + B = \begin{bmatrix} 3 & 4 \\ 1 & 4 \end{bmatrix}$ and $2A - 3B = \begin{bmatrix} 1 & -17 \\ 12 & 8 \end{bmatrix}$
+?eg Find the matrix $X$ if $X + \begin{bmatrix} 4 & 1 \\ -2 & 3 \end{bmatrix} = \begin{bmatrix} 6 & 0 \\ 1 & 5 \end{bmatrix}$.
+= $X = \begin{bmatrix} 6 & 0 \\ 1 & 5 \end{bmatrix} - \begin{bmatrix} 4 & 1 \\ -2 & 3 \end{bmatrix}$
+=> $X = \begin{bmatrix} 2 & -1 \\ 3 & 2 \end{bmatrix}$
+
+# Multiplication of matrices
+- The product $AB$ exists only if the number of **columns of $A$** equals the number of **rows of $B$**.
+- If $A$ is $m \times n$ and $B$ is $n \times p$, then $AB$ is $m \times p$.
+- The element in row $i$ and column $j$ of $AB$ is obtained by multiplying the elements of row $i$ of $A$ by the corresponding elements of column $j$ of $B$ and adding.
+$$\begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} p & q \\ r & s \end{bmatrix} = \begin{bmatrix} ap + br & aq + bs \\ cp + dr & cq + ds \end{bmatrix}$$
+?eg If $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} 2 & 0 \\ 1 & 5 \end{bmatrix}$, find $AB$ and $BA$. Is $AB = BA$?
+= $AB = \begin{bmatrix} 1 \times 2 + 2 \times 1 & 1 \times 0 + 2 \times 5 \\ 3 \times 2 + 4 \times 1 & 3 \times 0 + 4 \times 5 \end{bmatrix} = \begin{bmatrix} 4 & 10 \\ 10 & 20 \end{bmatrix}$
+= $BA = \begin{bmatrix} 2 \times 1 + 0 \times 3 & 2 \times 2 + 0 \times 4 \\ 1 \times 1 + 5 \times 3 & 1 \times 2 + 5 \times 4 \end{bmatrix} = \begin{bmatrix} 2 & 4 \\ 16 & 22 \end{bmatrix}$
+=> $AB \neq BA$. Matrix multiplication is not commutative in general.
+?eg If $A = \begin{bmatrix} 3 & 1 \\ -1 & 2 \end{bmatrix}$, show that $A^2 - 5A + 7I = O$.
+= $A^2 = \begin{bmatrix} 9 - 1 & 3 + 2 \\ -3 - 2 & -1 + 4 \end{bmatrix} = \begin{bmatrix} 8 & 5 \\ -5 & 3 \end{bmatrix}$
+= $5A = \begin{bmatrix} 15 & 5 \\ -5 & 10 \end{bmatrix}$ and $7I = \begin{bmatrix} 7 & 0 \\ 0 & 7 \end{bmatrix}$
+= $A^2 - 5A + 7I = \begin{bmatrix} 8 - 15 + 7 & 5 - 5 + 0 \\ -5 + 5 + 0 & 3 - 10 + 7 \end{bmatrix}$
+=> $= \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix} = O$
+
+# Properties of multiplication
+- In general $AB \neq BA$.
+- $A(BC) = (AB)C$ and $A(B + C) = AB + AC$, whenever the products exist.
+- $AI = IA = A$ for a square matrix $A$ and the identity matrix $I$ of the same order.
+- $AB = O$ does **not** mean that $A = O$ or $B = O$.
+- $AB = AC$ does **not** mean that $B = C$.
+- $(A + B)^2 = A^2 + AB + BA + B^2$, which is not $A^2 + 2AB + B^2$ unless $AB = BA$.
+
+# Solving matrix equations
+- First find the **order** of the unknown matrix from the orders of the other matrices.
+- Write the unknown matrix with letters for its elements, multiply out, and compare corresponding elements.
+?eg Find the matrix $X$ such that $\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} X = \begin{bmatrix} 7 \\ 11 \end{bmatrix}$.
+= The first matrix is $2 \times 2$ and the product is $2 \times 1$, so $X$ is $2 \times 1$. Let $X = \begin{bmatrix} x \\ y \end{bmatrix}$.
+= $\begin{bmatrix} 2x + y \\ x + 3y \end{bmatrix} = \begin{bmatrix} 7 \\ 11 \end{bmatrix}$, so $2x + y = 7$ and $x + 3y = 11$
+= Solving: $x = 2$, $y = 3$
+=> $X = \begin{bmatrix} 2 \\ 3 \end{bmatrix}$
+
+# Common mistakes
+- Adding matrices of different orders.
+- Multiplying corresponding elements to find $AB$. Use row by column.
+- Assuming $AB = BA$, or expanding $(A + B)^2$ as in ordinary algebra.
+- Writing the order as columns $\times$ rows.
+- Using the number 1 in place of the identity matrix $I$, or 0 in place of the zero matrix $O$.
+
+@@formulas
+Order of a matrix | Rows $\times$ columns: $m \times n$
+Equal matrices | Same order and equal corresponding elements
+Addition and subtraction | Same order only; add or subtract corresponding elements
+Scalar multiplication | $k\begin{bmatrix} a & b \\ c & d \end{bmatrix} = \begin{bmatrix} ka & kb \\ kc & kd \end{bmatrix}$
+Condition for $AB$ to exist | Columns of $A$ $=$ rows of $B$
+Order of the product | $(m \times n)(n \times p) = m \times p$
+Product of $2 \times 2$ matrices | $\begin{bmatrix} a & b \\ c & d \end{bmatrix} \begin{bmatrix} p & q \\ r & s \end{bmatrix} = \begin{bmatrix} ap + br & aq + bs \\ cp + dr & cq + ds \end{bmatrix}$
+Identity matrix | $I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$;  $AI = IA = A$
+Zero matrix | $A + O = A$;  $AO = OA = O$
+Not commutative | $AB \neq BA$ in general
+Distributive law | $A(B + C) = AB + AC$
+Transpose | Rows and columns interchanged: $\begin{bmatrix} a & b \\ c & d \end{bmatrix}^t = \begin{bmatrix} a & c \\ b & d \end{bmatrix}$
+
+@@dpp
+Q: State the order of $\begin{bmatrix} 4 & 0 & 1 \\ 2 & -3 & 5 \end{bmatrix}$ and the number of its elements.
+A: $2 \times 3$; 6 elements
+Q: Find $a$ and $b$ if $\begin{bmatrix} a + 3 & 4 \\ 6 & 2b \end{bmatrix} = \begin{bmatrix} 5 & 4 \\ 6 & 10 \end{bmatrix}$.
+A: $a = 2$, $b = 5$
+Q: If $A = \begin{bmatrix} 3 & -2 \\ 1 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} 0 & 5 \\ 2 & -1 \end{bmatrix}$, find $A - B$.
+A: $\begin{bmatrix} 3 & -7 \\ -1 & 5 \end{bmatrix}$
+Q: For the matrices in the previous question, find $3A + 2B$.
+A: $\begin{bmatrix} 9 & 4 \\ 7 & 10 \end{bmatrix}$
+Q: Find the matrix $X$ if $2X + \begin{bmatrix} 1 & 3 \\ 5 & 7 \end{bmatrix} = \begin{bmatrix} 9 & 7 \\ 1 & 3 \end{bmatrix}$.
+A: $X = \begin{bmatrix} 4 & 2 \\ -2 & -2 \end{bmatrix}$
+Q: If $A = \begin{bmatrix} 2 & 3 \\ 1 & 0 \end{bmatrix}$ and $B = \begin{bmatrix} 1 & -1 \\ 4 & 2 \end{bmatrix}$, find $AB$.
+A: $\begin{bmatrix} 14 & 4 \\ 1 & -1 \end{bmatrix}$
+Q: For the matrices in the previous question, find $BA$.
+A: $\begin{bmatrix} 1 & 3 \\ 10 & 12 \end{bmatrix}$
+Q: If $A = \begin{bmatrix} 1 & 2 \\ 0 & 3 \end{bmatrix}$, find $A^2$.
+A: $\begin{bmatrix} 1 & 8 \\ 0 & 9 \end{bmatrix}$
+Q: Can the product $AB$ be found if $A$ is of order $2 \times 3$ and $B$ is of order $2 \times 2$? What about $BA$?
+A: $AB$ does not exist; $BA$ exists and is of order $2 \times 3$
+Q: Find $x$ and $y$ if $\begin{bmatrix} 3 & 2 \\ 1 & 4 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 12 \\ 14 \end{bmatrix}$.
+A: $3x + 2y = 12$ and $x + 4y = 14$ give $x = 2$, $y = 3$

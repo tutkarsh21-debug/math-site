@@ -1,0 +1,112 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 18
+@title Tangents and Intersecting Chords
+@summary A tangent touches a circle at exactly one point. This chapter covers the properties of tangents, circles that touch each other, the products formed by intersecting chords, and the alternate segment theorem.
+
+# Tangent and secant
+- A **secant** is a line that cuts a circle at two points. A **tangent** is a line that touches the circle at exactly one point, the **point of contact**.
+- From a point **inside** a circle no tangent can be drawn; from a point **on** the circle, exactly one; from a point **outside**, exactly two.
+
+# Tangent properties
+- **Theorem 1**: the tangent at any point of a circle and the radius through that point are **perpendicular** to each other.
+- **Theorem 2**: if two tangents are drawn to a circle from an external point, then (i) they are **equal in length**, (ii) they subtend equal angles at the centre, and (iii) they are equally inclined to the line joining the point to the centre.
+- For tangents $PA$ and $PB$ from $P$ to a circle with centre $O$: $\angle APB + \angle AOB = 180°$.
+- Length of the tangent from a point at distance $d$ from the centre: $\sqrt{d^2 - r^2}$.
+?eg A point $P$ is 17 cm from the centre of a circle of radius 8 cm. Find the length of the tangent from $P$.
+= The radius is perpendicular to the tangent at the point of contact $T$, so $PT^2 = OP^2 - OT^2$.
+= $PT = \sqrt{17^2 - 8^2} = \sqrt{225}$
+=> $PT = 15$ cm
+?eg $PA$ and $PB$ are tangents to a circle with centre $O$, and $\angle APB = 70°$. Find $\angle AOB$ and $\angle OAB$.
+= $\angle AOB = 180° - 70° = 110°$
+= $OA = OB$, so $\angle OAB = \dfrac{180° - 110°}{2}$
+=> $\angle AOB = 110°$ and $\angle OAB = 35°$
+?eg A circle is inscribed in $\triangle ABC$, touching $AB$, $BC$ and $CA$ at $P$, $Q$ and $R$. If $AP = 4$ cm, $BP = 6$ cm and $CR = 5$ cm, find the perimeter of the triangle.
+= Tangents from a point are equal: $AR = AP = 4$, $BQ = BP = 6$, $CQ = CR = 5$.
+= Perimeter $= 2(4 + 6 + 5)$
+=> Perimeter $= 30$ cm
+
+# Circles that touch each other
+- If two circles touch, the **point of contact lies on the line joining their centres**.
+| The circles touch | Distance between the centres | Common tangents |
+| Externally | $R + r$ | 3 |
+| Internally | $R - r$ | 1 |
+- Two circles that do not meet and lie outside each other have 4 common tangents; two intersecting circles have 2.
+?eg Two circles of radii 5 cm and 3 cm touch each other. Find the distance between their centres if they touch (i) externally (ii) internally.
+= (i) $5 + 3$
+= (ii) $5 - 3$
+=> (i) 8 cm  (ii) 2 cm
+
+# Intersecting chords
+- **Theorem 3**: if two chords of a circle intersect, inside or outside the circle when produced, the product of the lengths of the segments of one chord equals the product of the lengths of the segments of the other.
+$$PA \times PB = PC \times PD$$
+- Here $P$ is the point of intersection of the chords $AB$ and $CD$, and every length is measured **from $P$**.
+?eg Chords $AB$ and $CD$ of a circle intersect at a point $P$ inside it. If $PA = 4$ cm, $PB = 6$ cm and $PC = 3$ cm, find $PD$.
+= $PA \times PB = PC \times PD$
+= $4 \times 6 = 3 \times PD$
+=> $PD = 8$ cm
+?eg Chords $AB$ and $CD$, when produced, meet at a point $P$ outside the circle. If $PA = 12$ cm, $AB = 7$ cm and $PC = 10$ cm, find $CD$. ($B$ lies between $P$ and $A$, and $D$ between $P$ and $C$.)
+= $PB = PA - AB = 12 - 7 = 5$ cm
+= $PA \times PB = PC \times PD$: $12 \times 5 = 10 \times PD$, so $PD = 6$ cm
+=> $CD = PC - PD = 4$ cm
+
+# Tangent and secant from an external point
+- **Theorem 4**: if a chord $AB$ and a tangent at $T$ meet at an external point $P$, then
+$$PT^2 = PA \times PB$$
+?eg From an external point $P$, a tangent $PT$ and a secant $PAB$ are drawn to a circle. If $PA = 4$ cm and $AB = 5$ cm, find $PT$.
+= $PB = PA + AB = 9$ cm
+= $PT^2 = PA \times PB = 4 \times 9 = 36$
+=> $PT = 6$ cm
+
+# The alternate segment theorem
+- **Theorem 5**: the angle between a tangent and a chord through the point of contact is equal to the angle in the **alternate segment**.
+- If $TAS$ is the tangent at $A$ and $AB$ is a chord, then $\angle BAS$ equals the angle that $AB$ subtends at any point of the circle on the side of $AB$ away from $S$.
+?eg $TAS$ is a tangent to a circle at $A$, and $AB$ is a chord with $\angle BAS = 55°$. $C$ is a point on the circle in the alternate segment. Find $\angle ACB$.
+= The angle between the tangent and the chord equals the angle in the alternate segment.
+=> $\angle ACB = 55°$
+?eg $PQ$ is a tangent to a circle at $A$. $AB$ is a chord and $C$ is a point on the circle such that $\angle ACB = 48°$ and $\angle ABC = 70°$. Find $\angle BAQ$ and $\angle CAP$, where $B$ is on the side of $Q$.
+= $\angle BAQ = \angle ACB = 48°$ (alternate segment)
+= $\angle CAP = \angle ABC = 70°$ (alternate segment)
+=> $\angle BAQ = 48°$ and $\angle CAP = 70°$. (Check: $48° + 62° + 70° = 180°$, since $\angle BAC = 62°$.)
+
+# Common mistakes
+- Measuring a segment from the wrong end. In $PA \times PB$ both lengths start at $P$.
+- For external intersection, using $AB$ instead of $PB$ in the product.
+- Writing $PT = PA \times PB$. It is $PT^2$.
+- Choosing the angle in the same segment instead of the alternate one.
+
+@@formulas
+Tangent and radius | Perpendicular at the point of contact
+Tangents from an external point | $PA = PB$
+Length of a tangent | $\sqrt{d^2 - r^2}$
+Angle between two tangents | $\angle APB + \angle AOB = 180°$
+Circles touching externally | Distance between centres $= R + r$
+Circles touching internally | Distance between centres $= R - r$
+Intersecting chords (inside or outside) | $PA \times PB = PC \times PD$
+Tangent and secant | $PT^2 = PA \times PB$
+Alternate segment theorem | Angle between tangent and chord $=$ angle in the alternate segment
+Triangle with an incircle | Perimeter $= 2 \times$ (sum of the tangent lengths from the three vertices)
+Quadrilateral circumscribing a circle | $AB + CD = AD + BC$
+
+@@dpp
+Q: Find the length of the tangent drawn to a circle of radius 9 cm from a point 15 cm from its centre.
+A: 12 cm
+Q: The tangent from a point $P$ to a circle is 24 cm long and the radius is 7 cm. Find the distance of $P$ from the centre.
+A: 25 cm
+Q: $PA$ and $PB$ are tangents to a circle with centre $O$. If $\angle AOB = 124°$, find $\angle APB$ and $\angle OPA$.
+A: $56°$ and $28°$
+Q: Two circles with radii 9 cm and 4 cm touch externally. Find the distance between their centres, and the length of a direct common tangent.
+A: 13 cm; $\sqrt{13^2 - 5^2} = 12$ cm
+Q: Chords $AB$ and $CD$ of a circle intersect at $P$ inside it. If $AP = 5$ cm, $PB = 6$ cm and $CP = 3$ cm, find $PD$.
+A: 10 cm
+Q: Chords $AB$ and $CD$ of a circle intersect inside it at $P$. If $AB = 11$ cm, $PB = 3$ cm and $PD = 4$ cm, find $PC$.
+A: $8 \times 3 = PC \times 4$, so $PC = 6$ cm
+Q: From an external point $P$, a secant $PAB$ and a tangent $PT$ are drawn. If $PA = 3$ cm and $PB = 12$ cm, find $PT$.
+A: 6 cm
+Q: A tangent $PT$ is 8 cm long and a secant from $P$ cuts the circle at $A$ and $B$ with $PA = 4$ cm. Find $AB$.
+A: $PB = 16$ cm; $AB = 12$ cm
+Q: The tangent at $A$ to a circle makes an angle of $62°$ with a chord $AB$. Find the angle that $AB$ subtends at a point in the alternate segment, and at the centre.
+A: $62°$ and $124°$
+Q: A circle touches the sides of a quadrilateral $ABCD$. If $AB = 9$ cm, $BC = 7$ cm and $CD = 5$ cm, find $AD$.
+A: 7 cm

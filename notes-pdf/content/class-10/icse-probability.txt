@@ -1,0 +1,120 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 25
+@title Probability
+@summary Probability is a number between 0 and 1 that measures how likely an event is. This chapter covers the probability of an event when all the outcomes are equally likely.
+
+# Basic terms
+- A **random experiment** is one whose result cannot be predicted in advance, such as tossing a coin, throwing a die or drawing a card.
+- Each possible result is an **outcome**. The set of all possible outcomes is the **sample space**, $S$.
+- An **event** $E$ is any set of outcomes. The outcomes in it are the **favourable outcomes**.
+- Outcomes are **equally likely** when none is expected to occur more often than another.
+
+# Probability of an event
+$$P(E) = \frac{\text{number of favourable outcomes}}{\text{total number of possible outcomes}} = \frac{n(E)}{n(S)}$$
+- $0 \leq P(E) \leq 1$.
+- An **impossible event** has probability 0; a **sure (certain) event** has probability 1.
+- The event "not $E$" is the **complementary event** $\bar{E}$:
+$$P(E) + P(\bar{E}) = 1$$
+?eg A die is thrown once. Find the probability of getting (i) an even number (ii) a multiple of 3 (iii) a number less than 1 (iv) a number not greater than 6.
+= $S = \{1, 2, 3, 4, 5, 6\}$, so $n(S) = 6$
+= (i) $\{2, 4, 6\}$: $P = \dfrac{3}{6} = \dfrac{1}{2}$  (ii) $\{3, 6\}$: $P = \dfrac{2}{6} = \dfrac{1}{3}$
+= (iii) No such number: $P = 0$  (iv) All six numbers: $P = 1$
+=> (i) $\dfrac{1}{2}$  (ii) $\dfrac{1}{3}$  (iii) $0$  (iv) $1$
+
+# Coins and dice
+| Experiment | Number of outcomes | Sample space |
+| One coin | 2 | H, T |
+| Two coins | 4 | HH, HT, TH, TT |
+| Three coins | 8 | HHH, HHT, HTH, THH, HTT, THT, TTH, TTT |
+| One die | 6 | 1, 2, 3, 4, 5, 6 |
+| Two dice | 36 | Ordered pairs $(1,1)$ to $(6,6)$ |
+?eg Three coins are tossed together. Find the probability of getting (i) exactly two heads (ii) at least one tail.
+= $n(S) = 8$
+= (i) HHT, HTH, THH: $P = \dfrac{3}{8}$
+= (ii) "At least one tail" is the complement of "no tail" (HHH): $P = 1 - \dfrac{1}{8}$
+=> (i) $\dfrac{3}{8}$  (ii) $\dfrac{7}{8}$
+?eg Two dice are thrown together. Find the probability that (i) the sum is 7 (ii) the two numbers are equal (iii) the sum is more than 10.
+= $n(S) = 36$
+= (i) $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$: $P = \dfrac{6}{36} = \dfrac{1}{6}$
+= (ii) $(1,1), (2,2), \dots, (6,6)$: $P = \dfrac{6}{36} = \dfrac{1}{6}$
+= (iii) $(5,6), (6,5), (6,6)$: $P = \dfrac{3}{36} = \dfrac{1}{12}$
+=> (i) $\dfrac{1}{6}$  (ii) $\dfrac{1}{6}$  (iii) $\dfrac{1}{12}$
+
+# Playing cards
+- A pack has **52 cards**: 4 suits of 13 cards each.
+- Spades and clubs are **black** (26 cards); hearts and diamonds are **red** (26 cards).
+- Each suit has an ace, the numbers 2 to 10, a jack, a queen and a king.
+- **Face cards**: jack, queen and king. There are 12 face cards, 6 red and 6 black.
+?eg A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability that it is (i) an ace (ii) a black king (iii) a face card (iv) neither a heart nor a king.
+= (i) 4 aces: $P = \dfrac{4}{52} = \dfrac{1}{13}$  (ii) 2 black kings: $P = \dfrac{2}{52} = \dfrac{1}{26}$
+= (iii) 12 face cards: $P = \dfrac{12}{52} = \dfrac{3}{13}$
+= (iv) Hearts or kings: 13 hearts $+$ 3 other kings $= 16$ cards, so $52 - 16 = 36$ cards: $P = \dfrac{36}{52} = \dfrac{9}{13}$
+=> (i) $\dfrac{1}{13}$  (ii) $\dfrac{1}{26}$  (iii) $\dfrac{3}{13}$  (iv) $\dfrac{9}{13}$
+
+# Balls, numbered cards and letters
+?eg A bag contains 4 red, 6 blue and 5 green balls. One ball is drawn at random. Find the probability that it is (i) blue (ii) not green (iii) red or green.
+= Total $= 15$ balls
+= (i) $P = \dfrac{6}{15} = \dfrac{2}{5}$  (ii) $P = \dfrac{10}{15} = \dfrac{2}{3}$  (iii) $P = \dfrac{9}{15} = \dfrac{3}{5}$
+=> (i) $\dfrac{2}{5}$  (ii) $\dfrac{2}{3}$  (iii) $\dfrac{3}{5}$
+?eg Cards numbered 1 to 25 are placed in a box and one is drawn at random. Find the probability that the number is (i) prime (ii) a perfect square (iii) divisible by both 2 and 3.
+= (i) Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, which is 9 numbers: $P = \dfrac{9}{25}$
+= (ii) 1, 4, 9, 16, 25: $P = \dfrac{5}{25} = \dfrac{1}{5}$
+= (iii) Multiples of 6: 6, 12, 18, 24: $P = \dfrac{4}{25}$
+=> (i) $\dfrac{9}{25}$  (ii) $\dfrac{1}{5}$  (iii) $\dfrac{4}{25}$
+?eg A letter is chosen at random from the word PROBABILITY. Find the probability that it is (i) a vowel (ii) the letter B.
+= The word has 11 letters: P, R, O, B, A, B, I, L, I, T, Y.
+= (i) Vowels: O, A, I, I, which is 4 letters: $P = \dfrac{4}{11}$
+= (ii) B appears twice: $P = \dfrac{2}{11}$
+=> (i) $\dfrac{4}{11}$  (ii) $\dfrac{2}{11}$
+
+# Finding an unknown number
+?eg A bag contains 12 balls, of which $x$ are white. (i) Write the probability of drawing a white ball. (ii) If 6 more white balls are added, the probability of drawing a white ball doubles. Find $x$.
+= (i) $P = \dfrac{x}{12}$
+= (ii) Now there are $x + 6$ white balls out of 18: $\dfrac{x + 6}{18} = 2 \times \dfrac{x}{12}$
+= $\dfrac{x + 6}{18} = \dfrac{x}{6}$, so $x + 6 = 3x$
+=> $x = 3$
+
+# Common mistakes
+- Writing a probability greater than 1.
+- Treating $(3, 4)$ and $(4, 3)$ as the same outcome for two dice.
+- Counting 1 as a prime number.
+- Counting the king of hearts twice in "a heart or a king".
+- Leaving the answer unsimplified.
+
+@@formulas
+Probability | $P(E) = \dfrac{n(E)}{n(S)}$
+Range | $0 \leq P(E) \leq 1$
+Impossible event | $P = 0$
+Sure event | $P = 1$
+Complementary event | $P(\bar{E}) = 1 - P(E)$
+At least one | $1 - P(\text{none})$
+Coins | 1 coin: 2 outcomes;  2 coins: 4;  3 coins: 8
+Dice | 1 die: 6 outcomes;  2 dice: 36
+Pack of cards | 52 cards: 26 red, 26 black; 13 in each of 4 suits
+Face cards | 12: jack, queen and king of each suit
+Aces | 4, one in each suit; not face cards
+Primes up to 25 | 2, 3, 5, 7, 11, 13, 17, 19, 23
+
+@@dpp
+Q: A die is thrown once. Find the probability of getting a prime number.
+A: $\dfrac{3}{6} = \dfrac{1}{2}$
+Q: Two coins are tossed together. Find the probability of getting at most one head.
+A: HT, TH, TT: $\dfrac{3}{4}$
+Q: Two dice are thrown together. Find the probability that the sum is a perfect square.
+A: Sums 4 and 9: $3 + 4 = 7$ outcomes; $\dfrac{7}{36}$
+Q: Two dice are thrown together. Find the probability that the product is 6.
+A: $(1,6), (2,3), (3,2), (6,1)$: $\dfrac{4}{36} = \dfrac{1}{9}$
+Q: A card is drawn from a pack of 52 cards. Find the probability that it is a red queen.
+A: $\dfrac{2}{52} = \dfrac{1}{26}$
+Q: A card is drawn from a pack of 52 cards. Find the probability that it is a spade or an ace.
+A: $13 + 3 = 16$ cards: $\dfrac{4}{13}$
+Q: A bag contains 7 white, 3 black and 5 yellow balls. Find the probability that a ball drawn at random is not yellow.
+A: $\dfrac{10}{15} = \dfrac{2}{3}$
+Q: Cards numbered 11 to 40 are put in a box and one is drawn. Find the probability that its number is a multiple of 7.
+A: 14, 21, 28, 35: $\dfrac{4}{30} = \dfrac{2}{15}$
+Q: A letter is chosen at random from the word MATHEMATICS. Find the probability that it is a consonant.
+A: 11 letters, 4 vowels: $\dfrac{7}{11}$
+Q: A box contains 20 bulbs of which some are defective. The probability of picking a defective bulb is $\dfrac{1}{5}$. How many bulbs are not defective?
+A: 4 are defective, so 16 are not

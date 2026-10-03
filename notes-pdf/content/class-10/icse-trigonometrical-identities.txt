@@ -1,0 +1,112 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 21
+@title Trigonometrical Identities
+@summary An identity is an equation that is true for every value of the angle. This chapter covers the basic identities, the ratios of complementary angles, and the methods for proving identities.
+
+# The ratios and their relations
+- For an acute angle $A$ of a right-angled triangle: $\sin A = \dfrac{\text{perpendicular}}{\text{hypotenuse}}$, $\cos A = \dfrac{\text{base}}{\text{hypotenuse}}$, $\tan A = \dfrac{\text{perpendicular}}{\text{base}}$.
+- **Reciprocal relations**: $\text{cosec}\, A = \dfrac{1}{\sin A}$, $\sec A = \dfrac{1}{\cos A}$, $\cot A = \dfrac{1}{\tan A}$.
+- **Quotient relations**: $\tan A = \dfrac{\sin A}{\cos A}$ and $\cot A = \dfrac{\cos A}{\sin A}$.
+
+# The three basic identities
+$$\sin^2 A + \cos^2 A = 1 \qquad 1 + \tan^2 A = \sec^2 A \qquad 1 + \cot^2 A = \text{cosec}^2 A$$
+| Identity | Other useful forms |
+| $\sin^2 A + \cos^2 A = 1$ | $1 - \sin^2 A = \cos^2 A$;  $1 - \cos^2 A = \sin^2 A$ |
+| $1 + \tan^2 A = \sec^2 A$ | $\sec^2 A - \tan^2 A = 1$;  $(\sec A + \tan A)(\sec A - \tan A) = 1$ |
+| $1 + \cot^2 A = \text{cosec}^2 A$ | $\text{cosec}^2 A - \cot^2 A = 1$;  $(\text{cosec}\, A + \cot A)(\text{cosec}\, A - \cot A) = 1$ |
+
+# Proving identities
+- Start with the more complicated side and simplify it until it becomes the other side.
+- If no shorter way is visible, change everything to $\sin$ and $\cos$.
+- For a sum of fractions, take the LCM.
+- For $1 - \sin A$ or $1 - \cos A$ in a denominator, multiply the numerator and denominator by the conjugate $1 + \sin A$ or $1 + \cos A$.
+- Use algebraic identities: $a^2 - b^2 = (a + b)(a - b)$ and $(a + b)^2 = a^2 + 2ab + b^2$.
+?eg Prove that $\sin^4 A - \cos^4 A = 2\sin^2 A - 1$.
+= LHS $= (\sin^2 A + \cos^2 A)(\sin^2 A - \cos^2 A) = \sin^2 A - \cos^2 A$
+= $= \sin^2 A - (1 - \sin^2 A)$
+=> $= 2\sin^2 A - 1 =$ RHS
+?eg Prove that $\dfrac{\cos A}{1 - \sin A} + \dfrac{\cos A}{1 + \sin A} = 2\sec A$.
+= LHS $= \dfrac{\cos A(1 + \sin A) + \cos A(1 - \sin A)}{(1 - \sin A)(1 + \sin A)} = \dfrac{2\cos A}{1 - \sin^2 A}$
+= $= \dfrac{2\cos A}{\cos^2 A} = \dfrac{2}{\cos A}$
+=> $= 2\sec A =$ RHS
+?eg Prove that $\sqrt{\dfrac{1 + \sin A}{1 - \sin A}} = \sec A + \tan A$.
+= Multiply the numerator and denominator inside the root by $(1 + \sin A)$:
+= LHS $= \sqrt{\dfrac{(1 + \sin A)^2}{1 - \sin^2 A}} = \sqrt{\dfrac{(1 + \sin A)^2}{\cos^2 A}} = \dfrac{1 + \sin A}{\cos A}$
+= $= \dfrac{1}{\cos A} + \dfrac{\sin A}{\cos A}$
+=> $= \sec A + \tan A =$ RHS
+?eg Prove that $(\text{cosec}\, A - \sin A)(\sec A - \cos A)(\tan A + \cot A) = 1$.
+= $\text{cosec}\, A - \sin A = \dfrac{1 - \sin^2 A}{\sin A} = \dfrac{\cos^2 A}{\sin A}$ and $\sec A - \cos A = \dfrac{1 - \cos^2 A}{\cos A} = \dfrac{\sin^2 A}{\cos A}$
+= $\tan A + \cot A = \dfrac{\sin^2 A + \cos^2 A}{\sin A \cos A} = \dfrac{1}{\sin A \cos A}$
+= LHS $= \dfrac{\cos^2 A}{\sin A} \times \dfrac{\sin^2 A}{\cos A} \times \dfrac{1}{\sin A \cos A}$
+=> $= 1 =$ RHS
+?eg If $\sin A + \cos A = p$ and $\sec A + \text{cosec}\, A = q$, show that $q(p^2 - 1) = 2p$.
+= $p^2 - 1 = \sin^2 A + \cos^2 A + 2\sin A\cos A - 1 = 2\sin A\cos A$
+= $q = \dfrac{1}{\cos A} + \dfrac{1}{\sin A} = \dfrac{\sin A + \cos A}{\sin A\cos A} = \dfrac{p}{\sin A\cos A}$
+=> $q(p^2 - 1) = \dfrac{p}{\sin A\cos A} \times 2\sin A\cos A = 2p$
+
+# Complementary angles
+- Two angles are **complementary** if their sum is $90°$.
+| sin, tan, sec | cos, cot, cosec |
+| $\sin(90° - A) = \cos A$ | $\cos(90° - A) = \sin A$ |
+| $\tan(90° - A) = \cot A$ | $\cot(90° - A) = \tan A$ |
+| $\sec(90° - A) = \text{cosec}\, A$ | $\text{cosec}(90° - A) = \sec A$ |
+- Each ratio changes to its "co-ratio": $\sin \leftrightarrow \cos$, $\tan \leftrightarrow \cot$, $\sec \leftrightarrow \text{cosec}$.
+?eg Evaluate without tables: $\dfrac{\sin 25°}{\cos 65°} + \dfrac{\tan 23°}{\cot 67°}$.
+= $\cos 65° = \cos(90° - 25°) = \sin 25°$ and $\cot 67° = \cot(90° - 23°) = \tan 23°$
+= $= \dfrac{\sin 25°}{\sin 25°} + \dfrac{\tan 23°}{\tan 23°}$
+=> $= 1 + 1 = 2$
+?eg Evaluate $\cos^2 20° + \cos^2 70°$.
+= $\cos 70° = \cos(90° - 20°) = \sin 20°$
+=> $\cos^2 20° + \sin^2 20° = 1$
+?eg If $\sin 3A = \cos(A - 26°)$, where $3A$ is an acute angle, find $A$.
+= $\sin 3A = \cos(90° - 3A)$, so $90° - 3A = A - 26°$
+= $4A = 116°$
+=> $A = 29°$
+
+# Using the tables
+- The tables of natural sines, cosines and tangents give values for angles in degrees and minutes ($1° = 60'$).
+- As the angle increases from $0°$ to $90°$: $\sin$ and $\tan$ increase, so the mean difference is **added**; $\cos$ decreases, so the mean difference is **subtracted**.
+
+# Common mistakes
+- Moving terms across the equals sign while proving. Work on one side only.
+- Writing $\sin^2 A$ as $\sin A^2$.
+- Cancelling $\sin A$ from a sum such as $\dfrac{\sin A + 1}{\sin A}$.
+- Forgetting that $\tan(90° - A)$ is $\cot A$, not $\tan A$.
+
+@@formulas
+Identity 1 | $\sin^2 A + \cos^2 A = 1$
+Identity 2 | $1 + \tan^2 A = \sec^2 A$
+Identity 3 | $1 + \cot^2 A = \text{cosec}^2 A$
+Reciprocal relations | $\text{cosec}\, A = \dfrac{1}{\sin A}$,  $\sec A = \dfrac{1}{\cos A}$,  $\cot A = \dfrac{1}{\tan A}$
+Quotient relations | $\tan A = \dfrac{\sin A}{\cos A}$,  $\cot A = \dfrac{\cos A}{\sin A}$
+Factor forms | $(\sec A + \tan A)(\sec A - \tan A) = 1$;  $(\text{cosec}\, A + \cot A)(\text{cosec}\, A - \cot A) = 1$
+sin and cos of complementary angles | $\sin(90° - A) = \cos A$;  $\cos(90° - A) = \sin A$
+tan and cot of complementary angles | $\tan(90° - A) = \cot A$;  $\cot(90° - A) = \tan A$
+sec and cosec of complementary angles | $\sec(90° - A) = \text{cosec}\, A$;  $\text{cosec}(90° - A) = \sec A$
+Useful result | $\tan A + \cot A = \sec A\,\text{cosec}\, A$
+Useful result | $(\sin A + \cos A)^2 = 1 + 2\sin A\cos A$
+Degrees and minutes | $1° = 60'$
+
+@@dpp
+Q: Prove that $(1 - \sin^2 A)\sec^2 A = 1$.
+A: $\cos^2 A \times \dfrac{1}{\cos^2 A} = 1$
+Q: Prove that $\tan^2 A - \sin^2 A = \tan^2 A \sin^2 A$.
+A: LHS $= \sin^2 A\left(\dfrac{1}{\cos^2 A} - 1\right) = \sin^2 A \times \dfrac{\sin^2 A}{\cos^2 A}$
+Q: Prove that $\dfrac{1}{1 + \sin A} + \dfrac{1}{1 - \sin A} = 2\sec^2 A$.
+A: LHS $= \dfrac{2}{1 - \sin^2 A} = \dfrac{2}{\cos^2 A}$
+Q: Prove that $\dfrac{\sin A}{1 + \cos A} + \dfrac{1 + \cos A}{\sin A} = 2\,\text{cosec}\, A$.
+A: Numerator $= \sin^2 A + 1 + 2\cos A + \cos^2 A = 2(1 + \cos A)$; LHS $= \dfrac{2}{\sin A}$
+Q: Prove that $(\sin A + \cos A)^2 + (\sin A - \cos A)^2 = 2$.
+A: $1 + 2\sin A\cos A + 1 - 2\sin A\cos A = 2$
+Q: Prove that $\sec^4 A - \sec^2 A = \tan^4 A + \tan^2 A$.
+A: LHS $= \sec^2 A(\sec^2 A - 1) = (1 + \tan^2 A)\tan^2 A$
+Q: Evaluate $\dfrac{\cos 38°}{\sin 52°} - \dfrac{\tan 19°}{\cot 71°}$.
+A: $1 - 1 = 0$
+Q: Evaluate $\sin^2 34° + \sin^2 56° + 2\tan 18° \tan 72°$.
+A: $1 + 2 = 3$
+Q: If $\tan 2A = \cot(A - 18°)$, where $2A$ is acute, find $A$.
+A: $90° - 2A = A - 18°$, so $A = 36°$
+Q: If $A + B = 90°$, prove that $\sqrt{\dfrac{\tan A \tan B + \tan A \cot B}{\sin A \sec B}} = \sec A$.
+A: $\tan B = \cot A$, $\cot B = \tan A$, $\sec B = \text{cosec}\, A$: inside the root $= \dfrac{1 + \tan^2 A}{1} = \sec^2 A$

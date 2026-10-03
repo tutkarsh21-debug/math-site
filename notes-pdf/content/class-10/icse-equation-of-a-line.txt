@@ -1,0 +1,120 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 14
+@title Equation of a Line
+@summary Every straight line has an equation that all its points satisfy. This chapter covers the slope of a line, the conditions for parallel and perpendicular lines, and the different ways of writing the equation.
+
+# A point on a line
+- The equation of a line is a relation between $x$ and $y$ that is satisfied by the coordinates of **every** point on the line, and by no other point.
+- A point lies on a line if and only if its coordinates satisfy the equation of the line.
+?eg Does the point $(2, -1)$ lie on the line $3x + 4y = 2$? Find $k$ if $(k, 3)$ lies on this line.
+= $3(2) + 4(-1) = 6 - 4 = 2$. The equation is satisfied, so the point lies on the line.
+= $3k + 4(3) = 2$ gives $3k = -10$
+=> Yes; and $k = -\dfrac{10}{3}$.
+
+# Inclination and slope
+- The **inclination** $\theta$ of a line is the angle it makes with the positive direction of the $x$-axis, measured anticlockwise.
+- The **slope** (gradient) of a line is $m = \tan\theta$.
+$$m = \tan\theta \qquad m = \frac{y_2 - y_1}{x_2 - x_1} \ \text{ for the line through } (x_1, y_1) \text{ and } (x_2, y_2)$$
+| Line | Inclination | Slope |
+| Parallel to the $x$-axis | $0°$ | $0$ |
+| Parallel to the $y$-axis | $90°$ | Not defined |
+| Inclined at $45°$ | $45°$ | $1$ |
+| Inclined at $60°$ | $60°$ | $\sqrt{3}$ |
+?eg Find the slope and the inclination of the line through $A(2, 3)$ and $B(5, 6)$.
+= $m = \dfrac{6 - 3}{5 - 2} = 1$
+= $\tan\theta = 1$
+=> Slope $= 1$; inclination $= 45°$
+
+# Parallel and perpendicular lines
+- **Parallel** lines have equal slopes: $m_1 = m_2$.
+- **Perpendicular** lines have slopes whose product is $-1$: $m_1 \times m_2 = -1$, so $m_2 = -\dfrac{1}{m_1}$.
+- Three points $A$, $B$, $C$ are **collinear** if slope of $AB$ $=$ slope of $BC$.
+?eg Show that the points $A(1, 2)$, $B(3, 6)$ and $C(6, 12)$ are collinear.
+= Slope of $AB = \dfrac{6 - 2}{3 - 1} = 2$ and slope of $BC = \dfrac{12 - 6}{6 - 3} = 2$
+=> The slopes are equal and $B$ is common, so the points are collinear.
+?eg The line through $(2, 5)$ and $(4, k)$ is perpendicular to the line through $(1, 1)$ and $(5, 3)$. Find $k$.
+= Slope of the second line $= \dfrac{3 - 1}{5 - 1} = \dfrac{1}{2}$, so the slope of the first must be $-2$.
+= $\dfrac{k - 5}{4 - 2} = -2$, so $k - 5 = -4$
+=> $k = 1$
+
+# Forms of the equation
+| Form | Equation | Use it when you know |
+| Slope-intercept | $y = mx + c$ | The slope and the $y$-intercept $c$ |
+| Point-slope | $y - y_1 = m(x - x_1)$ | The slope and one point |
+| Two-point | $y - y_1 = \dfrac{y_2 - y_1}{x_2 - x_1}(x - x_1)$ | Two points |
+- The **$y$-intercept** $c$ is the $y$-coordinate of the point where the line cuts the $y$-axis. The **$x$-intercept** is the $x$-coordinate where it cuts the $x$-axis.
+- $x = a$ is a line parallel to the $y$-axis and $y = b$ is a line parallel to the $x$-axis.
+?eg Find the equation of the line with slope 2 that passes through $(1, -3)$.
+= $y - (-3) = 2(x - 1)$
+= $y + 3 = 2x - 2$
+=> $y = 2x - 5$
+?eg Find the equation of the line through $(1, 2)$ and $(3, 8)$.
+= Slope $= \dfrac{8 - 2}{3 - 1} = 3$
+= $y - 2 = 3(x - 1)$
+=> $y = 3x - 1$
+
+# Slope and intercepts from an equation
+- Write the equation in the form $y = mx + c$. Then $m$ is the slope and $c$ is the $y$-intercept.
+- For $ax + by + c = 0$: slope $= -\dfrac{a}{b}$ and $y$-intercept $= -\dfrac{c}{b}$.
+- For the $x$-intercept put $y = 0$; for the $y$-intercept put $x = 0$.
+?eg Find the slope, the $y$-intercept and the $x$-intercept of the line $3x + 4y = 12$.
+= $4y = -3x + 12$, so $y = -\dfrac{3}{4}x + 3$
+= Put $y = 0$: $3x = 12$, so $x = 4$
+=> Slope $= -\dfrac{3}{4}$; $y$-intercept $= 3$; $x$-intercept $= 4$
+
+# Lines parallel or perpendicular to a given line
+?eg Find the equation of the line through $(2, 1)$ that is (i) parallel (ii) perpendicular to the line $2x - 3y = 5$.
+= The given line is $y = \dfrac{2}{3}x - \dfrac{5}{3}$, so its slope is $\dfrac{2}{3}$.
+= (i) Parallel line: slope $\dfrac{2}{3}$. $y - 1 = \dfrac{2}{3}(x - 2)$, so $3y - 3 = 2x - 4$
+= (ii) Perpendicular line: slope $-\dfrac{3}{2}$. $y - 1 = -\dfrac{3}{2}(x - 2)$, so $2y - 2 = -3x + 6$
+=> (i) $2x - 3y - 1 = 0$  (ii) $3x + 2y - 8 = 0$
+?eg Find the equation of the perpendicular bisector of the segment joining $A(2, 3)$ and $B(6, 5)$.
+= Mid-point of $AB = (4, 4)$
+= Slope of $AB = \dfrac{5 - 3}{6 - 2} = \dfrac{1}{2}$, so the slope of the perpendicular bisector is $-2$.
+= $y - 4 = -2(x - 4)$
+=> $2x + y = 12$
+
+# Common mistakes
+- Finding the slope as $\dfrac{x_2 - x_1}{y_2 - y_1}$. It is the change in $y$ over the change in $x$.
+- Reading the slope from $3x + 4y = 12$ as 3. First make $y$ the subject.
+- Using $m_1m_2 = 1$ for perpendicular lines. The product is $-1$.
+- Forgetting that the perpendicular bisector passes through the **mid-point**.
+
+@@formulas
+Slope from the inclination | $m = \tan\theta$
+Slope through two points | $m = \dfrac{y_2 - y_1}{x_2 - x_1}$
+Parallel lines | $m_1 = m_2$
+Perpendicular lines | $m_1 \times m_2 = -1$
+Collinear points | Slope of $AB$ $=$ slope of $BC$
+Slope-intercept form | $y = mx + c$
+Point-slope form | $y - y_1 = m(x - x_1)$
+Two-point form | $y - y_1 = \dfrac{y_2 - y_1}{x_2 - x_1}(x - x_1)$
+General form $ax + by + c = 0$ | Slope $= -\dfrac{a}{b}$;  $y$-intercept $= -\dfrac{c}{b}$
+x-intercept | Put $y = 0$
+y-intercept | Put $x = 0$
+Lines parallel to the axes | $x = a$ (parallel to the $y$-axis);  $y = b$ (parallel to the $x$-axis)
+Perpendicular bisector of $AB$ | Passes through the mid-point of $AB$ with slope $-\dfrac{1}{\text{slope of } AB}$
+
+@@dpp
+Q: Find the slope of the line through $(-1, 4)$ and $(3, -4)$.
+A: $-2$
+Q: Find the slope of a line whose inclination is $60°$, and of a line whose inclination is $30°$.
+A: $\sqrt{3}$ and $\dfrac{1}{\sqrt{3}}$
+Q: Find $k$ if the point $(3, k)$ lies on the line $2x - 5y = 1$.
+A: $k = 1$
+Q: Find the equation of the line with slope $-3$ and $y$-intercept 4.
+A: $y = -3x + 4$
+Q: Find the equation of the line through $(-2, 1)$ and $(4, 4)$.
+A: Slope $\dfrac{1}{2}$; $x - 2y + 4 = 0$
+Q: Find the slope and the $y$-intercept of the line $5x - 2y + 6 = 0$.
+A: Slope $\dfrac{5}{2}$; $y$-intercept 3
+Q: Find the equation of the line through $(1, -2)$ parallel to the line $y = 4x + 7$.
+A: $y = 4x - 6$
+Q: Find the equation of the line through $(3, 2)$ perpendicular to the line $x + 2y = 6$.
+A: Slope 2; $y = 2x - 4$
+Q: Find the value of $p$ if the lines $2x - py + 3 = 0$ and $4x + 2y - 5 = 0$ are perpendicular.
+A: $\dfrac{2}{p} \times (-2) = -1$, so $p = 4$
+Q: Find the equation of the perpendicular bisector of the segment joining $(1, 5)$ and $(7, 1)$.
+A: Mid-point $(4, 3)$, slope $\dfrac{3}{2}$; $3x - 2y - 6 = 0$

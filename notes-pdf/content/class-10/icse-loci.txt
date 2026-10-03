@@ -1,0 +1,100 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 16
+@title Loci (Locus and its Constructions)
+@summary A locus is the path traced by a point that moves so as to satisfy a given condition. This chapter covers the standard loci, the two locus theorems and the constructions based on them.
+
+# What a locus is
+- The **locus** of a point is the set of all points, and only those points, that satisfy a given condition. The plural is **loci**.
+- To prove that a line or curve is a locus, two things must be shown: (i) every point on it satisfies the condition, and (ii) every point that satisfies the condition lies on it.
+- A locus is usually a line, a pair of lines or a circle.
+
+# The two locus theorems
+- **Theorem 1**: the locus of a point equidistant from two given points is the **perpendicular bisector** of the line segment joining them.
+- **Theorem 2**: the locus of a point equidistant from two intersecting lines is the pair of **bisectors of the angles** between the lines.
+- Converses: every point on the perpendicular bisector of $AB$ is equidistant from $A$ and $B$; every point on the bisector of an angle is equidistant from the arms of the angle.
+?eg $P$ is a point on the perpendicular bisector of $AB$. If $PA = 5$ cm, find $PB$. Give a reason.
+= Every point on the perpendicular bisector of a segment is equidistant from its end points.
+=> $PB = 5$ cm
+
+# Standard loci
+| Condition on the moving point | Locus |
+| Equidistant from two fixed points $A$ and $B$ | Perpendicular bisector of $AB$ |
+| Equidistant from two intersecting lines | The pair of bisectors of the angles between them |
+| Equidistant from the two arms of an angle | The bisector of the angle |
+| At a fixed distance $r$ from a fixed point $O$ | Circle with centre $O$ and radius $r$ |
+| At a fixed distance $d$ from a given line | A pair of lines parallel to it, one on each side, at distance $d$ |
+| Equidistant from two parallel lines | The line parallel to both and midway between them |
+| Equidistant from two concentric circles | The concentric circle midway between them |
+| Mid-points of equal chords of a circle | A concentric circle |
+| Centres of circles touching a given line at a given point | The line perpendicular to the given line at that point |
+?eg Describe the locus of (i) the centre of a wheel of radius 30 cm rolling along a straight road (ii) the tip of the minute hand of a clock.
+= (i) The centre is always 30 cm above the road.
+= (ii) The tip is always at a fixed distance (the length of the hand) from the centre of the clock.
+=> (i) A line parallel to the road, 30 cm above it. (ii) A circle whose centre is the centre of the clock and whose radius is the length of the minute hand.
+?eg Describe the locus of points that are 3 cm from a fixed line $AB$.
+= A point at a fixed distance from a line can lie on either side of it.
+=> A pair of lines parallel to $AB$, one on each side, each at a distance of 3 cm from it.
+
+# Loci in a triangle
+- The point equidistant from the three **vertices** of a triangle is the **circumcentre**. It is where the perpendicular bisectors of the sides meet.
+- The point equidistant from the three **sides** of a triangle is the **incentre**. It is where the bisectors of the angles meet.
+?eg In $\triangle ABC$, a point $P$ is equidistant from $A$ and $B$ and also equidistant from $AB$ and $BC$. How is $P$ located?
+= Equidistant from $A$ and $B$: $P$ lies on the perpendicular bisector of $AB$.
+= Equidistant from $AB$ and $BC$: $P$ lies on the bisector of $\angle ABC$.
+=> $P$ is the point where the perpendicular bisector of $AB$ meets the bisector of $\angle ABC$.
+
+# Construction questions
+- Construct each locus separately, using ruler and compasses only, and leave the construction arcs visible.
+- A point that satisfies two conditions is the **intersection** of the two loci.
+- Measure and record whatever the question asks for at the end.
+?eg Construct $\triangle ABC$ with $AB = 6$ cm, $BC = 5$ cm and $\angle ABC = 60°$. Locate the point $P$ inside the triangle that is equidistant from $B$ and $C$ and also equidistant from $AB$ and $BC$. Write the steps.
+= Step 1: draw $BC = 5$ cm. At $B$ construct an angle of $60°$ and cut off $BA = 6$ cm. Join $AC$.
+= Step 2: draw the perpendicular bisector of $BC$. This is the locus of points equidistant from $B$ and $C$.
+= Step 3: draw the bisector of $\angle ABC$. This is the locus of points equidistant from $AB$ and $BC$.
+=> Step 4: the point where the two loci meet is the required point $P$. Measure $PB$ if asked.
+?eg Points $A$ and $B$ are 6 cm apart. Describe how to find the points that are 4 cm from $A$ and equidistant from $A$ and $B$.
+= Locus 1: the circle with centre $A$ and radius 4 cm.
+= Locus 2: the perpendicular bisector of $AB$.
+=> The circle and the bisector meet at two points; these are the required points.
+
+# Common mistakes
+- Giving one parallel line instead of a **pair** for points at a fixed distance from a line.
+- Giving one angle bisector instead of the **pair** for two intersecting lines.
+- Confusing the circumcentre (perpendicular bisectors of sides) with the incentre (angle bisectors).
+- Rubbing out the construction arcs.
+
+@@formulas
+Equidistant from two points | Perpendicular bisector of the segment joining them
+Equidistant from two intersecting lines | The pair of angle bisectors
+Fixed distance from a point | Circle with that point as centre
+Fixed distance from a line | Pair of parallel lines, one on each side
+Equidistant from two parallel lines | The parallel line midway between them
+Circumcentre | Meeting point of the perpendicular bisectors of the sides; equidistant from the vertices
+Incentre | Meeting point of the angle bisectors; equidistant from the sides
+Point satisfying two conditions | Intersection of the two loci
+Centre of a circle through two points | Lies on the perpendicular bisector of the segment joining them
+Centre of a circle touching two intersecting lines | Lies on a bisector of the angle between them
+
+@@dpp
+Q: State the locus of a point that moves so that it is always 5 cm from a fixed point $O$.
+A: The circle with centre $O$ and radius 5 cm
+Q: State the locus of a point equidistant from two fixed points $P$ and $Q$.
+A: The perpendicular bisector of $PQ$
+Q: State the locus of a point equidistant from two parallel lines 8 cm apart.
+A: The line parallel to both, 4 cm from each
+Q: State the locus of the centres of all circles that pass through two fixed points $A$ and $B$.
+A: The perpendicular bisector of $AB$
+Q: State the locus of a point inside $\angle ABC$ that is equidistant from $BA$ and $BC$.
+A: The bisector of $\angle ABC$
+Q: State the locus of the centre of a coin of radius 1 cm that rolls along the inside edge of a circular tray of radius 10 cm.
+A: A circle of radius 9 cm concentric with the tray
+Q: $Q$ lies on the bisector of $\angle ABC$. The perpendicular distance from $Q$ to $AB$ is 3.2 cm. Find its perpendicular distance from $BC$.
+A: 3.2 cm
+Q: Name the point that is equidistant from the three sides of a triangle, and say how it is constructed.
+A: The incentre; the meeting point of the bisectors of any two angles
+Q: Write the steps to locate a point equidistant from the three vertices of $\triangle ABC$.
+A: Draw the perpendicular bisectors of any two sides; their meeting point is the circumcentre.
+Q: $AB = 7$ cm. Describe how to find the points that are 5 cm from $B$ and 2 cm from the line $AB$.
+A: Draw the circle with centre $B$ and radius 5 cm, and the two lines parallel to $AB$ at 2 cm; they meet in four points.

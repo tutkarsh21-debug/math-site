@@ -1,0 +1,113 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 4
+@title Linear Inequations (In One Variable)
+@summary An inequation compares two expressions using a sign such as less than or greater than. This chapter covers solving linear inequations and showing their solutions on a number line.
+
+# Inequations and their signs
+- A **linear inequation** in one variable $x$ has one of the forms $ax + b < c$, $ax + b > c$, $ax + b \leq c$ or $ax + b \geq c$, with $a \neq 0$.
+| Sign | Meaning |
+| $<$ | is less than |
+| $>$ | is greater than |
+| $\leq$ | is less than or equal to |
+| $\geq$ | is greater than or equal to |
+- The **replacement set** (domain) is the set from which the values of $x$ are taken: $N$ (natural numbers), $W$ (whole numbers), $Z$ or $I$ (integers) or $R$ (real numbers).
+- The **solution set** is the set of all values from the replacement set that satisfy the inequation.
+
+# Rules for solving
+- **Rule 1**: the same number may be added to or subtracted from both sides. The sign stays the same.
+- **Rule 2**: both sides may be multiplied or divided by the same **positive** number. The sign stays the same.
+- **Rule 3**: if both sides are multiplied or divided by the same **negative** number, the sign **reverses**.
+- **Rule 4**: if the two sides are interchanged, the sign reverses: $a < b$ means $b > a$.
+- A term can be moved to the other side with its sign changed, exactly as in an equation.
+?eg Solve $3x - 5 \leq 7$, $x \in N$.
+= $3x \leq 12$, so $x \leq 4$
+= The natural numbers not greater than 4 are 1, 2, 3, 4.
+=> Solution set $= \{1, 2, 3, 4\}$
+?eg Solve $-3x + 4 > 16$, $x \in Z$.
+= $-3x > 12$. Dividing by $-3$ reverses the sign: $x < -4$
+=> Solution set $= \{\dots, -7, -6, -5\}$
+?eg Solve $\dfrac{x}{2} - 1 \geq \dfrac{x}{3} - 2$, $x \in R$.
+= Multiply both sides by 6: $3x - 6 \geq 2x - 12$
+= $3x - 2x \geq -12 + 6$
+=> $x \geq -6$; solution set $= \{x : x \geq -6,\ x \in R\}$
+!tip To avoid a negative coefficient, move the $x$ terms to the side where the coefficient comes out positive.
+
+# Solution set and the replacement set
+- The same inequation has different solution sets for different replacement sets.
+| Inequation | Replacement set | Solution set |
+| $x < 3$ | $N$ | $\{1, 2\}$ |
+| $x < 3$ | $W$ | $\{0, 1, 2\}$ |
+| $x < 3$ | $Z$ | $\{\dots, 0, 1, 2\}$ |
+| $x < 3$ | $R$ | All real numbers less than 3 |
+?eg Find the largest integer $x$ for which $2x + 7 < 20$.
+= $2x < 13$, so $x < 6.5$
+=> The largest integer is 6.
+
+# Representing the solution on a number line
+- For $N$, $W$ or $Z$: mark each solution with a **thick dot**. Use three dots beyond the last one to show that the solutions continue.
+- For $R$: draw a **thick line** over the part of the number line that forms the solution.
+- At an end value: use a **filled (dark) circle** if the value is included ($\leq$ or $\geq$) and a **hollow circle** if it is not included ($<$ or $>$).
+- An arrow at one end shows that the solution continues without end in that direction.
+?eg Describe the number line representation of $-2 < x \leq 3$, $x \in R$.
+= Mark a hollow circle at $-2$, because $-2$ is not included.
+= Mark a filled circle at $3$, because $3$ is included.
+=> Draw a thick line joining the two circles.
+
+# Combining inequations
+- A double inequation such as $a < px + q \leq b$ is two inequations joined by "and". Solve each part and take the values common to both.
+- **"and"** means the **intersection** of the two solution sets. **"or"** means their **union**.
+?eg Solve $-3 < 2x - 1 \leq 5$, $x \in R$.
+= Add 1 throughout: $-2 < 2x \leq 6$
+= Divide by 2: $-1 < x \leq 3$
+=> Solution set $= \{x : -1 < x \leq 3,\ x \in R\}$: a hollow circle at $-1$, a filled circle at 3 and a thick line between them.
+?eg Given $A = \{x : 5x - 3 > 3x + 5,\ x \in R\}$ and $B = \{x : 2x - 7 \leq 9,\ x \in R\}$, find $A \cap B$.
+= $A$: $2x > 8$, so $x > 4$
+= $B$: $2x \leq 16$, so $x \leq 8$
+=> $A \cap B = \{x : 4 < x \leq 8,\ x \in R\}$
+?eg Solve $2x - 5 \leq 5x + 4 < 11$, $x \in I$.
+= Left part: $2x - 5 \leq 5x + 4$ gives $-9 \leq 3x$, so $x \geq -3$
+= Right part: $5x + 4 < 11$ gives $5x < 7$, so $x < 1.4$
+= Together: $-3 \leq x < 1.4$
+=> Solution set $= \{-3, -2, -1, 0, 1\}$
+
+# Common mistakes
+- Forgetting to reverse the sign when multiplying or dividing by a negative number.
+- Ignoring the replacement set: listing fractions when $x \in N$, or listing a few numbers when $x \in R$.
+- Using a filled circle for $<$ or $>$.
+- Solving only one half of a double inequation.
+
+@@formulas
+Adding or subtracting | $a < b \Rightarrow a + c < b + c$ and $a - c < b - c$
+Multiplying by a positive number | $a < b,\ c > 0 \Rightarrow ac < bc$
+Multiplying by a negative number | $a < b,\ c < 0 \Rightarrow ac > bc$
+Dividing by a negative number | $a < b,\ c < 0 \Rightarrow \dfrac{a}{c} > \dfrac{b}{c}$
+Interchanging the sides | $a < b \Leftrightarrow b > a$
+Replacement sets | $N = \{1, 2, 3, \dots\}$,  $W = \{0, 1, 2, \dots\}$,  $Z = \{\dots, -1, 0, 1, \dots\}$,  $R$ = real numbers
+Included end value ($\leq$, $\geq$) | Filled (dark) circle
+Excluded end value ($<$, $>$) | Hollow circle
+"and" | Intersection of the solution sets
+"or" | Union of the solution sets
+
+@@dpp
+Q: Solve $2x + 3 < 11$, $x \in N$.
+A: $x < 4$; $\{1, 2, 3\}$
+Q: Solve $5 - 2x \geq 1$, $x \in W$.
+A: $x \leq 2$; $\{0, 1, 2\}$
+Q: Solve $-4x > 20$, $x \in Z$.
+A: $x < -5$; $\{\dots, -8, -7, -6\}$
+Q: Solve $\dfrac{2x - 1}{3} \leq 3$, $x \in R$.
+A: $x \leq 5$
+Q: Solve $7 - 3x < 2x - 8$, $x \in R$, and say how it is shown on a number line.
+A: $x > 3$: hollow circle at 3 and a thick line to the right with an arrow
+Q: Find the smallest integer $x$ for which $3x - 4 > 10$.
+A: $x > 4\tfrac{2}{3}$, so 5
+Q: Solve $-5 \leq 2x - 3 < 7$, $x \in Z$.
+A: $-1 \leq x < 5$; $\{-1, 0, 1, 2, 3, 4\}$
+Q: Solve $1 < 3x + 4 \leq 13$, $x \in R$.
+A: $-1 < x \leq 3$
+Q: If $A = \{x : 3x + 1 \geq 7,\ x \in R\}$ and $B = \{x : 4x - 5 < 15,\ x \in R\}$, find $A \cap B$.
+A: $\{x : 2 \leq x < 5,\ x \in R\}$
+Q: Solve $x - 2 \leq 2x + 1 < 9$, $x \in I$.
+A: $-3 \leq x < 4$; $\{-3, -2, -1, 0, 1, 2, 3\}$

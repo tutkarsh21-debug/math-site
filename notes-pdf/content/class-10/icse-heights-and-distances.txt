@@ -1,0 +1,100 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 22
+@title Heights and Distances
+@summary Trigonometric ratios are used to find heights and distances that cannot be measured directly. Every problem comes down to one or two right-angled triangles.
+
+# Angles of elevation and depression
+- The **line of sight** is the line from the observer's eye to the object.
+- The **angle of elevation** is the angle between the horizontal and the line of sight when the object is **above** the level of the eye.
+- The **angle of depression** is the angle between the horizontal and the line of sight when the object is **below** the level of the eye.
+- The angle of depression of $B$ from $A$ equals the angle of elevation of $A$ from $B$ (alternate angles).
+!tip Both angles are measured from the horizontal line through the observer's eye, never from the vertical.
+
+# Which ratio to use
+| Known and required sides | Ratio |
+| Height and horizontal distance | $\tan$ |
+| Height and slant length (ladder, rope, string) | $\sin$ |
+| Horizontal distance and slant length | $\cos$ |
+- Standard values: $\tan 30° = \dfrac{1}{\sqrt{3}}$, $\tan 45° = 1$, $\tan 60° = \sqrt{3}$, $\sin 30° = \cos 60° = \dfrac{1}{2}$, $\sin 60° = \cos 30° = \dfrac{\sqrt{3}}{2}$.
+- For other angles use the tables. Give the answer to the accuracy asked: nearest metre, or a number of significant figures.
+
+# Problems with one triangle
+?eg The angle of elevation of the top of a tower from a point 40 m from its foot is $60°$. Find the height of the tower, correct to the nearest metre.
+= $\tan 60° = \dfrac{h}{40}$, so $h = 40\sqrt{3} = 40 \times 1.732$
+=> $h = 69.28$ m, which is 69 m to the nearest metre.
+?eg A kite is flying at a height of 45 m. Its string makes an angle of $30°$ with the horizontal. Find the length of the string, assuming it is straight.
+= $\sin 30° = \dfrac{45}{l}$, so $l = \dfrac{45}{1/2}$
+=> The string is 90 m long.
+?eg From the top of a lighthouse 80 m high, the angle of depression of a boat is $45°$. Find the distance of the boat from the foot of the lighthouse.
+= The angle of elevation of the top from the boat is also $45°$.
+= $\tan 45° = \dfrac{80}{d}$
+=> The boat is 80 m from the lighthouse.
+
+# Problems with two triangles
+- Mark the common side, call the unknowns $h$ and $x$, write one equation from each triangle and solve the two together.
+?eg From a point on the ground, the angle of elevation of the top of a tower is $30°$. On walking 50 m towards the tower, the angle of elevation becomes $60°$. Find the height of the tower.
+= Let the height be $h$ and the final distance from the tower be $x$.
+= $\tan 60° = \dfrac{h}{x}$ gives $h = x\sqrt{3}$, and $\tan 30° = \dfrac{h}{x + 50}$ gives $x + 50 = h\sqrt{3}$
+= Substituting: $x + 50 = 3x$, so $x = 25$ and $h = 25\sqrt{3}$
+=> Height $= 25\sqrt{3} \approx 43.3$ m
+?eg Two ships are on opposite sides of a lighthouse 100 m high, in line with its foot. The angles of depression of the ships from the top are $30°$ and $45°$. Find the distance between the ships.
+= Ship 1: $\tan 30° = \dfrac{100}{d_1}$, so $d_1 = 100\sqrt{3} = 173.2$ m
+= Ship 2: $\tan 45° = \dfrac{100}{d_2}$, so $d_2 = 100$ m
+=> Distance between the ships $= 173.2 + 100 = 273.2$ m
+?eg From the top of a cliff 60 m high, the angles of depression of the top and the bottom of a tower are $30°$ and $60°$. Find the height of the tower.
+= Let the horizontal distance be $d$. Bottom of the tower: $\tan 60° = \dfrac{60}{d}$, so $d = \dfrac{60}{\sqrt{3}} = 20\sqrt{3}$ m
+= Top of the tower: the cliff top is $y$ m above the top of the tower, where $\tan 30° = \dfrac{y}{d}$, so $y = \dfrac{20\sqrt{3}}{\sqrt{3}} = 20$ m
+=> Height of the tower $= 60 - 20 = 40$ m
+?eg A vertical pole and a vertical tower stand on level ground. From the top of the pole, the angle of elevation of the top of the tower is $60°$ and the angle of depression of its foot is $30°$. If the tower is 50 m high, find the height of the pole.
+= Let the pole be $h$ m high and the distance be $d$. Depression of the foot: $\tan 30° = \dfrac{h}{d}$, so $d = h\sqrt{3}$.
+= Elevation of the top: $\tan 60° = \dfrac{50 - h}{d}$, so $50 - h = d\sqrt{3} = 3h$
+=> $h = 12.5$ m
+
+# Steps for every problem
+- Draw a clear figure and label all points.
+- Mark the given angles from the horizontal.
+- Write a trigonometric ratio for each right-angled triangle.
+- Solve, then round off the final answer as asked.
+
+# Common mistakes
+- Marking the angle of depression at the object instead of at the observer.
+- When two objects are on **opposite** sides, add the distances; on the **same** side, subtract.
+- Rounding $\sqrt{3}$ too early.
+- Forgetting the observer's height when it is given.
+
+@@formulas
+Angle of elevation | Angle between the horizontal and the line of sight, object above the eye
+Angle of depression | Angle between the horizontal and the line of sight, object below the eye
+Elevation and depression | Angle of depression of $B$ from $A$ = angle of elevation of $A$ from $B$
+Height and distance | $\tan\theta = \dfrac{\text{height}}{\text{horizontal distance}}$
+Height and slant length | $\sin\theta = \dfrac{\text{height}}{\text{slant length}}$
+Distance and slant length | $\cos\theta = \dfrac{\text{horizontal distance}}{\text{slant length}}$
+tan of standard angles | $\tan 30° = \dfrac{1}{\sqrt{3}}$,  $\tan 45° = 1$,  $\tan 60° = \sqrt{3}$
+sin and cos of standard angles | $\sin 30° = \cos 60° = \dfrac{1}{2}$;  $\sin 60° = \cos 30° = \dfrac{\sqrt{3}}{2}$;  $\sin 45° = \cos 45° = \dfrac{1}{\sqrt{2}}$
+Objects on opposite sides | Distance between them $= d_1 + d_2$
+Objects on the same side | Distance between them $= d_1 - d_2$
+Useful values | $\sqrt{2} \approx 1.414$,  $\sqrt{3} \approx 1.732$
+
+@@dpp
+Q: The angle of elevation of the top of a pole from a point 15 m from its foot is $45°$. Find the height of the pole.
+A: 15 m
+Q: A ladder 8 m long reaches a point 4 m up a wall. Find the angle it makes with the ground.
+A: $\sin\theta = \dfrac{1}{2}$, so $30°$
+Q: The shadow of a vertical tower is 20 m long when the sun's altitude is $60°$. Find the height of the tower.
+A: $20\sqrt{3} \approx 34.64$ m
+Q: From the top of a building 30 m high, the angle of depression of a car is $30°$. Find the distance of the car from the building.
+A: $30\sqrt{3} \approx 51.96$ m
+Q: A man 1.6 m tall stands 20 m from a tree and sees its top at an angle of elevation of $45°$. Find the height of the tree.
+A: $20 + 1.6 = 21.6$ m
+Q: The angle of elevation of the top of a tower is $45°$. On walking 20 m towards the tower, it becomes $60°$. Find the height of the tower.
+A: $h = \dfrac{20\sqrt{3}}{\sqrt{3} - 1} = 10(3 + \sqrt{3}) \approx 47.32$ m
+Q: Two men on opposite sides of a tower 60 m high observe its top at angles of elevation $45°$ and $60°$. Find the distance between the men.
+A: $60 + 20\sqrt{3} \approx 94.64$ m
+Q: From the top of a cliff 90 m high, the angles of depression of two boats on the same side, in line with the foot, are $30°$ and $60°$. Find the distance between the boats.
+A: $90\sqrt{3} - 30\sqrt{3} = 60\sqrt{3} \approx 103.92$ m
+Q: From the top of a tower 100 m high, the angles of depression of the top and bottom of a building are $30°$ and $45°$. Find the height of the building.
+A: $d = 100$ m; $100 - \dfrac{100}{\sqrt{3}} \approx 42.26$ m
+Q: An aeroplane flying at a height of 3000 m passes vertically above another aeroplane. From a point on the ground, their angles of elevation are $60°$ and $45°$. Find the vertical distance between them.
+A: $d = \dfrac{3000}{\sqrt{3}} = 1000\sqrt{3}$; lower plane at $1732$ m; distance $\approx 1268$ m

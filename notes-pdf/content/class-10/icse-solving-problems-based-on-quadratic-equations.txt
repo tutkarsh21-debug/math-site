@@ -1,0 +1,114 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 6
+@title Solving Problems Based on Quadratic Equations
+@summary Many word problems lead to a quadratic equation. This chapter is about turning the words into an equation, solving it, and keeping only the answer that makes sense.
+
+# The method
+- **Step 1**: read the problem and decide what is to be found. Let that quantity be $x$.
+- **Step 2**: write the other quantities in terms of $x$.
+- **Step 3**: use the condition given in the problem to form an equation, and simplify it to $ax^2 + bx + c = 0$.
+- **Step 4**: solve the equation.
+- **Step 5**: check each root against the problem. Reject a root that is negative when the quantity must be positive, or a fraction when it must be a whole number.
+- **Step 6**: write the answer in words, with units.
+
+# Problems on numbers
+- Two consecutive numbers: $x$ and $x + 1$. Two consecutive even (or odd) numbers: $x$ and $x + 2$.
+- A number and its reciprocal: $x$ and $\dfrac{1}{x}$.
+- A two-digit number with tens digit $x$ and units digit $y$ is $10x + y$.
+?eg The product of two consecutive natural numbers is 132. Find the numbers.
+= Let the numbers be $x$ and $x + 1$. Then $x(x + 1) = 132$, so $x^2 + x - 132 = 0$.
+= $(x + 12)(x - 11) = 0$, so $x = 11$ (a natural number cannot be $-12$).
+=> The numbers are 11 and 12.
+?eg The sum of a number and its reciprocal is $\dfrac{10}{3}$. Find the number.
+= $x + \dfrac{1}{x} = \dfrac{10}{3}$. Multiply by $3x$: $3x^2 + 3 = 10x$, so $3x^2 - 10x + 3 = 0$.
+= $(3x - 1)(x - 3) = 0$
+=> The number is 3 or $\dfrac{1}{3}$.
+
+# Problems on ages
+- If the present age is $x$ years, the age $n$ years ago was $x - n$ and the age $n$ years from now will be $x + n$.
+?eg The product of Ravi's age 3 years ago and his age 5 years from now is 84. Find his present age.
+= Let his present age be $x$ years. Then $(x - 3)(x + 5) = 84$, so $x^2 + 2x - 99 = 0$.
+= $(x + 11)(x - 9) = 0$, so $x = 9$ (age cannot be negative).
+=> Ravi is 9 years old.
+
+# Problems on geometry
+- Rectangle: area $=$ length $\times$ breadth; perimeter $= 2(\text{length} + \text{breadth})$.
+- Right-angled triangle: $(\text{hypotenuse})^2 = $ sum of the squares of the other two sides.
+?eg The hypotenuse of a right-angled triangle is 13 cm and the other two sides differ by 7 cm. Find the two sides.
+= Let the shorter side be $x$ cm; the other is $(x + 7)$ cm. Then $x^2 + (x + 7)^2 = 13^2$.
+= $2x^2 + 14x + 49 = 169$, so $x^2 + 7x - 60 = 0$ and $(x + 12)(x - 5) = 0$.
+= $x = 5$ (a length cannot be negative).
+=> The sides are 5 cm and 12 cm.
+?eg The perimeter of a rectangular field is 46 m and its area is 120 m². Find its dimensions.
+= Length $+$ breadth $= 23$. Let the length be $x$ m; the breadth is $(23 - x)$ m.
+= $x(23 - x) = 120$, so $x^2 - 23x + 120 = 0$ and $(x - 15)(x - 8) = 0$.
+=> The field is 15 m long and 8 m wide.
+
+# Problems on speed, distance and time
+$$\text{time} = \frac{\text{distance}}{\text{speed}}$$
+- Write the time for each case and use the given difference in time.
+- Boat in a stream: speed downstream $= x + y$ and speed upstream $= x - y$, where $x$ is the speed in still water and $y$ the speed of the stream.
+- Keep the units consistent: 1 hour 40 minutes $= \dfrac{5}{3}$ hours.
+?eg A car covers 400 km at a uniform speed. If its speed had been 12 km/h more, it would have taken 1 hour 40 minutes less. Find the speed of the car.
+= Let the speed be $x$ km/h. Then $\dfrac{400}{x} - \dfrac{400}{x + 12} = \dfrac{5}{3}$.
+= $\dfrac{400 \times 12}{x(x + 12)} = \dfrac{5}{3}$, so $x(x + 12) = 2880$ and $x^2 + 12x - 2880 = 0$.
+= $(x + 60)(x - 48) = 0$, so $x = 48$.
+=> The speed of the car is 48 km/h.
+
+# Problems on cost and on work
+- Cost of one article $= \dfrac{\text{total cost}}{\text{number of articles}}$.
+- If a person finishes a job in $x$ days, the work done in one day is $\dfrac{1}{x}$.
+?eg A shopkeeper buys a number of books for ₹600. If each book had cost ₹5 less, he could have bought 4 more books for the same amount. Find the number of books he bought.
+= Let the number of books be $x$. Then $\dfrac{600}{x} - \dfrac{600}{x + 4} = 5$.
+= $\dfrac{600 \times 4}{x(x + 4)} = 5$, so $x(x + 4) = 480$ and $x^2 + 4x - 480 = 0$.
+= $(x + 24)(x - 20) = 0$, so $x = 20$.
+=> He bought 20 books.
+?eg A takes 6 days less than B to finish a piece of work. Working together they finish it in 4 days. Find the time B takes alone.
+= Let B take $x$ days; then A takes $(x - 6)$ days. $\dfrac{1}{x} + \dfrac{1}{x - 6} = \dfrac{1}{4}$.
+= $4(2x - 6) = x(x - 6)$, so $x^2 - 14x + 24 = 0$ and $(x - 12)(x - 2) = 0$.
+= $x = 2$ would make A's time negative, so $x = 12$.
+=> B takes 12 days (and A takes 6 days).
+
+# Common mistakes
+- Not rejecting the root that does not fit the problem.
+- Writing the smaller time first, which gives a negative difference. The slower journey takes the longer time.
+- Mixing minutes with hours.
+- Stopping at the value of $x$ when the question asks for something else, such as both numbers or both dimensions.
+
+@@formulas
+Consecutive numbers | $x$, $x + 1$
+Consecutive even or odd numbers | $x$, $x + 2$
+Number and its reciprocal | $x$, $\dfrac{1}{x}$
+Two-digit number | $10x + y$
+Ages | $n$ years ago: $x - n$;  $n$ years hence: $x + n$
+Area of a rectangle | Length $\times$ breadth
+Perimeter of a rectangle | $2(\text{length} + \text{breadth})$
+Pythagoras theorem | $(\text{hypotenuse})^2 = (\text{base})^2 + (\text{perpendicular})^2$
+Time | $\dfrac{\text{distance}}{\text{speed}}$
+Boat and stream | Downstream speed $= x + y$;  upstream speed $= x - y$
+Cost per article | $\dfrac{\text{total cost}}{\text{number of articles}}$
+One day's work | $\dfrac{1}{\text{number of days to finish the job}}$
+
+@@dpp
+Q: Find two consecutive positive odd numbers whose product is 143.
+A: 11 and 13
+Q: The sum of the squares of two consecutive natural numbers is 113. Find the numbers.
+A: 7 and 8
+Q: A positive number exceeds its reciprocal by $\dfrac{15}{4}$. Find the number.
+A: $4x^2 - 15x - 4 = 0$ gives $x = 4$
+Q: The product of Meera's age 2 years ago and her age 4 years from now is 91. Find her present age.
+A: $(x - 2)(x + 4) = 91$ gives $x = 9$ years
+Q: The length of a rectangle is 5 cm more than its breadth and its area is 84 cm². Find its dimensions.
+A: 12 cm by 7 cm
+Q: The sides of a right-angled triangle containing the right angle are $x$ cm and $(x + 3)$ cm, and its area is 54 cm². Find the sides.
+A: $x(x + 3) = 108$ gives $x = 9$; sides 9 cm and 12 cm
+Q: A train covers 300 km at a uniform speed. If the speed had been 15 km/h more, the journey would have taken 1 hour less. Find the speed.
+A: $x^2 + 15x - 4500 = 0$ gives 60 km/h
+Q: A boat takes 1 hour more to go 12 km upstream than to return downstream. If the speed of the stream is 1 km/h, find the speed of the boat in still water.
+A: $x^2 - 1 = 24$ gives 5 km/h
+Q: Some students planned a picnic costing ₹480 in all. When 4 students dropped out, each remaining student had to pay ₹10 more. Find the number of students who went.
+A: $x^2 - 4x - 192 = 0$ gives 16 planned, so 12 went
+Q: Two pipes together fill a tank in 6 hours. The larger pipe alone takes 5 hours less than the smaller. Find the time each takes alone.
+A: $x^2 - 17x + 30 = 0$ gives 15 hours and 10 hours

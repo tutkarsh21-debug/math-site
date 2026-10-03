@@ -42,11 +42,15 @@ if (!chrome) throw new Error('Chrome or Edge not found. Set CHROME_PATH.');
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 // A degree sign typed inside maths becomes a proper superscript circle.
 const tex = (src, displayMode) => katex.renderToString(src.replace(/°/g, '^\\circ'), { displayMode, throwOnError: true, strict: 'ignore' });
-// Inline text: $maths$ and **bold**.
-const inline = s => s.split(/(\$[^$]+\$)/).map(part =>
-  part.startsWith('$') && part.endsWith('$') && part.length > 2
-    ? tex(part.slice(1, -1), false)
-    : esc(part).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')).join('');
+// Inline text: $maths$ and **bold**. Bold may run across maths, so each ** simply switches bold on or off.
+const inline = s => {
+  let bold = false;
+  const html = s.split(/(\$[^$]+\$)/).map(part =>
+    part.startsWith('$') && part.endsWith('$') && part.length > 2
+      ? tex(part.slice(1, -1), false)
+      : esc(part).replace(/\*\*/g, () => (bold = !bold) ? '<strong>' : '</strong>')).join('');
+  return bold ? html + '</strong>' : html;
+};
 
 function parse(text, file) {
   const meta = {}, topics = [], formulas = [], dpp = [];
@@ -93,7 +97,9 @@ const table = t => '<table class="data"><tbody>' + t.rows.map((r, i) => '<tr>' +
 const step = s => s.rows ? table(s) : s.startsWith('$') && s.endsWith('$$') ? `<div class="step">${tex(s.slice(2, -2).trim(), true)}</div>` : `<div class="step">${inline(s)}</div>`;
 
 function topicHtml(t, i) {
-  let html = `<section class="topic"><h2><span class="no">${i + 1}</span>${inline(t.title)}</h2>`, egNo = 0, open = false;
+  // A short topic with no examples is kept on one page.
+  const compact = t.items.length <= 8 && t.items.every(it => it.type === 'li' || it.type === 'tip');
+  let html = `<section class="topic${compact ? ' compact' : ''}"><h2><span class="no">${i + 1}</span>${inline(t.title)}</h2>`, egNo = 0, open = false;
   const closeList = () => { if (open) { html += '</ul>'; open = false; } };
   for (const it of t.items) {
     if (it.type === 'li') { if (!open) { html += '<ul>'; open = true; } html += `<li>${inline(it.text)}</li>`; continue; }

@@ -1,0 +1,97 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 3
+@title Shares and Dividend
+@summary A share is a small part of the capital of a company. This chapter covers the two values of a share, the dividend it earns and the return an investor actually gets.
+
+# Shares and their values
+- The capital of a company is divided into small equal units called **shares**. A person who buys shares is a **shareholder**.
+- **Nominal value (N.V.)**, also called face value or par value, is the value printed on the share. It does not change.
+- **Market value (M.V.)** is the price at which the share is bought or sold in the market. It changes with time.
+| Share is | Meaning | Example for a ₹100 share |
+| At par | M.V. $=$ N.V. | Sold at ₹100 |
+| At a premium (above par) | M.V. $>$ N.V. | Premium of ₹20: sold at ₹120 |
+| At a discount (below par) | M.V. $<$ N.V. | Discount of ₹15: sold at ₹85 |
+- A share bought "at ₹20 premium" costs N.V. $+ 20$. A share bought "at 10% discount" costs N.V. $- 10\%$ of N.V.
+
+# Dividend
+- The part of the profit that a company distributes to its shareholders is the **dividend**.
+- Dividend is always expressed as a percentage of the **nominal value**, never of the market value.
+$$\text{Dividend on one share} = \frac{\text{rate of dividend} \times \text{N.V.}}{100} \qquad \text{Total dividend} = \text{number of shares} \times \text{dividend on one share}$$
+- The money a person spends on buying shares is the **investment** (sum invested).
+$$\text{Number of shares} = \frac{\text{sum invested}}{\text{M.V. of one share}}$$
+?eg A man buys 400 shares of nominal value ₹25 each at a market value of ₹36 each. The company pays a dividend of 12%. Find his investment, his annual dividend and his percentage return.
+= Investment $= 400 \times 36 =$ ₹14,400
+= Dividend on one share $= 12\%$ of ₹25 $=$ ₹3, so annual dividend $= 400 \times 3 =$ ₹1,200
+= Return $= \dfrac{1200}{14400} \times 100 = 8\tfrac{1}{3}\%$
+=> Investment ₹14,400; dividend ₹1,200; return $8\tfrac{1}{3}\%$
+?eg Find the number of ₹100 shares that can be bought for ₹8,800 when they are at a premium of ₹10, and the dividend received if the company pays 15%.
+= M.V. of one share $= 100 + 10 =$ ₹110
+= Number of shares $= \dfrac{8800}{110} = 80$
+= Dividend $= 80 \times 15\%$ of ₹100 $= 80 \times 15$
+=> 80 shares; dividend ₹1,200
+
+# Return on investment
+- The **return** (or yield) is the income as a percentage of the money actually invested.
+$$\text{Return \%} = \frac{\text{dividend on one share}}{\text{M.V. of one share}} \times 100$$
+- A very useful relation follows:
+$$\text{Rate of dividend} \times \text{N.V.} = \text{Return \%} \times \text{M.V.}$$
+?eg A company pays a dividend of 10% on its ₹50 shares. Find the return on the investment of a man who buys them at ₹62.50.
+= Dividend on one share $= 10\%$ of ₹50 $=$ ₹5
+= Return $= \dfrac{5}{62.50} \times 100$
+=> Return $= 8\%$
+?eg Which is the better investment: 16% ₹100 shares at ₹80, or 20% ₹100 shares at ₹120?
+= First: dividend ₹16 on an investment of ₹80; return $= \dfrac{16}{80} \times 100 = 20\%$
+= Second: dividend ₹20 on an investment of ₹120; return $= \dfrac{20}{120} \times 100 = 16\tfrac{2}{3}\%$
+=> The first, 16% ₹100 shares at ₹80, is the better investment.
+
+# Selling and reinvesting
+- Sale proceeds $=$ number of shares sold $\times$ M.V. at the time of sale.
+- If the proceeds are reinvested, find the new number of shares, then the new dividend, and compare with the old one.
+?eg A man sells 60 shares (N.V. ₹100, paying 10%) at ₹120 each and invests the proceeds in ₹50 shares at ₹40 that pay 12%. Find the change in his annual income.
+= Original income $= 60 \times 10 =$ ₹600
+= Sale proceeds $= 60 \times 120 =$ ₹7,200
+= New shares $= \dfrac{7200}{40} = 180$; new income $= 180 \times 12\%$ of ₹50 $= 180 \times 6 =$ ₹1,080
+=> His annual income increases by ₹480.
+
+# Common mistakes
+- Calculating dividend on the market value. Dividend is on the nominal value.
+- Finding the number of shares by dividing by the nominal value. Divide the investment by the **market** value.
+- Mixing up "rate of dividend" (on N.V.) with "return" (on M.V.).
+- Reading "premium of 10%" as ₹10 for every share. It is 10% of the nominal value.
+
+@@formulas
+Share at par | M.V. $=$ N.V.
+Share at a premium | M.V. $=$ N.V. $+$ premium
+Share at a discount | M.V. $=$ N.V. $-$ discount
+Number of shares | $\dfrac{\text{sum invested}}{\text{M.V. of one share}}$
+Sum invested | Number of shares $\times$ M.V. of one share
+Dividend on one share | $\dfrac{\text{rate of dividend} \times \text{N.V.}}{100}$
+Total (annual) dividend | Number of shares $\times$ dividend on one share
+Return % | $\dfrac{\text{dividend on one share}}{\text{M.V. of one share}} \times 100$
+Dividend and return | Rate of dividend $\times$ N.V. $=$ return % $\times$ M.V.
+Sale proceeds | Number of shares sold $\times$ M.V. at the time of sale
+Profit on sale | Sale proceeds $-$ sum invested
+
+@@dpp
+Q: Find the market value of a ₹100 share (i) at par (ii) at a premium of ₹35 (iii) at a discount of ₹12.
+A: (i) ₹100 (ii) ₹135 (iii) ₹88
+Q: Find the annual dividend on 250 shares of nominal value ₹20 each when the company pays 8%.
+A: $250 \times 1.60 =$ ₹400
+Q: How many ₹50 shares, quoted at ₹62.50, can be bought for ₹10,000?
+A: 160 shares
+Q: A man invests ₹9,600 in ₹100 shares at ₹80. If the company pays a dividend of 18%, find the number of shares, his dividend and his percentage return.
+A: 120 shares; ₹2,160; $22.5\%$
+Q: A company declares a dividend of 9% on its ₹100 shares. What is the market value of a share if an investor earns 12% on his money?
+A: $9 \times 100 = 12 \times \text{M.V.}$, so M.V. $=$ ₹75
+Q: Find the rate of dividend if ₹25 shares quoted at ₹40 give a return of 5%.
+A: $r \times 25 = 5 \times 40$, so $r = 8\%$
+Q: Which is the better investment: 12% ₹100 shares at ₹120, or 8% ₹100 shares at ₹90?
+A: Returns are $10\%$ and $8\tfrac{8}{9}\%$; the first
+Q: A man buys 500 shares of ₹10 each at a premium of ₹2. Find his investment, and his dividend if the company pays 15%.
+A: Investment ₹6,000; dividend ₹750
+Q: A man sells 100 shares (N.V. ₹50) at ₹60 each and buys ₹100 shares at ₹125 with the proceeds. How many shares does he buy?
+A: Proceeds ₹6,000; 48 shares
+Q: How much should a man invest in ₹50 shares selling at ₹60 to obtain an annual income of ₹450, if the rate of dividend is 10%?
+A: 90 shares needed; investment ₹5,400

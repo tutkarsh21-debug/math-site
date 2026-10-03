@@ -1,0 +1,103 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 17
+@title Circles
+@summary This chapter is about the angles formed in a circle: at the centre, at the circumference, in a semicircle and in a cyclic quadrilateral.
+
+# Terms
+- A **chord** joins two points on a circle. A **diameter** is a chord through the centre.
+- An **arc** is a part of the circle. A chord divides the circle into a **minor arc** and a **major arc**.
+- A **segment** is the region between a chord and an arc. Angles "in the same segment" stand on the same chord and lie on the same side of it.
+- The angle **subtended** by an arc at a point is the angle between the lines joining that point to the ends of the arc.
+
+# Angle at the centre and at the circumference
+- **Theorem 1**: the angle that an arc subtends at the centre is **double** the angle it subtends at any point on the remaining part of the circumference.
+$$\angle AOB = 2\,\angle ACB$$
+- **Theorem 2**: angles in the same segment of a circle are **equal**.
+- **Theorem 3**: the angle in a semicircle is a **right angle**. Conversely, if a chord subtends a right angle at the circumference, the chord is a diameter.
+?eg $O$ is the centre of a circle and $A$, $B$, $C$ are points on it, with $C$ on the major arc $AB$. If $\angle AOB = 110°$, find $\angle ACB$.
+= The angle at the centre is double the angle at the circumference on the same arc.
+= $\angle ACB = \dfrac{1}{2} \times 110°$
+=> $\angle ACB = 55°$
+?eg $AB$ is a diameter of a circle and $C$ is a point on the circle with $\angle CAB = 35°$. Find $\angle ABC$.
+= $\angle ACB = 90°$ (angle in a semicircle)
+= $\angle ABC = 180° - 90° - 35°$
+=> $\angle ABC = 55°$
+?eg $O$ is the centre of a circle and $A$, $B$ are points on it with $\angle OAB = 40°$. $C$ is a point on the major arc. Find $\angle ACB$.
+= $OA = OB$ (radii), so $\angle OBA = \angle OAB = 40°$
+= $\angle AOB = 180° - 80° = 100°$
+=> $\angle ACB = \dfrac{1}{2} \times 100° = 50°$
+!tip If the point $C$ is on the **minor** arc, use the reflex angle at the centre: $\angle ACB = \dfrac{1}{2}(360° - \angle AOB)$.
+
+# Cyclic quadrilaterals
+- A quadrilateral is **cyclic** if all four of its vertices lie on a circle.
+- **Theorem 4**: the opposite angles of a cyclic quadrilateral are **supplementary** (add up to $180°$).
+- **Theorem 5**: an exterior angle of a cyclic quadrilateral equals the **interior opposite angle**.
+- Converse: if a pair of opposite angles of a quadrilateral is supplementary, the quadrilateral is cyclic.
+?eg $ABCD$ is a cyclic quadrilateral with $\angle A = 75°$ and $\angle B = 110°$. Find $\angle C$ and $\angle D$.
+= $\angle C = 180° - \angle A = 180° - 75°$
+= $\angle D = 180° - \angle B = 180° - 110°$
+=> $\angle C = 105°$ and $\angle D = 70°$
+?eg $ABCD$ is a cyclic quadrilateral. Side $AB$ is produced to $E$ and $\angle CBE = 82°$. Find $\angle ADC$.
+= The exterior angle of a cyclic quadrilateral equals the interior opposite angle.
+=> $\angle ADC = 82°$
+?eg In a cyclic quadrilateral $ABCD$, $\angle A = (2x + 4)°$ and $\angle C = (4x - 4)°$. Find $x$ and the two angles.
+= $(2x + 4) + (4x - 4) = 180$, so $6x = 180$ and $x = 30$
+=> $x = 30$; $\angle A = 64°$ and $\angle C = 116°$
+
+# Arcs, chords and angles
+- Equal chords of a circle (or of equal circles) subtend equal angles at the centre, and cut off equal arcs.
+- Equal arcs subtend equal angles at the centre and at the circumference.
+- The angle subtended by an arc is proportional to the length of the arc: an arc twice as long subtends twice the angle.
+- A cyclic parallelogram is a rectangle. A cyclic trapezium is isosceles, and its diagonals are equal.
+?eg $A$, $B$, $C$, $D$ are points on a circle in order, with arc $AB =$ arc $BC$. If $\angle ADB = 25°$, find $\angle ADC$.
+= Equal arcs subtend equal angles at the circumference, so $\angle BDC = \angle ADB = 25°$
+=> $\angle ADC = 50°$
+
+# How to write a solution
+- State the property used in brackets after each step, for example "(angles in the same segment)" or "(opposite angles of a cyclic quadrilateral)".
+- Look for radii: a triangle formed by two radii is isosceles.
+- Look for a diameter: it gives a right angle at the circumference.
+- Look for four points on the circle: they give a cyclic quadrilateral.
+
+# Common mistakes
+- Halving the angle at the centre for a point on the wrong arc.
+- Taking adjacent angles of a cyclic quadrilateral as supplementary. It is the **opposite** angles.
+- Using "angles in the same segment" for angles on opposite sides of the chord.
+- Giving an answer without the reason. Marks are given for the property.
+
+@@formulas
+Angle at the centre | $\angle AOB = 2\,\angle ACB$ (same arc)
+Angles in the same segment | Equal
+Angle in a semicircle | $90°$
+Opposite angles of a cyclic quadrilateral | $\angle A + \angle C = 180°$ and $\angle B + \angle D = 180°$
+Exterior angle of a cyclic quadrilateral | Equal to the interior opposite angle
+Point on the minor arc | $\angle ACB = \dfrac{1}{2}(360° - \angle AOB)$
+Triangle formed by two radii | Isosceles: the base angles are equal
+Equal chords | Equal angles at the centre; equal arcs
+Equal arcs | Equal angles at the centre and at the circumference
+Cyclic parallelogram | A rectangle
+Cyclic trapezium | Isosceles, with equal diagonals
+
+@@dpp
+Q: An arc subtends $140°$ at the centre of a circle. Find the angle it subtends at a point on the remaining part of the circle.
+A: $70°$
+Q: An arc subtends $35°$ at a point on the major arc. Find the angle it subtends at the centre.
+A: $70°$
+Q: $AB$ is a diameter of a circle and $C$ is a point on the circle with $\angle ABC = 62°$. Find $\angle BAC$.
+A: $28°$
+Q: $O$ is the centre of a circle and $\angle OAB = 25°$ for a chord $AB$. Find the angle that $AB$ subtends at a point on the major arc.
+A: $\angle AOB = 130°$; $65°$
+Q: For the chord in the previous question, find the angle it subtends at a point on the minor arc.
+A: $\dfrac{1}{2}(360° - 130°) = 115°$
+Q: $ABCD$ is a cyclic quadrilateral with $\angle B = 95°$ and $\angle C = 80°$. Find $\angle A$ and $\angle D$.
+A: $\angle A = 100°$, $\angle D = 85°$
+Q: In a cyclic quadrilateral $PQRS$, $\angle P = 3x°$ and $\angle R = 2x°$. Find $x$.
+A: $x = 36$
+Q: $ABCD$ is a cyclic quadrilateral and $DC$ is produced to $E$. If $\angle BAD = 68°$, find $\angle BCE$.
+A: $68°$
+Q: Points $P$ and $Q$ lie on the same side of a chord $AB$ of a circle. If $\angle APB = 48°$, find $\angle AQB$ and give the reason.
+A: $48°$ (angles in the same segment)
+Q: Prove that a cyclic parallelogram is a rectangle.
+A: Opposite angles of a parallelogram are equal, and in a cyclic quadrilateral they add up to $180°$, so each is $90°$.

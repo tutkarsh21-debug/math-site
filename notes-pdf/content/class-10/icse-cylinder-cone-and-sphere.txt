@@ -1,0 +1,112 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 20
+@title Cylinder, Cone and Sphere (Surface Area and Volume)
+@summary This chapter covers the surface area and volume of the three round solids, hollow solids, solids joined together, and problems in which one solid is melted and recast into another.
+
+# Cylinder
+- A right circular cylinder has radius $r$ and height $h$.
+$$\text{Curved surface area} = 2\pi rh \qquad \text{Total surface area} = 2\pi r(r + h) \qquad \text{Volume} = \pi r^2h$$
+- **Hollow cylinder** (a pipe) with external radius $R$, internal radius $r$ and height $h$:
+$$\text{Volume of material} = \pi(R^2 - r^2)h \qquad \text{Total surface area} = 2\pi(R + r)h + 2\pi(R^2 - r^2)$$
+?eg A cylinder has radius 7 cm and height 10 cm. Find its curved surface area, total surface area and volume.
+= CSA $= 2 \times \dfrac{22}{7} \times 7 \times 10 = 440$ cm²
+= TSA $= 2 \times \dfrac{22}{7} \times 7 \times (7 + 10) = 748$ cm²
+= Volume $= \dfrac{22}{7} \times 7 \times 7 \times 10 = 1540$ cm³
+=> CSA 440 cm²; TSA 748 cm²; volume 1540 cm³
+?eg A metal pipe is 21 cm long, with external radius 4 cm and internal radius 3 cm. Find the volume of metal in it.
+= Volume $= \pi(R^2 - r^2)h = \dfrac{22}{7} \times (16 - 9) \times 21$
+=> Volume $= 462$ cm³
+
+# Cone
+- A right circular cone has radius $r$, vertical height $h$ and slant height $l$.
+$$l = \sqrt{r^2 + h^2} \qquad \text{Curved surface area} = \pi rl \qquad \text{Total surface area} = \pi r(l + r) \qquad \text{Volume} = \frac{1}{3}\pi r^2h$$
+- The volume of a cone is one third of the volume of a cylinder with the same base and height.
+?eg A cone has radius 7 cm and height 24 cm. Find its slant height, curved surface area and volume.
+= $l = \sqrt{7^2 + 24^2} = \sqrt{625} = 25$ cm
+= CSA $= \dfrac{22}{7} \times 7 \times 25 = 550$ cm²
+= Volume $= \dfrac{1}{3} \times \dfrac{22}{7} \times 7 \times 7 \times 24 = 1232$ cm³
+=> $l = 25$ cm; CSA 550 cm²; volume 1232 cm³
+
+# Sphere and hemisphere
+| Solid | Surface area | Volume |
+| Sphere | $4\pi r^2$ | $\dfrac{4}{3}\pi r^3$ |
+| Hemisphere | Curved: $2\pi r^2$;  total: $3\pi r^2$ | $\dfrac{2}{3}\pi r^3$ |
+| Spherical shell (radii $R$, $r$) | Outer: $4\pi R^2$ | $\dfrac{4}{3}\pi(R^3 - r^3)$ |
+?eg Find the surface area and the volume of a sphere of radius 10.5 cm.
+= Surface area $= 4 \times \dfrac{22}{7} \times 10.5 \times 10.5 = 1386$ cm²
+= Volume $= \dfrac{4}{3} \times \dfrac{22}{7} \times 10.5 \times 10.5 \times 10.5 = 4851$ cm³
+=> Surface area 1386 cm²; volume 4851 cm³
+
+# Melting and recasting
+- When a solid is melted and recast, or reshaped, its **volume does not change**.
+$$\text{Number of small solids} = \frac{\text{volume of the large solid}}{\text{volume of one small solid}}$$
+- When a solid is fully immersed in water, the volume of water displaced equals the volume of the solid.
+?eg A solid metal sphere of radius 6 cm is melted and recast into small cones, each of radius 2 cm and height 3 cm. Find the number of cones formed.
+= Volume of sphere $= \dfrac{4}{3}\pi \times 6^3 = 288\pi$ cm³
+= Volume of one cone $= \dfrac{1}{3}\pi \times 2^2 \times 3 = 4\pi$ cm³
+=> Number of cones $= \dfrac{288\pi}{4\pi} = 72$
+?eg A solid metal sphere of radius 9 cm is drawn into a wire of radius 0.2 cm. Find the length of the wire.
+= Volume of sphere $= \dfrac{4}{3}\pi \times 9^3 = 972\pi$ cm³
+= The wire is a cylinder: $\pi \times (0.2)^2 \times h = 972\pi$, so $h = \dfrac{972}{0.04} = 24300$ cm
+=> Length of the wire $= 243$ m
+?eg A sphere of radius 3 cm is dropped into a cylindrical jar of radius 6 cm containing water, and is completely submerged. Find the rise in the water level.
+= Volume of sphere $= \dfrac{4}{3}\pi \times 27 = 36\pi$ cm³
+= Rise $h$: $\pi \times 6^2 \times h = 36\pi$
+=> The water level rises by 1 cm.
+
+# Combination of solids
+- **Volume**: add the volumes of the parts.
+- **Surface area**: add only the surfaces that are exposed. Surfaces along which the solids are joined are not counted.
+?eg A solid is a cone standing on a hemisphere, both of radius 7 cm. The total height of the solid is 31 cm. Find its volume and its surface area.
+= Height of cone $= 31 - 7 = 24$ cm, so $l = 25$ cm
+= Volume $= \dfrac{1}{3}\pi r^2h + \dfrac{2}{3}\pi r^3 = 1232 + \dfrac{2156}{3} \approx 1950.67$ cm³
+= Surface area $= \pi rl + 2\pi r^2 = 550 + 308$
+=> Volume $\approx 1950.67$ cm³; surface area $= 858$ cm²
+
+# Common mistakes
+- Using the height $h$ instead of the slant height $l$ in $\pi rl$.
+- Using the diameter in place of the radius.
+- Forgetting that units must match: change mm to cm, or cm to m, before calculating.
+- Giving the total surface area of a hemisphere as $2\pi r^2$. A solid hemisphere has $3\pi r^2$.
+- Adding surface areas when a problem is about recasting. Recasting keeps the **volume** fixed.
+
+@@formulas
+Cylinder: curved surface area | $2\pi rh$
+Cylinder: total surface area | $2\pi r(r + h)$
+Cylinder: volume | $\pi r^2h$
+Hollow cylinder: volume of material | $\pi(R^2 - r^2)h$
+Hollow cylinder: total surface area | $2\pi(R + r)h + 2\pi(R^2 - r^2)$
+Cone: slant height | $l = \sqrt{r^2 + h^2}$
+Cone: curved surface area | $\pi rl$
+Cone: total surface area | $\pi r(l + r)$
+Cone: volume | $\dfrac{1}{3}\pi r^2h$
+Sphere: surface area | $4\pi r^2$
+Sphere: volume | $\dfrac{4}{3}\pi r^3$
+Hemisphere | Curved $2\pi r^2$;  total $3\pi r^2$;  volume $\dfrac{2}{3}\pi r^3$
+Spherical shell: volume of material | $\dfrac{4}{3}\pi(R^3 - r^3)$
+Recasting | Volume before $=$ volume after
+Units | 1 litre $= 1000$ cm³;  1 m³ $= 1000$ litres
+
+@@dpp
+Q: Find the curved surface area and the volume of a cylinder of radius 3.5 cm and height 12 cm.
+A: CSA 264 cm²; volume 462 cm³
+Q: The curved surface area of a cylinder of height 14 cm is 88 cm². Find its radius.
+A: 1 cm
+Q: A cone has radius 5 cm and slant height 13 cm. Find its height and its volume in terms of $\pi$.
+A: $h = 12$ cm; volume $= 100\pi$ cm³
+Q: Find the total surface area of a cone of radius 6 cm and height 8 cm. Take $\pi = 3.14$.
+A: $l = 10$ cm; $3.14 \times 6 \times 16 = 301.44$ cm²
+Q: Find the surface area and the volume of a sphere of radius 7 cm.
+A: 616 cm²; $\dfrac{4312}{3} \approx 1437.33$ cm³
+Q: Find the total surface area of a solid hemisphere of radius 14 cm.
+A: $3 \times \dfrac{22}{7} \times 196 = 1848$ cm²
+Q: A hollow cylinder is 35 cm long, with external radius 5 cm and internal radius 4 cm. Find the volume of material.
+A: $\dfrac{22}{7} \times 9 \times 35 = 990$ cm³
+Q: How many spherical balls of radius 1 cm can be made by melting a solid cylinder of radius 4 cm and height 6 cm?
+A: $\dfrac{96\pi}{\frac{4}{3}\pi} = 72$
+Q: A solid cone of radius 6 cm and height 24 cm is melted and recast into a sphere. Find the radius of the sphere.
+A: $288\pi = \dfrac{4}{3}\pi r^3$, so $r^3 = 216$ and $r = 6$ cm
+Q: A cylindrical vessel of radius 7 cm contains water. A solid cone of radius 3.5 cm and height 12 cm is fully immersed. Find the rise in the water level.
+A: $\dfrac{49\pi}{49\pi} = 1$ cm

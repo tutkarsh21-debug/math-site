@@ -1,0 +1,106 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 8
+@title Remainder and Factor Theorems
+@summary These two theorems give the remainder of a polynomial division without dividing, and tell whether a linear expression is a factor. They are then used to factorise cubic polynomials.
+
+# Polynomials and division
+- A **polynomial** in $x$ is written $f(x)$. Its value at $x = a$ is $f(a)$, found by substituting $a$ for $x$.
+- When $f(x)$ is divided by a divisor, we get a quotient and a remainder:
+$$\text{Dividend} = \text{divisor} \times \text{quotient} + \text{remainder}$$
+- When the divisor is linear (degree 1), the remainder is a constant.
+
+# The remainder theorem
+- **Theorem**: if $f(x)$ is divided by $(x - a)$, the remainder is $f(a)$.
+| Divisor | Remainder |
+| $x - a$ | $f(a)$ |
+| $x + a$ | $f(-a)$ |
+| $ax - b$ | $f\!\left(\dfrac{b}{a}\right)$ |
+| $ax + b$ | $f\!\left(-\dfrac{b}{a}\right)$ |
+- Rule: put the divisor equal to zero, solve for $x$, and substitute that value in $f(x)$.
+?eg Find the remainder when $f(x) = x^3 - 3x^2 + 4x - 5$ is divided by $(x - 2)$.
+= $x - 2 = 0$ gives $x = 2$
+= $f(2) = 8 - 12 + 8 - 5$
+=> Remainder $= -1$
+?eg Find the remainder when $f(x) = 2x^3 + 3x^2 - 5x + 1$ is divided by $(2x + 1)$.
+= $2x + 1 = 0$ gives $x = -\dfrac{1}{2}$
+= $f\!\left(-\dfrac{1}{2}\right) = 2\left(-\dfrac{1}{8}\right) + 3\left(\dfrac{1}{4}\right) + \dfrac{5}{2} + 1 = -\dfrac{1}{4} + \dfrac{3}{4} + \dfrac{5}{2} + 1$
+=> Remainder $= 4$
+
+# The factor theorem
+- **Theorem**: $(x - a)$ is a factor of $f(x)$ if and only if $f(a) = 0$.
+- So a divisor is a factor exactly when the remainder is zero.
+- Similarly $(ax + b)$ is a factor of $f(x)$ if $f\!\left(-\dfrac{b}{a}\right) = 0$.
+?eg Show that $(x - 2)$ is a factor of $x^3 - 7x + 6$.
+= $f(2) = 8 - 14 + 6 = 0$
+=> Since $f(2) = 0$, $(x - 2)$ is a factor.
+?eg Find the value of $a$ if $(x - 2)$ is a factor of $x^3 + ax^2 - 4x + 4$.
+= $f(2) = 0$: $8 + 4a - 8 + 4 = 0$
+= $4a = -4$
+=> $a = -1$
+
+# Finding unknown constants
+- Each condition (a factor, or a given remainder) gives one equation. Two unknowns need two conditions.
+?eg The polynomial $f(x) = x^3 + ax^2 + bx - 6$ has $(x - 1)$ as a factor and leaves remainder 12 when divided by $(x - 3)$. Find $a$ and $b$.
+= $f(1) = 0$: $1 + a + b - 6 = 0$, so $a + b = 5$
+= $f(3) = 12$: $27 + 9a + 3b - 6 = 12$, so $9a + 3b = -9$ and $3a + b = -3$
+= Subtract: $2a = -8$, so $a = -4$ and $b = 9$
+=> $a = -4$, $b = 9$
+
+# Factorising a cubic polynomial
+- **Step 1**: find one factor by trial. Try $x = 1, -1, 2, -2, 3, -3, \dots$, which are factors of the constant term, until $f(a) = 0$. Then $(x - a)$ is a factor.
+- **Step 2**: divide $f(x)$ by $(x - a)$ to get a quadratic quotient.
+- **Step 3**: factorise the quadratic.
+?eg Factorise $x^3 - 7x + 6$ completely.
+= $f(1) = 1 - 7 + 6 = 0$, so $(x - 1)$ is a factor.
+= Dividing: $x^3 - 7x + 6 = (x - 1)(x^2 + x - 6)$
+= $x^2 + x - 6 = (x + 3)(x - 2)$
+=> $x^3 - 7x + 6 = (x - 1)(x - 2)(x + 3)$
+?eg Factorise $2x^3 + x^2 - 13x + 6$ completely, and hence solve $2x^3 + x^2 - 13x + 6 = 0$.
+= $f(2) = 16 + 4 - 26 + 6 = 0$, so $(x - 2)$ is a factor.
+= Dividing: $2x^3 + x^2 - 13x + 6 = (x - 2)(2x^2 + 5x - 3)$
+= $2x^2 + 5x - 3 = (2x - 1)(x + 3)$
+=> $(x - 2)(2x - 1)(x + 3)$; the solutions are $x = 2$, $x = \dfrac{1}{2}$ and $x = -3$.
+!tip Quick tests: if the sum of all the coefficients is 0, then $(x - 1)$ is a factor. If the sum of the coefficients of the even powers equals the sum of the coefficients of the odd powers, then $(x + 1)$ is a factor.
+
+# Common mistakes
+- Substituting $x = a$ for the divisor $(x + a)$. The value to use is $x = -a$.
+- Sign errors with odd powers of a negative number: $(-2)^3 = -8$.
+- Stopping after one factor. "Factorise completely" needs all three linear factors.
+- Leaving out a missing term in long division. Write $x^3 + 0x^2 - 7x + 6$.
+
+@@formulas
+Division | Dividend $=$ divisor $\times$ quotient $+$ remainder
+Remainder on dividing by $(x - a)$ | $f(a)$
+Remainder on dividing by $(x + a)$ | $f(-a)$
+Remainder on dividing by $(ax - b)$ | $f\!\left(\dfrac{b}{a}\right)$
+Remainder on dividing by $(ax + b)$ | $f\!\left(-\dfrac{b}{a}\right)$
+Factor theorem | $(x - a)$ is a factor of $f(x)$ $\Leftrightarrow$ $f(a) = 0$
+Factor $(ax + b)$ | $f\!\left(-\dfrac{b}{a}\right) = 0$
+Test for the factor $(x - 1)$ | Sum of all the coefficients $= 0$
+Test for the factor $(x + 1)$ | Sum of coefficients of even powers $=$ sum of coefficients of odd powers
+Values to try | Factors of the constant term: $\pm 1, \pm 2, \pm 3, \dots$
+Cubic in factor form | $f(x) = (x - a)(\text{quadratic})$, then factorise the quadratic
+
+@@dpp
+Q: Find the remainder when $x^3 + 2x^2 - 5x + 3$ is divided by $(x - 1)$.
+A: $1 + 2 - 5 + 3 = 1$
+Q: Find the remainder when $2x^3 - x^2 + 3x - 4$ is divided by $(x + 2)$.
+A: $-16 - 4 - 6 - 4 = -30$
+Q: Find the remainder when $4x^3 - 4x^2 + x + 2$ is divided by $(2x - 1)$.
+A: $\dfrac{1}{2} - 1 + \dfrac{1}{2} + 2 = 2$
+Q: Show that $(x + 3)$ is a factor of $x^3 + 2x^2 - 5x - 6$.
+A: $f(-3) = -27 + 18 + 15 - 6 = 0$
+Q: Find $k$ if $(x - 3)$ is a factor of $x^3 - kx^2 + 2x - 15$.
+A: $27 - 9k + 6 - 15 = 0$, so $k = 2$
+Q: Find $a$ if $x^3 + ax^2 - 2x + 7$ leaves remainder 13 when divided by $(x - 2)$.
+A: $8 + 4a - 4 + 7 = 13$, so $a = \dfrac{1}{2}$
+Q: When $x^3 + 3x^2 - mx + 4$ is divided by $(x - 2)$, the remainder is $m + 3$. Find $m$.
+A: $24 - 2m = m + 3$, so $m = 7$
+Q: If $(x - 2)$ and $(x + 1)$ are both factors of $x^3 + ax^2 + bx - 2$, find $a$ and $b$.
+A: $4a + 2b = -6$ and $a - b = 3$ give $a = 0$, $b = -3$
+Q: Factorise $x^3 - 6x^2 + 11x - 6$ completely.
+A: $(x - 1)(x - 2)(x - 3)$
+Q: Factorise $x^3 + 2x^2 - 5x - 6$ completely and hence solve $x^3 + 2x^2 - 5x - 6 = 0$.
+A: $(x + 1)(x - 2)(x + 3)$; $x = -1, 2, -3$

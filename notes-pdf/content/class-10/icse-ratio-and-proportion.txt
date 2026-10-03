@@ -1,0 +1,124 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 7
+@title Ratio and Proportion
+@summary A ratio compares two quantities and a proportion says that two ratios are equal. This chapter covers the special kinds of ratio, continued proportion and the properties of proportion used to solve equations.
+
+# Ratio
+- The **ratio** of $a$ to $b$ is $\dfrac{a}{b}$, written $a : b$, where $b \neq 0$. $a$ is the **antecedent** and $b$ the **consequent**.
+- A ratio has no unit. Both quantities must be of the same kind and in the same unit.
+- A ratio is unchanged when both terms are multiplied or divided by the same non-zero number.
+| Ratio | For $a : b$ it is |
+| Duplicate ratio | $a^2 : b^2$ |
+| Triplicate ratio | $a^3 : b^3$ |
+| Sub-duplicate ratio | $\sqrt{a} : \sqrt{b}$ |
+| Sub-triplicate ratio | $\sqrt[3]{a} : \sqrt[3]{b}$ |
+| Reciprocal ratio | $b : a$ |
+- The **compound ratio** of $a : b$ and $c : d$ is $ac : bd$.
+?eg If $a : b = 3 : 5$, find $(5a + 2b) : (3a + 4b)$.
+= Let $a = 3k$ and $b = 5k$.
+= $\dfrac{5a + 2b}{3a + 4b} = \dfrac{15k + 10k}{9k + 20k} = \dfrac{25k}{29k}$
+=> $25 : 29$
+?eg Find the duplicate ratio of $2 : 3$ and the compound ratio of $2 : 3$ and $9 : 4$.
+= Duplicate ratio $= 2^2 : 3^2 = 4 : 9$
+= Compound ratio $= (2 \times 9) : (3 \times 4) = 18 : 12$
+=> $4 : 9$ and $3 : 2$
+
+# Proportion
+- Four quantities $a$, $b$, $c$, $d$ are in **proportion** if $a : b = c : d$, written $a : b :: c : d$.
+- $a$ and $d$ are the **extremes** and $b$ and $c$ the **means**.
+$$\text{Product of extremes} = \text{product of means}: \quad ad = bc$$
+- $d$ is the **fourth proportional** to $a$, $b$ and $c$.
+?eg Find the fourth proportional to 3, 5 and 12.
+= Let it be $x$. Then $3 : 5 = 12 : x$, so $3x = 60$.
+=> $x = 20$
+?eg What number must be added to each of 2, 4, 6 and 10 so that the results are in proportion?
+= Let the number be $x$. Then $(2 + x)(10 + x) = (4 + x)(6 + x)$.
+= $20 + 12x + x^2 = 24 + 10x + x^2$, so $2x = 4$.
+=> The number is 2. (Check: 4, 6, 8, 12 and $4 \times 12 = 6 \times 8$.)
+
+# Continued proportion
+- $a$, $b$, $c$ are in **continued proportion** if $a : b = b : c$.
+$$b^2 = ac$$
+- $b$ is the **mean proportional** between $a$ and $c$: $b = \sqrt{ac}$.
+- $c$ is the **third proportional** to $a$ and $b$: $c = \dfrac{b^2}{a}$.
+?eg Find (i) the mean proportional between 4 and 9 (ii) the third proportional to 4 and 6.
+= (i) $\sqrt{4 \times 9} = \sqrt{36} = 6$
+= (ii) $\dfrac{6^2}{4} = 9$
+=> (i) 6  (ii) 9
+?eg If $b$ is the mean proportional between $a$ and $c$, prove that $\dfrac{a^2 + b^2}{b^2 + c^2} = \dfrac{a}{c}$.
+= $b^2 = ac$
+= LHS $= \dfrac{a^2 + ac}{ac + c^2} = \dfrac{a(a + c)}{c(a + c)}$
+=> $= \dfrac{a}{c} =$ RHS
+
+# Properties of proportion
+- If $\dfrac{a}{b} = \dfrac{c}{d}$, then each of the following is true.
+| Property | Result |
+| Invertendo | $\dfrac{b}{a} = \dfrac{d}{c}$ |
+| Alternendo | $\dfrac{a}{c} = \dfrac{b}{d}$ |
+| Componendo | $\dfrac{a + b}{b} = \dfrac{c + d}{d}$ |
+| Dividendo | $\dfrac{a - b}{b} = \dfrac{c - d}{d}$ |
+| Componendo and dividendo | $\dfrac{a + b}{a - b} = \dfrac{c + d}{c - d}$ |
+?eg If $\dfrac{3x + 4y}{3x - 4y} = \dfrac{7}{3}$, find $x : y$.
+= Apply componendo and dividendo: $\dfrac{(3x + 4y) + (3x - 4y)}{(3x + 4y) - (3x - 4y)} = \dfrac{7 + 3}{7 - 3}$
+= $\dfrac{6x}{8y} = \dfrac{10}{4}$, so $\dfrac{x}{y} = \dfrac{10}{4} \times \dfrac{8}{6} = \dfrac{10}{3}$
+=> $x : y = 10 : 3$
+?eg Solve $\dfrac{\sqrt{x + 5} + \sqrt{x - 16}}{\sqrt{x + 5} - \sqrt{x - 16}} = \dfrac{7}{3}$.
+= Apply componendo and dividendo: $\dfrac{2\sqrt{x + 5}}{2\sqrt{x - 16}} = \dfrac{7 + 3}{7 - 3} = \dfrac{5}{2}$
+= Squaring: $\dfrac{x + 5}{x - 16} = \dfrac{25}{4}$, so $4x + 20 = 25x - 400$ and $21x = 420$
+=> $x = 20$
+!tip Componendo and dividendo is the quickest method whenever one side of an equation has the form $\dfrac{p + q}{p - q}$.
+
+# The k-method for proofs
+- If $\dfrac{a}{b} = \dfrac{c}{d}$, put each ratio equal to $k$. Then $a = bk$ and $c = dk$. Substitute in both sides of the result to be proved.
+- For continued proportion $\dfrac{a}{b} = \dfrac{b}{c} = k$: $b = ck$ and $a = bk = ck^2$.
+?eg If $\dfrac{a}{b} = \dfrac{c}{d}$, prove that $\dfrac{a^2 + c^2}{b^2 + d^2} = \dfrac{ac}{bd}$.
+= Let $\dfrac{a}{b} = \dfrac{c}{d} = k$, so $a = bk$ and $c = dk$.
+= LHS $= \dfrac{b^2k^2 + d^2k^2}{b^2 + d^2} = k^2$
+= RHS $= \dfrac{bk \times dk}{bd} = k^2$
+=> LHS $=$ RHS
+
+# Common mistakes
+- Writing a ratio of quantities in different units without converting.
+- Confusing duplicate ($a^2 : b^2$) with sub-duplicate ($\sqrt{a} : \sqrt{b}$).
+- Applying componendo to one side only. Every property is applied to both sides.
+- Forgetting to check the answer in an equation with square roots.
+
+@@formulas
+Duplicate ratio of $a : b$ | $a^2 : b^2$
+Triplicate ratio of $a : b$ | $a^3 : b^3$
+Sub-duplicate ratio of $a : b$ | $\sqrt{a} : \sqrt{b}$
+Sub-triplicate ratio of $a : b$ | $\sqrt[3]{a} : \sqrt[3]{b}$
+Reciprocal ratio of $a : b$ | $b : a$
+Compound ratio of $a : b$ and $c : d$ | $ac : bd$
+Proportion $a : b = c : d$ | $ad = bc$
+Continued proportion $a : b = b : c$ | $b^2 = ac$
+Mean proportional between $a$ and $c$ | $\sqrt{ac}$
+Third proportional to $a$ and $b$ | $\dfrac{b^2}{a}$
+Fourth proportional to $a$, $b$, $c$ | $\dfrac{bc}{a}$
+Componendo | $\dfrac{a + b}{b} = \dfrac{c + d}{d}$
+Dividendo | $\dfrac{a - b}{b} = \dfrac{c - d}{d}$
+Componendo and dividendo | $\dfrac{a + b}{a - b} = \dfrac{c + d}{c - d}$
+
+@@dpp
+Q: Find the duplicate ratio and the sub-duplicate ratio of $9 : 16$.
+A: $81 : 256$ and $3 : 4$
+Q: Find the compound ratio of $3 : 4$, $8 : 9$ and $3 : 2$.
+A: $72 : 72 = 1 : 1$
+Q: If $x : y = 4 : 7$, find $(3x + 2y) : (5x + y)$.
+A: $26 : 27$
+Q: Find the fourth proportional to 4, 7 and 12.
+A: 21
+Q: Find the mean proportional between 8 and 18.
+A: 12
+Q: Find the third proportional to 9 and 12.
+A: 16
+Q: What number must be subtracted from each of 7, 17 and 47 so that the results are in continued proportion?
+A: $(17 - x)^2 = (7 - x)(47 - x)$ gives $x = 2$
+Q: If $\dfrac{5x + 2y}{5x - 2y} = \dfrac{4}{3}$, find $x : y$.
+A: $\dfrac{5x}{2y} = 7$, so $x : y = 14 : 5$
+Q: Solve $\dfrac{\sqrt{x + 7} + \sqrt{x - 8}}{\sqrt{x + 7} - \sqrt{x - 8}} = \dfrac{5}{3}$.
+A: $\dfrac{\sqrt{x + 7}}{\sqrt{x - 8}} = 4$, so $x + 7 = 16(x - 8)$ and $x = 9$
+Q: If $\dfrac{a}{b} = \dfrac{c}{d}$, prove that $\dfrac{a + c}{b + d} = \dfrac{a}{b}$.
+A: With $a = bk$, $c = dk$: LHS $= \dfrac{k(b + d)}{b + d} = k =$ RHS

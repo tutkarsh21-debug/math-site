@@ -1,0 +1,117 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 11
+@title Geometric Progression
+@summary A geometric progression is a sequence in which each term is a fixed multiple of the one before it. This chapter covers its general term, the sum of its terms and the geometric mean.
+
+# What a G.P. is
+- A **geometric progression (G.P.)** is a sequence of non-zero numbers in which the ratio of any term to the term before it is constant.
+- The constant is the **common ratio** $r$, and the first term is $a$.
+$$r = \frac{t_2}{t_1} = \frac{t_3}{t_2} = \dots \qquad \text{General G.P.: } a,\ ar,\ ar^2,\ ar^3,\ \dots$$
+- $r$ can be a fraction or a negative number, but it cannot be zero. No term of a G.P. is zero.
+- To test for a G.P., check that the ratios of consecutive terms are all equal.
+?eg Which of these are G.P.s? (i) $3, 6, 12, 24, \dots$  (ii) $2, 4, 6, 8, \dots$  (iii) $81, -27, 9, -3, \dots$
+= (i) Ratios: $2, 2, 2$. Equal.
+= (ii) Ratios: $2, \dfrac{3}{2}, \dfrac{4}{3}$. Not equal (this is an A.P.).
+= (iii) Ratios: $-\dfrac{1}{3}, -\dfrac{1}{3}, -\dfrac{1}{3}$. Equal.
+=> (i) is a G.P. with $r = 2$; (iii) is a G.P. with $r = -\dfrac{1}{3}$; (ii) is not a G.P.
+
+# The general term
+$$t_n = a\,r^{\,n-1}$$
+- If the last term is $l$, the $n$th term from the end is $\dfrac{l}{r^{\,n-1}}$.
+- Dividing one term by another removes $a$: $\dfrac{t_m}{t_n} = r^{\,m-n}$.
+?eg Find the 8th term of the G.P. $3, 6, 12, \dots$
+= $a = 3$, $r = 2$
+= $t_8 = 3 \times 2^7 = 3 \times 128$
+=> $t_8 = 384$
+?eg Which term of the G.P. $2, 6, 18, \dots$ is 1458?
+= $2 \times 3^{\,n-1} = 1458$, so $3^{\,n-1} = 729 = 3^6$
+= $n - 1 = 6$
+=> The 7th term.
+?eg The 4th term of a G.P. is 24 and its 7th term is 192. Find the G.P.
+= $ar^3 = 24$ and $ar^6 = 192$
+= Divide: $r^3 = 8$, so $r = 2$ and $a = \dfrac{24}{8} = 3$
+=> The G.P. is $3, 6, 12, 24, \dots$
+
+# Sum of n terms
+$$S_n = \frac{a(r^n - 1)}{r - 1} \ \text{ when } r > 1 \qquad S_n = \frac{a(1 - r^n)}{1 - r} \ \text{ when } r < 1$$
+- Both forms give the same value; choosing by the size of $r$ keeps the numbers positive.
+- When $r = 1$ every term equals $a$, so $S_n = na$.
+?eg Find the sum of the first 8 terms of the G.P. $1, 2, 4, \dots$
+= $a = 1$, $r = 2$, $n = 8$
+= $S_8 = \dfrac{1 \times (2^8 - 1)}{2 - 1} = 256 - 1$
+=> $S_8 = 255$
+?eg Find the sum of the first 6 terms of the G.P. $81, 27, 9, \dots$
+= $a = 81$, $r = \dfrac{1}{3}$, $n = 6$
+= $S_6 = \dfrac{81\left(1 - \frac{1}{729}\right)}{1 - \frac{1}{3}} = 81 \times \dfrac{728}{729} \times \dfrac{3}{2} = \dfrac{728}{9} \times \dfrac{3}{2}$
+=> $S_6 = \dfrac{364}{3} = 121\tfrac{1}{3}$
+?eg How many terms of the G.P. $3, 6, 12, \dots$ are needed to give a sum of 381?
+= $\dfrac{3(2^n - 1)}{2 - 1} = 381$, so $2^n - 1 = 127$ and $2^n = 128 = 2^7$
+=> 7 terms.
+
+# Geometric mean
+- If $a$, $G$, $b$ are in G.P., then $G$ is the **geometric mean** of $a$ and $b$.
+$$G^2 = ab \qquad G = \sqrt{ab}$$
+- Three non-zero numbers $a$, $b$, $c$ are in G.P. if and only if $b^2 = ac$.
+?eg Find the geometric mean of 4 and 25, and the value of $x$ if $x$, $6$, $12$ are in G.P.
+= $G = \sqrt{4 \times 25} = \sqrt{100} = 10$
+= $6^2 = 12x$, so $x = 3$
+=> Geometric mean 10; $x = 3$
+
+# Choosing terms conveniently
+- Three numbers in G.P.: take them as $\dfrac{a}{r}$, $a$, $ar$. Their product is $a^3$.
+?eg The product of three numbers in G.P. is 216 and their sum is 26. Find the numbers.
+= Let the numbers be $\dfrac{a}{r}$, $a$, $ar$. Product: $a^3 = 216$, so $a = 6$.
+= Sum: $\dfrac{6}{r} + 6 + 6r = 26$, so $6r^2 - 20r + 6 = 0$ and $3r^2 - 10r + 3 = 0$
+= $(3r - 1)(r - 3) = 0$, so $r = 3$ or $r = \dfrac{1}{3}$
+=> The numbers are 2, 6 and 18.
+
+# A.P. and G.P. compared
+| | A.P. | G.P. |
+| Constant | Difference $d$ | Ratio $r$ |
+| General term | $a + (n - 1)d$ | $a\,r^{\,n-1}$ |
+| Three terms | $a - d,\ a,\ a + d$ | $\dfrac{a}{r},\ a,\ ar$ |
+| Condition | $2b = a + c$ | $b^2 = ac$ |
+| Mean of $a$ and $b$ | $\dfrac{a + b}{2}$ | $\sqrt{ab}$ |
+
+# Common mistakes
+- Writing $t_n = a\,r^n$. The power is $n - 1$.
+- Finding $r$ as $\dfrac{t_1}{t_2}$. It is $\dfrac{t_2}{t_1}$.
+- Sign errors with a negative $r$: odd powers are negative, even powers positive.
+- Using the A.P. sum formula for a G.P.
+
+@@formulas
+General G.P. | $a,\ ar,\ ar^2,\ ar^3,\ \dots$
+Common ratio | $r = \dfrac{t_n}{t_{n-1}}$
+General term | $t_n = a\,r^{\,n-1}$
+nth term from the end | $\dfrac{l}{r^{\,n-1}}$
+Ratio of two terms | $\dfrac{t_m}{t_n} = r^{\,m-n}$
+Sum of n terms, $r > 1$ | $S_n = \dfrac{a(r^n - 1)}{r - 1}$
+Sum of n terms, $r < 1$ | $S_n = \dfrac{a(1 - r^n)}{1 - r}$
+Sum of n terms, $r = 1$ | $S_n = na$
+Geometric mean of $a$ and $b$ | $\sqrt{ab}$
+Condition for G.P. | $b^2 = ac$
+Three terms in G.P. | $\dfrac{a}{r},\ a,\ ar$
+
+@@dpp
+Q: Find the common ratio and the 6th term of the G.P. $5, 10, 20, \dots$
+A: $r = 2$; $t_6 = 160$
+Q: Find the 7th term of the G.P. $64, 32, 16, \dots$
+A: $64 \times \left(\dfrac{1}{2}\right)^6 = 1$
+Q: Which term of the G.P. $3, 12, 48, \dots$ is 3072?
+A: $4^{\,n-1} = 1024 = 4^5$; the 6th term
+Q: The 3rd term of a G.P. is 18 and the 6th term is 486. Find the first term and the common ratio.
+A: $r = 3$, $a = 2$
+Q: Find the sum of the first 6 terms of the G.P. $2, 6, 18, \dots$
+A: $\dfrac{2(729 - 1)}{2} = 728$
+Q: Find the sum of the first 5 terms of the G.P. $16, 8, 4, \dots$
+A: $31$
+Q: How many terms of the G.P. $1, 3, 9, \dots$ add up to 364?
+A: $3^n = 729$; 6 terms
+Q: Find the geometric mean of 9 and 16.
+A: 12
+Q: Find $x$ if $x + 1$, $6$ and $x + 6$ are in G.P. and $x$ is positive.
+A: $(x + 1)(x + 6) = 36$ gives $x = 3$
+Q: The product of three numbers in G.P. is 1000 and their sum is 35. Find the numbers.
+A: $a = 10$; $2r^2 - 5r + 2 = 0$; 5, 10, 20

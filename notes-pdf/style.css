@@ -63,3 +63,4 @@ li::marker{color:var(--brand)}
 .data{border-collapse:collapse;margin:2.5mm 0;font-size:9.5pt;font-weight:400;break-inside:avoid}
 .data th,.data td{border:.3mm solid var(--line);padding:1.2mm 3mm;text-align:center}
 .data th{background:var(--soft);font-weight:600;color:var(--brand-strong)}
+.topic.compact{break-inside:avoid}

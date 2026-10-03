@@ -1,0 +1,112 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 19
+@title Constructions (Circles)
+@summary This chapter covers the ruler-and-compass constructions connected with circles: tangents to a circle, and the circumscribed and inscribed circles of a triangle and of a regular hexagon.
+
+# Rules for every construction
+- Use only a ruler and a pair of compasses, with a sharp pencil.
+- Draw a rough sketch first and mark the given measurements on it.
+- Leave all construction arcs and lines visible; they earn marks.
+- Finish by measuring and writing down whatever the question asks for.
+- The two basic constructions used again and again are the **perpendicular bisector** of a line segment and the **bisector of an angle**.
+
+# Tangent at a point on the circle
+- **Given**: a circle with centre $O$ and a point $P$ on it.
+- Step 1: join $OP$.
+- Step 2: at $P$, construct a line $APB$ perpendicular to $OP$.
+- $APB$ is the required tangent.
+- **Why it works**: the tangent at any point is perpendicular to the radius through that point.
+
+# Tangents from an external point
+- **Given**: a circle with centre $O$ and a point $P$ outside it.
+- Step 1: join $OP$ and draw its perpendicular bisector to find the mid-point $M$ of $OP$.
+- Step 2: with centre $M$ and radius $MO$, draw a circle. Let it cut the given circle at $A$ and $B$.
+- Step 3: join $PA$ and $PB$. These are the two tangents.
+- **Why it works**: $OP$ is a diameter of the second circle, so $\angle OAP = 90°$ (angle in a semicircle). Thus $PA$ is perpendicular to the radius $OA$.
+?eg A circle has radius 3 cm and a point $P$ is 5 cm from its centre. Write the steps to construct the tangents from $P$, and calculate their length.
+= Step 1: draw a circle with centre $O$ and radius 3 cm. Mark $P$ with $OP = 5$ cm.
+= Step 2: bisect $OP$ at $M$. With centre $M$ and radius $MO = 2.5$ cm draw a circle cutting the first circle at $A$ and $B$.
+= Step 3: join $PA$ and $PB$.
+= Length: $PA = \sqrt{OP^2 - OA^2} = \sqrt{25 - 9}$
+=> $PA = PB = 4$ cm (measure to confirm).
+!tip Always check a tangent construction by calculation: the measured length should match $\sqrt{d^2 - r^2}$.
+
+# Circumscribed circle of a triangle
+- The **circumcircle** passes through all three vertices. Its centre is the **circumcentre** and its radius the **circumradius**.
+- Step 1: construct the triangle.
+- Step 2: draw the perpendicular bisectors of any two sides. Let them meet at $O$.
+- Step 3: with centre $O$ and radius $OA$, draw a circle. It passes through $A$, $B$ and $C$.
+- **Why it works**: every point on the perpendicular bisector of a side is equidistant from its two end points, so $OA = OB = OC$.
+| Triangle | Position of the circumcentre |
+| Acute-angled | Inside the triangle |
+| Right-angled | The mid-point of the hypotenuse |
+| Obtuse-angled | Outside the triangle |
+?eg A right-angled triangle has sides 6 cm, 8 cm and 10 cm. Where is its circumcentre, and what is its circumradius?
+= The circumcentre of a right-angled triangle is the mid-point of the hypotenuse.
+=> It is the mid-point of the 10 cm side, and the circumradius is 5 cm.
+
+# Inscribed circle of a triangle
+- The **incircle** touches all three sides. Its centre is the **incentre** and its radius the **inradius**.
+- Step 1: construct the triangle.
+- Step 2: draw the bisectors of any two angles. Let them meet at $I$.
+- Step 3: from $I$ draw a perpendicular $ID$ to any one side.
+- Step 4: with centre $I$ and radius $ID$, draw a circle. It touches all three sides.
+- **Why it works**: every point on the bisector of an angle is equidistant from the arms of the angle, so $I$ is equidistant from the three sides.
+- The incentre always lies inside the triangle.
+?eg An equilateral triangle has side 6 cm. Calculate its inradius and its circumradius.
+= Height $= \dfrac{\sqrt{3}}{2} \times 6 = 3\sqrt{3}$ cm. In an equilateral triangle the incentre and circumcentre coincide at the centroid, which divides the height in the ratio $2 : 1$.
+= Circumradius $= \dfrac{2}{3} \times 3\sqrt{3} = 2\sqrt{3}$ cm and inradius $= \dfrac{1}{3} \times 3\sqrt{3} = \sqrt{3}$ cm
+=> Inradius $\approx 1.73$ cm; circumradius $\approx 3.46$ cm
+
+# Circles and a regular hexagon
+- A regular hexagon has six equal sides and each interior angle is $120°$.
+- **To construct a regular hexagon of side $a$**: draw a circle of radius $a$, and with the same radius step off six arcs round the circle. Join the points in order.
+- **Circumscribed circle** of a regular hexagon: draw the perpendicular bisectors of any two sides; they meet at the centre $O$. The radius is $OA$, and it **equals the side** of the hexagon.
+- **Inscribed circle** of a regular hexagon: use the same centre $O$. Draw the perpendicular from $O$ to any side; its length is the radius, equal to $\dfrac{\sqrt{3}}{2}a$.
+?eg A regular hexagon has side 4 cm. Find the radius of its circumscribed circle and of its inscribed circle.
+= Circumradius $=$ side $= 4$ cm
+= Inradius $= \dfrac{\sqrt{3}}{2} \times 4 = 2\sqrt{3}$ cm
+=> 4 cm and about 3.46 cm
+
+# Common mistakes
+- Using perpendicular bisectors for the incircle, or angle bisectors for the circumcircle.
+- Taking the radius of the incircle as the distance from $I$ to a vertex. It is the **perpendicular** distance to a side.
+- Drawing a tangent by eye instead of constructing it.
+- Rubbing out the arcs.
+
+@@formulas
+Tangent at a point on a circle | Perpendicular to the radius at that point
+Tangents from an external point $P$ | Circle on $OP$ as diameter cuts the given circle at the points of contact
+Length of a tangent | $\sqrt{d^2 - r^2}$
+Circumcentre | Meeting point of the perpendicular bisectors of the sides
+Incentre | Meeting point of the bisectors of the angles
+Circumradius | Distance from the circumcentre to a vertex
+Inradius | Perpendicular distance from the incentre to a side
+Circumcentre of a right-angled triangle | Mid-point of the hypotenuse; circumradius $= \dfrac{1}{2} \times$ hypotenuse
+Equilateral triangle of side $a$ | Circumradius $= \dfrac{a}{\sqrt{3}}$;  inradius $= \dfrac{a}{2\sqrt{3}}$
+Inradius of any triangle | $r = \dfrac{\text{area}}{s}$, where $s$ is the semi-perimeter
+Regular hexagon of side $a$ | Circumradius $= a$;  inradius $= \dfrac{\sqrt{3}}{2}a$
+
+@@dpp
+Q: Write the steps to construct a tangent to a circle at a point $P$ on it.
+A: Join $OP$; construct the perpendicular to $OP$ at $P$.
+Q: Write the steps to construct the two tangents to a circle from a point $P$ outside it.
+A: Bisect $OP$ at $M$; draw the circle with centre $M$ and radius $MO$ to cut the given circle at $A$, $B$; join $PA$, $PB$.
+Q: A point is 13 cm from the centre of a circle of radius 5 cm. Calculate the length of each tangent from it.
+A: 12 cm
+Q: Which lines are drawn to find the circumcentre of a triangle? Which are drawn to find the incentre?
+A: Perpendicular bisectors of the sides; bisectors of the angles
+Q: A triangle has sides 5 cm, 12 cm and 13 cm. Find its circumradius.
+A: It is right-angled; circumradius $= 6.5$ cm
+Q: For the triangle in the previous question, find the inradius.
+A: Area 30 cm², $s = 15$ cm; $r = 2$ cm
+Q: An equilateral triangle has side 9 cm. Find its circumradius and its inradius.
+A: $3\sqrt{3} \approx 5.2$ cm and $\dfrac{3\sqrt{3}}{2} \approx 2.6$ cm
+Q: Where does the circumcentre of an obtuse-angled triangle lie?
+A: Outside the triangle
+Q: A regular hexagon has side 5 cm. Find the radius of its circumscribed circle and of its inscribed circle.
+A: 5 cm and $\dfrac{5\sqrt{3}}{2} \approx 4.33$ cm
+Q: Write the steps to construct the incircle of a triangle $ABC$.
+A: Bisect two angles to meet at $I$; draw $ID \perp BC$; draw the circle with centre $I$ and radius $ID$.

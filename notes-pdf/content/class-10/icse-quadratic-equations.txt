@@ -1,0 +1,103 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 5
+@title Quadratic Equations
+@summary A quadratic equation has the variable squared. This chapter covers solving it by factorisation and by the formula, giving answers to a required accuracy, and finding the nature of its roots.
+
+# Standard form and roots
+- A **quadratic equation** in $x$ has the form
+$$ax^2 + bx + c = 0, \quad a \neq 0$$
+- $a$, $b$ and $c$ are real numbers. If $a = 0$ the equation is no longer quadratic.
+- A value of $x$ that satisfies the equation is a **root** (solution). A quadratic equation has two roots, which may be equal.
+- To check whether a number is a root, substitute it and see whether both sides become equal.
+?eg If $x = 2$ is a root of $3x^2 - px - 2 = 0$, find $p$.
+= Substitute $x = 2$: $3(4) - 2p - 2 = 0$
+= $10 - 2p = 0$
+=> $p = 5$
+
+# Solving by factorisation
+- Write the equation in the form $ax^2 + bx + c = 0$, clearing fractions and brackets first.
+- Split $bx$ into two terms whose sum is $b$ and whose product is $ac$, factorise, and put each factor equal to zero (**zero product rule**: if $pq = 0$ then $p = 0$ or $q = 0$).
+?eg Solve $2x^2 - 7x + 6 = 0$.
+= $ac = 12$; the numbers $-4$ and $-3$ have sum $-7$ and product $12$.
+= $2x^2 - 4x - 3x + 6 = 0$, so $2x(x - 2) - 3(x - 2) = 0$ and $(2x - 3)(x - 2) = 0$
+=> $x = \dfrac{3}{2}$ or $x = 2$
+?eg Solve $x + \dfrac{1}{x} = 2\tfrac{1}{2}$, $x \neq 0$.
+= $x + \dfrac{1}{x} = \dfrac{5}{2}$. Multiply by $2x$: $2x^2 + 2 = 5x$, so $2x^2 - 5x + 2 = 0$
+= $(2x - 1)(x - 2) = 0$
+=> $x = \dfrac{1}{2}$ or $x = 2$
+?eg Solve $\dfrac{x}{x - 1} + \dfrac{x - 1}{x} = 2\tfrac{1}{2}$.
+= Let $\dfrac{x}{x - 1} = y$. Then $y + \dfrac{1}{y} = \dfrac{5}{2}$, which gives $y = 2$ or $y = \dfrac{1}{2}$ (as in the previous example).
+= $\dfrac{x}{x - 1} = 2$ gives $x = 2x - 2$, so $x = 2$
+= $\dfrac{x}{x - 1} = \dfrac{1}{2}$ gives $2x = x - 1$, so $x = -1$
+=> $x = 2$ or $x = -1$
+
+# The quadratic formula
+- The roots of $ax^2 + bx + c = 0$ are
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+- Use the formula when the equation does not factorise, and always when the question says "correct to ... decimal places" or "significant figures".
+?eg Solve $x^2 - 7x + 3 = 0$, giving your answer correct to two decimal places.
+= $a = 1$, $b = -7$, $c = 3$; $b^2 - 4ac = 49 - 12 = 37$ and $\sqrt{37} \approx 6.083$
+= $x = \dfrac{7 \pm 6.083}{2}$, so $x = \dfrac{13.083}{2} = 6.5415$ or $x = \dfrac{0.917}{2} = 0.4585$
+=> $x = 6.54$ or $x = 0.46$
+!tip For an answer correct to 2 decimal places, work to 3 places and round off only at the end. For significant figures, count from the first non-zero digit: 0.4585 correct to 2 significant figures is 0.46.
+
+# Nature of the roots
+- The **discriminant** is $D = b^2 - 4ac$.
+| Discriminant | Nature of the roots |
+| $D > 0$ | Real and unequal |
+| $D = 0$ | Real and equal, each $= -\dfrac{b}{2a}$ |
+| $D < 0$ | Not real (imaginary) |
+- If $D$ is a perfect square (and $a$, $b$, $c$ are rational), the roots are rational; otherwise they are irrational.
+- The roots are **real** when $D \geq 0$.
+?eg Without solving, find the nature of the roots of (i) $3x^2 - 5x + 2 = 0$ (ii) $x^2 + 4x + 5 = 0$.
+= (i) $D = 25 - 24 = 1 > 0$
+= (ii) $D = 16 - 20 = -4 < 0$
+=> (i) Real and unequal (also rational, since 1 is a perfect square). (ii) Not real.
+?eg Find the values of $m$ for which $x^2 - 2mx + 9 = 0$ has equal roots.
+= For equal roots, $D = 0$: $(-2m)^2 - 4(1)(9) = 0$
+= $4m^2 = 36$, so $m^2 = 9$
+=> $m = 3$ or $m = -3$
+
+# Common mistakes
+- Dividing both sides by $x$ and losing the root $x = 0$.
+- Reading $b$ or $c$ without its sign.
+- Dividing only $\sqrt{D}$ by $2a$ instead of the whole numerator.
+- Rounding too early, which makes the final decimal places wrong.
+- Not checking that a solution keeps every denominator non-zero.
+
+@@formulas
+Standard form | $ax^2 + bx + c = 0$, $a \neq 0$
+Zero product rule | If $pq = 0$, then $p = 0$ or $q = 0$
+Quadratic formula | $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+Discriminant | $D = b^2 - 4ac$
+Real and unequal roots | $D > 0$
+Real and equal roots | $D = 0$; each root $= -\dfrac{b}{2a}$
+Roots not real | $D < 0$
+Real roots | $D \geq 0$
+Sum of the roots | $-\dfrac{b}{a}$
+Product of the roots | $\dfrac{c}{a}$
+Equation with roots $\alpha$ and $\beta$ | $x^2 - (\alpha + \beta)x + \alpha\beta = 0$
+
+@@dpp
+Q: Check whether $x = -3$ is a root of $2x^2 + 5x - 3 = 0$.
+A: $18 - 15 - 3 = 0$; yes
+Q: If $x = \dfrac{2}{3}$ is a root of $3x^2 + kx - 2 = 0$, find $k$.
+A: $\dfrac{4}{3} + \dfrac{2k}{3} - 2 = 0$, so $k = 1$
+Q: Solve $x^2 - 9x + 20 = 0$.
+A: $x = 4$ or $x = 5$
+Q: Solve $6x^2 + x - 12 = 0$.
+A: $x = \dfrac{4}{3}$ or $x = -\dfrac{3}{2}$
+Q: Solve $\dfrac{x + 1}{x - 1} = \dfrac{3x - 7}{2x - 5}$.
+A: It reduces to $x^2 - 7x + 12 = 0$, so $x = 3$ or $x = 4$
+Q: Solve $x^2 - 5x - 10 = 0$, correct to two decimal places.
+A: $x = 6.53$ or $x = -1.53$
+Q: Solve $2x^2 - 4x - 3 = 0$, correct to two decimal places.
+A: $x = 2.58$ or $x = -0.58$
+Q: Find the nature of the roots of $4x^2 - 12x + 9 = 0$.
+A: $D = 0$: real and equal, each $\dfrac{3}{2}$
+Q: Find the value of $k$ for which $kx^2 + 6x + 1 = 0$ has equal roots.
+A: $36 - 4k = 0$, so $k = 9$
+Q: For which values of $p$ does $x^2 + px + 4 = 0$ have real roots?
+A: $p^2 \geq 16$: $p \geq 4$ or $p \leq -4$
