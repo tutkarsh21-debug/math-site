@@ -16,6 +16,7 @@
 $$\angle AOB = 2\,\angle ACB$$
 - **Theorem 2**: angles in the same segment of a circle are **equal**.
 - **Theorem 3**: the angle in a semicircle is a **right angle**. Conversely, if a chord subtends a right angle at the circumference, the chord is a diameter.
+!fig w=260 h=235; P O 130 120 t; P A 61.1 177.9 bl; P B 198.9 177.9 br; P C 114.4 31.4 t; C O 90; H O A; H O B; L C A; L C B; A A O B 2x; A A C B x; cap Angle AOB at the centre is double the angle ACB at the circumference
 ?eg $O$ is the centre of a circle and $A$, $B$, $C$ are points on it, with $C$ on the major arc $AB$. If $\angle AOB = 110°$, find $\angle ACB$.
 = The angle at the centre is double the angle at the circumference on the same arc.
 = $\angle ACB = \dfrac{1}{2} \times 110°$
@@ -35,6 +36,7 @@ $$\angle AOB = 2\,\angle ACB$$
 - **Theorem 4**: the opposite angles of a cyclic quadrilateral are **supplementary** (add up to $180°$).
 - **Theorem 5**: an exterior angle of a cyclic quadrilateral equals the **interior opposite angle**.
 - Converse: if a pair of opposite angles of a quadrilateral is supplementary, the quadrilateral is cyclic.
+!fig w=260 h=235; Q O 130 118; P A 45.4 148.8 l; P B 198.9 175.9 br; P C 207.9 73 r; P D 85 40.1 tl; C O 90; L A B; L B C; L C D; L D A; A D A B; A B C D; cap Cyclic quadrilateral ABCD: angle A + angle C = 180°
 ?eg $ABCD$ is a cyclic quadrilateral with $\angle A = 75°$ and $\angle B = 110°$. Find $\angle C$ and $\angle D$.
 = $\angle C = 180° - \angle A = 180° - 75°$
 = $\angle D = 180° - \angle B = 180° - 110°$

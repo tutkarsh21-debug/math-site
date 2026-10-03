@@ -21,6 +21,7 @@
 - The total surface area of a combined solid is the sum of the **visible** surfaces only.
 - The faces along which the solids are joined are hidden, so they are **not** counted.
 - Usually this means adding curved surface areas, plus any flat face that remains exposed.
+!fig w=340 h=185; Q L 50 115; Q R 130 115; Q V 90 20; Q O 90 115; L L V; L R V; D L R; ARC O 40 180 360; D V O; N O R r; M O V h; M V R l; Q K1 215 95; Q K2 290 95; Q a 215 60; Q b 290 60; Q c 215 130; Q d 290 130; L a b; L c d; D a c; D b d; ARC K1 35 90 270; ARC K2 35 270 450; N c d h; M K1 a r; cap Left: a cone on a hemisphere. Right: a cylinder with hemispherical ends.
 | Combination | Surface area |
 | Cone on a hemisphere (same radius) | $\pi rl + 2\pi r^2$ |
 | Cylinder with a hemisphere at each end | $2\pi rh + 4\pi r^2$ |

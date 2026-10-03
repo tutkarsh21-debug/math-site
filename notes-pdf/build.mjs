@@ -16,6 +16,7 @@
 //   => text           its final answer
 //   $ ... $         a formula on its own line
 //   | a | b | c |     a table row (first row is the heading); works in a topic, an example question or its solution
+//   !fig ...          a diagram (see figure.mjs); works in a topic, an example question or its solution
 //   @@formulas        starts the formula bank; then one "Name | formula" per line
 //   @@dpp             starts the DPP sheet; then "Q: question" lines, each followed by "A: answer"
 // Inside any text: $...$ is maths (LaTeX) and **...** is bold.
@@ -24,6 +25,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import katex from 'katex';
+import { figure } from './figure.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const contentDir = path.join(here, 'content');
@@ -70,6 +72,10 @@ function parse(text, file) {
       else fail(n, 'DPP lines must be "Q: ..." followed by "A: ..."');
       return;
     }
+    if (line.startsWith('!fig ')) {
+      (eg ? (eg.steps.length ? eg.steps : eg.qTables) : (topic || fail(n, 'figure before the first "# Topic"')).items).push({ type: 'fig', fig: line.slice(5) });
+      return;
+    }
     if (line.startsWith('|')) {
       const row = line.split('|').slice(1, line.endsWith('|') ? -1 : undefined).map(c => c.trim());
       const list = eg ? (eg.steps.length ? eg.steps : eg.qTables) : (topic || fail(n, 'table before the first "# Topic"')).items;
@@ -94,7 +100,8 @@ function parse(text, file) {
 }
 
 const table = t => '<table class="data"><tbody>' + t.rows.map((r, i) => '<tr>' + r.map(c => i ? `<td>${inline(c)}</td>` : `<th>${inline(c)}</th>`).join('') + '</tr>').join('') + '</tbody></table>';
-const step = s => s.rows ? table(s) : s.startsWith('$') && s.endsWith('$$') ? `<div class="step">${tex(s.slice(2, -2).trim(), true)}</div>` : `<div class="step">${inline(s)}</div>`;
+const block = b => b.fig ? figure(b.fig) : table(b);
+const step = s => typeof s !== 'string' ? block(s) : s.startsWith('$$') && s.endsWith('$$') ? `<div class="step">${tex(s.slice(2, -2).trim(), true)}</div>` : `<div class="step">${inline(s)}</div>`;
 
 function topicHtml(t, i) {
   // A short topic with no examples is kept on one page.
@@ -105,9 +112,9 @@ function topicHtml(t, i) {
     if (it.type === 'li') { if (!open) { html += '<ul>'; open = true; } html += `<li>${inline(it.text)}</li>`; continue; }
     closeList();
     if (it.type === 'tip') html += `<div class="tip"><b>Remember</b>${inline(it.text)}</div>`;
-    else if (it.type === 'table') html += table(it);
+    else if (it.type === 'table' || it.type === 'fig') html += block(it);
     else if (it.type === 'math') html += `<div class="display">${tex(it.text, true)}</div>`;
-    else html += `<div class="eg"><div class="q"><b>Example ${i + 1}.${++egNo}</b>${inline(it.q)}${it.qTables.map(table).join('')}</div>`
+    else html += `<div class="eg"><div class="q"><b>Example ${i + 1}.${++egNo}</b>${inline(it.q)}${it.qTables.map(block).join('')}</div>`
       + `<div class="sol"><i>Solution</i>${it.steps.map(step).join('')}`
       + (it.answer ? `<div class="ans">${inline(it.answer)}</div>` : '') + '</div></div>';
   }

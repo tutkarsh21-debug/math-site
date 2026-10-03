@@ -14,6 +14,7 @@
 - **Theorem 2**: if two tangents are drawn to a circle from an external point, then (i) they are **equal in length**, (ii) they subtend equal angles at the centre, and (iii) they are equally inclined to the line joining the point to the centre.
 - For tangents $PA$ and $PB$ from $P$ to a circle with centre $O$: $\angle APB + \angle AOB = 180°$.
 - Length of the tangent from a point at distance $d$ from the centre: $\sqrt{d^2 - r^2}$.
+!fig w=340 h=220; P O 120 110 l; P P 290 110 r; P A 148.8 46.2 t; P B 148.8 173.8 b; C O 70; H P A; H P B; D O A; D O B; D O P; R O A P; R O B P; cap Tangents PA and PB from an external point P, each perpendicular to the radius at the point of contact
 ?eg A point $P$ is 17 cm from the centre of a circle of radius 8 cm. Find the length of the tangent from $P$.
 = The radius is perpendicular to the tangent at the point of contact $T$, so $PT^2 = OP^2 - OT^2$.
 = $PT = \sqrt{17^2 - 8^2} = \sqrt{225}$
@@ -42,6 +43,7 @@
 - **Theorem 3**: if two chords of a circle intersect, inside or outside the circle when produced, the product of the lengths of the segments of one chord equals the product of the lengths of the segments of the other.
 $$PA \times PB = PC \times PD$$
 - Here $P$ is the point of intersection of the chords $AB$ and $CD$, and every length is measured **from $P$**.
+!fig w=260 h=235; Q O 130 115; P A 45.4 84.2 l; P B 218.6 130.6 r; P C 99.2 199.6 b; P D 160.8 30.4 t; P P 132.7 107.6 tr; C O 90; L A B; L C D; cap Chords AB and CD meet at P: PA × PB = PC × PD
 ?eg Chords $AB$ and $CD$ of a circle intersect at a point $P$ inside it. If $PA = 4$ cm, $PB = 6$ cm and $PC = 3$ cm, find $PD$.
 = $PA \times PB = PC \times PD$
 = $4 \times 6 = 3 \times PD$
@@ -53,6 +55,7 @@ $$PA \times PB = PC \times PD$$
 
 # Tangent and secant from an external point
 - **Theorem 4**: if a chord $AB$ and a tangent at $T$ meet at an external point $P$, then
+!fig w=340 h=210; P O 120 110 t; P P 290 110 r; P T 148.8 46.2 t; P A 190 110 br; P B 50 110 l; C O 70; H P T; L P B; D O T; R O T P; cap Tangent PT and secant PAB from the external point P
 $$PT^2 = PA \times PB$$
 ?eg From an external point $P$, a tangent $PT$ and a secant $PAB$ are drawn to a circle. If $PA = 4$ cm and $AB = 5$ cm, find $PT$.
 = $PB = PA + AB = 9$ cm
@@ -62,6 +65,7 @@ $$PT^2 = PA \times PB$$
 # The alternate segment theorem
 - **Theorem 5**: the angle between a tangent and a chord through the point of contact is equal to the angle in the **alternate segment**.
 - If $TAS$ is the tangent at $A$ and $AB$ is a chord, then $\angle BAS$ equals the angle that $AB$ subtends at any point of the circle on the side of $AB$ away from $S$.
+!fig w=300 h=230; Q O 150 110; P A 150 190 b; P T 30 190 l; P S 270 190 r; P B 225.2 82.6 r; P C 98.6 48.7 tl; C O 80; L T S; L A B; L A C; L B C; A B A S x; A A C B x; cap Angle BAS between the tangent and the chord equals angle ACB in the alternate segment
 ?eg $TAS$ is a tangent to a circle at $A$, and $AB$ is a chord with $\angle BAS = 55°$. $C$ is a point on the circle in the alternate segment. Find $\angle ACB$.
 = The angle between the tangent and the chord equals the angle in the alternate segment.
 => $\angle ACB = 55°$

@@ -64,3 +64,12 @@ li::marker{color:var(--brand)}
 .data th,.data td{border:.3mm solid var(--line);padding:1.2mm 3mm;text-align:center}
 .data th{background:var(--soft);font-weight:600;color:var(--brand-strong)}
 .topic.compact{break-inside:avoid}
+
+/* diagrams */
+.fig{margin:2.5mm auto;text-align:center;break-inside:avoid}
+.fig svg{max-width:100%;height:auto}
+.fig text{font-family:Poppins,sans-serif;font-size:11px;fill:#10182b}
+.fig text.pt{font-family:KaTeX_Math,'Times New Roman',serif;font-style:italic;font-size:14px}
+.fig text.ang{font-size:10.5px;fill:#1557d6;font-weight:500}
+.fig figcaption{font-size:8.5pt;color:var(--muted);margin-top:.5mm}
+.eg .q .fig{font-weight:400}

@@ -10,6 +10,7 @@
 - The **angle of elevation** is the angle between the horizontal and the line of sight when the object is **above** the level of the eye.
 - The **angle of depression** is the angle between the horizontal and the line of sight when the object is **below** the level of the eye.
 - The angle of depression of $B$ from $A$ equals the angle of elevation of $A$ from $B$ (alternate angles).
+!fig w=340 h=230; P O 50 120 l; Q X 310 120; P A 280 40 r; P B 280 205 r; D O X; L O A; L O B; A X O A; A X O B; T 190 109 angle of elevation; T 190 137 angle of depression; T 300 113 horizontal; cap Both angles are measured from the horizontal through the eye O
 !tip Both angles are measured from the horizontal line through the observer's eye, never from the vertical.
 
 # Which ratio to use
@@ -35,6 +36,7 @@
 # Problems with two triangles
 - Mark the common side, call the unknowns $h$ and $x$, write one equation from each triangle and solve the two together.
 ?eg From a point on the ground, the angle of elevation of the top of a tower is $30°$. On walking 50 m towards the tower, the angle of elevation becomes $60°$. Find the height of the tower.
+!fig w=340 h=200; P F 60 170 bl; P T 60 60 tl; P A 123.5 170 b; P B 250.5 170 br; L F B; H F T; L T A; L T B; R T F A; A F A T 60°; A F B T 30°; M F T h; N F A x; N A B 50 m; cap The tower FT seen from B (30°) and from A (60°)
 = Let the height be $h$ and the final distance from the tower be $x$.
 = $\tan 60° = \dfrac{h}{x}$ gives $h = x\sqrt{3}$, and $\tan 30° = \dfrac{h}{x + 50}$ gives $x + 50 = h\sqrt{3}$
 = Substituting: $x + 50 = 3x$, so $x = 25$ and $h = 25\sqrt{3}$

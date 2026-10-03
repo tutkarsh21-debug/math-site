@@ -38,12 +38,14 @@ $$\text{Area of sector} = \frac{\theta}{360} \times \pi r^2 \qquad \text{Length 
 - The smaller region is the **minor segment** and the larger is the **major segment**.
 $$\text{Area of minor segment} = \text{area of the sector} - \text{area of the triangle formed by the chord and the two radii}$$
 - Area of the major segment $= \pi r^2 -$ area of the minor segment.
+!fig w=340 h=200; P O 95 105 l; P A 165.5 79.3 r; P B 108 31.1 t; C O 75; SEC O 75 20 80; L O A; L O B; A A O B θ; P K 255 105 b; P P 194.4 70 l; P Q 315.6 70 r; C K 70; SEG K 70 30 150; L P Q; cap Left: sector OAB. Right: the minor segment cut off by the chord PQ.
 - The triangle is isosceles with two sides equal to $r$ and the angle $\theta$ between them.
 | Angle $\theta$ | Area of the triangle |
 | $60°$ | $\dfrac{\sqrt{3}}{4}r^2$ (equilateral triangle) |
 | $90°$ | $\dfrac{1}{2}r^2$ (right-angled triangle) |
 | $120°$ | $\dfrac{\sqrt{3}}{4}r^2$ |
 ?eg A chord of a circle of radius 14 cm subtends a right angle at the centre. Find the area of the minor segment and of the major segment.
+!fig w=220 h=200; P O 110 110 b; P A 53.4 53.4 l; P B 166.6 53.4 r; C O 80; SEC O 80 45 135; SEG O 80 45 135; L O A; L O B; L A B; R A O B; cap Minor segment (yellow) = sector OAB − triangle OAB
 = Area of sector $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14 = 154$ cm²
 = Area of triangle $= \dfrac{1}{2} \times 14 \times 14 = 98$ cm²
 = Minor segment $= 154 - 98 = 56$ cm²

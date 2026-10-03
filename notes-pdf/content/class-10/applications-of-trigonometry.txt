@@ -10,6 +10,7 @@
 - The **angle of elevation** is the angle between the horizontal and the line of sight when the object is **above** the horizontal level. The observer looks up.
 - The **angle of depression** is the angle between the horizontal and the line of sight when the object is **below** the horizontal level. The observer looks down.
 - The angle of depression of a point $B$ seen from $A$ equals the angle of elevation of $A$ seen from $B$, because they are alternate angles between parallel horizontal lines.
+!fig w=340 h=230; P O 50 120 l; Q X 310 120; P A 280 40 r; P B 280 205 r; D O X; L O A; L O B; A X O A; A X O B; T 190 109 angle of elevation; T 190 137 angle of depression; T 300 113 horizontal; cap Both angles are measured from the horizontal through the eye O
 !tip Both angles are measured from the **horizontal**, never from the vertical.
 
 # Choosing the ratio
@@ -23,6 +24,7 @@
 
 # One right-angled triangle
 ?eg The angle of elevation of the top of a tower from a point on the ground 20 m from its foot is $60°$. Find the height of the tower.
+!fig w=280 h=228; P P 80 205 bl; P F 180 205 br; P T 180 32 tr; L P F; H F T; L P T; R P F T; A F P T 60°; N P F 20 m; N F T h; cap Tower FT seen from the point P
 = Let the height be $h$ m. The height is opposite to the angle and the 20 m is adjacent.
 = $\tan 60° = \dfrac{h}{20}$, so $h = 20\sqrt{3}$
 => Height $= 20\sqrt{3} \approx 34.64$ m
@@ -38,6 +40,7 @@
 # Two right-angled triangles
 - Many problems have two triangles that share a side. Take the unknown shared side (or the unknown height) as $x$ or $h$, write one equation from each triangle and solve.
 ?eg The shadow of a tower on level ground is 30 m longer when the sun's altitude is $30°$ than when it is $60°$. Find the height of the tower.
+!fig w=340 h=200; P F 60 170 bl; P T 60 60 tl; P A 123.5 170 b; P B 250.5 170 br; L F B; H F T; L T A; L T B; R T F A; A F A T 60°; A F B T 30°; M F T h; N F A x; N A B 30 m; cap Shadow FA when the sun is at 60° and FB when it is at 30°
 = Let the height be $h$ m and the shorter shadow be $x$ m.
 = At $60°$: $\tan 60° = \dfrac{h}{x}$, so $h = x\sqrt{3}$
 = At $30°$: $\tan 30° = \dfrac{h}{x + 30}$, so $x + 30 = h\sqrt{3} = 3x$

@@ -37,6 +37,7 @@ $$PT = \sqrt{d^2 - r^2}$$
 = $OA^2 = OT^2 + AT^2 = 7^2 + 24^2 = 49 + 576 = 625$
 => $OA = 25$ cm
 ?eg Two concentric circles have radii 13 cm and 5 cm. Find the length of the chord of the larger circle that touches the smaller circle.
+!fig w=300 h=240; P O 150 120 t; P A 70 180 bl; P B 230 180 br; P M 150 180 b; C O 100; C O 60; H A B; D O M; D O A; R O M B; cap Chord AB of the larger circle touches the smaller circle at M
 = Let the chord $AB$ touch the smaller circle at $M$. Then $OM \perp AB$, and the perpendicular from the centre bisects the chord, so $AM = MB$.
 = $AM = \sqrt{OA^2 - OM^2} = \sqrt{13^2 - 5^2} = 12$ cm
 => $AB = 2 \times 12 = 24$ cm
@@ -47,6 +48,7 @@ $$PT = \sqrt{d^2 - r^2}$$
 
 # Theorem 2: tangents from an external point
 - **Theorem**: the lengths of the tangents drawn from an external point to a circle are equal.
+!fig w=340 h=220; P O 120 110 l; P P 290 110 r; P A 148.8 46.2 t; P B 148.8 173.8 b; C O 70; H P A; H P B; D O A; D O B; D O P; R O A P; R O B P; cap Tangents PA and PB from an external point P, each perpendicular to the radius at the point of contact
 - If $PA$ and $PB$ are tangents from $P$ to a circle with centre $O$, then $PA = PB$. The proof uses $\triangle OAP \cong \triangle OBP$ by RHS.
 - From the same congruence: $OP$ bisects $\angle APB$ and $\angle AOB$.
 - $\angle APB + \angle AOB = 180°$, because the angles at $A$ and $B$ in quadrilateral $OAPB$ are both $90°$.

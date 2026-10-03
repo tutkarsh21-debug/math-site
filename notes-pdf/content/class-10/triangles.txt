@@ -29,6 +29,7 @@ $$\frac{AB}{DE} = \frac{BC}{EF} = \frac{CA}{FD}$$
 $$\frac{AD}{DB} = \frac{AE}{EC}$$
 - It also follows that $\dfrac{AD}{AB} = \dfrac{AE}{AC}$ and $\dfrac{DB}{AB} = \dfrac{EC}{AC}$.
 - **Converse**: if a line divides any two sides of a triangle in the same ratio, the line is parallel to the third side.
+!fig w=340 h=225; P A 170 22 t; P B 40 200 bl; P C 300 200 br; P D 111.5 102 l; P E 228.5 102 r; L A B; L A C; L B C; H D E; cap DE is parallel to BC, so AD : DB = AE : EC
 ?eg In $\triangle ABC$, $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = 2$ cm, $DB = 3$ cm and $AE = 4$ cm, find $EC$.
 = By the Basic Proportionality Theorem, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$
 = $\dfrac{2}{3} = \dfrac{4}{EC}$
@@ -58,6 +59,7 @@ $$\frac{AD}{DB} = \frac{AE}{EC}$$
 = The included angles are equal and the sides including them are in the same ratio.
 => Yes, $\triangle ABC \sim \triangle PQR$ by the SAS criterion.
 ?eg Diagonals $AC$ and $BD$ of a trapezium $ABCD$, with $AB \parallel DC$, intersect at $O$. Show that $\dfrac{OA}{OC} = \dfrac{OB}{OD}$.
+!fig w=340 h=220; P A 60 190 bl; P B 280 190 br; P C 230 60 tr; P D 110 60 tl; P O 170 105.9 b; L A B; L B C; L C D; L D A; H A C; H B D; cap Trapezium ABCD with AB parallel to DC
 = In $\triangle OAB$ and $\triangle OCD$: $\angle OAB = \angle OCD$ (alternate angles, $AB \parallel DC$)
 = $\angle AOB = \angle COD$ (vertically opposite angles)
 = So $\triangle OAB \sim \triangle OCD$ by the AA criterion.
@@ -71,6 +73,7 @@ $$\frac{\text{height of object 1}}{\text{shadow of object 1}} = \frac{\text{heig
 = $\dfrac{h}{24} = \dfrac{5}{3}$
 => The tower is 40 m high.
 ?eg A man 1.8 m tall stands 4 m from the foot of a lamp-post 5.4 m high. Find the length of his shadow.
+!fig w=340 h=215; P P 60 190 bl; P L 60 40 tl; P Q 220 190 b; P M 220 140 tr; P T 300 190 br; L P T; L P L; H Q M; D L T; N L P 5.4 m; N Q M 1.8 m; N P Q 4 m; N Q T x; cap Lamp-post LP, man MQ and his shadow QT
 = Let the shadow be $x$ m. The triangle formed by the lamp-post and the triangle formed by the man share the angle at the tip of the shadow, and each has a right angle, so they are similar.
 = $\dfrac{5.4}{1.8} = \dfrac{4 + x}{x}$, so $3x = 4 + x$
 => The shadow is 2 m long.

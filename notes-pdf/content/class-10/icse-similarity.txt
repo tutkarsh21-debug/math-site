@@ -33,6 +33,7 @@
 - In $\triangle ABC$, if $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$:
 $$\frac{AD}{DB} = \frac{AE}{EC} \qquad \frac{AD}{AB} = \frac{AE}{AC} = \frac{DE}{BC}$$
 - **Converse**: a line that divides two sides of a triangle proportionally is parallel to the third side.
+!fig w=340 h=225; P A 170 22 t; P B 40 200 bl; P C 300 200 br; P D 111.5 102 l; P E 228.5 102 r; L A B; L A C; L B C; H D E; cap DE is parallel to BC, so AD : DB = AE : EC
 ?eg In $\triangle ABC$, $DE \parallel BC$ with $AD = 3$ cm, $DB = 5$ cm and $BC = 12$ cm. Find $DE$.
 = $\triangle ADE \sim \triangle ABC$ (AA, since $DE \parallel BC$), so $\dfrac{DE}{BC} = \dfrac{AD}{AB}$
 = $AB = 3 + 5 = 8$ cm, so $\dfrac{DE}{12} = \dfrac{3}{8}$
