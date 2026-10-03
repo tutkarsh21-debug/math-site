@@ -1,0 +1,6 @@
+T: Sum of n terms
+Q: [ICSE 2024, 4 marks] $15, 30, 60, 120, \ldots$ is a G.P. (a) Write its $n$th term. (b) How many terms add up to 945?
+S: (a) $a = 15$ and $r = 2$, so $T_n = 15 \times 2^{n-1}$.
+S: (b) $S_n = \dfrac{a(r^n - 1)}{r - 1} = 15(2^n - 1) = 945$
+S: $2^n - 1 = 63$, so $2^n = 64 = 2^6$.
+S: **Answer: (a) $T_n = 15 \times 2^{n-1}$ (b) 6 terms**

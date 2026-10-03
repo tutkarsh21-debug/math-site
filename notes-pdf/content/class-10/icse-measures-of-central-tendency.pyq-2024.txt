@@ -1,0 +1,14 @@
+T: Mean of grouped data
+Q: [ICSE 2024, 3 marks] The table gives the running times of some films. Find the mean running time by the step-deviation method.
+| Duration (minutes) | 100–110 | 110–120 | 120–130 | 130–140 | 140–150 | 150–160 |
+| Number of films | 5 | 10 | 17 | 8 | 6 | 4 |
+S: Class marks: 105, 115, 125, 135, 145, 155. Take $A = 125$ and $h = 10$, so $u = \dfrac{x - 125}{10}$ is $-2, -1, 0, 1, 2, 3$.
+S: $\sum f = 50$ and $\sum fu = -10 - 10 + 0 + 8 + 12 + 12 = 12$
+S: Mean $= A + \dfrac{\sum fu}{\sum f} \times h = 125 + \dfrac{12}{50} \times 10$
+S: **Answer: 127.4 minutes**
+
+T: Median of raw data
+Q: [ICSE 2024, 1 mark] The numbers $27, 31, 46, 52, x, x + 4, 71, 79, 85, 90$ are in ascending order and their median is 64. Find $x$. (a) 60  (b) 61  (c) 62  (d) 66
+S: There are 10 numbers, so the median is the mean of the 5th and 6th: $\dfrac{x + (x + 4)}{2} = x + 2$.
+S: $x + 2 = 64$, so $x = 62$.
+S: **Answer: (c)**

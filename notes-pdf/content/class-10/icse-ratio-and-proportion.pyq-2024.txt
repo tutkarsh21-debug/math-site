@@ -1,0 +1,12 @@
+T: Proportion
+Q: [ICSE 2024, 1 mark] A train moves at a uniform speed. It covers 60 m in 2 s, 90 m in $x$ s and $y$ m in 5 s. Find $x$ and $y$. (a) $x = 4$, $y = 150$  (b) $x = 3$, $y = 100$  (c) $x = 4$, $y = 100$  (d) $x = 3$, $y = 150$
+S: Speed $= \dfrac{60}{2} = 30$ m/s. At uniform speed, distance is proportional to time.
+S: $x = \dfrac{90}{30} = 3$ and $y = 30 \times 5 = 150$
+S: **Answer: (d)**
+
+T: Properties of proportion
+Q: [ICSE 2024, 4 marks] Given $\dfrac{(a + b)^3}{(a - b)^3} = \dfrac{64}{27}$, find (a) $\dfrac{a + b}{a - b}$ (b) the ratio $a : b$, using the properties of proportion.
+S: (a) Take the cube root of both sides: $\dfrac{a + b}{a - b} = \dfrac{4}{3}$
+S: (b) Apply componendo and dividendo: $\dfrac{(a + b) + (a - b)}{(a + b) - (a - b)} = \dfrac{4 + 3}{4 - 3}$
+S: $\dfrac{2a}{2b} = \dfrac{7}{1}$
+S: **Answer: (a) $\dfrac{4}{3}$ (b) $a : b = 7 : 1$**

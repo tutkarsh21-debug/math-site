@@ -1,0 +1,13 @@
+T: Sales within a state: CGST and SGST
+Q: [ICSE 2024, 1 mark] In a sale within a state, the CGST on an article marked at ₹2000 is ₹120. What is the rate of GST? (a) 6%  (b) 10%  (c) 12%  (d) 16.67%
+S: CGST rate $= \dfrac{120}{2000} \times 100 = 6\%$
+S: CGST is half of the GST, so the GST rate is $2 \times 6\% = 12\%$.
+S: **Answer: (c)**
+
+T: A bill with several items
+Q: [ICSE 2024, 3 marks] A sweet shop bill has 2 kg of laddu at ₹500 per kg (GST 5%) and 12 pastries at ₹100 each (GST 18%). Find (a) the total GST paid (b) the total bill amount including GST.
+S: Laddu: $500 \times 2 = 1000$, and GST $= 5\%$ of 1000 $= 50$.
+S: Pastries: $100 \times 12 = 1200$, and GST $= 18\%$ of 1200 $= 216$.
+S: (a) Total GST $= 50 + 216 = 266$
+S: (b) Bill $= 1000 + 1200 + 266$
+S: **Answer: (a) ₹266 (b) ₹2466**

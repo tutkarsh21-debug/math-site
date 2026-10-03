@@ -1,0 +1,15 @@
+T: Conditions for similarity
+Q: [ICSE 2024, 1 mark] $\triangle ABC \sim \triangle PQR$. $AD$ bisects $\angle BAC$ and meets $BC$ at $D$; $PS$ bisects $\angle QPR$ and meets $QR$ at $S$. Which statement is true? (a) $\triangle ABC \sim \triangle PQS$  (b) $\triangle ABD \sim \triangle PQS$  (c) $\triangle ABD \sim \triangle PSR$  (d) $\triangle ABC \sim \triangle PSR$
+S: $\angle B = \angle Q$ and $\angle A = \angle P$ (similar triangles), so $\angle BAD = \dfrac{1}{2}\angle A = \dfrac{1}{2}\angle P = \angle QPS$.
+S: Two angles of $\triangle ABD$ equal two angles of $\triangle PQS$.
+S: **Answer: (b)**
+
+T: Areas of similar triangles
+Q: [ICSE 2024, 4 marks] $\triangle ADB$ and $\triangle ACB$ are right-angled at $D$ and $C$, on the same side of $AB$, and $AC$ meets $BD$ at $P$. $AB = 10$ cm, $AD = 6$ cm, $BC = 2.4$ cm and $DP = 4.5$ cm. (a) Prove that $\triangle APD \sim \triangle BPC$. (b) Find $BD$ and $PB$. (c) Hence find $PA$. (d) Find area of $\triangle APD$ : area of $\triangle BPC$.
+!fig w=320 h=200; P A 40 170 bl; P B 280 170 br; P D 126.4 54.8 tl; P C 266.2 114.1 tr; P P 220.5 125.4 b; L A B; L A D; L D B; L A C; L C B; R A D B; R A C B
+S: (a) $\angle ADP = \angle BCP = 90°$ and $\angle APD = \angle BPC$ (vertically opposite). So $\triangle APD \sim \triangle BPC$ (AA).
+S: (b) In $\triangle ADB$: $BD = \sqrt{10^2 - 6^2} = 8$ cm. $PB = BD - DP = 8 - 4.5 = 3.5$ cm.
+S: (c) From the similar triangles, $\dfrac{PA}{PB} = \dfrac{AD}{BC} = \dfrac{6}{2.4} = 2.5$, so $PA = 2.5 \times 3.5 = 8.75$ cm.
+S: (d) Ratio of areas $= \left(\dfrac{AD}{BC}\right)^2 = (2.5)^2 = \dfrac{25}{4}$
+S: **Answer: (b) $BD = 8$ cm, $PB = 3.5$ cm (c) $PA = 8.75$ cm (d) $25 : 4$**
+S: Note: the measurements in this question do not fit together exactly (the Pythagoras theorem in $\triangle ADP$ would give $PA = 7.5$ cm). The word "hence" tells you to use the similar triangles, as done here.

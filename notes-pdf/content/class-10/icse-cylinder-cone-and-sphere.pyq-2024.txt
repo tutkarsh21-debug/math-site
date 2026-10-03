@@ -1,0 +1,16 @@
+T: Cylinder
+Q: [ICSE 2024, 1 mark] A rectangular sheet 11 cm by 7 cm is rolled into a cylinder in two ways: once with height 7 cm and once with height 11 cm. Find the ratio of the curved surface areas. (a) $1 : 1$  (b) $7 : 11$  (c) $11 : 7$  (d) $\dfrac{11\pi}{7} : \dfrac{7\pi}{11}$
+S: In both cases the curved surface is the sheet itself, with area $11 \times 7 = 77$ cm².
+S: **Answer: (a)**
+Q: [ICSE 2024, 4 marks] A solid metal cylinder of diameter 7 cm and height 10 cm is cut into two equal halves along its height. Find (a) the total surface area of the two halves together (b) the cost of painting both halves at ₹30 per cm². Take $\pi = \dfrac{22}{7}$.
+S: (a) The two halves have all the surface of the cylinder plus two new flat rectangular faces, each 7 cm by 10 cm.
+S: Cylinder: $2\pi r(h + r) = 2 \times \dfrac{22}{7} \times 3.5 \times 13.5 = 297$ cm². Two rectangles: $2 \times 70 = 140$ cm².
+S: Total $= 297 + 140 = 437$ cm²
+S: (b) Cost $= 437 \times 30$
+S: **Answer: (a) 437 cm² (b) ₹13,110**
+
+T: Combination of solids
+Q: [ICSE 2024, 4 marks] A spherical vessel of radius 28 cm is three-quarters full of oil. The oil is poured into a cylindrical vessel of radius 21 cm. Find the height of the oil in the cylinder, to the nearest centimetre.
+S: Volume of oil $= \dfrac{3}{4} \times \dfrac{4}{3}\pi (28)^3 = \pi \times 21952$ cm³
+S: In the cylinder: $\pi (21)^2 h = \pi \times 21952$, so $h = \dfrac{21952}{441} \approx 49.78$
+S: **Answer: about 50 cm**

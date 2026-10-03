@@ -1,0 +1,6 @@
+T: Finding the time
+Q: [ICSE 2024, 3 marks] A man deposits ₹2000 a month in a recurring deposit account that pays 8% per annum. He receives ₹1040 as interest on maturity. For how many years was the account held?
+S: $I = P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$: $1040 = 2000 \times \dfrac{n(n + 1)}{24} \times \dfrac{8}{100}$
+S: $1040 = \dfrac{20}{3}\,n(n + 1)$, so $n(n + 1) = 156 = 12 \times 13$
+S: $n = 12$ months
+S: **Answer: 1 year**

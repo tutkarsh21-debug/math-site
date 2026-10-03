@@ -1,0 +1,14 @@
+T: Loci in a triangle
+Q: [ICSE 2024, 1 mark] The circumcentre of a triangle is the point that is: (a) equidistant from the three sides  (b) equidistant from the three vertices  (c) the meeting point of the three medians  (d) the meeting point of the three altitudes
+S: The circumcentre is the centre of the circle through the three vertices, so it is the same distance from each vertex.
+S: **Answer: (b)**
+
+T: Construction questions
+Q: [ICSE 2024, 4 marks] Using ruler and compasses, construct $\angle ABC = 90°$ with $AB = 6$ cm and $BC = 8$ cm. Construct (a) the locus of points equidistant from $B$ and $C$ (b) the locus of points equidistant from $A$ and $B$ (c) the locus of points at the fixed distance $OA$ from $O$, where $O$ is the point common to (a) and (b) (d) the locus of points equidistant from $BA$ and $BC$.
+S: Draw $BC = 8$ cm, construct a right angle at $B$ and cut off $BA = 6$ cm.
+S: (a) Draw the perpendicular bisector of $BC$.
+S: (b) Draw the perpendicular bisector of $AB$.
+S: (c) The two bisectors meet at $O$. With centre $O$ and radius $OA$, draw a circle. It passes through $A$, $B$ and $C$.
+S: (d) Draw the bisector of $\angle ABC$.
+S: Check: $O$ is the mid-point of the hypotenuse $AC$, and $AC = \sqrt{6^2 + 8^2} = 10$ cm, so the radius $OA$ should measure 5 cm.
+S: **Answer: the loci are two perpendicular bisectors, a circle of radius 5 cm and the bisector of $\angle ABC$**

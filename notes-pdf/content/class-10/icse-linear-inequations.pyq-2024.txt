@@ -1,0 +1,6 @@
+T: Combining inequations
+Q: [ICSE 2024, 3 marks] Solve $-3 + x \leq \dfrac{7x}{2} + 2 < 8 + 2x$, where $x$ is an integer. Write the solution set and show it on the number line.
+S: Left part: $-3 - 2 \leq \dfrac{7x}{2} - x$, so $-5 \leq \dfrac{5x}{2}$ and $x \geq -2$.
+S: Right part: $\dfrac{7x}{2} - 2x < 8 - 2$, so $\dfrac{3x}{2} < 6$ and $x < 4$.
+S: **Solution set: $\{-2, -1, 0, 1, 2, 3\}$**
+!fig w=360 h=60; Q l 20 25; Q r 340 25; L l r; P a 90 25 -; P b 120 25 -; P c 150 25 -; P d 180 25 -; P e 210 25 -; P f 240 25 -; T 60 48 −3; T 90 48 −2; T 120 48 −1; T 150 48 0; T 180 48 1; T 210 48 2; T 240 48 3; T 270 48 4; T 300 48 5

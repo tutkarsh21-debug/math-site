@@ -1,0 +1,13 @@
+T: Coins and dice
+Q: [ICSE 2024, 1 mark] Assertion (A): When a die is thrown once, the probability of getting an even number is $\dfrac{2}{3}$. Reason (R): The even numbers on a die are $\{2, 4, 6\}$. (a) A true, R false  (b) A false, R true  (c) both true  (d) both false
+S: There are 3 even numbers out of 6, so the probability is $\dfrac{3}{6} = \dfrac{1}{2}$. A is false.
+S: R is true.
+S: **Answer: (b)**
+
+T: Balls, numbered cards and letters
+Q: [ICSE 2024, 3 marks] The letters A, D, M, N, O, S, U, Y are written on separate cards. One card is drawn at random. Find the probability that the letter (a) is in the word MONDAY (b) is not in MONDAY (c) is in both SUNDAY and MONDAY.
+S: There are 8 cards.
+S: (a) Letters of MONDAY: M, O, N, D, A, Y, which is 6 cards. Probability $= \dfrac{6}{8} = \dfrac{3}{4}$.
+S: (b) $1 - \dfrac{3}{4} = \dfrac{1}{4}$ (the letters S and U).
+S: (c) Common to both words: N, D, A, Y, which is 4 cards. Probability $= \dfrac{4}{8} = \dfrac{1}{2}$.
+S: **Answer: (a) $\dfrac{3}{4}$ (b) $\dfrac{1}{4}$ (c) $\dfrac{1}{2}$**

@@ -1,0 +1,11 @@
+T: Shares and their values
+Q: [ICSE 2024, 1 mark] Shares of nominal value ₹75 are available at a discount of 20%. How much is needed to buy 15 shares? (a) ₹60  (b) ₹90  (c) ₹1350  (d) ₹900
+S: Market value of one share $= 75 - 20\%$ of 75 $= 60$
+S: Cost of 15 shares $= 15 \times 60 = 900$
+S: **Answer: (d)**
+
+T: Dividend
+Q: [ICSE 2024, 3 marks] A man invests ₹33,000 in ₹100 shares of a company at a premium of 10%. The company declares a dividend of 12%. Find (a) the number of shares he buys (b) his annual dividend.
+S: (a) Market value of one share $= 100 + 10 = 110$. Number of shares $= \dfrac{33000}{110} = 300$.
+S: (b) Dividend on one share $= 12\%$ of 100 $= 12$. Annual dividend $= 300 \times 12 = 3600$.
+S: **Answer: (a) 300 shares (b) ₹3600**

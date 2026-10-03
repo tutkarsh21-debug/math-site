@@ -1,0 +1,7 @@
+T: Reflection of figures
+Q: [ICSE 2024, 5 marks] Plot $A(0, 3)$, $B(2, 1)$ and $C(4, -1)$. (a) Reflect $B$ and $C$ in the $y$-axis to get $B'$ and $C'$, and write their coordinates. (b) Reflect $A$ in the line $BB'$ to get $A'$, and write its coordinates. (c) Join $A$, $B$, $A'$, $B'$ in order and name the figure.
+S: (a) Reflection in the $y$-axis changes the sign of $x$: $B'(-2, 1)$ and $C'(-4, -1)$.
+S: (b) $BB'$ is the horizontal line $y = 1$. $A$ is 2 units above it, so $A'$ is 2 units below it: $A'(0, -1)$.
+!fig w=300 h=215; Q x1 20 150; Q x2 285 150; Q y1 150 12; Q y2 150 205; D x1 x2; D y1 y2; P A 150 60 tr; P B 210 120 r; P C 270 180 r; P A' 150 180 br; P B' 90 120 l; P C' 30 180 l; H A B; H B A'; H A' B'; H B' A; L B C; L B' C'; T 280 142 x; T 162 18 y
+S: (c) $AB = BA' = A'B' = B'A = \sqrt{2^2 + 2^2} = \sqrt{8}$, and the diagonals $AA' = BB' = 4$ are equal.
+S: **Answer: $B'(-2, 1)$, $C'(-4, -1)$, $A'(0, -1)$; $ABA'B'$ is a square**

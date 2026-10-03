@@ -1,0 +1,7 @@
+T: Centroid of a triangle
+Q: [ICSE 2024, 4 marks] Triangle $ABC$ has vertices $A(0, 6)$, $B(4, -4)$ and $C(-4, -2)$. $D$ is the point where $AC$ crosses the $x$-axis. (a) Find the coordinates of $D$. (b) Find the centroid of $\triangle ABC$. (c) $D$ divides $AC$ in the ratio $k : 1$; find $k$. (d) Find the equation of the line $BD$.
+S: (c) Let $D$ divide $AC$ in the ratio $k : 1$. Its $y$-coordinate is 0: $\dfrac{-2k + 6}{k + 1} = 0$, so $k = 3$.
+S: (a) Then $x = \dfrac{3(-4) + 0}{3 + 1} = -3$, so $D = (-3, 0)$.
+S: (b) Centroid $= \left(\dfrac{0 + 4 - 4}{3}, \dfrac{6 - 4 - 2}{3}\right) = (0, 0)$
+S: (d) Slope of $BD = \dfrac{0 - (-4)}{-3 - 4} = -\dfrac{4}{7}$. Through $D$: $y = -\dfrac{4}{7}(x + 3)$, so $7y = -4x - 12$.
+S: **Answer: (a) $D(-3, 0)$ (b) $(0, 0)$ (c) $k = 3$ (d) $4x + 7y + 12 = 0$**

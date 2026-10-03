@@ -1,0 +1,10 @@
+T: Multiplication of matrices
+Q: [ICSE 2024, 1 mark] If $A = \begin{bmatrix} 2 & 2 \\ 0 & 2 \end{bmatrix}$ and $A^2 = \begin{bmatrix} 4 & x \\ 0 & 4 \end{bmatrix}$, find $x$. (a) 2  (b) 4  (c) 8  (d) 10
+S: $A^2 = \begin{bmatrix} 2 & 2 \\ 0 & 2 \end{bmatrix}\begin{bmatrix} 2 & 2 \\ 0 & 2 \end{bmatrix} = \begin{bmatrix} 4 + 0 & 4 + 4 \\ 0 + 0 & 0 + 4 \end{bmatrix} = \begin{bmatrix} 4 & 8 \\ 0 & 4 \end{bmatrix}$
+S: **Answer: (c)**
+
+T: Solving matrix equations
+Q: [ICSE 2024, 4 marks] $A = \begin{bmatrix} x & 0 \\ 1 & 1 \end{bmatrix}$, $B = \begin{bmatrix} 4 & 0 \\ y & 1 \end{bmatrix}$ and $C = \begin{bmatrix} 4 & 0 \\ x & 1 \end{bmatrix}$. Find $x$ and $y$ if $AB = C$.
+S: $AB = \begin{bmatrix} 4x + 0 & 0 + 0 \\ 4 + y & 0 + 1 \end{bmatrix} = \begin{bmatrix} 4x & 0 \\ 4 + y & 1 \end{bmatrix}$
+S: Compare with $C$: $4x = 4$, so $x = 1$. Then $4 + y = x = 1$, so $y = -3$.
+S: **Answer: $x = 1$, $y = -3$**

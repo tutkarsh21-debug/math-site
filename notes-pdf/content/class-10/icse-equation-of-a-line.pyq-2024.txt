@@ -1,0 +1,12 @@
+T: Inclination and slope
+Q: [ICSE 2024, 1 mark] The points $A(x, y)$, $B(3, -2)$ and $C(4, -5)$ are collinear. Write $y$ in terms of $x$. (a) $3x - 11$  (b) $11 - 3x$  (c) $3x - 7$  (d) $7 - 3x$
+S: Slope of $BC = \dfrac{-5 + 2}{4 - 3} = -3$. Collinear points give the same slope for $AB$.
+S: $\dfrac{y + 2}{x - 3} = -3$, so $y = -3x + 9 - 2 = 7 - 3x$
+S: **Answer: (d)**
+
+T: Lines parallel or perpendicular to a given line
+Q: [ICSE 2024, 3 marks] (a) The lines $kx - y + 4 = 0$ and $2y = 6x + 7$ are perpendicular. Find $k$. (b) Find the equation of the line parallel to $2y = 6x + 7$ that passes through $(-1, 1)$.
+S: (a) The first line is $y = kx + 4$, with slope $k$. The second is $y = 3x + \dfrac{7}{2}$, with slope 3.
+S: Perpendicular lines: $k \times 3 = -1$, so $k = -\dfrac{1}{3}$.
+S: (b) A parallel line has slope 3: $y - 1 = 3(x + 1)$
+S: **Answer: (a) $k = -\dfrac{1}{3}$ (b) $y = 3x + 4$**

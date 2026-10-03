@@ -1,0 +1,11 @@
+T: The three basic identities
+Q: [ICSE 2024, 1 mark] Statement 1: $\sin^2\theta + \cos^2\theta = 1$. Statement 2: $\mathrm{cosec}^2\theta + \cot^2\theta = 1$. Which is valid? (a) only 1  (b) only 2  (c) both  (d) neither
+S: Statement 1 is a basic identity. The correct form of the second is $\mathrm{cosec}^2\theta - \cot^2\theta = 1$, so statement 2 is not valid.
+S: **Answer: (a)**
+
+T: Proving identities
+Q: [ICSE 2024, 4 marks] Factorise $\sin^3\theta + \cos^3\theta$. Hence prove that $\dfrac{\sin^3\theta + \cos^3\theta}{\sin\theta + \cos\theta} + \sin\theta\cos\theta = 1$.
+S: Using $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$: $\sin^3\theta + \cos^3\theta = (\sin\theta + \cos\theta)(\sin^2\theta - \sin\theta\cos\theta + \cos^2\theta)$
+S: $= (\sin\theta + \cos\theta)(1 - \sin\theta\cos\theta)$
+S: LHS $= \dfrac{(\sin\theta + \cos\theta)(1 - \sin\theta\cos\theta)}{\sin\theta + \cos\theta} + \sin\theta\cos\theta = 1 - \sin\theta\cos\theta + \sin\theta\cos\theta$
+S: $= 1$ = RHS. **Proved.**

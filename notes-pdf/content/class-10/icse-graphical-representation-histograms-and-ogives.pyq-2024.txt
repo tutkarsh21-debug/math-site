@@ -1,0 +1,18 @@
+T: Mode from a histogram
+Q: [ICSE 2024, 5 marks] A histogram shows the heights of the plants in a school garden. Its rectangles stand on the classes 30–40, 40–50, 50–60, 60–70, 70–80, 80–90 and 90–100 (in cm) and have heights 4, 2, 8, 12, 6, 3 and 4. (a) Make the frequency table. (b) State the modal class. (c) Find the mode. (d) How many plants are between 80 cm and 90 cm tall?
+S: (a) Read the height of each rectangle:
+| Height (cm) | 30–40 | 40–50 | 50–60 | 60–70 | 70–80 | 80–90 | 90–100 |
+| Number of plants | 4 | 2 | 8 | 12 | 6 | 3 | 4 |
+S: (b) The tallest rectangle is on 60–70. **Modal class: 60–70.**
+S: (c) Join the top corners of the tallest rectangle to the nearer top corners of its neighbours. The lines cross above 64 on the axis. Check: $60 + \dfrac{12 - 8}{24 - 8 - 6} \times 10 = 64$. **Mode $= 64$ cm.**
+S: (d) The rectangle on 80–90 has height 3. **3 plants.**
+
+T: Reading an ogive
+Q: [ICSE 2024, 4 marks] The ages of 100 policy holders are given below. Draw an ogive and use it to find (a) the median age (b) the number of policy holders older than 52 years.
+| Age (years) | 20–25 | 25–30 | 30–35 | 35–40 | 40–45 | 45–50 | 50–55 | 55–60 |
+| Policy holders | 2 | 4 | 12 | 20 | 28 | 22 | 8 | 4 |
+| Cumulative frequency | 2 | 6 | 18 | 38 | 66 | 88 | 96 | 100 |
+S: Plot the points $(25, 2)$, $(30, 6)$, $(35, 18)$, $(40, 38)$, $(45, 66)$, $(50, 88)$, $(55, 96)$, $(60, 100)$, start the curve from $(20, 0)$ and join them with a smooth curve.
+S: (a) $\dfrac{N}{2} = 50$. From 50 on the vertical axis go across to the curve and down to the age axis: about 42 years.
+S: (b) From 52 on the age axis go up to the curve and across: about 91 policy holders are 52 or younger. So about $100 - 91 = 9$ are older.
+S: **Answer: (a) median $\approx 42$ years (b) about 9 policy holders** (readings from a graph can differ by one unit)

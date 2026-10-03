@@ -1,0 +1,27 @@
+T: Tangent properties
+Q: [ICSE 2024, 1 mark] $PS$ and $PT$ are tangents to a circle from $P$, with $\angle SPT = 80°$. $Q$ is a point on the circle with $SQ \parallel PT$. Find $\angle QST$. (a) $140°$  (b) $90°$  (c) $80°$  (d) $50°$
+S: $PS = PT$, so $\angle PTS = \angle PST = \dfrac{180° - 80°}{2} = 50°$.
+S: $SQ \parallel PT$ and $ST$ is a transversal, so $\angle QST = \angle PTS = 50°$ (alternate angles).
+S: **Answer: (d)**
+
+T: Tangent and secant from an external point
+Q: [ICSE 2024, 3 marks] A circle has centre $O$ and radius 9 cm. The diameter $AB$ is produced to a point $P$, and $PQ$ is a tangent from $P$. If $PA = 24$ cm, find $PQ$.
+S: $AB = 18$ cm, so $PB = PA - AB = 24 - 18 = 6$ cm.
+S: $PQ^2 = PA \times PB = 24 \times 6 = 144$
+S: **Answer: $PQ = 12$ cm**
+S: (Check: $OP = 15$ cm and $OQ = 9$ cm, so $PQ = \sqrt{15^2 - 9^2} = 12$ cm.)
+
+T: The alternate segment theorem
+Q: [ICSE 2024, 4 marks] $PR$ and $PT$ are tangents from $P$ to a circle with centre $O$, touching it at $Q$ and $S$. $MN$ is a diameter, with $M$ on the arc $QS$ nearer to $P$. Given $\angle PQM = 42°$ and $\angle PSM = 25°$, find (a) $\angle OQM$ (b) $\angle QNS$ (c) $\angle QOS$ (d) $\angle QMS$.
+!fig w=300 h=215; P O 200 110 r; P P 31.6 171.3 l; P Q 152.3 58.8 tl; P S 196.3 179.9 b; P M 144.1 152.1 l; P N 255.9 67.9 tr; Q R 188.5 25; Q T 278.6 184.2; C O 70; L P R; L P T; L M N; L Q M; L M S; L Q N; L N S; D O Q; D O S
+S: (a) $OQ \perp PR$ (radius and tangent), so $\angle OQM = 90° - 42° = 48°$.
+S: (b) By the alternate segment theorem, $\angle QNM = \angle PQM = 42°$ and $\angle SNM = \angle PSM = 25°$. So $\angle QNS = 42° + 25° = 67°$.
+S: (c) Angle at the centre is twice the angle at the circumference: $\angle QOS = 2 \times 67° = 134°$.
+S: (d) $QNSM$ is a cyclic quadrilateral: $\angle QMS = 180° - 67° = 113°$.
+S: **Answer: (a) $48°$ (b) $67°$ (c) $134°$ (d) $113°$**
+Q: [ICSE 2024, 3 marks] An isosceles triangle $ABC$ with $AB = AC$ is inscribed in a circle with centre $O$. $PQ$ is the tangent at $C$, with $Q$ on the side of $BC$ away from $A$. $OM$ is perpendicular to the chord $AC$ and $\angle COM = 65°$. Find (a) $\angle ABC$ (b) $\angle BAC$ (c) $\angle BCQ$.
+!fig w=290 h=235; P O 150 110 l; P A 150 30 t; P C 211.3 161.4 r; P B 88.7 161.4 l; P M 180.6 95.7 tr; P P 256.3 107.8 r; P Q 166.3 215 b; C O 80; L A B; L B C; L C A; L P Q; D O M; D O C; D O A
+S: (a) The perpendicular from the centre bisects the chord and the angle at the centre: $\angle AOC = 2 \times 65° = 130°$. So $\angle ABC = \dfrac{130°}{2} = 65°$.
+S: (b) $AB = AC$, so $\angle ACB = \angle ABC = 65°$ and $\angle BAC = 180° - 130° = 50°$.
+S: (c) By the alternate segment theorem, $\angle BCQ = \angle BAC = 50°$.
+S: **Answer: (a) $65°$ (b) $50°$ (c) $50°$**

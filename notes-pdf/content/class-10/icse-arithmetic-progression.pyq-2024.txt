@@ -1,0 +1,10 @@
+T: The general term
+Q: [ICSE 2024, 1 mark] Find the 7th term of the A.P. $\dfrac{1}{a},\ \dfrac{1}{a} + 1,\ \dfrac{1}{a} + 2,\ \ldots$ (a) $\dfrac{1}{a} + 6$  (b) $\dfrac{1}{a} + 7$  (c) $\dfrac{1}{a} + 8$  (d) $\dfrac{1}{a} + 7^7$
+S: First term $= \dfrac{1}{a}$ and $d = 1$. $T_7 = \dfrac{1}{a} + 6 \times 1$
+S: **Answer: (a)**
+
+T: Sum of n terms
+Q: [ICSE 2024, 3 marks] The $n$th term of an A.P. is $T_n = 6(7 - n)$. Find (a) its first term and common difference (b) the sum of its first 25 terms.
+S: (a) $T_1 = 6 \times 6 = 36$ and $T_2 = 6 \times 5 = 30$, so $a = 36$ and $d = -6$.
+S: (b) $S_{25} = \dfrac{25}{2}\left[2(36) + 24(-6)\right] = \dfrac{25}{2} \times (-72)$
+S: **Answer: (a) $a = 36$, $d = -6$ (b) $S_{25} = -900$**

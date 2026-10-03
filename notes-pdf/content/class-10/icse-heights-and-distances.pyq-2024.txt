@@ -1,0 +1,7 @@
+T: Problems with two triangles
+Q: [ICSE 2024, 5 marks] A tree $CD$ is 100 m high. From two points $A$ and $B$ on the ground on opposite sides of the tree, its top $D$ is seen at angles of elevation of $52°$ and $45°$. Find the distance $AB$ to the nearest metre.
+!fig w=330 h=180; P A 40 150 bl; P C 142 150 b; P B 272 150 br; P D 142 20 t; L A B; H C D; L A D; L B D; R D C B; A C A D 52°; A C B D 45°; T 164 90 100 m
+S: In $\triangle ACD$: $\tan 52° = \dfrac{100}{AC}$. From the tables $\tan 52° = 1.2799$, so $AC = \dfrac{100}{1.2799} \approx 78.13$ m.
+S: In $\triangle BCD$: $\tan 45° = \dfrac{100}{CB}$, so $CB = 100$ m.
+S: $AB = AC + CB = 78.13 + 100 = 178.13$
+S: **Answer: $AB \approx 178$ m**

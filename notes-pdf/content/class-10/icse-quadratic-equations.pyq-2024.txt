@@ -1,0 +1,10 @@
+T: The quadratic formula
+Q: [ICSE 2024, 3 marks] Solve $2x^2 - 10x + 5 = 0$, giving the answers correct to three significant figures.
+S: $a = 2$, $b = -10$, $c = 5$. $D = 100 - 40 = 60$ and $\sqrt{60} \approx 7.746$.
+S: $x = \dfrac{10 \pm 7.746}{4}$, so $x = \dfrac{17.746}{4} = 4.4365$ or $x = \dfrac{2.254}{4} = 0.5635$
+S: **Answer: $x = 4.44$ or $x = 0.564$**
+
+T: Nature of the roots
+Q: [ICSE 2024, 1 mark] The roots of $px^2 - qx + r = 0$ are real and equal when: (a) $p^2 = 4qr$  (b) $q^2 = 4pr$  (c) $-q^2 = 4pr$  (d) $p^2 > 4qr$
+S: Equal roots need $D = 0$: $(-q)^2 - 4pr = 0$, so $q^2 = 4pr$.
+S: **Answer: (b)**
