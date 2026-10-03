@@ -1,0 +1,16 @@
+T: The distance formula
+Q: [CBSE 2018, 1 mark] Write the distance of the point $P(x, y)$ from the origin.
+S: Distance $= \sqrt{(x - 0)^2 + (y - 0)^2}$
+S: **Answer: $\sqrt{x^2 + y^2}$ units**
+
+T: The section formula
+Q: [CBSE 2018, 2 marks] In what ratio does $P(4, m)$ divide the segment joining $A(2, 3)$ and $B(6, -3)$? Find $m$.
+S: Let the ratio be $k : 1$. Compare $x$-coordinates: $\dfrac{6k + 2}{k + 1} = 4$, so $6k + 2 = 4k + 4$ and $k = 1$.
+S: The ratio is $1 : 1$, so $P$ is the mid-point: $m = \dfrac{3 + (-3)}{2} = 0$.
+S: **Answer: ratio $1 : 1$; $m = 0$**
+Q: [CBSE 2018, 3 marks] $A(-2, 1)$, $B(a, 0)$, $C(4, b)$ and $D(1, 2)$ are the vertices of a parallelogram $ABCD$. Find $a$ and $b$, and the lengths of its sides.
+S: The diagonals of a parallelogram bisect each other, so $AC$ and $BD$ have the same mid-point.
+S: $\dfrac{-2 + 4}{2} = \dfrac{a + 1}{2}$ gives $a = 1$, and $\dfrac{1 + b}{2} = \dfrac{0 + 2}{2}$ gives $b = 1$.
+S: $AB = \sqrt{(1 + 2)^2 + (0 - 1)^2} = \sqrt{10}$ and $BC = \sqrt{(4 - 1)^2 + (1 - 0)^2} = \sqrt{10}$
+S: Opposite sides are equal, so $CD = \sqrt{10}$ and $DA = \sqrt{10}$.
+S: **Answer: $a = 1$, $b = 1$; each side is $\sqrt{10}$ units**

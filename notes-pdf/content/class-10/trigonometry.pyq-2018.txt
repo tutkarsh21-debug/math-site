@@ -1,0 +1,12 @@
+T: Trigonometric ratios
+Q: [CBSE 2018, 3 marks] If $4\tan\theta = 3$, evaluate $\dfrac{4\sin\theta - \cos\theta + 1}{4\sin\theta + \cos\theta - 1}$.
+S: $\tan\theta = \dfrac{3}{4}$. Take the opposite side as 3 and the adjacent side as 4, so the hypotenuse is 5.
+S: $\sin\theta = \dfrac{3}{5}$ and $\cos\theta = \dfrac{4}{5}$
+S: Numerator $= \dfrac{12}{5} - \dfrac{4}{5} + 1 = \dfrac{13}{5}$ and denominator $= \dfrac{12}{5} + \dfrac{4}{5} - 1 = \dfrac{11}{5}$
+S: **Answer: $\dfrac{13}{11}$**
+
+T: Trigonometric identities
+Q: [CBSE 2018, 4 marks] Prove that $\dfrac{\sin A - 2\sin^3 A}{2\cos^3 A - \cos A} = \tan A$.
+S: LHS $= \dfrac{\sin A(1 - 2\sin^2 A)}{\cos A(2\cos^2 A - 1)}$
+S: Using $1 = \sin^2 A + \cos^2 A$: $1 - 2\sin^2 A = \cos^2 A - \sin^2 A$ and $2\cos^2 A - 1 = \cos^2 A - \sin^2 A$.
+S: The two brackets are equal and cancel: LHS $= \dfrac{\sin A}{\cos A} = \tan A$ = RHS. **Proved.**

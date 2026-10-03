@@ -1,0 +1,13 @@
+T: Complementary events
+Q: [CBSE 2018, 2 marks] An integer is chosen at random from those lying between 1 and 100. Find the probability that it is (i) divisible by 8 (ii) not divisible by 8.
+S: The integers between 1 and 100 are $2, 3, \ldots, 99$: 98 numbers.
+S: (i) Multiples of 8 among them: $8, 16, \ldots, 96$, which is 12 numbers. Probability $= \dfrac{12}{98} = \dfrac{6}{49}$.
+S: (ii) $1 - \dfrac{6}{49} = \dfrac{43}{49}$
+S: **Answer: (i) $\dfrac{6}{49}$ (ii) $\dfrac{43}{49}$**
+
+T: Two dice
+Q: [CBSE 2018, 2 marks] Two different dice are thrown together. Find the probability of getting (i) a doublet (ii) a sum of 10.
+S: There are 36 equally likely outcomes.
+S: (i) Doublets: $(1,1), (2,2), \ldots, (6,6)$, which is 6 outcomes. Probability $= \dfrac{6}{36} = \dfrac{1}{6}$.
+S: (ii) Sum 10: $(4,6), (5,5), (6,4)$, which is 3 outcomes. Probability $= \dfrac{3}{36} = \dfrac{1}{12}$.
+S: **Answer: (i) $\dfrac{1}{6}$ (ii) $\dfrac{1}{12}$**

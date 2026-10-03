@@ -1,0 +1,17 @@
+T: Theoretical probability
+Q: [CBSE 2016, 3 marks] Three different coins are tossed together. Find the probability of getting (i) exactly two heads (ii) at least two heads (iii) at least two tails.
+S: The 8 equally likely outcomes are HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.
+S: (i) Exactly two heads: HHT, HTH, THH. Probability $= \dfrac{3}{8}$.
+S: (ii) At least two heads: HHT, HTH, THH, HHH. Probability $= \dfrac{4}{8} = \dfrac{1}{2}$.
+S: (iii) At least two tails: HTT, THT, TTH, TTT. Probability $= \dfrac{4}{8} = \dfrac{1}{2}$.
+S: **Answer: (i) $\dfrac{3}{8}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{1}{2}$**
+Q: [CBSE 2016, 4 marks] A number $x$ is chosen at random from 1, 2, 3, 4, and a number $y$ is chosen at random from 1, 4, 9, 16. Find the probability that the product $xy$ is less than 16.
+S: There are $4 \times 4 = 16$ equally likely pairs $(x, y)$.
+S: $x = 1$: $y = 1, 4, 9$ (3 pairs). $x = 2$: $y = 1, 4$ (2 pairs). $x = 3$: $y = 1, 4$ (2 pairs). $x = 4$: $y = 1$ (1 pair, since $4 \times 4 = 16$ is not less than 16).
+S: Favourable pairs $= 3 + 2 + 2 + 1 = 8$
+S: **Answer: $\dfrac{8}{16} = \dfrac{1}{2}$**
+
+T: Playing cards
+Q: [CBSE 2016, 1 mark] A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability that it is neither a red card nor a queen.
+S: Remove the 26 red cards. Of the 26 black cards, 2 are queens. That leaves $26 - 2 = 24$ cards that are neither red nor a queen.
+S: **Answer: $\dfrac{24}{52} = \dfrac{6}{13}$**

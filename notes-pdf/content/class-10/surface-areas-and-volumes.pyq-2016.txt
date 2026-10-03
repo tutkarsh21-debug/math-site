@@ -1,0 +1,12 @@
+T: Surface area
+Q: [CBSE 2016, 3 marks] A tent is a cylinder with a cone of the same diameter on top. The cylinder is 2.1 m high and 3 m in diameter, and the slant height of the cone is 2.8 m. Canvas costs ₹500 per square metre. Find the cost of the canvas for the tent. Take $\pi = \dfrac{22}{7}$.
+S: Radius $r = 1.5$ m, $h = 2.1$ m, $l = 2.8$ m. Canvas covers the curved surface of the cylinder and of the cone.
+S: Area $= 2\pi rh + \pi rl = \pi r(2h + l) = \dfrac{22}{7} \times 1.5 \times (4.2 + 2.8) = \dfrac{22}{7} \times 1.5 \times 7 = 33$ m²
+S: Cost $= 33 \times 500$
+S: **Answer: ₹16,500**
+Q: [CBSE 2016, 4 marks] After a flood, 50 schools agree to share equally the cost of canvas for 1500 tents. Each tent is a cylinder of base radius 2.8 m and height 3.5 m, with a cone of the same radius and height 2.1 m on top. Canvas costs ₹120 per square metre. Find the amount each school pays. Take $\pi = \dfrac{22}{7}$.
+S: Slant height of the cone $l = \sqrt{2.8^2 + 2.1^2} = \sqrt{7.84 + 4.41} = \sqrt{12.25} = 3.5$ m
+S: Canvas for one tent $= 2\pi rh + \pi rl = \pi r(2h + l) = \dfrac{22}{7} \times 2.8 \times (7 + 3.5) = 8.8 \times 10.5 = 92.4$ m²
+S: Cost of one tent $= 92.4 \times 120 = 11088$ rupees. Cost of 1500 tents $= 11088 \times 1500 = 16632000$ rupees.
+S: Share of each school $= \dfrac{16632000}{50}$
+S: **Answer: ₹3,32,640**

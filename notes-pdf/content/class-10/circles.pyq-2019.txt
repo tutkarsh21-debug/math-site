@@ -1,0 +1,8 @@
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2019, 3 marks] $PQ$ is a chord of length 8 cm in a circle of radius 5 cm with centre $O$. The tangents at $P$ and $Q$ meet at $T$. Find $TP$.
+!fig w=290 h=200; P O 190 100 r; P T 90 100 l; P P 154 52 t; P Q 154 148 b; P R 154 100 tr; C O 60; L T P; L T Q; H P Q; L O P; D T O; R O P T
+S: Join $OT$, meeting $PQ$ at $R$. $TP = TQ$ and $OP = OQ$, so $OT$ is the perpendicular bisector of $PQ$. Hence $PR = 4$ cm and $\angle PRO = 90°$.
+S: In $\triangle PRO$: $OR = \sqrt{5^2 - 4^2} = 3$ cm.
+S: $\angle OPT = 90°$ (radius is perpendicular to tangent). $\triangle TPO$ and $\triangle PRO$ both have a right angle and share $\angle POT$, so they are similar (AA).
+S: $\dfrac{TP}{PR} = \dfrac{PO}{RO}$, so $TP = \dfrac{4 \times 5}{3}$
+S: **Answer: $TP = \dfrac{20}{3}$ cm, about 6.67 cm**

@@ -1,0 +1,15 @@
+T: Criteria for similarity of triangles
+Q: [CBSE 2019, 3 marks] In $\triangle ABC$, $\angle ACB = 90°$ and $CD \perp AB$. Prove that $CD^2 = BD \times AD$.
+!fig w=320 h=190; P C 121 46 t; P A 40 160 bl; P B 280 160 br; P D 121 160 b; L A B; L B C; L C A; H C D; R C D B; R A C B
+S: In $\triangle ADC$ and $\triangle CDB$: $\angle ADC = \angle CDB = 90°$.
+S: $\angle DAC = 90° - \angle ACD$ (angle sum in $\triangle ADC$) and $\angle DCB = 90° - \angle ACD$ (because $\angle ACB = 90°$). So $\angle DAC = \angle DCB$.
+S: Hence $\triangle ADC \sim \triangle CDB$ by the AA criterion.
+S: $\dfrac{AD}{CD} = \dfrac{CD}{BD}$
+S: **So $CD^2 = BD \times AD$. Proved.**
+Q: [CBSE 2019, 3 marks] $\triangle ABC$ is right-angled at $C$. $P$ is a point on $CA$ and $Q$ is a point on $CB$. Prove that $AQ^2 + BP^2 = AB^2 + PQ^2$.
+!fig w=300 h=200; P C 50 170 bl; P A 50 30 tl; P B 270 170 br; P P 50 95 l; P Q 160 170 b; L C A; L C B; L A B; H A Q; H B P; D P Q; R A C B
+S: Each of the triangles $ACQ$, $PCB$, $ACB$ and $PCQ$ has a right angle at $C$. Apply the Pythagoras theorem to each.
+S: $AQ^2 = AC^2 + CQ^2$ and $BP^2 = PC^2 + BC^2$
+S: Adding: $AQ^2 + BP^2 = (AC^2 + BC^2) + (PC^2 + CQ^2)$
+S: $AC^2 + BC^2 = AB^2$ and $PC^2 + CQ^2 = PQ^2$
+S: **So $AQ^2 + BP^2 = AB^2 + PQ^2$. Proved.**

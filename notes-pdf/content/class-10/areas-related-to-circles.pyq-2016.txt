@@ -1,0 +1,14 @@
+T: Sector and segment of a circle
+Q: [CBSE 2016, 3 marks] Two concentric circles with centre $O$ have radii 7 cm and 14 cm. A sector of angle $40°$ is cut away from the ring between them. Find the area of the part of the ring that remains. Take $\pi = \dfrac{22}{7}$.
+!fig w=240 h=215; P O 120 110 t; P A 89.2 194.6 bl; P C 150.8 194.6 br; P B 104.6 152.3 l; P D 135.4 152.3 r; C O 90; C O 45; L O A; L O C; A A O C 40°
+S: The remaining part of the ring corresponds to an angle of $360° - 40° = 320°$.
+S: Area $= \dfrac{320}{360} \times \pi(R^2 - r^2) = \dfrac{8}{9} \times \dfrac{22}{7} \times (14^2 - 7^2) = \dfrac{8}{9} \times \dfrac{22}{7} \times 147$
+S: $= \dfrac{8}{9} \times 462 = \dfrac{3696}{9}$
+S: **Answer: about 410.67 cm²**
+Q: [CBSE 2016, 4 marks] $OAP$ is a sector of a circle with centre $O$, radius $r$ and angle $\theta$ (in degrees). $AB$ is perpendicular to the radius $OA$ and meets $OP$ produced at $B$. Prove that the perimeter of the region bounded by $AB$, $BP$ and the arc $PA$ is $r\left[\tan\theta + \sec\theta + \dfrac{\pi\theta}{180} - 1\right]$.
+!fig w=220 h=235; P O 80 150 bl; P A 150 150 r; P P 120.2 92.7 tl; P B 150 50 tr; C O 70; L O A; L O B; H A B; R O A B; A A O P θ
+S: In right triangle $OAB$: $\tan\theta = \dfrac{AB}{r}$, so $AB = r\tan\theta$, and $\sec\theta = \dfrac{OB}{r}$, so $OB = r\sec\theta$.
+S: $BP = OB - OP = r\sec\theta - r$
+S: Arc $PA = \dfrac{\theta}{360} \times 2\pi r = \dfrac{\pi r\theta}{180}$
+S: Perimeter $= AB + BP + \text{arc } PA = r\tan\theta + r\sec\theta - r + \dfrac{\pi r\theta}{180}$
+S: $= r\left[\tan\theta + \sec\theta + \dfrac{\pi\theta}{180} - 1\right]$. **Proved.**

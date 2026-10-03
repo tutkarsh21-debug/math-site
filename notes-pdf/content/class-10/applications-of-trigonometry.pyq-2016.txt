@@ -1,0 +1,22 @@
+T: One right-angled triangle
+Q: [CBSE 2016, 1 mark] A ladder leaning against a wall makes an angle of $60°$ with the ground. Its foot is 2.5 m from the wall. Find the length of the ladder.
+S: The distance from the wall is the side adjacent to the $60°$ angle, and the ladder is the hypotenuse.
+S: $\cos 60° = \dfrac{2.5}{\text{ladder}}$, so ladder $= \dfrac{2.5}{\frac{1}{2}}$
+S: **Answer: 5 m**
+
+T: Two right-angled triangles
+Q: [CBSE 2016, 3 marks] A man stands on the deck of a ship, 10 m above the water. He sees the top of a hill at an angle of elevation of $60°$ and the foot of the hill at an angle of depression of $30°$. Find the distance of the hill from the ship and the height of the hill.
+!fig w=210 h=245; P D 60 170 l; P W 60 215 bl; P B 138 215 br; P T 138 35 tr; P M 138 170 r; L W B; L D W; H B T; L D T; L D B; D D M; A M D T 60°; A M D B 30°; T 36 196 10 m
+S: Let $D$ be the man, $W$ the point on the water below him, $BT$ the hill and $DM$ the horizontal through $D$. Then $MB = DW = 10$ m.
+S: In $\triangle DMB$: $\tan 30° = \dfrac{10}{DM}$, so $DM = 10\sqrt{3}$ m.
+S: In $\triangle DMT$: $\tan 60° = \dfrac{MT}{DM}$, so $MT = 10\sqrt{3} \times \sqrt{3} = 30$ m.
+S: Height of the hill $= MT + MB = 30 + 10$
+S: **Answer: distance $10\sqrt{3}$ m (about 17.3 m); height 40 m**
+Q: [CBSE 2016, 4 marks] The top $Q$ of a vertical tower $PQ$ is seen at an angle of elevation of $60°$ from a point $X$ on the ground. From a point $Y$, 40 m vertically above $X$, the angle of elevation of $Q$ is $45°$. Find the height $PQ$ and the distance $PX$. Take $\sqrt{3} = 1.73$.
+!fig w=290 h=245; P X 70 215 bl; P P 179 215 br; P Q 179 26 tr; P Y 70 135 l; P M 179 135 r; L X P; H P Q; L X Y; D Y M; L Y Q; L X Q; R X P Q; A M Y Q 45°; A P X Q 60°; T 40 180 40 m
+S: Draw $YM$ horizontal, meeting $PQ$ at $M$. Let $PX = YM = d$ and $PQ = h$, so $MQ = h - 40$.
+S: In $\triangle YMQ$: $\tan 45° = \dfrac{h - 40}{d}$, so $d = h - 40$.
+S: In $\triangle XPQ$: $\tan 60° = \dfrac{h}{d}$, so $h = \sqrt{3}\,d$.
+S: $d = \sqrt{3}\,d - 40$, so $d = \dfrac{40}{\sqrt{3} - 1} = 20(\sqrt{3} + 1) = 20 \times 2.73 = 54.6$
+S: $h = 54.6 + 40 = 94.6$
+S: **Answer: $PQ = 94.6$ m and $PX = 54.6$ m**

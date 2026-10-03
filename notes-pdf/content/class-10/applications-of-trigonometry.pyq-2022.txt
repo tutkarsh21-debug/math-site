@@ -1,0 +1,20 @@
+T: Two right-angled triangles
+Q: [CBSE 2022 Term 2, 3 marks] A tower is 50 m high. From the foot of a building, the top of the tower is seen at an angle of elevation of $60°$. From the foot of the tower, the top of the building is seen at an angle of elevation of $30°$. Find the height of the building.
+S: Let the distance between them be $d$ and the height of the building be $h$.
+S: $\tan 60° = \dfrac{50}{d}$, so $d = \dfrac{50}{\sqrt{3}}$ m.
+S: $\tan 30° = \dfrac{h}{d}$, so $h = \dfrac{50}{\sqrt{3}} \times \dfrac{1}{\sqrt{3}} = \dfrac{50}{3}$
+S: **Answer: $16\dfrac{2}{3}$ m, about 16.67 m**
+Q: [CBSE 2022 Term 2, 3 marks] From a point on a bridge 3 m above the banks of a river, the two banks on opposite sides are seen at angles of depression of $30°$ and $45°$. Find the width of the river.
+!fig w=330 h=150; P P 205 30 t; P D 205 110 b; P A 66.4 110 bl; P B 285 110 br; L A B; L P A; L P B; H P D; R P D B; A D A P 30°; A D B P 45°; T 220 75 3 m
+S: Let $P$ be the point on the bridge, $D$ the point directly below it, and $A$ and $B$ the two banks. The angles of depression equal the angles at $A$ and $B$ (alternate angles).
+S: $\tan 30° = \dfrac{3}{AD}$, so $AD = 3\sqrt{3}$ m. $\tan 45° = \dfrac{3}{DB}$, so $DB = 3$ m.
+S: Width $= AD + DB = 3\sqrt{3} + 3$
+S: **Answer: $3(\sqrt{3} + 1)$ m, about 8.2 m**
+Q: [CBSE 2022 Term 2, 4 marks] The top $B$ of a pavilion standing in a lake is 10 m above the water. From a point $A$, $h$ metres above the water, the angle of elevation of $B$ is $45°$ and the angle of depression of the reflection $C$ of $B$ in the water is $60°$. (i) Draw a labelled figure. (ii) Find $h$, taking $\sqrt{3} = 1.73$.
+!fig w=320 h=265; P B 210 40 tr; P N 210 140 br; P C 210 240 br; P A 137 113 l; P M 210 113 r; Q w1 60 140; Q w2 290 140; H w1 w2; L B C; L A B; L A C; D A M; A M A B 45°; A M A C 60°; T 265 134 water; cap N is on the water surface, with BN = NC = 10 m
+S: (i) The reflection $C$ is as far below the water surface as $B$ is above it, so $NC = BN = 10$ m. Draw $AM$ horizontal, meeting $BC$ at $M$. Then $MN = h$.
+S: (ii) $BM = 10 - h$ and $MC = 10 + h$.
+S: In $\triangle AMB$: $\tan 45° = \dfrac{10 - h}{AM}$, so $AM = 10 - h$.
+S: In $\triangle AMC$: $\tan 60° = \dfrac{10 + h}{AM}$, so $\sqrt{3}(10 - h) = 10 + h$.
+S: $h(\sqrt{3} + 1) = 10(\sqrt{3} - 1)$, so $h = \dfrac{10(\sqrt{3} - 1)}{\sqrt{3} + 1} = \dfrac{10(\sqrt{3} - 1)^2}{2} = 5(4 - 2\sqrt{3}) = 20 - 10\sqrt{3}$
+S: **Answer: $h = 20 - 17.3 = 2.7$ m**

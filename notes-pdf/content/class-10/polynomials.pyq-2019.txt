@@ -1,0 +1,5 @@
+T: Zeroes and coefficients of a quadratic polynomial
+Q: [CBSE 2019, 3 marks] The sum of the zeroes of $x^2 - (k + 6)x + 2(2k - 1)$ is half of their product. Find $k$.
+S: Sum of zeroes $= k + 6$ and product of zeroes $= 2(2k - 1)$
+S: $k + 6 = \dfrac{1}{2} \times 2(2k - 1) = 2k - 1$
+S: **Answer: $k = 7$**

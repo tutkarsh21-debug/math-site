@@ -1,0 +1,11 @@
+T: Irrational numbers and their proofs
+Q: [CBSE 2019, 1 mark] Write a rational number that lies between $\sqrt{2}$ and $\sqrt{3}$.
+S: $\sqrt{2} \approx 1.414$ and $\sqrt{3} \approx 1.732$
+S: Any terminating decimal between these values will do, for example $1.5 = \dfrac{3}{2}$.
+S: **Answer: 1.5 (other answers such as 1.6 or 1.7 are also correct)**
+Q: [CBSE 2019, 3 marks] Show that $\sqrt{2}$ is irrational.
+S: Suppose $\sqrt{2}$ is rational. Then $\sqrt{2} = \dfrac{a}{b}$, where $a$ and $b$ are positive integers with no common factor other than 1.
+S: Squaring, $2b^2 = a^2$. So 2 divides $a^2$, and therefore 2 divides $a$. Write $a = 2c$.
+S: Then $2b^2 = 4c^2$, so $b^2 = 2c^2$. So 2 divides $b^2$, and therefore 2 divides $b$.
+S: Now 2 is a common factor of $a$ and $b$, which contradicts the fact that they have no common factor other than 1.
+S: **So our assumption is wrong, and $\sqrt{2}$ is irrational.**

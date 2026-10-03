@@ -1,0 +1,16 @@
+T: Common difference and the nth term
+Q: [CBSE 2018, 1 mark] In an AP the common difference is $-4$ and the seventh term is 4. Find the first term.
+S: $a_7 = a + 6d$: $4 = a + 6(-4)$, so $a = 4 + 24$.
+S: **Answer: $a = 28$**
+Q: [CBSE 2018, 4 marks] Four consecutive terms of an AP add up to 32. The product of the first and last of them is to the product of the two middle ones as $7 : 15$. Find the four numbers.
+S: Let the numbers be $a - 3d$, $a - d$, $a + d$, $a + 3d$. Their sum is $4a = 32$, so $a = 8$.
+S: $\dfrac{(a - 3d)(a + 3d)}{(a - d)(a + d)} = \dfrac{64 - 9d^2}{64 - d^2} = \dfrac{7}{15}$
+S: $960 - 135d^2 = 448 - 7d^2$, so $128d^2 = 512$, $d^2 = 4$ and $d = \pm 2$.
+S: With $d = 2$ the numbers are 2, 6, 10, 14. With $d = -2$ they are the same numbers in reverse order.
+S: **Answer: 2, 6, 10, 14**
+
+T: Sum of the first n terms
+Q: [CBSE 2018, 2 marks] Find the sum of the first 8 multiples of 3.
+S: The multiples are $3, 6, 9, \ldots, 24$: an AP with $a = 3$, $l = 24$ and $n = 8$.
+S: $S_8 = \dfrac{8}{2}(3 + 24) = 4 \times 27$
+S: **Answer: 108**

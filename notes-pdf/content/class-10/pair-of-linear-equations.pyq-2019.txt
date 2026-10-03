@@ -1,0 +1,27 @@
+T: Graphical method and consistency
+Q: [CBSE 2019, 2 marks] Find $c$ if the pair $cx + 3y + (3 - c) = 0$ and $12x + cy - c = 0$ has infinitely many solutions.
+S: For infinitely many solutions, $\dfrac{c}{12} = \dfrac{3}{c} = \dfrac{3 - c}{-c}$.
+S: From the first two ratios, $c^2 = 36$, so $c = 6$ or $c = -6$.
+S: From the last two ratios, $-3c = 3c - c^2$, so $c^2 = 6c$ and $c = 6$ (since $c \neq 0$).
+S: Only $c = 6$ satisfies both conditions.
+S: **Answer: $c = 6$**
+
+T: Word problems
+Q: [CBSE 2019, 3 marks] A father is three times as old as the sum of the ages of his two children. In 5 years he will be twice as old as the sum of their ages. Find his present age.
+S: Let the father be $x$ years old and the sum of the children's ages be $y$ years. Then $x = 3y$ ... (1)
+S: After 5 years the father is $x + 5$ and the children together are $y + 10$: $x + 5 = 2(y + 10)$ ... (2)
+S: Put (1) in (2): $3y + 5 = 2y + 20$, so $y = 15$ and $x = 45$.
+S: **Answer: 45 years**
+Q: [CBSE 2019, 3 marks] A fraction becomes $\dfrac{1}{3}$ when 2 is taken from its numerator, and becomes $\dfrac{1}{2}$ when 1 is taken from its denominator. Find the fraction.
+S: Let the fraction be $\dfrac{x}{y}$.
+S: $\dfrac{x - 2}{y} = \dfrac{1}{3}$, so $y = 3x - 6$ ... (1)
+S: $\dfrac{x}{y - 1} = \dfrac{1}{2}$, so $y = 2x + 1$ ... (2)
+S: $3x - 6 = 2x + 1$, so $x = 7$ and $y = 15$.
+S: **Answer: $\dfrac{7}{15}$**
+Q: [CBSE 2019, 4 marks] A boat covers 30 km upstream and 44 km downstream in 10 hours. In 13 hours it covers 40 km upstream and 55 km downstream. Find the speed of the stream and the speed of the boat in still water.
+S: Let the upstream speed be $u$ km/h and the downstream speed be $v$ km/h. Put $a = \dfrac{1}{u}$ and $b = \dfrac{1}{v}$.
+S: $30a + 44b = 10$ ... (1) and $40a + 55b = 13$ ... (2)
+S: $4 \times (1)$: $120a + 176b = 40$. $3 \times (2)$: $120a + 165b = 39$. Subtracting, $11b = 1$, so $b = \dfrac{1}{11}$.
+S: From (1): $30a = 10 - 4 = 6$, so $a = \dfrac{1}{5}$. Hence $u = 5$ and $v = 11$.
+S: Boat speed $= \dfrac{v + u}{2} = 8$ km/h and stream speed $= \dfrac{v - u}{2} = 3$ km/h.
+S: **Answer: boat 8 km/h; stream 3 km/h**

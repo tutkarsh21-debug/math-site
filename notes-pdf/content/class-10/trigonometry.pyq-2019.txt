@@ -1,0 +1,15 @@
+T: Trigonometric identities
+Q: [CBSE 2019, 3 marks] Prove that $(\sin\theta + \mathrm{cosec}\,\theta)^2 + (\cos\theta + \sec\theta)^2 = 7 + \tan^2\theta + \cot^2\theta$.
+S: LHS $= \sin^2\theta + \mathrm{cosec}^2\theta + 2\sin\theta\,\mathrm{cosec}\,\theta + \cos^2\theta + \sec^2\theta + 2\cos\theta\sec\theta$
+S: $\sin\theta\,\mathrm{cosec}\,\theta = 1$ and $\cos\theta\sec\theta = 1$, so LHS $= (\sin^2\theta + \cos^2\theta) + 4 + \mathrm{cosec}^2\theta + \sec^2\theta$
+S: $= 1 + 4 + (1 + \cot^2\theta) + (1 + \tan^2\theta)$
+S: $= 7 + \tan^2\theta + \cot^2\theta$ = RHS. **Proved.**
+Q: [CBSE 2019, 3 marks] Prove that $(1 + \cot A - \mathrm{cosec}\,A)(1 + \tan A + \sec A) = 2$.
+S: LHS $= \left(\dfrac{\sin A + \cos A - 1}{\sin A}\right)\left(\dfrac{\cos A + \sin A + 1}{\cos A}\right)$
+S: $= \dfrac{(\sin A + \cos A)^2 - 1}{\sin A\cos A} = \dfrac{\sin^2 A + \cos^2 A + 2\sin A\cos A - 1}{\sin A\cos A}$
+S: $= \dfrac{2\sin A\cos A}{\sin A\cos A} = 2$ = RHS. **Proved.**
+Q: [CBSE 2019, 4 marks] Prove that $\dfrac{\sin A - \cos A + 1}{\sin A + \cos A - 1} = \dfrac{1}{\sec A - \tan A}$.
+S: Divide the numerator and the denominator by $\cos A$: LHS $= \dfrac{\tan A - 1 + \sec A}{\tan A + 1 - \sec A}$
+S: In the denominator, write $1 = \sec^2 A - \tan^2 A = (\sec A - \tan A)(\sec A + \tan A)$.
+S: Denominator $= (\tan A - \sec A) + (\sec A - \tan A)(\sec A + \tan A) = (\sec A - \tan A)(\sec A + \tan A - 1)$
+S: LHS $= \dfrac{\tan A + \sec A - 1}{(\sec A - \tan A)(\sec A + \tan A - 1)} = \dfrac{1}{\sec A - \tan A}$ = RHS. **Proved.**

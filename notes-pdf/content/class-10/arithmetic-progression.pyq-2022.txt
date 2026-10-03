@@ -1,0 +1,15 @@
+T: Sum of the first n terms
+Q: [CBSE 2022 Term 2, 2 marks] Find the sum of the first 30 terms of the AP $-30, -24, -18, \ldots$
+S: $a = -30$, $d = 6$, $n = 30$
+S: $S_{30} = \dfrac{30}{2}\left[2(-30) + 29(6)\right] = 15 \times 114$
+S: **Answer: 1710**
+Q: [CBSE 2022 Term 2, 2 marks] The sum of the first $n$ terms of an AP is $S_n = n(4n + 1)$. Find the AP.
+S: $S_1 = 1 \times 5 = 5$, so $a_1 = 5$.
+S: $S_2 = 2 \times 9 = 18$, so $a_2 = S_2 - S_1 = 13$ and $d = 13 - 5 = 8$.
+S: **Answer: $5, 13, 21, 29, \ldots$**
+
+T: Case study
+Q: [CBSE 2022 Term 2, 4 marks] A matchstick pattern is built in stages. Figure 1 is a square with a triangle on each of its four sides. Each new figure adds one more square to the row, with triangles on its free sides. Figures 1, 2 and 3 contain 4, 6 and 8 triangles, and use 12, 19 and 26 matchsticks. (i) Write the AP for the number of triangles and its $n$th term. (ii) Which figure uses 61 matchsticks?
+S: (i) The numbers of triangles are $4, 6, 8, \ldots$ with $a = 4$ and $d = 2$. $a_n = 4 + (n - 1) \times 2$. **$a_n = 2n + 2$**
+S: (ii) The numbers of matchsticks are $12, 19, 26, \ldots$ with $a = 12$ and $d = 7$.
+S: $12 + (n - 1) \times 7 = 61$, so $7(n - 1) = 49$ and $n = 8$. **Figure 8 uses 61 matchsticks.**

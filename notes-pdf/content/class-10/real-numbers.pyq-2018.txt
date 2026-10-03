@@ -1,0 +1,16 @@
+T: HCF and LCM by prime factorisation
+Q: [CBSE 2018, 1 mark] Find the HCF of the smallest prime number and the smallest composite number.
+S: The smallest prime number is 2 and the smallest composite number is $4 = 2^2$.
+S: **Answer: HCF $= 2$**
+Q: [CBSE 2018, 3 marks] Find the HCF and LCM of 404 and 96, and check that HCF $\times$ LCM equals the product of the two numbers.
+S: $404 = 2^2 \times 101$ and $96 = 2^5 \times 3$
+S: HCF $= 2^2 = 4$ and LCM $= 2^5 \times 3 \times 101 = 9696$
+S: HCF $\times$ LCM $= 4 \times 9696 = 38784$ and $404 \times 96 = 38784$. The two are equal.
+S: **Answer: HCF $= 4$, LCM $= 9696$**
+
+T: Irrational numbers and their proofs
+Q: [CBSE 2018, 2 marks] Given that $\sqrt{2}$ is irrational, prove that $5 + 3\sqrt{2}$ is irrational.
+S: Suppose $5 + 3\sqrt{2}$ is rational, equal to $\dfrac{a}{b}$ where $a$ and $b$ are integers and $b \neq 0$.
+S: Then $3\sqrt{2} = \dfrac{a}{b} - 5$, so $\sqrt{2} = \dfrac{a - 5b}{3b}$.
+S: The right side is a ratio of integers, so it is rational. That would make $\sqrt{2}$ rational, which contradicts the given fact.
+S: **So $5 + 3\sqrt{2}$ is irrational.**

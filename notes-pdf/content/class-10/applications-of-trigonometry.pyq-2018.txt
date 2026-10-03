@@ -1,0 +1,7 @@
+T: Two right-angled triangles
+Q: [CBSE 2018, 4 marks] From the top of a lighthouse 100 m above sea level, two ships are seen at angles of depression of $30°$ and $45°$. One ship is directly behind the other on the same side of the lighthouse. Find the distance between the ships. Take $\sqrt{3} = 1.732$.
+!fig w=340 h=200; P T 50 30 tl; P F 50 170 bl; P A 190 170 b; P B 292.5 170 br; H F T; L F B; L T A; L T B; R T F B; A F A T 45°; A F B T 30°; T 24 105 100 m
+S: Let $TF$ be the lighthouse and $A$, $B$ the ships. The angles of depression equal the angles of elevation at the ships (alternate angles).
+S: $\tan 45° = \dfrac{100}{FA}$, so $FA = 100$ m. $\tan 30° = \dfrac{100}{FB}$, so $FB = 100\sqrt{3}$ m.
+S: $AB = 100\sqrt{3} - 100 = 100(1.732 - 1)$
+S: **Answer: 73.2 m**

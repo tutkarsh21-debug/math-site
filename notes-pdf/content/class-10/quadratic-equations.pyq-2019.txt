@@ -1,0 +1,16 @@
+T: Nature of roots
+Q: [CBSE 2019, 1 mark] For what values of $k$ does $x^2 + 4x + k = 0$ have real roots?
+S: Real roots need $D \geq 0$: $16 - 4k \geq 0$
+S: **Answer: $k \leq 4$**
+Q: [CBSE 2019, 1 mark] The roots of $3x^2 - 10x + k = 0$ are reciprocals of each other. Find $k$.
+S: If the roots are $\alpha$ and $\dfrac{1}{\alpha}$, their product is 1.
+S: Product of roots $= \dfrac{k}{3} = 1$
+S: **Answer: $k = 3$**
+
+T: Word problems
+Q: [CBSE 2019, 4 marks] Two taps together fill a tank in $1\dfrac{7}{8}$ hours. Working alone, the larger tap takes 2 hours less than the smaller one. How long does each tap take on its own?
+S: Let the larger tap take $x$ hours. Then the smaller tap takes $x + 2$ hours, and together they take $\dfrac{15}{8}$ hours.
+S: In one hour: $\dfrac{1}{x} + \dfrac{1}{x + 2} = \dfrac{8}{15}$
+S: $15(2x + 2) = 8x(x + 2)$, so $8x^2 - 14x - 30 = 0$, that is $4x^2 - 7x - 15 = 0$
+S: $(4x + 5)(x - 3) = 0$, so $x = 3$ (time cannot be negative).
+S: **Answer: the larger tap takes 3 hours and the smaller tap takes 5 hours**

@@ -1,0 +1,17 @@
+T: Mean of grouped data
+Q: [CBSE 2018, 4 marks] The mean of this data is 18. Find the frequency $f$ of the class 19–21.
+| Class | 11–13 | 13–15 | 15–17 | 17–19 | 19–21 | 21–23 | 23–25 |
+| Frequency | 3 | 6 | 9 | 13 | $f$ | 5 | 4 |
+S: Use the class marks 12, 14, 16, 18, 20, 22, 24.
+S: $\sum f_i = 40 + f$ and $\sum f_ix_i = 36 + 84 + 144 + 234 + 20f + 110 + 96 = 704 + 20f$
+S: $\dfrac{704 + 20f}{40 + f} = 18$, so $704 + 20f = 720 + 18f$
+S: **Answer: $f = 8$**
+
+T: Median of grouped data
+Q: [CBSE 2018, 3 marks] The table shows the salaries of 280 people. Find the median salary.
+| Salary (thousand ₹) | 5–10 | 10–15 | 15–20 | 20–25 | 25–30 | 30–35 | 35–40 | 40–45 | 45–50 |
+| Number of people | 49 | 133 | 63 | 15 | 6 | 7 | 4 | 2 | 1 |
+S: $n = 280$, so $\dfrac{n}{2} = 140$. The cumulative frequencies are 49, 182, ..., so the median class is 10–15.
+S: $l = 10$, $cf = 49$, $f = 133$, $h = 5$
+S: Median $= 10 + \dfrac{140 - 49}{133} \times 5 = 10 + \dfrac{455}{133} \approx 10 + 3.42$
+S: **Answer: about 13.42 thousand rupees, that is about ₹13,420**

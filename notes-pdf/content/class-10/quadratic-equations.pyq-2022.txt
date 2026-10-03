@@ -1,0 +1,20 @@
+T: Solving by factorisation
+Q: [CBSE 2022 Term 2, 2 marks] Solve for $x$: $\sqrt{3}x^2 + 10x + 7\sqrt{3} = 0$.
+S: Product of the first and last coefficients $= \sqrt{3} \times 7\sqrt{3} = 21 = 3 \times 7$, and $3 + 7 = 10$.
+S: $\sqrt{3}x^2 + 3x + 7x + 7\sqrt{3} = 0$, so $\sqrt{3}x(x + \sqrt{3}) + 7(x + \sqrt{3}) = 0$
+S: $(x + \sqrt{3})(\sqrt{3}x + 7) = 0$
+S: **Answer: $x = -\sqrt{3}$ or $x = -\dfrac{7}{\sqrt{3}} = -\dfrac{7\sqrt{3}}{3}$**
+
+T: Nature of roots
+Q: [CBSE 2022 Term 2, 2 marks] For what value of $m$ does $(m - 1)x^2 + 2(m - 1)x + 1 = 0$ have two equal real roots?
+S: Equal roots need $D = 0$: $[2(m - 1)]^2 - 4(m - 1)(1) = 0$
+S: $4(m - 1)(m - 1 - 1) = 0$, so $m = 1$ or $m = 2$.
+S: If $m = 1$ the $x^2$ term disappears and the equation is no longer quadratic, so $m = 1$ is rejected.
+S: **Answer: $m = 2$**
+
+T: Word problems
+Q: [CBSE 2022 Term 2, 2 marks] Rehan's age 5 years ago multiplied by his age 7 years from now is one more than twice his present age. Find his present age.
+S: Let his present age be $x$ years. Then $(x - 5)(x + 7) = 2x + 1$.
+S: $x^2 + 2x - 35 = 2x + 1$, so $x^2 = 36$ and $x = \pm 6$.
+S: An age cannot be negative.
+S: **Answer: 6 years**

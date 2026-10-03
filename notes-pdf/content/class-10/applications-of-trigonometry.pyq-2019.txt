@@ -1,0 +1,15 @@
+T: Two right-angled triangles
+Q: [CBSE 2019, 4 marks] A man rows a boat directly away from a lighthouse 100 m high. In 2 minutes the angle of elevation of the top of the lighthouse changes from $60°$ to $30°$. Find the speed of the boat in metres per minute. Take $\sqrt{3} = 1.732$.
+!fig w=340 h=200; P T 50 30 tl; P F 50 170 bl; P A 130.8 170 b; P B 292.5 170 br; H F T; L F B; L T A; L T B; R T F B; A F A T 60°; A F B T 30°; T 24 105 100 m
+S: Let $TF$ be the lighthouse, and let the boat move from $A$ to $B$.
+S: $\tan 60° = \dfrac{100}{FA}$, so $FA = \dfrac{100}{\sqrt{3}}$ m. $\tan 30° = \dfrac{100}{FB}$, so $FB = 100\sqrt{3}$ m.
+S: $AB = 100\sqrt{3} - \dfrac{100}{\sqrt{3}} = \dfrac{300 - 100}{\sqrt{3}} = \dfrac{200}{\sqrt{3}} = \dfrac{200\sqrt{3}}{3} \approx 115.47$ m
+S: Speed $= \dfrac{115.47}{2}$
+S: **Answer: about 57.73 m per minute**
+Q: [CBSE 2019, 4 marks] Two poles of equal height stand opposite each other on the two sides of a road 80 m wide. From a point on the road between them, the tops of the poles are seen at angles of elevation of $60°$ and $30°$. Find the height of the poles and the distances of the point from them.
+!fig w=340 h=180; P A 40 150 bl; P B 40 37.4 tl; P C 300 150 br; P D 300 37.4 tr; P P 105 150 b; H A B; H C D; L A C; L P B; L P D; R B A P; R D C P; A A P B 60°; A C P D 30°
+S: Let the poles $AB$ and $CD$ have height $h$, and let the point $P$ be $x$ m from the first pole, so it is $(80 - x)$ m from the second.
+S: $\tan 60° = \dfrac{h}{x}$, so $h = \sqrt{3}\,x$. $\tan 30° = \dfrac{h}{80 - x}$, so $h = \dfrac{80 - x}{\sqrt{3}}$.
+S: $\sqrt{3}\,x = \dfrac{80 - x}{\sqrt{3}}$, so $3x = 80 - x$ and $x = 20$.
+S: $h = 20\sqrt{3} \approx 34.64$ m
+S: **Answer: each pole is $20\sqrt{3}$ m high; the point is 20 m from one pole and 60 m from the other**

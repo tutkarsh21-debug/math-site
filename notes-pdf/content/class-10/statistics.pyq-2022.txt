@@ -1,0 +1,25 @@
+T: Mean of grouped data
+Q: [CBSE 2022 Term 2, 3 marks] The table shows what 30 employees of a company spend on lunch each day. Find the mean daily spending.
+| Daily spending (₹) | 100–120 | 120–140 | 140–160 | 160–180 | 180–200 |
+| Number of employees | 8 | 3 | 8 | 6 | 5 |
+S: Class marks: 110, 130, 150, 170, 190.
+S: $\sum f_ix_i = 880 + 390 + 1200 + 1020 + 950 = 4440$ and $\sum f_i = 30$
+S: Mean $= \dfrac{4440}{30}$
+S: **Answer: ₹148**
+
+T: Mode of grouped data
+Q: [CBSE 2022 Term 2, 2 marks] Find the mode of this data.
+| Class | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
+| Frequency | 15 | 10 | 12 | 17 | 4 |
+S: The highest frequency is 17, so the modal class is 40–50: $l = 40$, $h = 10$, $f_1 = 17$, $f_0 = 12$, $f_2 = 4$.
+S: Mode $= 40 + \dfrac{17 - 12}{34 - 12 - 4} \times 10 = 40 + \dfrac{50}{18}$
+S: **Answer: Mode $\approx 42.78$**
+
+T: Median of grouped data
+Q: [CBSE 2022 Term 2, 3 marks] The median of this data is 34.5. Find $x$.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 | 60–70 |
+| Frequency | 3 | 5 | 11 | 10 | $x$ | 3 | 2 |
+S: $n = 34 + x$. The median 34.5 lies in the class 30–40, so $l = 30$, $f = 10$, $h = 10$ and $cf = 3 + 5 + 11 = 19$.
+S: $34.5 = 30 + \dfrac{\frac{34 + x}{2} - 19}{10} \times 10$, so $\dfrac{34 + x}{2} - 19 = 4.5$
+S: $34 + x = 47$
+S: **Answer: $x = 13$**

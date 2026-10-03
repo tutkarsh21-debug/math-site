@@ -1,0 +1,32 @@
+T: Theorem 1: tangent and radius
+Q: [CBSE 2016, 1 mark] $PQ$ is the tangent at $C$ to a circle with centre $O$, and $AB$ is a diameter with $\angle CAB = 30°$. $P$ lies on the same side of $OC$ as $A$. Find $\angle PCA$.
+!fig w=250 h=185; P O 130 110 b; P A 70 110 l; P B 190 110 r; P C 160 58 tr; P P 95 20.5 l; P Q 212 88 r; C O 60; L A B; L A C; L B C; L P Q; D O C; A B A C 30°
+S: $OA = OC$ (radii), so $\angle OCA = \angle OAC = 30°$.
+S: $\angle OCP = 90°$ (radius is perpendicular to tangent).
+S: $\angle PCA = \angle OCP - \angle OCA = 90° - 30°$
+S: **Answer: $60°$**
+Q: [CBSE 2016, 4 marks] Two equal circles with centres $O$ and $O'$ touch each other at $X$. The line $OO'$ produced meets the circle with centre $O'$ again at $A$. $AC$ is a tangent from $A$ to the circle with centre $O$, touching it at $C$, and $O'D \perp AC$. Find $\dfrac{DO'}{CO}$.
+!fig w=260 h=175; P O' 100 110 b; P O 190 110 b; P A 55 110 l; P X 145 110 br; P C 175 67.6 t; P D 95 95.9 t; Q E 215.3 53.3; C O' 45; C O 45; L A O; L A E; L O C; L O' D; R O C A; R O' D A
+S: Let each radius be $r$. Then $AO' = r$ and $AO = AO' + O'X + XO = 3r$.
+S: $\angle ACO = 90°$ (radius is perpendicular to tangent) and $\angle ADO' = 90°$ (given).
+S: In $\triangle ADO'$ and $\triangle ACO$: $\angle A$ is common and $\angle ADO' = \angle ACO$, so $\triangle ADO' \sim \triangle ACO$ (AA).
+S: $\dfrac{DO'}{CO} = \dfrac{AO'}{AO} = \dfrac{r}{3r}$
+S: **Answer: $\dfrac{1}{3}$**
+
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2016, 2 marks] A quadrilateral $ABCD$ is drawn around a circle, with $AB$, $BC$, $CD$ and $DA$ touching the circle at $P$, $Q$, $R$ and $S$. Prove that $AB + CD = BC + DA$.
+!fig w=310 h=230; P O 160 115 -; P A 90 185 bl; P B 260 185 br; P C 209 45 tr; P D 90 45 tl; P P 160 185 b; P Q 225.8 91.1 r; P R 160 45 t; P S 90 115 l; C O 70; L A B; L B C; L C D; L D A
+S: Tangents from an external point are equal: $AP = AS$, $BP = BQ$, $CR = CQ$ and $DR = DS$.
+S: $AB + CD = (AP + BP) + (CR + DR) = AS + BQ + CQ + DS$
+S: $= (AS + DS) + (BQ + CQ) = DA + BC$
+S: **So $AB + CD = BC + DA$. Proved.**
+Q: [CBSE 2016, 2 marks] $PT$ and $PS$ are tangents from an external point $P$ to a circle with centre $O$ and radius $r$. If $OP = 2r$, show that $\angle OTS = \angle OST = 30°$.
+!fig w=250 h=200; P O 90 100 l; P P 190 100 r; P T 115 56.7 t; P S 115 143.3 b; C O 50; L P T; L P S; L O T; L O S; H T S; D O P
+S: $\angle OTP = 90°$ (radius is perpendicular to tangent). In $\triangle OTP$: $\cos\angle TOP = \dfrac{OT}{OP} = \dfrac{r}{2r} = \dfrac{1}{2}$, so $\angle TOP = 60°$.
+S: In the same way $\angle SOP = 60°$, so $\angle TOS = 120°$.
+S: $OT = OS$ (radii), so $\angle OTS = \angle OST = \dfrac{180° - 120°}{2}$.
+S: **So $\angle OTS = \angle OST = 30°$. Proved.**
+Q: [CBSE 2016, 4 marks] Prove that the tangents drawn to a circle from an external point are equal in length.
+S: Let $PQ$ and $PR$ be the tangents from $P$ to a circle with centre $O$. Join $OP$, $OQ$ and $OR$.
+S: $\angle OQP = \angle ORP = 90°$ (radius is perpendicular to tangent), $OQ = OR$ (radii) and $OP$ is common.
+S: So $\triangle OQP \cong \triangle ORP$ (RHS), and **$PQ = PR$. Proved.** (The figure is with the 2018 question above.)

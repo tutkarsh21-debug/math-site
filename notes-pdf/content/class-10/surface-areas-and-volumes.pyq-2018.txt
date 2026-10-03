@@ -1,0 +1,6 @@
+T: Surface area
+Q: [CBSE 2018, 3 marks] A wooden article is made by scooping a hemisphere out of each end of a solid cylinder. The cylinder is 10 cm high and its base has radius 3.5 cm. Find the total surface area of the article. Take $\pi = \dfrac{22}{7}$.
+S: The surface consists of the curved surface of the cylinder and the curved surfaces of the two hemispherical hollows.
+S: Total surface area $= 2\pi rh + 2 \times 2\pi r^2 = 2\pi r(h + 2r)$
+S: $= 2 \times \dfrac{22}{7} \times 3.5 \times (10 + 7) = 22 \times 17$
+S: **Answer: 374 cm²**

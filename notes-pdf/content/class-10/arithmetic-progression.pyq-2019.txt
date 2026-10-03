@@ -1,0 +1,22 @@
+T: Common difference and the nth term
+Q: [CBSE 2019, 1 mark] How many two-digit numbers are divisible by 3?
+S: They are $12, 15, 18, \ldots, 99$: an AP with $a = 12$, $d = 3$ and last term 99.
+S: $99 = 12 + (n - 1) \times 3$, so $n - 1 = 29$
+S: **Answer: 30**
+Q: [CBSE 2019, 2 marks] Which term of the AP $3, 15, 27, 39, \ldots$ is 120 more than its 21st term?
+S: $a = 3$, $d = 12$. $a_{21} = 3 + 20 \times 12 = 243$, so the required term is $243 + 120 = 363$.
+S: $3 + (n - 1) \times 12 = 363$, so $n - 1 = 30$
+S: **Answer: the 31st term**
+S: (Shortcut: 120 more means $120 \div 12 = 10$ terms further on, so it is term $21 + 10 = 31$.)
+
+T: Sum of the first n terms
+Q: [CBSE 2019, 2 marks] The sum of the first $n$ terms of an AP is $S_n = 3n^2 - 4n$. Find its $n$th term.
+S: $a_n = S_n - S_{n-1} = (3n^2 - 4n) - \left[3(n - 1)^2 - 4(n - 1)\right]$
+S: $= 3n^2 - 4n - (3n^2 - 10n + 7)$
+S: **Answer: $a_n = 6n - 7$**
+Q: [CBSE 2019, 4 marks] The first four terms of an AP add up to 40 and the first 14 terms add up to 280. Find the sum of its first $n$ terms.
+S: $S_4 = 2(2a + 3d) = 40$, so $2a + 3d = 20$ ... (1)
+S: $S_{14} = 7(2a + 13d) = 280$, so $2a + 13d = 40$ ... (2)
+S: Subtracting (1) from (2): $10d = 20$, so $d = 2$ and $a = 7$.
+S: $S_n = \dfrac{n}{2}\left[14 + 2(n - 1)\right] = \dfrac{n}{2}(2n + 12)$
+S: **Answer: $S_n = n^2 + 6n$**

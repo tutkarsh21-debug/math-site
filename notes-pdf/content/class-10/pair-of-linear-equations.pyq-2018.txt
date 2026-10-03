@@ -1,0 +1,5 @@
+T: Elimination method
+Q: [CBSE 2018, 2 marks] $ABCD$ is a rectangle in which $AB = 30$ cm, $DC = (x + y)$ cm, $AD = 14$ cm and $BC = (x - y)$ cm. Find $x$ and $y$.
+S: Opposite sides of a rectangle are equal: $x + y = 30$ ... (1) and $x - y = 14$ ... (2)
+S: Adding: $2x = 44$, so $x = 22$. From (1), $y = 8$.
+S: **Answer: $x = 22$, $y = 8$**

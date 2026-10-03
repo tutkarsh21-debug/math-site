@@ -1,0 +1,22 @@
+T: Common difference and the nth term
+Q: [CBSE 2016, 1 mark] For what value of $k$ are $k + 9$, $2k - 1$ and $2k + 7$ consecutive terms of an AP?
+S: The middle term is the average of its neighbours: $2(2k - 1) = (k + 9) + (2k + 7)$
+S: $4k - 2 = 3k + 16$
+S: **Answer: $k = 18$**
+Q: [CBSE 2016, 2 marks] The 4th term of an AP is zero. Prove that its 25th term is three times its 11th term.
+S: $a_4 = a + 3d = 0$, so $a = -3d$.
+S: $a_{25} = a + 24d = 21d$ and $a_{11} = a + 10d = 7d$
+S: **So $a_{25} = 3 \times a_{11}$. Proved.**
+
+T: Sum of the first n terms
+Q: [CBSE 2016, 3 marks] The sums of the first $n$ terms of two APs are in the ratio $(7n + 1) : (4n + 27)$. Find the ratio of their $m$th terms.
+S: Let the APs have first terms $a$, $A$ and common differences $d$, $D$. Then $\dfrac{2a + (n - 1)d}{2A + (n - 1)D} = \dfrac{7n + 1}{4n + 27}$.
+S: The ratio of the $m$th terms is $\dfrac{a + (m - 1)d}{A + (m - 1)D} = \dfrac{2a + (2m - 2)d}{2A + (2m - 2)D}$, which is the left side above with $n - 1 = 2m - 2$, that is $n = 2m - 1$.
+S: Put $n = 2m - 1$: $\dfrac{7(2m - 1) + 1}{4(2m - 1) + 27}$
+S: **Answer: $(14m - 6) : (8m + 23)$**
+Q: [CBSE 2016, 4 marks] The houses in a row are numbered from 1 to 49. Show that there is a house number $X$ for which the sum of the numbers before it equals the sum of the numbers after it.
+S: Sum of the numbers before $X$: $1 + 2 + \ldots + (X - 1) = \dfrac{X(X - 1)}{2}$
+S: Sum of the numbers after $X$: $S_{49} - S_X = \dfrac{49 \times 50}{2} - \dfrac{X(X + 1)}{2}$
+S: Equating: $X(X - 1) = 2450 - X(X + 1)$, so $2X^2 = 2450$ and $X^2 = 1225$.
+S: $X = 35$, which is a whole number between 1 and 49.
+S: **Answer: such a house exists, and it is number 35**

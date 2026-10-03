@@ -1,0 +1,6 @@
+T: Surface area
+Q: [CBSE 2022 Term 2, 4 marks] A conical cavity of height 24 cm is hollowed out of a solid cylinder of height 30 cm and radius 7 cm. The cone has the same radius as the cylinder. Find the total surface area of the solid that is left.
+S: Slant height of the cone $l = \sqrt{24^2 + 7^2} = 25$ cm
+S: The remaining solid has three surfaces: the curved surface of the cylinder, one flat circular end, and the inner curved surface of the cone.
+S: Total surface area $= 2\pi rh + \pi r^2 + \pi rl = \pi r(2h + r + l) = \dfrac{22}{7} \times 7 \times (60 + 7 + 25) = 22 \times 92$
+S: **Answer: 2024 cm²**

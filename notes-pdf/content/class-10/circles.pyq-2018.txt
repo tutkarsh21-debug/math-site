@@ -1,0 +1,8 @@
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2018, 3 marks] Prove that the two tangents drawn to a circle from a point outside it are equal in length.
+!fig w=270 h=200; P O 90 100 l; P P 230 100 r; P Q 107.9 53.3 t; P R 107.9 146.7 b; C O 50; L P Q; L P R; D O Q; D O R; D O P; R O Q P; R O R P
+S: **Given:** a circle with centre $O$, and tangents $PQ$ and $PR$ from an external point $P$. **To prove:** $PQ = PR$.
+S: Join $OP$, $OQ$ and $OR$. The radius is perpendicular to the tangent at the point of contact, so $\angle OQP = \angle ORP = 90°$.
+S: In right triangles $OQP$ and $ORP$: $OQ = OR$ (radii) and $OP$ is common.
+S: So $\triangle OQP \cong \triangle ORP$ by the RHS rule.
+S: **Hence $PQ = PR$. Proved.**

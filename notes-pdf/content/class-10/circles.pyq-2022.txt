@@ -1,0 +1,15 @@
+T: Theorem 1: tangent and radius
+Q: [CBSE 2022 Term 2, 2 marks] Two concentric circles have radii 4 cm and 3 cm. Find the length of the chord of the larger circle that touches the smaller circle.
+S: Let $O$ be the centre and let the chord $AB$ touch the smaller circle at $M$. Then $OM \perp AB$, $OM = 3$ cm and $OA = 4$ cm.
+S: $AM = \sqrt{4^2 - 3^2} = \sqrt{7}$ cm, and the perpendicular from the centre bisects the chord.
+S: **Answer: $AB = 2\sqrt{7}$ cm**
+
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2022 Term 2, 4 marks] $\triangle ABC$ is right-angled at $B$. A circle drawn on $AB$ as diameter cuts $AC$ at $P$. The tangent to the circle at $P$ meets $BC$ at $Q$. Prove that $Q$ is the mid-point of $BC$.
+!fig w=330 h=215; P O 80 110 l; P A 80 40 tl; P B 80 180 bl; P C 300 180 br; P P 143.4 80.4 tr; P Q 190 180 b; C O 70; L A B; L B C; L A C; H P Q; D B P; R A B C
+S: $AB$ is a diameter and $BC \perp AB$ at $B$, so $BC$ is the tangent to the circle at $B$.
+S: $QB$ and $QP$ are tangents from $Q$, so $QB = QP$ and $\angle QBP = \angle QPB$ ... (1)
+S: $\angle APB = 90°$ (angle in a semicircle), so $\angle BPC = 90°$.
+S: $\angle QPC = 90° - \angle QPB$. In right triangle $BPC$, $\angle QCP = 90° - \angle QBP$.
+S: By (1), $\angle QPC = \angle QCP$, so $QP = QC$.
+S: Hence $QB = QP = QC$. **So the tangent at $P$ bisects $BC$. Proved.**

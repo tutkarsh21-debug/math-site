@@ -1,0 +1,11 @@
+T: Complementary events
+Q: [CBSE 2019, 2 marks] In a game a coin is tossed 3 times. A player wins if all three tosses give the same result. Find the probability of losing.
+S: There are $2 \times 2 \times 2 = 8$ equally likely outcomes. Only HHH and TTT are wins.
+S: $P(\text{win}) = \dfrac{2}{8} = \dfrac{1}{4}$, so $P(\text{lose}) = 1 - \dfrac{1}{4}$
+S: **Answer: $\dfrac{3}{4}$**
+
+T: Theoretical probability
+Q: [CBSE 2019, 2 marks] A die is thrown once. Find the probability of getting (i) a prime number (ii) a number lying between 2 and 6.
+S: (i) The primes on a die are 2, 3 and 5: probability $= \dfrac{3}{6} = \dfrac{1}{2}$.
+S: (ii) The numbers between 2 and 6 are 3, 4 and 5: probability $= \dfrac{3}{6} = \dfrac{1}{2}$.
+S: **Answer: (i) $\dfrac{1}{2}$ (ii) $\dfrac{1}{2}$**

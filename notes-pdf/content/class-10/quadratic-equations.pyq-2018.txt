@@ -1,0 +1,24 @@
+T: Solving by factorisation
+Q: [CBSE 2018, 1 mark] $x = 3$ is a root of $x^2 - 2kx - 6 = 0$. Find $k$.
+S: Put $x = 3$: $9 - 6k - 6 = 0$, so $6k = 3$.
+S: **Answer: $k = \dfrac{1}{2}$**
+
+T: Word problems
+Q: [CBSE 2018, 3 marks] A plane took off 30 minutes late. To reach its destination 1500 km away on time, it flew 100 km/h faster than usual. Find its usual speed.
+S: Let the usual speed be $x$ km/h. The faster flight saves half an hour.
+S: $\dfrac{1500}{x} - \dfrac{1500}{x + 100} = \dfrac{1}{2}$
+S: $1500 \times 100 \times 2 = x(x + 100)$, so $x^2 + 100x - 300000 = 0$
+S: $(x + 600)(x - 500) = 0$, so $x = 500$ (speed cannot be negative).
+S: **Answer: 500 km/h**
+Q: [CBSE 2018, 4 marks] A motor boat has a speed of 18 km/h in still water. It takes 1 hour longer to go 24 km upstream than to come back the same distance downstream. Find the speed of the stream.
+S: Let the speed of the stream be $x$ km/h. Upstream speed $= 18 - x$ and downstream speed $= 18 + x$.
+S: $\dfrac{24}{18 - x} - \dfrac{24}{18 + x} = 1$
+S: $24(18 + x) - 24(18 - x) = 324 - x^2$, so $48x = 324 - x^2$ and $x^2 + 48x - 324 = 0$
+S: $(x + 54)(x - 6) = 0$, so $x = 6$.
+S: **Answer: 6 km/h**
+Q: [CBSE 2018, 4 marks] A train covers 63 km at a certain average speed and then 72 km at a speed 6 km/h faster. The whole journey takes 3 hours. Find the first speed.
+S: Let the first speed be $x$ km/h. $\dfrac{63}{x} + \dfrac{72}{x + 6} = 3$
+S: $63(x + 6) + 72x = 3x(x + 6)$, so $135x + 378 = 3x^2 + 18x$
+S: $3x^2 - 117x - 378 = 0$, that is $x^2 - 39x - 126 = 0$
+S: $(x - 42)(x + 3) = 0$, so $x = 42$.
+S: **Answer: 42 km/h**
