@@ -1,0 +1,131 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 8
+@title Introduction to Trigonometry
+@summary Trigonometry relates the sides of a right-angled triangle to its acute angles. This chapter covers the six ratios, their values for standard angles and the three basic identities.
+
+# Trigonometric ratios
+- In a right-angled triangle $ABC$, right-angled at $B$, take the acute angle $A$. Then $BC$ is the side **opposite** to $A$, $AB$ is the side **adjacent** to $A$ and $AC$ is the **hypotenuse**.
+| Ratio | Definition | Ratio | Definition |
+| $\sin A$ | $\dfrac{\text{opposite}}{\text{hypotenuse}}$ | $\text{cosec}\, A$ | $\dfrac{\text{hypotenuse}}{\text{opposite}}$ |
+| $\cos A$ | $\dfrac{\text{adjacent}}{\text{hypotenuse}}$ | $\sec A$ | $\dfrac{\text{hypotenuse}}{\text{adjacent}}$ |
+| $\tan A$ | $\dfrac{\text{opposite}}{\text{adjacent}}$ | $\cot A$ | $\dfrac{\text{adjacent}}{\text{opposite}}$ |
+- **Reciprocal relations**: $\text{cosec}\, A = \dfrac{1}{\sin A}$, $\sec A = \dfrac{1}{\cos A}$, $\cot A = \dfrac{1}{\tan A}$.
+- **Quotient relations**: $\tan A = \dfrac{\sin A}{\cos A}$ and $\cot A = \dfrac{\cos A}{\sin A}$.
+- The value of a ratio depends only on the angle, not on the size of the triangle.
+- $\sin A$ is one symbol. It does not mean $\sin \times A$.
+!tip The hypotenuse is the longest side, so $\sin A$ and $\cos A$ are never greater than 1, and $\sec A$ and $\text{cosec}\, A$ are never less than 1.
+
+# Finding all ratios from one
+- Step 1: draw a right-angled triangle and mark two sides using the given ratio, as $k$ times the numbers.
+- Step 2: find the third side with the Pythagoras theorem.
+- Step 3: write the required ratios.
+?eg If $\sin A = \dfrac{5}{13}$, find $\cos A$ and $\tan A$.
+= Take opposite side $= 5k$ and hypotenuse $= 13k$.
+= Adjacent side $= \sqrt{(13k)^2 - (5k)^2} = \sqrt{144k^2} = 12k$
+=> $\cos A = \dfrac{12}{13}$ and $\tan A = \dfrac{5}{12}$
+?eg If $\tan \theta = \dfrac{3}{4}$, evaluate $\dfrac{1 - \tan^2\theta}{1 + \tan^2\theta}$ and show that it equals $\cos^2\theta - \sin^2\theta$.
+= $\dfrac{1 - \frac{9}{16}}{1 + \frac{9}{16}} = \dfrac{7/16}{25/16} = \dfrac{7}{25}$
+= Opposite $= 3k$, adjacent $= 4k$, hypotenuse $= 5k$, so $\sin\theta = \dfrac{3}{5}$ and $\cos\theta = \dfrac{4}{5}$
+= $\cos^2\theta - \sin^2\theta = \dfrac{16}{25} - \dfrac{9}{25} = \dfrac{7}{25}$
+=> Both sides equal $\dfrac{7}{25}$.
+
+# Ratios of standard angles
+| Angle | $0°$ | $30°$ | $45°$ | $60°$ | $90°$ |
+| $\sin$ | $0$ | $\dfrac{1}{2}$ | $\dfrac{1}{\sqrt{2}}$ | $\dfrac{\sqrt{3}}{2}$ | $1$ |
+| $\cos$ | $1$ | $\dfrac{\sqrt{3}}{2}$ | $\dfrac{1}{\sqrt{2}}$ | $\dfrac{1}{2}$ | $0$ |
+| $\tan$ | $0$ | $\dfrac{1}{\sqrt{3}}$ | $1$ | $\sqrt{3}$ | Not defined |
+| $\text{cosec}$ | Not defined | $2$ | $\sqrt{2}$ | $\dfrac{2}{\sqrt{3}}$ | $1$ |
+| $\sec$ | $1$ | $\dfrac{2}{\sqrt{3}}$ | $\sqrt{2}$ | $2$ | Not defined |
+| $\cot$ | Not defined | $\sqrt{3}$ | $1$ | $\dfrac{1}{\sqrt{3}}$ | $0$ |
+- To remember the $\sin$ row: $\sqrt{\dfrac{0}{4}}, \sqrt{\dfrac{1}{4}}, \sqrt{\dfrac{2}{4}}, \sqrt{\dfrac{3}{4}}, \sqrt{\dfrac{4}{4}}$. The $\cos$ row is the $\sin$ row in reverse.
+- As the angle increases from $0°$ to $90°$, $\sin$ increases from 0 to 1 and $\cos$ decreases from 1 to 0.
+?eg Evaluate $4\sin^2 60° + 3\tan^2 30° - 8\sin 45° \cos 45°$.
+= $= 4 \times \dfrac{3}{4} + 3 \times \dfrac{1}{3} - 8 \times \dfrac{1}{\sqrt{2}} \times \dfrac{1}{\sqrt{2}}$
+= $= 3 + 1 - 4$
+=> $0$
+?eg If $\sin(A + B) = 1$ and $\cos(A - B) = \dfrac{\sqrt{3}}{2}$, where $0° < A + B \leq 90°$ and $A > B$, find $A$ and $B$.
+= $\sin(A + B) = 1 = \sin 90°$, so $A + B = 90°$
+= $\cos(A - B) = \dfrac{\sqrt{3}}{2} = \cos 30°$, so $A - B = 30°$
+= Adding: $2A = 120°$
+=> $A = 60°$ and $B = 30°$
+?eg In $\triangle ABC$, right-angled at $B$, $AC = 12$ cm and $\angle A = 60°$. Find $AB$ and $BC$.
+= $\cos 60° = \dfrac{AB}{AC}$, so $AB = 12 \times \dfrac{1}{2} = 6$ cm
+= $\sin 60° = \dfrac{BC}{AC}$, so $BC = 12 \times \dfrac{\sqrt{3}}{2} = 6\sqrt{3}$ cm
+=> $AB = 6$ cm and $BC = 6\sqrt{3}$ cm
+!tip $\sin(A + B)$ is not $\sin A + \sin B$. Check with $A = B = 30°$: $\sin 60° = \dfrac{\sqrt{3}}{2}$, but $\sin 30° + \sin 30° = 1$.
+
+# Trigonometric identities
+- An identity is true for every value of the angle for which both sides are defined.
+$$\sin^2 A + \cos^2 A = 1 \qquad 1 + \tan^2 A = \sec^2 A \qquad 1 + \cot^2 A = \text{cosec}^2 A$$
+- Each identity can be rearranged: $\sin^2 A = 1 - \cos^2 A$, $\sec^2 A - \tan^2 A = 1$, $\text{cosec}^2 A - \cot^2 A = 1$.
+- $\sin^2 A$ means $(\sin A)^2$.
+?eg Express $\cos A$ and $\tan A$ in terms of $\sin A$.
+= From $\sin^2 A + \cos^2 A = 1$: $\cos A = \sqrt{1 - \sin^2 A}$
+= $\tan A = \dfrac{\sin A}{\cos A} = \dfrac{\sin A}{\sqrt{1 - \sin^2 A}}$
+=> $\cos A = \sqrt{1 - \sin^2 A}$ and $\tan A = \dfrac{\sin A}{\sqrt{1 - \sin^2 A}}$
+?eg Prove that $(1 + \tan^2 A)(1 - \sin A)(1 + \sin A) = 1$.
+= LHS $= \sec^2 A\,(1 - \sin^2 A)$
+= $= \sec^2 A \times \cos^2 A = \dfrac{1}{\cos^2 A} \times \cos^2 A$
+=> $= 1 =$ RHS
+?eg Prove that $\tan A + \cot A = \sec A\,\text{cosec}\, A$.
+= LHS $= \dfrac{\sin A}{\cos A} + \dfrac{\cos A}{\sin A} = \dfrac{\sin^2 A + \cos^2 A}{\sin A \cos A}$
+= $= \dfrac{1}{\sin A \cos A} = \dfrac{1}{\cos A} \times \dfrac{1}{\sin A}$
+=> $= \sec A\,\text{cosec}\, A =$ RHS
+?eg Prove that $\sqrt{\dfrac{1 - \cos A}{1 + \cos A}} = \text{cosec}\, A - \cot A$.
+= Multiply the numerator and denominator inside the root by $(1 - \cos A)$:
+= LHS $= \sqrt{\dfrac{(1 - \cos A)^2}{1 - \cos^2 A}} = \sqrt{\dfrac{(1 - \cos A)^2}{\sin^2 A}} = \dfrac{1 - \cos A}{\sin A}$
+= $= \dfrac{1}{\sin A} - \dfrac{\cos A}{\sin A}$
+=> $= \text{cosec}\, A - \cot A =$ RHS
+
+# How to prove an identity
+- Start from the more complicated side and work towards the simpler one.
+- If nothing else suggests itself, change every ratio to $\sin$ and $\cos$.
+- For a sum of fractions, take the LCM. For $1 \pm \sin A$ or $1 \pm \cos A$ in a denominator, multiply by the conjugate.
+- Look for $1 - \sin^2 A$, $1 - \cos^2 A$, $\sec^2 A - 1$ and $\text{cosec}^2 A - 1$: each one is a single square.
+- Never move terms from one side to the other in a proof. Work on one side only, or simplify both sides separately.
+
+# Common mistakes
+- Writing $\sin A = \dfrac{\text{opposite}}{\text{adjacent}}$. That is $\tan A$.
+- Treating $\sin^2 A$ as $\sin A^2$ or $\sin 2A$.
+- Using $\tan 90°$ or $\sec 90°$ as a number. They are not defined.
+- Cancelling $\sin$ from $\dfrac{\sin A}{\sin B}$ to get $\dfrac{A}{B}$.
+
+@@formulas
+Sine | $\sin A = \dfrac{\text{opposite}}{\text{hypotenuse}}$
+Cosine | $\cos A = \dfrac{\text{adjacent}}{\text{hypotenuse}}$
+Tangent | $\tan A = \dfrac{\text{opposite}}{\text{adjacent}} = \dfrac{\sin A}{\cos A}$
+Cosecant | $\text{cosec}\, A = \dfrac{1}{\sin A}$
+Secant | $\sec A = \dfrac{1}{\cos A}$
+Cotangent | $\cot A = \dfrac{1}{\tan A} = \dfrac{\cos A}{\sin A}$
+Identity 1 | $\sin^2 A + \cos^2 A = 1$
+Identity 2 | $1 + \tan^2 A = \sec^2 A$
+Identity 3 | $1 + \cot^2 A = \text{cosec}^2 A$
+Values of sin (0°, 30°, 45°, 60°, 90°) | $0,\ \dfrac{1}{2},\ \dfrac{1}{\sqrt{2}},\ \dfrac{\sqrt{3}}{2},\ 1$
+Values of cos (0°, 30°, 45°, 60°, 90°) | $1,\ \dfrac{\sqrt{3}}{2},\ \dfrac{1}{\sqrt{2}},\ \dfrac{1}{2},\ 0$
+Values of tan (0°, 30°, 45°, 60°, 90°) | $0,\ \dfrac{1}{\sqrt{3}},\ 1,\ \sqrt{3},\ \text{not defined}$
+Range of sin and cos | $0 \leq \sin A \leq 1$ and $0 \leq \cos A \leq 1$ for $0° \leq A \leq 90°$
+Useful factor forms | $(\sec A + \tan A)(\sec A - \tan A) = 1$;  $(\text{cosec}\, A + \cot A)(\text{cosec}\, A - \cot A) = 1$
+
+@@dpp
+Q: In $\triangle ABC$, right-angled at $B$, $AB = 24$ cm and $BC = 7$ cm. Find $\sin A$ and $\cos A$.
+A: $AC = 25$ cm; $\sin A = \dfrac{7}{25}$, $\cos A = \dfrac{24}{25}$
+Q: If $\cos A = \dfrac{4}{5}$, find $\sin A$ and $\tan A$.
+A: $\sin A = \dfrac{3}{5}$, $\tan A = \dfrac{3}{4}$
+Q: If $\sec\theta = \dfrac{13}{12}$, find $\sin\theta$ and $\cot\theta$.
+A: $\sin\theta = \dfrac{5}{13}$, $\cot\theta = \dfrac{12}{5}$
+Q: Evaluate $\sin 60° \cos 30° + \cos 60° \sin 30°$.
+A: $\dfrac{3}{4} + \dfrac{1}{4} = 1$
+Q: Evaluate $2\tan^2 45° + \cos^2 30° - \sin^2 60°$.
+A: $2 + \dfrac{3}{4} - \dfrac{3}{4} = 2$
+Q: Evaluate $\dfrac{5\cos^2 60° + 4\sec^2 30° - \tan^2 45°}{\sin^2 30° + \cos^2 30°}$.
+A: $\dfrac{5}{4} + \dfrac{16}{3} - 1 = \dfrac{67}{12}$
+Q: If $\tan(A + B) = \sqrt{3}$ and $\tan(A - B) = \dfrac{1}{\sqrt{3}}$, with $0° < A + B \leq 90°$ and $A > B$, find $A$ and $B$.
+A: $A = 45°$, $B = 15°$
+Q: Prove that $(\sec A + \tan A)(1 - \sin A) = \cos A$.
+A: LHS $= \dfrac{(1 + \sin A)(1 - \sin A)}{\cos A} = \dfrac{\cos^2 A}{\cos A} = \cos A$
+Q: Prove that $\dfrac{1 + \sec A}{\sec A} = \dfrac{\sin^2 A}{1 - \cos A}$.
+A: LHS $= 1 + \cos A$; RHS $= \dfrac{(1 - \cos A)(1 + \cos A)}{1 - \cos A} = 1 + \cos A$
+Q: Prove that $(\sin A + \text{cosec}\, A)^2 + (\cos A + \sec A)^2 = 7 + \tan^2 A + \cot^2 A$.
+A: Expand: $\sin^2 A + \cos^2 A + 2 + 2 + \text{cosec}^2 A + \sec^2 A = 5 + (1 + \cot^2 A) + (1 + \tan^2 A)$

@@ -1,0 +1,116 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 12
+@title Surface Areas and Volumes
+@summary Real objects are often two or more basic solids joined together. This chapter shows how to find the surface area and the volume of such combinations.
+
+# Formulas for the basic solids
+| Solid | Curved / lateral surface area | Total surface area | Volume |
+| Cuboid ($l$, $b$, $h$) | $2h(l + b)$ | $2(lb + bh + hl)$ | $lbh$ |
+| Cube (side $a$) | $4a^2$ | $6a^2$ | $a^3$ |
+| Cylinder ($r$, $h$) | $2\pi rh$ | $2\pi r(r + h)$ | $\pi r^2h$ |
+| Cone ($r$, $h$, $l$) | $\pi rl$ | $\pi r(l + r)$ | $\dfrac{1}{3}\pi r^2h$ |
+| Sphere ($r$) | $4\pi r^2$ | $4\pi r^2$ | $\dfrac{4}{3}\pi r^3$ |
+| Hemisphere ($r$) | $2\pi r^2$ | $3\pi r^2$ | $\dfrac{2}{3}\pi r^3$ |
+- For a cone, the **slant height** is $l = \sqrt{r^2 + h^2}$.
+- Use $\pi = \dfrac{22}{7}$ unless the question gives another value.
+- 1 litre $= 1000$ cm³ and 1 m³ $= 1000$ litres.
+
+# Surface area of a combination of solids
+- The total surface area of a combined solid is the sum of the **visible** surfaces only.
+- The faces along which the solids are joined are hidden, so they are **not** counted.
+- Usually this means adding curved surface areas, plus any flat face that remains exposed.
+| Combination | Surface area |
+| Cone on a hemisphere (same radius) | $\pi rl + 2\pi r^2$ |
+| Cylinder with a hemisphere at each end | $2\pi rh + 4\pi r^2$ |
+| Cylinder with a cone on top (tent) | $2\pi rh + \pi rl$ (plus $\pi r^2$ if the base is included) |
+| Cube with a hemisphere placed on one face | $6a^2 + \pi r^2$ |
+?eg A toy is a cone mounted on a hemisphere of the same radius 7 cm. The total height of the toy is 31 cm. Find its total surface area.
+= Height of the cone $= 31 - 7 = 24$ cm, so $l = \sqrt{7^2 + 24^2} = \sqrt{625} = 25$ cm
+= CSA of cone $= \pi rl = \dfrac{22}{7} \times 7 \times 25 = 550$ cm²
+= CSA of hemisphere $= 2\pi r^2 = 2 \times \dfrac{22}{7} \times 49 = 308$ cm²
+=> Total surface area $= 550 + 308 = 858$ cm²
+?eg A capsule is a cylinder with a hemisphere at each end. Its total length is 20 cm and its diameter is 7 cm. Find its surface area.
+= $r = 3.5$ cm. Height of the cylinder $= 20 - 2 \times 3.5 = 13$ cm
+= Surface area $= 2\pi rh + 4\pi r^2 = 2\pi r(h + 2r) = 2 \times \dfrac{22}{7} \times 3.5 \times (13 + 7)$
+=> Surface area $= 22 \times 20 = 440$ cm²
+?eg A hemispherical depression of diameter 7 cm is cut out from one face of a wooden cube of side 7 cm. Find the surface area of the remaining solid.
+= Surface area $=$ TSA of cube $-$ area of the circle removed $+$ CSA of the hemisphere
+= $= 6a^2 - \pi r^2 + 2\pi r^2 = 6a^2 + \pi r^2$
+= $= 6 \times 49 + \dfrac{22}{7} \times 3.5 \times 3.5 = 294 + 38.5$
+=> Surface area $= 332.5$ cm²
+?eg A tent is a cylinder of radius 7 m and height 4 m with a cone of slant height 13 m on top. Find the area of canvas needed.
+= Canvas $=$ CSA of cylinder $+$ CSA of cone $= 2\pi rh + \pi rl = \pi r(2h + l)$
+= $= \dfrac{22}{7} \times 7 \times (8 + 13) = 22 \times 21$
+=> Area of canvas $= 462$ m²
+!tip Before adding, ask of each surface: "Can it be seen or touched from outside?" If not, leave it out.
+
+# Volume of a combination of solids
+- The volume of a combined solid is the **sum** of the volumes of its parts. Nothing is hidden, so nothing is left out.
+- If a part is scooped out or drilled out, **subtract** its volume.
+?eg Find the volume of the toy in the first example of topic 2 (a cone of height 24 cm on a hemisphere, both of radius 7 cm).
+= Volume of cone $= \dfrac{1}{3}\pi r^2h = \dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 24 = 1232$ cm³
+= Volume of hemisphere $= \dfrac{2}{3}\pi r^3 = \dfrac{2}{3} \times \dfrac{22}{7} \times 343 = \dfrac{2156}{3} \approx 718.67$ cm³
+=> Volume $\approx 1232 + 718.67 = 1950.67$ cm³
+?eg Find the volume of the capsule in the second example of topic 2 (radius 3.5 cm, cylinder height 13 cm).
+= Volume of cylinder $= \pi r^2h = \dfrac{22}{7} \times 3.5 \times 3.5 \times 13 = 500.5$ cm³
+= Volume of the two hemispheres $= \dfrac{4}{3}\pi r^3 = \dfrac{4}{3} \times \dfrac{22}{7} \times 42.875 \approx 179.67$ cm³
+=> Volume $\approx 500.5 + 179.67 = 680.17$ cm³
+?eg A conical cavity of the same height and the same base is hollowed out of a solid cylinder of height 12 cm and radius 5 cm. Find the volume and the total surface area of the remaining solid. Leave the answers in terms of $\pi$.
+= Volume $= \pi r^2h - \dfrac{1}{3}\pi r^2h = \dfrac{2}{3}\pi r^2h = \dfrac{2}{3} \times \pi \times 25 \times 12 = 200\pi$ cm³
+= Slant height of the cone: $l = \sqrt{5^2 + 12^2} = 13$ cm
+= TSA $=$ CSA of cylinder $+$ area of the base $+$ CSA of the cone $= 2\pi rh + \pi r^2 + \pi rl = \pi(120 + 25 + 65)$
+=> Volume $= 200\pi$ cm³; total surface area $= 210\pi$ cm²
+
+# Working with the dimensions
+- Find the height of each part from the total height: for a cone on a hemisphere, cone height $=$ total height $-\ r$.
+- For a cylinder with hemispherical ends, cylinder height $=$ total length $-\ 2r$.
+- The greatest diameter of a hemisphere on a cube face, or of a sphere inside a cube, equals the side of the cube.
+- Volume of water displaced by a solid that is fully immersed equals the volume of the solid.
+
+# Common mistakes
+- Adding **total** surface areas of the parts. Only the exposed surfaces count.
+- Using the vertical height $h$ in $\pi rl$. The cone's curved surface needs the slant height $l$.
+- Using the diameter where the radius is needed.
+- Forgetting to subtract $r$ or $2r$ from the total height.
+- Mixing units, such as cm with m, or giving a volume in cm².
+
+@@formulas
+Cuboid | TSA $= 2(lb + bh + hl)$;  volume $= lbh$;  diagonal $= \sqrt{l^2 + b^2 + h^2}$
+Cube | TSA $= 6a^2$;  volume $= a^3$;  diagonal $= a\sqrt{3}$
+Cylinder: curved surface area | $2\pi rh$
+Cylinder: total surface area | $2\pi r(r + h)$
+Cylinder: volume | $\pi r^2h$
+Cone: slant height | $l = \sqrt{r^2 + h^2}$
+Cone: curved surface area | $\pi rl$
+Cone: total surface area | $\pi r(l + r)$
+Cone: volume | $\dfrac{1}{3}\pi r^2h$
+Sphere | Surface area $= 4\pi r^2$;  volume $= \dfrac{4}{3}\pi r^3$
+Hemisphere | CSA $= 2\pi r^2$;  TSA $= 3\pi r^2$;  volume $= \dfrac{2}{3}\pi r^3$
+Cone on a hemisphere | Surface area $= \pi rl + 2\pi r^2$;  volume $= \dfrac{1}{3}\pi r^2h + \dfrac{2}{3}\pi r^3$
+Cylinder with two hemispherical ends | Surface area $= 2\pi rh + 4\pi r^2$;  volume $= \pi r^2h + \dfrac{4}{3}\pi r^3$
+Hollow cylinder | Volume of material $= \pi(R^2 - r^2)h$
+Units | 1 litre $= 1000$ cm³;  1 m³ $= 1000$ litres
+
+@@dpp
+Q: Two cubes, each of volume 64 cm³, are joined end to end. Find the surface area of the resulting cuboid.
+A: Side 4 cm; cuboid $8 \times 4 \times 4$; surface area $= 160$ cm²
+Q: A vessel is a hollow hemisphere mounted on a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find its inner surface area.
+A: $2\pi r(h + r) = 2 \times \dfrac{22}{7} \times 7 \times 13 = 572$ cm²
+Q: A toy is a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height of the toy is 15.5 cm. Find its total surface area.
+A: $l = 12.5$ cm; $137.5 + 77 = 214.5$ cm²
+Q: A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.
+A: 7 cm; $6 \times 49 + \dfrac{22}{7} \times 3.5^2 = 332.5$ cm²
+Q: A solid is a cone standing on a hemisphere, both of radius 1 cm, and the height of the cone equals its radius. Find the volume of the solid in terms of $\pi$.
+A: $\dfrac{1}{3}\pi + \dfrac{2}{3}\pi = \pi$ cm³
+Q: A cylinder of height 10 cm and radius 6 cm has a conical cavity of height 8 cm and the same radius hollowed out. Find the volume of the remaining solid in terms of $\pi$.
+A: $360\pi - 96\pi = 264\pi$ cm³
+Q: A tent is a cylinder of height 2.1 m and diameter 4 m with a conical top of slant height 2.8 m. Find the area of canvas used.
+A: $\pi r(2h + l) = \dfrac{22}{7} \times 2 \times 7 = 44$ m²
+Q: A solid iron pole is a cylinder of height 220 cm and base diameter 24 cm, surmounted by another cylinder of height 60 cm and radius 8 cm. Find the volume of the pole. Take $\pi = 3.14$.
+A: $3.14 \times (31680 + 3840) = 111532.8$ cm³
+Q: A sphere of radius 3 cm is dropped into a cylindrical vessel of radius 6 cm that is partly filled with water. If the sphere is fully immersed, by how much does the water level rise?
+A: $\dfrac{36\pi}{36\pi} = 1$ cm
+Q: A wooden article is made by scooping out a hemisphere from each end of a solid cylinder of height 10 cm and base radius 3.5 cm. Find the total surface area of the article.
+A: $2\pi rh + 4\pi r^2 = 220 + 154 = 374$ cm²

@@ -1,0 +1,133 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 2
+@title Polynomials
+@summary A zero of a polynomial is where its graph meets the x-axis. This chapter links the zeroes of a polynomial to its coefficients.
+
+# Polynomials and their zeroes
+- A **polynomial** in $x$ is an expression such as $p(x) = 3x^2 - 5x + 2$, in which every power of $x$ is a whole number.
+- The **degree** is the highest power of $x$. Degree 1: **linear** ($ax + b$). Degree 2: **quadratic** ($ax^2 + bx + c$). Degree 3: **cubic** ($ax^3 + bx^2 + cx + d$). In each case $a \neq 0$.
+- The **value** of $p(x)$ at $x = k$ is $p(k)$, found by putting $k$ in place of $x$.
+- A real number $k$ is a **zero** of $p(x)$ if $p(k) = 0$.
+- The zero of the linear polynomial $ax + b$ is $-\dfrac{b}{a}$.
+?eg Check whether $-2$ and $3$ are zeroes of $p(x) = x^2 - x - 6$.
+= $p(-2) = (-2)^2 - (-2) - 6 = 4 + 2 - 6 = 0$
+= $p(3) = 3^2 - 3 - 6 = 9 - 3 - 6 = 0$
+=> Both $-2$ and $3$ are zeroes of $p(x)$.
+
+# Zeroes from the graph
+- The zeroes of $p(x)$ are the $x$-coordinates of the points where the graph of $y = p(x)$ meets the $x$-axis.
+- **Linear**: the graph is a straight line that cuts the $x$-axis at exactly one point, so there is exactly one zero.
+- **Quadratic**: the graph is a parabola. It opens upwards if $a > 0$ and downwards if $a < 0$.
+- A parabola can cut the $x$-axis at two points (two zeroes), touch it at one point (one zero, counted twice) or not meet it at all (no real zero).
+- A polynomial of degree $n$ has **at most** $n$ zeroes. So a quadratic has at most 2 and a cubic has at most 3.
+?eg The graph of $y = p(x)$ cuts the $x$-axis at three points and does not touch it anywhere else. How many zeroes does $p(x)$ have?
+= Each point where the graph meets the $x$-axis gives one zero.
+=> $p(x)$ has 3 zeroes.
+!tip Count only the points on the $x$-axis. Points where the graph crosses the $y$-axis are not zeroes.
+
+# Zeroes and coefficients of a quadratic polynomial
+- If $\alpha$ and $\beta$ are the zeroes of $ax^2 + bx + c$, then
+$$\alpha + \beta = -\frac{b}{a} = -\frac{\text{coefficient of } x}{\text{coefficient of } x^2} \qquad \alpha\beta = \frac{c}{a} = \frac{\text{constant term}}{\text{coefficient of } x^2}$$
+- To find the zeroes, factorise the polynomial by splitting the middle term and put each factor equal to zero.
+?eg Find the zeroes of $x^2 - 2x - 8$ and verify the relationship between the zeroes and the coefficients.
+= $x^2 - 2x - 8 = x^2 - 4x + 2x - 8 = (x - 4)(x + 2)$
+= The zeroes are $4$ and $-2$.
+= Sum of zeroes $= 4 + (-2) = 2 = -\dfrac{(-2)}{1} = -\dfrac{b}{a}$
+= Product of zeroes $= 4 \times (-2) = -8 = \dfrac{-8}{1} = \dfrac{c}{a}$
+=> Zeroes: $4$ and $-2$. The relationship is verified.
+?eg Find the zeroes of $6x^2 - 7x - 3$ and verify the relationship.
+= $6x^2 - 7x - 3 = 6x^2 - 9x + 2x - 3 = 3x(2x - 3) + 1(2x - 3) = (3x + 1)(2x - 3)$
+= The zeroes are $-\dfrac{1}{3}$ and $\dfrac{3}{2}$.
+= Sum $= -\dfrac{1}{3} + \dfrac{3}{2} = \dfrac{7}{6} = -\dfrac{(-7)}{6}$ and product $= -\dfrac{1}{3} \times \dfrac{3}{2} = -\dfrac{1}{2} = \dfrac{-3}{6}$
+=> Zeroes: $-\dfrac{1}{3}$ and $\dfrac{3}{2}$. The relationship is verified.
+?eg Find the zeroes of $3x^2 - 12$.
+= $3x^2 - 12 = 3(x^2 - 4) = 3(x - 2)(x + 2)$
+= Sum $= 2 + (-2) = 0 = -\dfrac{0}{3}$ and product $= -4 = \dfrac{-12}{3}$
+=> Zeroes: $2$ and $-2$.
+
+# Forming a quadratic polynomial
+- A quadratic polynomial whose zeroes have sum $S$ and product $P$ is
+$$k\,[x^2 - Sx + P], \quad k \neq 0$$
+- If $S$ or $P$ is a fraction, choose $k$ to clear the denominators.
+?eg Find a quadratic polynomial whose zeroes have sum $-3$ and product $2$.
+= $x^2 - Sx + P = x^2 - (-3)x + 2$
+=> $x^2 + 3x + 2$
+?eg Find a quadratic polynomial whose zeroes have sum $\dfrac{1}{4}$ and product $-1$.
+= $x^2 - \dfrac{1}{4}x - 1$. Multiply by 4 to clear the fraction.
+=> $4x^2 - x - 4$
+?eg Find a quadratic polynomial whose zeroes are $2 + \sqrt{3}$ and $2 - \sqrt{3}$.
+= $S = (2 + \sqrt{3}) + (2 - \sqrt{3}) = 4$
+= $P = (2 + \sqrt{3})(2 - \sqrt{3}) = 4 - 3 = 1$
+=> $x^2 - 4x + 1$
+
+# Expressions in the zeroes
+- Never find $\alpha$ and $\beta$ separately if the question only needs an expression in them. Use $\alpha + \beta$ and $\alpha\beta$.
+- $\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$
+- $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta}$
+- $(\alpha - \beta)^2 = (\alpha + \beta)^2 - 4\alpha\beta$
+- $\alpha^3 + \beta^3 = (\alpha + \beta)^3 - 3\alpha\beta(\alpha + \beta)$
+?eg If $\alpha$ and $\beta$ are the zeroes of $2x^2 - 5x + 3$, find $\alpha^2 + \beta^2$ and $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$.
+= $\alpha + \beta = \dfrac{5}{2}$ and $\alpha\beta = \dfrac{3}{2}$
+= $\alpha^2 + \beta^2 = \left(\dfrac{5}{2}\right)^2 - 2 \times \dfrac{3}{2} = \dfrac{25}{4} - 3 = \dfrac{13}{4}$
+= $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{5/2}{3/2} = \dfrac{5}{3}$
+=> $\alpha^2 + \beta^2 = \dfrac{13}{4}$ and $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{5}{3}$
+?eg If one zero of $2x^2 + kx - 15$ is $3$, find $k$ and the other zero.
+= Since 3 is a zero: $2(3)^2 + 3k - 15 = 0$, so $18 + 3k - 15 = 0$ and $k = -1$.
+= Product of zeroes $= \dfrac{c}{a} = -\dfrac{15}{2}$, so the other zero $= -\dfrac{15}{2} \div 3 = -\dfrac{5}{2}$.
+=> $k = -1$ and the other zero is $-\dfrac{5}{2}$.
+
+# Zeroes and coefficients of a cubic polynomial
+- If $\alpha$, $\beta$ and $\gamma$ are the zeroes of $ax^3 + bx^2 + cx + d$, then
+$$\alpha + \beta + \gamma = -\frac{b}{a} \qquad \alpha\beta + \beta\gamma + \gamma\alpha = \frac{c}{a} \qquad \alpha\beta\gamma = -\frac{d}{a}$$
+?eg Verify that $1$, $2$ and $3$ are the zeroes of $x^3 - 6x^2 + 11x - 6$, and check the relationship with the coefficients.
+= $p(1) = 1 - 6 + 11 - 6 = 0$, $p(2) = 8 - 24 + 22 - 6 = 0$, $p(3) = 27 - 54 + 33 - 6 = 0$
+= Sum $= 1 + 2 + 3 = 6 = -\dfrac{(-6)}{1}$
+= Sum of products in pairs $= 2 + 6 + 3 = 11 = \dfrac{11}{1}$
+= Product $= 6 = -\dfrac{(-6)}{1}$
+=> All three relations hold.
+
+# Common mistakes
+- Forgetting the minus sign in $\alpha + \beta = -\dfrac{b}{a}$.
+- Reading $a$, $b$, $c$ without their signs. In $x^2 - 2x - 8$, $b = -2$ and $c = -8$.
+- Writing the polynomial as $x^2 + Sx + P$. The middle term is $-Sx$.
+- Saying a quadratic always has two zeroes. It has **at most** two real zeroes.
+
+@@formulas
+Linear polynomial | $ax + b$, $a \neq 0$; zero $= -\dfrac{b}{a}$
+Quadratic polynomial | $ax^2 + bx + c$, $a \neq 0$; at most 2 zeroes
+Cubic polynomial | $ax^3 + bx^2 + cx + d$, $a \neq 0$; at most 3 zeroes
+Sum of zeroes (quadratic) | $\alpha + \beta = -\dfrac{b}{a}$
+Product of zeroes (quadratic) | $\alpha\beta = \dfrac{c}{a}$
+Quadratic from its zeroes | $k\,[x^2 - (\alpha + \beta)x + \alpha\beta]$, $k \neq 0$
+Sum of squares of zeroes | $\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$
+Sum of reciprocals | $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta}$
+Square of the difference | $(\alpha - \beta)^2 = (\alpha + \beta)^2 - 4\alpha\beta$
+Sum of cubes of zeroes | $\alpha^3 + \beta^3 = (\alpha + \beta)^3 - 3\alpha\beta(\alpha + \beta)$
+Cubic: sum of zeroes | $\alpha + \beta + \gamma = -\dfrac{b}{a}$
+Cubic: sum of products in pairs | $\alpha\beta + \beta\gamma + \gamma\alpha = \dfrac{c}{a}$
+Cubic: product of zeroes | $\alpha\beta\gamma = -\dfrac{d}{a}$
+Graph of a quadratic | Parabola; opens upwards if $a > 0$, downwards if $a < 0$
+
+@@dpp
+Q: Find the zeroes of $x^2 + 7x + 10$ and verify the relationship between the zeroes and the coefficients.
+A: $-2$ and $-5$; sum $= -7$, product $= 10$
+Q: Find the zeroes of $4x^2 - 4x + 1$.
+A: $\dfrac{1}{2}$ and $\dfrac{1}{2}$
+Q: Find the zeroes of $5x^2 - 20$.
+A: $2$ and $-2$
+Q: Find a quadratic polynomial whose zeroes have sum $4$ and product $-5$.
+A: $x^2 - 4x - 5$
+Q: Find a quadratic polynomial whose zeroes are $\dfrac{2}{3}$ and $-\dfrac{1}{2}$.
+A: $6x^2 - x - 2$
+Q: If $\alpha$ and $\beta$ are the zeroes of $x^2 - 6x + 8$, find $\alpha^2 + \beta^2$.
+A: $36 - 16 = 20$
+Q: If $\alpha$ and $\beta$ are the zeroes of $3x^2 + 5x - 2$, find $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$.
+A: $\dfrac{-5/3}{-2/3} = \dfrac{5}{2}$
+Q: If one zero of $x^2 - 8x + k$ is $6$, find $k$ and the other zero.
+A: $k = 12$; the other zero is $2$
+Q: If the sum of the zeroes of $kx^2 + 2x + 3k$ is equal to their product, find $k$.
+A: $-\dfrac{2}{k} = 3$, so $k = -\dfrac{2}{3}$
+Q: The zeroes of $x^3 - 4x^2 + x + 6$ are $-1$, $2$ and $3$. Verify the three relations between the zeroes and the coefficients.
+A: Sum $= 4$; sum of products in pairs $= -2 + 6 - 3 = 1$; product $= -6$

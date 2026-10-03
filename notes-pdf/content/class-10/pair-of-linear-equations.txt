@@ -1,0 +1,122 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 3
+@title Pair of Linear Equations in Two Variables
+@summary Two linear equations in the same two variables are two straight lines. Solving the pair means finding the point, if any, that lies on both lines.
+
+# The pair and its solution
+- A **linear equation in two variables** has the form $ax + by + c = 0$, where $a$ and $b$ are not both zero. Its graph is a straight line.
+- A **pair of linear equations** is written as
+$$a_1x + b_1y + c_1 = 0 \qquad a_2x + b_2y + c_2 = 0$$
+- A **solution** of the pair is a pair of values $(x, y)$ that satisfies both equations.
+- A pair that has at least one solution is called **consistent**. A pair with no solution is **inconsistent**.
+
+# Graphical method
+- Draw both lines on the same axes. Find at least two points on each line; a third point is a useful check.
+- **Intersecting lines**: exactly one solution, the point of intersection.
+- **Parallel lines**: no solution.
+- **Coincident lines** (one line lying on the other): infinitely many solutions.
+?eg Solve graphically: $x + y = 5$ and $x - y = 1$.
+= Points on $x + y = 5$: $(0, 5)$, $(5, 0)$, $(2, 3)$
+= Points on $x - y = 1$: $(1, 0)$, $(0, -1)$, $(4, 3)$
+= Plot both lines. They intersect at the point $(3, 2)$.
+= Check: $3 + 2 = 5$ and $3 - 2 = 1$.
+=> $x = 3$, $y = 2$
+
+# Conditions for consistency
+- Compare the ratios of the coefficients. No graph is needed.
+| Ratios | Lines | Solutions | The pair is |
+| $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$ | Intersecting | Exactly one | Consistent |
+| $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$ | Parallel | None | Inconsistent |
+| $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$ | Coincident | Infinitely many | Consistent (dependent) |
+?eg Without drawing graphs, say whether each pair is consistent: (i) $2x + 3y = 7$, $4x + 6y = 14$  (ii) $x + 2y = 4$, $2x + 4y = 12$.
+= (i) $\dfrac{a_1}{a_2} = \dfrac{2}{4} = \dfrac{1}{2}$, $\dfrac{b_1}{b_2} = \dfrac{3}{6} = \dfrac{1}{2}$, $\dfrac{c_1}{c_2} = \dfrac{7}{14} = \dfrac{1}{2}$. All three are equal, so the lines coincide.
+= (ii) $\dfrac{a_1}{a_2} = \dfrac{1}{2}$, $\dfrac{b_1}{b_2} = \dfrac{2}{4} = \dfrac{1}{2}$, $\dfrac{c_1}{c_2} = \dfrac{4}{12} = \dfrac{1}{3}$. The first two are equal but not the third, so the lines are parallel.
+=> (i) Consistent, with infinitely many solutions. (ii) Inconsistent, with no solution.
+?eg For which value of $k$ does the pair $2x + 3y = 7$, $(k - 1)x + (k + 2)y = 3k$ have infinitely many solutions?
+= We need $\dfrac{2}{k - 1} = \dfrac{3}{k + 2} = \dfrac{7}{3k}$.
+= From the first two: $2(k + 2) = 3(k - 1)$, so $2k + 4 = 3k - 3$ and $k = 7$.
+= Check with the third: $\dfrac{3}{9} = \dfrac{1}{3}$ and $\dfrac{7}{21} = \dfrac{1}{3}$. It holds.
+=> $k = 7$
+!tip Write both equations in the same form, with the terms in the same order, before reading off $a$, $b$ and $c$.
+
+# Substitution method
+- Step 1: from one equation, express one variable in terms of the other.
+- Step 2: substitute this in the other equation to get an equation in one variable, and solve it.
+- Step 3: put the value back to find the other variable.
+?eg Solve by substitution: $2x + y = 11$ and $x - 3y = -5$.
+= From the first equation: $y = 11 - 2x$
+= Substitute in the second: $x - 3(11 - 2x) = -5$, so $7x - 33 = -5$ and $x = 4$
+= Then $y = 11 - 2(4) = 3$
+=> $x = 4$, $y = 3$
+
+# Elimination method
+- Step 1: multiply the equations by suitable numbers so that the coefficients of one variable become equal in size.
+- Step 2: add or subtract the equations to remove that variable, and solve.
+- Step 3: substitute to find the other variable.
+?eg Solve by elimination: $3x + 2y = 16$ and $5x - 3y = 14$.
+= Multiply the first equation by 3 and the second by 2: $9x + 6y = 48$ and $10x - 6y = 28$
+= Add: $19x = 76$, so $x = 4$
+= Put $x = 4$ in $3x + 2y = 16$: $12 + 2y = 16$, so $y = 2$
+=> $x = 4$, $y = 2$
+!tip If the working ends in a true statement such as $0 = 0$, the pair has infinitely many solutions. If it ends in a false statement such as $0 = 5$, the pair has no solution.
+
+# Word problems
+- Choose the two unknowns as $x$ and $y$, write one equation for each condition, solve, and check the answer against the words of the problem.
+- A two-digit number with tens digit $x$ and units digit $y$ is $10x + y$. With the digits reversed it is $10y + x$.
+- A fixed charge with a charge per unit: total $= x + (\text{number of units}) \times y$.
+?eg 2 notebooks and 3 pens cost ₹130. 3 notebooks and 2 pens cost ₹170. Find the cost of one notebook and of one pen.
+= Let a notebook cost ₹$x$ and a pen cost ₹$y$. Then $2x + 3y = 130$ and $3x + 2y = 170$.
+= Add: $5x + 5y = 300$, so $x + y = 60$. Subtract: $x - y = 40$.
+= Adding these two: $2x = 100$, so $x = 50$ and $y = 10$.
+=> A notebook costs ₹50 and a pen costs ₹10.
+?eg The sum of the digits of a two-digit number is 9. The number obtained by reversing the digits is 27 more than the number. Find the number.
+= Let the tens digit be $x$ and the units digit be $y$. Then $x + y = 9$.
+= $(10y + x) - (10x + y) = 27$, so $9y - 9x = 27$ and $y - x = 3$.
+= Solving: $y = 6$, $x = 3$.
+=> The number is 36.
+?eg A taxi charges a fixed amount plus a charge per km. A 12 km journey costs ₹210 and a 20 km journey costs ₹330. Find the fixed charge and the charge per km.
+= Let the fixed charge be ₹$x$ and the charge per km be ₹$y$. Then $x + 12y = 210$ and $x + 20y = 330$.
+= Subtract: $8y = 120$, so $y = 15$. Then $x = 210 - 180 = 30$.
+=> Fixed charge ₹30; ₹15 per km.
+
+# Common mistakes
+- Comparing ratios when the two equations are not written in the same form.
+- Sign errors when subtracting one equation from another. Change the sign of every term of the equation being subtracted.
+- Stopping after finding one variable. A solution needs both $x$ and $y$.
+- Writing a two-digit number as $xy$ instead of $10x + y$.
+
+@@formulas
+General form of the pair | $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$
+Unique solution (intersecting lines) | $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$
+No solution (parallel lines) | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$
+Infinitely many solutions (coincident lines) | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$
+Consistent pair | Has at least one solution (intersecting or coincident lines)
+Inconsistent pair | Has no solution (parallel lines)
+Two-digit number | $10x + y$; with digits reversed, $10y + x$
+Fixed charge problems | Total $= x + n\,y$, with fixed part $x$ and rate $y$ per unit
+Speed, distance and time | $\text{distance} = \text{speed} \times \text{time}$
+Line parallel to the axes | $x = a$ is parallel to the $y$-axis; $y = b$ is parallel to the $x$-axis
+
+@@dpp
+Q: Without drawing graphs, state whether the pair $3x + 2y = 5$, $2x - 3y = 7$ is consistent.
+A: $\dfrac{3}{2} \neq \dfrac{2}{-3}$, so it is consistent with a unique solution.
+Q: Find the number of solutions of the pair $x - 2y = 3$, $3x - 6y = 9$.
+A: The ratios are all $\dfrac{1}{3}$: infinitely many solutions.
+Q: For which value of $k$ does the pair $x + 2y = 3$, $5x + ky = 7$ have no solution?
+A: $\dfrac{1}{5} = \dfrac{2}{k}$ gives $k = 10$ (and $\dfrac{3}{7} \neq \dfrac{1}{5}$).
+Q: Solve by substitution: $x + y = 17$, $x - y = 5$.
+A: $x = 11$, $y = 6$
+Q: Solve by substitution: $3x - y = 3$, $9x - 3y = 9$.
+A: Infinitely many solutions; the equations are the same line.
+Q: Solve by elimination: $2x + 3y = 13$, $5x - 2y = 4$.
+A: $x = 2$, $y = 3$
+Q: Solve: $\dfrac{x}{2} + \dfrac{2y}{3} = -1$, $x - \dfrac{y}{3} = 3$.
+A: $x = 2$, $y = -3$
+Q: The difference between two numbers is 26 and one number is three times the other. Find the numbers.
+A: 39 and 13
+Q: 4 pencils and 3 pens cost ₹27, and 3 pencils and 4 pens cost ₹29. Find the cost of one pencil and of one pen.
+A: Pencil ₹3, pen ₹5
+Q: Five years ago a father was seven times as old as his son. Five years from now he will be three times as old. Find their present ages.
+A: Father 40 years, son 10 years

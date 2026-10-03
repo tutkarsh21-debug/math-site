@@ -2,6 +2,7 @@ import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { BOARDS, CLASSES } from '@/lib/data';
+import PDFS from '@/lib/pdfs.json';
 
 export const generateStaticParams = () => Object.keys(CLASSES).map(cls => ({ cls }));
 export async function generateMetadata({ params }) {
@@ -23,7 +24,7 @@ export default async function ClassPage({ params }) {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
       <h1>{c.label} Maths</h1>
-      <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons in Hinglish, plus notes and practice.</p>
+      <p>{boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')}, with video lessons in Hinglish, plus short notes, a formula bank and a DPP sheet for each chapter.</p>
     </div></div>
     <section className="section"><div className="wrap tabs">
       {boards.map(({ b, list }, i) => (<Fragment key={b}>
@@ -37,7 +38,7 @@ export default async function ClassPage({ params }) {
             <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
               <span className="num">{ch.no || i + 1}</span>
               <span><strong>{ch.title}</strong>
-                {ch.notes && <span className="tag ready">Notes</span>}</span>
+                {PDFS[`${cls}/${ch.slug}`] && <span className="tag ready">Notes · Formulas · DPP</span>}</span>
             </Link>))}
           </div>
         </div>))}

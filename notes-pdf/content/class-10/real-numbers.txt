@@ -1,0 +1,135 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 1
+@title Real Numbers
+@summary This chapter has two ideas: every composite number breaks into primes in exactly one way, and that fact is used to find HCF and LCM and to prove that numbers such as $\sqrt{2}$ are irrational.
+
+# Numbers at a glance
+- **Natural numbers**: $1, 2, 3, \dots$   **Whole numbers**: $0, 1, 2, 3, \dots$   **Integers**: $\dots, -2, -1, 0, 1, 2, \dots$
+- **Rational number**: a number of the form $\dfrac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+- **Irrational number**: a number that cannot be written as $\dfrac{p}{q}$, such as $\sqrt{2}$, $\sqrt{3}$, $\pi$.
+- **Real numbers**: all rational and irrational numbers together.
+- **Prime number**: a number greater than 1 with exactly two factors, 1 and itself: $2, 3, 5, 7, 11, \dots$
+- **Composite number**: a number greater than 1 that is not prime: $4, 6, 8, 9, 10, \dots$
+- **Co-prime numbers**: two numbers whose only common factor is 1, such as 8 and 15.
+!tip 1 is neither prime nor composite. 2 is the only even prime number.
+
+# The Fundamental Theorem of Arithmetic
+- **Statement**: every composite number can be written as a product of primes, and this factorisation is unique, apart from the order in which the primes are written.
+- In general, a composite number $x$ is written as $x = p_1 \times p_2 \times \dots \times p_n$ with the primes in ascending order, and equal primes collected as powers.
+- To find the prime factorisation, keep dividing by the smallest prime that divides the number.
+?eg Express 3825 as a product of its prime factors.
+= $3825 = 3 \times 1275 = 3 \times 3 \times 425$
+= $425 = 5 \times 85 = 5 \times 5 \times 17$
+=> $3825 = 3^2 \times 5^2 \times 17$
+?eg Explain why $7 \times 11 \times 13 + 13$ is a composite number.
+= Take 13 common: $7 \times 11 \times 13 + 13 = 13\,(7 \times 11 + 1) = 13 \times 78$
+= The number has factors other than 1 and itself (13 and 78).
+=> So it is a composite number.
+?eg Can the number $12^n$, where $n$ is a natural number, end with the digit 0?
+= A number ending in 0 is divisible by 10, so its prime factorisation must contain both 2 and 5.
+= $12^n = (2^2 \times 3)^n = 2^{2n} \times 3^n$. The only primes are 2 and 3.
+= By the uniqueness of prime factorisation, 5 can never appear.
+=> No, $12^n$ cannot end with the digit 0 for any natural number $n$.
+!tip A number ends in 0 only if its prime factorisation has both 2 and 5. This idea settles every question of the type "can $a^n$ end with 0?"
+
+# HCF and LCM by prime factorisation
+- **HCF** (highest common factor) = product of the **smallest** power of each **common** prime factor.
+- **LCM** (least common multiple) = product of the **greatest** power of **every** prime factor that appears.
+- For any two positive integers $a$ and $b$:
+$$\text{HCF}(a, b) \times \text{LCM}(a, b) = a \times b$$
+?eg Find the HCF and LCM of 72 and 120 by prime factorisation, and verify that HCF $\times$ LCM = product of the numbers.
+= $72 = 2^3 \times 3^2$ and $120 = 2^3 \times 3 \times 5$
+= HCF $= 2^3 \times 3 = 24$ (smallest powers of the common primes 2 and 3)
+= LCM $= 2^3 \times 3^2 \times 5 = 360$ (greatest powers of 2, 3 and 5)
+= Check: $24 \times 360 = 8640$ and $72 \times 120 = 8640$
+=> HCF $= 24$, LCM $= 360$, and the relation is verified.
+?eg The HCF of 91 and 126 is 7. Find their LCM.
+= $\text{LCM} = \dfrac{a \times b}{\text{HCF}} = \dfrac{91 \times 126}{7}$
+= $= 13 \times 126$
+=> LCM $= 1638$
+?eg Find the HCF and LCM of 12, 18 and 30.
+= $12 = 2^2 \times 3$, $18 = 2 \times 3^2$, $30 = 2 \times 3 \times 5$
+= HCF $= 2 \times 3 = 6$
+= LCM $= 2^2 \times 3^2 \times 5 = 180$
+=> HCF $= 6$ and LCM $= 180$
+!tip The relation HCF $\times$ LCM = product works for **two** numbers only. In the last example $12 \times 18 \times 30 = 6480$, but HCF $\times$ LCM $= 6 \times 180 = 1080$.
+
+# Word problems on HCF and LCM
+- Use **HCF** when the question asks for the greatest or largest size, length or number that divides the given quantities exactly.
+- Use **LCM** when the question asks for the least or smallest quantity divisible by all, or when events repeat and you need the time they next happen together.
+?eg Two ropes of lengths 84 m and 126 m are to be cut into pieces of equal length, with nothing left over. Find the greatest possible length of each piece.
+= The length must divide both 84 and 126, and be the greatest such number, so we need the HCF.
+= $84 = 2^2 \times 3 \times 7$ and $126 = 2 \times 3^2 \times 7$
+= HCF $= 2 \times 3 \times 7 = 42$
+=> Each piece is 42 m long.
+?eg Three bells ring at intervals of 9, 12 and 15 minutes. If they ring together at 8:00 a.m., when will they next ring together?
+= They ring together after a time that is a multiple of 9, 12 and 15; the first such time is the LCM.
+= $9 = 3^2$, $12 = 2^2 \times 3$, $15 = 3 \times 5$
+= LCM $= 2^2 \times 3^2 \times 5 = 180$ minutes $= 3$ hours
+=> They next ring together at 11:00 a.m.
+
+# Irrational numbers and their proofs
+- **Theorem**: if a prime number $p$ divides $a^2$, then $p$ divides $a$, where $a$ is a positive integer.
+- The proofs below use the method of **contradiction**: assume the opposite of what is to be proved and show that this leads to something impossible.
+?eg Prove that $\sqrt{2}$ is irrational.
+= Assume, to the contrary, that $\sqrt{2}$ is rational. Then $\sqrt{2} = \dfrac{a}{b}$, where $a$ and $b$ are co-prime integers and $b \neq 0$.
+= Squaring: $2 = \dfrac{a^2}{b^2}$, so $a^2 = 2b^2$. Hence 2 divides $a^2$, and so 2 divides $a$.
+= Let $a = 2c$. Then $4c^2 = 2b^2$, so $b^2 = 2c^2$. Hence 2 divides $b^2$, and so 2 divides $b$.
+= So 2 is a common factor of $a$ and $b$. This contradicts the fact that $a$ and $b$ are co-prime.
+=> Our assumption is wrong. Hence $\sqrt{2}$ is irrational.
+?eg Prove that $3 + 2\sqrt{5}$ is irrational, given that $\sqrt{5}$ is irrational.
+= Assume, to the contrary, that $3 + 2\sqrt{5}$ is rational. Then $3 + 2\sqrt{5} = \dfrac{a}{b}$, where $a$ and $b$ are integers and $b \neq 0$.
+= Rearranging: $\sqrt{5} = \dfrac{a - 3b}{2b}$
+= Since $a$ and $b$ are integers, $\dfrac{a - 3b}{2b}$ is rational, so $\sqrt{5}$ is rational.
+= This contradicts the fact that $\sqrt{5}$ is irrational.
+=> Hence $3 + 2\sqrt{5}$ is irrational.
+- The proof that $\sqrt{3}$, $\sqrt{5}$ or $\sqrt{p}$ (for any prime $p$) is irrational follows the same five steps as for $\sqrt{2}$, with 2 replaced by the prime.
+- The sum or difference of a rational number and an irrational number is irrational.
+- The product or quotient of a non-zero rational number and an irrational number is irrational.
+!tip In every proof, write "where $a$ and $b$ are co-prime" in the first step. The contradiction depends on it, and marks are given for it.
+
+# Common mistakes
+- Writing 1 as a prime factor. 1 is not a prime number.
+- Taking the greatest powers for HCF, or the smallest powers for LCM. It is the other way round.
+- Using HCF $\times$ LCM = product for three numbers.
+- In irrationality proofs, forgetting to say what the contradiction is.
+- Mixing up when to use HCF and LCM in word problems: "greatest that divides" means HCF; "least that is divisible by" or "together again" means LCM.
+
+@@formulas
+Prime factorisation (Fundamental Theorem of Arithmetic) | $x = p_1^{\,a_1} \times p_2^{\,a_2} \times \dots \times p_n^{\,a_n}$, unique for every composite number $x$
+HCF by prime factorisation | Product of the smallest power of each common prime factor
+LCM by prime factorisation | Product of the greatest power of every prime factor involved
+HCF and LCM of two numbers | $\text{HCF}(a, b) \times \text{LCM}(a, b) = a \times b$
+LCM from HCF | $\text{LCM}(a, b) = \dfrac{a \times b}{\text{HCF}(a, b)}$
+HCF from LCM | $\text{HCF}(a, b) = \dfrac{a \times b}{\text{LCM}(a, b)}$
+LCM of three numbers | $\text{LCM}(p,q,r) = \dfrac{p \cdot q \cdot r \cdot \text{HCF}(p,q,r)}{\text{HCF}(p,q) \cdot \text{HCF}(q,r) \cdot \text{HCF}(p,r)}$
+HCF of three numbers | $\text{HCF}(p,q,r) = \dfrac{p \cdot q \cdot r \cdot \text{LCM}(p,q,r)}{\text{LCM}(p,q) \cdot \text{LCM}(q,r) \cdot \text{LCM}(p,r)}$
+Co-prime numbers | $\text{HCF}(a, b) = 1$, so $\text{LCM}(a, b) = a \times b$
+Number ending in 0 | Its prime factorisation contains both 2 and 5
+Prime dividing a square | If a prime $p$ divides $a^2$, then $p$ divides $a$
+Rational and irrational | rational $\pm$ irrational = irrational;  non-zero rational $\times$ irrational = irrational
+Square root of a prime | $\sqrt{p}$ is irrational for every prime $p$
+
+@@dpp
+Q: Express 5005 as a product of its prime factors.
+A: $5005 = 5 \times 7 \times 11 \times 13$
+Q: Find the HCF and LCM of 336 and 54 by prime factorisation.
+A: $336 = 2^4 \times 3 \times 7$, $54 = 2 \times 3^3$; HCF $= 6$, LCM $= 3024$
+Q: The HCF of two numbers is 23 and their LCM is 1449. If one number is 161, find the other.
+A: $\dfrac{23 \times 1449}{161} = 207$
+Q: Can $15^n$ end with the digit 0 for any natural number $n$? Give a reason.
+A: No. $15^n = 3^n \times 5^n$ has no factor 2.
+Q: Explain why $3 \times 5 \times 7 \times 11 + 7$ is a composite number.
+A: It equals $7\,(165 + 1) = 7 \times 166$, so it has factors other than 1 and itself.
+Q: Find the HCF and LCM of 8, 9 and 25.
+A: HCF $= 1$, LCM $= 1800$
+Q: Two tankers contain 850 litres and 680 litres of oil. Find the greatest capacity of a container that can measure the oil of both tankers an exact number of times.
+A: HCF$(850, 680) = 170$ litres
+Q: Three traffic lights change after every 48, 72 and 108 seconds. If they change together at 7:00:00 a.m., when will they next change together?
+A: LCM $= 432$ s $= 7$ min $12$ s, so at 7:07:12 a.m.
+Q: Prove that $\sqrt{3}$ is irrational.
+A: Assume $\sqrt{3} = \frac{a}{b}$ with $a$, $b$ co-prime. Then $a^2 = 3b^2$, so 3 divides $a$; put $a = 3c$ to get $b^2 = 3c^2$, so 3 divides $b$. This contradicts co-primality.
+Q: Prove that $5 - 2\sqrt{3}$ is irrational, given that $\sqrt{3}$ is irrational.
+A: If $5 - 2\sqrt{3} = \frac{a}{b}$, then $\sqrt{3} = \frac{5b - a}{2b}$, which is rational: a contradiction.

@@ -1,0 +1,129 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 14
+@title Probability
+@summary Probability measures how likely an event is, on a scale from 0 to 1. This chapter covers theoretical probability, where every outcome is equally likely.
+
+# The language of probability
+- A **random experiment** is an action whose result cannot be predicted with certainty, such as tossing a coin or throwing a die.
+- An **outcome** is one possible result. The **sample space** is the set of all possible outcomes.
+- An **event** is a collection of outcomes. An event with only one outcome is an **elementary event**.
+- Outcomes are **equally likely** when each has the same chance of occurring, as with a fair coin or an unbiased die.
+
+# Theoretical probability
+- When all outcomes are equally likely, the probability of an event $E$ is
+$$P(E) = \frac{\text{number of outcomes favourable to } E}{\text{number of all possible outcomes}}$$
+- $0 \leq P(E) \leq 1$ for every event.
+- An **impossible event** has probability 0. A **sure (certain) event** has probability 1.
+- The sum of the probabilities of all the elementary events of an experiment is 1.
+?eg A die is thrown once. Find the probability of getting (i) a prime number (ii) a number greater than 4 (iii) a number less than 7 (iv) the number 8.
+= The outcomes are 1, 2, 3, 4, 5, 6: six equally likely outcomes.
+= (i) Primes: 2, 3, 5. $P = \dfrac{3}{6} = \dfrac{1}{2}$
+= (ii) Greater than 4: 5, 6. $P = \dfrac{2}{6} = \dfrac{1}{3}$
+= (iii) All six outcomes are less than 7, so $P = 1$ (a sure event).
+= (iv) 8 cannot occur, so $P = 0$ (an impossible event).
+=> (i) $\dfrac{1}{2}$  (ii) $\dfrac{1}{3}$  (iii) $1$  (iv) $0$
+
+# Complementary events
+- The event "not $E$", written $\bar{E}$, is the **complement** of $E$. It occurs exactly when $E$ does not.
+$$P(E) + P(\bar{E}) = 1 \qquad \text{so} \qquad P(\bar{E}) = 1 - P(E)$$
+- "At least one" is the complement of "none", so $P(\text{at least one}) = 1 - P(\text{none})$.
+?eg A bag contains 5 red, 8 white and 7 black balls. One ball is drawn at random. Find the probability that it is (i) red (ii) not white.
+= Total number of balls $= 5 + 8 + 7 = 20$
+= (i) $P(\text{red}) = \dfrac{5}{20} = \dfrac{1}{4}$
+= (ii) $P(\text{white}) = \dfrac{8}{20} = \dfrac{2}{5}$, so $P(\text{not white}) = 1 - \dfrac{2}{5} = \dfrac{3}{5}$
+=> (i) $\dfrac{1}{4}$  (ii) $\dfrac{3}{5}$
+
+# Coins
+- One coin: H, T (2 outcomes). Two coins: HH, HT, TH, TT (4 outcomes). Three coins: 8 outcomes.
+- HT and TH are different outcomes.
+?eg Two coins are tossed together. Find the probability of getting (i) exactly one head (ii) at least one head.
+= The outcomes are HH, HT, TH, TT.
+= (i) Exactly one head: HT, TH. $P = \dfrac{2}{4} = \dfrac{1}{2}$
+= (ii) At least one head: HH, HT, TH. $P = \dfrac{3}{4}$, which is also $1 - P(\text{no head}) = 1 - \dfrac{1}{4}$
+=> (i) $\dfrac{1}{2}$  (ii) $\dfrac{3}{4}$
+
+# Two dice
+- When two dice are thrown, there are $6 \times 6 = 36$ equally likely outcomes, written as ordered pairs $(a, b)$.
+- $(2, 5)$ and $(5, 2)$ are different outcomes.
+| Sum of the two numbers | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| Number of outcomes | 1 | 2 | 3 | 4 | 5 | 6 | 5 | 4 | 3 | 2 | 1 |
+- A **doublet** is the same number on both dice: $(1,1), (2,2), \dots, (6,6)$. There are 6 doublets.
+?eg Two dice are thrown together. Find the probability that (i) the sum is 8 (ii) a doublet is obtained (iii) the sum is at most 4.
+= Total outcomes $= 36$
+= (i) Sum 8: $(2,6), (3,5), (4,4), (5,3), (6,2)$. $P = \dfrac{5}{36}$
+= (ii) Doublets: 6 outcomes. $P = \dfrac{6}{36} = \dfrac{1}{6}$
+= (iii) Sum 2, 3 or 4: $1 + 2 + 3 = 6$ outcomes. $P = \dfrac{6}{36} = \dfrac{1}{6}$
+=> (i) $\dfrac{5}{36}$  (ii) $\dfrac{1}{6}$  (iii) $\dfrac{1}{6}$
+
+# Playing cards
+- A pack has **52 cards** in 4 suits of 13 cards each.
+| Suit | Colour | Cards |
+| Spades, Clubs | Black | 13 each: 26 black cards |
+| Hearts, Diamonds | Red | 13 each: 26 red cards |
+- Each suit has the cards A, 2, 3, ..., 10, J, Q, K.
+- **Face cards** are the jack, queen and king: 3 in each suit, 12 in all. An ace is not a face card.
+?eg One card is drawn from a well-shuffled pack of 52 cards. Find the probability that it is (i) a king (ii) a red face card (iii) not a spade.
+= (i) There are 4 kings. $P = \dfrac{4}{52} = \dfrac{1}{13}$
+= (ii) Red face cards: J, Q, K of hearts and of diamonds, 6 cards. $P = \dfrac{6}{52} = \dfrac{3}{26}$
+= (iii) $P(\text{spade}) = \dfrac{13}{52} = \dfrac{1}{4}$, so $P(\text{not a spade}) = \dfrac{3}{4}$
+=> (i) $\dfrac{1}{13}$  (ii) $\dfrac{3}{26}$  (iii) $\dfrac{3}{4}$
+
+# Other common types
+?eg Cards numbered 1 to 30 are put in a box and one card is drawn at random. Find the probability that the number on it is (i) a multiple of 5 (ii) a perfect square.
+= (i) Multiples of 5: 5, 10, 15, 20, 25, 30. $P = \dfrac{6}{30} = \dfrac{1}{5}$
+= (ii) Perfect squares: 1, 4, 9, 16, 25. $P = \dfrac{5}{30} = \dfrac{1}{6}$
+=> (i) $\dfrac{1}{5}$  (ii) $\dfrac{1}{6}$
+?eg A bag contains 6 red balls and some blue balls. If the probability of drawing a blue ball is twice that of drawing a red ball, find the number of blue balls.
+= Let there be $x$ blue balls. Total $= 6 + x$.
+= $\dfrac{x}{6 + x} = 2 \times \dfrac{6}{6 + x}$, so $x = 12$
+=> There are 12 blue balls.
+?eg Find the probability that a leap year, chosen at random, has 53 Sundays.
+= A leap year has 366 days $= 52$ weeks $+ 2$ days, so it has 52 Sundays and 2 extra days.
+= The 2 extra days can be: (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun): 7 equally likely pairs.
+= A Sunday appears in 2 of them.
+=> $P = \dfrac{2}{7}$
+
+# Common mistakes
+- Giving a probability greater than 1 or less than 0. If that happens, recount the outcomes.
+- Counting $(2, 5)$ and $(5, 2)$ as one outcome for two dice.
+- Counting the ace as a face card.
+- Forgetting to reduce the fraction to its lowest terms.
+- Using the formula when the outcomes are not equally likely.
+
+@@formulas
+Probability of an event | $P(E) = \dfrac{\text{number of favourable outcomes}}{\text{total number of outcomes}}$
+Range of probability | $0 \leq P(E) \leq 1$
+Impossible event | $P(E) = 0$
+Sure event | $P(E) = 1$
+Complementary event | $P(\bar{E}) = 1 - P(E)$
+All elementary events | The sum of their probabilities is 1
+At least one | $P(\text{at least one}) = 1 - P(\text{none})$
+One coin, two coins, three coins | 2, 4 and 8 outcomes
+One die, two dice | 6 and 36 outcomes
+Pack of cards | 52 cards: 26 red, 26 black; 4 suits of 13
+Face cards | 12 (jack, queen, king in each suit)
+Days in a year | Ordinary year: 52 weeks + 1 day;  leap year: 52 weeks + 2 days
+
+@@dpp
+Q: Which of these cannot be the probability of an event: $\dfrac{2}{3}$, $-1.5$, $15\%$, $0.7$, $\dfrac{7}{5}$?
+A: $-1.5$ and $\dfrac{7}{5}$
+Q: If $P(E) = 0.05$, find $P(\text{not } E)$.
+A: $0.95$
+Q: A die is thrown once. Find the probability of getting an odd number that is greater than 2.
+A: Outcomes 3, 5: $\dfrac{1}{3}$
+Q: A bag contains 3 red and 5 black balls. One ball is drawn at random. Find the probability that it is not red.
+A: $\dfrac{5}{8}$
+Q: Three coins are tossed together. Find the probability of getting at least two heads.
+A: HHH, HHT, HTH, THH: $\dfrac{4}{8} = \dfrac{1}{2}$
+Q: Two dice are thrown together. Find the probability that the sum of the numbers is 9.
+A: $(3,6), (4,5), (5,4), (6,3)$: $\dfrac{4}{36} = \dfrac{1}{9}$
+Q: Two dice are thrown together. Find the probability that the product of the numbers is 12.
+A: $(2,6), (3,4), (4,3), (6,2)$: $\dfrac{1}{9}$
+Q: One card is drawn from a well-shuffled pack of 52 cards. Find the probability that it is (i) a face card (ii) the queen of hearts (iii) a black ace.
+A: (i) $\dfrac{3}{13}$  (ii) $\dfrac{1}{52}$  (iii) $\dfrac{1}{26}$
+Q: A box contains cards numbered 1 to 50. One card is drawn at random. Find the probability that its number is (i) a two-digit number (ii) a multiple of 7.
+A: (i) $\dfrac{41}{50}$  (ii) $\dfrac{7}{50}$
+Q: A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is three times that of drawing a red ball, find the number of blue balls.
+A: 15

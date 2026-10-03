@@ -1,0 +1,127 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 13
+@title Statistics
+@summary This chapter finds the three measures of central tendency, the mean, the mode and the median, for data that has been grouped into class intervals.
+
+# Grouped data: the terms
+- **Class interval**: a group such as 10–20. Here 10 is the **lower limit** and 20 the **upper limit**.
+- **Class size** $h$ = upper limit $-$ lower limit.
+- **Class mark** $x_i$ = $\dfrac{\text{lower limit} + \text{upper limit}}{2}$. It stands for all the values in the class.
+- **Frequency** $f_i$: the number of observations in the class. $\sum f_i = n$ is the total number of observations.
+- **Cumulative frequency** (cf): the running total of the frequencies.
+- The classes must be **continuous** (10–20, 20–30, ...) before the mode and median formulas are used. If they are 10–19, 20–29, ..., subtract 0.5 from each lower limit and add 0.5 to each upper limit.
+
+# Mean of grouped data
+- **Direct method**
+$$\bar{x} = \frac{\sum f_ix_i}{\sum f_i}$$
+- **Assumed mean method**: choose a class mark $a$ near the middle, and let $d_i = x_i - a$.
+$$\bar{x} = a + \frac{\sum f_id_i}{\sum f_i}$$
+- **Step-deviation method**: let $u_i = \dfrac{x_i - a}{h}$.
+$$\bar{x} = a + \left(\frac{\sum f_iu_i}{\sum f_i}\right) \times h$$
+- All three methods give the same mean. Use the direct method for small numbers and the step-deviation method when the class marks are large and the class sizes are equal.
+?eg Find the mean of the following data by all three methods.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Frequency | 5 | 8 | 15 | 16 | 6 |
+= Take $a = 25$ and $h = 10$.
+| Class | $f_i$ | $x_i$ | $f_ix_i$ | $d_i = x_i - 25$ | $f_id_i$ | $u_i$ | $f_iu_i$ |
+| 0–10 | 5 | 5 | 25 | $-20$ | $-100$ | $-2$ | $-10$ |
+| 10–20 | 8 | 15 | 120 | $-10$ | $-80$ | $-1$ | $-8$ |
+| 20–30 | 15 | 25 | 375 | 0 | 0 | 0 | 0 |
+| 30–40 | 16 | 35 | 560 | 10 | 160 | 1 | 16 |
+| 40–50 | 6 | 45 | 270 | 20 | 120 | 2 | 12 |
+| Total | 50 |  | 1350 |  | 100 |  | 10 |
+= Direct method: $\bar{x} = \dfrac{1350}{50} = 27$
+= Assumed mean method: $\bar{x} = 25 + \dfrac{100}{50} = 27$
+= Step-deviation method: $\bar{x} = 25 + \dfrac{10}{50} \times 10 = 27$
+=> Mean $= 27$
+?eg The mean of the following data is 27. Find the missing frequency $p$.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Frequency | 3 | 5 | $p$ | 7 | 5 |
+= $\sum f_i = 20 + p$ and $\sum f_ix_i = 15 + 75 + 25p + 245 + 225 = 560 + 25p$
+= $\dfrac{560 + 25p}{20 + p} = 27$, so $560 + 25p = 540 + 27p$
+=> $p = 10$
+
+# Mode of grouped data
+- The **modal class** is the class with the highest frequency.
+$$\text{Mode} = l + \left(\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\right) \times h$$
+- $l$ = lower limit of the modal class, $h$ = class size, $f_1$ = frequency of the modal class, $f_0$ = frequency of the class **before** it, $f_2$ = frequency of the class **after** it.
+- The mode is the value that occurs most often. It lies inside the modal class.
+?eg Find the mode of the data in the first example of topic 2.
+= The highest frequency is 16, so the modal class is 30–40.
+= $l = 30$, $h = 10$, $f_1 = 16$, $f_0 = 15$, $f_2 = 6$
+= Mode $= 30 + \dfrac{16 - 15}{32 - 15 - 6} \times 10 = 30 + \dfrac{10}{11}$
+=> Mode $\approx 30.91$
+
+# Median of grouped data
+- Write the cumulative frequencies and find $\dfrac{n}{2}$.
+- The **median class** is the class whose cumulative frequency is just greater than (or equal to) $\dfrac{n}{2}$.
+$$\text{Median} = l + \left(\frac{\frac{n}{2} - cf}{f}\right) \times h$$
+- $l$ = lower limit of the median class, $n$ = total frequency, $cf$ = cumulative frequency of the class **before** the median class, $f$ = frequency of the median class, $h$ = class size.
+- The median divides the data into two equal halves.
+?eg Find the median of the data in the first example of topic 2.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Frequency | 5 | 8 | 15 | 16 | 6 |
+| Cumulative frequency | 5 | 13 | 28 | 44 | 50 |
+= $n = 50$, so $\dfrac{n}{2} = 25$. The cumulative frequency just greater than 25 is 28, so the median class is 20–30.
+= $l = 20$, $cf = 13$, $f = 15$, $h = 10$
+= Median $= 20 + \dfrac{25 - 13}{15} \times 10 = 20 + 8$
+=> Median $= 28$
+?eg The median of the following data is 28.5 and the total frequency is 60. Find $x$ and $y$.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
+| Frequency | 5 | $x$ | 20 | 15 | $y$ | 5 |
+= Total: $45 + x + y = 60$, so $x + y = 15$.
+= The median 28.5 lies in 20–30, so $l = 20$, $f = 20$, $cf = 5 + x$, $h = 10$, $\dfrac{n}{2} = 30$.
+= $28.5 = 20 + \dfrac{30 - (5 + x)}{20} \times 10$, so $8.5 = \dfrac{25 - x}{2}$ and $x = 8$
+=> $x = 8$ and $y = 7$
+
+# Which measure to use
+- **Mean**: uses every observation; best when the data has no extreme values. Example: average marks of a class.
+- **Median**: the middle value; best when there are extreme values. Example: typical salary in a company.
+- **Mode**: the most frequent value; best for finding what is most common. Example: the shoe size sold most.
+- **Empirical relationship** between the three:
+$$3 \times \text{Median} = \text{Mode} + 2 \times \text{Mean}$$
+!tip The empirical relationship is approximate. For the data above, $3 \times 28 = 84$ and $30.91 + 2 \times 27 = 84.91$.
+
+# Common mistakes
+- Using class marks in the median or mode formula. Both use the **lower limit** $l$ of the class.
+- Taking $cf$ of the median class itself. Use the cumulative frequency of the class **before** it.
+- Picking the median class by the highest frequency. It is chosen by $\dfrac{n}{2}$.
+- Forgetting to multiply by $h$ in the step-deviation method.
+- Applying the formulas to classes that are not continuous.
+
+@@formulas
+Class mark | $x_i = \dfrac{\text{lower limit} + \text{upper limit}}{2}$
+Class size | $h = \text{upper limit} - \text{lower limit}$
+Mean: direct method | $\bar{x} = \dfrac{\sum f_ix_i}{\sum f_i}$
+Mean: assumed mean method | $\bar{x} = a + \dfrac{\sum f_id_i}{\sum f_i}$, where $d_i = x_i - a$
+Mean: step-deviation method | $\bar{x} = a + \left(\dfrac{\sum f_iu_i}{\sum f_i}\right) \times h$, where $u_i = \dfrac{x_i - a}{h}$
+Mode | $l + \left(\dfrac{f_1 - f_0}{2f_1 - f_0 - f_2}\right) \times h$
+Median | $l + \left(\dfrac{\frac{n}{2} - cf}{f}\right) \times h$
+Modal class | The class with the highest frequency
+Median class | The class whose cumulative frequency is just greater than $\dfrac{n}{2}$
+Empirical relationship | $3\,\text{Median} = \text{Mode} + 2\,\text{Mean}$
+Making classes continuous | Subtract 0.5 from each lower limit and add 0.5 to each upper limit (for a gap of 1)
+
+@@dpp
+Q: Find the class mark and the class size of the class 35–55.
+A: Class mark 45; class size 20
+Q: Classes 0–10, 10–20, 20–30, 30–40, 40–50 have frequencies 7, 8, 12, 13, 10. Find the mean by the direct method.
+A: $\dfrac{1360}{50} = 27.2$
+Q: Classes 100–120, 120–140, 140–160, 160–180, 180–200 have frequencies 12, 14, 8, 6, 10. Find the mean by the step-deviation method.
+A: $a = 150$: $150 + \dfrac{-12}{50} \times 20 = 145.2$
+Q: Classes 0–20, 20–40, 40–60, 60–80, 80–100 have frequencies 6, 8, 10, 12, 4. Find the modal class and the mode.
+A: Modal class 60–80; mode $= 60 + \dfrac{2}{10} \times 20 = 64$
+Q: Classes 0–10, 10–20, 20–30, 30–40, 40–50 have frequencies 8, 16, 36, 34, 6. Find the median.
+A: $n = 100$; median class 20–30; median $= 20 + \dfrac{50 - 24}{36} \times 10 \approx 27.22$
+Q: For the data in the previous question, find the mode.
+A: $20 + \dfrac{36 - 16}{72 - 16 - 34} \times 10 \approx 29.09$
+Q: The mean of a distribution is 30 and its median is 32. Use the empirical relationship to estimate the mode.
+A: $3 \times 32 - 2 \times 30 = 36$
+Q: Classes 0–10, 10–20, 20–30, 30–40, 40–50 have frequencies 4, 6, $p$, 6, 4 and the mean is 25. Explain why $p$ cannot be found from this information alone.
+A: The data is symmetric about 25, so the mean is 25 for every value of $p$.
+Q: Classes 0–20, 20–40, 40–60, 60–80, 80–100 have frequencies 5, $f$, 10, 8, 7, and the mean is 50. Find $f$.
+A: $\dfrac{1740 + 30f}{30 + f} = 50$ gives $f = 12$
+Q: Convert the classes 10–19, 20–29, 30–39 into continuous classes.
+A: 9.5–19.5, 19.5–29.5, 29.5–39.5

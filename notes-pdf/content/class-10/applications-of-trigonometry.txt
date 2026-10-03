@@ -1,0 +1,108 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 9
+@title Some Applications of Trigonometry
+@summary Trigonometric ratios let us find heights and distances that cannot be measured directly, using an angle of elevation or depression and one known length.
+
+# Line of sight and the two angles
+- The **line of sight** is the line drawn from the eye of the observer to the point of the object being viewed.
+- The **angle of elevation** is the angle between the horizontal and the line of sight when the object is **above** the horizontal level. The observer looks up.
+- The **angle of depression** is the angle between the horizontal and the line of sight when the object is **below** the horizontal level. The observer looks down.
+- The angle of depression of a point $B$ seen from $A$ equals the angle of elevation of $A$ seen from $B$, because they are alternate angles between parallel horizontal lines.
+!tip Both angles are measured from the **horizontal**, never from the vertical.
+
+# Choosing the ratio
+- Draw a figure. Mark the right angle, the given angle and the known length.
+- Name the side you know and the side you want, relative to the given angle.
+| Sides involved | Ratio to use |
+| Opposite and adjacent (height and ground distance) | $\tan$ |
+| Opposite and hypotenuse (height and slant length) | $\sin$ |
+| Adjacent and hypotenuse (ground distance and slant length) | $\cos$ |
+- Values used most often: $\tan 30° = \dfrac{1}{\sqrt{3}}$, $\tan 45° = 1$, $\tan 60° = \sqrt{3}$. Take $\sqrt{3} = 1.732$ unless told otherwise.
+
+# One right-angled triangle
+?eg The angle of elevation of the top of a tower from a point on the ground 20 m from its foot is $60°$. Find the height of the tower.
+= Let the height be $h$ m. The height is opposite to the angle and the 20 m is adjacent.
+= $\tan 60° = \dfrac{h}{20}$, so $h = 20\sqrt{3}$
+=> Height $= 20\sqrt{3} \approx 34.64$ m
+?eg A ladder 10 m long leans against a wall and makes an angle of $60°$ with the ground. Find the height it reaches on the wall and the distance of its foot from the wall.
+= The ladder is the hypotenuse. Height: $\sin 60° = \dfrac{h}{10}$, so $h = 10 \times \dfrac{\sqrt{3}}{2} = 5\sqrt{3}$ m
+= Distance: $\cos 60° = \dfrac{d}{10}$, so $d = 10 \times \dfrac{1}{2} = 5$ m
+=> Height $= 5\sqrt{3} \approx 8.66$ m; distance $= 5$ m
+?eg From the top of a building 60 m high, the angle of depression of a car on the ground is $30°$. Find the distance of the car from the foot of the building.
+= The angle of elevation of the top of the building from the car is also $30°$ (alternate angles).
+= $\tan 30° = \dfrac{60}{d}$, so $d = 60\sqrt{3}$
+=> Distance $= 60\sqrt{3} \approx 103.92$ m
+
+# Two right-angled triangles
+- Many problems have two triangles that share a side. Take the unknown shared side (or the unknown height) as $x$ or $h$, write one equation from each triangle and solve.
+?eg The shadow of a tower on level ground is 30 m longer when the sun's altitude is $30°$ than when it is $60°$. Find the height of the tower.
+= Let the height be $h$ m and the shorter shadow be $x$ m.
+= At $60°$: $\tan 60° = \dfrac{h}{x}$, so $h = x\sqrt{3}$
+= At $30°$: $\tan 30° = \dfrac{h}{x + 30}$, so $x + 30 = h\sqrt{3} = 3x$
+= $x = 15$, so $h = 15\sqrt{3}$
+=> Height $= 15\sqrt{3} \approx 25.98$ m
+?eg From the top of a building 10 m high, the angle of elevation of the top of a tower is $45°$ and the angle of depression of its foot is $30°$. Find the height of the tower.
+= Let the horizontal distance between the building and the tower be $d$ m.
+= Depression of the foot: $\tan 30° = \dfrac{10}{d}$, so $d = 10\sqrt{3}$ m
+= Elevation of the top: the tower rises $y$ m above the level of the roof, where $\tan 45° = \dfrac{y}{d}$, so $y = 10\sqrt{3}$ m
+= Height of the tower $= 10 + 10\sqrt{3} = 10(1 + \sqrt{3})$
+=> Height $\approx 27.32$ m
+?eg The angles of elevation of the top of a tower from two points on the same side of it, 5 m and 20 m from its base and in the same straight line with it, are complementary. Find the height of the tower.
+= Let the height be $h$ m and the angles be $\theta$ and $90° - \theta$.
+= From the nearer point: $\tan\theta = \dfrac{h}{5}$
+= From the farther point: $\tan(90° - \theta) = \cot\theta = \dfrac{h}{20}$
+= Multiply: $\tan\theta \times \cot\theta = \dfrac{h^2}{100}$, so $h^2 = 100$
+=> Height $= 10$ m
+?eg A boy 1.5 m tall stands 28.5 m from a building 30 m high. Find the angle of elevation of the top of the building from his eyes.
+= Height of the top above eye level $= 30 - 1.5 = 28.5$ m
+= $\tan\theta = \dfrac{28.5}{28.5} = 1$
+=> The angle of elevation is $45°$.
+
+# Steps for every problem
+- Read the problem and draw a neat figure. Label every point.
+- Mark the angles of elevation and depression from the horizontal.
+- Choose the unknowns and write a trigonometric equation from each right-angled triangle.
+- Solve, give the answer with its unit, and round off only at the end.
+
+# Common mistakes
+- Measuring the angle of depression from the vertical instead of the horizontal.
+- Forgetting the height of the observer's eyes: subtract it before using the ratio, or add it back at the end.
+- Using $\tan$ with the slant length. The slant length is the hypotenuse, so use $\sin$ or $\cos$.
+- Rationalising too early and making arithmetic slips; keep $\sqrt{3}$ as it is until the last step.
+
+@@formulas
+Angle of elevation | Angle between the horizontal and the line of sight, object above eye level
+Angle of depression | Angle between the horizontal and the line of sight, object below eye level
+Elevation and depression | Angle of depression of $B$ from $A$ = angle of elevation of $A$ from $B$
+Height and ground distance | $\tan\theta = \dfrac{\text{height}}{\text{distance}}$, so $\text{height} = \text{distance} \times \tan\theta$
+Height and slant length | $\sin\theta = \dfrac{\text{height}}{\text{slant length}}$
+Ground distance and slant length | $\cos\theta = \dfrac{\text{distance}}{\text{slant length}}$
+tan of standard angles | $\tan 30° = \dfrac{1}{\sqrt{3}}$, $\tan 45° = 1$, $\tan 60° = \sqrt{3}$
+sin of standard angles | $\sin 30° = \dfrac{1}{2}$, $\sin 45° = \dfrac{1}{\sqrt{2}}$, $\sin 60° = \dfrac{\sqrt{3}}{2}$
+cos of standard angles | $\cos 30° = \dfrac{\sqrt{3}}{2}$, $\cos 45° = \dfrac{1}{\sqrt{2}}$, $\cos 60° = \dfrac{1}{2}$
+Complementary angles | $\tan(90° - \theta) = \cot\theta$, so $\tan\theta \times \tan(90° - \theta) = 1$
+Useful values | $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$
+
+@@dpp
+Q: A tower stands on level ground. From a point 30 m from its foot, the angle of elevation of its top is $30°$. Find the height of the tower.
+A: $\dfrac{30}{\sqrt{3}} = 10\sqrt{3} \approx 17.32$ m
+Q: A kite is flying at a height of 75 m above the ground. Its string makes an angle of $60°$ with the ground. Find the length of the string, assuming there is no slack.
+A: $\dfrac{75}{\sin 60°} = 50\sqrt{3} \approx 86.6$ m
+Q: A pole 6 m high casts a shadow $2\sqrt{3}$ m long. Find the sun's angle of elevation.
+A: $\tan\theta = \dfrac{6}{2\sqrt{3}} = \sqrt{3}$, so $\theta = 60°$
+Q: A tree breaks and its top touches the ground 8 m from its foot, making an angle of $30°$ with the ground. Find the original height of the tree.
+A: $\dfrac{8}{\sqrt{3}} + \dfrac{16}{\sqrt{3}} = 8\sqrt{3} \approx 13.86$ m
+Q: From the top of a cliff 75 m high, the angle of depression of a boat is $60°$. Find the distance of the boat from the foot of the cliff.
+A: $\dfrac{75}{\sqrt{3}} = 25\sqrt{3} \approx 43.3$ m
+Q: An observer 1.5 m tall is 20.5 m from a tower 22 m high. Find the angle of elevation of the top of the tower from his eyes.
+A: $\tan\theta = \dfrac{20.5}{20.5} = 1$, so $\theta = 45°$
+Q: From a point on the ground, the angles of elevation of the bottom and the top of a flagstaff fixed on a building 20 m high are $45°$ and $60°$. Find the height of the flagstaff.
+A: $20\sqrt{3} - 20 = 20(\sqrt{3} - 1) \approx 14.64$ m
+Q: Two poles of equal height stand on opposite sides of a road 100 m wide. From a point on the road between them, the angles of elevation of their tops are $60°$ and $30°$. Find the height of the poles and the distances of the point from them.
+A: Height $25\sqrt{3} \approx 43.3$ m; distances 25 m and 75 m
+Q: From the top of a 12 m high building, the angle of elevation of the top of a tower is $60°$ and the angle of depression of its foot is $45°$. Find the height of the tower.
+A: $12(1 + \sqrt{3}) \approx 32.78$ m
+Q: The angle of elevation of the top of a tower from a point on the ground is $30°$. On walking 20 m towards the tower, the angle becomes $60°$. Find the height of the tower.
+A: $10\sqrt{3} \approx 17.32$ m

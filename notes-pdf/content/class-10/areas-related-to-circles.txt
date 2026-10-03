@@ -1,0 +1,110 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 11
+@title Areas Related to Circles
+@summary A sector is a "slice" of a circle and a segment is the part cut off by a chord. This chapter is about finding their areas and the length of an arc.
+
+# Circle: a quick recap
+- For a circle of radius $r$: circumference $= 2\pi r$ and area $= \pi r^2$. Diameter $d = 2r$.
+- Use $\pi = \dfrac{22}{7}$ unless the question gives another value such as 3.14.
+- Area of a semicircle $= \dfrac{1}{2}\pi r^2$. Area of a quadrant $= \dfrac{1}{4}\pi r^2$.
+- Area of a ring between two concentric circles of radii $R$ and $r$ is $\pi(R^2 - r^2)$.
+
+# Sector of a circle
+- A **sector** is the region enclosed by two radii and the arc between them.
+- The angle between the two radii is the **angle of the sector**, $\theta$.
+- The smaller region is the **minor sector** (angle $\theta$) and the larger is the **major sector** (angle $360° - \theta$).
+- The whole circle is a sector of angle $360°$, so a sector of angle $\theta$ is the fraction $\dfrac{\theta}{360}$ of the circle.
+$$\text{Area of sector} = \frac{\theta}{360} \times \pi r^2 \qquad \text{Length of arc} = \frac{\theta}{360} \times 2\pi r$$
+- Perimeter of a sector $=$ length of arc $+\ 2r$.
+- Area of the major sector $= \pi r^2 -$ area of the minor sector.
+?eg Find the area of a sector of a circle of radius 7 cm with angle $60°$, and the length of its arc.
+= Area $= \dfrac{60}{360} \times \dfrac{22}{7} \times 7 \times 7 = \dfrac{1}{6} \times 154 = \dfrac{77}{3}$ cm²
+= Arc $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 7 = \dfrac{1}{6} \times 44 = \dfrac{22}{3}$ cm
+=> Area $\approx 25.67$ cm²; arc length $\approx 7.33$ cm
+?eg The minute hand of a clock is 21 cm long. Find the area it sweeps in 10 minutes.
+= In 60 minutes the minute hand turns $360°$, so in 10 minutes it turns $60°$.
+= Area $= \dfrac{60}{360} \times \dfrac{22}{7} \times 21 \times 21 = \dfrac{1}{6} \times 1386$
+=> Area $= 231$ cm²
+?eg A horse is tied to a peg at one corner of a square field of side 15 m by a rope 7 m long. Find the area of the part of the field in which it can graze.
+= The corner of a square is $90°$, so the horse grazes a sector of radius 7 m and angle $90°$.
+= Area $= \dfrac{90}{360} \times \dfrac{22}{7} \times 7 \times 7 = \dfrac{1}{4} \times 154$
+=> Area $= 38.5$ m²
+!tip The minute hand turns $6°$ per minute. The hour hand turns $30°$ per hour, which is $0.5°$ per minute.
+
+# Segment of a circle
+- A **segment** is the region between a chord and the arc it cuts off.
+- The smaller region is the **minor segment** and the larger is the **major segment**.
+$$\text{Area of minor segment} = \text{area of the sector} - \text{area of the triangle formed by the chord and the two radii}$$
+- Area of the major segment $= \pi r^2 -$ area of the minor segment.
+- The triangle is isosceles with two sides equal to $r$ and the angle $\theta$ between them.
+| Angle $\theta$ | Area of the triangle |
+| $60°$ | $\dfrac{\sqrt{3}}{4}r^2$ (equilateral triangle) |
+| $90°$ | $\dfrac{1}{2}r^2$ (right-angled triangle) |
+| $120°$ | $\dfrac{\sqrt{3}}{4}r^2$ |
+?eg A chord of a circle of radius 14 cm subtends a right angle at the centre. Find the area of the minor segment and of the major segment.
+= Area of sector $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14 = 154$ cm²
+= Area of triangle $= \dfrac{1}{2} \times 14 \times 14 = 98$ cm²
+= Minor segment $= 154 - 98 = 56$ cm²
+= Area of circle $= \dfrac{22}{7} \times 14 \times 14 = 616$ cm², so major segment $= 616 - 56 = 560$ cm²
+=> Minor segment $= 56$ cm²; major segment $= 560$ cm²
+?eg A chord of a circle of radius 21 cm subtends an angle of $60°$ at the centre. Find the area of the minor segment. Take $\sqrt{3} = 1.732$.
+= Area of sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 21 \times 21 = 231$ cm²
+= The triangle is equilateral with side 21 cm: area $= \dfrac{\sqrt{3}}{4} \times 21 \times 21 = 110.25 \times 1.732 \approx 190.95$ cm²
+=> Area of the minor segment $\approx 231 - 190.95 = 40.05$ cm²
+
+# Finding the area of the triangle for other angles
+- Draw the perpendicular $OM$ from the centre to the chord $AB$. It bisects the chord and the angle $\theta$.
+- $OM = r\cos\dfrac{\theta}{2}$ and $AM = r\sin\dfrac{\theta}{2}$, so the chord $AB = 2r\sin\dfrac{\theta}{2}$.
+- Area of triangle $= \dfrac{1}{2} \times AB \times OM$.
+?eg Find the area of the triangle formed by two radii and a chord that subtends $120°$ at the centre of a circle of radius 12 cm.
+= $OM = 12\cos 60° = 6$ cm and $AM = 12\sin 60° = 6\sqrt{3}$ cm, so $AB = 12\sqrt{3}$ cm
+= Area $= \dfrac{1}{2} \times 12\sqrt{3} \times 6$
+=> Area $= 36\sqrt{3} \approx 62.35$ cm²
+
+# Common mistakes
+- Using the diameter in place of the radius.
+- Forgetting to add $2r$ when the **perimeter** of a sector is asked.
+- Giving the sector's area when the segment's area is asked.
+- Using $\dfrac{22}{7}$ when the question says $\pi = 3.14$, or the other way round.
+- Leaving out the units: cm for length, cm² for area.
+
+@@formulas
+Circumference of a circle | $2\pi r$
+Area of a circle | $\pi r^2$
+Area of a sector of angle $\theta$ | $\dfrac{\theta}{360} \times \pi r^2$
+Length of an arc of angle $\theta$ | $\dfrac{\theta}{360} \times 2\pi r$
+Area of a sector from its arc length $l$ | $\dfrac{1}{2}\,l\,r$
+Perimeter of a sector | $\dfrac{\theta}{360} \times 2\pi r + 2r$
+Area of the major sector | $\pi r^2 - \text{area of the minor sector}$
+Area of a minor segment | $\text{area of sector} - \text{area of triangle}$
+Area of the major segment | $\pi r^2 - \text{area of the minor segment}$
+Triangle in a sector, $\theta = 60°$ | $\dfrac{\sqrt{3}}{4}r^2$
+Triangle in a sector, $\theta = 90°$ | $\dfrac{1}{2}r^2$
+Triangle in a sector, $\theta = 120°$ | $\dfrac{\sqrt{3}}{4}r^2$
+Area of a ring | $\pi(R^2 - r^2)$
+Angle turned by the minute hand | $6°$ per minute
+Angle turned by the hour hand | $30°$ per hour, $0.5°$ per minute
+
+@@dpp
+Q: Find the area of a sector of a circle of radius 6 cm with angle $60°$. Take $\pi = \dfrac{22}{7}$.
+A: $\dfrac{132}{7} \approx 18.86$ cm²
+Q: Find the area of a quadrant of a circle whose circumference is 22 cm.
+A: $r = 3.5$ cm; area $= \dfrac{77}{8} = 9.625$ cm²
+Q: The minute hand of a clock is 14 cm long. Find the area it sweeps in 5 minutes.
+A: $\dfrac{154}{3} \approx 51.33$ cm²
+Q: Find the length of the arc of a sector of angle $120°$ in a circle of radius 21 cm.
+A: 44 cm
+Q: Find the perimeter of a sector of radius 10.5 cm and angle $60°$.
+A: $11 + 21 = 32$ cm
+Q: A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the minor segment. Take $\pi = 3.14$.
+A: $78.5 - 50 = 28.5$ cm²
+Q: For the circle in the previous question, find the area of the major sector.
+A: $314 - 78.5 = 235.5$ cm²
+Q: A chord of a circle of radius 14 cm subtends $60°$ at the centre. Find the area of the minor segment. Take $\sqrt{3} = 1.73$.
+A: $\dfrac{308}{3} - 49 \times 1.73 \approx 102.67 - 84.77 = 17.9$ cm²
+Q: A car has two wipers that do not overlap. Each wiper has a blade 21 cm long sweeping through $120°$. Find the total area cleaned in one sweep.
+A: $2 \times 462 = 924$ cm²
+Q: The arc of a circle of radius 21 cm subtends $60°$ at the centre. Find the area of the sector and of the corresponding major sector.
+A: $231$ cm² and $1386 - 231 = 1155$ cm²

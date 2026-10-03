@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BOARDS, CLASSES, SITE } from '@/lib/data';
+import PDFS from '@/lib/pdfs.json';
 
 const FEATURES = [
   { icon: '▶', title: 'Video lessons', text: 'Every chapter is taught on video, step by step, the way it is asked in the exam.' },
@@ -80,7 +81,7 @@ export default function Home() {
       <div className="grid">
         {featured.map(ch => (
           <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="card">
-            <span className="tag">{ch.label} {ch.boards[0]}</span>{ch.notes && <span className="tag ready">Notes</span>}
+            <span className="tag">{ch.label} {ch.boards[0]}</span>{PDFS[`${ch.cls}/${ch.slug}`] && <span className="tag ready">PDF notes</span>}
             <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3>
           </Link>))}
       </div>

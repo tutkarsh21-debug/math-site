@@ -1,0 +1,115 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 10
+@title Circles
+@summary This chapter is about tangents to a circle: what a tangent is, how many can be drawn from a point, and the two theorems that every question is built on.
+
+# Lines and a circle
+- A line and a circle in the same plane can meet in three ways.
+| Position of the line | Points in common | Name |
+| Does not meet the circle | 0 | Non-intersecting line |
+| Cuts the circle | 2 | Secant |
+| Touches the circle | 1 | Tangent |
+- A **tangent** to a circle is a line that meets the circle at exactly one point. That point is the **point of contact**.
+- A tangent is the limiting position of a secant when its two points of intersection come together.
+- There is one and only one tangent at any given point of a circle.
+
+# Number of tangents from a point
+| Position of the point | Number of tangents |
+| Inside the circle | 0 |
+| On the circle | 1 |
+| Outside the circle | 2 |
+- The **length of a tangent** from an external point $P$ is the length of the segment from $P$ to the point of contact.
+- A circle has infinitely many tangents, one at each of its points. It has exactly two tangents parallel to a given line.
+
+# Theorem 1: tangent and radius
+- **Theorem**: the tangent at any point of a circle is perpendicular to the radius through the point of contact.
+- So if $PT$ is a tangent at $T$ to a circle with centre $O$, then $\angle OTP = 90°$ and $\triangle OTP$ is right-angled at $T$.
+- For a point $P$ at distance $d$ from the centre of a circle of radius $r$, the length of the tangent is
+$$PT = \sqrt{d^2 - r^2}$$
+- The perpendicular to a tangent at its point of contact passes through the centre.
+?eg A point $P$ is 13 cm from the centre of a circle of radius 5 cm. Find the length of the tangent from $P$ to the circle.
+= $OT \perp PT$, so $\triangle OTP$ is right-angled at $T$ with $OP = 13$ cm and $OT = 5$ cm.
+= $PT = \sqrt{13^2 - 5^2} = \sqrt{144}$
+=> $PT = 12$ cm
+?eg The length of a tangent from a point $A$ to a circle of radius 7 cm is 24 cm. Find the distance of $A$ from the centre.
+= $OA^2 = OT^2 + AT^2 = 7^2 + 24^2 = 49 + 576 = 625$
+=> $OA = 25$ cm
+?eg Two concentric circles have radii 13 cm and 5 cm. Find the length of the chord of the larger circle that touches the smaller circle.
+= Let the chord $AB$ touch the smaller circle at $M$. Then $OM \perp AB$, and the perpendicular from the centre bisects the chord, so $AM = MB$.
+= $AM = \sqrt{OA^2 - OM^2} = \sqrt{13^2 - 5^2} = 12$ cm
+=> $AB = 2 \times 12 = 24$ cm
+?eg Prove that the tangents drawn at the ends of a diameter of a circle are parallel.
+= Let $AB$ be a diameter and let the tangents at $A$ and $B$ be $l$ and $m$.
+= $OA \perp l$ and $OB \perp m$ (tangent is perpendicular to the radius), so both $l$ and $m$ are perpendicular to the line $AB$.
+=> Two lines perpendicular to the same line are parallel, so $l \parallel m$.
+
+# Theorem 2: tangents from an external point
+- **Theorem**: the lengths of the tangents drawn from an external point to a circle are equal.
+- If $PA$ and $PB$ are tangents from $P$ to a circle with centre $O$, then $PA = PB$. The proof uses $\triangle OAP \cong \triangle OBP$ by RHS.
+- From the same congruence: $OP$ bisects $\angle APB$ and $\angle AOB$.
+- $\angle APB + \angle AOB = 180°$, because the angles at $A$ and $B$ in quadrilateral $OAPB$ are both $90°$.
+?eg $PA$ and $PB$ are tangents from $P$ to a circle with centre $O$, and $\angle APB = 50°$. Find $\angle AOB$ and $\angle OAB$.
+= $\angle AOB = 180° - \angle APB = 180° - 50° = 130°$
+= In $\triangle OAB$, $OA = OB$ (radii), so $\angle OAB = \angle OBA = \dfrac{180° - 130°}{2}$
+=> $\angle AOB = 130°$ and $\angle OAB = 25°$
+?eg A quadrilateral $ABCD$ is drawn to circumscribe a circle. If $AB = 8$ cm, $BC = 9$ cm and $CD = 6$ cm, find $AD$.
+= Tangents from each vertex are equal, which gives $AB + CD = AD + BC$.
+= $8 + 6 = AD + 9$
+=> $AD = 5$ cm
+?eg From an external point $P$, tangents $PA$ and $PB$ are drawn to a circle. A third tangent at a point $E$ of the circle meets $PA$ at $C$ and $PB$ at $D$. If $PA = 12$ cm, find the perimeter of $\triangle PCD$.
+= $CA = CE$ and $DB = DE$ (tangents from an external point)
+= Perimeter $= PC + CD + PD = PC + CE + ED + PD = (PC + CA) + (DB + PD) = PA + PB$
+=> Perimeter $= 12 + 12 = 24$ cm
+?eg The incircle of $\triangle ABC$ touches $BC$, $CA$ and $AB$ at $D$, $E$ and $F$. If $AB = 12$ cm, $BC = 8$ cm and $CA = 10$ cm, find $AF$, $BD$ and $CE$.
+= Let $AF = AE = x$, $BD = BF = y$, $CD = CE = z$. Then $x + y = 12$, $y + z = 8$, $z + x = 10$.
+= Adding: $2(x + y + z) = 30$, so $x + y + z = 15$.
+=> $AF = x = 15 - 8 = 7$ cm, $BD = y = 15 - 10 = 5$ cm, $CE = z = 15 - 12 = 3$ cm
+
+# Results worth remembering
+- The centre of a circle lies on the bisector of the angle between two tangents drawn from an external point.
+- A parallelogram circumscribing a circle is a rhombus.
+- Opposite sides of a quadrilateral circumscribing a circle subtend supplementary angles at the centre.
+- In two concentric circles, a chord of the larger circle that touches the smaller circle is bisected at the point of contact.
+
+# Common mistakes
+- Forgetting to state the reason "tangent is perpendicular to the radius at the point of contact" when marking a right angle.
+- Taking the hypotenuse wrongly: in $\triangle OTP$ the hypotenuse is $OP$, the line from the centre to the external point.
+- Assuming $\angle APB = \angle AOB$. They add up to $180°$.
+- Drawing a tangent from a point inside the circle. No tangent exists there.
+
+@@formulas
+Tangent and radius | Tangent $\perp$ radius at the point of contact
+Tangents from an external point | $PA = PB$
+Length of a tangent | $PT = \sqrt{d^2 - r^2}$, where $d$ is the distance of the point from the centre
+Distance of the point from the centre | $d = \sqrt{PT^2 + r^2}$
+Angle between two tangents | $\angle APB + \angle AOB = 180°$
+Line from the point to the centre | $OP$ bisects $\angle APB$ and $\angle AOB$
+Number of tangents from a point | Inside: 0;  on the circle: 1;  outside: 2
+Quadrilateral circumscribing a circle | $AB + CD = AD + BC$
+Chord touching the inner of two concentric circles | Length $= 2\sqrt{R^2 - r^2}$
+Triangle with an incircle | $AF = AE = s - a$, $BD = BF = s - b$, $CD = CE = s - c$, where $s$ is the semi-perimeter
+Radius of the incircle of a right-angled triangle | $r = \dfrac{a + b - c}{2}$, where $c$ is the hypotenuse
+
+@@dpp
+Q: How many tangents can a circle have? How many of them can be drawn from a point outside the circle?
+A: Infinitely many; exactly 2 from an outside point
+Q: A tangent $PQ$ at a point $P$ of a circle of radius 5 cm meets a line through the centre $O$ at $Q$, with $OQ = 13$ cm. Find $PQ$.
+A: 12 cm
+Q: The length of a tangent from a point 10 cm from the centre of a circle is 8 cm. Find the radius.
+A: 6 cm
+Q: Two concentric circles have radii 10 cm and 6 cm. Find the length of the chord of the larger circle that touches the smaller circle.
+A: 16 cm
+Q: $PA$ and $PB$ are tangents to a circle with centre $O$. If $\angle APB = 80°$, find $\angle POA$.
+A: $\angle AOB = 100°$, so $\angle POA = 50°$
+Q: Tangents $PA$ and $PB$ from a point $P$ are inclined to each other at $60°$, and the radius of the circle is 5 cm. Find the length of each tangent.
+A: $\angle APO = 30°$, so $PA = \dfrac{5}{\tan 30°} = 5\sqrt{3}$ cm
+Q: A quadrilateral $ABCD$ circumscribes a circle. If $AB = 7$ cm, $BC = 10$ cm and $CD = 9$ cm, find $AD$.
+A: 6 cm
+Q: The incircle of $\triangle ABC$ touches $BC$, $CA$, $AB$ at $D$, $E$, $F$. If $AF = 4$ cm, $BD = 3$ cm and $CE = 5$ cm, find the perimeter of the triangle.
+A: $2(4 + 3 + 5) = 24$ cm
+Q: Prove that the perpendicular at the point of contact to a tangent of a circle passes through the centre.
+A: The radius at the point of contact is perpendicular to the tangent, and only one perpendicular can be drawn to a line at a given point, so the perpendicular is the line containing the radius.
+Q: Prove that a parallelogram circumscribing a circle is a rhombus.
+A: $AB + CD = AD + BC$ and $AB = CD$, $AD = BC$ give $2AB = 2AD$, so all four sides are equal.

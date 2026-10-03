@@ -1,0 +1,123 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 4
+@title Quadratic Equations
+@summary A quadratic equation has the variable squared. This chapter covers how to recognise one, how to solve it by factorisation and by the formula, and how the discriminant tells the nature of its roots.
+
+# Standard form
+- A **quadratic equation** in $x$ is an equation of the form
+$$ax^2 + bx + c = 0, \quad a \neq 0$$
+- $a$, $b$ and $c$ are real numbers. $a$ is the coefficient of $x^2$, $b$ the coefficient of $x$ and $c$ the constant term.
+- To check whether an equation is quadratic, simplify it and see whether the highest power of $x$ is 2.
+- A number $\alpha$ is a **root** (or solution) of the equation if $a\alpha^2 + b\alpha + c = 0$. A quadratic equation has at most two roots.
+?eg Check whether each equation is quadratic: (i) $(x + 1)^2 = 2(x - 3)$  (ii) $x(x + 3) = x^2 + 5$.
+= (i) $x^2 + 2x + 1 = 2x - 6$, so $x^2 + 7 = 0$. The highest power is 2.
+= (ii) $x^2 + 3x = x^2 + 5$, so $3x - 5 = 0$. The $x^2$ terms cancel.
+=> (i) is a quadratic equation. (ii) is not; it is linear.
+
+# Solving by factorisation
+- Step 1: write the equation in standard form.
+- Step 2: split the middle term $bx$ into two terms whose **sum is $b$** and whose **product is $ac$**.
+- Step 3: factorise by grouping.
+- Step 4: put each factor equal to zero.
+?eg Solve $x^2 - 5x + 6 = 0$.
+= We need two numbers with sum $-5$ and product $6$: they are $-2$ and $-3$.
+= $x^2 - 2x - 3x + 6 = 0$, so $x(x - 2) - 3(x - 2) = 0$ and $(x - 2)(x - 3) = 0$
+=> $x = 2$ or $x = 3$
+?eg Solve $3x^2 - 11x + 6 = 0$.
+= $ac = 18$. Two numbers with sum $-11$ and product $18$: $-9$ and $-2$.
+= $3x^2 - 9x - 2x + 6 = 0$, so $3x(x - 3) - 2(x - 3) = 0$ and $(3x - 2)(x - 3) = 0$
+=> $x = \dfrac{2}{3}$ or $x = 3$
+?eg Solve $2x^2 - 8x = 0$.
+= Take the common factor: $2x(x - 4) = 0$
+=> $x = 0$ or $x = 4$
+!tip Never divide both sides by $x$. In the last example that would lose the root $x = 0$.
+
+# The quadratic formula
+- The roots of $ax^2 + bx + c = 0$ are
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+- Use the formula when the equation does not factorise easily.
+- Write the equation in standard form first, then read $a$, $b$ and $c$ with their signs.
+?eg Solve $2x^2 - 7x + 4 = 0$ using the quadratic formula.
+= $a = 2$, $b = -7$, $c = 4$
+= $b^2 - 4ac = 49 - 32 = 17$
+= $x = \dfrac{-(-7) \pm \sqrt{17}}{2 \times 2} = \dfrac{7 \pm \sqrt{17}}{4}$
+=> $x = \dfrac{7 + \sqrt{17}}{4}$ or $x = \dfrac{7 - \sqrt{17}}{4}$
+
+# Nature of roots
+- The **discriminant** of $ax^2 + bx + c = 0$ is $D = b^2 - 4ac$.
+| Discriminant | Nature of the roots | The roots are |
+| $D > 0$ | Two distinct real roots | $\dfrac{-b + \sqrt{D}}{2a}$ and $\dfrac{-b - \sqrt{D}}{2a}$ |
+| $D = 0$ | Two equal real roots | $-\dfrac{b}{2a}$ and $-\dfrac{b}{2a}$ |
+| $D < 0$ | No real roots | None |
+?eg Find the nature of the roots of (i) $2x^2 - 6x + 5 = 0$  (ii) $4x^2 - 12x + 9 = 0$.
+= (i) $D = (-6)^2 - 4(2)(5) = 36 - 40 = -4 < 0$
+= (ii) $D = (-12)^2 - 4(4)(9) = 144 - 144 = 0$, and the roots are $-\dfrac{b}{2a} = \dfrac{12}{8} = \dfrac{3}{2}$
+=> (i) No real roots. (ii) Two equal real roots, each $\dfrac{3}{2}$.
+?eg Find the values of $k$ for which $x^2 + kx + 16 = 0$ has two equal roots.
+= For equal roots, $D = 0$: $k^2 - 4(1)(16) = 0$
+= $k^2 = 64$
+=> $k = 8$ or $k = -8$
+
+# Word problems
+- Let the unknown be $x$, form the equation from the given condition, solve it, and reject any root that does not fit the situation.
+- A length, a speed, an age or a number of objects cannot be negative.
+- For speed problems use $\text{time} = \dfrac{\text{distance}}{\text{speed}}$.
+?eg The product of two consecutive even positive integers is 168. Find the integers.
+= Let the integers be $x$ and $x + 2$. Then $x(x + 2) = 168$, so $x^2 + 2x - 168 = 0$.
+= $(x + 14)(x - 12) = 0$, so $x = -14$ or $x = 12$. The integers are positive, so $x = 12$.
+=> The integers are 12 and 14.
+?eg The length of a rectangular plot is 4 m more than its breadth, and its area is 96 m². Find its dimensions.
+= Let the breadth be $x$ m. Then the length is $(x + 4)$ m and $x(x + 4) = 96$.
+= $x^2 + 4x - 96 = 0$, so $(x + 12)(x - 8) = 0$. Rejecting $x = -12$, we get $x = 8$.
+=> Breadth 8 m and length 12 m.
+?eg A train covers 300 km at a uniform speed. If the speed had been 10 km/h more, the journey would have taken 1 hour less. Find the speed of the train.
+= Let the speed be $x$ km/h. Then $\dfrac{300}{x} - \dfrac{300}{x + 10} = 1$.
+= $300(x + 10) - 300x = x(x + 10)$, so $x^2 + 10x - 3000 = 0$.
+= $(x + 60)(x - 50) = 0$. Rejecting $x = -60$, we get $x = 50$.
+=> The speed of the train is 50 km/h.
+
+# Common mistakes
+- Reading $b$ or $c$ without the sign. In $2x^2 - 7x + 4 = 0$, $b = -7$.
+- Dividing only part of the numerator by $2a$. The whole of $-b \pm \sqrt{D}$ is divided by $2a$.
+- Using the formula before writing the equation in standard form.
+- Keeping a negative root for a length, an age or a speed.
+- Writing "no roots" when $D < 0$. The correct statement is "no real roots".
+
+@@formulas
+Standard form | $ax^2 + bx + c = 0$, $a \neq 0$
+Quadratic formula | $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+Discriminant | $D = b^2 - 4ac$
+Two distinct real roots | $D > 0$
+Two equal real roots | $D = 0$; each root is $-\dfrac{b}{2a}$
+No real roots | $D < 0$
+Real roots exist | $D \geq 0$
+Sum of the roots | $\alpha + \beta = -\dfrac{b}{a}$
+Product of the roots | $\alpha\beta = \dfrac{c}{a}$
+Equation from its roots | $x^2 - (\alpha + \beta)x + \alpha\beta = 0$
+Splitting the middle term | Two numbers with sum $b$ and product $ac$
+Consecutive integers | $x$, $x + 1$; consecutive even or odd integers: $x$, $x + 2$
+Time, distance and speed | $\text{time} = \dfrac{\text{distance}}{\text{speed}}$
+
+@@dpp
+Q: Check whether $(x - 2)(x + 1) = (x - 1)(x + 3)$ is a quadratic equation.
+A: It simplifies to $3x - 1 = 0$, so it is not quadratic.
+Q: Solve by factorisation: $x^2 - 3x - 10 = 0$.
+A: $x = 5$ or $x = -2$
+Q: Solve by factorisation: $2x^2 + x - 6 = 0$.
+A: $x = \dfrac{3}{2}$ or $x = -2$
+Q: Solve by factorisation: $6x^2 - x - 2 = 0$.
+A: $x = \dfrac{2}{3}$ or $x = -\dfrac{1}{2}$
+Q: Solve using the quadratic formula: $x^2 - 4x + 1 = 0$.
+A: $x = 2 \pm \sqrt{3}$
+Q: Find the discriminant of $3x^2 - 5x + 2 = 0$ and state the nature of its roots.
+A: $D = 25 - 24 = 1 > 0$: two distinct real roots
+Q: Find the value of $k$ for which $2x^2 + kx + 8 = 0$ has equal roots.
+A: $k^2 = 64$, so $k = \pm 8$
+Q: Find two consecutive positive integers whose squares add up to 313.
+A: 12 and 13
+Q: The altitude of a right-angled triangle is 7 cm less than its base. If the hypotenuse is 17 cm, find the other two sides.
+A: Base 15 cm, altitude 8 cm
+Q: A motorboat whose speed in still water is 15 km/h goes 30 km downstream and comes back in a total of 4 hours 30 minutes. Find the speed of the stream.
+A: 5 km/h

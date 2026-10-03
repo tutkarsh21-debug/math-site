@@ -1,0 +1,123 @@
+@class Class 10
+@board CBSE
+@book NCERT Mathematics
+@chapter 6
+@title Triangles
+@summary Similar figures have the same shape but not necessarily the same size. This chapter covers similar triangles, the Basic Proportionality Theorem and the three tests for similarity.
+
+# Similar figures
+- Two figures are **similar** if they have the same shape. They need not have the same size.
+- Two figures are **congruent** if they have the same shape and the same size. All congruent figures are similar, but similar figures need not be congruent.
+- All circles are similar. All squares are similar. All equilateral triangles are similar.
+- Two **polygons** with the same number of sides are similar if (i) their corresponding angles are equal **and** (ii) their corresponding sides are in the same ratio. Both conditions are needed.
+!tip A square and a rectangle have equal angles but are not similar, because their sides are not in the same ratio. A square and a rhombus have sides in the same ratio but are not similar, because their angles are not equal.
+
+# Similar triangles
+- $\triangle ABC \sim \triangle DEF$ means $\angle A = \angle D$, $\angle B = \angle E$, $\angle C = \angle F$ and
+$$\frac{AB}{DE} = \frac{BC}{EF} = \frac{CA}{FD}$$
+- The order of the letters shows which vertices correspond: $A \leftrightarrow D$, $B \leftrightarrow E$, $C \leftrightarrow F$.
+- The common value of the ratio of corresponding sides is the **scale factor**.
+- The ratio of the perimeters of two similar triangles equals the ratio of their corresponding sides.
+?eg $\triangle ABC \sim \triangle DEF$ with $AB = 4$ cm, $BC = 5$ cm and $DE = 6$ cm. Find $EF$.
+= $\dfrac{AB}{DE} = \dfrac{BC}{EF}$, so $\dfrac{4}{6} = \dfrac{5}{EF}$
+= $EF = \dfrac{5 \times 6}{4}$
+=> $EF = 7.5$ cm
+
+# Basic Proportionality Theorem (Thales theorem)
+- **Theorem**: if a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio.
+- In $\triangle ABC$, if $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$, then
+$$\frac{AD}{DB} = \frac{AE}{EC}$$
+- It also follows that $\dfrac{AD}{AB} = \dfrac{AE}{AC}$ and $\dfrac{DB}{AB} = \dfrac{EC}{AC}$.
+- **Converse**: if a line divides any two sides of a triangle in the same ratio, the line is parallel to the third side.
+?eg In $\triangle ABC$, $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = 2$ cm, $DB = 3$ cm and $AE = 4$ cm, find $EC$.
+= By the Basic Proportionality Theorem, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$
+= $\dfrac{2}{3} = \dfrac{4}{EC}$
+=> $EC = 6$ cm
+?eg In $\triangle ABC$, $DE \parallel BC$. If $AD = x$, $DB = x - 2$, $AE = x + 2$ and $EC = x - 1$, find $x$.
+= $\dfrac{x}{x - 2} = \dfrac{x + 2}{x - 1}$
+= $x(x - 1) = (x + 2)(x - 2)$, so $x^2 - x = x^2 - 4$
+=> $x = 4$
+?eg $D$ and $E$ are points on sides $AB$ and $AC$ of $\triangle ABC$ with $AD = 4$ cm, $DB = 6$ cm, $AE = 6$ cm and $EC = 9$ cm. Is $DE \parallel BC$?
+= $\dfrac{AD}{DB} = \dfrac{4}{6} = \dfrac{2}{3}$ and $\dfrac{AE}{EC} = \dfrac{6}{9} = \dfrac{2}{3}$
+= The two ratios are equal.
+=> Yes. By the converse of the Basic Proportionality Theorem, $DE \parallel BC$.
+
+# Criteria for similarity of triangles
+- **AAA** (or **AA**): if the corresponding angles of two triangles are equal, the triangles are similar. Two pairs of equal angles are enough, because the third pair must then be equal.
+- **SSS**: if the corresponding sides of two triangles are in the same ratio, the triangles are similar.
+- **SAS**: if one angle of a triangle equals one angle of another and the sides including these angles are in the same ratio, the triangles are similar.
+| Criterion | What to show |
+| AA | Two pairs of corresponding angles are equal |
+| SSS | $\dfrac{AB}{DE} = \dfrac{BC}{EF} = \dfrac{CA}{FD}$ |
+| SAS | $\angle A = \angle D$ and $\dfrac{AB}{DE} = \dfrac{AC}{DF}$ |
+?eg The sides of one triangle are 3 cm, 4 cm and 5 cm, and the sides of another are 6 cm, 8 cm and 10 cm. Are the triangles similar?
+= Compare the sides in order of size: $\dfrac{3}{6} = \dfrac{4}{8} = \dfrac{5}{10} = \dfrac{1}{2}$
+=> Yes, the triangles are similar by the SSS criterion.
+?eg In $\triangle ABC$ and $\triangle PQR$, $\angle A = \angle P = 50°$, $AB = 6$ cm, $AC = 9$ cm, $PQ = 4$ cm and $PR = 6$ cm. Are the triangles similar?
+= $\dfrac{AB}{PQ} = \dfrac{6}{4} = \dfrac{3}{2}$ and $\dfrac{AC}{PR} = \dfrac{9}{6} = \dfrac{3}{2}$
+= The included angles are equal and the sides including them are in the same ratio.
+=> Yes, $\triangle ABC \sim \triangle PQR$ by the SAS criterion.
+?eg Diagonals $AC$ and $BD$ of a trapezium $ABCD$, with $AB \parallel DC$, intersect at $O$. Show that $\dfrac{OA}{OC} = \dfrac{OB}{OD}$.
+= In $\triangle OAB$ and $\triangle OCD$: $\angle OAB = \angle OCD$ (alternate angles, $AB \parallel DC$)
+= $\angle AOB = \angle COD$ (vertically opposite angles)
+= So $\triangle OAB \sim \triangle OCD$ by the AA criterion.
+=> Hence $\dfrac{OA}{OC} = \dfrac{OB}{OD}$, since corresponding sides of similar triangles are in the same ratio.
+
+# Applications: heights and shadows
+- At the same time of day, the sun's rays make the same angle with the ground, so an object and its shadow form similar right-angled triangles.
+$$\frac{\text{height of object 1}}{\text{shadow of object 1}} = \frac{\text{height of object 2}}{\text{shadow of object 2}}$$
+?eg A vertical pole 5 m high casts a shadow 3 m long. At the same time a tower casts a shadow 24 m long. Find the height of the tower.
+= The two triangles are similar by AA (a right angle each, and the same angle of the sun).
+= $\dfrac{h}{24} = \dfrac{5}{3}$
+=> The tower is 40 m high.
+?eg A man 1.8 m tall stands 4 m from the foot of a lamp-post 5.4 m high. Find the length of his shadow.
+= Let the shadow be $x$ m. The triangle formed by the lamp-post and the triangle formed by the man share the angle at the tip of the shadow, and each has a right angle, so they are similar.
+= $\dfrac{5.4}{1.8} = \dfrac{4 + x}{x}$, so $3x = 4 + x$
+=> The shadow is 2 m long.
+
+# Writing a proof
+- Name the two triangles and write the vertices in corresponding order.
+- Give a reason for each equal angle or equal ratio: common angle, vertically opposite angles, alternate angles, corresponding angles, given.
+- State the criterion used (AA, SSS or SAS), then write the ratio of the sides you need.
+
+# Common mistakes
+- Writing the vertices in the wrong order, so that the wrong sides are matched.
+- Using $\dfrac{AD}{DB} = \dfrac{DE}{BC}$. The ratio $\dfrac{DE}{BC}$ equals $\dfrac{AD}{AB}$, not $\dfrac{AD}{DB}$.
+- Using SAS when the equal angle is not the angle between the two sides.
+- Treating similar triangles as congruent.
+
+@@formulas
+Similar triangles | Corresponding angles equal and corresponding sides in the same ratio
+Ratio of corresponding sides | If $\triangle ABC \sim \triangle DEF$: $\dfrac{AB}{DE} = \dfrac{BC}{EF} = \dfrac{CA}{FD}$
+Basic Proportionality Theorem | If $DE \parallel BC$: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$
+Other forms of the theorem | $\dfrac{AD}{AB} = \dfrac{AE}{AC} = \dfrac{DE}{BC}$
+Converse of the theorem | If $\dfrac{AD}{DB} = \dfrac{AE}{EC}$, then $DE \parallel BC$
+AA (AAA) criterion | Two pairs of corresponding angles equal
+SSS criterion | All three pairs of corresponding sides in the same ratio
+SAS criterion | One pair of angles equal and the sides including them in the same ratio
+Ratio of perimeters | Equal to the ratio of corresponding sides
+Ratio of altitudes and medians | Equal to the ratio of corresponding sides
+Shadows at the same time | $\dfrac{\text{height}_1}{\text{shadow}_1} = \dfrac{\text{height}_2}{\text{shadow}_2}$
+Mid-point theorem | The line joining the mid-points of two sides is parallel to the third side and half of it
+
+@@dpp
+Q: State whether all rectangles are similar. Give a reason.
+A: No. Their angles are equal but their sides need not be in the same ratio.
+Q: In $\triangle ABC$, $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = 3$ cm, $DB = 4.5$ cm and $EC = 6$ cm, find $AE$.
+A: $AE = \dfrac{3 \times 6}{4.5} = 4$ cm
+Q: In $\triangle PQR$, $E$ and $F$ lie on $PQ$ and $PR$ with $PE = 4$ cm, $QE = 4.5$ cm, $PF = 8$ cm and $RF = 9$ cm. Is $EF \parallel QR$?
+A: Yes: $\dfrac{4}{4.5} = \dfrac{8}{9}$
+Q: In $\triangle ABC$, $DE \parallel BC$. If $AD = x + 1$, $DB = x$, $AE = x + 3$ and $EC = x + 1$, find $x$.
+A: $(x + 1)^2 = x(x + 3)$ gives $x = 1$
+Q: $\triangle ABC \sim \triangle PQR$ with $AB = 6$ cm, $BC = 8$ cm, $CA = 10$ cm and $PQ = 9$ cm. Find $QR$ and $RP$.
+A: $QR = 12$ cm, $RP = 15$ cm
+Q: The sides of two triangles are 2.5 cm, 6 cm, 6.5 cm and 5 cm, 12 cm, 13 cm. Are they similar? Name the criterion.
+A: Yes, SSS: each ratio is $\dfrac{1}{2}$
+Q: The perimeters of two similar triangles are 30 cm and 20 cm. If one side of the first triangle is 12 cm, find the corresponding side of the second.
+A: 8 cm
+Q: A vertical stick 12 m long casts a shadow 8 m long. At the same time a tower casts a shadow 40 m long. Find the height of the tower.
+A: 60 m
+Q: A girl 1.5 m tall stands 3 m from a lamp-post and casts a shadow 4.5 m long. Find the height of the lamp-post.
+A: $\dfrac{h}{1.5} = \dfrac{7.5}{4.5}$, so $h = 2.5$ m
+Q: $ABCD$ is a trapezium with $AB \parallel DC$ whose diagonals meet at $O$. If $AO = 3$ cm, $OC = 5$ cm and $BO = 4.5$ cm, find $OD$.
+A: $\dfrac{3}{5} = \dfrac{4.5}{OD}$, so $OD = 7.5$ cm
