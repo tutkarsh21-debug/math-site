@@ -1,0 +1,6 @@
+T: Circumscribed circle of a triangle
+Q: [ICSE 2020, 4 marks] Using ruler and compasses, construct $\triangle ABC$ with $AB = 3$ cm, $BC = 4$ cm and $\angle ABC = 90°$. Construct its circumscribing circle and measure the radius.
+S: Draw $BC = 4$ cm, construct a right angle at $B$ and cut off $BA = 3$ cm. Join $AC$.
+S: Draw the perpendicular bisectors of $AB$ and $BC$, meeting at $O$. With centre $O$ and radius $OA$, draw the circle.
+S: Check: in a right-angled triangle the circumcentre is the mid-point of the hypotenuse. $AC = \sqrt{3^2 + 4^2} = 5$ cm, so the radius is 2.5 cm.
+S: **Answer: radius $= 2.5$ cm**

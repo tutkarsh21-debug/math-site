@@ -1,0 +1,10 @@
+T: Cylinder
+Q: [ICSE 2023, 1 mark] A cylinder of height 3 cm has a volume of $48\pi$ cm³. Find its radius. (a) 48 cm  (b) 16 cm  (c) 4 cm  (d) 24 cm
+S: $\pi r^2 \times 3 = 48\pi$, so $r^2 = 16$ and $r = 4$ cm.
+S: **Answer: (c)**
+
+T: Combination of solids
+Q: [ICSE 2023, 4 marks] A solid is a hemisphere of radius 7 cm with a cone of height 4 cm standing on its flat face. It is lowered completely into water in a cylindrical container of radius 14 cm. Find the rise in the water level.
+S: Volume of the solid $= \dfrac{2}{3}\pi (7)^3 + \dfrac{1}{3}\pi (7)^2 (4) = \dfrac{686\pi}{3} + \dfrac{196\pi}{3} = 294\pi$ cm³
+S: The water rises by $h$ where $\pi (14)^2 h = 294\pi$, so $h = \dfrac{294}{196}$.
+S: **Answer: 1.5 cm**

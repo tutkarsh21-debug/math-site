@@ -1,0 +1,6 @@
+T: Problems on speed, distance and time
+Q: [ICSE 2023, 3 marks] A man travels 100 km at a uniform speed of $x$ km/h. At a speed 5 km/h faster, the journey would have taken 1 hour less. Find $x$.
+S: $\dfrac{100}{x} - \dfrac{100}{x + 5} = 1$
+S: $100(x + 5) - 100x = x(x + 5)$, so $x^2 + 5x - 500 = 0$
+S: $(x + 25)(x - 20) = 0$, so $x = 20$ (speed cannot be negative).
+S: **Answer: 20 km/h**

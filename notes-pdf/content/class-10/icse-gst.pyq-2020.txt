@@ -1,0 +1,8 @@
+T: A bill with several items
+Q: [ICSE 2020, 4 marks] A man buys medicines costing ₹950 (GST 5%), a pair of shoes costing ₹3000 (GST 18%) and a laptop bag costing ₹1000 with a discount of 30% (GST 18%). Find (a) the total GST paid (b) the total bill amount including GST.
+S: Medicines: GST $= 5\%$ of 950 $= 47.50$.
+S: Shoes: GST $= 18\%$ of 3000 $= 540$.
+S: Bag: price after discount $= 1000 - 300 = 700$, and GST $= 18\%$ of 700 $= 126$.
+S: (a) Total GST $= 47.50 + 540 + 126 = 713.50$
+S: (b) Bill $= 950 + 3000 + 700 + 713.50$
+S: **Answer: (a) ₹713.50 (b) ₹5363.50**

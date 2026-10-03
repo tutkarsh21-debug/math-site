@@ -1,0 +1,8 @@
+T: Reflection of figures
+Q: [ICSE 2023, 5 marks] Plot $A(0, 4)$, $B(1, 1)$ and $C(4, 0)$. (a) Reflect $A$ and $B$ in the $x$-axis to get $E$ and $D$. (b) Reflect $B$ in the origin to get $F$, and write its coordinates. (c) Reflect $B$ and $C$ in the $y$-axis to get $H$ and $G$. (d) Join $A, B, C, D, E, F, G, H, A$ in order and name the closed figure.
+S: (a) $E(0, -4)$ and $D(1, -1)$.
+S: (b) Reflection in the origin changes both signs: $F(-1, -1)$.
+S: (c) $H(-1, 1)$ and $G(-4, 0)$.
+!fig w=280 h=265; Q x1 15 132; Q x2 268 132; Q y1 140 8; Q y2 140 258; D x1 x2; D y1 y2; P A 140 28 r; P B 166 106 tr; P C 244 132 tr; P D 166 158 br; P E 140 236 r; P F 114 158 bl; P G 36 132 tl; P H 114 106 tl; H A B; H B C; H C D; H D E; H E F; H F G; H G H; H H A; T 262 148 x; T 152 14 y
+S: (d) The figure has 8 sides, with four of its corners pointing inwards.
+S: **Answer: $F(-1, -1)$; the figure is a concave octagon in the shape of a four-pointed star**

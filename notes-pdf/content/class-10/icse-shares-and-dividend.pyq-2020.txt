@@ -1,0 +1,7 @@
+T: Return on investment
+Q: [ICSE 2020, 3 marks] A company has 500 shares of nominal value ₹120 and declares an annual dividend of 15%. Find (a) the total dividend paid by the company (b) the annual income of a man who holds 80 shares (c) the market value of each share if his return is 10%.
+S: Dividend on one share $= 15\%$ of 120 $= 18$.
+S: (a) Total dividend $= 500 \times 18 = 9000$
+S: (b) Income from 80 shares $= 80 \times 18 = 1440$
+S: (c) Return $= \dfrac{18}{\text{market value}} \times 100 = 10$, so market value $= 180$.
+S: **Answer: (a) ₹9000 (b) ₹1440 (c) ₹180**

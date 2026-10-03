@@ -1,0 +1,7 @@
+T: Mean of raw and tabulated data
+Q: [ICSE 2020, 3 marks] The mean of the data below is 16. Find $f$.
+| Marks | 5 | 10 | 15 | 20 | 25 |
+| Number of students | 3 | 7 | $f$ | 9 | 6 |
+S: $\sum f = 25 + f$ and $\sum fx = 15 + 70 + 15f + 180 + 150 = 415 + 15f$
+S: $\dfrac{415 + 15f}{25 + f} = 16$, so $415 + 15f = 400 + 16f$
+S: **Answer: $f = 15$**

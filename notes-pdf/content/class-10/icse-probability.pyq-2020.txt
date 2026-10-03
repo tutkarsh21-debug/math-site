@@ -1,0 +1,7 @@
+T: Balls, numbered cards and letters
+Q: [ICSE 2020, 3 marks] Each letter of the word AUTHORIZES is written on a separate disc, and one disc is drawn at random. Find the probability that the letter is (a) a vowel (b) one of the first 9 letters of the alphabet (c) one of the last 9 letters of the alphabet.
+S: The word has 10 different letters.
+S: (a) Vowels: A, U, O, I, E (5 discs). Probability $= \dfrac{5}{10} = \dfrac{1}{2}$.
+S: (b) The first 9 letters are A to I. In the word: A, H, I, E (4 discs). Probability $= \dfrac{4}{10} = \dfrac{2}{5}$.
+S: (c) The last 9 letters are R to Z. In the word: U, T, R, Z, S (5 discs). Probability $= \dfrac{5}{10} = \dfrac{1}{2}$.
+S: **Answer: (a) $\dfrac{1}{2}$ (b) $\dfrac{2}{5}$ (c) $\dfrac{1}{2}$**

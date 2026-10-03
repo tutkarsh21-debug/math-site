@@ -1,0 +1,7 @@
+T: Problems with two triangles
+Q: [ICSE 2023, 4 marks] From the top $D$ of a tower $CD$ 100 m high, two ships $A$ and $B$ on opposite sides of the tower are seen at angles of depression of $45°$ and $38°$. The ships and the foot of the tower are in one straight line. Find the distance between the ships to the nearest metre.
+!fig w=340 h=180; P A 42 150 bl; P C 142 150 b; P B 308 150 br; P D 142 20 t; L A B; H C D; L A D; L B D; R D C B; A C A D 45°; A C B D 38°; T 164 90 100 m
+S: The angles of elevation of $D$ from the ships equal the angles of depression (alternate angles).
+S: $AC = \dfrac{100}{\tan 45°} = 100$ m. From the tables $\tan 38° = 0.7813$, so $CB = \dfrac{100}{0.7813} \approx 127.99$ m.
+S: $AB = 100 + 127.99 = 227.99$
+S: **Answer: about 228 m**

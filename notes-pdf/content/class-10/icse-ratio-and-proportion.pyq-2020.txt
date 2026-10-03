@@ -1,0 +1,10 @@
+T: Properties of proportion
+Q: [ICSE 2020, 3 marks] Find $x : y$, given $\dfrac{x^2 + 2x}{2x + 4} = \dfrac{y^2 + 3y}{3y + 9}$.
+S: Factorise: $\dfrac{x(x + 2)}{2(x + 2)} = \dfrac{y(y + 3)}{3(y + 3)}$
+S: $\dfrac{x}{2} = \dfrac{y}{3}$. By alternendo, $\dfrac{x}{y} = \dfrac{2}{3}$.
+S: **Answer: $x : y = 2 : 3$**
+Q: [ICSE 2020, 4 marks] If $x = \dfrac{\sqrt{2a + 1} + \sqrt{2a - 1}}{\sqrt{2a + 1} - \sqrt{2a - 1}}$, prove that $x^2 - 4ax + 1 = 0$.
+S: Write $x$ as $\dfrac{x}{1}$ and apply componendo and dividendo: $\dfrac{x + 1}{x - 1} = \dfrac{2\sqrt{2a + 1}}{2\sqrt{2a - 1}}$
+S: Square both sides: $\dfrac{x^2 + 2x + 1}{x^2 - 2x + 1} = \dfrac{2a + 1}{2a - 1}$
+S: Apply componendo and dividendo again: $\dfrac{2x^2 + 2}{4x} = \dfrac{4a}{2}$, so $\dfrac{x^2 + 1}{2x} = 2a$
+S: $x^2 + 1 = 4ax$, that is $x^2 - 4ax + 1 = 0$. **Proved.**

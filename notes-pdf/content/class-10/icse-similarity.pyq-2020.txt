@@ -1,0 +1,13 @@
+T: Conditions for similarity
+Q: [ICSE 2020, 3 marks] Chords $AD$ and $BC$ of a circle intersect at $P$. $AB = 9$ cm, $PA = 7.5$ cm and $PC = 5$ cm. (a) Prove that $\triangle PAB \sim \triangle PCD$. (b) Find $CD$. (c) Find area of $\triangle PAB$ : area of $\triangle PCD$.
+!fig w=290 h=215; Q O 140 110; P A 74.5 155.9 bl; P C 180 179.3 br; P D 217.3 89.3 r; P B 133 30.3 t; P P 160 116 r; C O 80; L A D; L B C; H A B; H C D
+S: (a) $\angle APB = \angle CPD$ (vertically opposite) and $\angle PAB = \angle PCD$ (angles in the same segment, standing on the arc $BD$). So $\triangle PAB \sim \triangle PCD$ (AA).
+S: (b) $\dfrac{AB}{CD} = \dfrac{PA}{PC}$, so $CD = \dfrac{9 \times 5}{7.5} = 6$ cm.
+S: (c) Ratio of areas $= \left(\dfrac{PA}{PC}\right)^2 = \left(\dfrac{7.5}{5}\right)^2 = \dfrac{9}{4}$
+S: **Answer: (b) $CD = 6$ cm (c) $9 : 4$**
+
+T: Maps and models
+Q: [ICSE 2020, 3 marks] A model of a high-rise building is made to a scale of $1 : 50$. (a) The model is 0.8 m high; find the height of the building. (b) A flat in the building has a floor area of 20 m²; find its floor area in the model.
+S: (a) Height of building $= 0.8 \times 50 = 40$ m
+S: (b) Areas are in the ratio $1^2 : 50^2 = 1 : 2500$. Area in the model $= \dfrac{20}{2500} = 0.008$ m² $= 80$ cm².
+S: **Answer: (a) 40 m (b) 0.008 m², that is 80 cm²**

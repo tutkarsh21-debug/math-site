@@ -1,0 +1,6 @@
+T: Finding the rate of interest
+Q: [ICSE 2020, 3 marks] A man deposits ₹750 a month in a recurring deposit account for 2 years and receives ₹19,125 on maturity. Find the rate of interest.
+S: Total deposited $= 750 \times 24 = 18000$, so the interest is $19125 - 18000 = 1125$.
+S: $1125 = 750 \times \dfrac{24 \times 25}{2 \times 12} \times \dfrac{r}{100} = 187.5\,r$
+S: $r = 6$
+S: **Answer: 6% per annum**

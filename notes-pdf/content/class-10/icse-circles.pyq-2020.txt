@@ -1,0 +1,7 @@
+T: Angle at the centre and at the circumference
+Q: [ICSE 2020, 3 marks] $AB$ is a diameter of a circle with centre $O$. $C$ and $D$ are points on the circle on the same side of $AB$, with $AC = BD$ and $\angle AOC = 72°$. Find (a) $\angle ABC$ (b) $\angle BAD$ (c) $\angle ABD$.
+!fig w=300 h=215; P O 150 110 t; P A 70 110 l; P B 230 110 r; P C 125.3 186.1 bl; P D 174.7 186.1 br; C O 80; L A B; L A C; L B D; L B C; L A D; D O C; A A O C 72°
+S: (a) The angle at the circumference is half the angle at the centre on the same arc: $\angle ABC = \dfrac{72°}{2} = 36°$.
+S: (b) Equal chords subtend equal angles at the centre, so $\angle BOD = 72°$ and $\angle BAD = 36°$.
+S: (c) $\angle ADB = 90°$ (angle in a semicircle), so $\angle ABD = 90° - 36° = 54°$.
+S: **Answer: (a) $36°$ (b) $36°$ (c) $54°$**

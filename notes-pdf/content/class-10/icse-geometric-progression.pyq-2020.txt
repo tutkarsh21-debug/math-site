@@ -1,0 +1,6 @@
+T: The general term
+Q: [ICSE 2020, 4 marks] The 4th, 6th and last terms of a G.P. are 10, 40 and 640. The common ratio is positive. Find the first term, the common ratio and the number of terms.
+S: $ar^3 = 10$ and $ar^5 = 40$. Dividing: $r^2 = 4$, so $r = 2$.
+S: $a = \dfrac{10}{8} = \dfrac{5}{4}$
+S: Last term: $\dfrac{5}{4} \times 2^{n-1} = 640$, so $2^{n-1} = 512 = 2^9$ and $n = 10$.
+S: **Answer: $a = \dfrac{5}{4}$, $r = 2$, $n = 10$**

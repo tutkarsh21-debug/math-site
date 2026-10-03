@@ -1,0 +1,18 @@
+T: Proportion
+Q: [ICSE 2023, 3 marks] What number must be added to each of 4, 6, 8 and 11 so that the four numbers are in proportion?
+S: Let the number be $x$. Then $\dfrac{4 + x}{6 + x} = \dfrac{8 + x}{11 + x}$.
+S: $(4 + x)(11 + x) = (6 + x)(8 + x)$, so $44 + 15x + x^2 = 48 + 14x + x^2$
+S: $x = 4$. Check: 8, 10, 12, 15 gives $8 \times 15 = 10 \times 12 = 120$.
+S: **Answer: 4**
+
+T: Continued proportion
+Q: [ICSE 2023, 1 mark] Find the mean proportional between 4 and 9. (a) 4  (b) 6  (c) 9  (d) 36
+S: Mean proportional $= \sqrt{4 \times 9} = \sqrt{36} = 6$
+S: **Answer: (b)**
+
+T: Properties of proportion
+Q: [ICSE 2023, 3 marks] Use componendo and dividendo to solve $\dfrac{\sqrt{2x + 2} + \sqrt{2x - 1}}{\sqrt{2x + 2} - \sqrt{2x - 1}} = 3$.
+S: Write 3 as $\dfrac{3}{1}$ and apply componendo and dividendo: $\dfrac{2\sqrt{2x + 2}}{2\sqrt{2x - 1}} = \dfrac{3 + 1}{3 - 1} = 2$
+S: Square both sides: $\dfrac{2x + 2}{2x - 1} = 4$, so $2x + 2 = 8x - 4$
+S: $6x = 6$
+S: **Answer: $x = 1$**

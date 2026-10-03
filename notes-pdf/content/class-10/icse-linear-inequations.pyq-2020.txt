@@ -1,0 +1,6 @@
+T: Combining inequations
+Q: [ICSE 2020, 3 marks] Solve $\dfrac{3x}{5} + 2 < x + 4 \leq \dfrac{x}{2} + 5$, $x \in R$, and show the solution set on the number line.
+S: Left part: $2 - 4 < x - \dfrac{3x}{5}$, so $-2 < \dfrac{2x}{5}$ and $x > -5$.
+S: Right part: $x - \dfrac{x}{2} \leq 5 - 4$, so $\dfrac{x}{2} \leq 1$ and $x \leq 2$.
+S: **Solution set: $\{x : -5 < x \leq 2,\ x \in R\}$**
+!fig w=360 h=75; Q l 20 30; Q r 345 30; L l r; Q a 60 30; Q a1 64 30; C a 4; P b 270 30 -; H a1 b; T 60 55 −5; T 210 55 0; T 270 55 2; T 60 16 excluded; T 270 16 included

@@ -1,0 +1,14 @@
+T: The general term
+Q: [ICSE 2023, 1 mark] The $n$th term of an A.P. is $2n + 5$. Find its 10th term. (a) 7  (b) 15  (c) 25  (d) 45
+S: $T_{10} = 2(10) + 5 = 25$
+S: **Answer: (c)**
+
+T: Sum of n terms
+Q: [ICSE 2023, 3 marks] The 5th term of an A.P. is 4 and its 9th term is $-12$. Find (a) the first term (b) the common difference (c) the sum of the first 16 terms.
+S: $a + 4d = 4$ and $a + 8d = -12$. Subtracting: $4d = -16$, so $d = -4$ and $a = 20$.
+S: $S_{16} = \dfrac{16}{2}\left[2(20) + 15(-4)\right] = 8 \times (-20)$
+S: **Answer: (a) 20 (b) $-4$ (c) $-160$**
+Q: [ICSE 2023, 3 marks] Which term of the A.P. $15, 30, 45, 60, \ldots$ is 300? Find the sum of all the terms up to it.
+S: $a = 15$, $d = 15$. $15 + (n - 1) \times 15 = 300$, so $15n = 300$ and $n = 20$.
+S: $S_{20} = \dfrac{20}{2}(15 + 300) = 10 \times 315$
+S: **Answer: the 20th term; sum $= 3150$**

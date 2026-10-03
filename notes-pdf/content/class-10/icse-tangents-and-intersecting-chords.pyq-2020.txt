@@ -1,0 +1,8 @@
+T: Tangent properties
+Q: [ICSE 2020, 4 marks] $TP$ and $TQ$ are tangents to a circle with centre $O$, touching it at $A$ and $C$. $B$ is a point on the circle with $\angle BCQ = 55°$ and $\angle BAP = 60°$. Find (a) $\angle OBA$ and $\angle OBC$ (b) $\angle AOC$ (c) $\angle ATC$.
+!fig w=310 h=225; P O 130 110 r; P A 123.5 184.7 b; P C 191.4 67 tr; P B 68.6 67 tl; P T 283.7 198.7 r; P P 75.4 180.5 l; P Q 168.3 34.1 t; C O 75; L T P; L T Q; L B A; L B C; L O A; L O C; D O B
+S: (a) $OA \perp TP$, so $\angle OAB = 90° - 60° = 30°$. $OA = OB$, so $\angle OBA = 30°$.
+S: $OC \perp TQ$, so $\angle OCB = 90° - 55° = 35°$. $OB = OC$, so $\angle OBC = 35°$.
+S: (b) $\angle ABC = 30° + 35° = 65°$, so $\angle AOC = 2 \times 65° = 130°$.
+S: (c) In quadrilateral $OATC$ the angles at $A$ and $C$ are $90°$, so $\angle ATC = 180° - 130° = 50°$.
+S: **Answer: (a) $30°$ and $35°$ (b) $130°$ (c) $50°$**

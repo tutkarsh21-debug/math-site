@@ -1,0 +1,14 @@
+T: Multiplication of matrices
+Q: [ICSE 2020, 3 marks] If $A = \begin{bmatrix} 3 & 0 \\ 5 & 1 \end{bmatrix}$ and $B = \begin{bmatrix} -4 & 2 \\ 1 & 0 \end{bmatrix}$, find $A^2 - 2AB + B^2$.
+S: $A^2 = \begin{bmatrix} 9 + 0 & 0 + 0 \\ 15 + 5 & 0 + 1 \end{bmatrix} = \begin{bmatrix} 9 & 0 \\ 20 & 1 \end{bmatrix}$
+S: $AB = \begin{bmatrix} -12 + 0 & 6 + 0 \\ -20 + 1 & 10 + 0 \end{bmatrix} = \begin{bmatrix} -12 & 6 \\ -19 & 10 \end{bmatrix}$, so $2AB = \begin{bmatrix} -24 & 12 \\ -38 & 20 \end{bmatrix}$
+S: $B^2 = \begin{bmatrix} 16 + 2 & -8 + 0 \\ -4 + 0 & 2 + 0 \end{bmatrix} = \begin{bmatrix} 18 & -8 \\ -4 & 2 \end{bmatrix}$
+S: $A^2 - 2AB + B^2 = \begin{bmatrix} 9 + 24 + 18 & 0 - 12 - 8 \\ 20 + 38 - 4 & 1 - 20 + 2 \end{bmatrix}$
+S: **Answer: $\begin{bmatrix} 51 & -20 \\ 54 & -17 \end{bmatrix}$**
+
+T: Solving matrix equations
+Q: [ICSE 2020, 3 marks] $A = \begin{bmatrix} x & 3 \\ y & 3 \end{bmatrix}$ and $A^2 = 3I$, where $I$ is the identity matrix of order 2. Find $x$ and $y$.
+S: $A^2 = \begin{bmatrix} x^2 + 3y & 3x + 9 \\ xy + 3y & 3y + 9 \end{bmatrix} = \begin{bmatrix} 3 & 0 \\ 0 & 3 \end{bmatrix}$
+S: $3x + 9 = 0$ gives $x = -3$, and $3y + 9 = 3$ gives $y = -2$.
+S: Check: $x^2 + 3y = 9 - 6 = 3$ and $xy + 3y = 6 - 6 = 0$.
+S: **Answer: $x = -3$, $y = -2$**

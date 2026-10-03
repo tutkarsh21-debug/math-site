@@ -1,0 +1,11 @@
+T: Melting and recasting
+Q: [ICSE 2020, 3 marks] A solid sphere of radius 6 cm is melted and recast into 64 identical spherical marbles. Find the radius of each marble.
+S: $64 \times \dfrac{4}{3}\pi r^3 = \dfrac{4}{3}\pi (6)^3$, so $r^3 = \dfrac{216}{64} = \dfrac{27}{8}$
+S: **Answer: $r = 1.5$ cm**
+
+T: Combination of solids
+Q: [ICSE 2020, 3 marks] A solid wooden cylinder is 28 cm high and 6 cm in diameter. A conical cavity of diameter 6 cm and height 10.5 cm is hollowed out of each end. Find the volume of the remaining solid. Take $\pi = \dfrac{22}{7}$.
+S: Volume of the cylinder $= \pi (3)^2 (28) = 252\pi$
+S: Volume of the two cones $= 2 \times \dfrac{1}{3}\pi (3)^2 (10.5) = 63\pi$
+S: Remaining volume $= 189\pi = 189 \times \dfrac{22}{7}$
+S: **Answer: 594 cm³**

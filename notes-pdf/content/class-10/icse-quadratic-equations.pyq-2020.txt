@@ -1,0 +1,5 @@
+T: The quadratic formula
+Q: [ICSE 2020, 3 marks] Solve $x^2 - 7x + 3 = 0$, giving the answers correct to two decimal places.
+S: $a = 1$, $b = -7$, $c = 3$. $D = 49 - 12 = 37$ and $\sqrt{37} \approx 6.083$.
+S: $x = \dfrac{7 \pm 6.083}{2}$, so $x = 6.5415$ or $x = 0.4585$
+S: **Answer: $x = 6.54$ or $x = 0.46$**

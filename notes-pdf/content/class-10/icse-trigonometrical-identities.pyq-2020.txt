@@ -1,0 +1,9 @@
+T: Proving identities
+Q: [ICSE 2020, 3 marks] Prove that $\dfrac{\sin A}{1 + \cot A} - \dfrac{\cos A}{1 + \tan A} = \sin A - \cos A$.
+S: $\dfrac{\sin A}{1 + \cot A} = \dfrac{\sin A}{\frac{\sin A + \cos A}{\sin A}} = \dfrac{\sin^2 A}{\sin A + \cos A}$ and $\dfrac{\cos A}{1 + \tan A} = \dfrac{\cos^2 A}{\sin A + \cos A}$
+S: LHS $= \dfrac{\sin^2 A - \cos^2 A}{\sin A + \cos A} = \dfrac{(\sin A - \cos A)(\sin A + \cos A)}{\sin A + \cos A}$
+S: $= \sin A - \cos A$ = RHS. **Proved.**
+Q: [ICSE 2020, 4 marks] Prove that $\left(\dfrac{1 - \tan\theta}{1 - \cot\theta}\right)^2 = \tan^2\theta$.
+S: $1 - \cot\theta = 1 - \dfrac{1}{\tan\theta} = \dfrac{\tan\theta - 1}{\tan\theta}$
+S: $\dfrac{1 - \tan\theta}{1 - \cot\theta} = \dfrac{(1 - \tan\theta)\tan\theta}{\tan\theta - 1} = -\tan\theta$
+S: Squaring: LHS $= (-\tan\theta)^2 = \tan^2\theta$ = RHS. **Proved.**

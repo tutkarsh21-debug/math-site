@@ -1,0 +1,6 @@
+T: Circumscribed circle of a triangle
+Q: [ICSE 2023, 4 marks] Using ruler and compasses, construct $\triangle ABC$ with $AB = 6$ cm, $\angle BAC = 120°$ and $AC = 5$ cm. Construct the circle passing through $A$, $B$ and $C$, and measure its radius.
+S: Draw $AB = 6$ cm. At $A$ construct an angle of $120°$ and cut off $AC = 5$ cm. Join $BC$.
+S: Draw the perpendicular bisectors of $AB$ and $AC$, meeting at $O$. With centre $O$ and radius $OA$, draw the circle.
+S: Check by calculation: $BC^2 = 6^2 + 5^2 - 2(6)(5)\cos 120° = 91$, so $BC \approx 9.54$ cm and the radius is $\dfrac{BC}{2\sin 120°} \approx 5.5$ cm.
+S: **Answer: the radius measures about 5.5 cm**

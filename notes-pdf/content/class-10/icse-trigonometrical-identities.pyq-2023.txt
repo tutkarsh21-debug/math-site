@@ -1,0 +1,10 @@
+T: The three basic identities
+Q: [ICSE 2023, 1 mark] $(1 + \sin A)(1 - \sin A)$ equals: (a) $\mathrm{cosec}^2 A$  (b) $\sin^2 A$  (c) $\sec^2 A$  (d) $\cos^2 A$
+S: $(1 + \sin A)(1 - \sin A) = 1 - \sin^2 A = \cos^2 A$
+S: **Answer: (d)**
+
+T: Proving identities
+Q: [ICSE 2023, 4 marks] Prove that $(\sin^2\theta - 1)(\tan^2\theta + 1) + 1 = 0$.
+S: $\sin^2\theta - 1 = -\cos^2\theta$ and $\tan^2\theta + 1 = \sec^2\theta$
+S: LHS $= -\cos^2\theta \times \sec^2\theta + 1 = -1 + 1$
+S: $= 0$ = RHS. **Proved.**

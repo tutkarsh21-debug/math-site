@@ -1,0 +1,13 @@
+T: Basic proportionality theorem
+Q: [ICSE 2023, 1 mark] In $\triangle PAB$, $C$ is a point on $PA$ and $D$ is a point on $PB$ with $\angle BAP = \angle DCP = 70°$. If $PC = 6$ cm and $CA = 4$ cm, find $PD : DB$. (a) $5 : 3$  (b) $3 : 5$  (c) $3 : 2$  (d) $2 : 3$
+S: The equal angles are corresponding angles, so $CD \parallel AB$.
+S: By the basic proportionality theorem, $\dfrac{PD}{DB} = \dfrac{PC}{CA} = \dfrac{6}{4} = \dfrac{3}{2}$.
+S: **Answer: (c)**
+
+T: Conditions for similarity
+Q: [ICSE 2023, 4 marks] $AC$, $DE$ and $BF$ are parallel, with $D$ on $AB$ and $E$ on $CB$. $DF$ meets $CB$ at $G$. Given $AC = 24$ cm, $EG = 8$ cm, $GB = 16$ cm and $BF = 30$ cm, (a) prove that $\triangle GED \sim \triangle GBF$ (b) find $DE$ (c) find $DB : AB$.
+!fig w=390 h=200; P A 40 170 bl; P B 300 170 br; P D 137.5 170 b; P C 82 57.6 tl; P E 163.8 99.7 t; P F 352.5 29.5 tr; P G 209.2 123.1 b; L A B; L A C; L C B; H D E; L B F; L D F
+S: (a) $\angle EGD = \angle BGF$ (vertically opposite) and $\angle GED = \angle GBF$ (alternate angles, $DE \parallel BF$). So $\triangle GED \sim \triangle GBF$ (AA).
+S: (b) $\dfrac{DE}{BF} = \dfrac{EG}{GB}$, so $DE = 30 \times \dfrac{8}{16} = 15$ cm.
+S: (c) In $\triangle ABC$, $DE \parallel AC$, so $\triangle BDE \sim \triangle BAC$ and $\dfrac{DB}{AB} = \dfrac{DE}{AC} = \dfrac{15}{24} = \dfrac{5}{8}$.
+S: **Answer: (b) $DE = 15$ cm (c) $DB : AB = 5 : 8$**

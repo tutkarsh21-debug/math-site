@@ -1,0 +1,8 @@
+T: Mean of grouped data
+Q: [ICSE 2023, 3 marks] Find the mean of the marks below by the short-cut method.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
+| Number of students | 3 | 8 | 14 | 9 | 4 | 2 |
+S: Class marks: 5, 15, 25, 35, 45, 55. Take the assumed mean $A = 25$, so $d = x - 25$ is $-20, -10, 0, 10, 20, 30$.
+S: $\sum f = 40$ and $\sum fd = -60 - 80 + 0 + 90 + 80 + 60 = 90$
+S: Mean $= A + \dfrac{\sum fd}{\sum f} = 25 + \dfrac{90}{40}$
+S: **Answer: 27.25 marks**

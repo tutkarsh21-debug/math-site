@@ -1,0 +1,9 @@
+T: Balls, numbered cards and letters
+Q: [ICSE 2023, 1 mark] A letter is chosen at random from the English alphabet. Find the probability that it is a vowel. (a) $\dfrac{4}{26}$  (b) $\dfrac{5}{26}$  (c) $\dfrac{21}{26}$  (d) $\dfrac{5}{24}$
+S: There are 26 letters and 5 vowels (a, e, i, o, u).
+S: **Answer: (b)**
+Q: [ICSE 2023, 3 marks] A bag holds 25 cards numbered 1 to 25, and one card is drawn at random. Find the probability that its number is (a) a multiple of 5 (b) a perfect square (c) a prime number.
+S: (a) Multiples of 5: 5, 10, 15, 20, 25 (5 cards). Probability $= \dfrac{5}{25} = \dfrac{1}{5}$.
+S: (b) Perfect squares: 1, 4, 9, 16, 25 (5 cards). Probability $= \dfrac{1}{5}$.
+S: (c) Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23 (9 cards). Probability $= \dfrac{9}{25}$.
+S: **Answer: (a) $\dfrac{1}{5}$ (b) $\dfrac{1}{5}$ (c) $\dfrac{9}{25}$**

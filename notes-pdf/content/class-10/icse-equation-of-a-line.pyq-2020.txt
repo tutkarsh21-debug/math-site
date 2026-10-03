@@ -1,0 +1,6 @@
+T: Lines parallel or perpendicular to a given line
+Q: [ICSE 2020, 3 marks] The lines $5x - 3y + 2 = 0$ and $6x - py + 7 = 0$ are perpendicular. Find $p$. Then find the equation of the line through $(-2, -1)$ parallel to $6x - py + 7 = 0$.
+S: Slopes: $\dfrac{5}{3}$ and $\dfrac{6}{p}$. Perpendicular: $\dfrac{5}{3} \times \dfrac{6}{p} = -1$, so $p = -10$.
+S: The second line is $6x + 10y + 7 = 0$, with slope $-\dfrac{3}{5}$.
+S: Parallel line through $(-2, -1)$: $y + 1 = -\dfrac{3}{5}(x + 2)$, so $5y + 5 = -3x - 6$.
+S: **Answer: $p = -10$; the line is $3x + 5y + 11 = 0$**

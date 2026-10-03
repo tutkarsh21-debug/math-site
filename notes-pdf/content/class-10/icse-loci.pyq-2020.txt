@@ -1,0 +1,6 @@
+T: Construction questions
+Q: [ICSE 2020, 4 marks] Using ruler and compasses, draw a circle of radius 4.5 cm and a chord $AB = 6$ cm. (a) Construct the locus of points equidistant from $A$ and $B$, and mark the point $D$ where it meets the circle. (b) Join $AD$, construct the locus of points equidistant from $AD$ and $AB$, and mark the point $C$ where it meets the circle. (c) Join $BC$ and $CD$ and measure $CD$.
+S: (a) The locus is the perpendicular bisector of $AB$. It passes through the centre and meets the circle at two points; take $D$ as the point on the far side of the centre from $AB$.
+S: (b) The locus is the bisector of $\angle DAB$. It meets the circle again at $C$, which is the mid-point of the arc $BD$.
+S: (c) Join $BC$ and $CD$. Because $AC$ bisects $\angle DAB$, the chords $BC$ and $CD$ are equal.
+S: **Answer: $CD$ measures about 5.1 cm**

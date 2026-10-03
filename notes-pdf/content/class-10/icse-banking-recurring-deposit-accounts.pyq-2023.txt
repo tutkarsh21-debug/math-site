@@ -1,0 +1,12 @@
+T: Interest and maturity value
+Q: [ICSE 2023, 1 mark] A boy deposits ₹800 every month for 6 months in a recurring deposit account and receives ₹4884 on maturity. How much interest does he earn? (a) ₹84  (b) ₹42  (c) ₹24  (d) ₹284
+S: Total deposited $= 800 \times 6 = 4800$
+S: Interest $= 4884 - 4800 = 84$
+S: **Answer: (a)**
+
+T: Finding the rate of interest
+Q: [ICSE 2023, 4 marks] A man deposits ₹1000 every month in a recurring deposit account for 2 years and receives ₹26,000 on maturity. Find (a) the total interest he earns (b) the rate of interest.
+S: (a) Total deposited $= 1000 \times 24 = 24000$, so the interest is $26000 - 24000 = 2000$.
+S: (b) $I = P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$: $2000 = 1000 \times \dfrac{24 \times 25}{24} \times \dfrac{r}{100} = 250r$
+S: $r = 8$
+S: **Answer: (a) ₹2000 (b) 8% per annum**

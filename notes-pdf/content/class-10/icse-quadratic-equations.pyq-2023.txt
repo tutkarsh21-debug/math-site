@@ -1,0 +1,10 @@
+T: Standard form and roots
+Q: [ICSE 2023, 1 mark] 3 is a root of $x^2 - px + 3 = 0$. Find $p$. (a) 4  (b) 3  (c) 5  (d) 2
+S: Put $x = 3$: $9 - 3p + 3 = 0$, so $p = 4$.
+S: **Answer: (a)**
+
+T: The quadratic formula
+Q: [ICSE 2023, 4 marks] Solve $x^2 + 4x - 8 = 0$, giving the answers correct to one decimal place.
+S: $a = 1$, $b = 4$, $c = -8$. $D = 16 + 32 = 48$ and $\sqrt{48} \approx 6.928$.
+S: $x = \dfrac{-4 \pm 6.928}{2}$, so $x = 1.464$ or $x = -5.464$
+S: **Answer: $x = 1.5$ or $x = -5.5$**

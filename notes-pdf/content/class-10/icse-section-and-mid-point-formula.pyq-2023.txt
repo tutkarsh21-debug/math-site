@@ -1,0 +1,11 @@
+T: The section formula
+Q: [ICSE 2023, 4 marks] $A(4, 0)$ lies on the $x$-axis and $B(0, 4)$ lies on the $y$-axis. $P$ is the point on $AB$ with $AP : PB = 3 : 1$. (a) Use the section formula to find $P$. (b) Find the equation of the line through $P$ perpendicular to $AB$.
+S: (a) $P = \left(\dfrac{3 \times 0 + 1 \times 4}{3 + 1}, \dfrac{3 \times 4 + 1 \times 0}{3 + 1}\right) = (1, 3)$
+S: (b) Slope of $AB = \dfrac{4 - 0}{0 - 4} = -1$, so the perpendicular line has slope 1.
+S: $y - 3 = 1(x - 1)$
+S: **Answer: (a) $P(1, 3)$ (b) $y = x + 2$**
+
+T: Centroid of a triangle
+Q: [ICSE 2023, 1 mark] The vertices of $\triangle ABC$ are $(-4, -2)$, $(6, 2)$ and $(4, 6)$. Find its centroid. (a) $(2, 2)$  (b) $(2, 3)$  (c) $(3, 3)$  (d) $(0, -1)$
+S: Centroid $= \left(\dfrac{-4 + 6 + 4}{3}, \dfrac{-2 + 2 + 6}{3}\right) = (2, 2)$
+S: **Answer: (a)**

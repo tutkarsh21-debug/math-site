@@ -1,0 +1,20 @@
+T: Mode from a histogram
+Q: [ICSE 2023, 3 marks] The daily wages of 60 workers are given below. Draw a histogram and use it to find the mode.
+| Daily wage (₹) | 200–300 | 300–400 | 400–500 | 500–600 | 600–700 | 700–800 |
+| Number of workers | 6 | 10 | 14 | 16 | 10 | 4 |
+S: Draw the rectangles. The tallest is on 500–600. Join its top corners to the nearer top corners of the rectangles on either side, and drop a perpendicular from the crossing point to the wage axis.
+S: Check with the formula: mode $= 500 + \dfrac{16 - 14}{32 - 14 - 10} \times 100 = 500 + 25$
+S: **Answer: mode $=$ ₹525**
+Q: [ICSE 2023, 1 mark] Which of these cannot be found graphically for a grouped frequency distribution? (a) median  (b) mode  (c) quartiles  (d) mean
+S: The mode is read from a histogram, and the median and quartiles from an ogive. The mean has to be calculated.
+S: **Answer: (d)**
+
+T: Reading an ogive
+Q: [ICSE 2023, 6 marks] The weights of 60 students are given below. Draw an ogive and use it to find (a) the median (b) the upper quartile (c) the number of students who weigh more than 37 kg.
+| Weight (kg) | 28–30 | 30–32 | 32–34 | 34–36 | 36–38 | 38–40 | 40–42 | 42–44 |
+| Number of students | 2 | 4 | 10 | 13 | 15 | 9 | 5 | 2 |
+S: Cumulative frequencies: 2, 6, 16, 29, 44, 53, 58, 60. Plot them against the upper limits 30, 32, ..., 44, start the curve at $(28, 0)$ and join the points smoothly.
+S: (a) $\dfrac{N}{2} = 30$: reading across from 30 gives about 36.1 kg.
+S: (b) $\dfrac{3N}{4} = 45$: reading across from 45 gives about 38.2 kg.
+S: (c) Reading up from 37 kg gives about 37 students at or below it, so about $60 - 37 = 23$ weigh more.
+S: **Answer: (a) about 36.1 kg (b) about 38.2 kg (c) about 23 students** (readings from a graph can differ slightly)

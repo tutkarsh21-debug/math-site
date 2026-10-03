@@ -1,0 +1,8 @@
+T: Problems with two triangles
+Q: [ICSE 2020, 4 marks] From the top of a cliff, the top and the bottom of a tower 20 m high are seen at angles of depression of $45°$ and $60°$. Find (a) the height of the cliff (b) the distance between the cliff and the tower.
+!fig w=260 h=250; P A 60 222 bl; P B 60 32 tl; P C 170 222 br; P D 170 142 r; P E 60 142 l; L A C; H A B; H C D; L B D; L B C; D E D; R B A C; T 196 184 20 m
+S: Let $AB = h$ be the cliff, $CD = 20$ m the tower and $AC = d$. Draw $DE$ horizontal to meet the cliff at $E$.
+S: From the bottom of the tower: $\tan 60° = \dfrac{h}{d}$, so $h = \sqrt{3}\,d$.
+S: From the top of the tower: $\tan 45° = \dfrac{h - 20}{d}$, so $h - 20 = d$.
+S: $\sqrt{3}\,d - 20 = d$, so $d = \dfrac{20}{\sqrt{3} - 1} = 10(\sqrt{3} + 1) \approx 27.32$ m and $h = d + 20 \approx 47.32$ m.
+S: **Answer: (a) about 47.32 m (b) about 27.32 m**

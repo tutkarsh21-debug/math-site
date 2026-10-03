@@ -1,0 +1,21 @@
+T: Tangent and secant from an external point
+Q: [ICSE 2023, 4 marks] $PQ$ is a tangent to a circle with centre $O$ at $T$. The chord $AB$ produced meets the tangent at $P$. $AB = 9$ cm, $BP = 16$ cm, $\angle PTB = 50°$ and $\angle OBA = 45°$. Find (a) $PT$ (b) $\angle BAT$ (c) $\angle BOT$ (d) $\angle ABT$.
+!fig w=340 h=200; P O 120 110 l; P A 70.5 159.5 bl; P B 169.5 159.5 b; P T 160.2 52.7 t; P P 312.6 159.5 br; P Q 119.3 24 l; C O 70; L A P; L Q P; L A T; L T B; D O B; D O T
+S: (a) $PA = 9 + 16 = 25$ cm. $PT^2 = PB \times PA = 16 \times 25 = 400$, so $PT = 20$ cm.
+S: (b) By the alternate segment theorem, $\angle BAT = \angle PTB = 50°$.
+S: (c) Angle at the centre is twice the angle at the circumference: $\angle BOT = 2 \times 50° = 100°$.
+S: (d) $OB = OT$, so $\angle OBT = \dfrac{180° - 100°}{2} = 40°$. $\angle ABT = \angle OBA + \angle OBT = 45° + 40° = 85°$.
+S: **Answer: (a) 20 cm (b) $50°$ (c) $100°$ (d) $85°$**
+
+T: The alternate segment theorem
+Q: [ICSE 2023, 1 mark] $RT$ is a tangent to a circle at $S$. $P$ and $Q$ are points on the circle with $\angle PST = 30°$ and $\angle SPQ = 60°$. Find $\angle PSQ$. (a) $40°$  (b) $30°$  (c) $60°$  (d) $90°$
+S: By the alternate segment theorem, $\angle PQS = \angle PST = 30°$.
+S: In $\triangle PQS$: $\angle PSQ = 180° - 60° - 30° = 90°$
+S: **Answer: (d)**
+Q: [ICSE 2023, 4 marks] $AB$ is a diameter of a circle with centre $O$, and $CE$ is the tangent at $A$. $D$ is a point on the circle on the same side of $AB$ as $C$, with $\angle ABD = 26°$. Find (a) $\angle BDA$ (b) $\angle BAD$ (c) $\angle CAD$ (d) $\angle ODB$.
+!fig w=300 h=215; P O 170 115 r; P A 132.5 50 t; P B 207.5 180 br; P D 95.7 104.6 l; P E 193.1 15 r; P C 71.9 85 l; C O 75; L C E; L A B; L A D; L D B; D O D; A A B D 26°
+S: (a) $\angle BDA = 90°$ (angle in a semicircle).
+S: (b) $\angle BAD = 180° - 90° - 26° = 64°$
+S: (c) By the alternate segment theorem, $\angle CAD = \angle ABD = 26°$.
+S: (d) $OD = OB$ (radii), so $\angle ODB = \angle OBD = 26°$.
+S: **Answer: (a) $90°$ (b) $64°$ (c) $26°$ (d) $26°$**

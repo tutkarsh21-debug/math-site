@@ -1,0 +1,17 @@
+T: Mode from a histogram
+Q: [ICSE 2020, 4 marks] Draw a histogram for the weekly wages below and estimate the mode from it.
+| Weekly wages (₹) | 3000–4000 | 4000–5000 | 5000–6000 | 6000–7000 | 7000–8000 | 8000–9000 | 9000–10000 |
+| Number of people | 4 | 9 | 18 | 6 | 7 | 2 | 4 |
+S: The tallest rectangle is on 5000–6000. Join its top corners to the nearer top corners of the rectangles on either side, and drop a perpendicular from the crossing point to the wages axis.
+S: Check with the formula: mode $= 5000 + \dfrac{18 - 9}{36 - 9 - 6} \times 1000 = 5000 + \dfrac{9000}{21} \approx 5429$
+S: **Answer: mode is about ₹5430**
+
+T: Reading an ogive
+Q: [ICSE 2020, 6 marks] The distances thrown by 40 students in a shot-put competition are given below. Draw an ogive and use it to find (a) the median (b) the upper quartile (c) the number of students who threw more than 16.5 m.
+| Distance (m) | 12–13 | 13–14 | 14–15 | 15–16 | 16–17 | 17–18 | 18–19 |
+| Number of students | 3 | 9 | 12 | 9 | 4 | 2 | 1 |
+S: Cumulative frequencies: 3, 12, 24, 33, 37, 39, 40. Plot them against the upper limits 13, 14, ..., 19, start the curve at $(12, 0)$ and join the points smoothly.
+S: (a) $\dfrac{N}{2} = 20$: reading across from 20 gives about 14.7 m.
+S: (b) $\dfrac{3N}{4} = 30$: reading across from 30 gives about 15.7 m.
+S: (c) Reading up from 16.5 m gives about 35 students, so about $40 - 35 = 5$ threw further.
+S: **Answer: (a) about 14.7 m (b) about 15.7 m (c) about 5 students**

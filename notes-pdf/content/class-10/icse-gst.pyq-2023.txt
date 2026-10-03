@@ -1,0 +1,12 @@
+T: What GST is
+Q: [ICSE 2023, 1 mark] The printed price of an article is ₹3080 and the rate of GST is 10%. Find the GST charged. (a) ₹154  (b) ₹308  (c) ₹30.80  (d) ₹15.40
+S: GST $= 10\%$ of 3080 $= 308$
+S: **Answer: (b)**
+
+T: A bill with several items
+Q: [ICSE 2023, 3 marks] A shopper buys hair oil priced at ₹1200 with a discount of ₹100 (GST 18%) and cashew nuts priced at ₹600 with no discount (GST 12%). Find (a) the total GST paid (b) the total bill amount including GST.
+S: Hair oil: taxable value $= 1200 - 100 = 1100$, and GST $= 18\%$ of 1100 $= 198$.
+S: Cashew nuts: GST $= 12\%$ of 600 $= 72$.
+S: (a) Total GST $= 198 + 72 = 270$
+S: (b) Bill $= 1100 + 600 + 270$
+S: **Answer: (a) ₹270 (b) ₹1970**

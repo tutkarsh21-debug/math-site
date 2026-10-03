@@ -1,0 +1,6 @@
+T: Sum of n terms
+Q: [ICSE 2020, 3 marks] The 6th term of an A.P. is four times its first term, and the sum of its first six terms is 75. Find the first term and the common difference.
+S: $a + 5d = 4a$, so $5d = 3a$.
+S: $S_6 = \dfrac{6}{2}(2a + 5d) = 3(2a + 3a) = 15a = 75$, so $a = 5$.
+S: $5d = 15$, so $d = 3$.
+S: **Answer: first term 5, common difference 3**

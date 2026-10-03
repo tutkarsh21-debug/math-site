@@ -1,0 +1,11 @@
+T: Solution set and the replacement set
+Q: [ICSE 2023, 1 mark] Find the solution set of $2x + 4 \leq 14$, where $x$ is a whole number. (a) $\{1, 2, 3, 4, 5\}$  (b) $\{0, 1, 2, 3, 4, 5\}$  (c) $\{1, 2, 3, 4\}$  (d) $\{0, 1, 2, 3, 4\}$
+S: $2x \leq 10$, so $x \leq 5$. Whole numbers start from 0.
+S: **Answer: (b)**
+
+T: Combining inequations
+Q: [ICSE 2023, 3 marks] Solve $-5(x - 9) \geq 17 - 9x > x + 2$, $x \in R$. Write the solution set and show it on the number line.
+S: Left part: $-5x + 45 \geq 17 - 9x$, so $4x \geq -28$ and $x \geq -7$.
+S: Right part: $17 - 9x > x + 2$, so $15 > 10x$ and $x < 1.5$.
+S: **Solution set: $\{x : -7 \leq x < 1.5,\ x \in R\}$**
+!fig w=360 h=75; Q l 20 30; Q r 345 30; L l r; P a 60 30 -; Q b 264 30; Q b1 260 30; C b 4; H a b1; T 60 55 −7; T 132 55 −4; T 228 55 0; T 264 55 1.5; T 60 16 included; T 264 16 excluded

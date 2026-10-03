@@ -1,0 +1,13 @@
+T: The remainder theorem
+Q: [ICSE 2020, 3 marks] What must be added to $2x^3 - 3x^2 - 8x$ so that it leaves a remainder of 10 when divided by $2x + 1$?
+S: Let $k$ be added. The remainder on division by $2x + 1$ is the value at $x = -\dfrac{1}{2}$.
+S: $2\left(-\dfrac{1}{8}\right) - 3\left(\dfrac{1}{4}\right) - 8\left(-\dfrac{1}{2}\right) + k = -\dfrac{1}{4} - \dfrac{3}{4} + 4 + k = 3 + k$
+S: $3 + k = 10$
+S: **Answer: 7**
+
+T: Factorising a cubic polynomial
+Q: [ICSE 2020, 3 marks] Use the factor theorem to factorise $6x^3 + 17x^2 + 4x - 12$ completely.
+S: Try $x = -2$: $f(-2) = -48 + 68 - 8 - 12 = 0$, so $(x + 2)$ is a factor.
+S: Dividing by $(x + 2)$ gives the quotient $6x^2 + 5x - 6$.
+S: $6x^2 + 5x - 6 = 6x^2 + 9x - 4x - 6 = (2x + 3)(3x - 2)$
+S: **Answer: $(x + 2)(2x + 3)(3x - 2)$**

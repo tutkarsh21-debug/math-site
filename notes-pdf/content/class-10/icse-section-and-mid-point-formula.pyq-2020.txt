@@ -1,0 +1,5 @@
+T: Finding the ratio
+Q: [ICSE 2020, 4 marks] In what ratio does the $y$-axis divide the segment joining $P(5, 3)$ and $Q(-5, 3)$? Find the point of intersection.
+S: Let the ratio be $k : 1$. On the $y$-axis the $x$-coordinate is 0: $\dfrac{-5k + 5}{k + 1} = 0$, so $k = 1$.
+S: The point is the mid-point: $\left(0, \dfrac{3 + 3}{2}\right) = (0, 3)$.
+S: **Answer: ratio $1 : 1$; the point is $(0, 3)$**

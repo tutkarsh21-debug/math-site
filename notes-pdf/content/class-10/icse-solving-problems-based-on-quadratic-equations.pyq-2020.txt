@@ -1,0 +1,5 @@
+T: Problems on numbers
+Q: [ICSE 2020, 3 marks] Two natural numbers differ by 7 and their product is 450. Find the numbers.
+S: Let the smaller number be $x$. Then $x(x + 7) = 450$, so $x^2 + 7x - 450 = 0$.
+S: $(x + 25)(x - 18) = 0$, so $x = 18$ (a natural number cannot be negative).
+S: **Answer: 18 and 25**
