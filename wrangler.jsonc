@@ -4,5 +4,7 @@
   "compatibility_date": "2025-03-25",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  // Student accounts and saved test scores. Tables are in schema.sql.
+  "d1_databases": [{ "binding": "DB", "database_name": "mathsetu", "database_id": "7b5683a6-9f7a-4ce6-aae4-5f09a58d990c" }],
   "observability": { "enabled": true }
 }

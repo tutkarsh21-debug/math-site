@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
+import TESTS from '@/lib/tests.json';
 
 export const generateStaticParams = () =>
   Object.entries(CLASSES).flatMap(([cls, c]) => c.chapters.map(ch => ({ cls, slug: ch.slug })));
@@ -24,6 +25,8 @@ const TABS = [
   { kind: 'dpp', label: 'DPP Sheet', about: 'Daily practice problems with an answer key.', files: [['dpp', 'DPP Sheet']] },
   { kind: 'pyq', label: 'PYQ', about: 'Previous year board questions, topic-wise, with solutions in a separate PDF.', only: ['class-10'],
     files: [['pyq', 'Questions'], ['pyq-solutions', 'Solutions']] },
+  // optional: the tab is shown only for chapters that have this PDF (CBSE chapters, which follow the NCERT textbook).
+  { kind: 'ncert', label: 'NCERT Solutions', about: 'Step-by-step solutions to the textbook exercises.', optional: true, files: [['ncert', 'NCERT Solutions']] },
 ];
 
 export async function generateMetadata({ params }) {
@@ -39,7 +42,8 @@ export default async function Chapter({ params }) {
   const { c, i, ch, board, list } = find(p); if (!ch) notFound();
   const prev = list[i - 1], next = list[i + 1];
   const ready = PDFS[`${p.cls}/${p.slug}`] || [];
-  const tabs = TABS.filter(t => !t.only || t.only.includes(p.cls));
+  const tabs = TABS.filter(t => (!t.only || t.only.includes(p.cls)) && (!t.optional || ready.includes(t.files[0][0])));
+  const test = TESTS[`${p.cls}/${p.slug}`];
   return (<>
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
@@ -77,6 +81,10 @@ export default async function Chapter({ params }) {
             </div>);
           })}
         </div>
+        {test && <div className="banner" style={{marginTop:'2rem'}}>
+          <div><h2>Chapter test</h2><p>{test.qs.length} questions · {test.minutes} minutes · instant score with explanations</p></div>
+          <Link className="btn btn-sun" href={`/tests/${p.cls}/${p.slug}`}>Start test</Link>
+        </div>}
         <p style={{marginTop:'2rem'}}><a className="btn" href={SITE.telegram}>Join Telegram for daily problems</a></p>
         <p className="prevnext">
           {prev ? <Link href={`/${p.cls}/${prev.slug}`}>← {prev.title}</Link> : <span />}

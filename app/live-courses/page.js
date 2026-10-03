@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BOARDS, CLASSES, LIVE, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, LIVE } from '@/lib/data';
 
 export const metadata = { title: 'Live Maths Courses for Class 8, 9, 10 | CBSE & ICSE',
   description: 'Live online Maths batches for Class 8, 9 and 10 (CBSE and ICSE), taught in Hinglish with doubt solving, notes and DPP.' };
@@ -40,7 +40,7 @@ export default function LiveCourses() {
             </dl>
             {b.enrol
               ? <a className="btn" href={b.enrol}>Enrol now</a>
-              : <a className="btn btn-outline" href={SITE.telegram}>Get batch updates on Telegram</a>}
+              : <Link className="btn btn-outline" href="/enquiry">Enquire about this batch</Link>}
           </div>);
         })}
       </div>

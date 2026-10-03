@@ -1,0 +1,69 @@
+Q: The HCF of 96 and 404 is
+- 2
+* 4
+- 8
+- 12
+W: $96 = 2^5 \times 3$ and $404 = 2^2 \times 101$, so the HCF is $2^2 = 4$.
+
+Q: If the HCF of two numbers is 12 and their product is 4320, their LCM is
+- 240
+- 432
+* 360
+- 180
+W: HCF $\times$ LCM $=$ product of the numbers, so LCM $= 4320 \div 12 = 360$.
+
+Q: The prime factorisation of 1260 is
+- $2 \times 3^2 \times 5 \times 7$
+- $2^2 \times 3 \times 5 \times 7$
+- $2^2 \times 3^2 \times 5^2 \times 7$
+* $2^2 \times 3^2 \times 5 \times 7$
+W: $1260 = 4 \times 9 \times 5 \times 7$.
+
+Q: Which of these is an irrational number?
+- $\sqrt{49}$
+* $2 + \sqrt{3}$
+- $0.\overline{27}$
+- $\dfrac{22}{7}$
+W: A rational number plus an irrational number is irrational. The other three are rational.
+
+Q: The number $7 \times 11 \times 13 + 13$ is
+- a prime number
+* a composite number
+- neither prime nor composite
+- an irrational number
+W: It equals $13(77 + 1) = 13 \times 78$, so it has factors other than 1 and itself.
+
+Q: For which natural number $n$ can $6^n$ end with the digit 0?
+- $n = 2$
+- every even $n$
+- every $n$
+* no value of $n$
+W: To end in 0 a number needs the prime factor 5, but $6^n = 2^n \times 3^n$ has only 2 and 3.
+
+Q: The LCM of 12, 15 and 21 is
+* 420
+- 210
+- 630
+- 3
+W: $12 = 2^2 \times 3$, $15 = 3 \times 5$, $21 = 3 \times 7$; LCM $= 2^2 \times 3 \times 5 \times 7 = 420$.
+
+Q: Two bells ring every 18 minutes and 24 minutes. If they ring together at 9:00 am, they next ring together at
+- 9:42 am
+- 10:00 am
+* 10:12 am
+- 10:48 am
+W: The LCM of 18 and 24 is 72 minutes, that is 1 hour 12 minutes.
+
+Q: If $p$ is a prime number and $p$ divides $a^2$, where $a$ is a positive integer, then
+* $p$ divides $a$
+- $p^2$ divides $a$
+- $a$ divides $p$
+- $p$ does not divide $a$
+W: This theorem is the key step in proving that $\sqrt{2}$, $\sqrt{3}$ and $\sqrt{5}$ are irrational.
+
+Q: The largest number that divides 70 and 125, leaving remainders 5 and 8, is
+- 9
+- 5
+- 65
+* 13
+W: It must divide $70 - 5 = 65$ and $125 - 8 = 117$. The HCF of 65 and 117 is 13.

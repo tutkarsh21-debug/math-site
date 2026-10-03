@@ -10,6 +10,7 @@ const MATERIAL = [
   { icon: 'ƒ', title: 'Formula Bank', text: 'Every formula and result of the chapter on one sheet for quick revision.' },
   { icon: '✓', title: 'DPP Sheet', text: 'Daily practice problems for the chapter, with an answer key.' },
   { icon: '★', title: 'PYQ (Class 10)', text: 'Previous year board questions arranged topic-wise, with solutions in a separate PDF.' },
+  { icon: '§', title: 'NCERT Solutions (CBSE)', text: 'Step-by-step solutions to the textbook exercises, added chapter by chapter.' },
 ];
 
 const STEPS = [
@@ -50,20 +51,28 @@ export default function SelfStudy() {
     </div></section>
 
     <section className="section soft"><div className="wrap">
+      <div className="section-head"><h2>Papers and tests</h2></div>
+      <div className="grid">
+        <Link href="/sample-papers" className="tile"><h3>Sample Papers</h3><span>Full-length MathSetu papers with solutions</span><span className="go">Open →</span></Link>
+        <Link href="/tests" className="tile"><h3>Test Series</h3><span>Timed online chapter tests with instant score</span><span className="go">Open →</span></Link>
+      </div>
+    </div></section>
+
+    <section className="section"><div className="wrap">
       <div className="section-head"><h2>What each chapter has</h2></div>
       <div className="grid">
         {MATERIAL.map(m => <div key={m.title} className="card"><div className="icon" aria-hidden="true">{m.icon}</div><h3>{m.title}</h3><p>{m.text}</p></div>)}
       </div>
     </div></section>
 
-    <section className="section"><div className="wrap">
+    <section className="section soft"><div className="wrap">
       <div className="section-head"><h2>How to use it</h2></div>
       <div className="grid steps">
         {STEPS.map(s => <div key={s.title} className="step"><h3>{s.title}</h3><p>{s.text}</p></div>)}
       </div>
     </div></section>
 
-    <section className="section soft"><div className="wrap">
+    <section className="section"><div className="wrap">
       <div className="banner">
         <div><h2>Preparing for SOF IMO?</h2><p>See what to study beyond the school syllabus.</p></div>
         <Link className="btn btn-sun" href="/olympiad">Olympiad preparation</Link>

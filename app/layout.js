@@ -1,7 +1,8 @@
 import './globals.css';
 import Link from 'next/link';
 import { Poppins } from 'next/font/google';
-import { CLASSES, MODES, SITE } from '@/lib/data';
+import AccountButton from '@/components/AccountButton';
+import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
 
 const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600', '700'], variable: '--font', display: 'swap' });
 
@@ -22,10 +23,9 @@ export default function RootLayout({ children }) {
           <Brand />
           <nav className="nav">
             {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
-            <Link href="/olympiad">Olympiad</Link>
-            <Link href="/about">About</Link>
+            {MORE.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
           </nav>
-          <a className="btn btn-sm" href={SITE.telegram}>Join Telegram</a>
+          <AccountButton />
         </div></header>
         <main>{children}</main>
         <footer className="site-footer">
@@ -40,11 +40,17 @@ export default function RootLayout({ children }) {
             </div>
             <div><h3>Learn</h3>
               {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+              <Link href="/tests">Test Series</Link>
+              <Link href="/sample-papers">Sample Papers</Link>
+              <Link href="/blog">Blog and Exam News</Link>
             </div>
             <div><h3>Connect</h3>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
+              <Link href="/enquiry">Enquiry</Link>
+              <Link href="/login">Login / Register</Link>
               <Link href="/about">About {SITE.name}</Link>
+              <Link href="/privacy">Privacy Policy</Link>
             </div>
           </div>
           <div className="wrap copy">© {new Date().getFullYear()} {SITE.name}. An independent study resource, not affiliated with or endorsed by CBSE, CISCE, NCERT or any publisher. Board and book names are used only to identify the syllabus.</div>
