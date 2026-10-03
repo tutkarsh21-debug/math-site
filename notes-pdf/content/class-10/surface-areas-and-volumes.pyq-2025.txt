@@ -1,0 +1,13 @@
+T: Surface area
+Q: [CBSE 2025, 1 mark] Assertion (A): Two identical solid hemispheres joined along their flat faces form a sphere. Reason (R): The total surface area of a sphere of radius $r$ is $3\pi r^2$. Choose: (a) both true and R explains A  (b) both true but R does not explain A  (c) A true, R false  (d) A false, R true
+S: A is true: the two flat circular faces fit together exactly and the curved surfaces make a complete sphere.
+S: R is false: the surface area of a sphere is $4\pi r^2$. ($3\pi r^2$ is the total surface area of a solid hemisphere.)
+S: **Answer: (c)**
+
+T: Volume
+Q: [CBSE 2025, 3 marks] A room has the shape of a cylinder with a hemispherical dome on top. The radius of the dome is half the height of the cylindrical part, and the room holds $\dfrac{1408}{21}$ m³ of air. Find the height of the cylindrical part. Take $\pi = \dfrac{22}{7}$.
+S: Let the radius be $r$ m. Then the height of the cylinder is $2r$ m.
+S: Volume $= \pi r^2(2r) + \dfrac{2}{3}\pi r^3 = \dfrac{8}{3}\pi r^3$
+S: $\dfrac{8}{3} \times \dfrac{22}{7} \times r^3 = \dfrac{1408}{21}$, so $\dfrac{176}{21}r^3 = \dfrac{1408}{21}$
+S: $r^3 = 8$, so $r = 2$ and the height of the cylinder is $2r = 4$.
+S: **Answer: 4 m**

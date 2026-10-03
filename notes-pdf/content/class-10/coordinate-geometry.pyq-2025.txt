@@ -1,0 +1,18 @@
+T: The distance formula
+Q: [CBSE 2025, 2 marks] A circle has its centre at $(2a, a - 7)$ and passes through the point $(11, -9)$. Its diameter is $10\sqrt{2}$ units. Find the values of $a$.
+S: Radius $= \dfrac{10\sqrt{2}}{2} = 5\sqrt{2}$ units, so the distance from the centre to $(11, -9)$ is $5\sqrt{2}$.
+S: $(2a - 11)^2 + (a - 7 + 9)^2 = (5\sqrt{2})^2$
+S: $4a^2 - 44a + 121 + a^2 + 4a + 4 = 50$, so $5a^2 - 40a + 75 = 0$
+S: $a^2 - 8a + 15 = 0$, so $(a - 3)(a - 5) = 0$
+S: **Answer: $a = 3$ or $a = 5$**
+
+T: The section formula
+Q: [CBSE 2025, 1 mark] Where does the mid-point of the segment joining $P(-4, 5)$ and $Q(4, 6)$ lie?
+S: Mid-point $= \left(\dfrac{-4 + 4}{2}, \dfrac{5 + 6}{2}\right) = \left(0, \dfrac{11}{2}\right)$
+S: Its $x$-coordinate is 0.
+S: **Answer: on the $y$-axis**
+Q: [CBSE 2025, 3 marks] In what ratio does the $y$-axis divide the segment joining $(5, -6)$ and $(-1, -4)$? Find the point where they meet.
+S: Let the ratio be $k : 1$. The point of division is $\left(\dfrac{-k + 5}{k + 1}, \dfrac{-4k - 6}{k + 1}\right)$.
+S: On the $y$-axis the $x$-coordinate is 0: $-k + 5 = 0$, so $k = 5$.
+S: $y = \dfrac{-4(5) - 6}{5 + 1} = -\dfrac{26}{6} = -\dfrac{13}{3}$
+S: **Answer: ratio $5 : 1$; the point is $\left(0, -\dfrac{13}{3}\right)$**

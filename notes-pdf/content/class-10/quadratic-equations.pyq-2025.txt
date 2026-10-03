@@ -1,0 +1,16 @@
+T: Word problems
+Q: [CBSE 2025, 5 marks] A right-angled triangle has a perimeter of 60 cm and a hypotenuse of 25 cm. Find the lengths of the other two sides.
+S: Let one of the other sides be $x$ cm. The two sides add up to $60 - 25 = 35$ cm, so the other side is $(35 - x)$ cm.
+S: By the Pythagoras theorem, $x^2 + (35 - x)^2 = 25^2$.
+S: $x^2 + 1225 - 70x + x^2 = 625$, so $2x^2 - 70x + 600 = 0$, that is $x^2 - 35x + 300 = 0$.
+S: $(x - 15)(x - 20) = 0$, so $x = 15$ or $x = 20$.
+S: If $x = 15$ the other side is 20, and if $x = 20$ the other side is 15.
+S: **Answer: 15 cm and 20 cm**
+Q: [CBSE 2025, 5 marks] A train covers 480 km at a uniform speed. Had it travelled 8 km/h slower, the journey would have taken 3 hours longer. Find the speed of the train.
+S: Let the speed be $x$ km/h. The usual time is $\dfrac{480}{x}$ hours and the slower time is $\dfrac{480}{x - 8}$ hours.
+S: $\dfrac{480}{x - 8} - \dfrac{480}{x} = 3$
+S: $480x - 480(x - 8) = 3x(x - 8)$, so $3840 = 3x^2 - 24x$
+S: $x^2 - 8x - 1280 = 0$, so $(x - 40)(x + 32) = 0$
+S: $x = 40$ or $x = -32$. A speed cannot be negative.
+S: Check: $480 \div 40 = 12$ hours and $480 \div 32 = 15$ hours, which is 3 hours more.
+S: **Answer: 40 km/h**

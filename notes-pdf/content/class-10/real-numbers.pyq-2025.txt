@@ -1,0 +1,26 @@
+T: HCF and LCM by prime factorisation
+Q: [CBSE 2025, 1 mark] Let $m$ be the HCF and $n$ the LCM of 98 and 28. Find the value of $n - 7m$.
+S: $98 = 2 \times 7^2$ and $28 = 2^2 \times 7$
+S: HCF $m = 2 \times 7 = 14$ and LCM $n = 2^2 \times 7^2 = 196$
+S: $n - 7m = 196 - 98$
+S: **Answer: 98**
+
+T: The Fundamental Theorem of Arithmetic
+Q: [CBSE 2025, 1 mark] For which natural numbers $n$ is $(-1)^n + (-1)^8 = 0$?
+S: $(-1)^8 = 1$, because the power is even.
+S: So we need $(-1)^n = -1$, which happens only when the power is odd.
+S: **Answer: $n$ is any odd natural number**
+
+T: Irrational numbers and their proofs
+Q: [CBSE 2025, 1 mark] Which of these is a rational number lying between $\sqrt{3}$ and $\sqrt{5}$? (a) $1.4142387954012\ldots$  (b) $2.32\overline{6}$  (c) $\pi$  (d) $1.857142$
+S: $\sqrt{3} \approx 1.732$ and $\sqrt{5} \approx 2.236$, so the number must lie between these two values.
+S: (a) is less than 1.732, and it neither ends nor repeats, so it is irrational. (b) is rational but greater than 2.236. (c) $\pi \approx 3.14$ is irrational and too large.
+S: (d) $1.857142$ is a terminating decimal, so it is rational, and $1.732 < 1.857142 < 2.236$.
+S: **Answer: (d)**
+Q: [CBSE 2025, 3 marks] Show that $\dfrac{1}{\sqrt{5}}$ is an irrational number.
+S: Suppose $\dfrac{1}{\sqrt{5}}$ is rational. Then $\dfrac{1}{\sqrt{5}} = \dfrac{a}{b}$, where $a$ and $b$ are positive integers with no common factor other than 1.
+S: Cross-multiplying, $b = \sqrt{5}\,a$. Squaring both sides, $b^2 = 5a^2$.
+S: So 5 divides $b^2$, and therefore 5 divides $b$. Write $b = 5c$.
+S: Then $25c^2 = 5a^2$, so $a^2 = 5c^2$. So 5 divides $a^2$, and therefore 5 divides $a$.
+S: Now 5 is a common factor of $a$ and $b$. This contradicts the fact that $a$ and $b$ have no common factor other than 1.
+S: **So our assumption is wrong, and $\dfrac{1}{\sqrt{5}}$ is irrational.**

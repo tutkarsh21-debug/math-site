@@ -1,0 +1,16 @@
+T: Mean of grouped data
+Q: [CBSE 2025, 5 marks] The mean of the data below is 18. Find the missing frequency $f$, and then find the mode.
+| Class | 11–13 | 13–15 | 15–17 | 17–19 | 19–21 | 21–23 | 23–25 |
+| Frequency | 7 | 6 | 9 | 13 | $f$ | 5 | 4 |
+S: Use the class marks 12, 14, 16, 18, 20, 22, 24.
+S: $\sum f_i = 44 + f$
+S: $\sum f_ix_i = 84 + 84 + 144 + 234 + 20f + 110 + 96 = 752 + 20f$
+S: $\dfrac{752 + 20f}{44 + f} = 18$, so $752 + 20f = 792 + 18f$ and $f = 20$.
+S: The highest frequency is now 20, so the modal class is 19–21 with $l = 19$, $h = 2$, $f_1 = 20$, $f_0 = 13$, $f_2 = 5$.
+S: Mode $= 19 + \dfrac{20 - 13}{40 - 13 - 5} \times 2 = 19 + \dfrac{14}{22}$
+S: **Answer: $f = 20$; mode $\approx 19.64$**
+
+T: Empirical relationship
+Q: [CBSE 2025, 1 mark] For a set of data, the mode is $15x$ and the mean is $18x$. Find the median.
+S: $3 \times \text{Median} = \text{Mode} + 2 \times \text{Mean} = 15x + 36x = 51x$
+S: **Answer: Median $= 17x$**

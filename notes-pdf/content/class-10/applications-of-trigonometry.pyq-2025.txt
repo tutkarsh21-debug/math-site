@@ -1,0 +1,15 @@
+T: One right-angled triangle
+Q: [CBSE 2025, 1 mark] A kite is flying 150 m above the ground. Its string is straight and makes an angle of $30°$ with the ground. How long is the string?
+S: The height is the side opposite the $30°$ angle and the string is the hypotenuse.
+S: $\sin 30° = \dfrac{150}{\text{string}}$, so string $= \dfrac{150}{\frac{1}{2}}$
+S: **Answer: 300 m**
+
+T: Two right-angled triangles
+Q: [CBSE 2025, 4 marks] From a point $A$ on the ground, the top $C$ of a lighthouse $CE$ is seen at an angle of elevation of $60°$. From a deck at $B$, 40 m directly above $A$, the angle of elevation of $C$ is $45°$. $D$ is the point on $CE$ level with $B$, and $CD = h$ metres. (i) Write $BD$ in terms of $h$. (ii) Write $BC$ in terms of $h$. (iii) Find the height $CE$, taking $\sqrt{3} = 1.73$, OR find $AE$ if $AC = 100$ m.
+!fig w=290 h=245; P A 70 215 bl; P E 179 215 br; P C 179 26 tr; P B 70 135 l; P D 179 135 r; L A E; H E C; L A B; D B D; L B C; L A C; R A E C; A D B C 45°; A E A C 60°; T 40 180 40 m; T 190 85 h
+S: (i) In $\triangle BDC$, $\tan 45° = \dfrac{CD}{BD}$, so $BD = CD$. **$BD = h$ metres.**
+S: (ii) $\sin 45° = \dfrac{CD}{BC}$, so $BC = \dfrac{h}{\frac{1}{\sqrt{2}}}$. **$BC = \sqrt{2}\,h$ metres.**
+S: (iii) $AE = BD = h$ and $CE = h + 40$. In $\triangle AEC$, $\tan 60° = \dfrac{h + 40}{h}$.
+S: $\sqrt{3}\,h = h + 40$, so $h = \dfrac{40}{\sqrt{3} - 1} = \dfrac{40(\sqrt{3} + 1)}{2} = 20(\sqrt{3} + 1) = 20 \times 2.73 = 54.6$
+S: $CE = 54.6 + 40$. **The lighthouse is 94.6 m high.**
+S: OR: in $\triangle AEC$, $\cos 60° = \dfrac{AE}{AC}$, so $AE = 100 \times \dfrac{1}{2}$. **$AE = 50$ m.**

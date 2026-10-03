@@ -1,0 +1,31 @@
+T: Theorem 1: tangent and radius
+Q: [CBSE 2025, 1 mark] Tangents are drawn to a circle at the two ends of a diameter. How are the two tangents related?
+S: Each tangent is perpendicular to the radius at its point of contact, so both tangents are perpendicular to the same diameter.
+S: Two lines perpendicular to the same line are parallel.
+S: **Answer: the tangents are parallel**
+Q: [CBSE 2025, 1 mark] $AOB$ is a diameter of a circle with centre $O$, and $PA$ is the tangent at $A$. If $\angle POB = 115°$, find $\angle APO$.
+!fig w=230 h=220; P O 105 150 b; P A 60 150 l; P B 150 150 r; P P 60 53.5 tl; Q X 60 208; C O 45; L A B; L P X; L P O; R P A O; A P O B 115°
+S: $\angle AOP = 180° - 115° = 65°$ (angles on the straight line $AOB$)
+S: $\angle OAP = 90°$ (the tangent is perpendicular to the radius at the point of contact)
+S: In $\triangle OAP$: $\angle APO = 180° - 90° - 65°$
+S: **Answer: $25°$**
+Q: [CBSE 2025, 2 marks] $O$ is the centre of a circle and $BCD$ is the tangent to it at $C$. The line from $B$ through $O$ meets the circle at $P$ and $A$. Prove that $\angle BAC + \angle ACD = 90°$.
+!fig w=340 h=215; P O 170 105 t; P C 170 175 b; P B 30 175 bl; P D 310 175 br; P P 107.4 136.3 tl; P A 232.6 73.7 tr; C O 70; L B D; L B A; L A C; D O C; R O C D
+S: $OA = OC$ (radii), so $\angle OAC = \angle OCA$ ... (1)
+S: $OC \perp BD$, because the radius is perpendicular to the tangent at the point of contact. So $\angle OCA + \angle ACD = 90°$ ... (2)
+S: $A$, $O$ and $B$ lie on one line, so $\angle BAC = \angle OAC$.
+S: From (1) and (2): **$\angle BAC + \angle ACD = 90°$. Proved.**
+
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2025, 2 marks] A point $P$ is 26 m from the centre of a circle. Each tangent from $P$ to the circle is 10 m long. Find the radius of the circle.
+S: Let $O$ be the centre and $T$ a point of contact. Then $\angle OTP = 90°$.
+S: $OT^2 = OP^2 - PT^2 = 26^2 - 10^2 = 676 - 100 = 576$
+S: **Answer: radius $= 24$ m**
+Q: [CBSE 2025, 2 marks] A quadrilateral is drawn around a circle so that all four sides touch it. Prove that each pair of opposite sides subtends supplementary angles at the centre.
+!fig w=310 h=230; P O 160 115 tl; P A 90 185 bl; P B 260 185 br; P C 209 45 tr; P D 90 45 tl; P P 160 185 b; P Q 225.8 91.1 r; P R 160 45 t; P S 90 115 l; C O 70; L A B; L B C; L C D; L D A; D O A; D O B; D O C; D O D; D O P; D O Q; D O R; D O S
+S: Let $ABCD$ touch the circle, centre $O$, at $P$, $Q$, $R$ and $S$ on $AB$, $BC$, $CD$ and $DA$.
+S: In $\triangle OAP$ and $\triangle OAS$: $OP = OS$ (radii), $AP = AS$ (tangents from $A$) and $OA$ is common. So the triangles are congruent (SSS) and $\angle AOP = \angle AOS = a$.
+S: In the same way, $\angle BOP = \angle BOQ = b$, $\angle COQ = \angle COR = c$ and $\angle DOR = \angle DOS = d$.
+S: The angles around $O$ add up to $360°$: $2a + 2b + 2c + 2d = 360°$, so $a + b + c + d = 180°$.
+S: $\angle AOB = a + b$ and $\angle COD = c + d$, so $\angle AOB + \angle COD = 180°$. Then $\angle BOC + \angle DOA = 360° - 180° = 180°$ as well.
+S: **So opposite sides subtend supplementary angles at the centre. Proved.**

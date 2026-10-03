@@ -1,0 +1,14 @@
+T: Sum of the first n terms
+Q: [CBSE 2025, 1 mark] The sum of the first $m$ terms of an AP is $2m^2 + 3m$. Find its second term.
+S: $S_1 = 2 + 3 = 5$, so the first term is 5.
+S: $S_2 = 2(4) + 3(2) = 14$
+S: Second term $= S_2 - S_1 = 14 - 5$
+S: **Answer: 9**
+
+T: Case study
+Q: [CBSE 2025, 4 marks] In a fund-raising run, the first round is 300 m long and every round after it is 50 m longer than the one before, so the rounds are 300 m, 350 m, 400 m and so on. There are 10 rounds in all. (i) Write the 4th, 5th and 6th terms of this AP. (ii) How long is the 8th round? (iii) Find the total distance covered in all 10 rounds, OR the total distance covered by a runner who stops after 6 rounds.
+S: The lengths form an AP with $a = 300$ and $d = 50$.
+S: (i) $a_4 = 300 + 3(50) = 450$, $a_5 = 500$, $a_6 = 550$. **The terms are 450, 500 and 550.**
+S: (ii) $a_8 = 300 + 7(50) = 650$. **The 8th round is 650 m.**
+S: (iii) $S_{10} = \dfrac{10}{2}\left[2(300) + 9(50)\right] = 5 \times 1050 = 5250$. **Total for 10 rounds: 5250 m.**
+S: OR: $S_6 = \dfrac{6}{2}\left[2(300) + 5(50)\right] = 3 \times 850 = 2550$. **Total for 6 rounds: 2550 m.**

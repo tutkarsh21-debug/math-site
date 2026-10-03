@@ -1,0 +1,15 @@
+T: Sector and segment of a circle
+Q: [CBSE 2025, 1 mark] A sector with a central angle of $72°$ has an area of $40\pi$ square units. Find the radius of the circle.
+S: $\dfrac{72}{360} \times \pi r^2 = 40\pi$, so $\dfrac{r^2}{5} = 40$
+S: $r^2 = 200$
+S: **Answer: $r = 10\sqrt{2}$ units**
+Q: [CBSE 2025, 1 mark] A wire 20 cm long is bent into an arc of a circle of radius $\dfrac{60}{\pi}$ cm. What angle does the arc subtend at the centre?
+S: Arc length $= \dfrac{\theta}{360} \times 2\pi r$, so $20 = \dfrac{\theta}{360} \times 2\pi \times \dfrac{60}{\pi} = \dfrac{\theta}{360} \times 120$
+S: $\theta = \dfrac{20 \times 360}{120}$
+S: **Answer: $60°$**
+Q: [CBSE 2025, 4 marks] A circular ornament of diameter 35 mm is made from silver wire. Wire also forms 5 diameters, which cut the circle into 10 equal sectors. $A$ and $B$ are the ends of one sector on the circle and $C$ lies on the arc between them. Take $\pi = \dfrac{22}{7}$. (i) Find the central angle of each sector. (ii) Find the length of the arc $ACB$. (iii) Find the area of each sector, OR the total length of wire used.
+!fig w=240 h=225; P O 120 112 -; P A 188.8 62 tr; P C 170 43.2 tr; P B 146.3 31.2 tr; Q a 205 112; Q b 35 112; Q c 51.2 162; Q d 93.7 192.8; Q e 93.7 31.2; Q f 146.3 192.8; Q g 51.2 62; Q h 188.8 162; C O 85; SEC O 85 36 72; L a b; L A c; L B d; L e f; L g h
+S: (i) Ten equal sectors share $360°$. **Each central angle is $36°$.**
+S: (ii) Radius $r = \dfrac{35}{2}$ mm, so the circumference is $2 \times \dfrac{22}{7} \times \dfrac{35}{2} = 110$ mm. Arc $ACB = \dfrac{36}{360} \times 110$. **Arc $ACB = 11$ mm.**
+S: (iii) Area of the circle $= \dfrac{22}{7} \times \dfrac{35}{2} \times \dfrac{35}{2} = 962.5$ mm². Each sector is one-tenth of it. **Area of each sector $= 96.25$ mm².**
+S: OR: wire used $=$ circumference $+$ 5 diameters $= 110 + 5 \times 35$. **Total wire $= 285$ mm.**

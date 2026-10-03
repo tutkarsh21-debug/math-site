@@ -1,0 +1,30 @@
+T: Ratios of standard angles
+Q: [CBSE 2025, 1 mark] Find the acute angle $\theta$ for which $7 + 4\sin\theta = 9$.
+S: $4\sin\theta = 2$, so $\sin\theta = \dfrac{1}{2}$
+S: **Answer: $\theta = 30°$**
+Q: [CBSE 2025, 2 marks] Given that $x\cos 60° + y\cos 0° + \sin 30° - \cot 45° = 5$, find the value of $x + 2y$.
+S: Put in the values: $x \times \dfrac{1}{2} + y \times 1 + \dfrac{1}{2} - 1 = 5$
+S: $\dfrac{x}{2} + y = \dfrac{11}{2}$. Multiply both sides by 2.
+S: **Answer: $x + 2y = 11$**
+Q: [CBSE 2025, 2 marks] Evaluate $\dfrac{\tan^2 60°}{\sin^2 60° + \cos^2 30°}$.
+S: $\tan 60° = \sqrt{3}$, $\sin 60° = \dfrac{\sqrt{3}}{2}$ and $\cos 30° = \dfrac{\sqrt{3}}{2}$
+S: Value $= \dfrac{3}{\frac{3}{4} + \frac{3}{4}} = \dfrac{3}{\frac{3}{2}}$
+S: **Answer: 2**
+
+T: Trigonometric identities
+Q: [CBSE 2025, 1 mark] Simplify $\tan^2\theta - \left(\dfrac{1}{\cos\theta} \times \sec\theta\right)$.
+S: $\dfrac{1}{\cos\theta} = \sec\theta$, so the bracket is $\sec^2\theta$.
+S: $\tan^2\theta - \sec^2\theta = -(\sec^2\theta - \tan^2\theta) = -1$
+S: **Answer: $-1$**
+Q: [CBSE 2025, 3 marks] Prove that $\dfrac{\tan\theta}{1 - \cot\theta} + \dfrac{\cot\theta}{1 - \tan\theta} = 1 + \sec\theta\,\mathrm{cosec}\,\theta$.
+S: Write everything in terms of $\sin\theta$ and $\cos\theta$.
+S: First term: $\dfrac{\sin\theta}{\cos\theta} \div \dfrac{\sin\theta - \cos\theta}{\sin\theta} = \dfrac{\sin^2\theta}{\cos\theta(\sin\theta - \cos\theta)}$
+S: Second term: $\dfrac{\cos\theta}{\sin\theta} \div \dfrac{\cos\theta - \sin\theta}{\cos\theta} = -\dfrac{\cos^2\theta}{\sin\theta(\sin\theta - \cos\theta)}$
+S: LHS $= \dfrac{\sin^3\theta - \cos^3\theta}{\sin\theta\cos\theta(\sin\theta - \cos\theta)}$
+S: Using $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$: LHS $= \dfrac{\sin^2\theta + \sin\theta\cos\theta + \cos^2\theta}{\sin\theta\cos\theta} = \dfrac{1 + \sin\theta\cos\theta}{\sin\theta\cos\theta}$
+S: $= \dfrac{1}{\sin\theta\cos\theta} + 1 = 1 + \sec\theta\,\mathrm{cosec}\,\theta$ = RHS. **Proved.**
+Q: [CBSE 2025, 3 marks] Prove that $\dfrac{\sin A + \cos A}{\sin A - \cos A} + \dfrac{\sin A - \cos A}{\sin A + \cos A} = \dfrac{2}{2\sin^2 A - 1}$.
+S: Take the common denominator $(\sin A - \cos A)(\sin A + \cos A) = \sin^2 A - \cos^2 A$.
+S: Numerator $= (\sin A + \cos A)^2 + (\sin A - \cos A)^2 = 2\sin^2 A + 2\cos^2 A = 2$
+S: LHS $= \dfrac{2}{\sin^2 A - \cos^2 A} = \dfrac{2}{\sin^2 A - (1 - \sin^2 A)}$
+S: $= \dfrac{2}{2\sin^2 A - 1}$ = RHS. **Proved.**

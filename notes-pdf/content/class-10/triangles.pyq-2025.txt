@@ -1,0 +1,30 @@
+T: Criteria for similarity of triangles
+Q: [CBSE 2025, 1 mark] In $\triangle ABC$ and $\triangle DEF$, $\angle B = \angle E$, $\angle C = \angle F$ and $AB = 3DE$. Are the two triangles similar, congruent, both or neither?
+S: Two pairs of angles are equal, so the triangles are similar by the AA criterion.
+S: $AB = 3DE$, so the corresponding sides are not equal. The triangles are therefore not congruent.
+S: **Answer: similar but not congruent**
+Q: [CBSE 2025, 2 marks] $\triangle ABC \sim \triangle PQR$ with $AB = 6$ cm, $BC = 4$ cm, $AC = 8$ cm and $PR = 6$ cm. Find $PQ + QR$.
+S: Corresponding sides are in the same ratio: $\dfrac{AB}{PQ} = \dfrac{BC}{QR} = \dfrac{AC}{PR} = \dfrac{8}{6} = \dfrac{4}{3}$
+S: $PQ = 6 \times \dfrac{3}{4} = 4.5$ cm and $QR = 4 \times \dfrac{3}{4} = 3$ cm
+S: **Answer: $PQ + QR = 7.5$ cm**
+Q: [CBSE 2025, 2 marks] In $\triangle PQR$, $S$ is a point on $QR$ and $T$ is a point on $PQ$. It is given that $\dfrac{QR}{QS} = \dfrac{QT}{PR}$ and $\angle PQR = \angle PRQ$. Prove that $\triangle PQS \sim \triangle TQR$.
+!fig w=330 h=215; P P 165 28 t; P Q 40 190 bl; P R 290 190 br; P S 200 190 b; P T 96 117 l; L P Q; L Q R; L P R; H P S; H T R; A P Q R; A Q R P
+S: $\angle PQR = \angle PRQ$, so the sides opposite these angles are equal: $PR = PQ$.
+S: Put $PQ$ in place of $PR$ in the given relation: $\dfrac{QR}{QS} = \dfrac{QT}{PQ}$, that is $\dfrac{QT}{QR} = \dfrac{PQ}{QS}$.
+S: In $\triangle PQS$ and $\triangle TQR$: $\dfrac{PQ}{TQ} = \dfrac{QS}{QR}$ and the included angle $\angle Q$ is common.
+S: **So $\triangle PQS \sim \triangle TQR$ by the SAS criterion.**
+Q: [CBSE 2025, 5 marks] $ABCD$ is a parallelogram and $E$ is a point on $BC$. The diagonal $BD$ meets $AE$ at $F$. Prove that $DF \times EF = FB \times FA$.
+!fig w=340 h=200; P A 90 35 tl; P D 310 35 tr; P B 30 170 bl; P C 250 170 br; P E 150 170 b; P F 128.8 122.4 l; L A B; L B C; L C D; L D A; H B D; H A E
+S: In $\triangle DFA$ and $\triangle BFE$: $\angle DFA = \angle BFE$ (vertically opposite angles).
+S: $AD \parallel BC$ and $BD$ is a transversal, so $\angle ADF = \angle EBF$ (alternate angles).
+S: So $\triangle DFA \sim \triangle BFE$ by the AA criterion.
+S: Corresponding sides are proportional: $\dfrac{DF}{BF} = \dfrac{FA}{FE}$.
+S: Cross-multiplying, **$DF \times EF = FB \times FA$. Proved.**
+Q: [CBSE 2025, 5 marks] In $\triangle ABC$, $D$ is a point on $BC$ with $AD \perp BC$ and $AD^2 = BD \times DC$. Prove that $\angle BAC = 90°$.
+!fig w=320 h=190; P A 120 30 t; P B 30 160 bl; P C 290 160 br; P D 120 160 b; L A B; L B C; L A C; H A D; R A D C
+S: In right triangle $ADB$: $AB^2 = AD^2 + BD^2$ ... (1)
+S: In right triangle $ADC$: $AC^2 = AD^2 + DC^2$ ... (2)
+S: Adding (1) and (2): $AB^2 + AC^2 = 2AD^2 + BD^2 + DC^2$
+S: Since $AD^2 = BD \times DC$: $AB^2 + AC^2 = BD^2 + 2\,BD \times DC + DC^2 = (BD + DC)^2 = BC^2$
+S: By the converse of the Pythagoras theorem, the angle opposite $BC$ is a right angle.
+S: **So $\angle BAC = 90°$. Proved.**
