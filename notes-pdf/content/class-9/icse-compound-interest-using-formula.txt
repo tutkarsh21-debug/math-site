@@ -1,0 +1,123 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 3
+@title Compound Interest (Using Formula)
+@summary The compound interest formula and its variations: different rates, half-yearly compounding, fractional periods, finding the principal, rate or time, and applications to growth and depreciation.
+
+# The formula
+- If a principal $P$ is invested at $r\%$ per annum compound interest for $n$ years, compounded yearly, the amount $A$ is
+$$A = P\left(1 + \frac{r}{100}\right)^n$$
+- Compound interest $= A - P = P\left[\left(1 + \dfrac{r}{100}\right)^n - 1\right]$.
+- Each year the amount is multiplied by the same factor $\left(1 + \dfrac{r}{100}\right)$.
+?eg Find the amount and the C.I. on ₹8000 for 3 years at 5% per annum.
+= $A = 8000\left(\dfrac{21}{20}\right)^3 = 8000 \times \dfrac{9261}{8000}$
+=> Amount ₹9261; C.I. ₹1261
+?eg Find the C.I. on ₹25,000 for 2 years at 12% per annum.
+= $A = 25000 \times (1.12)^2 = 25000 \times 1.2544 = 31360$
+=> ₹6360
+
+# Different rates in different years
+- If the rates for successive years are $r_1\%$, $r_2\%$, $r_3\%$:
+$$A = P\left(1 + \frac{r_1}{100}\right)\left(1 + \frac{r_2}{100}\right)\left(1 + \frac{r_3}{100}\right)$$
+?eg Find the amount on ₹10,000 for 3 years if the rates are 5%, 8% and 10%.
+= $10000 \times 1.05 \times 1.08 \times 1.10$
+=> ₹12,474
+
+# Other compounding periods
+- **Half-yearly**: rate $\dfrac{r}{2}\%$ per period and $2n$ periods: $A = P\left(1 + \dfrac{r}{200}\right)^{2n}$.
+- **Quarterly**: $A = P\left(1 + \dfrac{r}{400}\right)^{4n}$.
+- **Time not a whole number of years** (compounded yearly), such as $2\tfrac{1}{2}$ years: use the formula for the whole years and simple interest for the remaining fraction.
+$$A = P\left(1 + \frac{r}{100}\right)^2\left(1 + \frac{\tfrac{1}{2} \times r}{100}\right)$$
+?eg Find the amount on ₹16,000 for $1\tfrac{1}{2}$ years at 10% per annum, compounded half-yearly.
+= $A = 16000\left(1 + \dfrac{5}{100}\right)^3 = 16000 \times \dfrac{9261}{8000}$
+=> ₹18,522
+?eg Find the amount on ₹20,000 for $2\tfrac{1}{2}$ years at 10% per annum, compounded yearly.
+= $20000 \times (1.1)^2 \times \left(1 + \dfrac{5}{100}\right) = 24200 \times 1.05$
+=> ₹25,410
+
+# Finding P, r or n
+- **Principal**: $P = A \div \left(1 + \dfrac{r}{100}\right)^n$.
+- **Rate**: find $\left(1 + \dfrac{r}{100}\right)^n = \dfrac{A}{P}$ and take the $n$th root.
+- **Time**: write $\dfrac{A}{P}$ as a power of $\left(1 + \dfrac{r}{100}\right)$ and compare the exponents.
+?eg What sum amounts to ₹6655 in 3 years at 10% per annum compound interest?
+= $P = 6655 \div (1.1)^3 = 6655 \div 1.331$
+=> ₹5000
+?eg At what rate will ₹4000 amount to ₹4840 in 2 years, compounded yearly?
+= $\left(1 + \dfrac{r}{100}\right)^2 = \dfrac{4840}{4000} = \dfrac{121}{100} = \left(\dfrac{11}{10}\right)^2$
+=> 10% per annum
+?eg In how many years will ₹8000 amount to ₹9261 at 5% per annum?
+= $\left(\dfrac{21}{20}\right)^n = \dfrac{9261}{8000} = \left(\dfrac{21}{20}\right)^3$
+=> 3 years
+?eg A sum becomes $\dfrac{27}{8}$ times itself in 3 years at compound interest. Find the rate.
+= $\left(1 + \dfrac{r}{100}\right)^3 = \left(\dfrac{3}{2}\right)^3$, so $\dfrac{r}{100} = \dfrac{1}{2}$
+=> 50% per annum
+
+# C.I. and S.I. compared
+- For **2 years**: C.I. $-$ S.I. $= P\left(\dfrac{r}{100}\right)^2$.
+- For **3 years**: C.I. $-$ S.I. $= P\left(\dfrac{r}{100}\right)^2\left(3 + \dfrac{r}{100}\right)$.
+?eg The difference between the C.I. and the S.I. on a sum for 2 years at 5% is ₹20. Find the sum.
+= $P \times \left(\dfrac{5}{100}\right)^2 = 20$, so $P = 20 \times 400$
+=> ₹8000
+?eg Find C.I. $-$ S.I. on ₹8000 for 3 years at 5%.
+= $8000 \times \dfrac{1}{400} \times 3.05$
+=> ₹61
+
+# Growth and depreciation
+- **Growth** at $r\%$ per year: value after $n$ years $= V_0\left(1 + \dfrac{r}{100}\right)^n$.
+- **Depreciation** at $r\%$ per year: value after $n$ years $= V_0\left(1 - \dfrac{r}{100}\right)^n$.
+- **Value $n$ years ago** (growth): $V_0 \div \left(1 + \dfrac{r}{100}\right)^n$.
+- Growth one year and decline the next: multiply the two factors.
+?eg The population of a town is 64,000 and grows at 5% per year. Find the population after 3 years.
+= $64000 \times \left(\dfrac{21}{20}\right)^3$
+=> 74,088
+?eg A machine depreciates at 10% per year and is now worth ₹72,900. What was it worth 3 years ago?
+= $V \times (0.9)^3 = 72900$, so $V = 72900 \div 0.729$
+=> ₹1,00,000
+?eg The population of a village was 20,000. It rose by 10% in the first year and fell by 10% in the second. Find the population after 2 years.
+= $20000 \times 1.1 \times 0.9$
+=> 19,800
+
+# Common mistakes
+- Using $n$ instead of $2n$, or $r$ instead of $\dfrac{r}{2}$, for half-yearly compounding.
+- Writing the factor as $\left(1 + r\right)$ instead of $\left(1 + \dfrac{r}{100}\right)$.
+- Using a plus sign for depreciation.
+- Thinking that a rise of 10% followed by a fall of 10% gives the original value. It gives 99% of it.
+- Reporting $A$ when C.I. is asked.
+- For $2\tfrac{1}{2}$ years, using the power $2.5$ instead of two full years and simple interest for the half year.
+
+@@formulas
+Amount, compounded yearly | $A = P\left(1 + \dfrac{r}{100}\right)^n$
+Compound interest | $A - P$
+Different rates | $A = P\left(1 + \dfrac{r_1}{100}\right)\left(1 + \dfrac{r_2}{100}\right)\ldots$
+Compounded half-yearly | $A = P\left(1 + \dfrac{r}{200}\right)^{2n}$
+Compounded quarterly | $A = P\left(1 + \dfrac{r}{400}\right)^{4n}$
+Time $n + \dfrac{1}{k}$ years | $A = P\left(1 + \dfrac{r}{100}\right)^n\left(1 + \dfrac{r}{100k}\right)$
+Principal | $P = A \div \left(1 + \dfrac{r}{100}\right)^n$
+C.I. $-$ S.I., 2 years | $P\left(\dfrac{r}{100}\right)^2$
+C.I. $-$ S.I., 3 years | $P\left(\dfrac{r}{100}\right)^2\left(3 + \dfrac{r}{100}\right)$
+Growth | $V = V_0\left(1 + \dfrac{r}{100}\right)^n$
+Depreciation | $V = V_0\left(1 - \dfrac{r}{100}\right)^n$
+Value $n$ years ago | $V_0 \div \left(1 + \dfrac{r}{100}\right)^n$
+
+@@dpp
+Q: Find the amount on ₹12,500 for 2 years at 8% per annum, compounded yearly.
+A: ₹14,580
+Q: Find the C.I. on ₹32,000 for 3 years at $12\tfrac{1}{2}$% per annum.
+A: $32000 \times \left(\dfrac{9}{8}\right)^3 = 45562.50$; C.I. ₹13,562.50
+Q: Find the amount on ₹5000 for 2 years if the rates are 4% and 5%.
+A: ₹5460
+Q: Find the C.I. on ₹8000 for 1 year at 10% per annum, compounded half-yearly.
+A: ₹820
+Q: What sum amounts to ₹9261 in 3 years at 5% per annum compound interest?
+A: ₹8000
+Q: At what rate will ₹6250 amount to ₹7290 in 2 years?
+A: 8% per annum
+Q: In how many years will ₹1000 amount to ₹1331 at 10% per annum?
+A: 3 years
+Q: The difference between the C.I. and the S.I. on a sum for 2 years at 4% is ₹8. Find the sum.
+A: ₹5000
+Q: A town has 1,25,000 people and grows at 4% per year. Find the population after 2 years.
+A: 1,35,200
+Q: A scooter bought for ₹50,000 depreciates at 20% per year. Find its value after 2 years.
+A: ₹32,000

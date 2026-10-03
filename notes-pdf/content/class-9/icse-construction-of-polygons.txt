@@ -1,0 +1,140 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 15
+@title Construction of Polygons
+@summary Ruler-and-compass constructions of quadrilaterals, parallelograms, rectangles, rhombuses, squares, trapeziums and regular hexagons from given measurements.
+
+# Before you construct
+- Draw a **rough sketch** first and mark the given measurements on it. It shows which triangle can be drawn first.
+- A quadrilateral needs **five** independent measurements. Special quadrilaterals need fewer, because their properties supply the rest.
+| Figure | Measurements needed |
+| Quadrilateral | 5 |
+| Trapezium | 4 |
+| Parallelogram | 3 |
+| Rectangle | 2 |
+| Rhombus | 2 |
+| Square | 1 |
+- Use only a ruler and compasses unless a protractor is allowed. Leave all construction arcs visible.
+- Standard angles by compasses: $60^\circ$, $120^\circ$, $90^\circ$ (bisect a straight angle or use $60^\circ$ and $120^\circ$), $30^\circ$, $45^\circ$, $75^\circ$, $105^\circ$, $135^\circ$.
+
+# Quadrilaterals
+| Given | Method |
+| 4 sides and 1 diagonal | Draw the triangle on the diagonal with two of the sides; draw the second triangle on the other side of the diagonal |
+| 3 sides and 2 diagonals | Draw the triangle formed by one side and parts fixed by the two diagonals from its ends; locate the fourth vertex by arcs |
+| 4 sides and 1 angle | Draw the two sides containing the angle; cut arcs for the other two sides from their free ends |
+| 3 sides and the 2 included angles | Draw the middle side; draw the angles at its ends; cut off the other two sides |
+| 2 adjacent sides and 3 angles | Draw the sides with their included angle; draw the other two angles at the free ends; the rays meet at the fourth vertex |
+?eg Construct quadrilateral ABCD with $AB = 4$ cm, $BC = 5$ cm, $CD = 4.5$ cm, $DA = 3.5$ cm and $AC = 6$ cm.
+= Draw $AC = 6$ cm. With centres A and C and radii 4 cm and 5 cm, draw arcs meeting at B.
+= On the other side of AC, with centres A and C and radii 3.5 cm and 4.5 cm, draw arcs meeting at D.
+=> Join AB, BC, CD and DA
+?eg Can a quadrilateral be constructed with $AB = 3$ cm, $BC = 4$ cm and $AC = 8$ cm as one of its diagonals?
+= In triangle ABC, $AB + BC = 7$ cm, which is less than AC.
+=> No; triangle ABC cannot be drawn
+
+# Parallelograms
+- Use: opposite sides are equal and parallel; the diagonals bisect each other.
+| Given | Method |
+| 2 adjacent sides and the included angle | Draw the sides with the angle; complete with arcs equal to the opposite sides |
+| 2 adjacent sides and 1 diagonal | Draw the triangle with the two sides and the diagonal; complete with arcs |
+| 2 diagonals and the angle between them | Draw one diagonal, mark its mid-point O; draw the other through O at the given angle, half on each side |
+| 1 side and 2 diagonals | Draw the triangle with the side and the two half-diagonals; produce each half-diagonal an equal length beyond O |
+| 2 adjacent sides and the height | Draw one side; draw a parallel at the given height; cut it with an arc equal to the other side |
+?eg Construct parallelogram ABCD with $AB = 6$ cm, $AC = 8$ cm and $BD = 6$ cm.
+= The diagonals bisect each other at O, so $OA = 4$ cm and $OB = 3$ cm.
+= Draw $AB = 6$ cm. Draw triangle OAB with $OA = 4$ cm and $OB = 3$ cm.
+= Produce AO to C with $OC = 4$ cm and BO to D with $OD = 3$ cm.
+=> Join BC, CD and DA
+!fig w=320 h=185; P A 40 150 bl; P B 220 150 br; P C 280 50 tr; P D 100 50 tl; P O 160 100 t; L A B; L B C; L C D; L D A; D A C; D B D; cap Draw triangle OAB first, then extend AO and BO to C and D
+
+# Rectangles
+- Use: every angle is $90^\circ$; the diagonals are equal and bisect each other.
+| Given | Method |
+| Length and breadth | Draw the length; draw perpendiculars at both ends; cut off the breadth |
+| One side and a diagonal | Draw the side AB; draw a perpendicular at B; cut it from A with the diagonal as radius |
+| Diagonal and the angle between the diagonals | Draw one diagonal, mark O; draw the other through O at the given angle, equal and bisected |
+?eg Construct rectangle ABCD with $AB = 5$ cm and diagonal $AC = 6.5$ cm.
+= Draw $AB = 5$ cm. At B construct $\angle ABX = 90^\circ$.
+= With centre A and radius 6.5 cm, cut BX at C.
+=> With centres A and C and radii BC and AB, draw arcs meeting at D; join AD and CD
+
+# Rhombuses and squares
+- **Rhombus**: all sides equal; the diagonals bisect each other at $90^\circ$.
+| Given | Method |
+| Side and one angle | Draw the two sides with the angle; complete with arcs equal to the side |
+| Side and one diagonal | Draw the diagonal; draw arcs equal to the side from both ends, on both sides |
+| Two diagonals | Draw one diagonal; draw its perpendicular bisector; mark half of the other diagonal on each side |
+- **Square**: one measurement is enough.
+| Given | Method |
+| Side | Draw the side; draw perpendiculars at both ends; cut off the side |
+| Diagonal | Draw the diagonal; draw its perpendicular bisector; mark half the diagonal on each side of the mid-point |
+?eg Construct a rhombus with diagonals 6 cm and 8 cm. What is its side?
+= Draw $AC = 8$ cm and its perpendicular bisector, meeting AC at O. Mark $OB = OD = 3$ cm on the bisector.
+= Join AB, BC, CD, DA. Side$^2 = 4^2 + 3^2$.
+=> The side measures 5 cm
+?eg Construct a square with diagonal 5 cm.
+= Draw $AC = 5$ cm and its perpendicular bisector through O.
+=> Mark $OB = OD = 2.5$ cm on it and join AB, BC, CD, DA
+
+# Trapeziums
+- A trapezium needs four measurements together with the fact that one pair of sides is parallel.
+- **Method**: in trapezium ABCD with $AB \parallel DC$, draw CE parallel to DA to meet AB at E. Then AECD is a parallelogram, $AE = DC$, $CE = DA$ and $EB = AB - DC$. Construct triangle EBC first, then complete the parallelogram.
+?eg Construct trapezium ABCD with $AB \parallel DC$, $AB = 7$ cm, $BC = 4$ cm, $CD = 4$ cm and $DA = 3.5$ cm.
+= Draw $AB = 7$ cm and mark E on it with $AE = 4$ cm, so $EB = 3$ cm.
+= Draw triangle EBC with $EC = 3.5$ cm and $BC = 4$ cm.
+=> With centres A and C and radii 3.5 cm and 4 cm, draw arcs meeting at D; join AD and CD
+
+# Regular hexagon
+- Each interior angle of a regular hexagon is $120^\circ$. Its side equals the radius of its circumscribed circle.
+- **Method 1 (using the circle)**: draw a circle with radius equal to the side. Starting from any point on it, step off the radius six times round the circle. Join the points in order.
+- **Method 2 (using angles)**: draw the side AB. At A and B construct angles of $120^\circ$ and cut off the side on each arm. Repeat at the new vertices.
+!fig w=260 h=215; Q O 130 105; C O 80; P A 210 105 r; P B 170 35.7 tr; P C 90 35.7 tl; P D 50 105 l; P E 90 174.3 bl; P F 170 174.3 br; L A B; L B C; L C D; L D E; L E F; L F A; D O A; D O B; cap The side of a regular hexagon equals the radius of its circumcircle
+?eg Construct a regular hexagon of side 3.5 cm.
+= Draw a circle of radius 3.5 cm. Mark a point A on it.
+= With radius 3.5 cm, cut the circle at B from A, at C from B, and so on up to F.
+=> Join AB, BC, CD, DE, EF and FA
+
+# Common mistakes
+- Starting without a rough sketch and then finding that the first triangle cannot be drawn.
+- Using the full diagonal instead of half when the diagonals bisect each other.
+- Rubbing out the construction arcs.
+- Measuring an angle with a protractor when a compass construction is required.
+- Not checking the triangle inequality for the first triangle.
+- Drawing the second triangle on the same side of the diagonal as the first.
+
+@@formulas
+Quadrilateral | 5 measurements
+Parallelogram | 3 measurements
+Rectangle, rhombus | 2 measurements
+Square | 1 measurement
+Parallelogram | Opposite sides equal; diagonals bisect each other
+Rectangle | Angles $90^\circ$; diagonals equal
+Rhombus | All sides equal; diagonals perpendicular bisectors
+Rhombus side from diagonals | $\sqrt{\left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2}$
+Square | Side $= \dfrac{\text{diagonal}}{\sqrt{2}}$
+Trapezium | Draw CE parallel to DA; $EB = AB - DC$
+Regular hexagon | Interior angle $120^\circ$; side $=$ circumradius
+Regular polygon, interior angle | $\dfrac{(2n - 4) \times 90^\circ}{n}$
+
+@@dpp
+Q: How many measurements are needed to construct (i) a parallelogram (ii) a rhombus (iii) a square?
+A: 3, 2 and 1
+Q: Quadrilateral ABCD has $AB = 5$ cm, $BC = 4$ cm, $CD = 6$ cm, $DA = 4.5$ cm and $BD = 7$ cm. Which triangle is drawn first?
+A: Triangle ABD (or BCD), on the diagonal BD
+Q: A parallelogram has diagonals 10 cm and 6 cm meeting at $60^\circ$. What lengths are marked from the point of intersection?
+A: 5 cm on each side along one diagonal and 3 cm on each side along the other
+Q: A rectangle has a side 8 cm and a diagonal 10 cm. What is the other side?
+A: 6 cm
+Q: A rhombus has diagonals 10 cm and 24 cm. What will its side measure?
+A: 13 cm
+Q: A square has a diagonal 6 cm. What will its side measure, to one decimal place?
+A: 4.2 cm
+Q: In trapezium ABCD with $AB \parallel DC$, $AB = 8$ cm and $DC = 5$ cm. CE is drawn parallel to DA to meet AB at E. Find EB.
+A: 3 cm
+Q: What is the radius of the circle used to construct a regular hexagon of side 4 cm?
+A: 4 cm
+Q: Can a quadrilateral have sides 3 cm, 4 cm, 5 cm and 13 cm?
+A: No; the longest side must be less than the sum of the other three, and $3 + 4 + 5 = 12 < 13$
+Q: Which compass angles are combined to construct $105^\circ$?
+A: $90^\circ$ and $15^\circ$ (or $60^\circ$ and $45^\circ$)

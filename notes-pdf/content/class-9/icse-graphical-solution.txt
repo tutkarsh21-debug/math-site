@@ -1,0 +1,120 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 27
+@title Graphical Solution
+@summary Solving a pair of simultaneous linear equations by drawing their graphs, recognising when the lines intersect, are parallel or coincide, and finding areas enclosed by lines.
+
+# The idea
+- The graph of a linear equation in $x$ and $y$ is a straight line. Each point on it is a solution of the equation.
+- A pair of equations is solved by drawing **both lines on the same axes**. A point that lies on both lines satisfies both equations.
+- **The solution is the point of intersection of the two lines.**
+
+# Steps
+- Write each equation with $y$ (or $x$) as the subject.
+- For each equation make a table of **three** points. Choose values that give whole numbers where possible.
+- Choose a suitable scale, the same on both axes unless told otherwise, and state it.
+- Plot the points and draw each line with a ruler. Label each line with its equation.
+- Read the co-ordinates of the point of intersection. Check by substituting in both equations.
+?eg Solve graphically: $x + y = 5$ and $2x - y = 4$.
+= For $x + y = 5$: points $(0, 5)$, $(2, 3)$, $(5, 0)$.
+= For $2x - y = 4$: points $(0, -4)$, $(2, 0)$, $(4, 4)$.
+= The lines cross at $(3, 2)$. Check: $3 + 2 = 5$ and $6 - 2 = 4$.
+=> $x = 3$, $y = 2$
+!fig w=320 h=260; Q L 20 180; Q R 300 180; Q T 60 15; Q B 60 250; L L R; L T B; Q a1 60 80; Q a2 160 180; H a1 a2; Q b1 70 240; Q b2 150 80; H b1 b2; P P 120 140 -; T 306 184 x; T 60 10 y; T 48 195 O; T 200 166 x + y = 5; T 198 84 2x − y = 4; T 150 144 (3, 2); cap The two lines meet at (3, 2)
+?eg Solve graphically: $3x + 2y = 12$ and $x - y = -1$.
+= $3x + 2y = 12$: $(0, 6)$, $(2, 3)$, $(4, 0)$. $x - y = -1$: $(0, 1)$, $(1, 2)$, $(3, 4)$.
+= Both lines pass through $(2, 3)$.
+=> $x = 2$, $y = 3$
+
+# Three possibilities
+- For the lines $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$:
+| Graph | Ratios | Solutions | Name |
+| Lines intersect at one point | $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$ | Exactly one | Consistent |
+| Lines are parallel | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$ | None | Inconsistent |
+| Lines coincide | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$ | Infinitely many | Dependent (consistent) |
+?eg Without drawing, say how the lines $2x + 3y = 7$ and $4x + 6y = 9$ are related.
+= $\dfrac{2}{4} = \dfrac{3}{6} = \dfrac{1}{2}$, but $\dfrac{7}{9} \neq \dfrac{1}{2}$
+=> Parallel; no solution
+?eg How are $x - 2y = 3$ and $3x - 6y = 9$ related?
+= $\dfrac{1}{3} = \dfrac{-2}{-6} = \dfrac{3}{9}$
+=> The same line; infinitely many solutions
+?eg For what value of $k$ do $kx + 3y = 6$ and $2x + y = 5$ have no solution?
+= $\dfrac{k}{2} = \dfrac{3}{1}$ gives $k = 6$. Then $\dfrac{6}{5} \neq 3$, so the lines are parallel.
+=> $k = 6$
+
+# Lines parallel to the axes
+- $x = a$ is a vertical line and $y = b$ is a horizontal line. They meet at $(a, b)$.
+- The line $y = x$ passes through the origin at $45^\circ$ to the axes.
+?eg Find graphically the point where $x = 3$ meets $2x + y = 10$.
+= On $x = 3$: $y = 10 - 6 = 4$
+=> $(3, 4)$
+
+# Triangles formed by lines
+- To find the triangle formed by two lines and an axis, find the **three vertices**: the point of intersection of the lines, and the points where each line meets that axis.
+- With the **x-axis**: put $y = 0$ in each equation. With the **y-axis**: put $x = 0$.
+- Area $= \dfrac{1}{2} \times$ base (along the axis) $\times$ height (distance of the third vertex from that axis).
+?eg The lines $x + y = 5$ and $2x - y = 4$ meet at $(3, 2)$. Find the area of the triangle they form with the x-axis.
+= $x + y = 5$ meets the x-axis at $(5, 0)$; $2x - y = 4$ meets it at $(2, 0)$. Base $= 3$, height $= 2$.
+=> 3 square units
+?eg Find the area of the triangle formed by the same two lines and the y-axis.
+= They meet the y-axis at $(0, 5)$ and $(0, -4)$. Base $= 9$, height $= 3$ (the x co-ordinate of the intersection).
+=> 13.5 square units
+?eg Find the area of the region bounded by $x = 0$, $y = 0$, $x = 4$ and $y = 3$.
+= The region is a rectangle 4 by 3.
+=> 12 square units
+?eg The lines $y = x$, $y = 2x$ and $x = 3$ form a triangle. Find its vertices and area.
+= $y = x$ and $y = 2x$ meet at $(0, 0)$. On $x = 3$: the points are $(3, 3)$ and $(3, 6)$.
+= Base along $x = 3$ is 3; height from the origin is 3.
+=> Vertices $(0, 0)$, $(3, 3)$, $(3, 6)$; area 4.5 square units
+
+# Word problems
+- Form two equations, draw both graphs and read the point of intersection. Only the part of the graph that makes sense (for example, positive values) is used.
+?eg The sum of two numbers is 8 and their difference is 2. Find them graphically.
+= $x + y = 8$: $(0, 8)$, $(4, 4)$, $(8, 0)$. $x - y = 2$: $(2, 0)$, $(4, 2)$, $(6, 4)$.
+= The lines meet at $(5, 3)$.
+=> 5 and 3
+
+# Common mistakes
+- Plotting only two points for a line, so that an error goes unnoticed.
+- Using different scales on the two axes without saying so.
+- Reading the intersection inaccurately because the lines were not drawn with a ruler or were too short.
+- Giving the answer as a point when the values of $x$ and $y$ are asked, or the other way round.
+- For the area with the y-axis, using the y co-ordinate of the intersection as the height. The height is its x co-ordinate.
+- Concluding "no solution" when the lines merely do not meet on the part of the paper drawn. Extend them.
+
+@@formulas
+Solution | Point of intersection of the two lines
+One solution | $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$
+No solution | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$
+Infinitely many solutions | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$
+Meets the x-axis | Put $y = 0$
+Meets the y-axis | Put $x = 0$
+Triangle with the x-axis | $\dfrac{1}{2} \times$ base on the x-axis $\times |y|$ of the intersection
+Triangle with the y-axis | $\dfrac{1}{2} \times$ base on the y-axis $\times |x|$ of the intersection
+Vertical line | $x = a$
+Horizontal line | $y = b$
+Check | Substitute the solution in both equations
+Number of points per line | Three (two to draw, one to check)
+
+@@dpp
+Q: Write three points on the line $x + 2y = 6$ suitable for plotting.
+A: For example $(0, 3)$, $(2, 2)$, $(6, 0)$
+Q: Solve graphically (or verify): $x + y = 7$ and $x - y = 1$.
+A: $x = 4$, $y = 3$
+Q: Solve: $2x + y = 8$ and $x - y = 1$.
+A: $x = 3$, $y = 2$
+Q: Solve: $y = 2x$ and $x + y = 6$.
+A: $x = 2$, $y = 4$
+Q: How are the lines $3x - y = 2$ and $6x - 2y = 7$ related?
+A: Parallel; no solution
+Q: How are the lines $x + y = 3$ and $2x + 2y = 6$ related?
+A: Coincident; infinitely many solutions
+Q: For what value of $k$ are $2x + ky = 5$ and $4x + 6y = 1$ parallel?
+A: $k = 3$
+Q: The lines $x + y = 6$ and $x - y = 2$ meet at $(4, 2)$. Find the area of the triangle they form with the x-axis.
+A: Base from $(2, 0)$ to $(6, 0)$ is 4; height 2; area 4 square units
+Q: Find the area of the triangle formed by the lines in the previous question and the y-axis.
+A: Base from $(0, -2)$ to $(0, 6)$ is 8; height 4; area 16 square units
+Q: Find the vertices of the triangle formed by $y = x$, $y = 0$ and $x = 4$, and its area.
+A: $(0, 0)$, $(4, 0)$, $(4, 4)$; 8 square units

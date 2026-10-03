@@ -1,0 +1,133 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 21
+@title Solids
+@summary Surface area and volume of cuboids and cubes, solids with a uniform cross-section, and problems on capacity, flow of water and melting and recasting.
+
+# Cuboid
+- A **cuboid** has 6 rectangular faces, 12 edges and 8 vertices. Its dimensions are length $l$, breadth $b$ and height $h$.
+| Quantity | Formula |
+| Volume | $l \times b \times h$ |
+| Total surface area | $2(lb + bh + hl)$ |
+| Lateral surface area (four walls) | $2(l + b)h$ |
+| Diagonal | $\sqrt{l^2 + b^2 + h^2}$ |
+| Sum of all the edges | $4(l + b + h)$ |
+!fig w=320 h=190; Q a 50 160; Q b 220 160; Q c 220 80; Q d 50 80; Q e 100 120; Q f 270 120; Q g 270 40; Q h 100 40; L a b; L b c; L c d; L d a; L b f; L f g; L g c; L g h; L h d; D a e; D e f; D e h; T 135 176 l; T 256 148 b; T 282 84 h; cap Cuboid with length l, breadth b and height h
+- The area of the four walls of a room is the lateral surface area.
+- An **open box** has no top: surface area $= lb + 2(l + b)h$.
+?eg A cuboid is 12 cm long, 9 cm broad and 8 cm high. Find its volume, total surface area and diagonal.
+= Volume $= 12 \times 9 \times 8$. Surface area $= 2(108 + 72 + 96)$. Diagonal $= \sqrt{144 + 81 + 64}$.
+=> 864 cu cm; 552 sq cm; 17 cm
+?eg A room is 8 m long, 6 m wide and 4 m high. Find the cost of painting its four walls and ceiling at ₹50 per sq m.
+= Walls: $2(8 + 6) \times 4 = 112$ sq m. Ceiling: 48 sq m. Total 160 sq m.
+=> ₹8000
+
+# Cube
+- A **cube** is a cuboid with all edges equal to $a$.
+| Quantity | Formula |
+| Volume | $a^3$ |
+| Total surface area | $6a^2$ |
+| Lateral surface area | $4a^2$ |
+| Diagonal | $a\sqrt{3}$ |
+?eg The total surface area of a cube is 294 sq cm. Find its edge, volume and diagonal.
+= $6a^2 = 294$, so $a = 7$ cm.
+=> 7 cm; 343 cu cm; $7\sqrt{3}$ cm
+?eg Three cubes of edges 3 cm, 4 cm and 5 cm are melted to form one cube. Find its edge.
+= Volume $= 27 + 64 + 125 = 216$ cu cm
+=> 6 cm
+?eg How many cubes of edge 4 cm can be cut from a cuboid 16 cm by 12 cm by 8 cm?
+= $\dfrac{16 \times 12 \times 8}{4 \times 4 \times 4}$
+=> 24
+
+# Units and capacity
+| Conversion | Value |
+| 1 cu m | 1000 litres $= 1{,}000{,}000$ cu cm |
+| 1 litre | 1000 cu cm |
+| 1 cu cm | 1 mL |
+| 1 kilolitre | 1 cu m |
+- Mass $=$ volume $\times$ density.
+?eg A tank is 3 m long, 2 m wide and 1.5 m deep. How many litres of water does it hold?
+= Volume $= 9$ cu m
+=> 9000 litres
+
+# Hollow boxes
+- For a box made of material of thickness $t$ (closed on all sides): internal dimensions $=$ external dimensions $- 2t$.
+- For an **open** box, the internal height is the external height $- t$.
+- Volume of material $=$ external volume $-$ internal volume.
+?eg A closed wooden box has external dimensions 50 cm, 40 cm and 30 cm, and the wood is 2 cm thick. Find the volume of the wood.
+= Internal dimensions: 46 cm, 36 cm, 26 cm.
+= $60000 - 43056$
+=> 16,944 cu cm
+
+# Uniform cross-section
+- A solid whose cross-section is the same all along its length (a prism) has
+$$\text{Volume} = \text{area of cross-section} \times \text{length}$$
+$$\text{Lateral surface area} = \text{perimeter of cross-section} \times \text{length}$$
+- Total surface area $=$ lateral surface area $+ 2 \times$ area of cross-section.
+?eg A swimming pool is 40 m long and 15 m wide. Its depth increases uniformly from 1 m at one end to 3 m at the other. Find the volume of water it holds.
+= The cross-section is a trapezium with parallel sides 1 m and 3 m and width 40 m: area $= \dfrac{1}{2}(1 + 3) \times 40 = 80$ sq m.
+= Volume $= 80 \times 15$
+=> 1200 cu m
+?eg A metal bar 2 m long has a cross-section that is a right triangle with legs 6 cm and 8 cm. Find its volume and lateral surface area.
+= Area of cross-section $= 24$ sq cm; hypotenuse 10 cm; perimeter 24 cm; length 200 cm.
+=> 4800 cu cm; 4800 sq cm
+
+# Flow of water
+- Volume of water flowing in time $t$ $=$ area of cross-section of the pipe or canal $\times$ speed $\times$ time.
+- Keep all lengths in the same unit.
+?eg Water flows at 5 m/s through a rectangular channel 2 m wide and 1.5 m deep. How many litres flow in one minute?
+= $2 \times 1.5 \times 5 \times 60 = 900$ cu m
+=> 9,00,000 litres
+?eg A river 3 m deep and 40 m wide flows at 2 km/h. How much water falls into the sea in one minute?
+= Speed $= \dfrac{2000}{60}$ m per minute. Volume $= 3 \times 40 \times \dfrac{2000}{60}$.
+=> 4000 cu m
+?eg A field 500 m by 200 m is covered by rain to a depth of 2 cm. Find the volume of water.
+= $500 \times 200 \times 0.02$
+=> 2000 cu m
+
+# Common mistakes
+- Forgetting to subtract twice the thickness for a closed box.
+- Using $2(lb + bh + hl)$ when only the walls or an open box are meant.
+- Mixing centimetres and metres.
+- Writing 1 cu m $=$ 100 litres. It is 1000 litres.
+- For flow problems, forgetting to multiply by the time.
+- Thinking that doubling the edge of a cube doubles the volume. The volume becomes 8 times and the surface area 4 times.
+
+@@formulas
+Cuboid, volume | $lbh$
+Cuboid, total surface area | $2(lb + bh + hl)$
+Cuboid, four walls | $2(l + b)h$
+Cuboid, diagonal | $\sqrt{l^2 + b^2 + h^2}$
+Cube, volume | $a^3$
+Cube, total surface area | $6a^2$
+Cube, diagonal | $a\sqrt{3}$
+Open box | $lb + 2(l + b)h$
+Uniform cross-section, volume | Area of cross-section $\times$ length
+Uniform cross-section, lateral area | Perimeter of cross-section $\times$ length
+Flow | Area of cross-section $\times$ speed $\times$ time
+Capacity | 1 cu m $= 1000$ litres; 1 litre $= 1000$ cu cm
+Hollow box | Internal dimension $=$ external $- 2 \times$ thickness
+Number of small solids | Volume of large solid $\div$ volume of one small solid
+
+@@dpp
+Q: Find the volume and total surface area of a cuboid 10 cm by 8 cm by 5 cm.
+A: 400 cu cm; 340 sq cm
+Q: Find the length of the longest rod that can be placed in a room 12 m by 9 m by 8 m.
+A: 17 m
+Q: The volume of a cube is 512 cu cm. Find its total surface area.
+A: Edge 8 cm; 384 sq cm
+Q: The diagonal of a cube is $6\sqrt{3}$ cm. Find its volume.
+A: 216 cu cm
+Q: How many bricks, each 25 cm by 10 cm by 8 cm, are needed for a wall 5 m long, 2 m high and 0.4 m thick?
+A: 2000
+Q: A tank 2.5 m by 2 m by 1.2 m is full of water. How many litres does it hold?
+A: 6000 litres
+Q: An open box is 20 cm long, 15 cm wide and 10 cm high (external). Find its outer surface area.
+A: $300 + 700 = 1000$ sq cm
+Q: A prism has a cross-section of area 35 sq cm and length 12 cm. Find its volume.
+A: 420 cu cm
+Q: Water flows at 3 m/s through a pipe whose cross-section is 20 sq cm. How many litres flow in 10 seconds?
+A: 60 litres
+Q: The edge of a cube is doubled. By what factor do its volume and surface area change?
+A: Volume 8 times; surface area 4 times

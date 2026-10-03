@@ -1,0 +1,132 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 8
+@title Logarithms
+@summary The meaning of a logarithm as an index, changing between exponential and logarithmic forms, the three laws of logarithms and their use in simplifying and solving.
+
+# Definition
+- If $a^x = N$, where $a > 0$, $a \neq 1$ and $N > 0$, then $x$ is the **logarithm of $N$ to the base $a$**.
+$$a^x = N \quad \text{means the same as} \quad \log_a N = x$$
+- A logarithm is an **index**: $\log_a N$ is the power to which $a$ must be raised to get $N$.
+- Logarithms are defined only for **positive** numbers. The base is positive and not 1.
+| Exponential form | Logarithmic form |
+| $2^5 = 32$ | $\log_2 32 = 5$ |
+| $10^3 = 1000$ | $\log_{10} 1000 = 3$ |
+| $3^{-2} = \dfrac{1}{9}$ | $\log_3 \dfrac{1}{9} = -2$ |
+| $9^{\frac{1}{2}} = 3$ | $\log_9 3 = \dfrac{1}{2}$ |
+- Logarithms to base 10 are **common logarithms**. When no base is written, base 10 is understood.
+
+# Basic results
+- $\log_a 1 = 0$, because $a^0 = 1$.
+- $\log_a a = 1$, because $a^1 = a$.
+- $\log_a a^n = n$ and $a^{\log_a N} = N$.
+- $\log_{10} 10 = 1$, $\log_{10} 100 = 2$, $\log_{10} 0.1 = -1$, $\log_{10} 0.01 = -2$.
+?eg Find $\log_2 64$, $\log_5 \dfrac{1}{125}$ and $\log_{\sqrt{3}} 9$.
+= $2^6 = 64$; $5^{-3} = \dfrac{1}{125}$; $(\sqrt{3})^4 = 9$
+=> 6, $-3$ and 4
+?eg Find $x$ if $\log_x 81 = 4$, and if $\log_3 x = -2$.
+= $x^4 = 81 = 3^4$, so $x = 3$. And $x = 3^{-2}$.
+=> $x = 3$; $x = \dfrac{1}{9}$
+?eg Find $x$ if $\log_8 x = \dfrac{2}{3}$.
+= $x = 8^{\frac{2}{3}} = (2^3)^{\frac{2}{3}}$
+=> 4
+
+# Laws of logarithms
+- All logarithms in a law must have the same base.
+| Law | Statement |
+| Product | $\log_a (mn) = \log_a m + \log_a n$ |
+| Quotient | $\log_a \dfrac{m}{n} = \log_a m - \log_a n$ |
+| Power | $\log_a m^n = n\log_a m$ |
+- They follow from the laws of indices: if $m = a^x$ and $n = a^y$ then $mn = a^{x+y}$.
+- There is **no** law for $\log(m + n)$ or $\log(m - n)$.
+?eg Express $\log \dfrac{a^2b}{\sqrt{c}}$ in terms of $\log a$, $\log b$ and $\log c$.
+= $\log a^2 + \log b - \log c^{\frac{1}{2}}$
+=> $2\log a + \log b - \dfrac{1}{2}\log c$
+?eg Write as a single logarithm: $2\log 3 + \log 5 - \log 9$.
+= $\log 9 + \log 5 - \log 9$
+=> $\log 5$
+?eg Evaluate $\log 25 + \log 4$ and $\log_2 96 - \log_2 3$.
+= $\log 100 = 2$ and $\log_2 32 = 5$
+=> 2 and 5
+?eg Simplify $\dfrac{\log 27}{\log 9}$.
+= $\dfrac{3\log 3}{2\log 3}$
+=> $\dfrac{3}{2}$
+
+# Using given values
+- Break each number into factors whose logarithms are known.
+- $\log 5$ can be found from $\log 2$: $\log 5 = \log \dfrac{10}{2} = 1 - \log 2$.
+?eg Given $\log 2 = 0.3010$ and $\log 3 = 0.4771$, find $\log 12$, $\log 5$ and $\log 1.5$.
+= $\log 12 = 2\log 2 + \log 3 = 0.6020 + 0.4771$
+= $\log 5 = 1 - 0.3010$
+= $\log 1.5 = \log 3 - \log 2$
+=> 1.0791, 0.6990 and 0.1761
+?eg If $\log 2 = x$ and $\log 3 = y$, express $\log 72$ and $\log 4.5$ in terms of $x$ and $y$.
+= $72 = 2^3 \times 3^2$ and $4.5 = \dfrac{9}{2}$
+=> $3x + 2y$ and $2y - x$
+
+# Equations with logarithms
+- Combine the logarithms on each side into one, using the laws.
+- If $\log_a m = \log_a n$, then $m = n$.
+- Change a number into a logarithm when needed: $1 = \log 10$, $2 = \log 100$.
+- **Reject** any value that makes the number inside a logarithm zero or negative.
+?eg Solve $\log (x + 3) + \log (x - 3) = \log 16$.
+= $\log (x^2 - 9) = \log 16$, so $x^2 = 25$ and $x = \pm 5$.
+= $x = -5$ makes $x + 3$ negative.
+=> $x = 5$
+?eg Solve $\log x + \log 5 = 2$.
+= $\log 5x = \log 100$
+=> $x = 20$
+?eg Solve $2\log x - \log (x + 6) = 0$.
+= $\log \dfrac{x^2}{x + 6} = \log 1$, so $x^2 - x - 6 = 0$ and $x = 3$ or $x = -2$.
+=> $x = 3$
+?eg If $\log (a + b) = \log a + \log b$, express $a$ in terms of $b$.
+= $a + b = ab$, so $a(b - 1) = b$
+=> $a = \dfrac{b}{b - 1}$
+?eg If $a^2 + b^2 = 23ab$, show that $\log \dfrac{a + b}{5} = \dfrac{1}{2}(\log a + \log b)$.
+= $(a + b)^2 = 25ab$, so $\left(\dfrac{a + b}{5}\right)^2 = ab$.
+=> Taking logarithms: $2\log \dfrac{a + b}{5} = \log a + \log b$
+
+# Common mistakes
+- Writing $\log (m + n) = \log m + \log n$ or $\log (m - n) = \log m - \log n$.
+- Writing $\dfrac{\log m}{\log n} = \log m - \log n$. The quotient law is for $\log \dfrac{m}{n}$.
+- Writing $(\log m)^n = n\log m$. The power law is for $\log m^n$.
+- Keeping a negative solution that makes a logarithm undefined.
+- Forgetting that $\log 1 = 0$, not 1.
+- Mixing bases inside one law.
+
+@@formulas
+Definition | $a^x = N \iff \log_a N = x$
+Log of 1 | $\log_a 1 = 0$
+Log of the base | $\log_a a = 1$
+Log of a power of the base | $\log_a a^n = n$
+Inverse | $a^{\log_a N} = N$
+Product law | $\log_a (mn) = \log_a m + \log_a n$
+Quotient law | $\log_a \dfrac{m}{n} = \log_a m - \log_a n$
+Power law | $\log_a m^n = n\log_a m$
+Root | $\log_a \sqrt[n]{m} = \dfrac{1}{n}\log_a m$
+Equal logs | $\log_a m = \log_a n$ gives $m = n$
+Common logs | $\log 10 = 1$, $\log 100 = 2$, $\log 0.1 = -1$
+From $\log 2$ | $\log 5 = 1 - \log 2$
+
+@@dpp
+Q: Write in logarithmic form: $5^3 = 125$ and $10^{-3} = 0.001$.
+A: $\log_5 125 = 3$ and $\log_{10} 0.001 = -3$
+Q: Find $\log_3 243$ and $\log_4 \dfrac{1}{64}$.
+A: 5 and $-3$
+Q: Find $x$ if $\log_x 125 = 3$ and if $\log_{16} x = \dfrac{3}{4}$.
+A: $x = 5$; $x = 8$
+Q: Express $\log \dfrac{x^3}{y^2z}$ in terms of $\log x$, $\log y$, $\log z$.
+A: $3\log x - 2\log y - \log z$
+Q: Write as a single logarithm: $\log 6 + 2\log 5 - \log 15$.
+A: $\log 10 = 1$
+Q: Evaluate $\dfrac{\log 32}{\log 4}$.
+A: $\dfrac{5}{2}$
+Q: Given $\log 2 = 0.3010$ and $\log 3 = 0.4771$, find $\log 18$ and $\log 25$.
+A: 1.2552 and 1.3980
+Q: Solve $\log (x + 1) + \log (x - 1) = \log 24$.
+A: $x = 5$
+Q: Solve $\log (3x + 1) = 2$.
+A: $x = 33$
+Q: If $\log (x - y) = \log x - \log y$, express $x$ in terms of $y$.
+A: $x = \dfrac{y^2}{y - 1}$

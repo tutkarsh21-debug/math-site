@@ -1,0 +1,120 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 22
+@title Trigonometrical Ratios
+@summary The six trigonometrical ratios of an acute angle in a right-angled triangle, the relations between them, and finding all the ratios when one is given.
+
+# Naming the sides
+- In a right-angled triangle, for an acute angle $\theta$:
+- **Hypotenuse**: the side opposite the right angle.
+- **Perpendicular**: the side **opposite** $\theta$.
+- **Base**: the side **adjacent** to $\theta$ (other than the hypotenuse).
+- The perpendicular and the base change places when the other acute angle is used.
+!fig w=360 h=190; P B 60 150 bl; P C 250 150 br; P A 250 40 tr; L A B; L B C; L A C; R A C B; A C B A θ; T 112 82 hypotenuse; N B C base; T 300 98 perpendicular; cap Right angle at C. For angle θ at B: AC is the perpendicular and BC is the base.
+
+# The six ratios
+| Ratio | Definition | Short form |
+| sine | $\dfrac{\text{perpendicular}}{\text{hypotenuse}}$ | $\sin\theta$ |
+| cosine | $\dfrac{\text{base}}{\text{hypotenuse}}$ | $\cos\theta$ |
+| tangent | $\dfrac{\text{perpendicular}}{\text{base}}$ | $\tan\theta$ |
+| cosecant | $\dfrac{\text{hypotenuse}}{\text{perpendicular}}$ | $\text{cosec}\,\theta$ |
+| secant | $\dfrac{\text{hypotenuse}}{\text{base}}$ | $\sec\theta$ |
+| cotangent | $\dfrac{\text{base}}{\text{perpendicular}}$ | $\cot\theta$ |
+- A trigonometrical ratio depends only on the **angle**, not on the size of the triangle.
+- $\sin\theta$ is one symbol. It does not mean $\sin \times \theta$. $(\sin\theta)^2$ is written $\sin^2\theta$.
+- Since the hypotenuse is the longest side, $\sin\theta$ and $\cos\theta$ are less than 1, and $\text{cosec}\,\theta$ and $\sec\theta$ are greater than 1, for an acute angle.
+?eg In triangle ABC, $\angle B = 90^\circ$, $AB = 5$ cm and $BC = 12$ cm. Find $\sin A$, $\cos A$ and $\tan C$.
+= $AC = \sqrt{25 + 144} = 13$ cm. For angle A: perpendicular $BC = 12$, base $AB = 5$.
+= For angle C: perpendicular $AB = 5$, base $BC = 12$.
+=> $\sin A = \dfrac{12}{13}$, $\cos A = \dfrac{5}{13}$, $\tan C = \dfrac{5}{12}$
+
+# Relations between the ratios
+- **Reciprocal relations**: $\text{cosec}\,\theta = \dfrac{1}{\sin\theta}$, $\sec\theta = \dfrac{1}{\cos\theta}$, $\cot\theta = \dfrac{1}{\tan\theta}$.
+- **Quotient relations**: $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$ and $\cot\theta = \dfrac{\cos\theta}{\sin\theta}$.
+- **Square relations** (from Pythagoras theorem):
+$$\sin^2\theta + \cos^2\theta = 1, \qquad 1 + \tan^2\theta = \sec^2\theta, \qquad 1 + \cot^2\theta = \text{cosec}^2\theta$$
+?eg If $\sin\theta = \dfrac{3}{5}$, find $\cos\theta$ using a square relation.
+= $\cos^2\theta = 1 - \dfrac{9}{25} = \dfrac{16}{25}$
+=> $\cos\theta = \dfrac{4}{5}$
+
+# Given one ratio, find the others
+- Draw a right triangle and mark two sides from the given ratio, using a common multiple $k$.
+- Find the third side by Pythagoras theorem.
+- Write the required ratios. The $k$ cancels.
+?eg If $\tan\theta = \dfrac{8}{15}$, find $\sin\theta$ and $\sec\theta$.
+= Perpendicular $8k$, base $15k$, hypotenuse $\sqrt{64k^2 + 225k^2} = 17k$.
+=> $\sin\theta = \dfrac{8}{17}$, $\sec\theta = \dfrac{17}{15}$
+?eg If $\cos A = \dfrac{7}{25}$, find $\tan A + \cot A$.
+= Base $7k$, hypotenuse $25k$, perpendicular $24k$. $\tan A = \dfrac{24}{7}$, $\cot A = \dfrac{7}{24}$.
+= $\dfrac{24}{7} + \dfrac{7}{24} = \dfrac{576 + 49}{168}$
+=> $\dfrac{625}{168}$
+?eg If $\text{cosec}\,\theta = \sqrt{5}$, find $\cot\theta - \cos\theta$.
+= Hypotenuse $\sqrt{5}k$, perpendicular $k$, base $2k$. $\cot\theta = 2$, $\cos\theta = \dfrac{2}{\sqrt{5}}$.
+=> $2 - \dfrac{2}{\sqrt{5}} = \dfrac{2(5 - \sqrt{5})}{5}$
+?eg If $5\sin\theta = 3$, find the value of $\dfrac{\sec\theta - \tan\theta}{\sec\theta + \tan\theta}$.
+= $\sin\theta = \dfrac{3}{5}$: perpendicular 3, hypotenuse 5, base 4. $\sec\theta = \dfrac{5}{4}$, $\tan\theta = \dfrac{3}{4}$.
+= $\dfrac{\frac{5}{4} - \frac{3}{4}}{\frac{5}{4} + \frac{3}{4}} = \dfrac{\frac{1}{2}}{2}$
+=> $\dfrac{1}{4}$
+
+# Using the ratios to find sides
+- In a right triangle, if one side and a ratio are known, the other sides follow.
+?eg In triangle PQR, $\angle Q = 90^\circ$, $PR = 20$ cm and $\sin R = \dfrac{3}{5}$. Find PQ and QR.
+= $\sin R = \dfrac{PQ}{PR}$, so $PQ = 20 \times \dfrac{3}{5} = 12$ cm. $QR = \sqrt{400 - 144}$.
+=> $PQ = 12$ cm, $QR = 16$ cm
+?eg In a rhombus of side 10 cm, a diagonal makes an angle $\theta$ with a side, where $\cos\theta = \dfrac{4}{5}$. Find the diagonals.
+= The diagonals bisect each other at right angles. Half of one diagonal $= 10\cos\theta = 8$ cm; half of the other $= 10\sin\theta = 6$ cm.
+=> 16 cm and 12 cm
+
+# Expressions in sine and cosine
+- To evaluate an expression in $\sin\theta$ and $\cos\theta$ when $\tan\theta$ is known, **divide the numerator and the denominator by $\cos\theta$**.
+?eg If $\tan\theta = \dfrac{4}{3}$, find $\dfrac{3\sin\theta + 2\cos\theta}{3\sin\theta - 2\cos\theta}$.
+= Dividing by $\cos\theta$: $\dfrac{3\tan\theta + 2}{3\tan\theta - 2} = \dfrac{4 + 2}{4 - 2}$
+=> 3
+?eg If $\cot\theta = \dfrac{1}{\sqrt{3}}$, show that $\dfrac{1 - \cos^2\theta}{2 - \sin^2\theta} = \dfrac{3}{5}$.
+= Base 1, perpendicular $\sqrt{3}$, hypotenuse 2: $\cos\theta = \dfrac{1}{2}$, $\sin\theta = \dfrac{\sqrt{3}}{2}$.
+=> $\dfrac{1 - \frac{1}{4}}{2 - \frac{3}{4}} = \dfrac{\frac{3}{4}}{\frac{5}{4}} = \dfrac{3}{5}$
+
+# Common mistakes
+- Using the same perpendicular and base for both acute angles. They swap.
+- Writing $\sin^2\theta$ as $\sin\theta^2$ or $\sin 2\theta$.
+- Taking $\text{cosec}\,\theta$ as the reciprocal of $\cos\theta$. It is the reciprocal of $\sin\theta$.
+- Cancelling "sin" as if it were a number: $\dfrac{\sin A}{\sin B}$ is not $\dfrac{A}{B}$.
+- Forgetting the square root when finding the third side.
+- Getting a value of $\sin\theta$ or $\cos\theta$ greater than 1 and not noticing the error.
+
+@@formulas
+Sine | $\sin\theta = \dfrac{\text{perpendicular}}{\text{hypotenuse}}$
+Cosine | $\cos\theta = \dfrac{\text{base}}{\text{hypotenuse}}$
+Tangent | $\tan\theta = \dfrac{\text{perpendicular}}{\text{base}}$
+Cosecant | $\text{cosec}\,\theta = \dfrac{1}{\sin\theta}$
+Secant | $\sec\theta = \dfrac{1}{\cos\theta}$
+Cotangent | $\cot\theta = \dfrac{1}{\tan\theta}$
+Quotient relation | $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$
+Quotient relation | $\cot\theta = \dfrac{\cos\theta}{\sin\theta}$
+Square relation | $\sin^2\theta + \cos^2\theta = 1$
+Square relation | $1 + \tan^2\theta = \sec^2\theta$
+Square relation | $1 + \cot^2\theta = \text{cosec}^2\theta$
+Sides from the hypotenuse | Perpendicular $= h\sin\theta$, base $= h\cos\theta$
+
+@@dpp
+Q: In triangle ABC, $\angle B = 90^\circ$, $AB = 8$ cm, $BC = 6$ cm. Find $\sin A$ and $\cos A$.
+A: $AC = 10$ cm; $\sin A = \dfrac{3}{5}$, $\cos A = \dfrac{4}{5}$
+Q: If $\sin\theta = \dfrac{5}{13}$, find $\cos\theta$ and $\tan\theta$.
+A: $\dfrac{12}{13}$ and $\dfrac{5}{12}$
+Q: If $\tan A = \dfrac{3}{4}$, find $\sin A + \cos A$.
+A: $\dfrac{7}{5}$
+Q: If $\sec\theta = \dfrac{25}{7}$, find $\tan\theta$ and $\text{cosec}\,\theta$.
+A: $\dfrac{24}{7}$ and $\dfrac{25}{24}$
+Q: If $\cos\theta = \dfrac{3}{5}$, find $\dfrac{\sin\theta - \cot\theta}{2\tan\theta}$.
+A: $\dfrac{\frac{4}{5} - \frac{3}{4}}{\frac{8}{3}} = \dfrac{3}{160}$
+Q: If $\tan\theta = \dfrac{5}{12}$, find $\dfrac{\sin\theta + \cos\theta}{\sin\theta - \cos\theta}$.
+A: $-\dfrac{17}{7}$
+Q: If $3\tan\theta = 4$, find $\dfrac{4\cos\theta - \sin\theta}{2\cos\theta + \sin\theta}$.
+A: $\dfrac{4 - \frac{4}{3}}{2 + \frac{4}{3}} = \dfrac{4}{5}$
+Q: In triangle PQR, $\angle Q = 90^\circ$, $PR = 26$ cm and $\cos P = \dfrac{5}{13}$. Find PQ and QR.
+A: 10 cm and 24 cm
+Q: If $\sin\theta = \cos\theta$ for an acute angle, find $\tan\theta$.
+A: 1
+Q: Is $\sin\theta = \dfrac{4}{3}$ possible for an acute angle? Why?
+A: No; the perpendicular cannot be longer than the hypotenuse

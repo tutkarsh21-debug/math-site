@@ -1,0 +1,142 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 14
+@title Rectilinear Figures
+@summary Polygons and their angle sums, and the properties of quadrilaterals: parallelogram, rectangle, rhombus, square, trapezium and kite, with the conditions that identify each.
+
+# Polygons
+- A **rectilinear figure** is a closed plane figure bounded by line segments. A **polygon** has three or more sides.
+- A polygon is **convex** if every interior angle is less than $180^\circ$. It is **regular** if all its sides are equal and all its angles are equal.
+- For a convex polygon of $n$ sides:
+| Quantity | Formula |
+| Sum of the interior angles | $(2n - 4)$ right angles $= (n - 2) \times 180^\circ$ |
+| Sum of the exterior angles | $360^\circ$ |
+| Each interior angle of a regular polygon | $\dfrac{(2n - 4) \times 90^\circ}{n}$ |
+| Each exterior angle of a regular polygon | $\dfrac{360^\circ}{n}$ |
+| Number of diagonals | $\dfrac{n(n - 3)}{2}$ |
+- At each vertex, interior angle $+$ exterior angle $= 180^\circ$.
+?eg Find the sum of the interior angles of a hexagon and each angle of a regular hexagon.
+= $(6 - 2) \times 180^\circ = 720^\circ$; each angle $= 720^\circ \div 6$
+=> $720^\circ$; $120^\circ$
+?eg Each interior angle of a regular polygon is $150^\circ$. Find the number of sides.
+= Each exterior angle is $30^\circ$, so $n = 360 \div 30$.
+=> 12
+?eg The angles of a pentagon are in the ratio $4 : 8 : 6 : 4 : 5$. Find them.
+= The sum is $540^\circ$ and there are 27 parts, so one part is $20^\circ$.
+=> $80^\circ, 160^\circ, 120^\circ, 80^\circ, 100^\circ$
+?eg The ratio of an interior angle to an exterior angle of a regular polygon is $7 : 2$. Find the number of sides.
+= $7k + 2k = 180^\circ$, so the exterior angle is $40^\circ$.
+=> 9 sides
+
+# Quadrilaterals
+- The sum of the angles of a quadrilateral is $360^\circ$.
+| Quadrilateral | Definition |
+| Trapezium | One pair of opposite sides parallel |
+| Isosceles trapezium | A trapezium with equal non-parallel sides |
+| Parallelogram | Both pairs of opposite sides parallel |
+| Rectangle | A parallelogram with one angle $90^\circ$ |
+| Rhombus | A parallelogram with a pair of adjacent sides equal |
+| Square | A rectangle with adjacent sides equal |
+| Kite | Two pairs of equal adjacent sides |
+
+# Parallelogram
+- Opposite sides are equal.
+- Opposite angles are equal.
+- Adjacent angles are supplementary.
+- The diagonals bisect each other.
+- Each diagonal divides it into two congruent triangles.
+!fig w=320 h=175; P A 40 140 bl; P B 220 140 br; P C 280 40 tr; P D 100 40 tl; P O 160 90 t; L A B; L B C; L C D; L D A; L A C; L B D; cap Parallelogram ABCD: AO = OC and BO = OD
+- **A quadrilateral is a parallelogram if** any one of these holds: both pairs of opposite sides are equal; both pairs of opposite angles are equal; the diagonals bisect each other; **one pair of opposite sides is equal and parallel**.
+?eg In parallelogram ABCD, $\angle A = (3x + 10)^\circ$ and $\angle B = (2x - 5)^\circ$. Find all the angles.
+= $3x + 10 + 2x - 5 = 180$, so $x = 35$.
+=> $\angle A = \angle C = 115^\circ$ and $\angle B = \angle D = 65^\circ$
+?eg In parallelogram ABCD, the diagonals meet at O. If $AO = 2x + 1$, $OC = 3x - 4$, find AC.
+= $2x + 1 = 3x - 4$, so $x = 5$ and $AO = 11$
+=> $AC = 22$
+
+# Rectangle, rhombus and square
+| Property | Rectangle | Rhombus | Square |
+| All angles $90^\circ$ | Yes | No | Yes |
+| All sides equal | No | Yes | Yes |
+| Diagonals equal | Yes | No | Yes |
+| Diagonals perpendicular | No | Yes | Yes |
+| Diagonals bisect the angles | No | Yes | Yes |
+- All three have every property of a parallelogram.
+- In a rectangle the diagonals are equal and bisect each other, so $OA = OB = OC = OD$.
+- In a rhombus each diagonal is the perpendicular bisector of the other.
+- In a square each diagonal makes $45^\circ$ with the sides.
+?eg In rectangle ABCD the diagonals meet at O and $\angle AOB = 124^\circ$. Find $\angle OAB$ and $\angle OBC$.
+= $OA = OB$, so $\angle OAB = \dfrac{180^\circ - 124^\circ}{2} = 28^\circ$.
+= $\angle OBC = 90^\circ - 28^\circ$
+=> $28^\circ$ and $62^\circ$
+?eg In rhombus ABCD, $\angle A = 60^\circ$ and the side is 10 cm. Find the diagonals.
+= Triangle ABD is equilateral, so $BD = 10$ cm. Half of AC is the altitude: $\sqrt{100 - 25} = 5\sqrt{3}$.
+=> $BD = 10$ cm and $AC = 10\sqrt{3}$ cm
+?eg ABCD is a square. E is a point outside the square such that ABE is an equilateral triangle. Find $\angle DEC$.
+= $\angle DAE = 90^\circ + 60^\circ = 150^\circ$ and $AD = AE$, so $\angle AED = 15^\circ$. Similarly $\angle BEC = 15^\circ$.
+= $\angle DEC = 60^\circ - 15^\circ - 15^\circ$
+=> $30^\circ$
+
+# Trapezium and kite
+- **Trapezium** with $AB \parallel DC$: $\angle A + \angle D = 180^\circ$ and $\angle B + \angle C = 180^\circ$.
+- **Isosceles trapezium**: base angles are equal ($\angle A = \angle B$, $\angle C = \angle D$) and the diagonals are equal.
+- **Kite** with $AB = AD$ and $CB = CD$: diagonal AC is the perpendicular bisector of BD and bisects $\angle A$ and $\angle C$; $\angle B = \angle D$.
+?eg In trapezium ABCD, $AB \parallel DC$, $\angle A = 72^\circ$ and $\angle C = 115^\circ$. Find $\angle B$ and $\angle D$.
+= $\angle D = 180^\circ - 72^\circ$ and $\angle B = 180^\circ - 115^\circ$
+=> $\angle B = 65^\circ$, $\angle D = 108^\circ$
+?eg In isosceles trapezium ABCD with $AB \parallel DC$ and $AD = BC$, $\angle A = 70^\circ$. Find the other angles.
+=> $\angle B = 70^\circ$, $\angle C = \angle D = 110^\circ$
+
+# Proofs with parallelograms
+?eg ABCD is a parallelogram. E and F are the mid-points of AB and CD. Prove that AECF is a parallelogram.
+= $AB \parallel DC$ and $AB = DC$. So $AE = \dfrac{1}{2}AB = \dfrac{1}{2}DC = FC$, and $AE \parallel FC$.
+=> One pair of opposite sides is equal and parallel, so AECF is a parallelogram
+?eg Prove that the bisectors of two adjacent angles of a parallelogram meet at right angles.
+= $\angle A + \angle B = 180^\circ$, so $\dfrac{1}{2}\angle A + \dfrac{1}{2}\angle B = 90^\circ$.
+=> In the triangle formed with side AB, the third angle is $180^\circ - 90^\circ = 90^\circ$
+
+# Common mistakes
+- Using $(n - 2) \times 180^\circ$ for the sum of the **exterior** angles. That sum is always $360^\circ$.
+- Saying the diagonals of a parallelogram are equal or perpendicular. That is true only for special types.
+- Treating adjacent angles of a parallelogram as equal.
+- Assuming a quadrilateral with one pair of equal sides and one pair of parallel sides (different pairs) is a parallelogram.
+- Forgetting that a rhombus and a rectangle are both parallelograms.
+
+@@formulas
+Interior angle sum | $(n - 2) \times 180^\circ$
+Exterior angle sum | $360^\circ$
+Regular polygon, exterior angle | $\dfrac{360^\circ}{n}$
+Regular polygon, interior angle | $180^\circ - \dfrac{360^\circ}{n}$
+Number of sides | $n = \dfrac{360^\circ}{\text{exterior angle}}$
+Number of diagonals | $\dfrac{n(n - 3)}{2}$
+Quadrilateral | Angle sum $360^\circ$
+Parallelogram | Opposite sides and angles equal; diagonals bisect each other
+Sufficient condition | One pair of opposite sides equal and parallel
+Rectangle | Diagonals equal and bisect each other
+Rhombus | Diagonals bisect each other at $90^\circ$ and bisect the angles
+Square | Diagonals equal, perpendicular, bisect each other
+Trapezium | Co-interior angles between the parallel sides add up to $180^\circ$
+Kite | One diagonal is the perpendicular bisector of the other
+
+@@dpp
+Q: Find the sum of the interior angles of an octagon.
+A: $1080^\circ$
+Q: Each exterior angle of a regular polygon is $24^\circ$. Find the number of sides.
+A: 15
+Q: Find each interior angle of a regular decagon.
+A: $144^\circ$
+Q: How many diagonals does a polygon of 9 sides have?
+A: 27
+Q: Is there a regular polygon with each interior angle $110^\circ$?
+A: No; the exterior angle would be $70^\circ$, and $360 \div 70$ is not a whole number
+Q: Three angles of a quadrilateral are $80^\circ$, $95^\circ$ and $110^\circ$. Find the fourth.
+A: $75^\circ$
+Q: In parallelogram ABCD, $\angle A = 2\angle B$. Find the angles.
+A: $120^\circ, 60^\circ, 120^\circ, 60^\circ$
+Q: In rectangle PQRS the diagonals meet at O and $\angle POQ = 110^\circ$. Find $\angle OPS$.
+A: $55^\circ$
+Q: The diagonals of a rhombus are 12 cm and 16 cm. Find its side.
+A: 10 cm
+Q: In trapezium ABCD, $AB \parallel DC$ and $\angle A : \angle D = 2 : 3$. Find $\angle A$ and $\angle D$.
+A: $72^\circ$ and $108^\circ$

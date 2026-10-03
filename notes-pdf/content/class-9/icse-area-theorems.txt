@@ -1,0 +1,113 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 16
+@title Area Theorems
+@summary Theorems comparing the areas of parallelograms and triangles on the same base and between the same parallels, with the results on medians and their use in proofs.
+
+# Basic ideas
+- **Congruent figures have equal areas.** Figures with equal areas need not be congruent.
+- If a figure is divided into parts that do not overlap, its area is the sum of the areas of the parts.
+- Two figures are **on the same base and between the same parallels** if they share a base and the vertices (or sides) opposite the base lie on one line parallel to the base.
+- Figures between the same parallels have the **same height**.
+
+# The theorems
+- **Theorem 1**: a parallelogram and a rectangle on the same base and between the same parallels are **equal in area**. So the area of a parallelogram $=$ base $\times$ height.
+- **Theorem 2**: parallelograms on the same base (or equal bases) and between the same parallels are **equal in area**.
+- **Theorem 3**: the area of a triangle is **half** the area of a parallelogram on the same base and between the same parallels. So the area of a triangle $= \dfrac{1}{2} \times$ base $\times$ height.
+- **Theorem 4**: triangles on the same base (or equal bases) and between the same parallels are **equal in area**.
+- **Converse of Theorem 4**: triangles with equal areas on the same base, and on the same side of it, lie between the same parallels.
+!fig w=330 h=175; Q L1 20 40; Q L2 310 40; Q M1 20 140; Q M2 310 140; D L1 L2; D M1 M2; P A 70 140 b; P B 190 140 b; P C 150 40 t; P D 270 40 t; L A B; L A C; L B C; L A D; L B D; cap Triangles ABC and ABD are on the same base AB and between the same parallels
+?eg Parallelogram ABCD and rectangle ABEF are on the same base AB and have equal heights. If $AB = 8$ cm and the height is 5 cm, find the area of each.
+=> 40 sq cm each
+?eg P is a point on side DC of parallelogram ABCD, whose area is 72 sq cm. Find the area of triangle APB.
+= The triangle and the parallelogram are on the same base AB and between the same parallels AB and DC.
+=> 36 sq cm
+
+# Medians and areas
+- **A median divides a triangle into two triangles of equal area.** Both have equal bases and the same height.
+- The three medians divide a triangle into **six triangles of equal area**.
+- If G is the centroid of triangle ABC: area(GAB) $=$ area(GBC) $=$ area(GCA) $= \dfrac{1}{3}$ area(ABC).
+- If D is a point on BC, then $\dfrac{\text{area}(ABD)}{\text{area}(ADC)} = \dfrac{BD}{DC}$, because the two triangles have the same height.
+?eg AD is a median of triangle ABC and E is the mid-point of AD. If the area of triangle ABC is 48 sq cm, find the area of triangle BED.
+= Area(ABD) $= 24$ sq cm. BE is a median of triangle ABD.
+=> 12 sq cm
+?eg D is a point on side BC of triangle ABC with $BD : DC = 2 : 3$. If the area of triangle ABC is 60 sq cm, find the area of triangle ABD.
+= $\dfrac{2}{5} \times 60$
+=> 24 sq cm
+
+# Diagonals of quadrilaterals
+- A diagonal of a parallelogram divides it into two triangles of equal area.
+- The two diagonals of a parallelogram divide it into **four triangles of equal area**.
+- In a **trapezium** ABCD with $AB \parallel DC$ and diagonals meeting at O: area(AOD) $=$ area(BOC).
+- Area of a rhombus $= \dfrac{1}{2} \times d_1 \times d_2$.
+- If the mid-points of the sides of a parallelogram are joined in order, the parallelogram formed has half the area.
+!fig w=320 h=180; P A 40 150 bl; P B 290 150 br; P C 220 40 tr; P D 110 40 tl; P O 165 73.6 t; L A B; L B C; L C D; L D A; L A C; L B D; F A O D; F B O C; cap Trapezium ABCD: the shaded triangles AOD and BOC have equal areas
+?eg In trapezium ABCD, $AB \parallel DC$ and the diagonals meet at O. Prove that area(AOD) $=$ area(BOC).
+= Triangles ADB and ACB are on the same base AB and between the same parallels, so their areas are equal.
+=> Subtracting area(AOB) from both gives area(AOD) $=$ area(BOC)
+?eg The diagonals of parallelogram ABCD meet at O. If the area of triangle AOB is 9 sq cm, find the area of the parallelogram.
+=> 36 sq cm
+
+# Using the theorems in proofs
+- Look for a common base and a pair of parallel lines.
+- Add or subtract a common area to pass from one pair of equal areas to another.
+- To prove two lines parallel, show that two triangles on the same base have equal areas (converse).
+?eg In triangle ABC, D and E are points on AB and AC such that area(DBC) $=$ area(EBC). Prove that $DE \parallel BC$.
+= Triangles DBC and EBC are on the same base BC, on the same side of it, and have equal areas.
+=> They lie between the same parallels, so $DE \parallel BC$
+?eg ABCD is a parallelogram and P is any point inside it. Prove that area(APB) $+$ area(PCD) $= \dfrac{1}{2}$ area(ABCD).
+= Through P draw a line parallel to AB, meeting AD at E and BC at F. Then ABFE and EFCD are parallelograms.
+= Area(APB) $= \dfrac{1}{2}$ area(ABFE) and area(PCD) $= \dfrac{1}{2}$ area(EFCD).
+=> Adding gives $\dfrac{1}{2}$ area(ABCD)
+?eg D, E and F are the mid-points of sides BC, CA and AB of triangle ABC. Prove that area(DEF) $= \dfrac{1}{4}$ area(ABC).
+= By the mid-point theorem, BDEF, DCEF and AFDE are parallelograms. A diagonal divides a parallelogram into two equal triangles.
+= So triangles AFE, BDF, DCE and DEF all have equal areas.
+=> Each is $\dfrac{1}{4}$ of area(ABC)
+?eg In quadrilateral ABCD, a line through D parallel to AC meets BC produced at E. Prove that area(ABE) $=$ area(ABCD).
+= Triangles ACD and ACE are on the same base AC and between the parallels AC and DE, so their areas are equal.
+=> Adding area(ABC) to both: area(ABCD) $=$ area(ABE)
+
+# Common mistakes
+- Using a theorem when the figures are between the same parallels but **not** on the same or equal bases.
+- Forgetting the factor $\dfrac{1}{2}$ between a triangle and a parallelogram.
+- Assuming equal areas mean congruent triangles.
+- Using a slant side as the height.
+- In a trapezium, claiming that triangles AOB and COD have equal areas. It is AOD and BOC that are equal.
+
+@@formulas
+Parallelogram | Base $\times$ height
+Triangle | $\dfrac{1}{2} \times$ base $\times$ height
+Same base, same parallels | Parallelograms have equal areas
+Same base, same parallels | Triangles have equal areas
+Triangle and parallelogram | Triangle $= \dfrac{1}{2}$ parallelogram
+Median | Divides a triangle into two equal areas
+Three medians | Six triangles of equal area
+Centroid G | Area(GBC) $= \dfrac{1}{3}$ area(ABC)
+Point D on BC | $\dfrac{\text{area}(ABD)}{\text{area}(ADC)} = \dfrac{BD}{DC}$
+Diagonals of a parallelogram | Four triangles of equal area
+Trapezium, diagonals meet at O | Area(AOD) $=$ area(BOC)
+Mid-point triangle | $\dfrac{1}{4}$ of the triangle
+Rhombus | $\dfrac{1}{2} d_1 d_2$
+
+@@dpp
+Q: A parallelogram has base 12 cm and height 7 cm. Find its area.
+A: 84 sq cm
+Q: A triangle and a parallelogram are on the same base and between the same parallels. The triangle has area 35 sq cm. Find the area of the parallelogram.
+A: 70 sq cm
+Q: AD is a median of triangle ABC, whose area is 50 sq cm. Find the area of triangle ABD.
+A: 25 sq cm
+Q: The diagonals of a parallelogram of area 64 sq cm meet at O. Find the area of triangle BOC.
+A: 16 sq cm
+Q: In triangle ABC, D is on BC with $BD : DC = 3 : 1$. If area(ADC) is 8 sq cm, find area(ABC).
+A: 32 sq cm
+Q: G is the centroid of triangle ABC of area 54 sq cm. Find the area of triangle GBC.
+A: 18 sq cm
+Q: D, E, F are the mid-points of the sides of a triangle of area 84 sq cm. Find the area of triangle DEF.
+A: 21 sq cm
+Q: E is the mid-point of median AD of triangle ABC. What fraction of the area of triangle ABC is triangle BEC?
+A: $\dfrac{1}{2}$
+Q: In trapezium ABCD with $AB \parallel DC$, the diagonals meet at O. If area(AOD) is 15 sq cm, find area(BOC).
+A: 15 sq cm
+Q: A rhombus has diagonals 14 cm and 18 cm. Find its area.
+A: 126 sq cm

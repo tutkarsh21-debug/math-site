@@ -1,0 +1,113 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 12
+@title Mid-point and Its Converse
+@summary The mid-point theorem, its converse and the equal intercept theorem, with their use in triangles, trapeziums and other quadrilaterals.
+
+# Mid-point theorem
+- **Theorem**: the line segment joining the **mid-points of two sides** of a triangle is **parallel to the third side** and **equal to half of it**.
+- If D and E are the mid-points of AB and AC, then $DE \parallel BC$ and $DE = \dfrac{1}{2}BC$.
+!fig w=320 h=205; P A 150 22 t; P B 40 180 bl; P C 280 180 br; P D 95 101 l; P E 215 101 r; L A B; L A C; L B C; H D E; cap D and E are mid-points: DE is parallel to BC and DE = ½ BC
+- **Proof idea**: produce DE to F so that $EF = DE$ and join CF. $\triangle ADE \cong \triangle CFE$ (S.A.S.), so $CF = AD = DB$ and $CF \parallel AB$. Then DBCF is a parallelogram, so $DF \parallel BC$ and $DF = BC$, giving $DE = \dfrac{1}{2}BC$.
+?eg In triangle ABC, D and E are the mid-points of AB and AC. If $BC = 14$ cm and $\angle B = 65^\circ$, find DE and $\angle ADE$.
+= $DE = \dfrac{1}{2} \times 14$. Since $DE \parallel BC$, $\angle ADE = \angle B$ (corresponding angles).
+=> $DE = 7$ cm, $\angle ADE = 65^\circ$
+
+# Converse of the mid-point theorem
+- **Theorem**: the line drawn through the **mid-point of one side** of a triangle, **parallel to another side**, **bisects the third side**.
+- If D is the mid-point of AB and $DE \parallel BC$ meets AC at E, then E is the mid-point of AC, and $DE = \dfrac{1}{2}BC$.
+?eg In triangle ABC, D is the mid-point of AB and DE is parallel to BC, meeting AC at E. If $AC = 9$ cm and $BC = 10$ cm, find AE and DE.
+= E is the mid-point of AC.
+=> $AE = 4.5$ cm, $DE = 5$ cm
+
+# The triangle of mid-points
+- Let D, E, F be the mid-points of BC, CA, AB of triangle ABC.
+- $EF \parallel BC$, $FD \parallel CA$, $DE \parallel AB$, and each is half the side it is parallel to.
+- The four triangles AFE, FBD, EDC and DEF are **congruent**. Each has $\dfrac{1}{4}$ of the area of triangle ABC.
+- Perimeter of triangle DEF $= \dfrac{1}{2} \times$ perimeter of triangle ABC.
+- BDEF, DCEF and AFDE are parallelograms.
+?eg The sides of a triangle are 8 cm, 10 cm and 12 cm. Find the perimeter of the triangle formed by joining the mid-points of its sides.
+= The sides are 4 cm, 5 cm and 6 cm.
+=> 15 cm
+
+# Quadrilaterals
+- **The figure formed by joining the mid-points of the sides of any quadrilateral, in order, is a parallelogram.**
+- Reason: if P, Q, R, S are the mid-points of AB, BC, CD, DA, then PQ and SR are both parallel to AC and equal to $\dfrac{1}{2}AC$.
+| Original quadrilateral | Mid-point figure |
+| Any quadrilateral | Parallelogram |
+| Rectangle | Rhombus |
+| Rhombus | Rectangle |
+| Square | Square |
+| Diagonals equal | Rhombus |
+| Diagonals perpendicular | Rectangle |
+?eg The diagonals of a quadrilateral are 10 cm and 16 cm. Find the perimeter of the figure formed by joining the mid-points of its sides.
+= Two sides are $\dfrac{1}{2} \times 10 = 5$ cm and two are $\dfrac{1}{2} \times 16 = 8$ cm.
+=> 26 cm
+
+# Trapezium
+- In trapezium ABCD with $AB \parallel DC$, let E and F be the mid-points of the non-parallel sides AD and BC.
+- $EF \parallel AB \parallel DC$ and $EF = \dfrac{1}{2}(AB + DC)$.
+- The segment joining the mid-points of the **diagonals** is parallel to the parallel sides and equals $\dfrac{1}{2}(AB - DC)$, where $AB > DC$.
+!fig w=320 h=180; P A 40 150 bl; P B 290 150 br; P C 220 40 tr; P D 110 40 tl; P E 75 95 l; P F 255 95 r; L A B; L B C; L C D; L D A; H E F; cap EF joins the mid-points of AD and BC: EF = ½ (AB + DC)
+?eg In trapezium ABCD, $AB \parallel DC$, $AB = 18$ cm and $DC = 10$ cm. E and F are the mid-points of AD and BC. Find EF.
+= $\dfrac{1}{2}(18 + 10)$
+=> 14 cm
+?eg In the same trapezium, find the distance between the mid-points of the diagonals.
+= $\dfrac{1}{2}(18 - 10)$
+=> 4 cm
+
+# Equal intercept theorem
+- **Theorem**: if a transversal makes **equal intercepts** on three or more parallel lines, then **any other transversal** cutting them also makes equal intercepts.
+- If $l \parallel m \parallel n$ and one transversal has $AB = BC$, another transversal has $PQ = QR$.
+- This theorem is used to divide a line segment into any number of equal parts.
+?eg Three parallel lines cut a transversal at A, B, C with $AB = BC = 3$ cm. They cut another transversal at P, Q, R with $PQ = 4$ cm. Find PR.
+= $QR = PQ = 4$ cm
+=> $PR = 8$ cm
+?eg ABCD is a parallelogram. E is the mid-point of AB and F is the mid-point of CD. Prove that AF and CE trisect the diagonal BD.
+= Let AF and CE meet BD at P and Q. AECF is a parallelogram ($AE = CF$ and $AE \parallel CF$), so $AF \parallel EC$.
+= In $\triangle ABP$, E is the mid-point of AB and $EQ \parallel AP$, so Q is the mid-point of BP: $BQ = QP$. Similarly in $\triangle DQC$, $DP = PQ$.
+=> $DP = PQ = QB$
+
+# Common mistakes
+- Using the mid-point theorem when only one of the points is a mid-point. Then the converse is needed, together with a parallel line.
+- Writing $DE = BC$ instead of $DE = \dfrac{1}{2}BC$.
+- In a trapezium, taking the mid-points of the parallel sides instead of the non-parallel sides.
+- Forgetting to state both parts of the theorem (parallel **and** half).
+- Assuming the mid-point figure of a quadrilateral is a rectangle or rhombus without checking the diagonals.
+
+@@formulas
+Mid-point theorem | $DE \parallel BC$ and $DE = \dfrac{1}{2}BC$
+Converse | A line through the mid-point of one side, parallel to another, bisects the third side
+Mid-point triangle, perimeter | $\dfrac{1}{2} \times$ perimeter of the triangle
+Mid-point triangle, area | $\dfrac{1}{4} \times$ area of the triangle
+Mid-points of a quadrilateral | Form a parallelogram
+Sides of that parallelogram | $\dfrac{1}{2}d_1$ and $\dfrac{1}{2}d_2$
+Perimeter of that parallelogram | $d_1 + d_2$
+Trapezium, mid-points of the non-parallel sides | $EF = \dfrac{1}{2}(AB + DC)$
+Trapezium, mid-points of the diagonals | $\dfrac{1}{2}(AB - DC)$
+Equal intercept theorem | Equal intercepts on one transversal give equal intercepts on every transversal
+Rectangle | Mid-point figure is a rhombus
+Rhombus | Mid-point figure is a rectangle
+
+@@dpp
+Q: In triangle ABC, P and Q are the mid-points of AB and AC. If $PQ = 6.5$ cm, find BC.
+A: 13 cm
+Q: In triangle ABC, D is the mid-point of AB and $DE \parallel BC$ meets AC at E. If $AE = 3.5$ cm, find AC.
+A: 7 cm
+Q: The sides of a triangle are 7 cm, 9 cm and 12 cm. Find the perimeter of the triangle formed by the mid-points of its sides.
+A: 14 cm
+Q: The area of a triangle is 48 sq cm. Find the area of the triangle formed by joining the mid-points of its sides.
+A: 12 sq cm
+Q: The diagonals of a quadrilateral are 12 cm and 9 cm. Find the perimeter of its mid-point figure.
+A: 21 cm
+Q: What figure is formed by joining the mid-points of the sides of a rectangle?
+A: A rhombus
+Q: In trapezium PQRS, $PQ \parallel SR$, $PQ = 22$ cm, $SR = 14$ cm. Find the length of the segment joining the mid-points of PS and QR.
+A: 18 cm
+Q: In the trapezium above, find the distance between the mid-points of the diagonals.
+A: 4 cm
+Q: In triangle ABC, $\angle B = 90^\circ$, $AB = 6$ cm, $BC = 8$ cm. D and E are the mid-points of AB and AC. Find DE and $\angle ADE$.
+A: $DE = 4$ cm, $\angle ADE = 90^\circ$
+Q: Three parallel lines make intercepts of 2.5 cm each on one transversal. If the first intercept on another transversal is 3.2 cm, find the second.
+A: 3.2 cm

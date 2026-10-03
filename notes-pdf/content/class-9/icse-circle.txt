@@ -1,0 +1,121 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 17
+@title Circle
+@summary The parts of a circle, the properties of chords and their distances from the centre, and the relation between equal chords, equal arcs and the angles they subtend at the centre.
+
+# Terms
+- A **circle** is the set of all points in a plane at a fixed distance (the **radius**) from a fixed point (the **centre**).
+- **Chord**: a line segment joining two points of the circle. **Diameter**: a chord through the centre; it is the longest chord and equals twice the radius.
+- **Arc**: a part of the circle. A chord divides the circle into a **minor arc** and a **major arc**.
+- **Segment**: the region between a chord and its arc. **Sector**: the region between two radii and an arc.
+- **Concentric circles** have the same centre. **Congruent (equal) circles** have equal radii.
+- **Circumference** $= 2\pi r$.
+
+# Chord and perpendicular from the centre
+- **Theorem 1**: the perpendicular from the centre to a chord **bisects the chord**.
+- **Theorem 2 (converse)**: the line joining the centre to the mid-point of a chord is **perpendicular to the chord**.
+- The perpendicular bisector of any chord passes through the centre.
+- **One and only one circle** passes through three points that are not in a straight line. Its centre is where the perpendicular bisectors of the segments joining the points meet.
+!fig w=300 h=215; Q O 150 105; C O 85; P O 150 105 t; P A 81.6 155.5 bl; P B 218.4 155.5 br; P M 150 155.5 b; L A B; D O M; L O A; R O M B; cap OM is perpendicular to chord AB, so AM = MB
+- If the radius is $r$, the chord has length $c$ and its distance from the centre is $d$:
+$$r^2 = d^2 + \left(\frac{c}{2}\right)^2$$
+?eg A chord of length 24 cm is drawn in a circle of radius 13 cm. Find its distance from the centre.
+= $d^2 = 13^2 - 12^2 = 25$
+=> 5 cm
+?eg A chord is 6 cm from the centre of a circle of radius 10 cm. Find its length.
+= Half the chord $= \sqrt{100 - 36} = 8$ cm
+=> 16 cm
+?eg A chord of length 16 cm is 15 cm from the centre. Find the radius.
+= $r^2 = 15^2 + 8^2 = 289$
+=> 17 cm
+
+# Equal chords
+- **Theorem 3**: equal chords of a circle (or of equal circles) are **equidistant from the centre**.
+- **Theorem 4 (converse)**: chords that are equidistant from the centre are **equal**.
+- Of two chords, the one **nearer** to the centre is **longer**. The diameter is the longest chord.
+?eg Two chords of a circle are each 10 cm long. One is 12 cm from the centre. How far is the other?
+=> 12 cm
+
+# Two parallel chords
+- Draw the perpendicular from the centre to both chords. It bisects each.
+- If the chords are on **opposite sides** of the centre, the distance between them is the **sum** of their distances from the centre. If they are on the **same side**, it is the **difference**.
+?eg In a circle of radius 13 cm, two parallel chords have lengths 10 cm and 24 cm. Find the distance between them when they are (i) on opposite sides of the centre (ii) on the same side.
+= Distances from the centre: $\sqrt{169 - 25} = 12$ cm and $\sqrt{169 - 144} = 5$ cm.
+=> (i) 17 cm (ii) 7 cm
+?eg Two parallel chords of lengths 30 cm and 16 cm are on opposite sides of the centre and 23 cm apart. Find the radius.
+= Let the distances from the centre be $x$ and $23 - x$. Then $x^2 + 15^2 = (23 - x)^2 + 8^2$.
+= $225 = 529 - 46x + 64$, so $46x = 368$ and $x = 8$.
+=> $r = \sqrt{64 + 225} = 17$ cm
+
+# Two intersecting circles
+- The line joining the centres of two intersecting circles is the **perpendicular bisector of their common chord**.
+?eg Two circles of radii 10 cm and 17 cm intersect, and their centres are 21 cm apart. Find the length of the common chord.
+= Let the common chord be at distance $x$ from the first centre: $100 - x^2 = 289 - (21 - x)^2$.
+= $100 - x^2 = 289 - 441 + 42x - x^2$, so $42x = 252$ and $x = 6$.
+= Half the chord $= \sqrt{100 - 36} = 8$ cm
+=> 16 cm
+
+# Arcs and chords
+- In the same circle or in equal circles:
+| Given | Result |
+| Equal chords | They subtend equal angles at the centre |
+| Chords subtending equal angles at the centre | The chords are equal |
+| Equal arcs | They subtend equal angles at the centre |
+| Equal arcs | Their chords are equal |
+| Equal chords | They cut off equal arcs |
+- The angle subtended at the centre is proportional to the length of the arc.
+?eg AB is a side of a regular hexagon and AC is a side of a regular octagon, both inscribed in the same circle with centre O. Find $\angle AOB$ and $\angle AOC$.
+= The sides of a regular polygon are equal chords, so they subtend equal angles at the centre.
+=> $\angle AOB = \dfrac{360^\circ}{6} = 60^\circ$ and $\angle AOC = \dfrac{360^\circ}{8} = 45^\circ$
+?eg In a circle with centre O, chord AB equals the radius. Find $\angle AOB$.
+= $OA = OB = AB$, so triangle OAB is equilateral.
+=> $60^\circ$
+?eg AB and CD are equal chords of a circle with centre O. If $\angle AOB = 80^\circ$, find $\angle OCD$.
+= $\angle COD = 80^\circ$ and $OC = OD$, so $\angle OCD = \dfrac{180^\circ - 80^\circ}{2}$.
+=> $50^\circ$
+
+# Common mistakes
+- Using the whole chord instead of **half** the chord in the right triangle.
+- Adding the distances for parallel chords on the same side of the centre (subtract), or subtracting for opposite sides (add).
+- Saying the longer chord is farther from the centre. It is nearer.
+- Forgetting that the perpendicular must come from the **centre** to bisect the chord.
+- Confusing a segment with a sector.
+
+@@formulas
+Diameter | $d = 2r$
+Circumference | $2\pi r$
+Chord relation | $r^2 = d^2 + \left(\dfrac{c}{2}\right)^2$
+Length of a chord | $2\sqrt{r^2 - d^2}$
+Distance of a chord from the centre | $\sqrt{r^2 - \left(\dfrac{c}{2}\right)^2}$
+Perpendicular from the centre | Bisects the chord
+Centre to mid-point of a chord | Perpendicular to the chord
+Equal chords | Equidistant from the centre
+Parallel chords, opposite sides | Distance apart $= d_1 + d_2$
+Parallel chords, same side | Distance apart $= d_1 - d_2$
+Common chord | Bisected at right angles by the line of centres
+Equal arcs or chords | Subtend equal angles at the centre
+Side of a regular $n$-gon | Subtends $\dfrac{360^\circ}{n}$ at the centre
+
+@@dpp
+Q: A chord of length 30 cm is drawn in a circle of radius 17 cm. Find its distance from the centre.
+A: 8 cm
+Q: A chord is 9 cm from the centre of a circle of radius 15 cm. Find its length.
+A: 24 cm
+Q: A chord of length 48 cm is 7 cm from the centre. Find the radius.
+A: 25 cm
+Q: Two equal chords of a circle are each 8 cm from the centre. If the radius is 10 cm, find their length.
+A: 12 cm
+Q: In a circle of radius 5 cm, two parallel chords of lengths 6 cm and 8 cm lie on opposite sides of the centre. Find the distance between them.
+A: $4 + 3 = 7$ cm
+Q: In the circle above, find the distance between the chords if they lie on the same side of the centre.
+A: 1 cm
+Q: Which chord is longer: one 3 cm from the centre or one 5 cm from the centre?
+A: The one 3 cm from the centre
+Q: A chord of a circle subtends $90^\circ$ at the centre and the radius is 7 cm. Find the length of the chord.
+A: $7\sqrt{2}$ cm
+Q: A side of a regular pentagon inscribed in a circle subtends what angle at the centre?
+A: $72^\circ$
+Q: Two circles of radii 5 cm and 5 cm intersect, with centres 8 cm apart. Find the length of the common chord.
+A: 6 cm

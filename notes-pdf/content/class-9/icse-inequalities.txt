@@ -1,0 +1,106 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 11
+@title Inequalities
+@summary Inequalities in a triangle: the greater side has the greater angle opposite it and conversely, the sum of two sides exceeds the third, and the perpendicular is the shortest distance from a point to a line.
+
+# Side and angle
+- **Theorem 1**: if two sides of a triangle are unequal, the **greater side has the greater angle opposite to it**.
+- **Theorem 2 (converse)**: if two angles of a triangle are unequal, the **greater angle has the greater side opposite to it**.
+- So the largest angle is opposite the longest side, and the smallest angle is opposite the shortest side.
+!fig w=320 h=180; P A 100 30 t; P B 40 150 bl; P C 290 150 br; L A B; L B C; L C A; cap BC is the longest side, so angle A is the largest angle
+- In a **right-angled triangle** the hypotenuse is the longest side, because the right angle is the largest angle.
+- In an **obtuse-angled triangle** the side opposite the obtuse angle is the longest.
+?eg In triangle ABC, $AB = 5$ cm, $BC = 8$ cm and $CA = 7$ cm. Arrange the angles in ascending order.
+= $\angle C$ is opposite AB, $\angle B$ is opposite CA, $\angle A$ is opposite BC.
+=> $\angle C < \angle B < \angle A$
+?eg In triangle PQR, $\angle P = 70^\circ$ and $\angle Q = 50^\circ$. Arrange the sides in descending order.
+= $\angle R = 60^\circ$. The sides opposite $70^\circ, 60^\circ, 50^\circ$ are QR, PQ, PR.
+=> $QR > PQ > PR$
+
+# Triangle inequality
+- **Theorem 3**: the **sum of any two sides** of a triangle is **greater than the third side**.
+- The **difference of any two sides** is **less than the third side**.
+- Three lengths $a \leq b \leq c$ form a triangle only when $a + b > c$.
+- If two sides are $a$ and $b$ (with $a > b$), the third side $x$ satisfies $a - b < x < a + b$.
+?eg Can a triangle have sides 4 cm, 5 cm and 10 cm?
+= $4 + 5 = 9$, which is less than 10.
+=> No
+?eg Two sides of a triangle are 6 cm and 9 cm. Between what limits does the third side lie?
+= $9 - 6 < x < 9 + 6$
+=> Between 3 cm and 15 cm
+?eg Two sides of a triangle are 5 cm and 11 cm and the third side is a whole number of centimetres. How many triangles are possible?
+= $6 < x < 16$, so $x$ can be 7, 8, ..., 15.
+=> 9
+
+# Shortest distance
+- **Theorem 4**: of all the line segments that can be drawn from a point to a line, the **perpendicular is the shortest**.
+- The length of this perpendicular is the **distance of the point from the line**.
+!fig w=320 h=170; Q L1 30 140; Q L2 300 140; L L1 L2; P P 150 30 t; P N 150 140 b; P A 80 140 b; P B 250 140 b; D P N; L P A; L P B; R P N B; cap PN is perpendicular to the line, so PN is shorter than PA and PB
+- Reason: in right triangle PNA, the right angle at N is the largest angle, so the hypotenuse PA is the longest side.
+
+# Proving inequalities
+- Use the exterior angle property: an exterior angle is **greater** than each interior opposite angle.
+- Use isosceles triangles to move a known equality into the triangle you need.
+- Apply the triangle inequality to each triangle in the figure and add the results.
+?eg In triangle ABC, $AB > AC$. D is a point on BC. Prove that $AB > AD$.
+= $AB > AC$ gives $\angle C > \angle B$.
+= $\angle ADB$ is an exterior angle of $\triangle ADC$, so $\angle ADB > \angle C > \angle B$.
+=> In $\triangle ABD$, $\angle ADB > \angle B$, so $AB > AD$
+?eg D is a point on side BC of triangle ABC such that $AD = AC$. Prove that $AB > AD$.
+= $AD = AC$ gives $\angle ADC = \angle ACD$.
+= $\angle ADC$ is an exterior angle of $\triangle ABD$, so $\angle ADC > \angle B$. Hence $\angle ACB > \angle B$.
+=> So $AB > AC$, and since $AC = AD$, $AB > AD$
+?eg Prove that the perimeter of a triangle is greater than the sum of its three medians.
+= Let AD be a median. Produce AD to E with $DE = AD$. Then $\triangle ADB \cong \triangle EDC$, so $CE = AB$.
+= In $\triangle ACE$: $AC + CE > AE$, that is $AC + AB > 2AD$. Similarly $AB + BC > 2BE$ and $BC + CA > 2CF$.
+=> Adding and dividing by 2: $AB + BC + CA > AD + BE + CF$
+?eg In quadrilateral ABCD, prove that $AB + BC + CD + DA > AC + BD$.
+= From the four triangles: $AB + BC > AC$, $CD + DA > AC$, $AB + AD > BD$, $BC + CD > BD$.
+=> Adding gives $2(AB + BC + CD + DA) > 2(AC + BD)$
+?eg O is any point inside triangle ABC. Prove that $OA + OB + OC > \dfrac{1}{2}(AB + BC + CA)$.
+= $OA + OB > AB$, $OB + OC > BC$, $OC + OA > CA$
+=> Adding: $2(OA + OB + OC) > AB + BC + CA$
+
+# Common mistakes
+- Matching a side with an adjacent angle instead of the angle **opposite** it.
+- Checking the triangle inequality for only one pair when the pair chosen is not the two shortest sides.
+- Writing "sum of two sides is equal to or greater than the third". It must be strictly greater.
+- Saying an exterior angle equals an interior opposite angle. It equals their **sum**, so it is greater than each.
+- Forgetting the lower limit for the third side.
+
+@@formulas
+Side and angle | Greater side has the greater opposite angle
+Angle and side | Greater angle has the greater opposite side
+Triangle inequality | Sum of any two sides $>$ third side
+Difference of sides | Difference of any two sides $<$ third side
+Limits of the third side | $a - b < x < a + b$
+Test for three lengths | Two shorter lengths together $>$ the longest
+Hypotenuse | Longest side of a right-angled triangle
+Shortest distance | The perpendicular from a point to a line
+Exterior angle | Greater than each interior opposite angle
+Medians | Perimeter $>$ sum of the three medians
+Quadrilateral | Perimeter $>$ sum of the diagonals
+
+@@dpp
+Q: In triangle ABC, $\angle A = 80^\circ$ and $\angle B = 40^\circ$. Name the longest and the shortest sides.
+A: Longest BC, shortest AC
+Q: In triangle PQR, $PQ = 4$ cm, $QR = 6$ cm, $RP = 5$ cm. Arrange the angles in descending order.
+A: $\angle P > \angle Q > \angle R$
+Q: Can 7 cm, 8 cm and 15 cm be the sides of a triangle?
+A: No, since $7 + 8 = 15$
+Q: Can 5 cm, 6 cm and 10 cm be the sides of a triangle?
+A: Yes, since $5 + 6 > 10$
+Q: Two sides of a triangle are 8 cm and 13 cm. Between what limits does the third side lie?
+A: Between 5 cm and 21 cm
+Q: In a right-angled triangle, which side is the longest, and why?
+A: The hypotenuse; it is opposite the right angle, which is the largest angle
+Q: In triangle ABC, $AB = AC$ and $\angle A = 100^\circ$. Which is longer, AB or BC?
+A: BC, since $\angle A = 100^\circ$ is greater than $\angle C = 40^\circ$
+Q: In triangle ABC, the exterior angle at C is $100^\circ$ and $\angle A = 30^\circ$. Arrange the sides in ascending order.
+A: Angles are $30^\circ, 70^\circ, 80^\circ$ at A, B, C; so $BC < AC < AB$
+Q: The sides of a triangle are 3 cm and 7 cm, and the third side is a whole number. What are the possible values?
+A: 5, 6, 7, 8, 9 cm
+Q: P is a point 6 cm from a line. Can a segment from P to the line have length 5 cm?
+A: No; the perpendicular (6 cm) is the shortest segment

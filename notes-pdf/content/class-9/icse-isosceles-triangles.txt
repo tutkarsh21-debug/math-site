@@ -1,0 +1,103 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 10
+@title Isosceles Triangles
+@summary The two basic theorems on isosceles triangles and their converse, the properties of equilateral triangles, and angle-chasing problems that use them.
+
+# The isosceles triangle
+- A triangle with **two equal sides** is **isosceles**. The third side is the **base**, the angles on the base are the **base angles**, and the angle between the equal sides is the **vertical angle**.
+- **Theorem 1**: if two sides of a triangle are equal, the **angles opposite to them are equal**.
+- **Theorem 2 (converse)**: if two angles of a triangle are equal, the **sides opposite to them are equal**.
+!fig w=300 h=200; P A 150 25 t; P B 70 165 bl; P C 230 165 br; L A B; L A C; L B C; A A B C x; A A C B x; cap AB = AC, so the base angles B and C are equal
+- **Proof of Theorem 1**: draw AD, the bisector of $\angle A$, meeting BC at D. In $\triangle ABD$ and $\triangle ACD$: $AB = AC$, $\angle BAD = \angle CAD$, $AD = AD$. So they are congruent (S.A.S.) and $\angle B = \angle C$.
+- If the vertical angle is $v$, each base angle is $\dfrac{180^\circ - v}{2}$. If each base angle is $b$, the vertical angle is $180^\circ - 2b$.
+?eg In triangle ABC, $AB = AC$ and $\angle A = 70^\circ$. Find $\angle B$ and $\angle C$.
+= $\angle B = \angle C = \dfrac{180^\circ - 70^\circ}{2}$
+=> $55^\circ$ each
+?eg In triangle PQR, $\angle P = 40^\circ$ and $\angle Q = 100^\circ$. Which sides are equal?
+= $\angle R = 180^\circ - 140^\circ = 40^\circ = \angle P$. Sides opposite equal angles are equal.
+=> $QR = PQ$
+
+# Properties of an isosceles triangle
+- In triangle ABC with $AB = AC$, the following four lines from A are **the same line**: the bisector of $\angle A$, the median to BC, the altitude to BC, and the perpendicular bisector of BC.
+- So the altitude from the vertex **bisects the base** and **bisects the vertical angle**.
+- The medians to the equal sides are equal; so are the altitudes to the equal sides and the bisectors of the base angles.
+?eg In triangle ABC, $AB = AC = 13$ cm and $BC = 10$ cm. Find the altitude from A.
+= The altitude AD bisects BC, so $BD = 5$ cm. $AD^2 = 13^2 - 5^2 = 144$.
+=> 12 cm
+?eg Prove that the altitudes to the equal sides of an isosceles triangle are equal.
+= Let $AB = AC$, with BE perpendicular to AC and CF perpendicular to AB. In $\triangle BEC$ and $\triangle CFB$: $\angle BEC = \angle CFB = 90^\circ$, $\angle ECB = \angle FBC$ (base angles), $BC = CB$.
+=> The triangles are congruent (A.A.S.), so $BE = CF$
+
+# Equilateral triangles
+- A triangle with all three sides equal is **equilateral**. Each of its angles is $60^\circ$.
+- Conversely, a triangle with all angles equal (each $60^\circ$) is equilateral.
+- An isosceles triangle with one angle of $60^\circ$ is equilateral.
+- An **isosceles right triangle** has angles $90^\circ, 45^\circ, 45^\circ$.
+?eg In an isosceles triangle the vertical angle is twice a base angle. Find the angles.
+= Let each base angle be $x$. Then $x + x + 2x = 180^\circ$.
+=> $45^\circ, 45^\circ, 90^\circ$
+
+# Angle-chasing
+- Mark equal sides, then mark the equal angles opposite them.
+- Use the angle sum of a triangle, the exterior angle property and angles on a straight line.
+- Give each unknown angle a letter and form an equation.
+?eg In triangle ABC, $AB = AC$. Side BC is produced to D and $\angle ACD = 115^\circ$. Find the angles of the triangle.
+= $\angle ACB = 180^\circ - 115^\circ = 65^\circ = \angle ABC$
+= $\angle A = 180^\circ - 130^\circ$
+=> $65^\circ, 65^\circ, 50^\circ$
+?eg In the figure, D is a point on BC such that $AB = AD = DC$ and $\angle B = 70^\circ$. Find $\angle C$.
+= $AB = AD$ gives $\angle ADB = \angle B = 70^\circ$.
+= $\angle ADB$ is an exterior angle of $\triangle ADC$, and $AD = DC$ gives $\angle DAC = \angle C$. So $2\angle C = 70^\circ$.
+=> $\angle C = 35^\circ$
+!fig w=320 h=180; P A 110 30 t; P B 50 150 bl; P D 170 150 b; P C 290 150 br; L A B; L A D; L A C; L B C; A A B D 70°; cap AB = AD = DC
+?eg ABC is an equilateral triangle and BCDE is a square drawn outside it. Find $\angle BAE$.
+= $\angle ABE = 60^\circ + 90^\circ = 150^\circ$, and $AB = BC = BE$, so triangle ABE is isosceles.
+= $\angle BAE = \dfrac{180^\circ - 150^\circ}{2}$
+=> $15^\circ$
+?eg In triangle ABC, $AB = AC$ and the bisectors of $\angle B$ and $\angle C$ meet at O. Prove that $OB = OC$.
+= $\angle B = \angle C$, so $\dfrac{1}{2}\angle B = \dfrac{1}{2}\angle C$, that is $\angle OBC = \angle OCB$.
+=> Sides opposite equal angles are equal, so $OB = OC$
+
+# Common mistakes
+- Marking the wrong angles as equal. The equal angles are **opposite** the equal sides.
+- Assuming a triangle is isosceles because it looks so in the figure.
+- Using the bisector, median and altitude as the same line in a triangle that is not isosceles.
+- Forgetting that the result works both ways: equal sides give equal angles, and equal angles give equal sides.
+- Taking the given angle as a base angle when it is the vertical angle, or the other way round.
+
+@@formulas
+Theorem 1 | Equal sides have equal opposite angles
+Theorem 2 | Equal angles have equal opposite sides
+Base angle from vertical angle $v$ | $\dfrac{180^\circ - v}{2}$
+Vertical angle from base angle $b$ | $180^\circ - 2b$
+Altitude from the vertex | Bisects the base and the vertical angle
+Equilateral triangle | Each angle $60^\circ$
+Isosceles right triangle | Angles $90^\circ, 45^\circ, 45^\circ$
+Height of an equilateral triangle | $\dfrac{\sqrt{3}}{2} \times$ side
+Altitude of an isosceles triangle | $\sqrt{a^2 - \left(\dfrac{b}{2}\right)^2}$, equal sides $a$, base $b$
+Exterior angle | Sum of the two interior opposite angles
+Equal segments | Altitudes, medians and angle bisectors to the equal sides are equal
+
+@@dpp
+Q: In triangle ABC, $AB = AC$ and $\angle B = 52^\circ$. Find $\angle A$.
+A: $76^\circ$
+Q: The vertical angle of an isosceles triangle is $100^\circ$. Find each base angle.
+A: $40^\circ$
+Q: In triangle PQR, $\angle P = 50^\circ$ and $\angle R = 80^\circ$. Name the equal sides.
+A: $\angle Q = 50^\circ = \angle P$, so $QR = PR$
+Q: Each base angle of an isosceles triangle is $15^\circ$ more than the vertical angle. Find the angles.
+A: $50^\circ, 65^\circ, 65^\circ$
+Q: In triangle ABC, $AB = AC$ and BC is produced to D. If $\angle ACD = 130^\circ$, find $\angle A$.
+A: $80^\circ$
+Q: An isosceles triangle has equal sides 10 cm and base 12 cm. Find the altitude to the base.
+A: 8 cm
+Q: In triangle ABC, D is on BC with $AB = AD = DC$ and $\angle B = 64^\circ$. Find $\angle C$.
+A: $32^\circ$
+Q: One angle of an isosceles triangle is $60^\circ$. What kind of triangle is it?
+A: Equilateral
+Q: ABC is an equilateral triangle and ACDE is a square drawn outside it. Find $\angle ABE$.
+A: $15^\circ$
+Q: In triangle ABC, $AB = AC$ and D is the mid-point of BC. Prove that AD is perpendicular to BC.
+A: $\triangle ABD \cong \triangle ACD$ (S.S.S.), so $\angle ADB = \angle ADC$; they add up to $180^\circ$, so each is $90^\circ$

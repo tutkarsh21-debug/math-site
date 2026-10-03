@@ -1,0 +1,120 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 25
+@title Complementary Angles
+@summary The trigonometrical ratios of complementary angles and their use in simplifying expressions, proving results and solving equations without tables.
+
+# Complementary angles
+- Two angles are **complementary** if their sum is $90^\circ$. The complement of $\theta$ is $90^\circ - \theta$.
+- In a right-angled triangle the two acute angles are complementary. The perpendicular for one is the base for the other.
+!fig w=310 h=185; P B 60 150 bl; P C 250 150 br; P A 250 40 tr; L A B; L B C; L A C; R A C B; A C B A θ; A B A C; T 222 94 90° − θ; cap The acute angles at B and A are complementary
+- This gives the **ratios of complementary angles**:
+| Ratio of $90^\circ - \theta$ | Equals |
+| $\sin(90^\circ - \theta)$ | $\cos\theta$ |
+| $\cos(90^\circ - \theta)$ | $\sin\theta$ |
+| $\tan(90^\circ - \theta)$ | $\cot\theta$ |
+| $\cot(90^\circ - \theta)$ | $\tan\theta$ |
+| $\sec(90^\circ - \theta)$ | $\text{cosec}\,\theta$ |
+| $\text{cosec}(90^\circ - \theta)$ | $\sec\theta$ |
+- In words: each ratio changes to its **co-ratio**: sine with cosine, tangent with cotangent, secant with cosecant.
+- So if $A + B = 90^\circ$, then $\sin A = \cos B$, $\tan A = \cot B$ and $\sec A = \text{cosec}\, B$.
+
+# Evaluating without tables
+- Look for pairs of angles that add up to $90^\circ$. Change one of each pair to its complement.
+?eg Evaluate $\dfrac{\sin 35^\circ}{\cos 55^\circ}$.
+= $\cos 55^\circ = \cos(90^\circ - 35^\circ) = \sin 35^\circ$
+=> 1
+?eg Evaluate $\tan 27^\circ - \cot 63^\circ$.
+= $\cot 63^\circ = \tan(90^\circ - 63^\circ) = \tan 27^\circ$
+=> 0
+?eg Evaluate $\dfrac{\cos 70^\circ}{\sin 20^\circ} + \dfrac{\cos 59^\circ}{\sin 31^\circ} - 8\sin^2 30^\circ$.
+= $1 + 1 - 8 \times \dfrac{1}{4}$
+=> 0
+?eg Evaluate $\sin^2 25^\circ + \sin^2 65^\circ$.
+= $\sin 65^\circ = \cos 25^\circ$, so the sum is $\sin^2 25^\circ + \cos^2 25^\circ$
+=> 1
+?eg Evaluate $\tan 10^\circ\tan 20^\circ\tan 45^\circ\tan 70^\circ\tan 80^\circ$.
+= $\tan 80^\circ = \cot 10^\circ$ and $\tan 70^\circ = \cot 20^\circ$. Each pair multiplies to 1.
+=> $1 \times 1 \times \tan 45^\circ = 1$
+?eg Evaluate $\dfrac{\sec 42^\circ}{\text{cosec}\, 48^\circ} + \dfrac{2\tan 38^\circ}{\cot 52^\circ}$.
+= $1 + 2$
+=> 3
+
+# Expressing in terms of angles below 45 degrees
+- Any ratio of an angle between $45^\circ$ and $90^\circ$ can be written as a ratio of an angle between $0^\circ$ and $45^\circ$.
+?eg Express $\sin 67^\circ + \cos 75^\circ$ in terms of angles between $0^\circ$ and $45^\circ$.
+=> $\cos 23^\circ + \sin 15^\circ$
+?eg Express $\tan 81^\circ + \sec 64^\circ$ in terms of angles between $0^\circ$ and $45^\circ$.
+=> $\cot 9^\circ + \text{cosec}\, 26^\circ$
+
+# Solving equations
+- If $\sin A = \cos B$ with $A$ and $B$ acute, then $A + B = 90^\circ$. The same holds for $\tan A = \cot B$ and $\sec A = \text{cosec}\, B$.
+?eg If $\sin 3\theta = \cos(\theta - 6^\circ)$, where $3\theta$ and $\theta - 6^\circ$ are acute, find $\theta$.
+= $3\theta + \theta - 6^\circ = 90^\circ$, so $4\theta = 96^\circ$
+=> $\theta = 24^\circ$
+?eg If $\tan 2A = \cot(A - 18^\circ)$, where $2A$ is acute, find $A$.
+= $2A + A - 18^\circ = 90^\circ$
+=> $A = 36^\circ$
+?eg If $\sec 4A = \text{cosec}(A - 20^\circ)$, where $4A$ is acute, find $A$.
+= $5A - 20^\circ = 90^\circ$
+=> $A = 22^\circ$
+
+# Proving results
+- Replace one angle by $90^\circ$ minus the other, or use the angle sum of a triangle.
+- In triangle ABC, $A + B + C = 180^\circ$, so $\dfrac{B + C}{2} = 90^\circ - \dfrac{A}{2}$.
+?eg If A, B and C are the angles of a triangle, prove that $\sin\dfrac{B + C}{2} = \cos\dfrac{A}{2}$.
+= $\dfrac{B + C}{2} = 90^\circ - \dfrac{A}{2}$
+=> $\sin\left(90^\circ - \dfrac{A}{2}\right) = \cos\dfrac{A}{2}$
+?eg Prove that $\dfrac{\cos(90^\circ - \theta)\sin(90^\circ - \theta)}{\tan(90^\circ - \theta)} = \sin^2\theta$.
+= LHS $= \dfrac{\sin\theta\cos\theta}{\cot\theta} = \sin\theta\cos\theta \times \dfrac{\sin\theta}{\cos\theta}$
+=> $\sin^2\theta$
+?eg Prove that $\sin 48^\circ\sec 42^\circ + \cos 48^\circ\text{cosec}\, 42^\circ = 2$.
+= $\sec 42^\circ = \text{cosec}\, 48^\circ$ and $\text{cosec}\, 42^\circ = \sec 48^\circ$
+=> $\sin 48^\circ \times \dfrac{1}{\sin 48^\circ} + \cos 48^\circ \times \dfrac{1}{\cos 48^\circ} = 2$
+?eg If $A + B = 90^\circ$, prove that $\sqrt{\dfrac{\tan A\tan B + \tan A\cot B}{\sin A\sec B}} = \sec A$.
+= $\tan B = \cot A$, $\cot B = \tan A$, $\sec B = \text{cosec}\, A$. Numerator $= 1 + \tan^2 A = \sec^2 A$. Denominator $= \sin A\,\text{cosec}\, A = 1$.
+=> $\sqrt{\sec^2 A} = \sec A$
+
+# Common mistakes
+- Changing the angle but keeping the same ratio: $\sin 70^\circ$ is $\cos 20^\circ$, not $\sin 20^\circ$.
+- Pairing secant with cosine. The co-ratio of secant is cosecant.
+- Using the rule for angles that do not add up to $90^\circ$.
+- Changing **both** angles of a pair, which brings the expression back to where it started.
+- In equations, writing $A = B$ from $\sin A = \cos B$. The correct step is $A + B = 90^\circ$.
+
+@@formulas
+Complement | $90^\circ - \theta$
+Sine | $\sin(90^\circ - \theta) = \cos\theta$
+Cosine | $\cos(90^\circ - \theta) = \sin\theta$
+Tangent | $\tan(90^\circ - \theta) = \cot\theta$
+Cotangent | $\cot(90^\circ - \theta) = \tan\theta$
+Secant | $\sec(90^\circ - \theta) = \text{cosec}\,\theta$
+Cosecant | $\text{cosec}(90^\circ - \theta) = \sec\theta$
+If $A + B = 90^\circ$ | $\sin A = \cos B$, $\tan A = \cot B$, $\sec A = \text{cosec}\, B$
+Product | $\tan\theta\tan(90^\circ - \theta) = 1$
+Sum of squares | $\sin^2\theta + \sin^2(90^\circ - \theta) = 1$
+Triangle | $\dfrac{B + C}{2} = 90^\circ - \dfrac{A}{2}$
+Equation | $\sin A = \cos B$ gives $A + B = 90^\circ$ (acute angles)
+
+@@dpp
+Q: Evaluate $\dfrac{\cos 37^\circ}{\sin 53^\circ}$.
+A: 1
+Q: Evaluate $\text{cosec}\, 31^\circ - \sec 59^\circ$.
+A: 0
+Q: Evaluate $\dfrac{\tan 26^\circ}{\cot 64^\circ} + \dfrac{\sin 18^\circ}{\cos 72^\circ}$.
+A: 2
+Q: Evaluate $\cos^2 40^\circ + \cos^2 50^\circ$.
+A: 1
+Q: Evaluate $\tan 5^\circ\tan 25^\circ\tan 30^\circ\tan 65^\circ\tan 85^\circ$.
+A: $\dfrac{1}{\sqrt{3}}$
+Q: Express $\cos 78^\circ + \cot 62^\circ$ in terms of angles between $0^\circ$ and $45^\circ$.
+A: $\sin 12^\circ + \tan 28^\circ$
+Q: If $\sin 2A = \cos(A + 15^\circ)$, where $2A$ is acute, find $A$.
+A: $25^\circ$
+Q: If $\tan 3\theta = \cot(\theta + 10^\circ)$, where $3\theta$ is acute, find $\theta$.
+A: $20^\circ$
+Q: Prove that $\sin 63^\circ\cos 27^\circ + \cos 63^\circ\sin 27^\circ = 1$.
+A: It equals $\sin^2 63^\circ + \cos^2 63^\circ = 1$
+Q: If A, B, C are the angles of a triangle, prove that $\tan\dfrac{A + B}{2} = \cot\dfrac{C}{2}$.
+A: $\dfrac{A + B}{2} = 90^\circ - \dfrac{C}{2}$, and $\tan\left(90^\circ - \dfrac{C}{2}\right) = \cot\dfrac{C}{2}$

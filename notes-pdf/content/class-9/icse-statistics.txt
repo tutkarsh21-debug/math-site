@@ -1,0 +1,114 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 18
+@title Statistics
+@summary Collecting and organising data: variables, frequency distributions, class intervals and their limits, cumulative frequency, and the graphs used to show grouped data (histogram and frequency polygon).
+
+# Data
+- **Statistics** deals with collecting, organising, presenting and interpreting numerical facts.
+- **Data** are the facts collected. **Primary data** are collected by the investigator; **secondary data** are taken from someone else's records.
+- **Raw data** are data as first collected. Arranged in ascending or descending order, they form an **array**.
+- A **variable** (variate) is a quantity that is measured. A **discrete** variable takes separate values (number of children); a **continuous** variable can take any value in a range (height, mass).
+- **Range** $=$ greatest value $-$ least value.
+- **Frequency** of a value: the number of times it occurs.
+
+# Frequency distribution
+- A table of values with their frequencies is a **frequency distribution**. Use **tally marks** to count: four strokes and a fifth across them.
+- **Ungrouped**: each value listed separately. **Grouped**: values put into **class intervals**.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Number of students | 3 | 7 | 12 | 6 | 2 |
+- The total of the frequencies equals the number of observations (here 30).
+
+# Class intervals
+- **Class limits**: the two end values. In 10–20, the **lower limit** is 10 and the **upper limit** is 20.
+- **Exclusive (continuous) form**: 0–10, 10–20, 20–30. The upper limit of a class is excluded from it: 10 goes into 10–20.
+- **Inclusive (discontinuous) form**: 1–10, 11–20, 21–30. Both limits belong to the class.
+- **Class size (width)** $=$ upper boundary $-$ lower boundary.
+- **Class mark** (mid-value) $= \dfrac{\text{lower limit} + \text{upper limit}}{2}$.
+- **Converting inclusive to exclusive**: find the gap between the upper limit of one class and the lower limit of the next. The **adjustment factor** is half the gap. Subtract it from every lower limit and add it to every upper limit. The results are the **true class limits** (class boundaries).
+?eg Convert the classes 1–10, 11–20, 21–30 to exclusive form. Find the class size and the class marks.
+= Gap $= 11 - 10 = 1$, so the adjustment factor is 0.5.
+=> 0.5–10.5, 10.5–20.5, 20.5–30.5; class size 10; class marks 5.5, 15.5, 25.5
+?eg The class marks of a distribution are 12, 18, 24, 30. Find the class size and the class intervals.
+= Class size $=$ difference of consecutive class marks $= 6$. Each class runs 3 below and 3 above its mark.
+=> 9–15, 15–21, 21–27, 27–33
+
+# Making a grouped table
+- Find the range. Choose a class size so that there are about 5 to 10 classes.
+- Go through the data once, putting a tally mark against the class of each value.
+- Count the tallies and check that the frequencies add up to the number of observations.
+?eg Make a frequency table with classes 20–30, 30–40, 40–50, 50–60 for the marks: 23, 45, 38, 52, 41, 29, 34, 47, 55, 31, 26, 44, 39, 50, 36.
+= 20–30: 23, 29, 26. 30–40: 38, 34, 31, 39, 36. 40–50: 45, 41, 47, 44. 50–60: 52, 55, 50.
+=> Frequencies 3, 5, 4, 3 (total 15)
+
+# Cumulative frequency
+- The **cumulative frequency** of a class is the sum of the frequencies of that class and all the classes before it.
+- The last cumulative frequency equals the total frequency.
+- To get the frequencies back, subtract consecutive cumulative frequencies.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Frequency | 3 | 7 | 12 | 6 | 2 |
+| Cumulative frequency | 3 | 10 | 22 | 28 | 30 |
+?eg From the table, how many students scored less than 30? How many scored 20 or more?
+= Less than 30: cumulative frequency of 20–30 is 22. 20 or more: $30 - 10$.
+=> 22 and 20
+
+# Histogram
+- A **histogram** shows a continuous grouped distribution by **adjacent rectangles**. Class intervals are on the horizontal axis and frequencies on the vertical axis.
+- With equal class sizes, the heights are proportional to the frequencies. There are **no gaps** between the rectangles.
+- If the classes are inclusive, change them to exclusive form first.
+- If the scale does not start at zero, show a **kink** (zig-zag) on the axis.
+!fig w=340 h=210; Q O 50 170; Q X 320 170; Q Y 50 20; L O X; L O Y; Q a1 70 170; Q a2 70 140; Q a3 115 140; Q a4 115 170; Q b2 115 100; Q b3 160 100; Q b4 160 170; Q c2 160 50; Q c3 205 50; Q c4 205 170; Q d2 205 110; Q d3 250 110; Q d4 250 170; Q e2 250 150; Q e3 295 150; Q e4 295 170; F a1 a2 a3 a4; F a4 b2 b3 b4; F b4 c2 c3 c4; F c4 d2 d3 d4; F d4 e2 e3 e4; L a1 a2; L a2 a3; L a3 a4; L a4 b2; L b2 b3; L b3 b4; L b4 c2; L c2 c3; L c3 c4; L c4 d2; L d2 d3; L d3 d4; L d4 e2; L e2 e3; L e3 e4; T 70 186 0; T 115 186 10; T 160 186 20; T 205 186 30; T 250 186 40; T 295 186 50; T 36 144 3; T 36 104 7; T 36 54 12; cap Histogram of the marks table
+
+# Frequency polygon
+- A **frequency polygon** is obtained by joining, with straight lines, the points plotted at (class mark, frequency).
+- Close it by adding one class of zero frequency before the first class and one after the last.
+- **From a histogram**: mark the mid-points of the tops of the rectangles and join them in order.
+- Frequency polygons are useful for comparing two distributions on the same axes.
+?eg For the marks table above, write the points to be plotted for the frequency polygon.
+= Class marks 5, 15, 25, 35, 45 with frequencies 3, 7, 12, 6, 2. Imagined classes $-10$–0 and 50–60 have class marks $-5$ and 55.
+=> $(-5, 0)$, $(5, 3)$, $(15, 7)$, $(25, 12)$, $(35, 6)$, $(45, 2)$, $(55, 0)$
+
+# Common mistakes
+- Putting a value equal to an upper limit (such as 30 in 20–30) in the lower class in the exclusive form. It belongs to 30–40.
+- Drawing a histogram for inclusive classes without adjusting the limits, which leaves gaps.
+- Confusing a histogram with a bar graph. A bar graph has gaps and equal-width bars for separate items.
+- Plotting a frequency polygon at class limits instead of class marks.
+- Not closing the frequency polygon on the horizontal axis.
+- Forgetting to check that the frequencies add up to the total.
+
+@@formulas
+Range | Greatest value $-$ least value
+Class size | Upper boundary $-$ lower boundary
+Class mark | $\dfrac{\text{lower limit} + \text{upper limit}}{2}$
+Class size from class marks | Difference of two consecutive class marks
+Adjustment factor | $\dfrac{1}{2} \times$ (lower limit of a class $-$ upper limit of the class before)
+True lower limit | Lower limit $-$ adjustment factor
+True upper limit | Upper limit $+$ adjustment factor
+Limits from the class mark | Class mark $\pm \dfrac{\text{class size}}{2}$
+Cumulative frequency | Running total of the frequencies
+Frequency from cumulative frequency | Difference of consecutive cumulative frequencies
+Histogram | Adjacent rectangles on true class limits
+Frequency polygon | Points (class mark, frequency), closed on the axis
+
+@@dpp
+Q: Find the range of 14, 27, 9, 31, 18, 22, 40, 12.
+A: $40 - 9 = 31$
+Q: Find the class mark and class size of the class 25–35.
+A: 30 and 10
+Q: Convert 10–19, 20–29, 30–39 to exclusive form.
+A: 9.5–19.5, 19.5–29.5, 29.5–39.5
+Q: The class marks of a distribution are 47, 52, 57, 62. Find the class size and the first class.
+A: 5; 44.5–49.5
+Q: In an exclusive distribution with classes 0–5, 5–10, 10–15, in which class does 10 fall?
+A: 10–15
+Q: The frequencies of five classes are 4, 9, 15, 8, 4. Write the cumulative frequencies.
+A: 4, 13, 28, 36, 40
+Q: The cumulative frequencies of a distribution are 5, 12, 25, 33, 40. Write the frequencies.
+A: 5, 7, 13, 8, 7
+Q: State whether each variable is discrete or continuous: (i) number of goals in a match (ii) temperature of a city.
+A: (i) Discrete (ii) Continuous
+Q: A class 30–40 has frequency 9. At which point is it plotted in a frequency polygon?
+A: $(35, 9)$
+Q: Why must inclusive classes be converted before drawing a histogram?
+A: So that the rectangles are adjacent with no gaps; the data are continuous

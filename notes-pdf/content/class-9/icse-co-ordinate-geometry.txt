@@ -1,0 +1,133 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 26
+@title Co-ordinate Geometry
+@summary The Cartesian plane, co-ordinates of points, graphs of linear equations, and the slope and intercept of a straight line.
+
+# The Cartesian plane
+- Two perpendicular number lines, the **x-axis** (horizontal) and the **y-axis** (vertical), meet at the **origin** $O(0, 0)$.
+- The position of a point is given by an **ordered pair** $(x, y)$. The first number is the **abscissa** (x co-ordinate): its distance from the y-axis. The second is the **ordinate** (y co-ordinate): its distance from the x-axis.
+- The order matters: $(2, 5)$ and $(5, 2)$ are different points.
+- The axes divide the plane into four **quadrants**:
+| Quadrant | Sign of $x$ | Sign of $y$ | Example |
+| I | $+$ | $+$ | $(3, 4)$ |
+| II | $-$ | $+$ | $(-3, 4)$ |
+| III | $-$ | $-$ | $(-3, -4)$ |
+| IV | $+$ | $-$ | $(3, -4)$ |
+- A point on the **x-axis** has $y = 0$: $(a, 0)$. A point on the **y-axis** has $x = 0$: $(0, b)$.
+!fig w=300 h=230; Q L 20 115; Q R 280 115; Q T 150 15; Q B 150 215; L L R; L T B; P O 150 115 bl; P A 210 55 tr; P C 90 55 tl; P D 90 175 bl; P E 210 175 br; T 288 119 x; T 150 10 y; T 258 32 I; T 42 32 II; T 42 205 III; T 258 205 IV; cap A(3, 3), C(−3, 3), D(−3, −3), E(3, −3) lie in quadrants I, II, III, IV
+?eg In which quadrant or on which axis do these points lie: $(-2, 5)$, $(4, -1)$, $(0, -3)$, $(-6, 0)$?
+=> Quadrant II; quadrant IV; on the y-axis; on the x-axis
+?eg Find $x$ and $y$ if $(2x - 1, y + 3) = (5, 7)$.
+= Equal ordered pairs have equal co-ordinates: $2x - 1 = 5$ and $y + 3 = 7$.
+=> $x = 3$, $y = 4$
+?eg A(2, 1), B(7, 1) and C(7, 4) are three vertices of a rectangle ABCD. Find D and the area.
+= D has the x co-ordinate of A and the y co-ordinate of C. $AB = 5$ and $BC = 3$.
+=> $D(2, 4)$; area 15 square units
+
+# Dependent and independent variables
+- In $y = 3x + 2$, the value of $y$ depends on the value chosen for $x$. Here $x$ is the **independent variable** and $y$ the **dependent variable**.
+- If the equation is solved for $x$, as in $x = \dfrac{y - 2}{3}$, the roles are reversed.
+
+# Graph of a linear equation
+- The graph of $ax + by + c = 0$ is a **straight line**. Every point on the line satisfies the equation, and every solution lies on the line.
+- **To draw it**: make $y$ the subject; choose three convenient values of $x$ and find $y$; plot the three points; join them with a ruler. Two points fix the line; the third is a check.
+| Equation | Graph |
+| $x = 0$ | The y-axis |
+| $y = 0$ | The x-axis |
+| $x = a$ | A line parallel to the y-axis, $a$ units from it |
+| $y = b$ | A line parallel to the x-axis, $b$ units from it |
+| $y = mx$ | A line through the origin |
+?eg Make a table of three points for the graph of $2x - y = 4$.
+= $y = 2x - 4$. For $x = 0, 2, 3$: $y = -4, 0, 2$.
+=> $(0, -4)$, $(2, 0)$, $(3, 2)$
+?eg Does the point $(3, -1)$ lie on the line $2x + 3y = 3$?
+= $2(3) + 3(-1) = 3$
+=> Yes
+?eg The point $(k, 4)$ lies on the line $3x - 2y = 1$. Find $k$.
+= $3k - 8 = 1$
+=> $k = 3$
+?eg Find the area of the triangle formed by the line $3x + 4y = 12$ and the axes.
+= The line meets the x-axis at $(4, 0)$ and the y-axis at $(0, 3)$.
+=> $\dfrac{1}{2} \times 4 \times 3 = 6$ square units
+
+# Inclination and slope
+- The **inclination** $\theta$ of a line is the angle it makes with the **positive direction of the x-axis**, measured anticlockwise.
+- The **slope** (gradient) is $m = \tan\theta$.
+| Inclination | Slope |
+| $0^\circ$ (parallel to the x-axis) | 0 |
+| $30^\circ$ | $\dfrac{1}{\sqrt{3}}$ |
+| $45^\circ$ | 1 |
+| $60^\circ$ | $\sqrt{3}$ |
+| $90^\circ$ (parallel to the y-axis) | Not defined |
+- A line rising to the right has a positive slope. A line falling to the right has a negative slope.
+?eg Find the slope of a line whose inclination is $60^\circ$, and the inclination of a line whose slope is 1.
+=> $\sqrt{3}$; $45^\circ$
+
+# The form y = mx + c
+- When the equation of a line is written as $y = mx + c$:
+- $m$ is the **slope**.
+- $c$ is the **y-intercept**: the line cuts the y-axis at $(0, c)$.
+- To find the slope and the y-intercept of any line, make $y$ the subject.
+- The **x-intercept** is found by putting $y = 0$.
+- Lines with the **same slope** are parallel.
+?eg Find the slope and the y-intercept of $3x + 4y = 8$.
+= $y = -\dfrac{3}{4}x + 2$
+=> Slope $-\dfrac{3}{4}$; y-intercept 2
+?eg Write the equation of the line with slope 2 and y-intercept $-5$.
+=> $y = 2x - 5$
+?eg Find the equation of the line with inclination $45^\circ$ that cuts the y-axis at $(0, 3)$.
+= $m = \tan 45^\circ = 1$ and $c = 3$
+=> $y = x + 3$
+?eg Are the lines $2x - y = 5$ and $4x - 2y = 3$ parallel?
+= $y = 2x - 5$ and $y = 2x - \dfrac{3}{2}$: both have slope 2.
+=> Yes
+?eg The line $y = mx + c$ passes through $(0, 4)$ and $(2, 10)$. Find $m$ and $c$.
+= From $(0, 4)$: $c = 4$. From $(2, 10)$: $10 = 2m + 4$.
+=> $m = 3$, $c = 4$
+
+# Common mistakes
+- Plotting $(x, y)$ with the two numbers interchanged.
+- Saying a point such as $(0, 5)$ lies on the x-axis. It is on the y-axis, since $x = 0$.
+- Reading the slope from $ax + by + c = 0$ as $a$. Make $y$ the subject first: the slope is $-\dfrac{a}{b}$.
+- Taking the sign of the intercept wrongly: in $y = 2x - 5$ the y-intercept is $-5$.
+- Drawing $x = 3$ parallel to the x-axis. It is parallel to the y-axis.
+- Joining plotted points freehand instead of with a ruler.
+
+@@formulas
+Point | $(x, y)$: abscissa, ordinate
+Origin | $(0, 0)$
+On the x-axis | $y = 0$
+On the y-axis | $x = 0$
+Quadrant signs | I $(+, +)$, II $(-, +)$, III $(-, -)$, IV $(+, -)$
+Line parallel to the y-axis | $x = a$
+Line parallel to the x-axis | $y = b$
+Slope | $m = \tan\theta$
+Slope-intercept form | $y = mx + c$
+Slope of $ax + by + c = 0$ | $-\dfrac{a}{b}$
+y-intercept of $ax + by + c = 0$ | $-\dfrac{c}{b}$
+x-intercept | Put $y = 0$
+Parallel lines | Equal slopes
+
+@@dpp
+Q: State the quadrant of each point: $(5, -2)$, $(-1, -7)$, $(-4, 3)$.
+A: IV, III, II
+Q: Find $a$ and $b$ if $(a + 2, 3b - 1) = (6, 8)$.
+A: $a = 4$, $b = 3$
+Q: Write the co-ordinates of the point on the x-axis 4 units to the left of the origin.
+A: $(-4, 0)$
+Q: Does $(2, 3)$ lie on the line $3x - 2y = 0$?
+A: Yes
+Q: The point $(2, k)$ lies on $5x + 2y = 16$. Find $k$.
+A: 3
+Q: Where does the line $2x + 5y = 10$ meet the axes?
+A: $(5, 0)$ and $(0, 2)$
+Q: Find the area of the triangle formed by $x + 2y = 6$ and the axes.
+A: 9 square units
+Q: Find the slope and y-intercept of $2x - 3y + 9 = 0$.
+A: Slope $\dfrac{2}{3}$; y-intercept 3
+Q: Find the slope of a line with inclination $30^\circ$.
+A: $\dfrac{1}{\sqrt{3}}$
+Q: Write the equation of the line with slope $-3$ and y-intercept 4.
+A: $y = -3x + 4$

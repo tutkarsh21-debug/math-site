@@ -1,0 +1,119 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 24
+@title Solution of Right Triangles
+@summary Finding unknown sides and angles of right-angled triangles using trigonometrical ratios of standard angles, including figures made of two or more right triangles.
+
+# What "solving" means
+- A triangle has six parts: three sides and three angles. To **solve** a right triangle is to find its unknown parts from the given ones.
+- A right triangle can be solved when, besides the right angle, we know **one side and one acute angle**, or **two sides**.
+- The two acute angles add up to $90^\circ$.
+| To find | Known | Use |
+| Perpendicular | Hypotenuse and angle | $\sin\theta = \dfrac{\text{perpendicular}}{\text{hypotenuse}}$ |
+| Base | Hypotenuse and angle | $\cos\theta = \dfrac{\text{base}}{\text{hypotenuse}}$ |
+| Perpendicular | Base and angle | $\tan\theta = \dfrac{\text{perpendicular}}{\text{base}}$ |
+| Angle | Two sides | The ratio of those two sides |
+- Choose the ratio that connects the **known side** and the **wanted side**.
+
+# The two special triangles
+- **30-60-90 triangle**: sides opposite $30^\circ, 60^\circ, 90^\circ$ are in the ratio $1 : \sqrt{3} : 2$. The side opposite $30^\circ$ is half the hypotenuse.
+- **45-45-90 triangle**: sides are in the ratio $1 : 1 : \sqrt{2}$.
+!fig w=340 h=180; P A 60 40 tl; P B 60 150 bl; P C 250.5 150 br; L A B; L B C; L A C; R A B C; A B C A 30°; A B A C 60°; N A B x; N B C x√3; M A C 2x; cap A 30-60-90 triangle with sides x, x√3 and 2x
+
+# One side and one angle given
+?eg In triangle ABC, $\angle B = 90^\circ$, $\angle C = 30^\circ$ and $AC = 20$ cm. Find AB and BC.
+= $AB = AC\sin 30^\circ = 20 \times \dfrac{1}{2}$ and $BC = AC\cos 30^\circ = 20 \times \dfrac{\sqrt{3}}{2}$
+=> $AB = 10$ cm, $BC = 10\sqrt{3}$ cm
+?eg In triangle PQR, $\angle Q = 90^\circ$, $\angle P = 60^\circ$ and $PQ = 8$ cm. Find QR and PR.
+= $\tan 60^\circ = \dfrac{QR}{8}$ gives $QR = 8\sqrt{3}$. $\cos 60^\circ = \dfrac{8}{PR}$ gives $PR = 16$.
+=> $QR = 8\sqrt{3}$ cm, $PR = 16$ cm
+?eg The diagonal of a square is $10\sqrt{2}$ cm. Find its side.
+= The diagonal makes $45^\circ$ with a side: side $= 10\sqrt{2}\cos 45^\circ$
+=> 10 cm
+
+# Two sides given
+?eg In triangle ABC, $\angle B = 90^\circ$, $AB = 5$ cm and $AC = 10$ cm. Find $\angle A$, $\angle C$ and BC.
+= $\cos A = \dfrac{5}{10} = \dfrac{1}{2}$, so $\angle A = 60^\circ$ and $\angle C = 30^\circ$.
+= $BC = 10\sin 60^\circ$
+=> $\angle A = 60^\circ$, $\angle C = 30^\circ$, $BC = 5\sqrt{3}$ cm
+?eg In triangle ABC, $\angle B = 90^\circ$ and $AB = BC = 7$ cm. Find the angles and AC.
+= $\tan A = 1$, so $\angle A = \angle C = 45^\circ$. $AC = 7\sqrt{2}$.
+=> $45^\circ, 45^\circ$; $7\sqrt{2}$ cm
+
+# Triangles with an altitude
+- Any triangle can be split into two right triangles by an altitude. Solve each part and combine.
+- The altitude is the common side: find it from one triangle and use it in the other.
+?eg In triangle ABC, AD is perpendicular to BC, $\angle B = 45^\circ$, $\angle C = 30^\circ$ and $AD = 6$ cm. Find BC.
+= In triangle ABD: $\tan 45^\circ = \dfrac{6}{BD}$, so $BD = 6$ cm.
+= In triangle ADC: $\tan 30^\circ = \dfrac{6}{DC}$, so $DC = 6\sqrt{3}$ cm.
+=> $BC = 6 + 6\sqrt{3} = 6(1 + \sqrt{3})$ cm, about 16.39 cm
+!fig w=370 h=175; P A 140 35 t; P B 30 145 bl; P D 140 145 b; P C 330.5 145 br; L A B; L A C; L B C; D A D; R A D C; A A B D 45°; A D C A 30°; T 152 95 6; cap AD is the common side of the two right triangles
+?eg In triangle ABC, $AB = AC = 10$ cm and $\angle B = 30^\circ$. Find BC and the altitude from A.
+= The altitude AD bisects BC. $AD = 10\sin 30^\circ = 5$ cm and $BD = 10\cos 30^\circ = 5\sqrt{3}$ cm.
+=> $BC = 10\sqrt{3}$ cm; altitude 5 cm
+
+# Two triangles on a common side
+- When two right triangles share a side, set up an equation for the unknown length using the tangent in each.
+?eg From a point C on the ground, the top A of a vertical pole AB is seen at $60^\circ$. From D, 20 m farther from the pole on the same line, it is seen at $30^\circ$. Find the height of the pole.
+= Let $AB = h$ and $BC = x$. Then $h = x\sqrt{3}$ and $h = \dfrac{x + 20}{\sqrt{3}}$.
+= $3x = x + 20$, so $x = 10$
+=> $h = 10\sqrt{3}$ m, about 17.32 m
+?eg In a trapezium ABCD, $AB \parallel DC$, $\angle A = \angle B = 60^\circ$, $DC = 8$ cm and the height is $5\sqrt{3}$ cm. Find AB.
+= Drop perpendiculars from D and C. Each end triangle has base $\dfrac{5\sqrt{3}}{\tan 60^\circ} = 5$ cm.
+=> $AB = 8 + 5 + 5 = 18$ cm
+
+# Other figures
+?eg A rhombus has side 12 cm and one angle $60^\circ$. Find its diagonals.
+= The diagonals bisect the angles and meet at right angles. Half the shorter diagonal $= 12\sin 30^\circ = 6$ cm; half the longer $= 12\cos 30^\circ = 6\sqrt{3}$ cm.
+=> 12 cm and $12\sqrt{3}$ cm
+?eg A ladder 6 m long leans against a wall and makes $60^\circ$ with the ground. How high does it reach, and how far is its foot from the wall?
+= Height $= 6\sin 60^\circ$; distance $= 6\cos 60^\circ$
+=> $3\sqrt{3}$ m (about 5.2 m) and 3 m
+?eg A chord of a circle of radius 10 cm subtends $120^\circ$ at the centre. Find its length.
+= The perpendicular from the centre bisects the chord and the angle: half the chord $= 10\sin 60^\circ = 5\sqrt{3}$ cm.
+=> $10\sqrt{3}$ cm
+
+# Common mistakes
+- Choosing a ratio that does not include the known side.
+- Using $\sin$ where $\cos$ is needed, by mixing up the perpendicular and the base.
+- Applying the ratios in a triangle that has no right angle. Draw an altitude first.
+- Writing $\tan 30^\circ = \sqrt{3}$.
+- Forgetting to add (or subtract) the two parts of the base at the end.
+- Rounding too early: keep surds until the last step. Use $\sqrt{3} \approx 1.732$ and $\sqrt{2} \approx 1.414$.
+
+@@formulas
+Perpendicular | Hypotenuse $\times \sin\theta$
+Base | Hypotenuse $\times \cos\theta$
+Perpendicular from the base | Base $\times \tan\theta$
+Hypotenuse | $\dfrac{\text{perpendicular}}{\sin\theta} = \dfrac{\text{base}}{\cos\theta}$
+Acute angles | $\angle A + \angle C = 90^\circ$
+30-60-90 triangle | $1 : \sqrt{3} : 2$
+45-45-90 triangle | $1 : 1 : \sqrt{2}$
+Side opposite $30^\circ$ | Half the hypotenuse
+Diagonal of a square | Side $\times \sqrt{2}$
+Altitude of an equilateral triangle | $\dfrac{\sqrt{3}}{2} \times$ side
+Chord subtending $2\theta$ at the centre | $2r\sin\theta$
+Surd values | $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$
+
+@@dpp
+Q: In triangle ABC, $\angle B = 90^\circ$, $\angle A = 30^\circ$ and $AC = 14$ cm. Find BC and AB.
+A: 7 cm and $7\sqrt{3}$ cm
+Q: In triangle PQR, $\angle Q = 90^\circ$, $\angle R = 45^\circ$ and $QR = 9$ cm. Find PQ and PR.
+A: 9 cm and $9\sqrt{2}$ cm
+Q: In triangle ABC, $\angle B = 90^\circ$, $AB = 6\sqrt{3}$ cm and $BC = 6$ cm. Find $\angle A$ and AC.
+A: $30^\circ$; 12 cm
+Q: A ladder 8 m long makes $30^\circ$ with the ground. How high up the wall does it reach?
+A: 4 m
+Q: Find the altitude of an equilateral triangle of side 12 cm.
+A: $6\sqrt{3}$ cm
+Q: In triangle ABC, AD is perpendicular to BC, $\angle B = 60^\circ$, $\angle C = 45^\circ$ and $AD = 9$ cm. Find BC.
+A: $3\sqrt{3} + 9$ cm, about 14.2 cm
+Q: A rhombus has side 8 cm and one angle $120^\circ$. Find its diagonals.
+A: 8 cm and $8\sqrt{3}$ cm
+Q: A rectangle has diagonal 20 cm, which makes $30^\circ$ with the longer side. Find the sides.
+A: $10\sqrt{3}$ cm and 10 cm
+Q: A chord of a circle of radius 6 cm subtends $60^\circ$ at the centre. Find its length.
+A: 6 cm
+Q: The top of a tower is seen at $45^\circ$ from a point 30 m from its foot. Find the height of the tower.
+A: 30 m

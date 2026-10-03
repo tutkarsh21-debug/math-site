@@ -1,0 +1,115 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 7
+@title Indices (Exponents)
+@summary The laws of indices for positive, zero, negative and fractional exponents, simplifying expressions with indices and solving exponential equations.
+
+# Meaning of an index
+- $a^n = a \times a \times \ldots \times a$ ($n$ factors). Here $a$ is the **base** and $n$ is the **index** (exponent or power).
+- **Zero index**: $a^0 = 1$ for $a \neq 0$.
+- **Negative index**: $a^{-n} = \dfrac{1}{a^n}$, so $\left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n$.
+- **Fractional index**: $a^{\frac{1}{n}} = \sqrt[n]{a}$ and $a^{\frac{m}{n}} = \sqrt[n]{a^m} = \left(\sqrt[n]{a}\right)^m$.
+?eg Evaluate $8^{\frac{2}{3}}$, $\left(\dfrac{27}{8}\right)^{-\frac{2}{3}}$ and $(0.01)^{-\frac{1}{2}}$.
+= $8^{\frac{2}{3}} = (2^3)^{\frac{2}{3}} = 2^2$
+= $\left(\dfrac{27}{8}\right)^{-\frac{2}{3}} = \left(\dfrac{8}{27}\right)^{\frac{2}{3}} = \left(\dfrac{2}{3}\right)^2$
+= $(0.01)^{-\frac{1}{2}} = (10^{-2})^{-\frac{1}{2}} = 10$
+=> 4, $\dfrac{4}{9}$ and 10
+
+# Laws of indices
+- These hold for all rational indices (with non-zero bases where a division occurs).
+| Law | Statement |
+| Product | $a^m \times a^n = a^{m+n}$ |
+| Quotient | $a^m \div a^n = a^{m-n}$ |
+| Power of a power | $(a^m)^n = a^{mn}$ |
+| Power of a product | $(ab)^n = a^nb^n$ |
+| Power of a quotient | $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$ |
+- If $a^m = a^n$ and $a$ is not $0$, $1$ or $-1$, then $m = n$.
+- If $a^n = b^n$ and $n \neq 0$, then $a = b$ (for positive $a$, $b$).
+?eg Simplify $\dfrac{2^5 \times 2^{-3} \times 4^2}{8}$.
+= $\dfrac{2^5 \times 2^{-3} \times 2^4}{2^3} = 2^{5 - 3 + 4 - 3}$
+=> $2^3 = 8$
+?eg Simplify $\left(\dfrac{x^a}{x^b}\right)^{a+b} \times \left(\dfrac{x^b}{x^c}\right)^{b+c} \times \left(\dfrac{x^c}{x^a}\right)^{c+a}$.
+= $x^{(a-b)(a+b)} \times x^{(b-c)(b+c)} \times x^{(c-a)(c+a)} = x^{a^2 - b^2 + b^2 - c^2 + c^2 - a^2}$
+=> $x^0 = 1$
+?eg Simplify $(27)^{\frac{2}{3}} \times (16)^{-\frac{3}{4}} \div (125)^{-\frac{1}{3}}$.
+= $9 \times \dfrac{1}{8} \div \dfrac{1}{5} = 9 \times \dfrac{1}{8} \times 5$
+=> $\dfrac{45}{8}$
+
+# Working with roots
+- Write every root as a fractional index, then use the laws.
+- $\sqrt[n]{a} \times \sqrt[n]{b} = \sqrt[n]{ab}$ and $\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}$.
+?eg Simplify $\sqrt[3]{x^2} \times \sqrt{x^3} \div x^{\frac{1}{6}}$.
+= $x^{\frac{2}{3}} \times x^{\frac{3}{2}} \div x^{\frac{1}{6}} = x^{\frac{4 + 9 - 1}{6}}$
+=> $x^2$
+?eg Simplify $\dfrac{5^{n+3} - 6 \times 5^{n+1}}{9 \times 5^n - 5^n \times 2^2}$.
+= Numerator: $5^n(125 - 30) = 95 \times 5^n$. Denominator: $5^n(9 - 4) = 5 \times 5^n$.
+=> 19
+
+# Exponential equations
+- An **exponential equation** has the unknown in the index.
+- **Method**: write both sides as powers of the **same base**, then equate the indices.
+- If the equation has terms like $2^{x+1}$ and $2^{x-1}$, take $2^x$ common, or put $2^x = y$.
+?eg Solve $2^{x+3} = 32$.
+= $2^{x+3} = 2^5$, so $x + 3 = 5$
+=> $x = 2$
+?eg Solve $9^{x} = 27^{x-1}$.
+= $3^{2x} = 3^{3x - 3}$, so $2x = 3x - 3$
+=> $x = 3$
+?eg Solve $\left(\dfrac{2}{3}\right)^{x} = \left(\dfrac{27}{8}\right)^{2}$.
+= $\left(\dfrac{27}{8}\right)^2 = \left(\dfrac{3}{2}\right)^6 = \left(\dfrac{2}{3}\right)^{-6}$
+=> $x = -6$
+?eg Solve $2^{x+2} + 2^{x} = 40$.
+= $2^x(4 + 1) = 40$, so $2^x = 8$
+=> $x = 3$
+?eg Solve $3^{2x} - 10 \times 3^x + 9 = 0$.
+= Let $y = 3^x$: $y^2 - 10y + 9 = 0$ gives $y = 1$ or $y = 9$.
+=> $x = 0$ or $x = 2$
+?eg If $2^x = 3^y = 6^{-z}$, show that $\dfrac{1}{x} + \dfrac{1}{y} + \dfrac{1}{z} = 0$.
+= Let each equal $k$. Then $2 = k^{\frac{1}{x}}$, $3 = k^{\frac{1}{y}}$ and $6 = k^{-\frac{1}{z}}$.
+= $2 \times 3 = 6$ gives $k^{\frac{1}{x} + \frac{1}{y}} = k^{-\frac{1}{z}}$.
+=> $\dfrac{1}{x} + \dfrac{1}{y} = -\dfrac{1}{z}$, which is the required result
+
+# Common mistakes
+- Writing $a^m \times a^n = a^{mn}$ or $(a^m)^n = a^{m+n}$.
+- Taking $a^{-n}$ to be negative. $2^{-3} = \dfrac{1}{8}$.
+- Writing $a^0 = 0$.
+- Applying the laws across different bases: $2^3 \times 3^2$ is not $6^5$.
+- Writing $(a + b)^n = a^n + b^n$.
+- Confusing $a^{\frac{m}{n}}$ with $a^{\frac{n}{m}}$: the denominator of the index is the root.
+
+@@formulas
+Product law | $a^m \times a^n = a^{m+n}$
+Quotient law | $a^m \div a^n = a^{m-n}$
+Power of a power | $(a^m)^n = a^{mn}$
+Power of a product | $(ab)^n = a^nb^n$
+Power of a quotient | $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$
+Zero index | $a^0 = 1$, $a \neq 0$
+Negative index | $a^{-n} = \dfrac{1}{a^n}$
+Negative index of a fraction | $\left(\dfrac{a}{b}\right)^{-n} = \left(\dfrac{b}{a}\right)^n$
+Root | $a^{\frac{1}{n}} = \sqrt[n]{a}$
+Fractional index | $a^{\frac{m}{n}} = \sqrt[n]{a^m}$
+Equal powers, same base | $a^m = a^n$ gives $m = n$
+Root of a root | $\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}$
+
+@@dpp
+Q: Evaluate $(32)^{\frac{3}{5}}$ and $(81)^{-\frac{1}{4}}$.
+A: 8 and $\dfrac{1}{3}$
+Q: Evaluate $\left(\dfrac{16}{81}\right)^{-\frac{3}{4}}$.
+A: $\dfrac{27}{8}$
+Q: Simplify $\dfrac{3^7 \times 9^{-2}}{27}$.
+A: $3^0 = 1$
+Q: Simplify $(a^{\frac{1}{2}} + b^{\frac{1}{2}})(a^{\frac{1}{2}} - b^{\frac{1}{2}})$.
+A: $a - b$
+Q: Simplify $\sqrt{x^{-2}y^{4}} \times x^3y^{-1}$.
+A: $x^2y$
+Q: Solve $3^{x-1} = 81$.
+A: $x = 5$
+Q: Solve $4^{x} = 8^{x-2}$.
+A: $x = 6$
+Q: Solve $5^{2x+1} = 125^{x-1}$.
+A: $x = 4$
+Q: Solve $3^{x+1} + 3^{x} = 108$.
+A: $x = 3$
+Q: Solve $2^{2x} - 6 \times 2^{x} + 8 = 0$.
+A: $x = 1$ or $x = 2$

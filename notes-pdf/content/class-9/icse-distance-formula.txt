@@ -1,0 +1,134 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 28
+@title Distance Formula
+@summary The formula for the distance between two points in the Cartesian plane, and its use to test for collinear points, identify triangles and quadrilaterals, and find points and circles.
+
+# The formula
+- The distance between $P(x_1, y_1)$ and $Q(x_2, y_2)$ is
+$$PQ = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+- It comes from Pythagoras theorem: the horizontal step is $x_2 - x_1$ and the vertical step is $y_2 - y_1$.
+- The distance of $P(x, y)$ from the **origin** is $\sqrt{x^2 + y^2}$.
+- The order of the points does not matter, because the differences are squared.
+!fig w=320 h=210; Q L 20 180; Q R 300 180; Q T 40 15; Q B 40 195; L L R; L T B; P P 90 150 bl; P Q 250 50 tr; Q N 250 150; L P Q; D P N; D N Q; R P N Q; T 170 166 x₂ − x₁; T 286 104 y₂ − y₁; T 306 184 x; T 40 10 y; cap PQ is the hypotenuse of a right triangle
+?eg Find the distance between $A(2, 3)$ and $B(6, 6)$.
+= $\sqrt{(6 - 2)^2 + (6 - 3)^2} = \sqrt{16 + 9}$
+=> 5 units
+?eg Find the distance between $P(-3, 4)$ and $Q(5, -2)$.
+= $\sqrt{8^2 + (-6)^2} = \sqrt{100}$
+=> 10 units
+?eg Find the distance of $(-5, 12)$ from the origin.
+=> 13 units
+
+# Points on the axes
+- Distance between $(x_1, 0)$ and $(x_2, 0)$ on the x-axis: $|x_2 - x_1|$.
+- Distance between $(0, y_1)$ and $(0, y_2)$ on the y-axis: $|y_2 - y_1|$.
+- Distance of $(x, y)$ from the x-axis is $|y|$, and from the y-axis is $|x|$.
+
+# Finding an unknown co-ordinate
+- Write the distance formula, square both sides and solve. There are often **two** answers.
+?eg The distance between $A(2, -3)$ and $B(10, y)$ is 10 units. Find $y$.
+= $64 + (y + 3)^2 = 100$, so $(y + 3)^2 = 36$ and $y + 3 = \pm 6$.
+=> $y = 3$ or $y = -9$
+?eg Find the point on the x-axis equidistant from $A(2, -5)$ and $B(-2, 9)$.
+= Let the point be $P(x, 0)$. $PA^2 = PB^2$: $(x - 2)^2 + 25 = (x + 2)^2 + 81$.
+= $-4x + 29 = 4x + 85$, so $8x = -56$.
+=> $(-7, 0)$
+?eg Find the point on the y-axis equidistant from $(6, 5)$ and $(-4, 3)$.
+= Let it be $(0, y)$: $36 + (y - 5)^2 = 16 + (y - 3)^2$, so $61 - 10y = 25 - 6y$.
+=> $(0, 9)$
+?eg Find a relation between $x$ and $y$ if $P(x, y)$ is equidistant from $A(3, 6)$ and $B(-3, 4)$.
+= $(x - 3)^2 + (y - 6)^2 = (x + 3)^2 + (y - 4)^2$
+= $-6x - 12y + 45 = 6x - 8y + 25$
+=> $3x + y = 5$
+
+# Collinear points
+- Three points A, B, C are **collinear** if the sum of two of the distances equals the third: for example $AB + BC = AC$.
+?eg Show that $A(1, 2)$, $B(3, 4)$ and $C(6, 7)$ are collinear.
+= $AB = \sqrt{8} = 2\sqrt{2}$, $BC = \sqrt{18} = 3\sqrt{2}$, $AC = \sqrt{50} = 5\sqrt{2}$.
+=> $AB + BC = AC$, so the points are collinear
+
+# Identifying triangles
+| Triangle | Test |
+| Scalene | All three sides different |
+| Isosceles | Two sides equal |
+| Equilateral | All three sides equal |
+| Right-angled | (longest side)$^2 =$ sum of the squares of the other two |
+| Right-angled isosceles | Two sides equal and Pythagoras holds |
+- Work with the **squares** of the lengths to avoid square roots.
+?eg Show that $A(3, 0)$, $B(6, 4)$ and $C(-1, 3)$ are the vertices of a right-angled isosceles triangle.
+= $AB^2 = 9 + 16 = 25$, $AC^2 = 16 + 9 = 25$, $BC^2 = 49 + 1 = 50$.
+=> $AB = AC$ and $AB^2 + AC^2 = BC^2$, so the triangle is isosceles with a right angle at A
+?eg Show that $(0, 0)$, $(2, 0)$ and $(1, \sqrt{3})$ form an equilateral triangle.
+= The three squared distances are $4$, $1 + 3 = 4$ and $1 + 3 = 4$.
+=> All sides are 2 units
+
+# Identifying quadrilaterals
+- Find the four sides and the two diagonals.
+| Quadrilateral | Sides | Diagonals |
+| Parallelogram | Opposite sides equal | Not equal |
+| Rectangle | Opposite sides equal | Equal |
+| Rhombus | All sides equal | Not equal |
+| Square | All sides equal | Equal |
+?eg Show that $A(1, 1)$, $B(4, 1)$, $C(4, 4)$ and $D(1, 4)$ are the vertices of a square.
+= $AB = BC = CD = DA = 3$. $AC^2 = 9 + 9 = 18$ and $BD^2 = 9 + 9 = 18$.
+=> All sides are equal and the diagonals are equal: a square
+?eg Show that $P(-2, -1)$, $Q(1, 0)$, $R(4, 3)$ and $S(1, 2)$ form a parallelogram.
+= $PQ^2 = 9 + 1 = 10$, $RS^2 = 9 + 1 = 10$; $QR^2 = 9 + 9 = 18$, $SP^2 = 9 + 9 = 18$.
+=> Opposite sides are equal, so PQRS is a parallelogram
+
+# Circles
+- Every point on a circle is at distance $r$ from the centre. To check whether a point lies on a circle, compare its distance from the centre with the radius.
+- The **circumcentre** of a triangle is equidistant from its three vertices.
+?eg A circle has centre $(2, 1)$ and passes through $(5, 5)$. Find its radius. Does $(-1, 5)$ lie on it?
+= $r = \sqrt{9 + 16} = 5$. Distance of $(-1, 5)$ from the centre $= \sqrt{9 + 16} = 5$.
+=> Radius 5; yes
+?eg Find the centre of the circle through $(0, 0)$, $(6, 0)$ and $(0, 8)$.
+= Let the centre be $(h, k)$: $h^2 + k^2 = (h - 6)^2 + k^2$ gives $h = 3$; $h^2 + k^2 = h^2 + (k - 8)^2$ gives $k = 4$.
+=> Centre $(3, 4)$; radius 5
+
+# Common mistakes
+- Subtracting a negative co-ordinate wrongly: $5 - (-3) = 8$, not 2.
+- Forgetting the square root, or forgetting to square the differences.
+- Giving only one value when the equation gives two.
+- Calling a quadrilateral a square after checking only the sides. A rhombus also has four equal sides; check the diagonals.
+- Testing collinearity with two distances only.
+- Writing a point on the x-axis as $(0, x)$.
+
+@@formulas
+Distance | $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+Distance from the origin | $\sqrt{x^2 + y^2}$
+On the x-axis | $|x_2 - x_1|$
+On the y-axis | $|y_2 - y_1|$
+Distance from the axes | $|y|$ from the x-axis; $|x|$ from the y-axis
+Equidistant from A and B | $PA^2 = PB^2$
+Collinear points | $AB + BC = AC$
+Right-angled triangle | $AB^2 + BC^2 = AC^2$
+Parallelogram | Opposite sides equal
+Rectangle | Opposite sides equal and diagonals equal
+Rhombus | All sides equal
+Square | All sides equal and diagonals equal
+Point on a circle | Distance from the centre $= r$
+
+@@dpp
+Q: Find the distance between $(1, 2)$ and $(4, 6)$.
+A: 5 units
+Q: Find the distance between $(-6, 7)$ and $(-1, -5)$.
+A: 13 units
+Q: Find the distance of $(8, -15)$ from the origin.
+A: 17 units
+Q: The distance between $(3, k)$ and $(0, 1)$ is 5. Find $k$.
+A: $k = 5$ or $k = -3$
+Q: Find the point on the x-axis equidistant from $(7, 6)$ and $(-3, 4)$.
+A: $(3, 0)$
+Q: Show that $(1, -1)$, $(5, 2)$ and $(9, 5)$ are collinear.
+A: The distances are 5, 5 and 10, and $5 + 5 = 10$
+Q: What kind of triangle has vertices $(0, 0)$, $(5, 0)$ and $(0, 12)$? Find its perimeter.
+A: Right-angled; $5 + 12 + 13 = 30$ units
+Q: Show that $(2, 3)$, $(6, 3)$, $(6, 7)$ and $(2, 7)$ form a square, and find its area.
+A: Each side is 4 and both diagonals are $4\sqrt{2}$; area 16 square units
+Q: A circle with centre $(0, 0)$ passes through $(6, 8)$. Does $(10, 0)$ lie on it?
+A: Yes; both are 10 units from the centre
+Q: Find a relation between $x$ and $y$ if $(x, y)$ is equidistant from $(2, 0)$ and $(0, 2)$.
+A: $x = y$

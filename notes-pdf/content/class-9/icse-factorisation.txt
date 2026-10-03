@@ -1,0 +1,133 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 5
+@title Factorisation
+@summary Methods of factorising algebraic expressions: common factors, grouping, splitting the middle term, difference of two squares, perfect squares, and the sum and difference of two cubes.
+
+# What factorising means
+- To **factorise** an expression is to write it as a product of simpler expressions (its factors). It is the reverse of expanding.
+- Always look for a **common factor first**. Then choose a method from the number of terms.
+| Number of terms | Try |
+| Two | Difference of squares; sum or difference of cubes |
+| Three | Perfect square; splitting the middle term |
+| Four or more | Grouping; a perfect square with one extra term |
+- Factorise **completely**: keep going until no factor can be broken further.
+
+# Common factors
+- Take out the HCF of all the terms. The common factor may itself be a bracket.
+?eg Factorise $12a^2b - 18ab^2 + 6ab$.
+=> $6ab(2a - 3b + 1)$
+?eg Factorise $x(a - b) - y(b - a)$.
+= $b - a = -(a - b)$, so the expression is $x(a - b) + y(a - b)$.
+=> $(a - b)(x + y)$
+
+# Grouping
+- Arrange the terms in groups so that each group has a common factor and the brackets left behind are the same.
+?eg Factorise $ax + by + ay + bx$.
+= $(ax + ay) + (bx + by) = a(x + y) + b(x + y)$
+=> $(x + y)(a + b)$
+?eg Factorise $a^2 - ab - 3a + 3b$.
+= $a(a - b) - 3(a - b)$
+=> $(a - b)(a - 3)$
+?eg Factorise $x^2 + \dfrac{1}{x^2} + 2 - 5x - \dfrac{5}{x}$.
+= $\left(x + \dfrac{1}{x}\right)^2 - 5\left(x + \dfrac{1}{x}\right)$
+=> $\left(x + \dfrac{1}{x}\right)\left(x + \dfrac{1}{x} - 5\right)$
+
+# Trinomials: splitting the middle term
+- For $x^2 + bx + c$: find two numbers with **product $c$** and **sum $b$**.
+- For $ax^2 + bx + c$: find two numbers with **product $ac$** and **sum $b$**, split the middle term, then group.
+- If the product is positive the two numbers have the same sign as $b$. If it is negative they have opposite signs.
+- If $b^2 - 4ac$ is not a perfect square, the trinomial has no factors with rational coefficients.
+?eg Factorise $x^2 + 7x + 12$.
+= Product 12, sum 7: the numbers are 3 and 4.
+=> $(x + 3)(x + 4)$
+?eg Factorise $x^2 - 5x - 24$.
+= Product $-24$, sum $-5$: the numbers are $-8$ and 3.
+=> $(x - 8)(x + 3)$
+?eg Factorise $6x^2 + 11x - 10$.
+= Product $-60$, sum 11: the numbers are 15 and $-4$.
+= $6x^2 + 15x - 4x - 10 = 3x(2x + 5) - 2(2x + 5)$
+=> $(2x + 5)(3x - 2)$
+?eg Factorise $2(a + b)^2 - 5(a + b) - 3$.
+= Let $y = a + b$: $2y^2 - 5y - 3 = (2y + 1)(y - 3)$
+=> $(2a + 2b + 1)(a + b - 3)$
+
+# Difference of two squares
+$$a^2 - b^2 = (a + b)(a - b)$$
+- A **sum** of two squares $a^2 + b^2$ has no real factors.
+- Perfect-square trinomials: $a^2 + 2ab + b^2 = (a + b)^2$ and $a^2 - 2ab + b^2 = (a - b)^2$.
+- Four terms may form a perfect square and one more square: group three and one.
+?eg Factorise $25x^2 - 49y^2$.
+=> $(5x + 7y)(5x - 7y)$
+?eg Factorise $a^4 - 16$.
+= $(a^2 + 4)(a^2 - 4)$
+=> $(a^2 + 4)(a + 2)(a - 2)$
+?eg Factorise $x^2 - 6x + 9 - 4y^2$.
+= $(x - 3)^2 - (2y)^2$
+=> $(x - 3 + 2y)(x - 3 - 2y)$
+?eg Factorise $x^4 + x^2 + 1$.
+= Add and subtract $x^2$: $(x^2 + 1)^2 - x^2$
+=> $(x^2 + x + 1)(x^2 - x + 1)$
+?eg Evaluate $(6.7)^2 - (3.3)^2$.
+= $(6.7 + 3.3)(6.7 - 3.3) = 10 \times 3.4$
+=> 34
+
+# Sum and difference of two cubes
+$$a^3 + b^3 = (a + b)(a^2 - ab + b^2), \qquad a^3 - b^3 = (a - b)(a^2 + ab + b^2)$$
+- The sign in the first bracket matches the sign in the expression. The middle sign in the second bracket is the opposite. The last sign is always plus.
+?eg Factorise $8x^3 + 27y^3$.
+= $(2x)^3 + (3y)^3$
+=> $(2x + 3y)(4x^2 - 6xy + 9y^2)$
+?eg Factorise $a^3 - \dfrac{1}{a^3}$.
+=> $\left(a - \dfrac{1}{a}\right)\left(a^2 + 1 + \dfrac{1}{a^2}\right)$
+?eg Factorise $a^6 - b^6$.
+= $(a^3 + b^3)(a^3 - b^3)$
+=> $(a + b)(a - b)(a^2 - ab + b^2)(a^2 + ab + b^2)$
+?eg Factorise $2x^4 + 16x$.
+= $2x(x^3 + 8)$
+=> $2x(x + 2)(x^2 - 2x + 4)$
+
+# Common mistakes
+- Stopping early: $a^4 - 16 = (a^2 + 4)(a^2 - 4)$ is not complete.
+- Trying to factorise $a^2 + b^2$.
+- Sign errors when a group starts with a minus: $-3a + 3b = -3(a - b)$.
+- For $ax^2 + bx + c$, using numbers whose product is $c$ instead of $ac$.
+- Writing $a^3 + b^3 = (a + b)(a^2 + ab + b^2)$. The middle term is $-ab$.
+- Not taking out the common factor first.
+
+@@formulas
+Common factor | $ab + ac = a(b + c)$
+Grouping | $ax + ay + bx + by = (a + b)(x + y)$
+Monic trinomial | $x^2 + (p + q)x + pq = (x + p)(x + q)$
+General trinomial | Split $bx$ using two numbers with product $ac$ and sum $b$
+Difference of squares | $a^2 - b^2 = (a + b)(a - b)$
+Perfect square | $a^2 + 2ab + b^2 = (a + b)^2$
+Perfect square | $a^2 - 2ab + b^2 = (a - b)^2$
+Sum of cubes | $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
+Difference of cubes | $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$
+Fourth powers | $a^4 - b^4 = (a^2 + b^2)(a + b)(a - b)$
+Useful form | $x^4 + x^2 + 1 = (x^2 + x + 1)(x^2 - x + 1)$
+Three cubes | $a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)$
+
+@@dpp
+Q: Factorise $15x^3y - 10x^2y^2 + 5xy$.
+A: $5xy(3x^2 - 2xy + 1)$
+Q: Factorise $ab - 2b + a^2 - 2a$.
+A: $(a - 2)(a + b)$
+Q: Factorise $x^2 - 11x + 28$.
+A: $(x - 4)(x - 7)$
+Q: Factorise $x^2 + 3x - 40$.
+A: $(x + 8)(x - 5)$
+Q: Factorise $3x^2 - 10x + 8$.
+A: $(3x - 4)(x - 2)$
+Q: Factorise $9a^2 - 16b^2$.
+A: $(3a + 4b)(3a - 4b)$
+Q: Factorise $a^2 + 2ab + b^2 - c^2$.
+A: $(a + b + c)(a + b - c)$
+Q: Factorise $x^4 - 81$.
+A: $(x^2 + 9)(x + 3)(x - 3)$
+Q: Factorise $27a^3 - 64b^3$.
+A: $(3a - 4b)(9a^2 + 12ab + 16b^2)$
+Q: Factorise $a^3 + b^3 + a + b$.
+A: $(a + b)(a^2 - ab + b^2 + 1)$

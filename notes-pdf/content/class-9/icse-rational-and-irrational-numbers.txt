@@ -1,0 +1,134 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 1
+@title Rational and Irrational Numbers
+@summary Rational numbers and their decimal forms, irrational numbers and surds, placing them on the number line, simplifying surds and rationalising denominators.
+
+# Rational numbers
+- A **rational number** can be written as $\dfrac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+- Every integer, every fraction, every terminating decimal and every recurring decimal is rational.
+- Between any two rational numbers there are infinitely many rational numbers. One of them is their mean: $\dfrac{a + b}{2}$.
+- To insert $n$ rational numbers between $a$ and $b$, write both with a common denominator, multiply numerator and denominator by $n + 1$, and pick the fractions in between.
+?eg Insert three rational numbers between $\dfrac{1}{3}$ and $\dfrac{1}{2}$.
+= $\dfrac{1}{3} = \dfrac{2}{6} = \dfrac{8}{24}$ and $\dfrac{1}{2} = \dfrac{3}{6} = \dfrac{12}{24}$
+=> $\dfrac{9}{24}, \dfrac{10}{24}, \dfrac{11}{24}$, that is $\dfrac{3}{8}, \dfrac{5}{12}, \dfrac{11}{24}$
+
+# Decimal form of a rational number
+- The decimal form of a rational number either **terminates** or **recurs**.
+- $\dfrac{p}{q}$ (in lowest terms) terminates exactly when $q$ has **no prime factor other than 2 and 5**.
+- A recurring decimal is written with a bar: $0.\overline{3} = 0.333\ldots$, $0.1\overline{6} = 0.1666\ldots$
+- **Recurring decimal to fraction**: let $x$ be the number, multiply by a power of 10 so that the recurring parts line up, and subtract.
+?eg Without dividing, say whether $\dfrac{7}{80}$ and $\dfrac{5}{12}$ terminate.
+= $80 = 2^4 \times 5$: only 2 and 5. $12 = 2^2 \times 3$: contains 3.
+=> $\dfrac{7}{80}$ terminates; $\dfrac{5}{12}$ recurs
+?eg Express $0.\overline{27}$ as a fraction.
+= Let $x = 0.2727\ldots$ Then $100x = 27.2727\ldots$
+= $99x = 27$
+=> $x = \dfrac{27}{99} = \dfrac{3}{11}$
+?eg Express $0.2\overline{3}$ as a fraction.
+= $10x = 2.333\ldots$ and $100x = 23.333\ldots$, so $90x = 21$
+=> $\dfrac{7}{30}$
+
+# Irrational numbers
+- A number that **cannot** be written as $\dfrac{p}{q}$ is **irrational**. Its decimal form neither terminates nor recurs.
+- Examples: $\sqrt{2}$, $\sqrt{3}$, $\sqrt{5}$, $\sqrt[3]{4}$, $\pi$, $0.101001000100001\ldots$
+- $\sqrt{n}$ is irrational whenever $n$ is a positive integer that is not a perfect square.
+- Rational and irrational numbers together form the **real numbers**. Every real number has a point on the number line.
+- **Proof that $\sqrt{2}$ is irrational**: suppose $\sqrt{2} = \dfrac{p}{q}$ in lowest terms. Then $p^2 = 2q^2$, so $p$ is even, say $p = 2k$. Then $q^2 = 2k^2$, so $q$ is even too. This contradicts "lowest terms".
+| Operation | Result |
+| rational $\pm$ irrational | irrational |
+| non-zero rational $\times$ irrational | irrational |
+| irrational $\pm$ irrational | may be rational or irrational |
+| irrational $\times$ irrational | may be rational or irrational |
+?eg Show that $3 + \sqrt{5}$ is irrational.
+= Suppose $3 + \sqrt{5} = r$, a rational number. Then $\sqrt{5} = r - 3$, which is rational.
+=> This contradicts the fact that $\sqrt{5}$ is irrational, so $3 + \sqrt{5}$ is irrational
+?eg Write two irrational numbers between 2 and 3.
+= Any $\sqrt{n}$ with $4 < n < 9$ and $n$ not a perfect square will do.
+=> $\sqrt{5}$ and $\sqrt{7}$
+
+# Surds on the number line
+- $\sqrt{2}$: draw a right triangle with both shorter sides 1 unit on the number line from 0. Its hypotenuse is $\sqrt{2}$. With centre 0 and this radius, cut the number line.
+- $\sqrt{3}$: use shorter sides $\sqrt{2}$ and 1. $\sqrt{5}$: use shorter sides 2 and 1.
+!fig w=320 h=165; P O 40 110 b; Q E 300 110; L O E; P A 120 110 b; P B 120 30 t; P P 153.1 110 b; L O B; D A B; R O A B; T 40 147 0; T 120 147 1; T 153 147 √2; T 68 62 √2; T 132 72 1; ARC O 113.1 0 45; cap OA = 1 and AB = 1, so OB = √2. The arc with centre O marks P at √2.
+
+# Surds
+- If $\sqrt[n]{a}$ is irrational and $a$ is a positive rational number, then $\sqrt[n]{a}$ is a **surd** of order $n$. $\sqrt{3}$ is a surd; $\sqrt{9}$ and $\pi$ are not.
+- $\sqrt{ab} = \sqrt{a} \times \sqrt{b}$ and $\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}$ for positive $a$, $b$.
+- **Like surds** have the same irrational part and can be added: $3\sqrt{2} + 5\sqrt{2} = 8\sqrt{2}$.
+- **Simplest form**: take out the largest perfect-square factor. $\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$.
+?eg Simplify $\sqrt{50} + \sqrt{18} - \sqrt{8}$.
+= $5\sqrt{2} + 3\sqrt{2} - 2\sqrt{2}$
+=> $6\sqrt{2}$
+?eg Expand $(2\sqrt{3} + \sqrt{5})(2\sqrt{3} - \sqrt{5})$.
+= $(2\sqrt{3})^2 - (\sqrt{5})^2 = 12 - 5$
+=> 7
+?eg Which is greater, $3\sqrt{2}$ or $2\sqrt{5}$?
+= $3\sqrt{2} = \sqrt{18}$ and $2\sqrt{5} = \sqrt{20}$
+=> $2\sqrt{5}$
+
+# Rationalisation
+- **Rationalising** a denominator means removing the surd from it by multiplying numerator and denominator by a suitable **rationalising factor**.
+| Denominator | Rationalising factor |
+| $\sqrt{a}$ | $\sqrt{a}$ |
+| $a + \sqrt{b}$ | $a - \sqrt{b}$ |
+| $\sqrt{a} + \sqrt{b}$ | $\sqrt{a} - \sqrt{b}$ |
+| $\sqrt{a} - \sqrt{b}$ | $\sqrt{a} + \sqrt{b}$ |
+- $a + \sqrt{b}$ and $a - \sqrt{b}$ are **conjugates**. Their product $a^2 - b$ is rational.
+?eg Rationalise the denominator of $\dfrac{5}{\sqrt{3}}$.
+=> $\dfrac{5\sqrt{3}}{3}$
+?eg Rationalise the denominator of $\dfrac{4}{3 - \sqrt{5}}$.
+= $\dfrac{4(3 + \sqrt{5})}{9 - 5}$
+=> $3 + \sqrt{5}$
+?eg If $\dfrac{\sqrt{3} + 1}{\sqrt{3} - 1} = a + b\sqrt{3}$, find $a$ and $b$.
+= $\dfrac{(\sqrt{3} + 1)^2}{3 - 1} = \dfrac{4 + 2\sqrt{3}}{2} = 2 + \sqrt{3}$
+=> $a = 2$, $b = 1$
+?eg If $x = 2 + \sqrt{3}$, find $x + \dfrac{1}{x}$ and $x^2 + \dfrac{1}{x^2}$.
+= $\dfrac{1}{x} = \dfrac{2 - \sqrt{3}}{4 - 3} = 2 - \sqrt{3}$, so $x + \dfrac{1}{x} = 4$.
+= $x^2 + \dfrac{1}{x^2} = 4^2 - 2$
+=> 4 and 14
+
+# Common mistakes
+- Writing $\sqrt{a + b} = \sqrt{a} + \sqrt{b}$. This is false: $\sqrt{9 + 16} = 5$, not 7.
+- Calling $\dfrac{22}{7}$ irrational. It is rational; it is only an approximation for $\pi$.
+- Adding unlike surds: $\sqrt{2} + \sqrt{3}$ is not $\sqrt{5}$.
+- Multiplying only the denominator by the rationalising factor.
+- Using $a + \sqrt{b}$ again instead of its conjugate.
+- Forgetting to reduce $\dfrac{p}{q}$ to lowest terms before testing the denominator for 2s and 5s.
+
+@@formulas
+Rational number | $\dfrac{p}{q}$, $p$ and $q$ integers, $q \neq 0$
+Terminating decimal | Denominator (lowest terms) has only the prime factors 2 and 5
+Rational between $a$ and $b$ | $\dfrac{a + b}{2}$
+Irrational number | Decimal neither terminates nor recurs
+Product rule | $\sqrt{ab} = \sqrt{a}\sqrt{b}$
+Quotient rule | $\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}$
+Conjugate product | $(a + \sqrt{b})(a - \sqrt{b}) = a^2 - b$
+Conjugate product | $(\sqrt{a} + \sqrt{b})(\sqrt{a} - \sqrt{b}) = a - b$
+Square of a sum | $(\sqrt{a} + \sqrt{b})^2 = a + b + 2\sqrt{ab}$
+Rationalising $\dfrac{1}{\sqrt{a}}$ | $\dfrac{\sqrt{a}}{a}$
+Rationalising $\dfrac{1}{\sqrt{a} + \sqrt{b}}$ | $\dfrac{\sqrt{a} - \sqrt{b}}{a - b}$
+Useful values | $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$, $\sqrt{5} \approx 2.236$
+
+@@dpp
+Q: Insert two rational numbers between $\dfrac{2}{5}$ and $\dfrac{3}{5}$.
+A: For example $\dfrac{7}{15}$ and $\dfrac{8}{15}$
+Q: Without dividing, state whether $\dfrac{13}{125}$ and $\dfrac{7}{30}$ are terminating or recurring.
+A: $\dfrac{13}{125}$ terminates; $\dfrac{7}{30}$ recurs
+Q: Express $0.\overline{45}$ as a fraction in lowest terms.
+A: $\dfrac{5}{11}$
+Q: State whether each is rational or irrational: $\sqrt{49}$, $\sqrt{12}$, $0.\overline{6}$, $2\pi$.
+A: Rational, irrational, rational, irrational
+Q: Simplify $\sqrt{75} - \sqrt{48} + \sqrt{27}$.
+A: $5\sqrt{3} - 4\sqrt{3} + 3\sqrt{3} = 4\sqrt{3}$
+Q: Simplify $(\sqrt{5} + \sqrt{2})^2$.
+A: $7 + 2\sqrt{10}$
+Q: Rationalise the denominator of $\dfrac{6}{\sqrt{7} - \sqrt{5}}$.
+A: $3(\sqrt{7} + \sqrt{5})$
+Q: If $\dfrac{5 + 2\sqrt{3}}{7 + 4\sqrt{3}} = a + b\sqrt{3}$, find $a$ and $b$.
+A: $a = 11$, $b = -6$
+Q: If $x = 3 - 2\sqrt{2}$, find $x + \dfrac{1}{x}$.
+A: 6
+Q: Prove that $2\sqrt{3}$ is irrational, given that $\sqrt{3}$ is irrational.
+A: If $2\sqrt{3} = r$ were rational, then $\sqrt{3} = \dfrac{r}{2}$ would be rational, a contradiction

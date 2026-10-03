@@ -1,0 +1,131 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 13
+@title Pythagoras Theorem
+@summary Pythagoras theorem and its converse, Pythagorean triplets, and their use in finding lengths in triangles, rectangles, rhombuses and everyday situations.
+
+# The theorem
+- In a **right-angled triangle**, the square on the **hypotenuse** equals the sum of the squares on the other two sides.
+- If $\angle B = 90^\circ$ in triangle ABC, then
+$$AC^2 = AB^2 + BC^2$$
+!fig w=300 h=185; P B 60 150 bl; P C 240 150 br; P A 60 40 tl; L A B; L B C; L A C; R A B C; cap Angle B is 90°, so AC² = AB² + BC²
+- The hypotenuse is the side opposite the right angle. It is the longest side.
+- **A proof by area**: draw BD perpendicular to AC. Triangles ABD and ACB have the same angles, which gives $AB^2 = AD \times AC$. In the same way $BC^2 = DC \times AC$. Adding: $AB^2 + BC^2 = AC(AD + DC) = AC^2$.
+?eg In triangle ABC, $\angle B = 90^\circ$, $AB = 9$ cm and $BC = 12$ cm. Find AC.
+= $AC^2 = 81 + 144 = 225$
+=> 15 cm
+?eg In triangle PQR, $\angle Q = 90^\circ$, $PR = 25$ cm and $PQ = 7$ cm. Find QR.
+= $QR^2 = 625 - 49 = 576$
+=> 24 cm
+
+# Converse
+- If the square on one side of a triangle equals the sum of the squares on the other two sides, then the angle **opposite the first side** is a right angle.
+- **To test a triangle**: square the longest side and compare with the sum of the squares of the other two.
+| Comparison (c is the longest side) | Triangle |
+| $c^2 = a^2 + b^2$ | Right-angled |
+| $c^2 < a^2 + b^2$ | Acute-angled |
+| $c^2 > a^2 + b^2$ | Obtuse-angled |
+?eg Is a triangle with sides 8 cm, 15 cm and 17 cm right-angled?
+= $17^2 = 289$ and $8^2 + 15^2 = 64 + 225 = 289$
+=> Yes; the right angle is opposite the 17 cm side
+?eg What kind of triangle has sides 5 cm, 6 cm and 9 cm?
+= $81 > 25 + 36 = 61$
+=> Obtuse-angled
+
+# Pythagorean triplets
+- Three natural numbers $a$, $b$, $c$ with $a^2 + b^2 = c^2$ form a **Pythagorean triplet**.
+- Common triplets: $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$, $(20, 21, 29)$, $(9, 40, 41)$.
+- Any multiple of a triplet is a triplet: $(6, 8, 10)$, $(9, 12, 15)$, $(10, 24, 26)$.
+- For any natural number $m > 1$: $(2m, m^2 - 1, m^2 + 1)$ is a triplet.
+?eg Write a Pythagorean triplet one of whose members is 12.
+= Take $2m = 12$, so $m = 6$: $m^2 - 1 = 35$ and $m^2 + 1 = 37$.
+=> $(12, 35, 37)$
+
+# Standard applications
+- **Diagonal of a rectangle**: $d^2 = l^2 + b^2$. **Diagonal of a square** of side $a$: $a\sqrt{2}$.
+- **Rhombus**: the diagonals bisect each other at right angles, so side$^2 = \left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2$, that is $4 \times \text{side}^2 = d_1^2 + d_2^2$.
+- **Isosceles triangle**: the altitude to the base bisects the base.
+- **Equilateral triangle** of side $a$: altitude $= \dfrac{\sqrt{3}}{2}a$ and area $= \dfrac{\sqrt{3}}{4}a^2$.
+- **Altitude on the hypotenuse**: if the legs are $a$, $b$ and the hypotenuse is $c$, the altitude is $\dfrac{ab}{c}$.
+?eg A rectangle is 24 cm long and its diagonal is 26 cm. Find its breadth.
+= $b^2 = 676 - 576 = 100$
+=> 10 cm
+?eg The diagonals of a rhombus are 16 cm and 30 cm. Find its perimeter.
+= Side$^2 = 8^2 + 15^2 = 289$, so the side is 17 cm.
+=> 68 cm
+?eg Find the altitude of an equilateral triangle of side 8 cm.
+= $h^2 = 8^2 - 4^2 = 48$
+=> $4\sqrt{3}$ cm, about 6.93 cm
+?eg The legs of a right triangle are 6 cm and 8 cm. Find the altitude on the hypotenuse.
+= Hypotenuse $= 10$ cm. Area $= \dfrac{1}{2} \times 6 \times 8 = \dfrac{1}{2} \times 10 \times h$.
+=> 4.8 cm
+
+# Problems from daily life
+- Draw the figure, mark the right angle and name the three sides before using the theorem.
+?eg A ladder 13 m long reaches a window 12 m above the ground. How far is the foot of the ladder from the wall?
+= $d^2 = 169 - 144 = 25$
+=> 5 m
+?eg Two poles of heights 6 m and 11 m stand 12 m apart on level ground. Find the distance between their tops.
+= The tops differ in height by 5 m and are 12 m apart horizontally: $d^2 = 25 + 144$.
+=> 13 m
+?eg A man goes 15 m due west and then 8 m due north. How far is he from the starting point?
+= $d^2 = 225 + 64 = 289$
+=> 17 m
+
+# Results in triangles
+- In triangle ABC with AD perpendicular to BC: $AB^2 - BD^2 = AC^2 - CD^2$ (both equal $AD^2$).
+- If $\angle B = 90^\circ$ and D is the mid-point of BC: $AC^2 = AD^2 + 3CD^2$.
+- In an equilateral triangle with altitude AD: $3AB^2 = 4AD^2$.
+?eg In triangle ABC, AD is perpendicular to BC, $AB = 13$ cm, $BD = 5$ cm and $DC = 9$ cm. Find AC.
+= $AD^2 = 169 - 25 = 144$. Then $AC^2 = 144 + 81 = 225$.
+=> 15 cm
+?eg In triangle ABC, $\angle B = 90^\circ$ and D is the mid-point of BC. Prove that $AC^2 = AD^2 + 3CD^2$.
+= $AC^2 = AB^2 + BC^2$ and $AD^2 = AB^2 + BD^2$. Subtracting: $AC^2 - AD^2 = BC^2 - BD^2$.
+= $BC = 2CD$ and $BD = CD$, so $BC^2 - BD^2 = 4CD^2 - CD^2$.
+=> $AC^2 = AD^2 + 3CD^2$
+
+# Common mistakes
+- Adding when a shorter side is required: use hypotenuse$^2$ minus the known side$^2$.
+- Taking the wrong side as the hypotenuse. It is always opposite the right angle.
+- Forgetting to take the square root at the end.
+- Using the full diagonals of a rhombus instead of the half-diagonals.
+- Testing the converse with a side that is not the longest.
+- Using the theorem in a triangle that is not right-angled.
+
+@@formulas
+Pythagoras theorem | $AC^2 = AB^2 + BC^2$, with $\angle B = 90^\circ$
+Hypotenuse | $c = \sqrt{a^2 + b^2}$
+Other side | $a = \sqrt{c^2 - b^2}$
+Converse | $c^2 = a^2 + b^2$ gives a right angle opposite $c$
+Acute or obtuse | $c^2 < a^2 + b^2$ acute; $c^2 > a^2 + b^2$ obtuse
+Triplet generator | $(2m, m^2 - 1, m^2 + 1)$
+Diagonal of a rectangle | $\sqrt{l^2 + b^2}$
+Diagonal of a square | $a\sqrt{2}$
+Rhombus | $4 \times \text{side}^2 = d_1^2 + d_2^2$
+Altitude of an equilateral triangle | $\dfrac{\sqrt{3}}{2}a$
+Area of an equilateral triangle | $\dfrac{\sqrt{3}}{4}a^2$
+Altitude on the hypotenuse | $\dfrac{ab}{c}$
+Perpendicular AD on BC | $AB^2 - BD^2 = AC^2 - CD^2$
+
+@@dpp
+Q: Find the hypotenuse of a right triangle with legs 20 cm and 21 cm.
+A: 29 cm
+Q: The hypotenuse of a right triangle is 41 cm and one side is 9 cm. Find the third side.
+A: 40 cm
+Q: Is a triangle with sides 9 cm, 12 cm and 16 cm right-angled?
+A: No; $256 > 81 + 144 = 225$, so it is obtuse-angled
+Q: Write a Pythagorean triplet whose smallest member is 10.
+A: $(10, 24, 26)$
+Q: Find the diagonal of a rectangle 15 cm by 8 cm.
+A: 17 cm
+Q: The diagonals of a rhombus are 10 cm and 24 cm. Find its side.
+A: 13 cm
+Q: Find the area of an equilateral triangle of side 6 cm.
+A: $9\sqrt{3}$ sq cm
+Q: A ladder 10 m long is placed with its foot 6 m from a wall. How high does it reach?
+A: 8 m
+Q: Two poles 7 m and 15 m high stand 15 m apart. Find the distance between their tops.
+A: 17 m
+Q: In triangle ABC, AD is perpendicular to BC, $AB = 15$ cm, $BD = 9$ cm, $DC = 5$ cm. Find AC.
+A: 13 cm

@@ -1,0 +1,133 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 20
+@title Area and Perimeter of Plane Figures
+@summary Perimeter and area of triangles (including Heron's formula), quadrilaterals and circles, with problems on paths, rings and combined figures.
+
+# Triangles
+- Perimeter $= a + b + c$. Semi-perimeter $s = \dfrac{a + b + c}{2}$.
+- Area $= \dfrac{1}{2} \times$ base $\times$ height.
+- **Heron's formula** (all three sides known):
+$$\text{Area} = \sqrt{s(s - a)(s - b)(s - c)}$$
+| Triangle | Area | Other facts |
+| Right-angled, legs $a$, $b$ | $\dfrac{1}{2}ab$ | Hypotenuse $\sqrt{a^2 + b^2}$ |
+| Equilateral, side $a$ | $\dfrac{\sqrt{3}}{4}a^2$ | Height $\dfrac{\sqrt{3}}{2}a$ |
+| Isosceles, equal sides $a$, base $b$ | $\dfrac{b}{4}\sqrt{4a^2 - b^2}$ | Height $\dfrac{1}{2}\sqrt{4a^2 - b^2}$ |
+- An altitude can be found from the area: height $= \dfrac{2 \times \text{area}}{\text{base}}$.
+?eg Find the area of a triangle with sides 13 cm, 14 cm and 15 cm, and the altitude on the 14 cm side.
+= $s = 21$. Area $= \sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056} = 84$ sq cm.
+= Altitude $= \dfrac{2 \times 84}{14}$
+=> 84 sq cm; 12 cm
+?eg The area of an equilateral triangle is $36\sqrt{3}$ sq cm. Find its side and perimeter.
+= $\dfrac{\sqrt{3}}{4}a^2 = 36\sqrt{3}$, so $a^2 = 144$
+=> Side 12 cm; perimeter 36 cm
+?eg An isosceles triangle has equal sides 10 cm and base 12 cm. Find its area.
+= Height $= \sqrt{100 - 36} = 8$ cm
+=> 48 sq cm
+
+# Quadrilaterals
+| Figure | Perimeter | Area |
+| Rectangle, $l$ by $b$ | $2(l + b)$ | $l \times b$ |
+| Square, side $a$ | $4a$ | $a^2 = \dfrac{1}{2} \times \text{diagonal}^2$ |
+| Parallelogram | $2 \times$ (sum of adjacent sides) | base $\times$ height |
+| Rhombus | $4 \times$ side | $\dfrac{1}{2}d_1d_2$ |
+| Trapezium | Sum of the sides | $\dfrac{1}{2}(a + b)h$ |
+| Any quadrilateral | Sum of the sides | $\dfrac{1}{2} \times$ diagonal $\times$ (sum of the perpendiculars on it) |
+- Diagonal of a rectangle $= \sqrt{l^2 + b^2}$. Diagonal of a square $= a\sqrt{2}$.
+- A quadrilateral with all sides and one diagonal known: use Heron's formula on the two triangles.
+?eg The diagonal of a square is 12 cm. Find its area and perimeter.
+= Area $= \dfrac{1}{2} \times 144 = 72$ sq cm. Side $= \sqrt{72} = 6\sqrt{2}$ cm.
+=> 72 sq cm; $24\sqrt{2}$ cm
+?eg A rectangle has perimeter 46 cm and length 15 cm. Find its area and diagonal.
+= Breadth $= 23 - 15 = 8$ cm. Diagonal $= \sqrt{225 + 64}$.
+=> 120 sq cm; 17 cm
+?eg The parallel sides of a trapezium are 25 cm and 13 cm, and the non-parallel sides are 10 cm each. Find its area.
+= Each end triangle has base $\dfrac{25 - 13}{2} = 6$ cm and hypotenuse 10 cm, so the height is 8 cm.
+= $\dfrac{1}{2} \times 38 \times 8$
+=> 152 sq cm
+?eg The area of a rhombus is 216 sq cm and one diagonal is 24 cm. Find the other diagonal and the perimeter.
+= $\dfrac{1}{2} \times 24 \times d = 216$ gives $d = 18$ cm. Side $= \sqrt{12^2 + 9^2} = 15$ cm.
+=> 18 cm; 60 cm
+?eg In quadrilateral ABCD, $AB = 9$ cm, $BC = 12$ cm, $CD = 17$ cm, $DA = 8$ cm and $\angle B = 90^\circ$. Find its area.
+= $AC = \sqrt{81 + 144} = 15$ cm. Triangle ABC: $\dfrac{1}{2} \times 9 \times 12 = 54$.
+= Triangle ACD has sides 15, 17, 8: $8^2 + 15^2 = 17^2$, so it is right-angled, area $\dfrac{1}{2} \times 8 \times 15 = 60$.
+=> 114 sq cm
+
+# Paths and borders
+- Path of width $w$ **outside** a rectangle $l$ by $b$: area $= (l + 2w)(b + 2w) - lb$.
+- Path of width $w$ **inside**: area $= lb - (l - 2w)(b - 2w)$.
+- Two cross-paths of width $w$ through the middle: area $= w(l + b - w)$.
+- Cost $=$ area $\times$ rate per unit area. Number of tiles $=$ area to be covered $\div$ area of one tile.
+?eg A lawn 40 m by 25 m has a path 2.5 m wide all around it on the outside. Find the cost of paving the path at ₹80 per sq m.
+= Outer rectangle 45 m by 30 m: $1350 - 1000 = 350$ sq m
+=> ₹28,000
+
+# Circle
+- Circumference $= 2\pi r = \pi d$. Area $= \pi r^2$.
+- **Ring** between concentric circles of radii $R$ and $r$: area $= \pi(R^2 - r^2) = \pi(R + r)(R - r)$.
+- Semicircle: area $\dfrac{1}{2}\pi r^2$, perimeter $\pi r + 2r$. Quadrant: area $\dfrac{1}{4}\pi r^2$, perimeter $\dfrac{1}{2}\pi r + 2r$.
+- Distance moved by a wheel in one revolution $=$ its circumference.
+- Take $\pi = \dfrac{22}{7}$ unless told otherwise.
+!fig w=260 h=205; P O 130 100 l; C O 80; C O 50; Q a 210 100; Q b 130 50; L O a; D O b; T 170 93 R; T 139 78 r; cap A ring: area = π(R² − r²)
+?eg The circumference of a circle is 88 cm. Find its radius and area.
+= $2 \times \dfrac{22}{7} \times r = 88$ gives $r = 14$ cm. Area $= \dfrac{22}{7} \times 196$.
+=> 14 cm; 616 sq cm
+?eg A circular park of radius 21 m has a road 7 m wide around it. Find the area of the road.
+= $\dfrac{22}{7}(28^2 - 21^2) = \dfrac{22}{7} \times 49 \times 7$
+=> 1078 sq m
+?eg A wheel of diameter 70 cm makes 500 revolutions. How far does it travel?
+= Circumference $= \dfrac{22}{7} \times 70 = 220$ cm. Distance $= 500 \times 220$ cm.
+=> 1.1 km
+?eg A wire in the shape of a square of side 22 cm is bent into a circle. Find the area of the circle.
+= Length of wire $= 88$ cm $= 2\pi r$, so $r = 14$ cm.
+=> 616 sq cm
+?eg Find the area of the largest circle that can be cut from a square of side 14 cm, and the area left over.
+= Radius 7 cm: circle $= 154$ sq cm. Square $= 196$ sq cm.
+=> 154 sq cm; 42 sq cm left
+
+# Common mistakes
+- Using the diameter in place of the radius in $\pi r^2$.
+- Forgetting the two straight edges in the perimeter of a semicircle or quadrant.
+- Adding $w$ once instead of $2w$ to each dimension for a path all round.
+- Writing the area of a ring as $\pi(R - r)^2$.
+- Mixing units: change everything to the same unit before calculating.
+- In Heron's formula, using the perimeter instead of the semi-perimeter.
+
+@@formulas
+Semi-perimeter | $s = \dfrac{a + b + c}{2}$
+Heron's formula | $\sqrt{s(s - a)(s - b)(s - c)}$
+Equilateral triangle | Area $\dfrac{\sqrt{3}}{4}a^2$, height $\dfrac{\sqrt{3}}{2}a$
+Isosceles triangle | $\dfrac{b}{4}\sqrt{4a^2 - b^2}$
+Rectangle | Area $lb$, perimeter $2(l + b)$, diagonal $\sqrt{l^2 + b^2}$
+Square | Area $a^2 = \dfrac{1}{2}d^2$, perimeter $4a$
+Parallelogram | Base $\times$ height
+Rhombus | $\dfrac{1}{2}d_1d_2$
+Trapezium | $\dfrac{1}{2}(a + b)h$
+Circle | Circumference $2\pi r$, area $\pi r^2$
+Ring | $\pi(R^2 - r^2)$
+Semicircle | Area $\dfrac{1}{2}\pi r^2$, perimeter $\pi r + 2r$
+Path outside a rectangle | $(l + 2w)(b + 2w) - lb$
+Cross-paths | $w(l + b - w)$
+
+@@dpp
+Q: Find the area of a triangle with sides 9 cm, 12 cm and 15 cm.
+A: 54 sq cm
+Q: Find the area of a triangle with sides 7 cm, 24 cm and 25 cm using Heron's formula.
+A: $s = 28$; area $= \sqrt{28 \times 21 \times 4 \times 3} = 84$ sq cm
+Q: Find the area of an equilateral triangle of side 10 cm.
+A: $25\sqrt{3}$ sq cm, about 43.3 sq cm
+Q: The area of a square is 50 sq cm. Find its diagonal.
+A: 10 cm
+Q: The diagonals of a rhombus are 16 cm and 12 cm. Find its area and perimeter.
+A: 96 sq cm; 40 cm
+Q: The parallel sides of a trapezium are 20 cm and 14 cm and its area is 204 sq cm. Find its height.
+A: 12 cm
+Q: A room 8 m by 6 m is to be paved with square tiles of side 40 cm. How many tiles are needed?
+A: 300
+Q: Find the area of a circle whose circumference is 132 cm.
+A: Radius 21 cm; area 1386 sq cm
+Q: Find the area of a ring with outer radius 10.5 cm and inner radius 3.5 cm.
+A: 308 sq cm
+Q: Find the perimeter of a semicircular plate of radius 14 cm.
+A: $44 + 28 = 72$ cm

@@ -1,0 +1,125 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 2
+@title Compound Interest (Without Using Formula)
+@summary Finding compound interest year by year using the simple interest formula, with interest compounded yearly or half-yearly, and comparing compound interest with simple interest.
+
+# Simple interest
+- **Principal** $P$: the money borrowed or lent. **Rate** $R\%$ per annum. **Time** $T$ years.
+$$\text{S.I.} = \frac{P \times R \times T}{100}, \qquad \text{Amount} = P + \text{S.I.}$$
+- With simple interest the principal stays the same for the whole period, so the interest is the same every year.
+?eg Find the simple interest on ₹8000 at 6% per annum for 3 years.
+= $\dfrac{8000 \times 6 \times 3}{100}$
+=> ₹1440
+
+# Compound interest
+- With **compound interest** the interest of each period is added to the principal. The **amount at the end of one year becomes the principal for the next year**.
+- Compound interest (C.I.) $=$ final amount $-$ original principal.
+- **Method**: find the interest for the first year by the S.I. formula with $T = 1$; add it to get the amount; use that amount as the new principal; repeat.
+| Year | Principal (₹) | Interest at 10% (₹) | Amount (₹) |
+| 1 | 5000 | 500 | 5500 |
+| 2 | 5500 | 550 | 6050 |
+| 3 | 6050 | 605 | 6655 |
+?eg Find the amount and the compound interest on ₹5000 for 3 years at 10% per annum, compounded yearly.
+= From the table, the amount after 3 years is ₹6655.
+=> Amount ₹6655; C.I. $= 6655 - 5000$, that is ₹1655
+?eg Find the compound interest on ₹12,000 for 2 years when the rate is 8% for the first year and 10% for the second.
+= First year: interest $= 960$, amount $= 12960$.
+= Second year: interest $= 1296$, amount $= 14256$.
+=> C.I. ₹2256
+
+# Useful facts
+- For the **first year**, C.I. and S.I. are **equal**.
+- The interests of successive years grow: interest of any year $=$ interest of the previous year $+$ interest on that interest.
+- The **amounts** of successive years are in a fixed ratio: each is $\left(1 + \dfrac{R}{100}\right)$ times the one before.
+- **Difference of the C.I. of two successive years** $=$ one year's interest on the earlier year's C.I. So
+$$R = \frac{\text{difference between the C.I. of two successive years}}{\text{C.I. of the earlier year}} \times 100$$
+- **Difference of the amounts of two successive years** is the interest on the earlier amount. So $R = \dfrac{\text{difference of the amounts}}{\text{earlier amount}} \times 100$.
+?eg The compound interest on a sum is ₹1200 in the first year and ₹1320 in the second year. Find the rate and the sum.
+= Difference $= 120$, which is one year's interest on ₹1200. So $R = \dfrac{120}{1200} \times 100 = 10\%$.
+= First-year interest: $\dfrac{P \times 10}{100} = 1200$.
+=> Rate 10%; sum ₹12,000
+?eg A sum amounts to ₹9680 in 2 years and to ₹10,648 in 3 years at compound interest. Find the rate and the sum.
+= Interest for the third year $= 10648 - 9680 = 968$ on ₹9680, so $R = \dfrac{968}{9680} \times 100 = 10\%$.
+= Amount after 1 year $= 9680 \div 1.1 = 8800$; sum $= 8800 \div 1.1$.
+=> Rate 10%; sum ₹8000
+
+# Comparing C.I. and S.I.
+- For more than one year at the same rate, **C.I. is greater than S.I.**
+- For 2 years, C.I. $-$ S.I. $=$ one year's interest on the first year's interest.
+?eg Find the difference between the C.I. and the S.I. on ₹6000 for 2 years at 5% per annum.
+= S.I. $= \dfrac{6000 \times 5 \times 2}{100} = 600$.
+= C.I.: first year 300; second year $5\%$ of 6300 $= 315$; total 615.
+=> ₹15
+?eg The difference between the C.I. and the S.I. on a sum for 2 years at 8% is ₹64. Find the sum.
+= The difference is $8\%$ of the first year's interest: $0.08 \times (0.08P) = 64$.
+= $0.0064P = 64$
+=> ₹10,000
+
+# Interest compounded half-yearly
+- When interest is compounded **half-yearly**, the rate for each half-year is **half** the annual rate, and the number of periods is **twice** the number of years.
+- Each half-year's interest $= \dfrac{P \times R \times 1}{100 \times 2}$, where $P$ is the principal for that half-year.
+?eg Find the compound interest on ₹10,000 for 1 year at 8% per annum, compounded half-yearly.
+= Rate per half-year $= 4\%$. First half-year: interest 400, amount 10400.
+= Second half-year: interest $4\%$ of 10400 $= 416$, amount 10816.
+=> ₹816
+?eg Find the amount on ₹8000 for $1\tfrac{1}{2}$ years at 10% per annum, compounded half-yearly.
+= Three half-years at 5%: $8000 \to 8400 \to 8820 \to 9261$
+=> ₹9261
+
+# Repayments and growth
+- If part of a loan is **repaid** at the end of a year, subtract the repayment from the amount. The balance is the principal for the next year.
+- The same year-by-year method applies to anything that grows by a fixed percentage: population, value of property, production.
+- For a **fall** in value (depreciation), subtract the year's decrease instead of adding.
+?eg A man borrows ₹10,000 at 10% per annum compound interest. He repays ₹4000 at the end of each of the first two years. How much does he owe at the end of the third year?
+= Year 1: $10000 + 1000 - 4000 = 7000$.
+= Year 2: $7000 + 700 - 4000 = 3700$.
+= Year 3: $3700 + 370$
+=> ₹4070
+?eg A machine worth ₹20,000 loses 10% of its value every year. Find its value after 2 years.
+= Year 1: $20000 - 2000 = 18000$. Year 2: $18000 - 1800$.
+=> ₹16,200
+
+# Common mistakes
+- Using the original principal for every year. Each year's principal is the previous year's amount.
+- Giving the amount when the compound interest is asked. C.I. $=$ amount $-$ original principal.
+- For half-yearly compounding, halving the rate but forgetting to double the number of periods.
+- Taking the rate from the difference of two successive years' interests divided by the **later** year's interest.
+- Subtracting a repayment before adding that year's interest.
+
+@@formulas
+Simple interest | $\dfrac{P \times R \times T}{100}$
+Amount | $P +$ interest
+Interest for one year | $\dfrac{P \times R}{100}$
+Principal for the next year | Amount at the end of this year
+Compound interest | Final amount $-$ original principal
+First year | C.I. $=$ S.I.
+Rate from successive interests | $\dfrac{\text{difference of C.I. of successive years}}{\text{C.I. of the earlier year}} \times 100$
+Rate from successive amounts | $\dfrac{\text{difference of the amounts}}{\text{earlier amount}} \times 100$
+C.I. $-$ S.I. for 2 years | Interest for one year on the first year's interest
+Half-yearly compounding | Rate $\dfrac{R}{2}\%$ per half-year, $2T$ periods
+After a repayment | New principal $=$ amount $-$ repayment
+Depreciation | New value $=$ old value $-$ year's decrease
+
+@@dpp
+Q: Find the amount and the C.I. on ₹4000 for 2 years at 5% per annum, compounded yearly.
+A: Amount ₹4410; C.I. ₹410
+Q: Find the C.I. on ₹16,000 for 3 years at 5% per annum.
+A: ₹2522
+Q: Find the C.I. on ₹20,000 for 2 years if the rates for the two years are 6% and 8%.
+A: ₹2896
+Q: Find the difference between the C.I. and the S.I. on ₹5000 for 2 years at 8% per annum.
+A: ₹32
+Q: The C.I. on a sum is ₹900 for the first year and ₹990 for the second year. Find the rate and the sum.
+A: 10%; ₹9000
+Q: A sum amounts to ₹5500 in 1 year and ₹6050 in 2 years at compound interest. Find the rate and the sum.
+A: 10%; ₹5000
+Q: Find the C.I. on ₹5000 for 1 year at 12% per annum, compounded half-yearly.
+A: ₹618
+Q: The difference between the C.I. and the S.I. on a sum for 2 years at 10% is ₹50. Find the sum.
+A: ₹5000
+Q: A man borrows ₹20,000 at 10% per annum compound interest and repays ₹8000 at the end of each year. How much is still owed after the second repayment?
+A: ₹7400
+Q: The value of a car bought for ₹4,00,000 falls by 10% each year. Find its value after 3 years.
+A: ₹2,91,600

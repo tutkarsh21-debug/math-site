@@ -1,0 +1,120 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 23
+@title Trigonometrical Ratios of Standard Angles
+@summary The values of the trigonometrical ratios of 0°, 30°, 45°, 60° and 90°, how they are obtained, and their use in evaluating expressions and solving simple trigonometric equations.
+
+# Where the values come from
+- **$45^\circ$**: in an isosceles right triangle with equal sides 1, the hypotenuse is $\sqrt{2}$. So $\sin 45^\circ = \cos 45^\circ = \dfrac{1}{\sqrt{2}}$ and $\tan 45^\circ = 1$.
+- **$30^\circ$ and $60^\circ$**: in an equilateral triangle of side 2, an altitude makes two right triangles with angles $30^\circ, 60^\circ, 90^\circ$ and sides $1, \sqrt{3}, 2$.
+- So $\sin 30^\circ = \dfrac{1}{2}$, $\cos 30^\circ = \dfrac{\sqrt{3}}{2}$, $\sin 60^\circ = \dfrac{\sqrt{3}}{2}$, $\cos 60^\circ = \dfrac{1}{2}$.
+!fig w=330 h=195; P A 110 25 t; P B 40 150 bl; P C 180 150 br; P D 110 150 b; L A B; L B C; L C A; D A D; R A D C; M A C 2; T 145 166 1; T 122 100 √3; A D C A 60°; T 245 60 30°, 60°, 90°; T 245 80 sides 1, √3, 2; cap Half of an equilateral triangle of side 2
+
+# Table of values
+| Angle | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ |
+| $\sin$ | 0 | $\dfrac{1}{2}$ | $\dfrac{1}{\sqrt{2}}$ | $\dfrac{\sqrt{3}}{2}$ | 1 |
+| $\cos$ | 1 | $\dfrac{\sqrt{3}}{2}$ | $\dfrac{1}{\sqrt{2}}$ | $\dfrac{1}{2}$ | 0 |
+| $\tan$ | 0 | $\dfrac{1}{\sqrt{3}}$ | 1 | $\sqrt{3}$ | not defined |
+| $\text{cosec}$ | not defined | 2 | $\sqrt{2}$ | $\dfrac{2}{\sqrt{3}}$ | 1 |
+| $\sec$ | 1 | $\dfrac{2}{\sqrt{3}}$ | $\sqrt{2}$ | 2 | not defined |
+| $\cot$ | not defined | $\sqrt{3}$ | 1 | $\dfrac{1}{\sqrt{3}}$ | 0 |
+- **Memory aid for sine**: $\sqrt{\dfrac{0}{4}}, \sqrt{\dfrac{1}{4}}, \sqrt{\dfrac{2}{4}}, \sqrt{\dfrac{3}{4}}, \sqrt{\dfrac{4}{4}}$. The cosine row is the sine row reversed.
+- As the angle increases from $0^\circ$ to $90^\circ$: $\sin$ and $\tan$ **increase**; $\cos$ **decreases**.
+- $\sin\theta = \cos\theta$ only at $\theta = 45^\circ$.
+
+# Evaluating expressions
+- Replace each ratio by its value, then simplify. Remember $\sin^2 30^\circ$ means $(\sin 30^\circ)^2$.
+?eg Evaluate $\sin 30^\circ\cos 60^\circ + \cos 30^\circ\sin 60^\circ$.
+= $\dfrac{1}{2} \times \dfrac{1}{2} + \dfrac{\sqrt{3}}{2} \times \dfrac{\sqrt{3}}{2} = \dfrac{1}{4} + \dfrac{3}{4}$
+=> 1
+?eg Evaluate $2\tan^2 45^\circ + \cos^2 30^\circ - \sin^2 60^\circ$.
+= $2 + \dfrac{3}{4} - \dfrac{3}{4}$
+=> 2
+?eg Evaluate $\dfrac{\tan 60^\circ - \tan 30^\circ}{1 + \tan 60^\circ\tan 30^\circ}$.
+= $\dfrac{\sqrt{3} - \frac{1}{\sqrt{3}}}{1 + 1} = \dfrac{\frac{2}{\sqrt{3}}}{2}$
+=> $\dfrac{1}{\sqrt{3}}$, which is $\tan 30^\circ$
+?eg Evaluate $4\sin^2 60^\circ + 3\tan^2 30^\circ - 8\sin 45^\circ\cos 45^\circ$.
+= $4 \times \dfrac{3}{4} + 3 \times \dfrac{1}{3} - 8 \times \dfrac{1}{2}$
+=> 0
+
+# Verifying results
+- Substitute the given angle on both sides and check that the values agree.
+- **Warning**: $\sin(A + B)$ is **not** $\sin A + \sin B$, and $\sin 2A$ is **not** $2\sin A$.
+?eg If $A = 30^\circ$, verify that $\sin 2A = 2\sin A\cos A$.
+= LHS $= \sin 60^\circ = \dfrac{\sqrt{3}}{2}$. RHS $= 2 \times \dfrac{1}{2} \times \dfrac{\sqrt{3}}{2}$.
+=> Both equal $\dfrac{\sqrt{3}}{2}$
+?eg If $A = 60^\circ$ and $B = 30^\circ$, verify that $\cos(A - B) = \cos A\cos B + \sin A\sin B$.
+= LHS $= \cos 30^\circ = \dfrac{\sqrt{3}}{2}$. RHS $= \dfrac{1}{2} \times \dfrac{\sqrt{3}}{2} + \dfrac{\sqrt{3}}{2} \times \dfrac{1}{2}$.
+=> Both equal $\dfrac{\sqrt{3}}{2}$
+?eg Show that $\sin 60^\circ \neq 2\sin 30^\circ$.
+= $\sin 60^\circ = \dfrac{\sqrt{3}}{2}$, but $2\sin 30^\circ = 1$
+=> They are different
+
+# Solving for an angle
+- Match the given value with the table. In this chapter the angles lie between $0^\circ$ and $90^\circ$.
+- If the angle is $2\theta$ or $\theta + 15^\circ$ and so on, find that angle first and then solve for $\theta$.
+?eg Find the acute angle $\theta$ if $2\sin\theta = \sqrt{3}$.
+= $\sin\theta = \dfrac{\sqrt{3}}{2}$
+=> $\theta = 60^\circ$
+?eg Find $\theta$ if $\tan 3\theta = 1$ and $3\theta$ is acute.
+= $3\theta = 45^\circ$
+=> $\theta = 15^\circ$
+?eg Solve $2\cos^2\theta - 1 = 0$ for an acute angle.
+= $\cos^2\theta = \dfrac{1}{2}$, so $\cos\theta = \dfrac{1}{\sqrt{2}}$
+=> $\theta = 45^\circ$
+?eg Find $A$ and $B$ if $\sin(A + B) = 1$ and $\cos(A - B) = \dfrac{\sqrt{3}}{2}$, where $A + B \leq 90^\circ$ and $A > B$.
+= $A + B = 90^\circ$ and $A - B = 30^\circ$
+=> $A = 60^\circ$, $B = 30^\circ$
+?eg Solve $2\sin^2\theta - 3\sin\theta + 1 = 0$ for $0^\circ < \theta \leq 90^\circ$.
+= $(2\sin\theta - 1)(\sin\theta - 1) = 0$, so $\sin\theta = \dfrac{1}{2}$ or $\sin\theta = 1$
+=> $\theta = 30^\circ$ or $\theta = 90^\circ$
+
+# Finding sides
+?eg In triangle ABC, $\angle B = 90^\circ$, $\angle A = 30^\circ$ and $AC = 12$ cm. Find BC and AB.
+= $BC = AC\sin 30^\circ = 6$ cm and $AB = AC\cos 30^\circ = 6\sqrt{3}$ cm
+=> 6 cm and $6\sqrt{3}$ cm
+
+# Common mistakes
+- Swapping the values of $\sin 30^\circ$ and $\sin 60^\circ$.
+- Writing $\tan 90^\circ = 0$ or $\cot 0^\circ = 0$. They are not defined.
+- Treating $\sin(A + B)$ as $\sin A + \sin B$.
+- Reading $\sin^2 45^\circ$ as $\sin 90^\circ$.
+- Giving $\theta$ when the equation was solved for $2\theta$ or $3\theta$.
+- Leaving a surd in the denominator when a rationalised answer is expected.
+
+@@formulas
+$\sin 0^\circ, 30^\circ, 45^\circ, 60^\circ, 90^\circ$ | $0, \dfrac{1}{2}, \dfrac{1}{\sqrt{2}}, \dfrac{\sqrt{3}}{2}, 1$
+$\cos 0^\circ, 30^\circ, 45^\circ, 60^\circ, 90^\circ$ | $1, \dfrac{\sqrt{3}}{2}, \dfrac{1}{\sqrt{2}}, \dfrac{1}{2}, 0$
+$\tan 0^\circ, 30^\circ, 45^\circ, 60^\circ$ | $0, \dfrac{1}{\sqrt{3}}, 1, \sqrt{3}$
+$\cot 30^\circ, 45^\circ, 60^\circ, 90^\circ$ | $\sqrt{3}, 1, \dfrac{1}{\sqrt{3}}, 0$
+$\sec 0^\circ, 30^\circ, 45^\circ, 60^\circ$ | $1, \dfrac{2}{\sqrt{3}}, \sqrt{2}, 2$
+$\text{cosec}\, 30^\circ, 45^\circ, 60^\circ, 90^\circ$ | $2, \sqrt{2}, \dfrac{2}{\sqrt{3}}, 1$
+Not defined | $\tan 90^\circ$, $\sec 90^\circ$, $\cot 0^\circ$, $\text{cosec}\, 0^\circ$
+30-60-90 triangle | Sides $1 : \sqrt{3} : 2$
+45-45-90 triangle | Sides $1 : 1 : \sqrt{2}$
+Double angle (to verify) | $\sin 2A = 2\sin A\cos A$
+Double angle (to verify) | $\cos 2A = \cos^2 A - \sin^2 A$
+Equal sine and cosine | $\theta = 45^\circ$
+
+@@dpp
+Q: Evaluate $\sin 60^\circ\cos 30^\circ + \cos 60^\circ\sin 30^\circ$.
+A: 1
+Q: Evaluate $\tan^2 60^\circ + 4\cos^2 45^\circ + 3\sec^2 30^\circ$.
+A: $3 + 2 + 4 = 9$
+Q: Evaluate $\dfrac{\sin 30^\circ + \tan 45^\circ - \text{cosec}\, 60^\circ}{\sec 30^\circ + \cos 60^\circ + \cot 45^\circ}$.
+A: $\dfrac{\frac{3}{2} - \frac{2}{\sqrt{3}}}{\frac{3}{2} + \frac{2}{\sqrt{3}}} = \dfrac{43 - 24\sqrt{3}}{11}$
+Q: Evaluate $\cos^2 30^\circ - \sin^2 30^\circ$ and name the standard ratio it equals.
+A: $\dfrac{1}{2} = \cos 60^\circ$
+Q: If $A = 30^\circ$, verify that $\cos 2A = 1 - 2\sin^2 A$.
+A: Both sides equal $\dfrac{1}{2}$
+Q: Find the acute angle $\theta$ if $\sqrt{3}\tan\theta = 1$.
+A: $30^\circ$
+Q: Find $\theta$ if $\sin 2\theta = \dfrac{\sqrt{3}}{2}$ and $2\theta$ is acute.
+A: $30^\circ$
+Q: Find $A$ and $B$ if $\tan(A + B) = \sqrt{3}$ and $\tan(A - B) = \dfrac{1}{\sqrt{3}}$, with $A + B$ acute and $A > B$.
+A: $A = 45^\circ$, $B = 15^\circ$
+Q: Solve $4\cos^2\theta = 3$ for an acute angle.
+A: $30^\circ$
+Q: In triangle PQR, $\angle Q = 90^\circ$, $\angle P = 60^\circ$ and $PQ = 5$ cm. Find QR and PR.
+A: $5\sqrt{3}$ cm and 10 cm

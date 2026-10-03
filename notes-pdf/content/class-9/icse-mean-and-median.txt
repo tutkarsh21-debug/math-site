@@ -1,0 +1,129 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 19
+@title Mean and Median
+@summary The arithmetic mean and the median of ungrouped data and of simple frequency distributions, the properties of the mean, and problems on corrected and combined means.
+
+# Arithmetic mean
+- The **mean** $\bar{x}$ of $n$ values $x_1, x_2, \ldots, x_n$ is
+$$\bar{x} = \frac{x_1 + x_2 + \ldots + x_n}{n} = \frac{\sum x}{n}$$
+- So $\sum x = n\bar{x}$: the sum of the values is the mean times their number.
+- The sum of the **deviations** of the values from their mean is zero: $\sum (x - \bar{x}) = 0$.
+?eg Find the mean of 12, 15, 9, 20, 14.
+= $\dfrac{70}{5}$
+=> 14
+?eg The mean of 5 numbers is 18. Four of them are 12, 20, 15 and 25. Find the fifth.
+= Sum $= 90$; the four known numbers add up to 72.
+=> 18
+
+# Properties of the mean
+- If every value is **increased** (or decreased) by $a$, the mean increases (or decreases) by $a$.
+- If every value is **multiplied** by $a$, the mean is multiplied by $a$. If every value is **divided** by $a$ ($a \neq 0$), the mean is divided by $a$.
+?eg The mean of 10 numbers is 25. Find the new mean if each number is (i) increased by 4 (ii) multiplied by 3 (iii) divided by 5.
+=> (i) 29 (ii) 75 (iii) 5
+?eg The mean of 8 values is 30. If each value is doubled and then 5 is subtracted, find the new mean.
+= $2 \times 30 - 5$
+=> 55
+
+# Corrected and combined means
+- **Wrong entry**: correct sum $=$ recorded sum $-$ wrong value $+$ correct value. Then divide by $n$.
+- **Value added or removed**: adjust the sum and the number of values.
+- **Combined mean** of two groups with $n_1$, $n_2$ values and means $\bar{x}_1$, $\bar{x}_2$:
+$$\bar{x} = \frac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$$
+?eg The mean of 20 observations is 32. Later it is found that 46 was wrongly read as 64. Find the correct mean.
+= Recorded sum $= 640$. Correct sum $= 640 - 64 + 46 = 622$.
+=> 31.1
+?eg The mean weight of 24 students is 40 kg. When the teacher's weight is included, the mean rises by 1 kg. Find the teacher's weight.
+= New sum $= 25 \times 41 = 1025$; old sum $= 960$.
+=> 65 kg
+?eg The mean of 30 boys is 62 marks and the mean of 20 girls is 67 marks. Find the mean of the whole class.
+= $\dfrac{30 \times 62 + 20 \times 67}{50} = \dfrac{3200}{50}$
+=> 64
+?eg The mean of 9 numbers is 15. One number is removed and the mean becomes 14. Find the number removed.
+= $135 - 8 \times 14$
+=> 23
+
+# Mean of a frequency distribution
+- If the values $x_1, x_2, \ldots$ occur with frequencies $f_1, f_2, \ldots$:
+$$\bar{x} = \frac{\sum fx}{\sum f}$$
+| $x$ | 5 | 10 | 15 | 20 | 25 | Total |
+| $f$ | 4 | 6 | 10 | 7 | 3 | 30 |
+| $fx$ | 20 | 60 | 150 | 140 | 75 | 445 |
+?eg Find the mean of the distribution in the table.
+= $\dfrac{445}{30}$
+=> 14.83 (to two decimal places)
+?eg The mean of the distribution below is 6. Find $p$. Values 2, 4, 6, 10, $p + 5$ with frequencies 3, 2, 3, 1, 2.
+= $\sum f = 11$ and $\sum fx = 6 + 8 + 18 + 10 + 2p + 10 = 52 + 2p$.
+= $52 + 2p = 66$
+=> $p = 7$
+
+# Median
+- The **median** is the middle value when the data are arranged in ascending or descending order.
+- For $n$ values in order:
+| $n$ | Median |
+| Odd | The $\left(\dfrac{n + 1}{2}\right)$th value |
+| Even | The mean of the $\left(\dfrac{n}{2}\right)$th and $\left(\dfrac{n}{2} + 1\right)$th values |
+- The median is not affected by very large or very small values at the ends. The mean is.
+?eg Find the median of 17, 9, 24, 12, 30, 15, 21.
+= In order: 9, 12, 15, 17, 21, 24, 30. The 4th value is the median.
+=> 17
+?eg Find the median of 8, 15, 3, 11, 20, 6, 13, 18.
+= In order: 3, 6, 8, 11, 13, 15, 18, 20. The 4th and 5th values are 11 and 13.
+=> 12
+?eg The values $11, 13, 15, x + 1, x + 3, 30, 35, 40$ are in ascending order and their median is 22. Find $x$.
+= The median is the mean of the 4th and 5th values: $\dfrac{(x + 1) + (x + 3)}{2} = x + 2$.
+=> $x = 20$
+
+# Median of a frequency distribution
+- Write the cumulative frequencies. With total frequency $N$, find the position of the median as above, then read the value whose cumulative frequency first reaches that position.
+| $x$ | 3 | 5 | 7 | 9 | 11 |
+| $f$ | 4 | 8 | 10 | 6 | 3 |
+| Cumulative frequency | 4 | 12 | 22 | 28 | 31 |
+?eg Find the median of the distribution in the table.
+= $N = 31$ is odd, so the median is the 16th value. Values from the 13th to the 22nd are all 7.
+=> 7
+
+# Common mistakes
+- Finding the median without arranging the data in order.
+- For an even number of values, taking only one of the two middle values.
+- Dividing $\sum fx$ by the number of different values instead of by $\sum f$.
+- In a wrong-entry problem, subtracting the correct value and adding the wrong one.
+- Forgetting to change the number of values when one is added or removed.
+- Averaging two means directly when the groups have different sizes.
+
+@@formulas
+Mean | $\bar{x} = \dfrac{\sum x}{n}$
+Sum of the values | $\sum x = n\bar{x}$
+Deviations from the mean | $\sum (x - \bar{x}) = 0$
+Each value $+ a$ | Mean $+ a$
+Each value $\times a$ | Mean $\times a$
+Mean with frequencies | $\bar{x} = \dfrac{\sum fx}{\sum f}$
+Combined mean | $\dfrac{n_1\bar{x}_1 + n_2\bar{x}_2}{n_1 + n_2}$
+Corrected sum | Recorded sum $-$ wrong value $+$ correct value
+Median, $n$ odd | $\left(\dfrac{n + 1}{2}\right)$th value
+Median, $n$ even | Mean of the $\left(\dfrac{n}{2}\right)$th and $\left(\dfrac{n}{2} + 1\right)$th values
+Mean of the first $n$ natural numbers | $\dfrac{n + 1}{2}$
+New value from a change of mean | New sum $-$ old sum
+
+@@dpp
+Q: Find the mean of 23, 17, 20, 19, 21.
+A: 20
+Q: The mean of 6 numbers is 15. Five of them are 10, 18, 12, 20, 14. Find the sixth.
+A: 16
+Q: The mean of 12 numbers is 40. Find the new mean if each number is decreased by 6.
+A: 34
+Q: The mean of 25 observations is 36. An observation 48 was wrongly taken as 23. Find the correct mean.
+A: 37
+Q: The mean of 40 students is 50 marks and the mean of another 60 students is 55 marks. Find the combined mean.
+A: 53
+Q: Find the mean: values 2, 4, 6, 8 with frequencies 5, 8, 4, 3.
+A: $\dfrac{90}{20} = 4.5$
+Q: Find the median of 25, 16, 31, 19, 28, 22, 35.
+A: 25
+Q: Find the median of 14, 6, 20, 9, 17, 12.
+A: 13
+Q: The values $5, 8, x, x + 4, 20, 24$ are in ascending order and their median is 13. Find $x$.
+A: 11
+Q: Find the median: values 10, 20, 30, 40 with frequencies 3, 7, 6, 4.
+A: The 10th and 11th values are 20 and 30, so the median is 25

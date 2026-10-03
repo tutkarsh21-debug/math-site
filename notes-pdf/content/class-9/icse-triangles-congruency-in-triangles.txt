@@ -1,0 +1,113 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 9
+@title Triangles (Congruency in Triangles)
+@summary The angle properties of a triangle, the conditions under which two triangles are congruent (SSS, SAS, ASA, AAS, RHS) and how to use congruent triangles to prove that sides or angles are equal.
+
+# Angles of a triangle
+- The sum of the three angles of a triangle is $180^\circ$.
+- An **exterior angle** equals the sum of the two **interior opposite angles**, so it is greater than either of them.
+- A triangle can have at most one right angle or one obtuse angle.
+?eg In triangle ABC, $\angle A = 50^\circ$ and the exterior angle at C is $120^\circ$. Find $\angle B$ and $\angle C$.
+= $\angle B = 120^\circ - 50^\circ = 70^\circ$ and $\angle C = 180^\circ - 120^\circ = 60^\circ$
+=> $\angle B = 70^\circ$, $\angle C = 60^\circ$
+
+# Congruent triangles
+- Two triangles are **congruent** if they have exactly the same shape and size. One can be placed on the other so that it covers it exactly.
+- We write $\triangle ABC \cong \triangle DEF$. The **order of the letters** shows which vertices correspond: A to D, B to E, C to F.
+- **C.P.C.T.**: corresponding parts of congruent triangles are equal. So $AB = DE$, $BC = EF$, $CA = FD$, $\angle A = \angle D$, $\angle B = \angle E$, $\angle C = \angle F$.
+!fig w=340 h=175; P A 80 30 t; P B 30 140 bl; P C 140 140 br; P D 240 30 t; P E 190 140 bl; P F 300 140 br; L A B; L B C; L C A; L D E; L E F; L F D; cap Triangle ABC is congruent to triangle DEF
+
+# Conditions for congruency
+| Condition | What must be equal |
+| S.S.S. | Three sides of one triangle and the three sides of the other |
+| S.A.S. | Two sides and the **included** angle |
+| A.S.A. | Two angles and the **included** side |
+| A.A.S. | Two angles and a corresponding side (not included) |
+| R.H.S. | In right-angled triangles: the hypotenuse and one side |
+- **A.A.A. is not a condition**: equal angles give the same shape but not the same size.
+- **S.S.A. is not a condition**: two sides and an angle that is not included do not fix the triangle (except in the R.H.S. case).
+?eg In triangles ABC and PQR, $AB = PQ$, $\angle B = \angle Q$ and $BC = QR$. Are they congruent? If $\angle A = 65^\circ$, find $\angle P$.
+= Two sides and the included angle are equal: S.A.S.
+=> $\triangle ABC \cong \triangle PQR$, and $\angle P = \angle A = 65^\circ$ (C.P.C.T.)
+?eg In triangles ABC and DEF, $\angle A = \angle D$, $\angle B = \angle E$ and $AB = EF$. Can we say they are congruent?
+= AB lies between $\angle A$ and $\angle B$, but EF does not lie between $\angle D$ and $\angle E$. The equal sides are not corresponding.
+=> No
+
+# Writing a proof
+- State the two triangles.
+- List three equal pairs, each with its **reason** (given, common side, vertically opposite angles, alternate angles, radii of the same circle, and so on).
+- State the congruency with the correct condition and the vertices in corresponding order.
+- Draw the conclusion by C.P.C.T.
+?eg AB and CD bisect each other at O. Prove that $AC = BD$ and that AC is parallel to BD.
+= In $\triangle AOC$ and $\triangle BOD$: $AO = BO$ (given), $CO = DO$ (given), $\angle AOC = \angle BOD$ (vertically opposite).
+= So $\triangle AOC \cong \triangle BOD$ (S.A.S.), and $AC = BD$ (C.P.C.T.).
+=> Also $\angle OAC = \angle OBD$ (C.P.C.T.). These are alternate angles, so $AC \parallel BD$.
+!fig w=300 h=170; P A 50 40 tl; P B 250 130 br; P C 60 130 bl; P D 240 40 tr; P O 150 85 t; L A B; L C D; L A C; L B D; cap AB and CD bisect each other at O
+?eg In quadrilateral ABCD, $AB = AD$ and $CB = CD$. Prove that AC bisects $\angle BAD$.
+= In $\triangle ABC$ and $\triangle ADC$: $AB = AD$, $CB = CD$, $AC = AC$ (common).
+= $\triangle ABC \cong \triangle ADC$ (S.S.S.)
+=> $\angle BAC = \angle DAC$ (C.P.C.T.), so AC bisects $\angle BAD$
+
+# Results proved by congruency
+- **Perpendicular bisector**: every point on the perpendicular bisector of a line segment is **equidistant from its two ends**. Conversely, a point equidistant from the ends lies on the perpendicular bisector.
+- **Angle bisector**: every point on the bisector of an angle is **equidistant from the two arms**. Conversely, a point equidistant from the arms lies on the bisector.
+- The perpendicular from the centre of a circle to a chord bisects the chord (R.H.S.).
+- A diagonal of a parallelogram divides it into two congruent triangles (A.S.A.).
+?eg P is a point on the bisector of $\angle ABC$. PM and PN are perpendiculars from P to BA and BC. Prove that $PM = PN$.
+= In $\triangle PMB$ and $\triangle PNB$: $\angle PMB = \angle PNB = 90^\circ$, $\angle PBM = \angle PBN$ (BP bisects the angle), $BP = BP$ (common).
+=> $\triangle PMB \cong \triangle PNB$ (A.A.S.), so $PM = PN$
+?eg In right triangles ABC and DEF, $\angle B = \angle E = 90^\circ$, $AC = DF$ and $BC = EF$. If $AB = 5$ cm, find DE.
+= Hypotenuse and one side are equal: R.H.S.
+=> $\triangle ABC \cong \triangle DEF$, so $DE = AB = 5$ cm
+
+# Finding unknowns
+- Once two triangles are known to be congruent, equate the corresponding parts to form equations.
+?eg $\triangle ABC \cong \triangle PQR$. $AB = 3x + 1$, $PQ = 16$, $\angle C = 2y^\circ$ and $\angle R = 70^\circ$. Find $x$ and $y$.
+= $3x + 1 = 16$ and $2y = 70$
+=> $x = 5$, $y = 35$
+
+# Common mistakes
+- Writing the vertices in the wrong order, so that corresponding parts do not match.
+- Using S.A.S. when the angle is not between the two sides.
+- Claiming congruency from three equal angles.
+- Using R.H.S. without a right angle, or with two sides that do not include the hypotenuse.
+- Using C.P.C.T. before the triangles have been proved congruent.
+- Leaving out the reason for a step.
+
+@@formulas
+Angle sum | $\angle A + \angle B + \angle C = 180^\circ$
+Exterior angle | Equal to the sum of the two interior opposite angles
+S.S.S. | Three pairs of sides equal
+S.A.S. | Two sides and the included angle equal
+A.S.A. | Two angles and the included side equal
+A.A.S. | Two angles and a corresponding side equal
+R.H.S. | Right angle, hypotenuse and one side equal
+C.P.C.T. | Corresponding parts of congruent triangles are equal
+Not sufficient | A.A.A. and S.S.A.
+Perpendicular bisector | Its points are equidistant from the ends of the segment
+Angle bisector | Its points are equidistant from the arms of the angle
+Order of vertices | $\triangle ABC \cong \triangle DEF$ means A to D, B to E, C to F
+
+@@dpp
+Q: Two angles of a triangle are $48^\circ$ and $67^\circ$. Find the third angle.
+A: $65^\circ$
+Q: An exterior angle of a triangle is $110^\circ$ and one interior opposite angle is $45^\circ$. Find the other two angles of the triangle.
+A: $65^\circ$ and $70^\circ$
+Q: Which condition proves congruency: $AB = DE$, $BC = EF$, $\angle B = \angle E$?
+A: S.A.S.
+Q: Which condition proves congruency: $\angle A = \angle D$, $\angle C = \angle F$, $AC = DF$?
+A: A.S.A.
+Q: $\triangle ABC \cong \triangle RQP$. Which side equals AB and which angle equals $\angle C$?
+A: $AB = RQ$ and $\angle C = \angle P$
+Q: Can two triangles with angles $50^\circ, 60^\circ, 70^\circ$ each be said to be congruent?
+A: Not necessarily; equal angles do not fix the size
+Q: In triangle ABC, AD is perpendicular to BC and $BD = DC$. Prove that $AB = AC$.
+A: $\triangle ADB \cong \triangle ADC$ (S.A.S.: $BD = DC$, $\angle ADB = \angle ADC = 90^\circ$, AD common), so $AB = AC$
+Q: $\triangle ABC \cong \triangle DEF$, $BC = 2x - 3$, $EF = 11$, $\angle A = 55^\circ$, $\angle D = (y + 15)^\circ$. Find $x$ and $y$.
+A: $x = 7$, $y = 40$
+Q: In right triangles PQR and XYZ, $\angle Q = \angle Y = 90^\circ$, $PR = XZ$ and $PQ = XY$. Name the condition and the angle equal to $\angle R$.
+A: R.H.S.; $\angle Z$
+Q: A point P is 5 cm from one end of a segment AB and lies on its perpendicular bisector. How far is P from the other end?
+A: 5 cm

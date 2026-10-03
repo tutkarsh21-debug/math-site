@@ -1,0 +1,121 @@
+@class Class 9
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 6
+@title Simultaneous Linear Equations
+@summary Solving a pair of linear equations in two variables by substitution, elimination and cross-multiplication, equations that reduce to linear form, and word problems.
+
+# A pair of linear equations
+- A **linear equation in two variables** has the form $ax + by + c = 0$, where $a$ and $b$ are not both zero.
+- Two such equations taken together are **simultaneous linear equations**. A **solution** is a pair $(x, y)$ that satisfies both.
+- Always check the answer by substituting in **both** equations.
+
+# Method of substitution
+- From one equation, express one variable in terms of the other.
+- Substitute this in the other equation and solve the resulting equation in one variable.
+- Substitute back to find the second variable.
+?eg Solve $x + y = 7$ and $3x - 2y = 11$ by substitution.
+= From the first, $y = 7 - x$.
+= $3x - 2(7 - x) = 11$ gives $5x = 25$, so $x = 5$.
+=> $x = 5$, $y = 2$
+
+# Method of elimination
+- Multiply the equations by suitable numbers so that the coefficients of one variable become **equal in size**.
+- **Add** the equations if those coefficients have opposite signs; **subtract** if they have the same sign.
+- Solve for the remaining variable and substitute back.
+?eg Solve $3x + 4y = 10$ and $2x - 3y = 1$ by elimination.
+= Multiply the first by 3 and the second by 4: $9x + 12y = 30$ and $8x - 12y = 4$.
+= Add: $17x = 34$, so $x = 2$. Then $6 + 4y = 10$.
+=> $x = 2$, $y = 1$
+?eg Solve $41x + 53y = 135$ and $53x + 41y = 147$.
+= Add: $94x + 94y = 282$, so $x + y = 3$. Subtract: $12x - 12y = 12$, so $x - y = 1$.
+=> $x = 2$, $y = 1$
+
+# Method of cross-multiplication
+- For $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$:
+$$\frac{x}{b_1c_2 - b_2c_1} = \frac{y}{c_1a_2 - c_2a_1} = \frac{1}{a_1b_2 - a_2b_1}$$
+- Write both equations with zero on the right before using the formula.
+- The method works when $a_1b_2 - a_2b_1 \neq 0$.
+?eg Solve $2x + 3y - 17 = 0$ and $3x - 2y - 6 = 0$ by cross-multiplication.
+= $\dfrac{x}{(3)(-6) - (-2)(-17)} = \dfrac{y}{(-17)(3) - (-6)(2)} = \dfrac{1}{(2)(-2) - (3)(3)}$
+= $\dfrac{x}{-52} = \dfrac{y}{-39} = \dfrac{1}{-13}$
+=> $x = 4$, $y = 3$
+
+# Equations reducible to linear form
+- If the variables appear as $\dfrac{1}{x}$ and $\dfrac{1}{y}$, put $\dfrac{1}{x} = a$ and $\dfrac{1}{y} = b$, solve for $a$ and $b$, then invert.
+- If they appear as $\dfrac{1}{x + y}$ and $\dfrac{1}{x - y}$, use these as the new variables in the same way.
+- Equations with $xy$ on the right, such as $2x + 3y = 5xy$: divide every term by $xy$.
+?eg Solve $\dfrac{2}{x} + \dfrac{3}{y} = 13$ and $\dfrac{5}{x} - \dfrac{4}{y} = -2$.
+= With $a = \dfrac{1}{x}$, $b = \dfrac{1}{y}$: $2a + 3b = 13$ and $5a - 4b = -2$.
+= Multiply by 4 and 3 and add: $23a = 46$, so $a = 2$ and $b = 3$.
+=> $x = \dfrac{1}{2}$, $y = \dfrac{1}{3}$
+?eg Solve $\dfrac{5}{x + y} - \dfrac{2}{x - y} = -1$ and $\dfrac{15}{x + y} + \dfrac{7}{x - y} = 10$.
+= With $a = \dfrac{1}{x + y}$, $b = \dfrac{1}{x - y}$: $5a - 2b = -1$ and $15a + 7b = 10$.
+= Three times the first: $15a - 6b = -3$. Subtract: $13b = 13$, so $b = 1$ and $a = \dfrac{1}{5}$.
+= $x + y = 5$ and $x - y = 1$
+=> $x = 3$, $y = 2$
+
+# Word problems
+- Choose the two unknowns, form two equations from the conditions, solve and check against the words.
+| Type | How to set up |
+| Two-digit number | Tens digit $x$, units digit $y$: number $10x + y$, reversed $10y + x$ |
+| Fraction | Numerator $x$, denominator $y$ |
+| Ages | Present ages $x$ and $y$; after $t$ years $x + t$, $y + t$ |
+| Boat and stream | Speed downstream $x + y$, upstream $x - y$ |
+| Fixed charge plus rate | Total $=$ fixed charge $+$ rate $\times$ quantity |
+?eg The sum of the digits of a two-digit number is 9. The number obtained by reversing the digits is 27 more than the number. Find the number.
+= $x + y = 9$ and $(10y + x) - (10x + y) = 27$, that is $y - x = 3$.
+=> $x = 3$, $y = 6$; the number is 36
+?eg A fraction becomes $\dfrac{1}{2}$ when 1 is added to the numerator and becomes $\dfrac{1}{3}$ when 1 is added to the denominator. Find it.
+= $2(x + 1) = y$ and $3x = y + 1$. So $3x = 2x + 3$.
+=> $x = 3$, $y = 8$; the fraction is $\dfrac{3}{8}$
+?eg A boat goes 30 km downstream in 2 hours and 18 km upstream in 2 hours. Find the speed of the boat in still water and the speed of the stream.
+= $x + y = 15$ and $x - y = 9$
+=> Boat 12 km/h; stream 3 km/h
+?eg Five years ago a man was 7 times as old as his son. Five years from now he will be 3 times as old. Find their present ages.
+= $x - 5 = 7(y - 5)$ and $x + 5 = 3(y + 5)$, that is $x - 7y = -30$ and $x - 3y = 10$.
+= Subtract: $4y = 40$
+=> Son 10 years, father 40 years
+
+# Common mistakes
+- Changing the sign of only some terms when subtracting one equation from another.
+- Multiplying only one side of an equation.
+- In cross-multiplication, leaving the constants on the right-hand side.
+- Giving $a$ and $b$ as the answer in reducible equations instead of $x$ and $y$.
+- Writing a two-digit number as $xy$ or $x + y$ instead of $10x + y$.
+- Not checking the solution in the second equation.
+
+@@formulas
+General form | $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$
+Substitution | Express one variable from one equation; substitute in the other
+Elimination | Make coefficients equal; add or subtract
+Cross-multiplication | $\dfrac{x}{b_1c_2 - b_2c_1} = \dfrac{y}{c_1a_2 - c_2a_1} = \dfrac{1}{a_1b_2 - a_2b_1}$
+Unique solution | $a_1b_2 - a_2b_1 \neq 0$
+Reciprocal form | Put $\dfrac{1}{x} = a$, $\dfrac{1}{y} = b$
+Two-digit number | $10x + y$; reversed $10y + x$
+Downstream speed | Boat $+$ stream
+Upstream speed | Boat $-$ stream
+Distance | Speed $\times$ time
+Symmetric pair | Add and subtract the equations to get $x + y$ and $x - y$
+
+@@dpp
+Q: Solve $x + y = 10$ and $x - y = 4$.
+A: $x = 7$, $y = 3$
+Q: Solve $2x + y = 8$ and $3x - 2y = 5$ by substitution.
+A: $x = 3$, $y = 2$
+Q: Solve $5x + 2y = 16$ and $3x - 4y = -6$ by elimination.
+A: $x = 2$, $y = 3$
+Q: Solve $4x - 3y = 5$ and $6x = 5y + 7$.
+A: $x = 2$, $y = 1$
+Q: Solve $\dfrac{3}{x} + \dfrac{2}{y} = 12$ and $\dfrac{2}{x} + \dfrac{3}{y} = 13$.
+A: $x = \dfrac{1}{2}$, $y = \dfrac{1}{3}$
+Q: Solve $37x + 43y = 123$ and $43x + 37y = 117$.
+A: $x = 1$, $y = 2$
+Q: The sum of two numbers is 50 and their difference is 14. Find them.
+A: 32 and 18
+Q: A two-digit number is 4 times the sum of its digits. If 18 is added to it, the digits are reversed. Find the number.
+A: 24
+Q: 3 pens and 4 pencils cost ₹50, and 5 pens and 2 pencils cost ₹60. Find the cost of each.
+A: Pen ₹10, pencil ₹5
+Q: A boat goes 24 km upstream in 6 hours and 28 km downstream in 4 hours. Find the speed of the boat in still water.
+A: 5.5 km/h (stream 1.5 km/h)
