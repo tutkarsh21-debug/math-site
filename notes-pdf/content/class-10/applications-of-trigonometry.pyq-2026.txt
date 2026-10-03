@@ -1,0 +1,14 @@
+T: One right-angled triangle
+Q: [CBSE 2026, 1 mark] A car drives away from the foot of a tower 30 m high. What is the angle of elevation of the top of the tower from the car when it is $10\sqrt{3}$ m from the foot? (a) $30°$  (b) $45°$  (c) $90°$  (d) $60°$
+S: $\tan\theta = \dfrac{\text{height}}{\text{distance}} = \dfrac{30}{10\sqrt{3}} = \dfrac{3}{\sqrt{3}} = \sqrt{3}$
+S: $\tan 60° = \sqrt{3}$
+S: **Answer: (d)**
+
+T: Two right-angled triangles
+Q: [CBSE 2026, 4 marks] A radio tower $PA$ is built in two sections: $PB$ is the lower section and $BA$ the upper one. Wires from a point $O$ on the ground, 6 m from the foot $P$, hold the tower at $B$ and at $A$. From $O$ the angle of elevation of $B$ is $30°$ and that of $A$ is $60°$. (i) Find the length of the wire $OB$. (ii) Find the length of the wire $OA$. (iii) Find $AB$, OR find the area of $\triangle OPB$.
+!fig w=250 h=250; P P 70 220 bl; P O 170 220 br; P B 70 162.3 l; P A 70 46.8 l; L P O; H P A; L O B; L O A; R O P A; A P O B 30°; T 120 238 6 m; cap Angle POB = 30° and angle POA = 60°
+S: (i) In $\triangle OPB$, $\cos 30° = \dfrac{OP}{OB}$, so $OB = \dfrac{6}{\frac{\sqrt{3}}{2}} = \dfrac{12}{\sqrt{3}}$. **$OB = 4\sqrt{3}$ m.**
+S: (ii) In $\triangle OPA$, $\cos 60° = \dfrac{OP}{OA}$, so $OA = \dfrac{6}{\frac{1}{2}}$. **$OA = 12$ m.**
+S: (iii) $PB = 6\tan 30° = \dfrac{6}{\sqrt{3}} = 2\sqrt{3}$ m and $PA = 6\tan 60° = 6\sqrt{3}$ m.
+S: $AB = PA - PB = 6\sqrt{3} - 2\sqrt{3}$. **$AB = 4\sqrt{3}$ m.**
+S: OR: area of $\triangle OPB = \dfrac{1}{2} \times OP \times PB = \dfrac{1}{2} \times 6 \times 2\sqrt{3}$. **Area $= 6\sqrt{3}$ m².**

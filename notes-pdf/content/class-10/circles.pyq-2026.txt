@@ -1,0 +1,31 @@
+T: Theorem 1: tangent and radius
+Q: [CBSE 2026, 1 mark] $PA$ is a tangent from an external point $P$ to a circle with centre $O$, touching it at $A$. $AOB$ is a diameter and $\angle POB = 125°$. Find $\angle APO$. (a) $25°$  (b) $65°$  (c) $90°$  (d) $35°$
+!fig w=290 h=200; P O 190 120 r; P P 85.4 120 l; P A 155.6 70.9 t; P B 224.4 169.1 br; C O 60; L P A; L P O; L A B; R P A O; A P O B 125°
+S: $\angle AOP = 180° - 125° = 55°$ (angles on the straight line $AOB$)
+S: $\angle OAP = 90°$ (the radius is perpendicular to the tangent at the point of contact)
+S: $\angle APO = 180° - 90° - 55° = 35°$
+S: **Answer: (d)**
+Q: [CBSE 2026, 2 marks] Two concentric circles have radii 5 cm and 4 cm. A chord of the larger circle touches the smaller circle. Find the length of the chord.
+S: Let $O$ be the centre and let the chord $AB$ touch the smaller circle at $M$. Then $OM \perp AB$ and $OM = 4$ cm.
+S: The perpendicular from the centre bisects the chord, so $AM = MB$.
+S: In right triangle $OMA$: $AM = \sqrt{5^2 - 4^2} = 3$ cm
+S: **Answer: $AB = 6$ cm**
+
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2026, 1 mark] $TP$ and $TQ$ are tangents from an external point $T$ to a circle with centre $O$, and $\angle POQ = 120°$. Find $\angle PTQ$. (a) $60°$  (b) $70°$  (c) $80°$  (d) $90°$
+S: $\angle OPT = \angle OQT = 90°$ (radius is perpendicular to tangent).
+S: In quadrilateral $OPTQ$: $\angle PTQ = 360° - 90° - 90° - 120° = 60°$
+S: **Answer: (a)**
+Q: [CBSE 2026, 3 marks] $\triangle ABC$ is right-angled at $B$ with $AB = 4$ cm and $BC = 3$ cm. Find the radius of the circle inscribed in the triangle.
+!fig w=280 h=215; P B 200 180 br; P A 200 20 tr; P C 80 180 bl; P O 160 140 t; C O 40; L A B; L B C; L C A; R A B C; T 230 104 4 cm; T 140 198 3 cm
+S: $AC = \sqrt{4^2 + 3^2} = 5$ cm
+S: Let the radius be $r$ and let the circle touch $AB$, $BC$ and $CA$ at $D$, $E$ and $F$. $BDOE$ is a square, so $BD = BE = r$.
+S: Tangents from a point are equal: $AF = AD = 4 - r$ and $CF = CE = 3 - r$.
+S: $AC = AF + CF$: $5 = (4 - r) + (3 - r)$, so $2r = 2$
+S: **Answer: $r = 1$ cm**
+Q: [CBSE 2026, 3 marks] A circle touches the side $QR$ of $\triangle PQR$ at $S$, and touches $PQ$ and $PR$ produced at $M$ and $N$. Prove that $PM = \dfrac{1}{2}(PQ + QR + PR)$.
+!fig w=320 h=235; P P 160 20 t; Q O 160 170; P Q 124.7 120 l; P R 195.3 120 r; P S 160 120 b; P M 112.9 153.3 l; P N 207.1 153.3 r; Q X 101.1 186.6; Q Y 218.9 186.6; C O 50; L P X; L P Y; H Q R
+S: Tangents drawn from an external point to a circle are equal: $PM = PN$, $QM = QS$ and $RN = RS$.
+S: $PQ + QR + PR = PQ + (QS + SR) + PR = (PQ + QM) + (PR + RN)$
+S: $= PM + PN = 2PM$
+S: **So $PM = \dfrac{1}{2}(PQ + QR + PR)$. Proved.**

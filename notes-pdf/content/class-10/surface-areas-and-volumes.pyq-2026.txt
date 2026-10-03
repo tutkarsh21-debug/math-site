@@ -1,0 +1,13 @@
+T: Surface area
+Q: [CBSE 2026, 1 mark] Find the total surface area of a solid hemisphere whose diameter is $2d$. (a) $3\pi d^2$  (b) $2\pi d^2$  (c) $\dfrac{1}{2}\pi d^2$  (d) $\dfrac{3}{4}\pi d^2$
+S: Radius $= \dfrac{2d}{2} = d$
+S: Total surface area of a solid hemisphere $= 3\pi r^2 = 3\pi d^2$
+S: **Answer: (a)**
+
+T: Volume
+Q: [CBSE 2026, 3 marks] A solid is a cylinder with a hemisphere on each end. The solid is 20 cm long overall and the cylinder is 7 cm in diameter. Find the volume of the solid. Take $\pi = \dfrac{22}{7}$.
+S: Radius $r = \dfrac{7}{2}$ cm. Height of the cylinder $= 20 - 2r = 20 - 7 = 13$ cm.
+S: Volume of the cylinder $= \pi r^2h = \dfrac{22}{7} \times \dfrac{7}{2} \times \dfrac{7}{2} \times 13 = 500.5$ cm³
+S: The two hemispheres make one sphere: $\dfrac{4}{3}\pi r^3 = \dfrac{4}{3} \times \dfrac{22}{7} \times \dfrac{7}{2} \times \dfrac{7}{2} \times \dfrac{7}{2} = \dfrac{539}{3} \approx 179.67$ cm³
+S: Total volume $= 500.5 + 179.67$
+S: **Answer: about 680.17 cm³**

@@ -1,0 +1,17 @@
+T: Word problems
+Q: [CBSE 2026, 5 marks] Over a 200 km journey, a fast train takes one hour less than a slow train. The slow train runs 10 km/h slower than the fast one. Find the speed of each train.
+S: Let the fast train run at $x$ km/h. Then the slow train runs at $(x - 10)$ km/h.
+S: $\dfrac{200}{x - 10} - \dfrac{200}{x} = 1$
+S: $200x - 200(x - 10) = x(x - 10)$, so $2000 = x^2 - 10x$
+S: $x^2 - 10x - 2000 = 0$, so $(x - 50)(x + 40) = 0$
+S: $x = 50$ or $x = -40$. A speed cannot be negative.
+S: Check: $200 \div 50 = 4$ hours and $200 \div 40 = 5$ hours, which is one hour more.
+S: **Answer: 50 km/h and 40 km/h**
+Q: [CBSE 2026, 5 marks] Two squares have a total area of 640 m², and their perimeters differ by 64 m. Find the side of each square.
+S: Let the sides be $x$ m and $y$ m with $x > y$.
+S: $4x - 4y = 64$, so $x = y + 16$.
+S: $x^2 + y^2 = 640$: $(y + 16)^2 + y^2 = 640$, so $2y^2 + 32y - 384 = 0$
+S: $y^2 + 16y - 192 = 0$, so $(y + 24)(y - 8) = 0$
+S: $y = 8$ (a length cannot be negative) and $x = 24$.
+S: Check: $24^2 + 8^2 = 576 + 64 = 640$.
+S: **Answer: 24 m and 8 m**

@@ -1,0 +1,16 @@
+T: Mean of grouped data
+Q: [CBSE 2026, 5 marks] The data below has a mean of 35 and a total frequency of 25. Find $x$ and $y$.
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 | 60–70 |
+| Frequency | 1 | $x$ | 5 | 7 | $y$ | 3 | 1 |
+S: Total frequency: $17 + x + y = 25$, so $x + y = 8$ ... (1)
+S: Use the class marks 5, 15, 25, 35, 45, 55, 65.
+S: $\sum f_ix_i = 5 + 15x + 125 + 245 + 45y + 165 + 65 = 605 + 15x + 45y$
+S: Mean $= \dfrac{605 + 15x + 45y}{25} = 35$, so $15x + 45y = 270$, that is $x + 3y = 18$ ... (2)
+S: Subtracting (1) from (2): $2y = 10$, so $y = 5$ and $x = 3$.
+S: **Answer: $x = 3$, $y = 5$**
+
+T: Empirical relationship
+Q: [CBSE 2026, 1 mark] The mean of some data is 12 and its mode is 21. Find the median. (a) 6  (b) 13.5  (c) 15  (d) 14
+S: $3 \times \text{Median} = \text{Mode} + 2 \times \text{Mean} = 21 + 24 = 45$
+S: Median $= 15$
+S: **Answer: (c)**

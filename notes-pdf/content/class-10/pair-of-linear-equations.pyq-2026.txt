@@ -1,0 +1,17 @@
+T: Graphical method and consistency
+Q: [CBSE 2026, 1 mark] The graph of a pair of linear equations in two variables is a pair of coincident lines. How many solutions does the pair have? (a) exactly one  (b) two  (c) none  (d) infinitely many
+S: Coincident lines lie on top of each other, so every point of the line is common to both.
+S: **Answer: (d)**
+Q: [CBSE 2026, 5 marks] The lines $2x - 3y + 6 = 0$, $2x + 3y - 18 = 0$ and $x = 0$ form a triangle. Draw the graph, write the coordinates of its vertices, and find its area.
+S: Points on $2x - 3y + 6 = 0$:
+| $x$ | 0 | 3 | $-3$ |
+| $y$ | 2 | 4 | 0 |
+S: Points on $2x + 3y - 18 = 0$:
+| $x$ | 0 | 3 | 9 |
+| $y$ | 6 | 4 | 0 |
+S: The line $x = 0$ is the $y$-axis. Plot the points and join them.
+!fig w=360 h=250; Q o 60 220; Q x1 20 220; Q x2 345 220; Q y1 60 240; Q y2 60 10; L x1 x2; L y1 y2; P A 60 160 -; P B 60 40 -; P C 150 100 -; Q p 30 180; Q q 210 60; Q r 30 20; Q s 330 220; F A B C; H p q; H r s; T 50 236 O; T 345 236 x; T 46 14 y; T 222 48 2x − 3y + 6 = 0; T 300 140 2x + 3y − 18 = 0; T 34 150 (0, 2); T 34 62 (0, 6); T 184 104 (3, 4)
+S: The two slanting lines meet at $(3, 4)$. They meet the $y$-axis at $(0, 2)$ and $(0, 6)$.
+S: Base along the $y$-axis $= 6 - 2 = 4$ units. Height $=$ distance of $(3, 4)$ from the $y$-axis $= 3$ units.
+S: Area $= \dfrac{1}{2} \times 4 \times 3$
+S: **Answer: vertices $(0, 2)$, $(0, 6)$ and $(3, 4)$; area $= 6$ square units**

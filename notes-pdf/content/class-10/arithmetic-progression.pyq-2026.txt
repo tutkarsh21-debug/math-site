@@ -1,0 +1,13 @@
+T: Common difference and the nth term
+Q: [CBSE 2026, 1 mark] Find the common difference of the AP $\sqrt{2}, 2\sqrt{2}, 3\sqrt{2}, 4\sqrt{2}, \ldots$ (a) $\sqrt{2}$  (b) 1  (c) $2\sqrt{2}$  (d) $-\sqrt{2}$
+S: $d = a_2 - a_1 = 2\sqrt{2} - \sqrt{2} = \sqrt{2}$
+S: **Answer: (a)**
+
+T: Case study
+Q: [CBSE 2026, 4 marks] In a potato race, 10 potatoes lie in a straight line. The first is 5 m from a bucket at the starting point and the rest are 3 m apart. A runner starts at the bucket, fetches the nearest potato, runs back to drop it in the bucket, and repeats this for each potato in turn. (i) How far does the runner go to collect the first potato? (ii) How far to collect the second? (iii) Find the total distance run, OR the time taken for the whole race at an average speed of 5 m/s.
+S: Each trip is to the potato and back, so it is twice the distance of that potato from the bucket.
+S: (i) $2 \times 5$. **First potato: 10 m.**
+S: (ii) The second potato is $5 + 3 = 8$ m away: $2 \times 8$. **Second potato: 16 m.**
+S: (iii) The trips are $10, 16, 22, \ldots$, an AP with $a = 10$, $d = 6$ and $n = 10$.
+S: $S_{10} = \dfrac{10}{2}\left[2(10) + 9(6)\right] = 5 \times 74$. **Total distance: 370 m.**
+S: OR: time $= \dfrac{\text{distance}}{\text{speed}} = \dfrac{370}{5}$. **Time taken: 74 seconds.**

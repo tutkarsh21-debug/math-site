@@ -1,0 +1,15 @@
+T: Zeroes and coefficients of a quadratic polynomial
+Q: [CBSE 2026, 2 marks] $\alpha$ and $\beta$ are the zeroes of $p(x) = x^2 - 3x - 1$. Find $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$.
+S: $\alpha + \beta = 3$ and $\alpha\beta = -1$
+S: $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta} = \dfrac{3}{-1}$
+S: **Answer: $-3$**
+Q: [CBSE 2026, 1 mark] Assertion (A): The polynomial $p(y) = y^2 + 4y + 3$ has two zeroes. Reason (R): A quadratic polynomial has at most two zeroes. Choose: (a) both true and R explains A  (b) both true but R does not explain A  (c) A true, R false  (d) A false, R true
+S: $y^2 + 4y + 3 = (y + 1)(y + 3)$, so the zeroes are $-1$ and $-3$. A is true.
+S: R is also true. But "at most two" only says there cannot be more than two zeroes. It does not show that this polynomial has exactly two.
+S: **Answer: (b)**
+
+T: Zeroes from the graph
+Q: [CBSE 2026, 1 mark] The graph of $y = f(x)$ is a curve that stays above the $x$-axis everywhere and never touches it. How many zeroes does $f(x)$ have? (a) 0  (b) 1  (c) 2  (d) 4
+S: The zeroes are the $x$-coordinates of the points where the graph meets the $x$-axis.
+S: This graph never meets the $x$-axis.
+S: **Answer: (a)**

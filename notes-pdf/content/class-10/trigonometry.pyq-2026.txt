@@ -1,0 +1,30 @@
+T: Trigonometric ratios
+Q: [CBSE 2026, 1 mark] If $\sin\theta = \dfrac{a}{b}$, write $\cos\theta$ in terms of $a$ and $b$. (a) $\dfrac{b}{\sqrt{b^2 - a^2}}$  (b) $\dfrac{b}{a}$  (c) $\dfrac{\sqrt{b^2 - a^2}}{b}$  (d) $\dfrac{a}{\sqrt{b^2 - a^2}}$
+S: Take a right triangle with the side opposite $\theta$ equal to $a$ and the hypotenuse equal to $b$.
+S: The adjacent side is $\sqrt{b^2 - a^2}$, so $\cos\theta = \dfrac{\sqrt{b^2 - a^2}}{b}$.
+S: **Answer: (c)**
+Q: [CBSE 2026, 2 marks] If $\tan\theta = \dfrac{24}{7}$, find $\sin\theta + \cos\theta$.
+S: Take the opposite side as 24 and the adjacent side as 7. Hypotenuse $= \sqrt{24^2 + 7^2} = \sqrt{625} = 25$.
+S: $\sin\theta = \dfrac{24}{25}$ and $\cos\theta = \dfrac{7}{25}$
+S: **Answer: $\dfrac{31}{25}$**
+Q: [CBSE 2026, 2 marks] If $\cot\theta = \dfrac{7}{8}$, evaluate $\dfrac{(1 + \sin\theta)(1 - \sin\theta)}{(1 + \cos\theta)(1 - \cos\theta)}$.
+S: Numerator $= 1 - \sin^2\theta = \cos^2\theta$ and denominator $= 1 - \cos^2\theta = \sin^2\theta$
+S: Value $= \dfrac{\cos^2\theta}{\sin^2\theta} = \cot^2\theta = \left(\dfrac{7}{8}\right)^2$
+S: **Answer: $\dfrac{49}{64}$**
+
+T: Ratios of standard angles
+Q: [CBSE 2026, 1 mark] If $\cos A = \dfrac{1}{2}$, find the value of $\sin^2 A + 2\cos^2 A$. (a) $\dfrac{3}{2}$  (b) $\dfrac{5}{4}$  (c) $-1$  (d) $\dfrac{1}{2}$
+S: $\cos^2 A = \dfrac{1}{4}$, so $\sin^2 A = 1 - \dfrac{1}{4} = \dfrac{3}{4}$
+S: $\sin^2 A + 2\cos^2 A = \dfrac{3}{4} + \dfrac{2}{4} = \dfrac{5}{4}$
+S: **Answer: (b)**
+
+T: Trigonometric identities
+Q: [CBSE 2026, 3 marks] Given $x = h + a\cos\theta$ and $y = k + b\sin\theta$, prove that $\left(\dfrac{x - h}{a}\right)^2 + \left(\dfrac{y - k}{b}\right)^2 = 1$.
+S: From the first relation, $x - h = a\cos\theta$, so $\dfrac{x - h}{a} = \cos\theta$.
+S: From the second, $y - k = b\sin\theta$, so $\dfrac{y - k}{b} = \sin\theta$.
+S: Squaring and adding: LHS $= \cos^2\theta + \sin^2\theta = 1$ = RHS. **Proved.**
+Q: [CBSE 2026, 3 marks] Prove that $\dfrac{\tan A}{1 + \sec A} - \dfrac{\tan A}{1 - \sec A} = 2\,\mathrm{cosec}\,A$.
+S: LHS $= \tan A\left[\dfrac{(1 - \sec A) - (1 + \sec A)}{(1 + \sec A)(1 - \sec A)}\right] = \dfrac{-2\tan A\sec A}{1 - \sec^2 A}$
+S: Since $\sec^2 A - 1 = \tan^2 A$, the denominator is $-\tan^2 A$.
+S: LHS $= \dfrac{-2\tan A\sec A}{-\tan^2 A} = \dfrac{2\sec A}{\tan A} = \dfrac{2}{\cos A} \times \dfrac{\cos A}{\sin A} = \dfrac{2}{\sin A}$
+S: $= 2\,\mathrm{cosec}\,A$ = RHS. **Proved.**

@@ -1,0 +1,33 @@
+T: Basic Proportionality Theorem
+Q: [CBSE 2026, 2 marks] In $\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $DE \parallel BC$. If $AD = x$, $DB = x - 2$, $AE = x + 2$ and $EC = x - 1$, find $x$.
+S: By the Basic Proportionality Theorem, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+S: $\dfrac{x}{x - 2} = \dfrac{x + 2}{x - 1}$, so $x(x - 1) = (x + 2)(x - 2)$
+S: $x^2 - x = x^2 - 4$
+S: **Answer: $x = 4$**
+Q: [CBSE 2026, 5 marks] State the Basic Proportionality Theorem and prove it.
+S: **Statement:** If a line is drawn parallel to one side of a triangle and cuts the other two sides at distinct points, it divides those two sides in the same ratio.
+!fig w=340 h=225; P A 150 20 t; P B 40 200 bl; P C 300 200 br; P D 95 110 l; P E 225 110 r; P N 130.3 52.2 l; P M 171.7 46 r; L A B; L A C; L B C; H D E; D B E; D C D; D E N; D D M; R E N A; R D M A
+S: **Given:** $\triangle ABC$ with $DE \parallel BC$, where $D$ is on $AB$ and $E$ is on $AC$. **To prove:** $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+S: **Construction:** Join $BE$ and $CD$. Draw $EN \perp AB$ and $DM \perp AC$.
+S: $\dfrac{\text{ar}(ADE)}{\text{ar}(BDE)} = \dfrac{\frac{1}{2} \times AD \times EN}{\frac{1}{2} \times DB \times EN} = \dfrac{AD}{DB}$ ... (1)
+S: $\dfrac{\text{ar}(ADE)}{\text{ar}(CED)} = \dfrac{\frac{1}{2} \times AE \times DM}{\frac{1}{2} \times EC \times DM} = \dfrac{AE}{EC}$ ... (2)
+S: $\triangle BDE$ and $\triangle CED$ stand on the same base $DE$ and lie between the same parallels $DE$ and $BC$, so $\text{ar}(BDE) = \text{ar}(CED)$ ... (3)
+S: From (1), (2) and (3): **$\dfrac{AD}{DB} = \dfrac{AE}{EC}$. Proved.**
+
+T: Criteria for similarity of triangles
+Q: [CBSE 2026, 1 mark] $\triangle ABC \sim \triangle DEF$ with $2AB = DE$ and $BC = 8$ cm. Find $EF$. (a) 4 cm  (b) 8 cm  (c) 12 cm  (d) 16 cm
+S: Corresponding sides are proportional: $\dfrac{AB}{DE} = \dfrac{BC}{EF}$.
+S: $\dfrac{AB}{DE} = \dfrac{1}{2}$, so $\dfrac{8}{EF} = \dfrac{1}{2}$ and $EF = 16$ cm.
+S: **Answer: (d)**
+Q: [CBSE 2026, 2 marks] $\triangle ABC \sim \triangle XYZ$ with $AB = 4$ cm, $BC = 6$ cm, $AC = y$ cm, $XY = x$ cm, $YZ = 7.2$ cm and $XZ = 6$ cm. Find $x$ and $y$.
+!fig w=410 h=165; P A 85 30 t; P B 35 130 bl; P C 175 130 br; P X 280 20 t; P Y 235 130 bl; P Z 375 130 br; L A B; L B C; L A C; L X Y; L Y Z; L X Z; T 32 80 4 cm; T 105 150 6 cm; T 142 76 y; T 243 76 x; T 305 150 7.2 cm; T 355 72 6 cm
+S: $\dfrac{AB}{XY} = \dfrac{BC}{YZ} = \dfrac{AC}{XZ}$, and $\dfrac{BC}{YZ} = \dfrac{6}{7.2} = \dfrac{5}{6}$
+S: $\dfrac{4}{x} = \dfrac{5}{6}$, so $x = \dfrac{24}{5} = 4.8$
+S: $\dfrac{y}{6} = \dfrac{5}{6}$, so $y = 5$
+S: **Answer: $x = 4.8$, $y = 5$**
+Q: [CBSE 2026, 5 marks] $CM$ and $RN$ are medians of $\triangle ABC$ and $\triangle PQR$, and $\triangle ABC \sim \triangle PQR$. Prove that (i) $\triangle AMC \sim \triangle PNR$ (ii) $\triangle CMB \sim \triangle RNQ$.
+!fig w=360 h=175; P C 90 25 t; P A 25 145 bl; P B 155 145 br; P M 90 145 b; P R 275 45 t; P P 220 145 bl; P Q 330 145 br; P N 275 145 b; L A B; L B C; L C A; H C M; L P Q; L Q R; L R P; H R N
+S: $\triangle ABC \sim \triangle PQR$, so $\angle A = \angle P$, $\angle B = \angle Q$ and $\dfrac{AB}{PQ} = \dfrac{BC}{QR} = \dfrac{CA}{RP}$.
+S: $M$ and $N$ are mid-points, so $AB = 2AM = 2MB$ and $PQ = 2PN = 2NQ$. Hence $\dfrac{AM}{PN} = \dfrac{MB}{NQ} = \dfrac{AB}{PQ}$.
+S: (i) In $\triangle AMC$ and $\triangle PNR$: $\dfrac{AM}{PN} = \dfrac{AC}{PR}$ and the included angles $\angle A = \angle P$. **So $\triangle AMC \sim \triangle PNR$ (SAS).**
+S: (ii) In $\triangle CMB$ and $\triangle RNQ$: $\dfrac{MB}{NQ} = \dfrac{BC}{QR}$ and the included angles $\angle B = \angle Q$. **So $\triangle CMB \sim \triangle RNQ$ (SAS).**

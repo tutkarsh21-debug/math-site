@@ -1,0 +1,21 @@
+T: HCF and LCM by prime factorisation
+Q: [CBSE 2026, 1 mark] Find the HCF of 960 and 432. (a) 48  (b) 54  (c) 72  (d) 36
+S: $960 = 2^6 \times 3 \times 5$ and $432 = 2^4 \times 3^3$
+S: HCF $=$ product of the smallest powers of the common primes $= 2^4 \times 3 = 48$
+S: **Answer: (a)**
+
+T: The Fundamental Theorem of Arithmetic
+Q: [CBSE 2026, 1 mark] How is the natural number 2 classified? (a) prime  (b) composite  (c) both prime and composite  (d) neither prime nor composite
+S: 2 has exactly two factors, 1 and 2, so it is prime. It is the only even prime number.
+S: **Answer: (a)**
+Q: [CBSE 2026, 1 mark] For a natural number $n$, what is the last digit of $6^n$? (a) 0  (b) 6  (c) 3  (d) 2
+S: $6^1 = 6$, $6^2 = 36$, $6^3 = 216$. Multiplying a number that ends in 6 by 6 again gives a number that ends in 6.
+S: **Answer: (b)**
+
+T: Irrational numbers and their proofs
+Q: [CBSE 2026, 3 marks] Show that $\sqrt{3}$ is irrational.
+S: Suppose $\sqrt{3}$ is rational. Then $\sqrt{3} = \dfrac{a}{b}$, where $a$ and $b$ are positive integers with no common factor other than 1.
+S: Squaring, $3b^2 = a^2$. So 3 divides $a^2$, and therefore 3 divides $a$. Write $a = 3c$.
+S: Then $3b^2 = 9c^2$, so $b^2 = 3c^2$. So 3 divides $b^2$, and therefore 3 divides $b$.
+S: Now 3 is a common factor of $a$ and $b$, which contradicts the fact that they have no common factor other than 1.
+S: **So our assumption is wrong, and $\sqrt{3}$ is irrational.**

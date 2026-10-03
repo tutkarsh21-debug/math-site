@@ -1,0 +1,17 @@
+T: Complementary events
+Q: [CBSE 2026, 1 mark] A die is rolled once. Find the probability that the number shown is not 3. (a) $\dfrac{1}{6}$  (b) $\dfrac{3}{6}$  (c) $\dfrac{5}{6}$  (d) 1
+S: $P(3) = \dfrac{1}{6}$, so $P(\text{not } 3) = 1 - \dfrac{1}{6} = \dfrac{5}{6}$
+S: **Answer: (c)**
+
+T: Theoretical probability
+Q: [CBSE 2026, 1 mark] Assertion (A): The probability that a leap year has 53 Mondays is $\dfrac{2}{7}$. Reason (R): The probability that a non-leap year has 53 Mondays is $\dfrac{5}{7}$. Choose: (a) both true and R explains A  (b) both true but R does not explain A  (c) A true, R false  (d) A false, R true
+S: A leap year has 366 days $=$ 52 weeks $+$ 2 extra days. The extra days can be (Sun, Mon), (Mon, Tue), ..., (Sat, Sun): 7 equally likely pairs, and 2 of them contain a Monday. So A is true.
+S: A non-leap year has 365 days $=$ 52 weeks $+$ 1 extra day, which is a Monday with probability $\dfrac{1}{7}$, not $\dfrac{5}{7}$. So R is false.
+S: **Answer: (c)**
+
+T: Two dice
+Q: [CBSE 2026, 3 marks] Two dice of different colours are thrown together. List all the possible outcomes. Find the probability that (i) both dice show the same number (ii) the dice show different numbers.
+S: Write each outcome as (number on the first die, number on the second die). The outcomes are $(1,1), (1,2), \ldots, (1,6)$, $(2,1), \ldots, (2,6)$, and so on up to $(6,1), \ldots, (6,6)$: $6 \times 6 = 36$ in all.
+S: (i) Same number: $(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)$, which is 6 outcomes. Probability $= \dfrac{6}{36} = \dfrac{1}{6}$.
+S: (ii) Different numbers: $36 - 6 = 30$ outcomes. Probability $= \dfrac{30}{36} = \dfrac{5}{6}$.
+S: **Answer: (i) $\dfrac{1}{6}$ (ii) $\dfrac{5}{6}$**

@@ -1,0 +1,13 @@
+T: Sector and segment of a circle
+Q: [CBSE 2026, 1 mark] A sector of a circle of radius 21 cm has a central angle of $60°$. Find the length of its arc. (a) 22 cm  (b) 44 cm  (c) 88 cm  (d) 11 cm
+S: Arc length $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132 = 22$ cm
+S: **Answer: (a)**
+Q: [CBSE 2026, 1 mark] The hour hand of a clock is 7 cm long. Through what angle does it turn between 7:00 a.m. and 8:10 a.m.? (a) $\left(\dfrac{35}{4}\right)°$  (b) $\left(\dfrac{35}{2}\right)°$  (c) $35°$  (d) $70°$
+S: The hour hand turns $360°$ in 12 hours, which is $30°$ in an hour or $\dfrac{1}{2}°$ in a minute.
+S: From 7:00 to 8:10 is 70 minutes: $70 \times \dfrac{1}{2} = 35°$. (The length of the hand is not needed.)
+S: **Answer: (c)**
+Q: [CBSE 2026, 4 marks] A circular ornament of diameter 35 cm is made from silver wire. Wire is also used for 5 diameters, which cut the circle into 10 equal sectors. (i) Find the radius. (ii) Find the circumference. (iii) Find the total length of wire needed, OR the area of each sector.
+S: (i) Radius $= \dfrac{35}{2}$. **Radius $= 17.5$ cm.**
+S: (ii) Circumference $= 2 \times \dfrac{22}{7} \times \dfrac{35}{2}$. **Circumference $= 110$ cm.**
+S: (iii) Wire $=$ circumference $+$ 5 diameters $= 110 + 5 \times 35$. **Total wire $= 285$ cm.**
+S: OR: area of the circle $= \dfrac{22}{7} \times \dfrac{35}{2} \times \dfrac{35}{2} = 962.5$ cm², and each sector is one-tenth of it. **Area of each sector $= 96.25$ cm².**
