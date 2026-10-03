@@ -1,0 +1,166 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 7
+@title Proportional Reasoning – 1
+@summary Ratios, proportion, the Rule of Three and cross multiplication, dividing a quantity in a given ratio, and using unit conversions in proportion problems.
+
+# Ratio
+- A **ratio** $a : b$ compares two quantities by multiplication: for every $a$ units of the first, there are $b$ units of the second. The numbers $a$ and $b$ are the **terms**.
+- Two pictures look alike (not stretched or squeezed) when their widths and heights change by the **same factor**, not by the same difference.
+- **Simplest form**: divide both terms by their HCF. $60 : 40 = 3 : 2$.
+- Both terms must be in the **same unit** before the ratio is written.
+- Multiplying or dividing both terms by the same non-zero number does not change a ratio. Adding or subtracting the same number **does** change it.
+| Picture | Width (mm) | Height (mm) | Width : Height |
+| A | 60 | 40 | $3 : 2$ |
+| B | 40 | 20 | $2 : 1$ |
+| C | 30 | 20 | $3 : 2$ |
+| D | 90 | 60 | $3 : 2$ |
+- A, C and D have the same shape. B does not, although its width and height are each 20 mm less than those of A.
+!fig w=330 h=150; Q a 20 40; Q b 110 40; Q c 110 100; Q d 20 100; L a b; L b c; L c d; L d a; Q e 140 60; Q f 185 60; Q g 185 90; Q h 140 90; L e f; L f g; L g h; L h e; Q i 215 55; Q j 275 55; Q k 275 85; Q l 215 85; L i j; L j k; L k l; L l i; T 65 118 A (3 : 2); T 162 108 C (3 : 2); T 245 103 B (2 : 1); cap A and C have the same shape, but B is stretched
+?eg Write the ratio of 600 mL to 1.5 L in simplest form.
+= $1.5$ L $= 1500$ mL, so the ratio is $600 : 1500$.
+= HCF $= 300$
+=> $2 : 5$
+?eg A girl is 3 years old and her mother is 30. What is the ratio of their ages now, and after 9 years?
+= Now: $3 : 30 = 1 : 10$. After 9 years: $12 : 39 = 4 : 13$.
+=> The ratio changes, because the same number was added to both terms.
+
+# Proportion
+- Two ratios are **in proportion** when they are equal in simplest form. We write $a : b :: c : d$.
+- **Cross multiplication**: $a : b :: c : d$ exactly when $ad = bc$.
+- To check a proportion, either reduce both ratios or cross multiply.
+?eg Are $3 : 4$ and $72 : 96$ in proportion?
+= HCF of 72 and 96 is 24, so $72 : 96 = 3 : 4$. Or check: $3 \times 96 = 288 = 4 \times 72$.
+=> Yes
+?eg Is $8 : 3 :: 24 : 6$ true?
+= $8 \times 6 = 48$ but $3 \times 24 = 72$
+=> No
+?eg Fill in the blanks so that each ratio is proportional to $14 : 21$: $\square : 42$, $6 : \square$.
+= $14 : 21 = 2 : 3$. For the first, $42 = 3 \times 14$, so the first term is $2 \times 14 = 28$.
+= For the second, $6 = 2 \times 3$, so the second term is $3 \times 3 = 9$.
+=> $28 : 42$ and $6 : 9$
+
+# The Rule of Three
+- When four quantities are in proportion and three are known, the fourth can be found. If $a : b :: c : d$ then
+$$d = \frac{b \times c}{a}$$
+- Āryabhaṭa (499 CE) called these **Rule of Three** (trairāśika) problems: multiply the "fruit" by the "requisition" and divide by the "measure".
+- Another way: find the **factor of change** from $a$ to $c$ and apply it to $b$.
+- Make the units match before setting up the proportion.
+?eg For 120 students a cook uses 15 kg of rice. How much is needed for 80 students?
+= $120 : 15 :: 80 : x$, so $x = \dfrac{15 \times 80}{120}$
+=> 10 kg
+?eg A car covers 90 km in 150 minutes. At the same speed, how far does it go in 4 hours?
+= 4 hours $= 240$ minutes. $150 : 90 :: 240 : x$
+= $x = \dfrac{90 \times 240}{150}$
+=> 144 km
+?eg 6 glasses of lemonade need 10 spoons of sugar. How many spoons do 18 glasses need for the same sweetness?
+= The factor of change is $18 \div 6 = 3$.
+=> $10 \times 3 = 30$ spoons
+?eg A tap fills a 500 mL mug in 15 seconds. How long does it take to fill a 10-litre bucket?
+= 10 L $= 10000$ mL. $500 : 15 :: 10000 : x$, so $x = \dfrac{15 \times 10000}{500} = 300$ seconds
+=> 5 minutes
+
+# When the Rule of Three does not apply
+- The rule works only when the two quantities increase or decrease **together by the same factor**.
+- Speed and time for a fixed distance do not behave this way: a higher speed means **less** time. Such situations are not direct proportions.
+- Prices are often not proportional to pack size. A 6 mL sachet for ₹2 and a 180 mL bottle for ₹154 give $6 : 180 = 1 : 30$ for volume but $2 : 154 = 1 : 77$ for price.
+?eg 200 g of one tea costs ₹200. 1 kg of another tea costs ₹800. Are weight and price in proportion? Which tea costs more?
+= In grams: $200 : 200 = 1 : 1$ and $1000 : 800 = 5 : 4$. Not in proportion.
+= Price of 1 kg of the first tea $= 5 \times 200$, that is ₹1000.
+=> The first tea is more expensive (₹1000 against ₹800 per kg)
+
+# Comparing by unit rate
+- To compare two situations, find the value **for one unit** in each.
+?eg City P has 30 million people in 1500 sq km. City Q has 20 million people in 500 sq km. Which is more crowded?
+= P: $\dfrac{30{,}000{,}000}{1500} = 20{,}000$ people per sq km. Q: $\dfrac{20{,}000{,}000}{500} = 40{,}000$ people per sq km.
+=> City Q
+?eg A 60 ft wall uses 3 bags of cement and a 40 ft wall uses 2 bags. Are the walls equally strong?
+= $60 : 3 = 20 : 1$ and $40 : 2 = 20 : 1$
+=> Yes. Each bag covers 20 ft in both walls.
+
+# Dividing in a given ratio
+- To divide a quantity $x$ in the ratio $m : n$, think of $m + n$ equal groups, each of size $\dfrac{x}{m + n}$.
+$$\text{First part} = \frac{m}{m + n} \times x, \qquad \text{Second part} = \frac{n}{m + n} \times x$$
+- The same idea works for three parts in the ratio $l : m : n$, using $l + m + n$ groups.
+?eg Divide ₹4500 in the ratio $2 : 3$.
+= $2 + 3 = 5$ groups, each of ₹900.
+=> ₹1800 and ₹2700
+?eg Two partners invest ₹75,000 and ₹25,000 and share a profit of ₹4000 in the ratio of their investments. Find each share.
+= $75000 : 25000 = 3 : 1$. One group $= 4000 \div 4$, that is ₹1000.
+=> ₹3000 and ₹1000
+?eg Acid and water are mixed in the ratio $1 : 5$. How much of each is in 240 mL of the solution?
+= One group $= 240 \div 6 = 40$ mL
+=> 40 mL of acid and 200 mL of water
+
+# Changing a mixture
+- When something is added to a mixture, find the actual quantities first. The part that is not added stays the same.
+?eg A 40 kg mixture has sand and cement in the ratio $3 : 1$. How much cement must be added to make the ratio $5 : 2$?
+= Sand $= \dfrac{3}{4} \times 40 = 30$ kg and cement $= 10$ kg.
+= Sand stays 30 kg. $5 : 2 :: 30 : x$ gives $x = 12$ kg of cement.
+=> Add 2 kg of cement
+?eg Blue and yellow paint are mixed in the ratio $3 : 5$ to make 40 mL of green. Then 20 mL of yellow is added. Find the new ratio.
+= Blue $= 15$ mL, yellow $= 25$ mL. After adding: yellow $= 45$ mL.
+=> $15 : 45 = 1 : 3$
+?eg A child is 1 year old and her brother is 5. When will the ratio of their ages be $1 : 2$?
+= After $x$ years: $\dfrac{1 + x}{5 + x} = \dfrac{1}{2}$, so $2 + 2x = 5 + x$ and $x = 3$.
+=> When she is 4 years old
+
+# Unit conversions
+| Quantity | Conversion |
+| Length | 1 metre $= 3.281$ feet |
+| Area | 1 sq metre $= 10.764$ sq feet |
+| Area | 1 acre $= 43{,}560$ sq feet |
+| Area | 1 hectare $= 10{,}000$ sq metres $= 2.471$ acres |
+| Volume | 1 mL $= 1$ cc; 1 litre $= 1000$ mL |
+| Temperature | $F = \dfrac{9}{5}C + 32$ and $C = \dfrac{5}{9}(F - 32)$ |
+?eg Convert $25^\circ$C to Fahrenheit.
+= $F = \dfrac{9}{5} \times 25 + 32 = 45 + 32$
+=> $77^\circ$F
+?eg One acre of land costs ₹15,00,000. Find the cost of 2400 sq ft.
+= $43560 : 1500000 :: 2400 : x$, so $x = \dfrac{1500000 \times 2400}{43560}$
+=> About ₹82,645
+
+# Common mistakes
+- Writing a ratio with different units, such as $1 : 800$ for 1 kg and ₹800 when the other ratio uses grams.
+- Thinking equal differences keep a ratio the same. Only equal **factors** do.
+- Reversing the order of terms: $3 : 5$ is not $5 : 3$.
+- Dividing by $m$ or $n$ instead of $m + n$ when sharing in the ratio $m : n$.
+- Using the Rule of Three for speed and time, or workers and days, where one quantity rises as the other falls.
+
+@@formulas
+Ratio | $a : b$, with both terms in the same unit
+Simplest form | Divide both terms by their HCF
+Proportion | $a : b :: c : d$ when the ratios are equal
+Cross multiplication | $a : b :: c : d$ exactly when $ad = bc$
+Rule of Three | $d = \dfrac{b \times c}{a}$
+Dividing $x$ in the ratio $m : n$ | $\dfrac{m}{m+n} \times x$ and $\dfrac{n}{m+n} \times x$
+Unit rate | Value for one unit $=$ total value $\div$ number of units
+Metre to feet | 1 m $= 3.281$ ft
+Acre | 1 acre $= 43{,}560$ sq ft
+Hectare | 1 hectare $= 10{,}000$ sq m $= 2.471$ acres
+Litre | 1 L $= 1000$ mL $= 1000$ cc
+Celsius to Fahrenheit | $F = \dfrac{9}{5}C + 32$
+Fahrenheit to Celsius | $C = \dfrac{5}{9}(F - 32)$
+
+@@dpp
+Q: Write $84 : 126$ in simplest form.
+A: $2 : 3$
+Q: Which are true proportions: (i) $4 : 7 :: 12 : 21$ (ii) $21 : 6 :: 35 : 10$ (iii) $12 : 18 :: 28 : 12$?
+A: (i) and (ii)
+Q: Find $x$ if $18 : 24 :: 27 : x$.
+A: 36
+Q: 12 notebooks cost ₹540. Find the cost of 7 notebooks.
+A: ₹315
+Q: A train covers 135 km in 90 minutes. How far does it go in 2 hours at the same speed?
+A: 180 km
+Q: Divide 91 in the ratio $3 : 4$.
+A: 39 and 52
+Q: Rice and dal are mixed in the ratio $2 : 1$. How much of each is needed for 6 cups of the mixture?
+A: 4 cups of rice and 2 cups of dal
+Q: A 60 L mixture has milk and water in the ratio $2 : 1$. How much water must be added to make the ratio $1 : 1$?
+A: 20 L
+Q: Convert $104^\circ$F to Celsius.
+A: $40^\circ$C
+Q: Copper and nickel are mixed in the ratio $3 : 1$ in a coin of mass 8 g. Find the mass of each metal.
+A: 6 g of copper and 2 g of nickel

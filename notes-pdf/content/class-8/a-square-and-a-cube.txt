@@ -1,0 +1,159 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 1
+@title A Square and A Cube
+@summary Square numbers and cube numbers, the patterns they follow, and how to find square roots and cube roots using prime factorisation and estimation.
+
+# Square numbers
+- A number multiplied by itself gives a **square number**: $n \times n = n^2$, read "$n$ squared".
+- The squares of natural numbers, $1, 4, 9, 16, 25, 36, \ldots$, are called **perfect squares**.
+- The name comes from geometry: a square of side $n$ units has area $n^2$ square units.
+- Fractions and decimals can be squared too: $\left(\dfrac{3}{5}\right)^2 = \dfrac{9}{25}$ and $(2.5)^2 = 6.25$.
+!fig w=330 h=150; Q a1 30 90; Q a2 60 90; Q a3 60 120; Q a4 30 120; L a1 a2; L a2 a3; L a3 a4; L a4 a1; Q b1 100 60; Q b2 160 60; Q b3 160 120; Q b4 100 120; Q b5 130 60; Q b6 130 120; Q b7 100 90; Q b8 160 90; L b1 b2; L b2 b3; L b3 b4; L b4 b1; L b5 b6; L b7 b8; Q c1 200 30; Q c2 290 30; Q c3 290 120; Q c4 200 120; Q c5 230 30; Q c6 230 120; Q c7 260 30; Q c8 260 120; Q c9 200 60; Q c10 290 60; Q c11 200 90; Q c12 290 90; L c1 c2; L c2 c3; L c3 c4; L c4 c1; L c5 c6; L c7 c8; L c9 c10; L c11 c12; T 45 138 1; T 130 138 4; T 245 138 9; cap Squares of side 1, 2 and 3 contain 1, 4 and 9 unit squares
+| $n$ | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| $n^2$ | 121 | 144 | 169 | 196 | 225 | 256 | 289 | 324 | 361 | 400 |
+
+# Factors and squares
+- Factors come in pairs: $12 = 1 \times 12 = 2 \times 6 = 3 \times 4$, so 12 has 6 factors.
+- In a perfect square one pair has two equal numbers ($36 = 6 \times 6$), so that factor is counted only once.
+- **Only perfect squares have an odd number of factors.** Every other number has an even number of factors.
+?eg Lockers numbered 1 to 50 are all closed. Person 1 changes every locker, person 2 changes every 2nd locker, person 3 every 3rd locker, and so on up to person 50. Which lockers are open at the end?
+= Locker $k$ is changed once for every factor of $k$.
+= It ends up open only if it is changed an odd number of times, that is, only if $k$ has an odd number of factors.
+=> Lockers 1, 4, 9, 16, 25, 36 and 49
+
+# Patterns in the units digit
+- A perfect square ends in **0, 1, 4, 5, 6 or 9**. It never ends in 2, 3, 7 or 8.
+- The test works one way only: 26 ends in 6 but is not a square. The units digit can show that a number is **not** a square; it cannot prove that it is.
+| Units digit of the number | 1 or 9 | 2 or 8 | 3 or 7 | 4 or 6 | 5 | 0 |
+| Units digit of its square | 1 | 4 | 9 | 6 | 5 | 0 |
+- If a number ends in $k$ zeros, its square ends in $2k$ zeros. So a perfect square ends in an **even** number of zeros.
+- The square of an even number is even, and the square of an odd number is odd.
+?eg Without calculating, say which of 4372, 9000, 5329 and 6258 cannot be perfect squares.
+= 4372 ends in 2 and 6258 ends in 8, so they are not squares.
+= 9000 ends in three zeros, an odd number of zeros, so it is not a square.
+=> 4372, 9000 and 6258 are not perfect squares. (5329 may be one; in fact $5329 = 73^2$.)
+
+# Squares and odd numbers
+- Differences of consecutive squares are the odd numbers: $4 - 1 = 3$, $9 - 4 = 5$, $16 - 9 = 7$.
+- **The sum of the first $n$ odd numbers is $n^2$**: $1 + 3 + 5 + 7 = 16 = 4^2$.
+- The $n$th odd number is $2n - 1$.
+- So $(n + 1)^2 = n^2 + (2n + 1)$: to go from one square to the next, add the next odd number.
+- **Test by subtraction**: subtract $1, 3, 5, \ldots$ in turn. If you reach exactly 0 after $k$ steps, the number is $k^2$. If you jump past 0, it is not a perfect square.
+- Between $n^2$ and $(n + 1)^2$ there are exactly $2n$ numbers.
+?eg Given $45^2 = 2025$, find $46^2$.
+= $46^2$ is the sum of the first 46 odd numbers, so add the 46th odd number to $45^2$.
+= The 46th odd number is $2 \times 46 - 1 = 91$.
+=> $46^2 = 2025 + 91 = 2116$
+?eg How many numbers lie between $24^2$ and $25^2$?
+= There are $2n$ numbers between $n^2$ and $(n+1)^2$. Here $n = 24$.
+=> 48
+- **Triangular numbers** are $1, 3, 6, 10, 15, \ldots$ The sum of two consecutive triangular numbers is a square: $3 + 6 = 9$, $6 + 10 = 16$, $10 + 15 = 25$.
+
+# Square roots
+- If $y = x^2$, then $x$ is a **square root** of $y$. Finding a square root undoes squaring.
+- Since $8^2 = 64$ and $(-8)^2 = 64$, the number 64 has two square roots, $+8$ and $-8$.
+- The symbol $\sqrt{\phantom{x}}$ stands for the **positive** square root: $\sqrt{64} = 8$. In this chapter only the positive root is used.
+- **Prime factorisation method**: write the number as a product of primes. If the primes can be put into **pairs** with none left over, it is a perfect square. Take one prime from each pair and multiply.
+?eg Find $\sqrt{1764}$.
+= $1764 = 2 \times 2 \times 3 \times 3 \times 7 \times 7$
+= Every prime is paired, so $1764 = (2 \times 3 \times 7)^2$.
+=> $\sqrt{1764} = 42$
+?eg Is 1008 a perfect square? If not, find the smallest number it must be multiplied by to make it one.
+= $1008 = 2 \times 2 \times 2 \times 2 \times 3 \times 3 \times 7$
+= The 7 has no partner, so 1008 is not a perfect square.
+=> Multiply by 7. Then $7056 = (2 \times 2 \times 3 \times 7)^2 = 84^2$.
+?eg Find the smallest square number that is divisible by 6, 8 and 15.
+= The LCM of 6, 8 and 15 is $120 = 2^3 \times 3 \times 5$.
+= To complete the pairs, multiply by $2 \times 3 \times 5 = 30$.
+=> 3600
+
+# Estimating square roots
+- Find the two perfect squares the number lies between. Then use the units digit and a midpoint to narrow the search.
+- For a number that is not a perfect square, the square root lies between two consecutive whole numbers.
+?eg Find $\sqrt{3364}$ by estimation.
+= $50^2 = 2500$ and $60^2 = 3600$, so the root is between 50 and 60.
+= The number ends in 4, so the root ends in 2 or 8: it is 52 or 58.
+= $55^2 = 3025 < 3364$, so the root is more than 55.
+=> $\sqrt{3364} = 58$ (check: $58^2 = 3364$)
+?eg Between which two whole numbers does $\sqrt{200}$ lie? Which is it closer to?
+= $14^2 = 196$ and $15^2 = 225$
+=> Between 14 and 15, and much closer to 14
+?eg A square sheet has an area of 500 sq cm. What is the largest square with a whole-number side (in cm) that can be cut from it?
+= $22^2 = 484$ and $23^2 = 529$. Since $484 < 500 < 529$, the side of the sheet is between 22 cm and 23 cm.
+=> A square of side 22 cm
+
+# Cube numbers
+- A number multiplied by itself three times gives a **cube**: $n \times n \times n = n^3$, read "$n$ cubed".
+- $1, 8, 27, 64, 125, \ldots$ are **perfect cubes**. A cube of edge $n$ units is made of $n^3$ unit cubes.
+| $n$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| $n^3$ | 1 | 8 | 27 | 64 | 125 | 216 | 343 | 512 | 729 | 1000 |
+- A cube can end in **any** digit. The units digit of $n^3$ depends only on the units digit of $n$:
+| Units digit of $n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| Units digit of $n^3$ | 0 | 1 | 8 | 7 | 4 | 5 | 6 | 3 | 2 | 9 |
+- The cube of a negative number is negative: $(-6)^3 = -216$. Also $\left(\dfrac{2}{3}\right)^3 = \dfrac{8}{27}$.
+- If a number ends in $k$ zeros, its cube ends in $3k$ zeros. So a cube cannot end in exactly two zeros.
+- **Cubes and odd numbers**: $1 = 1^3$, $3 + 5 = 2^3$, $7 + 9 + 11 = 3^3$, $13 + 15 + 17 + 19 = 4^3$. The next $n$ odd numbers always add up to $n^3$.
+!tip 1729 is the Hardy–Ramanujan number: the smallest number that is a sum of two cubes in two different ways, $1729 = 1^3 + 12^3 = 9^3 + 10^3$. Such numbers are called taxicab numbers.
+
+# Cube roots
+- If $y = x^3$, then $x$ is the **cube root** of $y$, written $\sqrt[3]{y}$. For example $\sqrt[3]{8} = 2$ and $\sqrt[3]{1000} = 10$.
+- **Prime factorisation method**: if the prime factors can be put into **triplets** with none left over, the number is a perfect cube. Take one prime from each triplet and multiply.
+?eg Find $\sqrt[3]{5832}$.
+= $5832 = 2 \times 2 \times 2 \times 3 \times 3 \times 3 \times 3 \times 3 \times 3$
+= Triplets: $(2 \times 2 \times 2) \times (3 \times 3 \times 3) \times (3 \times 3 \times 3)$
+=> $\sqrt[3]{5832} = 2 \times 3 \times 3 = 18$
+?eg What is the smallest number by which 675 must be multiplied to get a perfect cube?
+= $675 = 3 \times 3 \times 3 \times 5 \times 5$
+= The 3s form a triplet. The two 5s need one more 5.
+=> 5 (and $3375 = 15^3$)
+?eg 13824 is a perfect cube. Guess its cube root without factorising.
+= It ends in 4, so the cube root ends in 4.
+= Drop the last three digits: 13. Since $2^3 = 8 < 13 < 27 = 3^3$, the tens digit is 2.
+=> 24
+
+# Common mistakes
+- Deciding that a number is a perfect square because it ends in 0, 1, 4, 5, 6 or 9. The units digit only rules numbers out.
+- Thinking $n^2$ means $2 \times n$, or $n^3$ means $3 \times n$.
+- Leaving an unpaired prime inside a square root, or forgetting that cube roots need triplets and not pairs.
+- Writing $\sqrt{64} = \pm 8$. The symbol means the positive root only.
+- Saying a cube cannot end in 2, 3, 7 or 8. That rule is for squares.
+
+@@formulas
+Square | $n^2 = n \times n$
+Cube | $n^3 = n \times n \times n$
+Units digits of a perfect square | 0, 1, 4, 5, 6 or 9 only
+Zeros at the end of a square | Always an even number of zeros
+Sum of the first $n$ odd numbers | $1 + 3 + 5 + \ldots + (2n - 1) = n^2$
+The $n$th odd number | $2n - 1$
+Next square | $(n + 1)^2 = n^2 + 2n + 1$
+Numbers between $n^2$ and $(n+1)^2$ | $2n$
+Number of factors | Odd only for perfect squares
+Square root | If $y = x^2$ then $\sqrt{y} = x$ (positive root)
+Cube root | If $y = x^3$ then $\sqrt[3]{y} = x$
+Perfect square test | Prime factors form pairs
+Perfect cube test | Prime factors form triplets
+Hardy–Ramanujan number | $1729 = 1^3 + 12^3 = 9^3 + 10^3$
+
+@@dpp
+Q: Which of these cannot be perfect squares: 1057, 2304, 7928, 4000?
+A: 1057, 7928 and 4000
+Q: What is the units digit of $87^2$ and of $126^2$?
+A: 9 and 6
+Q: Given $60^2 = 3600$, find $61^2$ by adding one odd number.
+A: $3600 + 121 = 3721$
+Q: How many numbers lie between $31^2$ and $32^2$?
+A: 62
+Q: Find $\sqrt{2025}$ by prime factorisation.
+A: $2025 = 3^4 \times 5^2$, so the root is $3 \times 3 \times 5 = 45$
+Q: Find the smallest number by which 2352 must be multiplied to get a perfect square, and the square root of the product.
+A: $2352 = 2^4 \times 3 \times 7^2$; multiply by 3; root $= 84$
+Q: Between which two consecutive whole numbers does $\sqrt{150}$ lie?
+A: 12 and 13
+Q: Find $\sqrt[3]{9261}$.
+A: $9261 = 3^3 \times 7^3$, so the cube root is 21
+Q: What is the smallest number by which 392 must be multiplied to get a perfect cube?
+A: $392 = 2^3 \times 7^2$; multiply by 7
+Q: True or false: (i) a perfect cube can end in 8; (ii) every cube number has an odd number of factors.
+A: (i) True, for example $2^3 = 8$. (ii) False, for example 8 has 4 factors.

@@ -1,0 +1,158 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 2
+@chapter 2
+@title The Baudhāyana–Pythagoras Theorem
+@summary How to double and halve a square, the length of the diagonal of a square, the theorem connecting the three sides of a right-angled triangle, triples of whole numbers that form right triangles, and applications.
+
+# Doubling and halving a square
+- Doubling the **side** of a square makes the area 4 times, not 2 times.
+- Baudhāyana's Śulba-Sūtra (about 800 BCE) gives the answer: **the square drawn on the diagonal of a square has double the area.**
+- Reason: the original square is made of 2 congruent right triangles, and the square on its diagonal is made of 4 such triangles.
+!fig w=260 h=180; P A 110 30 t; P B 170 30 tr; P C 170 90 r; P D 110 90 bl; Q E 110 150; Q F 50 90; L A B; L B C; L C D; L D A; H A C; H C E; H E F; H F A; D D E; D D F; cap The square on diagonal AC (blue) has twice the area of ABCD
+- **Halving**: join the mid-points of the sides of a square. The tilted square inside has half the area.
+- Repeating the doubling step gives squares with areas in the ratio $1 : 2 : 4 : 8 : \ldots$
+?eg A square has side 5 cm. What is the area of the square drawn on its diagonal?
+= Area of the square $= 25$ sq cm. The square on the diagonal has double the area.
+=> 50 sq cm
+?eg The mid-points of the sides of a square of area 72 sq cm are joined. Find the side of the inner square.
+= Its area is half of 72, that is 36 sq cm.
+=> 6 cm
+
+# The isosceles right triangle
+- In a right triangle the side opposite the right angle is the **hypotenuse**. It is the longest side.
+- A diagonal cuts a square of side $a$ into two isosceles right triangles with hypotenuse $c$. The square on the diagonal has area $2a^2$, so
+$$c^2 = 2a^2, \qquad c = a\sqrt{2}$$
+- For a square of side 1 the diagonal is $\sqrt{2}$.
+?eg Find the hypotenuse of an isosceles right triangle with equal sides 12. Between which whole numbers does it lie?
+= $c^2 = 2 \times 144 = 288$, so $c = \sqrt{288}$.
+= $16^2 = 256$ and $17^2 = 289$
+=> $\sqrt{288}$, between 16 and 17 (very close to 17)
+?eg The hypotenuse of an isosceles right triangle is $\sqrt{72}$. Find the equal sides.
+= $2a^2 = 72$, so $a^2 = 36$
+=> 6
+
+# The number root 2
+- $1^2 = 1 < 2 < 4 = 2^2$, so $1 < \sqrt{2} < 2$. We call 1 a **lower bound** and 2 an **upper bound**.
+- Closer bounds come from squaring decimals:
+| Check | Conclusion |
+| $1.4^2 = 1.96$ and $1.5^2 = 2.25$ | $1.4 < \sqrt{2} < 1.5$ |
+| $1.41^2 = 1.9881$ and $1.42^2 = 2.0164$ | $1.41 < \sqrt{2} < 1.42$ |
+| $1.414^2 = 1.999396$ and $1.415^2 = 2.002225$ | $1.414 < \sqrt{2} < 1.415$ |
+- $\sqrt{2} = 1.41421356\ldots$ The decimal **never ends**. A decimal that ends in a non-zero digit has a square that also ends in a non-zero digit, so it can never equal exactly 2.
+- $\sqrt{2}$ **cannot be written as a fraction** $\dfrac{m}{n}$. If it could, then $2n^2 = m^2$. In a square every prime occurs an even number of times, so 2 would occur an odd number of times on the left and an even number of times on the right. That is impossible. (This proof is in Euclid's Elements, about 300 BCE.)
+?eg Find bounds with one decimal place for the diagonal of a square of side 3.
+= Diagonal $= \sqrt{18}$. $4.2^2 = 17.64$ and $4.3^2 = 18.49$.
+=> $4.2 < \sqrt{18} < 4.3$
+
+# The theorem
+- Baudhāyana also showed how to combine two **different** squares into one: make a right triangle whose perpendicular sides are the sides of the two squares. The square on its hypotenuse has area equal to the sum of the two areas.
+- **Baudhāyana–Pythagoras theorem**: if a right-angled triangle has perpendicular sides $a$ and $b$ and hypotenuse $c$, then
+$$a^2 + b^2 = c^2$$
+!fig w=300 h=185; P C 60 150 bl; P B 220 150 br; P A 60 50 tl; L A C; L C B; L A B; R A C B; N C B a; N A C b; M A B c; cap Right angle at C: a² + b² = c²
+- **Why it is true**: place four copies of the triangle inside a square of side $a + b$ so that they leave a tilted square of side $c$ in the middle. Then $(a + b)^2 = c^2 + 4 \times \dfrac{1}{2}ab$, which gives $a^2 + b^2 = c^2$.
+- Baudhāyana stated the theorem in this general form. It is also named after the Greek mathematician Pythagoras (about 500 BCE), who lived about two centuries later.
+- To find the hypotenuse: $c = \sqrt{a^2 + b^2}$. To find a shorter side: $a = \sqrt{c^2 - b^2}$.
+?eg The perpendicular sides of a right triangle are 5 cm and 12 cm. Find the hypotenuse.
+= $c^2 = 25 + 144 = 169$
+=> 13 cm
+?eg A right triangle has one side 8 cm and hypotenuse 17 cm. Find the third side.
+= $b^2 = 17^2 - 8^2 = 289 - 64 = 225$
+=> 15 cm
+?eg Find the hypotenuse when $a = 1.5$ and $b = 3.5$.
+= $c^2 = 2.25 + 12.25 = 14.5$
+=> $\sqrt{14.5}$, about 3.8
+?eg How can you construct a square with three times the area of a given square of side $s$?
+= The diagonal of the square has length $s\sqrt{2}$. Make a right triangle with perpendicular sides $s\sqrt{2}$ and $s$.
+= Its hypotenuse satisfies $c^2 = 2s^2 + s^2 = 3s^2$.
+=> The square on that hypotenuse has area $3s^2$
+
+# Baudhāyana triples
+- Three positive integers $(a, b, c)$ with $a^2 + b^2 = c^2$ form a **Baudhāyana triple** (also called a Pythagorean triple). Baudhāyana listed $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$ and $(12, 35, 37)$.
+- **Scaling**: if $(a, b, c)$ is a triple, so is $(ka, kb, kc)$ for every positive integer $k$, because $(ka)^2 + (kb)^2 = k^2(a^2 + b^2) = (kc)^2$. So there are infinitely many triples.
+- A triple with no common factor greater than 1 is **primitive**. $(3, 4, 5)$ is primitive; $(9, 12, 15)$ is not.
+- Every triple is either primitive or a scaled version of a primitive triple.
+- **Making triples from odd squares**: since $(n - 1)^2 + (2n - 1) = n^2$, whenever the odd number $2n - 1$ is a perfect square $m^2$ we get the triple $(m, n - 1, n)$.
+| Odd square $2n - 1$ | $n$ | Triple |
+| 9 | 5 | $(3, 4, 5)$ |
+| 25 | 13 | $(5, 12, 13)$ |
+| 49 | 25 | $(7, 24, 25)$ |
+| 81 | 41 | $(9, 40, 41)$ |
+| 121 | 61 | $(11, 60, 61)$ |
+- This method gives only triples in which the hypotenuse is 1 more than a side. It misses primitive triples such as $(8, 15, 17)$ and $(20, 21, 29)$.
+?eg Is $(20, 21, 29)$ a Baudhāyana triple? Is it primitive?
+= $400 + 441 = 841 = 29^2$. The three numbers have no common factor.
+=> Yes, and it is primitive
+?eg List the triples in which no number is more than 20.
+=> $(3, 4, 5)$, $(6, 8, 10)$, $(5, 12, 13)$, $(9, 12, 15)$, $(8, 15, 17)$, $(12, 16, 20)$
+!tip Fermat's Last Theorem says that $x^n + y^n = z^n$ has no solution in natural numbers when $n > 2$. Fermat claimed it in the 17th century. It was finally proved by Andrew Wiles in 1994.
+
+# Applications
+- **Diagonal of a rectangle** with sides $l$ and $b$: $\sqrt{l^2 + b^2}$. **Diagonal of a square** of side $a$: $a\sqrt{2}$.
+- **Rhombus**: the diagonals bisect each other at right angles, so side$^2 = \left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2$.
+- **Equilateral triangle** of side $s$: the altitude bisects the base, so height$^2 = s^2 - \left(\dfrac{s}{2}\right)^2$ and height $= \dfrac{\sqrt{3}}{2}s$.
+- **Converse**: if the sides of a triangle satisfy $a^2 + b^2 = c^2$, the angle opposite $c$ is a right angle.
+?eg Find the side of a rhombus whose diagonals are 24 and 70 units.
+= Half-diagonals are 12 and 35. Side$^2 = 144 + 1225 = 1369$.
+=> 37 units
+?eg Find the area of an equilateral triangle of side 6 units.
+= Height$^2 = 36 - 9 = 27$, so height $= \sqrt{27} = 3\sqrt{3}$.
+= Area $= \dfrac{1}{2} \times 6 \times 3\sqrt{3}$
+=> $9\sqrt{3}$, about 15.6 sq units
+?eg (From Bhāskarāchārya's Līlāvatī) A lotus stands 1 unit above the water of a lake. Pushed by the wind, its tip touches the water 3 units away from where it stood. Find the depth of the lake.
+= Let the depth be $x$. The stem has length $x + 1$ and becomes the hypotenuse of a right triangle with sides 3 and $x$.
+= $3^2 + x^2 = (x + 1)^2$ gives $9 = 2x + 1$.
+=> 4 units
+?eg A ladder 10 m long reaches a window 8 m above the ground. How far is its foot from the wall?
+= $d^2 = 100 - 64 = 36$
+=> 6 m
+?eg On a square dot grid, can a square of area 5 sq units be drawn with its corners on dots?
+= A side joining two dots 1 across and 2 up has length $\sqrt{1^2 + 2^2} = \sqrt{5}$.
+=> Yes. Squares of area $m^2 + n^2$ are possible (1, 2, 4, 5, 8, ...), but not area 3.
+
+# Common mistakes
+- Adding the sides instead of their squares: the hypotenuse of a 3, 4 triangle is 5, not 7.
+- Using $a^2 + b^2 = c^2$ with $c$ as a shorter side. $c$ is always the hypotenuse.
+- Forgetting the square root at the end: $c^2 = 169$ gives $c = 13$.
+- Writing $\sqrt{a^2 + b^2} = a + b$.
+- Applying the theorem to a triangle that has no right angle.
+- Saying $\sqrt{2} = 1.414$ exactly. That is only an approximation.
+
+@@formulas
+Square on the diagonal | Double the area of the square
+Isosceles right triangle | $c^2 = 2a^2$, $c = a\sqrt{2}$
+Root 2 | $\sqrt{2} = 1.41421356\ldots$, between 1.414 and 1.415
+Baudhāyana–Pythagoras theorem | $a^2 + b^2 = c^2$
+Hypotenuse | $c = \sqrt{a^2 + b^2}$
+Shorter side | $a = \sqrt{c^2 - b^2}$
+Baudhāyana triple | Positive integers with $a^2 + b^2 = c^2$
+Scaling | $(ka, kb, kc)$ is a triple if $(a, b, c)$ is
+Triples from odd squares | $(n - 1)^2 + (2n - 1) = n^2$
+Common triples | $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$
+Diagonal of a rectangle | $\sqrt{l^2 + b^2}$
+Diagonal of a square | $a\sqrt{2}$
+Height of an equilateral triangle | $\dfrac{\sqrt{3}}{2}s$
+Area of an equilateral triangle | $\dfrac{\sqrt{3}}{4}s^2$
+Fermat's Last Theorem | $x^n + y^n = z^n$ has no natural-number solution for $n > 2$
+
+@@dpp
+Q: A square has area 18 sq cm. Find the area of the square on its diagonal.
+A: 36 sq cm
+Q: Find the hypotenuse of a right triangle with perpendicular sides 9 cm and 40 cm.
+A: 41 cm
+Q: A right triangle has hypotenuse 25 cm and one side 7 cm. Find the third side.
+A: 24 cm
+Q: Find the diagonal of a square of side 5 cm, and the two whole numbers it lies between.
+A: $\sqrt{50}$ cm, between 7 and 8
+Q: The hypotenuse of an isosceles right triangle is 10. Find the equal sides.
+A: $\sqrt{50}$, about 7.07
+Q: Which of these are Baudhāyana triples: $(6, 8, 10)$, $(7, 9, 12)$, $(12, 35, 37)$?
+A: $(6, 8, 10)$ and $(12, 35, 37)$
+Q: Use the odd square 169 to make a Baudhāyana triple.
+A: $2n - 1 = 169$ gives $n = 85$; the triple is $(13, 84, 85)$
+Q: Find the side of a rhombus with diagonals 16 cm and 30 cm.
+A: 17 cm
+Q: A rectangle is 15 cm long and its diagonal is 17 cm. Find its breadth and area.
+A: 8 cm and 120 sq cm
+Q: A bamboo stands 2 units above the water of a pond. Pulled sideways, its tip touches the water 6 units from where it stood. Find the depth of the pond.
+A: $36 + x^2 = (x + 2)^2$ gives $x = 8$ units

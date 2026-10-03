@@ -1,0 +1,174 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 2
+@chapter 6
+@title Algebra Play
+@summary Using algebra to explain number tricks and puzzles: "think of a number" tricks, number pyramids, calendar grids, largest products, divisibility tricks with digits, and word problems solved with equations.
+
+# Think of a number
+- In a "think of a number" trick, call the unknown number $x$ and write each step as an expression. Simplifying shows why the trick works.
+- If $x$ **cancels out**, everyone gets the same answer. If $x$ remains, the answer reveals the starting number.
+?eg Think of a number. Double it. Add 4. Divide by 2. Subtract the number you first thought of. Why is the answer always 2?
+= $x \to 2x \to 2x + 4 \to x + 2 \to x + 2 - x$
+=> The $x$ cancels and 2 is left, whatever the starting number
+?eg Change the trick above so that the answer is always 5.
+= The final answer is half of the number added in the third step.
+=> Add 10 instead of 4
+?eg Think of a number. Multiply by 3. Add 12. Divide by 3. Subtract 4. What do you get?
+= $x \to 3x \to 3x + 12 \to x + 4 \to x$
+=> The number you started with
+
+# The date trick
+- A trick can hide two numbers in one answer by using place value.
+- Steps: take the month $M$; multiply by 4; add 7; multiply by 25; add the day $D$.
+- Algebra: $M \to 4M \to 4M + 7 \to 100M + 175 \to 100M + 175 + D$.
+- Subtract 175 from the answer. Because $D$ is at most 31, the last two digits are the day and the digits before them are the month.
+?eg A friend follows the steps above and reports 990. Find the date.
+= $990 - 175 = 815$
+=> Month 8, day 15: 15 August
+?eg The reported answer is 1400. Find the date.
+= $1400 - 175 = 1225$
+=> 25 December
+- Any steps that lead to $100M + k + D$ will work. Only the number $k$ to be subtracted changes.
+
+# Number pyramids
+- In a number pyramid each number is the **sum of the two numbers directly below it**.
+- Missing numbers lower down can be found by subtraction, or by using letters and solving an equation.
+- **Top number in terms of the bottom row**:
+| Rows | Bottom row | Top number |
+| 2 | $a, b$ | $a + b$ |
+| 3 | $a, b, c$ | $a + 2b + c$ |
+| 4 | $a, b, c, d$ | $a + 3b + 3c + d$ |
+| 5 | $a, b, c, d, e$ | $a + 4b + 6c + 4d + e$ |
+- The multipliers 1; 1, 1; 1, 2, 1; 1, 3, 3, 1; 1, 4, 6, 4, 1 form the rows of a well-known number triangle. Numbers in the middle of the bottom row count for more than those at the ends.
+?eg The bottom row of a 3-row pyramid is 8, 13, 4. Find the top number without building the pyramid.
+= $8 + 2 \times 13 + 4$
+=> 38
+?eg The bottom row of a 4-row pyramid is 7, 18, 6, 5. Find the top number.
+= $7 + 3 \times 18 + 3 \times 6 + 5$
+=> 84
+?eg A 3-row pyramid has 60 at the top and 12, $c$, 8 in the bottom row. Find $c$.
+= $12 + 2c + 8 = 60$, so $2c = 40$
+=> $c = 20$ (the middle row is 32 and 28)
+?eg The bottom row of a 3-row pyramid holds the Virahāṅka–Fibonacci numbers 1, 2, 3. Fill in the pyramid.
+= Middle row: 3 and 5. Top: 8.
+=> All the numbers in the pyramid are Virahāṅka–Fibonacci numbers
+
+# Calendar and number grids
+- In a calendar, the number to the right is 1 more and the number below is 7 more.
+- A $2 \times 2$ block with top-left number $a$ holds $a$, $a + 1$, $a + 7$, $a + 8$. Its sum is $4a + 16$.
+- So from the sum alone the whole block can be found: $a = \dfrac{\text{sum} - 16}{4}$.
+- A $3 \times 3$ block with centre $m$ has sum $9m$.
+- On a 1-to-100 number grid with 10 in a row, the number below is 10 more, so a $2 \times 2$ block has sum $4a + 22$.
+?eg The four dates in a $2 \times 2$ block of a calendar add up to 76. Find them.
+= $4a + 16 = 76$, so $a = 15$
+=> 15, 16, 22, 23
+?eg Nine dates in a $3 \times 3$ block add up to 144. Find the middle date and the smallest date.
+= $9m = 144$, so $m = 16$. The smallest is $m - 8$.
+=> 16 and 8
+?eg Can the four numbers of a $2 \times 2$ calendar block add up to 50?
+= $4a + 16 = 50$ gives $a = 8.5$
+=> No. The sum must be 16 more than a multiple of 4.
+
+# Algebra grids
+- When shapes or letters stand for numbers and row or column sums are given, write an equation for each row and combine them.
+- Start with a row that has only one kind of shape.
+?eg In a grid, three circles add up to 27, and two circles and a square add up to 19. Find the value of each shape.
+= $3c = 27$ gives $c = 9$. Then $18 + s = 19$.
+=> Circle 9, square 1
+?eg Two triangles and a star add up to 21. One triangle and two stars add up to 15. Find each.
+= Adding the equations: $3t + 3s = 36$, so $t + s = 12$. Subtracting this from the first: $t = 9$.
+=> Triangle 9, star 3
+
+# The largest product
+- Three different digits $p < q < r$ are placed in the pattern (two-digit number) $\times$ (one-digit number). There are 6 arrangements.
+- For a fixed multiplier, the larger two-digit number gives the larger product. This leaves $rq \times p$, $rp \times q$ and $qp \times r$.
+- Comparing $qp \times r = 10qr + pr$ with $rp \times q = 10qr + pq$: the first is larger because $r > q$.
+- **Rule**: use the **largest digit as the multiplier** and arrange the other two in decreasing order.
+?eg Use 2, 3 and 5 once each in the pattern two-digit $\times$ one-digit to get the largest product.
+= Largest digit 5 is the multiplier; the others form 32.
+=> $32 \times 5 = 160$
+?eg Do the same with 1, 3 and 7.
+=> $31 \times 7 = 217$ (compare $71 \times 3 = 213$)
+
+# Divisibility tricks with digits
+- A two-digit number with digits $a$ and $b$ is $10a + b$. A three-digit number is $100a + 10b + c$.
+| Trick | Algebra | Result |
+| Two-digit number minus its reverse | $(10a + b) - (10b + a) = 9(a - b)$ | Divisible by 9; quotient is the difference of the digits |
+| Two-digit number plus its reverse | $(10a + b) + (10b + a) = 11(a + b)$ | Divisible by 11; quotient is the sum of the digits |
+| Three-digit number minus its reverse | $99(a - c)$ | Divisible by 99 |
+| $abc + bca + cab$ | $111(a + b + c) = 37 \times 3 \times (a + b + c)$ | Divisible by 37 and by 3 |
+| Six-digit number $abcabc$ | $abc \times 1001 = abc \times 7 \times 11 \times 13$ | Dividing by 7, 11 and 13 gives back $abc$ |
+?eg Without dividing, find the quotient when $83 - 38$ is divided by 9 and when $83 + 38$ is divided by 11.
+= Difference of digits $= 5$; sum of digits $= 11$.
+=> 5 and 11
+?eg A three-digit number is written twice to make 528528. What do you get on dividing by 7, then 11, then 13?
+= $528528 = 528 \times 1001$ and $1001 = 7 \times 11 \times 13$
+=> 528
+
+# Word problems with equations
+- Choose a letter for the unknown, translate each sentence into algebra, form an equation and solve. Check the answer in the original words.
+- Some problems can also be solved by reasoning without letters, for example by **supposing** all the animals are of one kind.
+?eg A farm has goats and hens. There are 40 heads and 110 legs. How many of each are there?
+= If all 40 were hens there would be 80 legs. The extra 30 legs come from goats, each adding 2 legs.
+=> 15 goats and 25 hens
+?eg A mother is 4 times as old as her daughter. In 5 years she will be 3 times as old. Find the daughter's age.
+= $4d + 5 = 3(d + 5)$ gives $4d + 5 = 3d + 15$
+=> 10 years
+?eg Naina has twice as many cows as Gauri. If Naina gave Gauri 3 cows, they would have equal numbers. How many does each have?
+= $2g - 3 = g + 3$ gives $g = 6$
+=> Gauri 6 and Naina 12
+?eg Each time a man walks round a tree his coins double, and he must then pay 16 coins. After three rounds he has nothing left. How many coins did he start with?
+= $x \to 2x - 16 \to 4x - 48 \to 8x - 112$, and $8x - 112 = 0$
+=> 14 coins
+?eg A food cart costs ₹5000 a day to rent and each dosa costs ₹10 to make. Dosas sell at ₹50. How many must be sold in a day for a profit of ₹2000?
+= $50n - 10n - 5000 = 2000$ gives $40n = 7000$
+=> 175 dosas
+?eg Evaluate $\dfrac{1}{3}$, $\dfrac{1 + 3}{5 + 7}$, $\dfrac{1 + 3 + 5}{7 + 9 + 11}$. Why are they equal?
+= The sum of the first $n$ odd numbers is $n^2$ and of the first $2n$ is $4n^2$. So the denominator is $4n^2 - n^2 = 3n^2$.
+=> Each fraction is $\dfrac{n^2}{3n^2} = \dfrac{1}{3}$
+
+# Common mistakes
+- Writing a two-digit number with digits $a$ and $b$ as $ab$ (a product) instead of $10a + b$.
+- Forgetting brackets when a whole expression is multiplied or divided: "add 4, then divide by 2" is $\dfrac{2x + 4}{2}$.
+- Using $a + b + c$ for the top of a 3-row pyramid. It is $a + 2b + c$.
+- In calendar problems, taking the number below as $a + 1$ instead of $a + 7$.
+- Not checking that the answer makes sense (a date above 31, or a fraction of a cow).
+
+@@formulas
+Two-digit number | $10a + b$
+Three-digit number | $100a + 10b + c$
+Number minus its reverse (2 digits) | $9(a - b)$
+Number plus its reverse (2 digits) | $11(a + b)$
+Cyclic sum $abc + bca + cab$ | $111(a + b + c)$
+Repeated number $abcabc$ | $abc \times 1001$, and $1001 = 7 \times 11 \times 13$
+Pyramid top, 3 rows | $a + 2b + c$
+Pyramid top, 4 rows | $a + 3b + 3c + d$
+Pyramid top, 5 rows | $a + 4b + 6c + 4d + e$
+Calendar $2 \times 2$ block | Sum $= 4a + 16$
+Calendar $3 \times 3$ block | Sum $= 9 \times$ centre
+Largest product, digits $p < q < r$ | $qp \times r$
+Date trick | $100M + k + D$; subtract $k$
+Sum of the first $n$ odd numbers | $n^2$
+
+@@dpp
+Q: Think of a number, add 5, multiply by 4, subtract 20, divide by 4. What do you get? Show it with algebra.
+A: $\dfrac{4(x + 5) - 20}{4} = x$, the starting number
+Q: In the date trick (month $\times$ 4, add 7, $\times$ 25, add the day), the answer is 501. Find the date.
+A: $501 - 175 = 326$: 26 March
+Q: The bottom row of a 3-row pyramid is 11, 14, 25. Find the top number.
+A: $11 + 28 + 25 = 64$
+Q: The bottom row of a 4-row pyramid is 2, 5, 4, 9. Find the top number.
+A: $2 + 15 + 12 + 9 = 38$
+Q: The four dates in a $2 \times 2$ calendar block add up to 40. Find them.
+A: 6, 7, 13, 14
+Q: Use the digits 3, 5 and 9 once each to make the largest product of the form two-digit $\times$ one-digit.
+A: $53 \times 9 = 477$
+Q: Show that $72 - 27$ is divisible by 9 and state the quotient without dividing.
+A: $9(7 - 2) = 45$; the quotient is 5
+Q: Show that $245 + 452 + 524$ is divisible by 37.
+A: The sum is $111 \times 11 = 1221 = 37 \times 33$
+Q: A farm has cows and ducks with 30 heads and 84 legs. How many cows are there?
+A: 12 cows (and 18 ducks)
+Q: A father is 3 times as old as his son. In 10 years he will be twice as old. Find their ages now.
+A: Son 10, father 30

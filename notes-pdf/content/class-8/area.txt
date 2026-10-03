@@ -1,0 +1,185 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 2
+@chapter 7
+@title Area
+@summary Area as a count of unit squares, and the formulas for the area of a rectangle, triangle, parallelogram, rhombus and trapezium, obtained by cutting and rearranging shapes. Also areas of paths, areas of polygons and units of area.
+
+# Area and perimeter
+- The **area** of a region is the number of unit squares (including parts of squares) needed to cover it exactly. Units: sq cm (cm$^2$), sq m (m$^2$), and so on.
+- **Area of a rectangle** $=$ length $\times$ width. **Area of a square** $=$ side $\times$ side.
+- **Perimeter does not measure area.** Two regions can have the same perimeter and different areas, and a region with a larger perimeter can have a smaller area.
+| Rectangle | Perimeter | Area |
+| 7 cm by 4 cm | 22 cm | 28 sq cm |
+| 8 cm by 3 cm | 22 cm | 24 sq cm |
+| 10 cm by 2 cm | 24 cm | 20 sq cm |
+- If every length of a figure is doubled, its area becomes **4 times**.
+?eg A rectangle of area 35 sq in has one side 7 in. Find the other side.
+= $35 \div 7$
+=> 5 in
+?eg Give two rectangles where the one with the larger perimeter has the smaller area.
+=> 10 by 1 (perimeter 22, area 10) and 5 by 5 (perimeter 20, area 25)
+
+# Paths
+- **Path around a rectangle**: area of the path $=$ area of the outer rectangle $-$ area of the inner rectangle. Moving the inner rectangle about inside the outer one does not change this.
+- A path of width $w$ **outside** a park $l$ by $b$ has area $(l + 2w)(b + 2w) - lb$.
+- **Cross-paths** of widths $w_1$ and $w_2$ running across a plot $l$ by $b$, one along the length and one along the breadth: area $= lw_1 + bw_2 - w_1w_2$. The small rectangle where they cross must not be counted twice.
+?eg A park 30 m by 20 m has a path 2 m wide all around it on the outside. Find the area of the path.
+= Outer rectangle: 34 m by 24 m, area 816 sq m. Park: 600 sq m.
+=> 216 sq m
+?eg A plot 14 m by 12 m has two cross-paths, each 2 m wide, one parallel to each side. Find the area of the paths.
+= $14 \times 2 + 12 \times 2 - 2 \times 2$
+=> 48 sq m
+
+# Triangle
+- A diagonal divides a rectangle into two congruent triangles, so a right triangle is half of a rectangle.
+- Any triangle is half of the rectangle that has the same base and the same height.
+$$\text{Area of a triangle} = \frac{1}{2} \times \text{base} \times \text{height}$$
+- The **height** (altitude) is the perpendicular distance from the opposite vertex to the line containing the base. For an obtuse-angled triangle it may fall outside the triangle; the formula still holds.
+- Any side can be taken as the base, with its own height. So $\dfrac{1}{2} \times b_1 \times h_1 = \dfrac{1}{2} \times b_2 \times h_2$.
+!fig w=300 h=185; P A 130 30 t; P B 40 150 bl; P C 260 150 br; Q X 130 150; L A B; L B C; L C A; D A X; R A X C; T 143 95 h; N B C base; cap Area = ½ × base × height
+?eg Find the area of a triangle with base 5 cm and height 3.2 cm.
+= $\dfrac{1}{2} \times 5 \times 3.2$
+=> 8 sq cm
+?eg In triangle ABC, $BC = 6$ units and the altitude from A is 3 units. If $AC = 4$ units, find the altitude from B to AC.
+= Area $= \dfrac{1}{2} \times 6 \times 3 = 9$. Also area $= \dfrac{1}{2} \times 4 \times h$.
+=> $h = 4.5$ units
+
+# Useful facts about triangle areas
+- A **median** (the line from a vertex to the mid-point of the opposite side) divides a triangle into two triangles of **equal area**: they have equal bases and the same height.
+- The two diagonals of a rectangle (or any parallelogram) divide it into **four triangles of equal area**.
+- **Triangles on the same base and between the same parallel lines have equal areas**, because they have the same height.
+- Among all such triangles, the **isosceles** one has the smallest perimeter. (Reflect one base vertex in the parallel line; the shortest path is a straight line.)
+- Joining the mid-points M and N of two sides of a triangle cuts off a triangle with $\dfrac{1}{4}$ of the area.
+?eg The diagonals of a rectangle 8 cm by 6 cm meet at O. Find the area of each of the four triangles formed.
+= The rectangle has area 48 sq cm and the four triangles are equal in area.
+=> 12 sq cm each
+?eg Triangle SUB is isosceles with $SU = SB$, and SE is perpendicular to UB. If triangle SEB has area 24 sq units, find the area of triangle SUB.
+= In an isosceles triangle the altitude to the base bisects the base, so the two halves are equal in area.
+=> 48 sq units
+
+# Any polygon
+- Every polygon can be divided into triangles by drawing diagonals. Add the areas of the triangles.
+- **Quadrilateral** with diagonal $d$ and perpendiculars $h_1$, $h_2$ on it from the other two vertices: area $= \dfrac{1}{2} \times d \times (h_1 + h_2)$.
+?eg In quadrilateral ABCD, diagonal $AC = 22$ cm and the perpendiculars from B and D on AC are 3 cm each. Find the area.
+= $\dfrac{1}{2} \times 22 \times (3 + 3)$
+=> 66 sq cm
+?eg A regular hexagon has side 4 cm. Find its area. (An equilateral triangle of side $s$ has area $\dfrac{\sqrt{3}}{4}s^2$.)
+= It is made of 6 equilateral triangles of side 4 cm, each of area $4\sqrt{3}$ sq cm.
+=> $24\sqrt{3}$ sq cm, about 41.6 sq cm
+
+# Parallelogram
+- Cut a right triangle off one end of a parallelogram and move it to the other end: the result is a rectangle with the same base and height. Cutting and rearranging like this is called **dissection**.
+$$\text{Area of a parallelogram} = \text{base} \times \text{height}$$
+- The height is the perpendicular distance between the base and the opposite side, **not** the slant side.
+- Either pair of sides can be used: $b_1 \times h_1 = b_2 \times h_2$.
+- Parallelograms on the same base and between the same parallels have equal areas but different perimeters. A rectangle has a greater area than a slanted parallelogram with the same side lengths.
+!fig w=320 h=180; P A 90 40 tl; P B 270 40 tr; P C 220 140 br; P D 40 140 bl; Q X 90 140; L A B; L B C; L C D; L D A; D A X; R A X C; T 103 95 h; N D C base; cap Area = base × height
+?eg Find the area of a parallelogram with base 7 cm and height 4 cm.
+=> 28 sq cm
+?eg In parallelogram PQRS, $SR = 12$ cm and the height on SR is 7.6 cm. If $QR = 8$ cm, find the height on QR.
+= Area $= 12 \times 7.6 = 91.2$ sq cm. Then $8 \times h = 91.2$.
+=> 11.4 cm
+
+# Rhombus
+- A rhombus is a parallelogram, so area $=$ base $\times$ height.
+- Its diagonals are perpendicular bisectors of each other, which gives a second formula:
+$$\text{Area of a rhombus} = \frac{1}{2} \times d_1 \times d_2$$
+- Reason: the diagonal $d_2$ cuts the rhombus into two triangles, each with base $d_2$ and height $\dfrac{d_1}{2}$.
+- The same formula works for a kite and for any quadrilateral with perpendicular diagonals.
+?eg Find the area of a rhombus with diagonals 20 cm and 15 cm.
+= $\dfrac{1}{2} \times 20 \times 15$
+=> 150 sq cm
+?eg A rhombus has area 96 sq cm and one diagonal 12 cm. Find the other diagonal and the side.
+= $\dfrac{1}{2} \times 12 \times d = 96$ gives $d = 16$ cm. Half-diagonals 6 and 8 give side $\sqrt{36 + 64}$.
+=> 16 cm; side 10 cm
+
+# Trapezium
+- For a trapezium with parallel sides $a$ and $b$ and height $h$ (the perpendicular distance between them):
+$$\text{Area of a trapezium} = \frac{1}{2} \times h \times (a + b)$$
+- **Why**: two copies of the trapezium, one turned upside down, fit together to make a parallelogram with base $a + b$ and height $h$. The trapezium is half of it.
+- It can also be found by splitting the trapezium into a rectangle and two right triangles.
+!fig w=330 h=180; P W 100 40 tl; P X 220 40 tr; P Y 290 140 br; P Z 40 140 bl; Q M 100 140; L W X; L X Y; L Y Z; L Z W; D W M; R W M Y; M W X a; N Z Y b; T 113 95 h; cap Area = ½ × h × (a + b)
+?eg The parallel sides of a trapezium are 24 m and 36 m, and the distance between them is 14 m. Find its area.
+= $\dfrac{1}{2} \times 14 \times (24 + 36)$
+=> 420 sq m
+?eg A trapezium has area 144 sq cm and parallel sides 10 cm and 14 cm. Find its height.
+= $\dfrac{1}{2} \times h \times 24 = 144$
+=> 12 cm
+?eg A regular hexagon is divided into a trapezium (half the hexagon), a rhombus and an equilateral triangle. Find the ratio of their areas.
+= The hexagon is 6 small equilateral triangles: the trapezium uses 3, the rhombus 2 and the triangle 1.
+=> $3 : 2 : 1$
+
+# Changing shape, keeping area
+- The Śulba-Sūtras describe how to turn one shape into another of the same area, as needed for building altars.
+| From | To | Method |
+| Triangle | Rectangle | Join the mid-points of two sides; the rectangle has the same base and half the height |
+| Isosceles triangle | Rectangle | Cut along the altitude and join the two halves along their longest sides |
+| Parallelogram | Rectangle | Cut off a right triangle at one end and move it to the other |
+| Rhombus | Rectangle | Sides $d_1$ and $\dfrac{d_2}{2}$ |
+| Trapezium | Rectangle | Cut through the mid-points of the slant sides; length $\dfrac{a + b}{2}$, height $h$ |
+- A rectangle with **twice** the area of a triangle: use the same base and the same height.
+
+# Units of area
+| Conversion | Value |
+| 1 inch | 2.54 cm |
+| 1 foot | 12 inches |
+| 1 sq inch | $2.54^2 = 6.4516$ sq cm |
+| 1 sq foot | 144 sq inches |
+| 1 sq m | 10,000 sq cm |
+| 1 sq km | 10,00,000 sq m |
+| 1 acre | 43,560 sq ft |
+| 1 hectare | 10,000 sq m |
+- To convert an **area**, use the **square** of the length conversion factor.
+- An A4 sheet is 21 cm by 29.7 cm: area 623.7 sq cm.
+?eg Convert 10 sq in to sq cm, and 161.29 sq cm to sq in.
+= $10 \times 6.4516 = 64.516$ and $161.29 \div 6.4516 = 25$
+=> 64.516 sq cm; 25 sq in
+
+# Common mistakes
+- Using a slant side as the height of a parallelogram, triangle or trapezium.
+- Forgetting the $\dfrac{1}{2}$ in the triangle, rhombus and trapezium formulas.
+- Multiplying the sides of a rhombus instead of using the diagonals.
+- Counting the crossing square twice in cross-path problems.
+- Converting area with the length factor: 1 sq ft is 144 sq in, not 12.
+- Assuming that equal perimeters mean equal areas.
+
+@@formulas
+Rectangle | Length $\times$ width
+Square | Side$^2$
+Triangle | $\dfrac{1}{2} \times$ base $\times$ height
+Parallelogram | Base $\times$ height
+Rhombus | $\dfrac{1}{2} \times d_1 \times d_2$
+Trapezium | $\dfrac{1}{2} \times h \times (a + b)$
+Quadrilateral | $\dfrac{1}{2} \times d \times (h_1 + h_2)$
+Equilateral triangle | $\dfrac{\sqrt{3}}{4}s^2$
+Path outside a rectangle | $(l + 2w)(b + 2w) - lb$
+Cross-paths | $lw_1 + bw_2 - w_1w_2$
+Median of a triangle | Divides it into two equal areas
+Same base, same parallels | Triangles (and parallelograms) have equal areas
+Lengths doubled | Area becomes 4 times
+1 sq inch | 6.4516 sq cm
+1 sq foot | 144 sq inches
+1 acre | 43,560 sq ft
+
+@@dpp
+Q: Find the area of a triangle with base 12 cm and height 7.5 cm.
+A: 45 sq cm
+Q: A triangle has sides 9 cm and 6 cm, and the altitude on the 9 cm side is 4 cm. Find the altitude on the 6 cm side.
+A: 6 cm
+Q: A parallelogram has base 15 cm and area 135 sq cm. Find its height.
+A: 9 cm
+Q: Find the area of a rhombus with diagonals 24 cm and 10 cm, and find its side.
+A: 120 sq cm; side 13 cm
+Q: The parallel sides of a trapezium are 18 ft and 12 ft and its height is 8 ft. Find its area.
+A: 120 sq ft
+Q: A trapezium has area 210 sq cm, height 12 cm and one parallel side 20 cm. Find the other parallel side.
+A: 15 cm
+Q: A garden 25 m by 15 m has a path 1.5 m wide around it on the outside. Find the area of the path.
+A: $28 \times 18 - 375 = 129$ sq m
+Q: A plot 40 m by 30 m has two cross-paths, each 3 m wide. Find the area of the paths.
+A: $120 + 90 - 9 = 201$ sq m
+Q: In quadrilateral PQRS, diagonal $PR = 16$ cm and the perpendiculars on it from Q and S are 5 cm and 7 cm. Find the area.
+A: 96 sq cm
+Q: How many square inches are there in 2.5 sq ft? How many sq cm is that?
+A: 360 sq in; about 2322.6 sq cm

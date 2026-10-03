@@ -1,0 +1,161 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 4
+@title Quadrilaterals
+@summary Rectangles, squares, parallelograms, rhombuses, kites and trapeziums: their definitions, the properties of their sides, angles and diagonals, and how these properties follow from congruent triangles and parallel lines.
+
+# Quadrilaterals and their angles
+- A **quadrilateral** is a closed figure with four sides. It has four angles and two diagonals.
+- **The sum of the angles of any quadrilateral is $360^\circ$.** A diagonal cuts it into two triangles, and each has an angle sum of $180^\circ$.
+!fig w=300 h=170; P S 50 40 tl; P O 250 55 tr; P M 220 145 br; P E 70 140 bl; L S O; L O M; L M E; L E S; D S M; cap Diagonal SM divides the quadrilateral into two triangles
+- So a quadrilateral cannot have exactly three right angles: the fourth is forced to be $360^\circ - 270^\circ = 90^\circ$.
+?eg Three angles of a quadrilateral are $85^\circ$, $110^\circ$ and $75^\circ$. Find the fourth.
+= $360^\circ - (85^\circ + 110^\circ + 75^\circ) = 360^\circ - 270^\circ$
+=> $90^\circ$
+?eg The angles of a quadrilateral are $x$, $2x$, $3x$ and $4x$. Find them.
+= $10x = 360^\circ$, so $x = 36^\circ$
+=> $36^\circ$, $72^\circ$, $108^\circ$, $144^\circ$
+
+# Rectangle
+- A **rectangle** is a quadrilateral in which all the angles are $90^\circ$.
+- **Properties**: opposite sides are equal; opposite sides are parallel; the diagonals are **equal** and **bisect each other**.
+- Why the diagonals are equal: in rectangle ABCD, triangles ADC and DAB have $DC = AB$, $\angle D = \angle A = 90^\circ$ and AD common. They are congruent (SAS), so $AC = BD$.
+- **Converse**: if the diagonals of a quadrilateral are equal and bisect each other, it is a rectangle, whatever the angle between them.
+!fig w=310 h=180; P A 50 35 tl; P B 260 35 tr; P C 260 145 br; P D 50 145 bl; P O 155 90 t; L A B; L B C; L C D; L D A; L A C; L B D; R A B C; R B C D; R C D A; R D A B; cap Rectangle: OA = OB = OC = OD
+- Since $OA = OB = OC = OD$, the four triangles formed by the diagonals are isosceles.
+?eg In rectangle ABCD the diagonals meet at O and $\angle AOB = 110^\circ$. Find $\angle OAB$ and $\angle OAD$.
+= Triangle AOB is isosceles with $OA = OB$, so $\angle OAB = \dfrac{180^\circ - 110^\circ}{2} = 35^\circ$.
+= $\angle OAD = 90^\circ - 35^\circ$
+=> $\angle OAB = 35^\circ$ and $\angle OAD = 55^\circ$
+?eg A carpenter joins two strips of wood at their mid-points. One strip is 10 cm long. What must be true for the four ends to be the corners of a rectangle?
+= The strips are the diagonals. They must be equal and bisect each other.
+=> The other strip must also be 10 cm long. The angle between the strips can be anything.
+
+# Square
+- A **square** is a quadrilateral with all angles $90^\circ$ and all sides equal. Every square is a rectangle, but not every rectangle is a square.
+- **Properties**: all the properties of a rectangle, and also the diagonals **bisect each other at $90^\circ$** and **bisect the angles** of the square (each half is $45^\circ$).
+- To get a square from two strips: equal length, joined at their mid-points, **at right angles**.
+!fig w=250 h=200; P A 50 30 tl; P B 200 30 tr; P C 200 180 br; P D 50 180 bl; P O 125 105 r; L A B; L B C; L C D; L D A; L A C; L B D; R A O B; cap Square: equal diagonals meeting at 90°
+?eg The diagonal of a square is 8 cm. How would you construct the square without a protractor?
+= Draw $AC = 8$ cm and construct its perpendicular bisector, meeting AC at O.
+= Mark B and D on the bisector with $OB = OD = 4$ cm.
+=> Join A, B, C, D. The diagonals are equal and bisect each other at right angles, so ABCD is a square.
+
+# Parallelogram
+- A **parallelogram** is a quadrilateral in which both pairs of opposite sides are parallel.
+- **Properties**: opposite sides are **equal**; opposite angles are **equal**; adjacent angles **add up to $180^\circ$**; the diagonals **bisect each other**.
+- Adjacent angles are interior angles on the same side of a transversal, which is why they add up to $180^\circ$.
+- A diagonal divides a parallelogram into two congruent triangles. That is how the equal sides are proved.
+- The diagonals of a parallelogram need not be equal and need not be perpendicular.
+!fig w=320 h=175; P A 40 140 bl; P B 220 140 br; P C 280 40 tr; P D 100 40 tl; P O 160 90 t; L A B; L B C; L C D; L D A; L A C; L B D; cap Parallelogram: AO = OC and BO = OD
+?eg In parallelogram ABCD, $\angle A = 60^\circ$. Find the other angles.
+= $\angle C = \angle A = 60^\circ$ (opposite angles)
+= $\angle B = 180^\circ - 60^\circ = 120^\circ$ (adjacent angles), and $\angle D = \angle B$
+=> $\angle B = 120^\circ$, $\angle C = 60^\circ$, $\angle D = 120^\circ$
+?eg Two adjacent angles of a parallelogram are $(3x + 10)^\circ$ and $(2x + 20)^\circ$. Find all four angles.
+= $3x + 10 + 2x + 20 = 180$, so $x = 30$
+=> $100^\circ$, $80^\circ$, $100^\circ$, $80^\circ$
+?eg The diagonals of a parallelogram are 7 cm and 5 cm long. How far is each vertex from the point where they meet?
+= The diagonals bisect each other.
+=> 3.5 cm, 2.5 cm, 3.5 cm and 2.5 cm
+
+# Rhombus
+- A **rhombus** is a quadrilateral in which all four sides are equal.
+- Every rhombus is a parallelogram, so it has all the properties of a parallelogram.
+- **Extra properties**: the diagonals **bisect each other at $90^\circ$**, and the diagonals **bisect the angles** of the rhombus.
+- A rhombus with one right angle is a square.
+!fig w=320 h=190; P A 40 95 l; P B 160 30 t; P C 280 95 r; P D 160 160 b; P O 160 95 tr; L A B; L B C; L C D; L D A; L A C; L B D; R A O B; cap Rhombus: the diagonals are perpendicular bisectors of each other
+?eg One angle of a rhombus is $50^\circ$. Find the other angles, and the angles a diagonal makes with the sides.
+= Opposite angle $= 50^\circ$. The other two are $180^\circ - 50^\circ = 130^\circ$ each.
+= The diagonals bisect the angles.
+=> Angles $50^\circ, 130^\circ, 50^\circ, 130^\circ$; the diagonals make angles of $25^\circ$ and $65^\circ$ with the sides
+?eg The diagonals of a rhombus are 6 cm and 8 cm. Find its side.
+= The half-diagonals 3 cm and 4 cm meet at right angles, so each side is the hypotenuse of a right triangle with legs 3 and 4.
+= Side$^2 = 3^2 + 4^2 = 25$
+=> 5 cm
+
+# Kite
+- A **kite** is a quadrilateral ABCD with two pairs of equal **adjacent** sides: $AB = BC$ and $CD = DA$.
+- **Properties**: the diagonal BD (joining the vertices between the equal sides) bisects $\angle B$ and $\angle D$, and it is the **perpendicular bisector** of the other diagonal AC.
+- Reason: triangles ABD and CBD are congruent (SSS).
+- Two congruent scalene triangles joined along a common side, as mirror images, form a kite.
+- A kite that is also a parallelogram has all sides equal, so it is a rhombus.
+!fig w=300 h=215; P A 70 80 l; P B 150 25 t; P C 230 80 r; P D 150 195 b; P O 150 80 tr; L A B; L B C; L C D; L D A; D A C; D B D; R A O B; cap Kite: AB = BC and CD = DA
+?eg In kite ABCD, $AB = BC$, $CD = DA$, $\angle ABC = 100^\circ$ and $\angle ADC = 40^\circ$. Find $\angle A$ and $\angle C$.
+= $\angle A = \angle C$ because triangles ABD and CBD are congruent.
+= $2\angle A = 360^\circ - 100^\circ - 40^\circ = 220^\circ$
+=> $\angle A = \angle C = 110^\circ$
+
+# Trapezium
+- A **trapezium** is a quadrilateral with at least one pair of parallel opposite sides.
+- If $PQ \parallel SR$, then $\angle P + \angle S = 180^\circ$ and $\angle Q + \angle R = 180^\circ$.
+- An **isosceles trapezium** has equal non-parallel sides. Its two base angles on the same parallel side are equal.
+!fig w=320 h=165; P P 40 135 bl; P Q 280 135 br; P R 220 40 tr; P S 100 40 tl; L P Q; L Q R; L R S; L S P; cap Isosceles trapezium: PQ is parallel to SR and PS = QR
+?eg In trapezium PQRS, $PQ \parallel SR$, $\angle P = 75^\circ$ and $\angle Q = 45^\circ$. Find $\angle S$ and $\angle R$.
+= $\angle S = 180^\circ - 75^\circ$ and $\angle R = 180^\circ - 45^\circ$
+=> $\angle S = 105^\circ$ and $\angle R = 135^\circ$
+?eg In an isosceles trapezium one base angle is $80^\circ$. Find all the angles.
+= The other angle on the same base is also $80^\circ$. Each of the remaining two is $180^\circ - 80^\circ$.
+=> $80^\circ, 80^\circ, 100^\circ, 100^\circ$
+
+# How the families are related
+- Every square is a rectangle and a rhombus. Every rectangle and every rhombus is a parallelogram. Every rhombus is a kite. Every parallelogram is a trapezium.
+| | Parallelogram | Rectangle | Rhombus | Square |
+| Opposite sides equal and parallel | Yes | Yes | Yes | Yes |
+| All sides equal | No | No | Yes | Yes |
+| All angles $90^\circ$ | No | Yes | No | Yes |
+| Diagonals bisect each other | Yes | Yes | Yes | Yes |
+| Diagonals equal | No | Yes | No | Yes |
+| Diagonals perpendicular | No | No | Yes | Yes |
+| Diagonals bisect the angles | No | No | Yes | Yes |
+- **Recognising a quadrilateral from its diagonals**: bisect each other gives a parallelogram; equal and bisect each other gives a rectangle; bisect each other at right angles gives a rhombus; equal and bisect each other at right angles gives a square.
+- A quadrilateral with both pairs of opposite sides equal, or with both pairs of opposite angles equal, is a parallelogram.
+?eg The mid-points of the sides of a square are joined in order. What figure is formed?
+= Each corner triangle is a right triangle with two equal legs (half the side), so the four new sides are equal and each corner triangle has angles $45^\circ, 45^\circ, 90^\circ$.
+= At each mid-point the angle of the new figure is $180^\circ - 45^\circ - 45^\circ = 90^\circ$.
+=> A square
+
+# Common mistakes
+- Saying a rhombus has equal diagonals, or that a rectangle has perpendicular diagonals. Only a square has both.
+- Taking adjacent angles of a parallelogram as equal. They add up to $180^\circ$; the **opposite** angles are equal.
+- Writing congruent triangles with vertices in the wrong order. The order must match the corresponding parts.
+- Assuming perpendicular diagonals mean a rhombus. A kite also has perpendicular diagonals.
+- Treating a measured result as proved. Measurement gives a conjecture; a proof needs reasoning.
+
+@@formulas
+Angle sum of a quadrilateral | $360^\circ$
+Rectangle | All angles $90^\circ$; diagonals equal and bisect each other
+Square | All angles $90^\circ$ and all sides equal; diagonals equal, bisect each other at $90^\circ$ and bisect the angles
+Parallelogram | Opposite sides parallel and equal; opposite angles equal; diagonals bisect each other
+Adjacent angles of a parallelogram | Add up to $180^\circ$
+Rhombus | All sides equal; diagonals bisect each other at $90^\circ$ and bisect the angles
+Side of a rhombus | $\sqrt{\left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2}$
+Kite | $AB = BC$, $CD = DA$; BD is the perpendicular bisector of AC
+Trapezium | At least one pair of parallel sides; angles between the parallel sides on the same arm add up to $180^\circ$
+Isosceles trapezium | Non-parallel sides equal; base angles equal
+Diagonals bisect each other | Parallelogram
+Diagonals equal and bisect each other | Rectangle
+Diagonals bisect each other at $90^\circ$ | Rhombus
+
+@@dpp
+Q: Three angles of a quadrilateral are $70^\circ$, $95^\circ$ and $125^\circ$. Find the fourth angle.
+A: $70^\circ$
+Q: In parallelogram PQRS, $\angle P = 72^\circ$. Find the other three angles.
+A: $\angle Q = 108^\circ$, $\angle R = 72^\circ$, $\angle S = 108^\circ$
+Q: In rectangle ABCD the diagonals meet at O and $\angle AOD = 50^\circ$. Find $\angle OAD$ and $\angle OAB$.
+A: $\angle OAD = 65^\circ$, $\angle OAB = 25^\circ$
+Q: The diagonals of a rhombus are 10 cm and 24 cm. Find its side.
+A: $\sqrt{5^2 + 12^2} = 13$ cm
+Q: One angle of a rhombus is $70^\circ$. What angles does the shorter diagonal make with the sides?
+A: $55^\circ$ (the shorter diagonal bisects the $110^\circ$ angles)
+Q: In trapezium ABCD, $AB \parallel DC$, $\angle A = 68^\circ$ and $\angle B = 54^\circ$. Find $\angle D$ and $\angle C$.
+A: $\angle D = 112^\circ$, $\angle C = 126^\circ$
+Q: In kite ABCD with $AB = BC$ and $CD = DA$, $\angle B = 120^\circ$ and $\angle D = 60^\circ$. Find $\angle A$.
+A: $90^\circ$
+Q: Two equilateral triangles of side 4 cm are joined along a side. Name the quadrilateral and give its angles.
+A: A rhombus with angles $60^\circ, 120^\circ, 60^\circ, 120^\circ$
+Q: True or false: (i) every rhombus is a kite; (ii) a quadrilateral with perpendicular diagonals must be a rhombus.
+A: (i) True. (ii) False; it could be a kite.
+Q: The diagonals of a quadrilateral are equal, bisect each other and meet at $90^\circ$. What is it?
+A: A square

@@ -1,0 +1,147 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 3
+@title A Story of Numbers
+@summary How people learned to count and write numbers: tally marks, grouping, landmark numbers, the idea of a base, place value and zero, ending with the Hindu (Indian) number system used across the world today.
+
+# Counting and number systems
+- To count a collection we match its objects one by one with a fixed, ordered sequence. This matching is a **one-to-one mapping**: no two objects are matched with the same item.
+- The fixed sequence can be made of **objects** (sticks, pebbles), **names** (spoken words) or **written symbols**. Such a standard sequence is called a **number system**.
+- The symbols of a written number system are called **numerals**.
+- A good number system must never run out (numbers have no end) and must still be easy to use.
+| Method | Strength | Weakness |
+| A stick for each object | Never runs out | Needs as many sticks as objects |
+| Letters a to z as names | Easy to say | Stops at 26 |
+| Roman symbols | Short for small numbers | Needs new symbols for larger numbers |
+?eg A herder keeps one pebble in a bag for each sheep that leaves in the morning. In the evening she removes one pebble for each sheep that returns, and 3 pebbles are left. What does this tell her?
+= Each pebble is matched with exactly one sheep.
+=> 3 sheep have not returned. She learns this without using any number names.
+
+# Early ways of counting
+- **Body parts**: some communities count by pointing to fingers, wrist, elbow, shoulder and so on in a fixed order.
+- **Tally marks**: one notch for each object. The Lebombo bone (about 44,000 years old, 29 notches) and the Ishango bone (20,000 to 35,000 years old) are the oldest known examples.
+- **Counting in twos**: the Gumulgal people of Australia used *urapon* for 1 and *ukasar* for 2, and built other names from them: $3 = 2 + 1$ is ukasar-urapon, $4 = 2 + 2$ is ukasar-ukasar, $5 = 2 + 2 + 1$, $6 = 2 + 2 + 2$.
+- The key idea is **grouping**: count in groups of a fixed size (commonly 2, 5, 10 or 20) and use the group to name larger numbers.
+- Most people can tell the size of a collection at a glance only up to about 4. This may be why tally marks are bundled in fives.
+?eg Write 9 in the Gumulgal style, counting in twos.
+= $9 = 2 + 2 + 2 + 2 + 1$
+=> ukasar-ukasar-ukasar-ukasar-urapon
+
+# Roman numerals
+- The Roman system uses several group sizes at once. Numbers that have their own symbol are called **landmark numbers**.
+| Symbol | I | V | X | L | C | D | M |
+| Value | 1 | 5 | 10 | 50 | 100 | 500 | 1000 |
+- To write a number, break it into landmark numbers, taking as many of the largest as possible first.
+- A smaller symbol written **before** a larger one is subtracted: IV $= 4$, IX $= 9$, XL $= 40$, XC $= 90$, CD $= 400$, CM $= 900$.
+- Weaknesses: there is no zero, larger numbers need new symbols, and multiplication and division are very hard.
+?eg Write 1947 in Roman numerals.
+= $1947 = 1000 + 900 + 40 + 7$
+= M, CM, XL, VII
+=> MCMXLVII
+?eg Add CCXXXII and CCCCXIII without changing them to Hindu numerals.
+= Collect the symbols: six Cs, four Xs and five Is.
+= Five Cs make a D, and five Is make a V.
+=> DCXLV (that is, $232 + 413 = 645$)
+
+# The idea of a base
+- The Egyptians (about 3000 BCE) chose landmark numbers that are all powers of 10: $1, 10, 100, 1000, \ldots$, with a separate symbol for each. A number was written by repeating each symbol as often as needed.
+- A system whose landmark numbers are $1, n, n^2, n^3, \ldots$ is a **base-$n$ number system**. Base 10 is also called the **decimal** system.
+- In a base-$n$ system, $n$ copies of one landmark number always make the next one. So no symbol is ever needed $n$ or more times.
+- **Why a base helps**: the product of two landmark numbers is again a landmark number ($n^a \times n^b = n^{a+b}$). This makes addition and multiplication systematic. Roman landmark numbers do not have this property.
+- Drawback of the Egyptian system: every higher power of 10 needs a brand-new symbol.
+?eg What are the first five landmark numbers of a base-5 system? Break 143 into these landmark numbers.
+= $5^0 = 1$, $5^1 = 5$, $5^2 = 25$, $5^3 = 125$, $5^4 = 625$
+= $143 = 125 + 5 + 5 + 5 + 1 + 1 + 1$
+=> One 125, no 25s, three 5s and three 1s
+?eg In the Egyptian system, how many symbols in all are needed to write 2304?
+= $2304 = 2 \times 1000 + 3 \times 100 + 0 \times 10 + 4 \times 1$
+=> $2 + 3 + 0 + 4 = 9$ symbols
+- The **abacus** used in Europe from about the 11th century was a board with one line for each power of 10. Counters on the lines showed how many of each power were present.
+
+# Place value
+- In a **place value system** (positional system) the **position** of a symbol tells which landmark number it counts. No separate symbols for the landmark numbers are needed, so a few symbols can write every number.
+| System | Base | Notes |
+| Mesopotamian (Babylonian) | 60 | Symbols for 1 and 10 made the numbers 1 to 59; blank space for an empty place, later a placeholder symbol |
+| Mayan | 20, with places 1, 20, 360, ... | Dot for 1, bar for 5, a shell symbol for zero; written top to bottom |
+| Chinese rod numerals | 10 | Rod patterns for 1 to 9, alternating upright and sideways forms; blank for an empty place |
+| Hindu (Indian) | 10 | Ten digits 0 to 9, with 0 a full digit and a number |
+- The base-60 system survives in our units of time: 1 hour $= 60$ minutes and 1 minute $= 60$ seconds.
+- Without a symbol for an empty place, a numeral can be read in more than one way. A **placeholder (zero)** removes this confusion.
+?eg Break 7530 into Mesopotamian places.
+= $7530 = 2 \times 3600 + 5 \times 60 + 30$
+=> The three places hold 2, 5 and 30
+?eg Break 500 into Mayan places (1, 20, 360).
+= $500 = 1 \times 360 + 7 \times 20 + 0 \times 1$
+=> The places hold 1, 7 and 0, written from top to bottom
+
+# The Hindu number system
+- It is a base-10 place value system with ten digits $0, 1, 2, \ldots, 9$. For example $375 = 3 \times 10^2 + 7 \times 10 + 5 \times 1$.
+- It began in India about 2000 years ago. The Bakhshali manuscript (about the 3rd century CE) writes zero as a dot. Āryabhaṭa (499 CE) computed extensively with the system.
+- Brahmagupta (628 CE) gave rules for arithmetic with **zero as a number** and with negative numbers.
+- It reached the Arab world by about 800 CE through Al-Khwārizmī and Al-Kindi, and Europe by about 1100 CE. Fibonacci argued for it around 1200, and it was in general use in Europe by the 17th century.
+- Europeans learned the numerals from Arab scholars and called them "Arabic numerals". Arab scholars themselves called them Hindu numerals. Today they are called Hindu, Indian or Hindu-Arabic numerals.
+- Because zero is a digit and each place holds exactly one digit, every number can be written in exactly one clear way, and calculation is easy.
+| Stage | Idea |
+| 1 | Count in groups of one size |
+| 2 | Group using landmark numbers |
+| 3 | Make the landmark numbers the powers of one number: a base |
+| 4 | Let position show the landmark number: place value |
+| 5 | Use 0 as a digit and as a number |
+
+# Writing numbers in other bases
+- The same place value idea works for any base $n$, using the digits $0$ to $n - 1$.
+- To convert a number to base $n$: take out the largest power of $n$ as many times as possible, then the next power, and so on. The counts are the digits.
+- To convert back: multiply each digit by its power of $n$ and add.
+?eg Write 25 in base 8, base 5 and base 2.
+= Base 8: $25 = 3 \times 8 + 1$, giving 31.
+= Base 5: $25 = 1 \times 25 + 0 \times 5 + 0$, giving 100.
+= Base 2: $25 = 16 + 8 + 1 = 1 \times 16 + 1 \times 8 + 0 \times 4 + 0 \times 2 + 1$, giving 11001.
+=> 31 (base 8), 100 (base 5), 11001 (base 2)
+?eg What number does the base-5 numeral 2133 stand for?
+= $2 \times 125 + 1 \times 25 + 3 \times 5 + 3 \times 1$
+=> 293
+
+# Common mistakes
+- Writing 4 as IIII or 40 as XXXX instead of IV and XL, or reading IX as 11.
+- Mixing up a base with a group size. A base needs **every** landmark number to be a power of the same number.
+- Thinking the Egyptian system had place value. It had a base but used separate symbols.
+- Using the digit $n$ in base $n$. Base 5 uses only 0, 1, 2, 3, 4.
+- Dropping a zero in the middle of a numeral: 3605 and 365 are different numbers.
+
+@@formulas
+One-to-one mapping | Each object is matched with exactly one item of the counting sequence
+Number system | A standard ordered sequence of objects, names or symbols used for counting
+Numeral | A symbol for a number in a written system
+Landmark numbers | Numbers with their own symbol, used to build other numbers
+Roman symbols | I 1, V 5, X 10, L 50, C 100, D 500, M 1000
+Roman subtraction pairs | IV 4, IX 9, XL 40, XC 90, CD 400, CM 900
+Base-$n$ system | Landmark numbers $1, n, n^2, n^3, \ldots$
+Product of landmark numbers | $n^a \times n^b = n^{a+b}$
+Place value system | Position shows which power of the base a digit counts
+Hindu numeral | $375 = 3 \times 10^2 + 7 \times 10^1 + 5 \times 10^0$
+Mesopotamian places | $1, 60, 3600, \ldots$
+Mayan places | $1, 20, 360, \ldots$
+Digits in base $n$ | $0, 1, \ldots, n - 1$
+
+@@dpp
+Q: Write 2024 and 499 in Roman numerals.
+A: MMXXIV and CDXCIX
+Q: What numbers do MCDLIX and DCCXC stand for?
+A: 1459 and 790
+Q: Write 7 in the Gumulgal style (urapon = 1, ukasar = 2).
+A: ukasar-ukasar-ukasar-urapon
+Q: List the first five landmark numbers of a base-7 system.
+A: 1, 7, 49, 343, 2401
+Q: Break 651 into base-5 landmark numbers.
+A: $651 = 1 \times 625 + 1 \times 25 + 1 \times 1$
+Q: How many symbols are needed to write 70,707 in the Egyptian system?
+A: $7 + 7 + 7 = 21$
+Q: Break 3605 and 200 into Mesopotamian places.
+A: $3605 = 1 \times 3600 + 0 \times 60 + 5$; $200 = 3 \times 60 + 20$
+Q: Break 721 into Mayan places.
+A: $721 = 2 \times 360 + 0 \times 20 + 1$
+Q: Write 45 in base 2 and in base 8.
+A: 101101 and 55
+Q: Give two reasons why the Hindu number system is more efficient than the Roman system.
+A: It uses place value, so ten digits write every number; and it has zero, which makes written calculation simple and unambiguous.

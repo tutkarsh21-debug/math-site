@@ -1,0 +1,171 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 6
+@title We Distribute, Yet Things Multiply
+@summary The distributive property and what it leads to: multiplying two brackets, the identities for the square of a sum, the square of a difference and the difference of two squares, quick multiplication methods, and describing patterns with algebra.
+
+# The distributive property
+- Multiplication distributes over addition: $a(b + c) = ab + ac$ and $(a + b)c = ac + bc$.
+- It also works for subtraction, $a(b - c) = ab - ac$, and for any number of terms inside the bracket.
+- It holds for all integers and fractions, positive or negative.
+!fig w=330 h=150; Q a 40 30; Q b 190 30; Q c 290 30; Q d 290 110; Q e 190 110; Q f 40 110; F b c d e; L a c; L c d; L d f; L f a; L b e; T 115 22 b; T 240 22 c; T 28 74 a; T 115 76 ab; T 240 76 ac; cap A rectangle a by (b + c) has area ab + ac
+- An **identity** is an equality between two expressions that is true for every value of the letters. Example: $a(b + 8) = ab + 8a$.
+- Only **like terms** (same letters with the same powers) can be added: $a^2b + 2a^2b = 3a^2b$, but $\dfrac{3}{2}a^2$ and $\dfrac{3}{10}a$ cannot be combined.
+?eg Expand $\dfrac{3a}{2}\left(a - b + \dfrac{1}{5}\right)$.
+= Multiply each term by $\dfrac{3a}{2}$.
+=> $\dfrac{3}{2}a^2 - \dfrac{3}{2}ab + \dfrac{3}{10}a$
+?eg By how much does the product $23 \times 27$ increase if 27 is increased by 1?
+= $23(27 + 1) = 23 \times 27 + 23$
+=> By 23
+
+# Multiplying two brackets
+- Multiply each term of the first bracket by each term of the second, then add.
+$$(a + m)(b + n) = ab + an + mb + mn$$
+- With signs, use the usual rules for integers: $(a + u)(b - v) = ab - av + ub - uv$, $(a - u)(b + v) = ab + av - ub - uv$ and $(a - u)(b - v) = ab - av - ub + uv$.
+!fig w=330 h=190; Q a 40 30; Q b 190 30; Q c 290 30; Q d 290 110; Q e 290 160; Q f 190 160; Q g 40 160; Q h 40 110; Q i 190 110; F i d e f; L a c; L c e; L e g; L g a; L b f; L h d; T 115 22 b; T 240 22 n; T 28 74 a; T 28 140 m; T 115 76 ab; T 240 76 an; T 115 140 mb; T 240 140 mn; cap (a + m)(b + n) is the sum of four areas
+- **How a product changes**: if both numbers go up by 1, $(a + 1)(b + 1) = ab + a + b + 1$, so the product rises by $a + b + 1$. If one goes up by 1 and the other down by 1, $(a + 1)(b - 1) = ab + b - a - 1$.
+?eg Expand $(3 - x)(x - 6)$.
+= $3x - 18 - x^2 + 6x$
+=> $-x^2 + 9x - 18$
+?eg Expand $(4y + 7)(y + 11z - 3)$.
+= $4y^2 + 44yz - 12y + 7y + 77z - 21$
+=> $4y^2 + 44yz - 5y + 77z - 21$
+?eg The product of two numbers stays the same when one is increased by 2 and the other is decreased by 4. How are the numbers related?
+= $(a + 2)(b - 4) = ab$ gives $ab - 4a + 2b - 8 = ab$, so $2b = 4a + 8$.
+=> $b = 2a + 4$, for example 1 and 6, or 3 and 10
+?eg Which is larger: $25 \times 75$ or $26 \times 74$?
+= $26 \times 74 = (25 + 1)(75 - 1) = 25 \times 75 + 75 - 25 - 1 = 25 \times 75 + 49$
+=> $26 \times 74$ is larger, by 49
+?eg Expand $(a + b)(a^2 + 2ab + b^2)$.
+= $a^3 + 2a^2b + ab^2 + a^2b + 2ab^2 + b^3$
+=> $a^3 + 3a^2b + 3ab^2 + b^3$
+
+# Quick multiplication
+- **By 11**: $N \times 11 = N \times 10 + N$. Writing from the right: the units digit, then the sum of each pair of neighbouring digits (carrying when needed), then the first digit.
+- **By 101**: $N \times 101 = N \times 100 + N$. **By 1001**: $N \times 1000 + N$.
+- **By 99, 999**: $N \times 99 = N \times 100 - N$ and $N \times 999 = N \times 1000 - N$.
+- Brahmagupta (628 CE) stated the distributive property as "multiplication by parts" and used it for fast multiplication.
+?eg Find $3874 \times 11$ in one line.
+= From the right: 4; $7 + 4 = 11$, write 1 carry 1; $8 + 7 + 1 = 16$, write 6 carry 1; $3 + 8 + 1 = 12$, write 2 carry 1; $3 + 1 = 4$.
+=> 42614
+?eg Find $9734 \times 99$.
+= $9734 \times 100 - 9734 = 973400 - 9734$
+=> 963666
+?eg Find $265 \times 1001$.
+= $265000 + 265$
+=> 265265
+
+# Square of a sum
+$$(a + b)^2 = a^2 + 2ab + b^2$$
+- Reason: $(a + b)(a + b) = a^2 + ab + ba + b^2$.
+- Picture: a square of side $a + b$ splits into squares of area $a^2$ and $b^2$ and two rectangles of area $ab$ each.
+!fig w=240 h=225; Q a 40 25; Q b 150 25; Q c 200 25; Q d 200 135; Q e 200 185; Q f 150 185; Q g 40 185; Q h 40 135; Q i 150 135; F a b i h; F i d e f; L a c; L c e; L e g; L g a; L b f; L h d; T 95 17 a; T 175 17 b; T 28 84 a; T 28 164 b; T 95 84 a²; T 175 84 ab; T 95 164 ab; T 175 164 b²; cap (a + b)² = a² + 2ab + b²
+- $(a + b)^2$ is not $a^2 + b^2$. The middle term $2ab$ must be included.
+?eg Find $65^2$ and $104^2$.
+= $65^2 = (60 + 5)^2 = 3600 + 600 + 25 = 4225$
+= $104^2 = (100 + 4)^2 = 10000 + 800 + 16 = 10816$
+=> 4225 and 10816
+?eg Expand $(6x + 5)^2$.
+= $(6x)^2 + 2(6x)(5) + 5^2$
+=> $36x^2 + 60x + 25$
+
+# Square of a difference
+$$(a - b)^2 = a^2 - 2ab + b^2$$
+- It follows from the first identity by writing $a - b$ as $a + (-b)$.
+- $(a - b)^2 = (b - a)^2$, since squaring removes the sign.
+?eg Find $99^2$ and $58^2$.
+= $99^2 = (100 - 1)^2 = 10000 - 200 + 1 = 9801$
+= $58^2 = (60 - 2)^2 = 3600 - 240 + 4 = 3364$
+=> 9801 and 3364
+?eg Expand $\left(7y - \dfrac{3}{4}\right)^2$.
+= $(7y)^2 - 2(7y)\left(\dfrac{3}{4}\right) + \left(\dfrac{3}{4}\right)^2$
+=> $49y^2 - \dfrac{21}{2}y + \dfrac{9}{16}$
+
+# Difference of two squares
+$$(a + b)(a - b) = a^2 - b^2$$
+- Reason: $a^2 - ab + ba - b^2$, and the middle terms cancel.
+- It turns a product of two numbers equally far from a round number into a subtraction of squares.
+- **Śrīdharācārya's method for squares** (750 CE): $a^2 = (a + b)(a - b) + b^2$. Choose $b$ so that $a + b$ or $a - b$ is a round number.
+?eg Find $98 \times 102$ and $45 \times 55$.
+= $98 \times 102 = (100 - 2)(100 + 2) = 10000 - 4$
+= $45 \times 55 = (50 - 5)(50 + 5) = 2500 - 25$
+=> 9996 and 2475
+?eg Find $197^2$ by Śrīdharācārya's method.
+= $197^2 = (197 + 3)(197 - 3) + 3^2 = 200 \times 194 + 9$
+=> 38809
+?eg Write 100 as a difference of two squares.
+= $100 = 50 \times 2 = (26 + 24)(26 - 24)$
+=> $26^2 - 24^2$
+
+# Patterns explained by identities
+- Adding the first two identities: $(a + b)^2 + (a - b)^2 = 2(a^2 + b^2)$. So twice a sum of two squares is again a sum of two squares, for example $2(5^2 + 3^2) = 8^2 + 2^2$.
+- Subtracting them: $(a + b)^2 - (a - b)^2 = 4ab$.
+- Three consecutive numbers: $n^2 - (n - 1)(n + 1) = 1$. The square of the middle one is 1 more than the product of the other two.
+- $(a - b)(a + b) = a^2 - b^2$, $(a - b)(a^2 + ab + b^2) = a^3 - b^3$, $(a - b)(a^3 + a^2b + ab^2 + b^3) = a^4 - b^4$.
+?eg In a calendar, take any $2 \times 2$ block of dates. Show that the two diagonal products always differ by 7.
+= Call the dates $a$, $a + 1$, $a + 7$, $a + 8$.
+= $(a + 1)(a + 7) - a(a + 8) = a^2 + 8a + 7 - a^2 - 8a$
+=> 7, whatever the value of $a$
+?eg Show that the square of an odd number is 1 more than a multiple of 8.
+= $(2n + 1)^2 = 4n^2 + 4n + 1 = 4n(n + 1) + 1$
+= $n(n + 1)$ is a product of consecutive numbers, so it is even. Hence $4n(n + 1)$ is a multiple of 8.
+=> Proved
+
+# Many ways to count
+- The same pattern can be counted in different ways. Each way gives a different-looking expression, and simplifying shows they are equal.
+?eg A pattern has $k$ rows of $k + 2$ dots at step $k$. Show that $k(k + 2)$, $(k + 1)^2 - 1$ and $k^2 + 2k$ all describe it, and find the number of dots at step 15.
+= $k(k + 2) = k^2 + 2k$ and $(k + 1)^2 - 1 = k^2 + 2k + 1 - 1 = k^2 + 2k$
+=> All are equal. At step 15: $225 + 30 = 255$ dots.
+?eg Four rectangles, each $m$ by $n$ with $n > m$, are arranged around a square hole to form a large square of side $m + n$. Find the area of the hole in two ways.
+= Way 1: large square minus four rectangles, $(m + n)^2 - 4mn$.
+= Way 2: the hole is a square of side $n - m$, area $(n - m)^2$.
+=> Both equal $m^2 - 2mn + n^2$
+
+# Common mistakes
+| Wrong | Right |
+| $(5m + 6n)^2 = 25m^2 + 36n^2$ | $25m^2 + 60mn + 36n^2$ |
+| $2(x - 1) + 3(x + 4) = 2x - 1 + 3x + 4$ | $2x - 2 + 3x + 12 = 5x + 10$ |
+| $-3p(-5p + 2q) = -3p + 5p - 2q$ | $15p^2 - 6pq$ |
+| $(a + 2)(b + 4) = ab + 8$ | $ab + 4a + 2b + 8$ |
+| $5w^2 + 6w = 11w^2$ | Unlike terms; cannot be combined |
+| $3a(2b \times 3c) = 6ab \times 9ac$ | $18abc$ (no distribution over multiplication) |
+| $y + 2(y + 2) = (y + 2)^2$ | $y + 2y + 4 = 3y + 4$ |
+
+@@formulas
+Distributive property | $a(b + c) = ab + ac$
+Product of two brackets | $(a + m)(b + n) = ab + an + mb + mn$
+Square of a sum | $(a + b)^2 = a^2 + 2ab + b^2$
+Square of a difference | $(a - b)^2 = a^2 - 2ab + b^2$
+Difference of squares | $(a + b)(a - b) = a^2 - b^2$
+Sum of the two squares | $(a + b)^2 + (a - b)^2 = 2(a^2 + b^2)$
+Difference of the two squares | $(a + b)^2 - (a - b)^2 = 4ab$
+Śrīdharācārya's square | $a^2 = (a + b)(a - b) + b^2$
+Cube of a sum | $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
+Difference of cubes | $(a - b)(a^2 + ab + b^2) = a^3 - b^3$
+Both numbers increased by 1 | $(a + 1)(b + 1) = ab + a + b + 1$
+Multiplying by 11 | $N \times 11 = 10N + N$
+Multiplying by 99 | $N \times 99 = 100N - N$
+Consecutive numbers | $n^2 - (n - 1)(n + 1) = 1$
+
+@@dpp
+Q: Expand $(3 + u)(v - 3)$.
+A: $3v - 9 + uv - 3u$
+Q: Expand $(2p - 5)(3p + 4)$.
+A: $6p^2 - 7p - 20$
+Q: Find $4791 \times 11$ in one line.
+A: 52701
+Q: Find $46^2$ using $(a + b)^2$ and $91^2$ using $(a - b)^2$.
+A: $1600 + 480 + 36 = 2116$; $10000 - 1800 + 81 = 8281$
+Q: Find $397 \times 403$ using an identity.
+A: $400^2 - 3^2 = 159991$
+Q: Expand $(6x + 5y)^2$ and $\left(2x - \dfrac{1}{2}\right)^2$.
+A: $36x^2 + 60xy + 25y^2$; $4x^2 - 2x + \dfrac{1}{4}$
+Q: Expand $(3a - 9b)(3a + 9b)$.
+A: $9a^2 - 81b^2$
+Q: Which is larger, $14 \times 26$ or $16 \times 24$, and by how much?
+A: $16 \times 24$, by 20 ($20^2 - 4^2 = 384$ against $20^2 - 6^2 = 364$)
+Q: Find $145^2$ using $a^2 = (a + b)(a - b) + b^2$.
+A: $150 \times 140 + 25 = 21025$
+Q: Simplify $(k + 1)(k + 2) - (k + 3)$. Is it always 2?
+A: $k^2 + 2k - 1$; no, it depends on $k$

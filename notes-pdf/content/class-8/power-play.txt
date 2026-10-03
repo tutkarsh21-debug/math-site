@@ -1,0 +1,165 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 2
+@title Power Play
+@summary Exponents are a short way of writing repeated multiplication. This chapter covers the laws of exponents, zero and negative exponents, powers of 10, scientific notation, and how fast exponential growth is.
+
+# Exponential notation
+- $n^a$ means $n$ multiplied by itself $a$ times. Here $n$ is the **base** and $a$ is the **exponent** (or power).
+- $5^4 = 5 \times 5 \times 5 \times 5 = 625$ is read "5 raised to the power 4" or "the 4th power of 5".
+- Do not confuse $4 + 4 + 4 = 3 \times 4 = 12$ with $4 \times 4 \times 4 = 4^3 = 64$.
+- With letters: $a \times a \times a \times b \times b = a^3b^2$.
+- **Negative bases**: an even power is positive and an odd power is negative. $(-2)^4 = 16$, $(-4)^3 = -64$, $(-1)^{56} = 1$, $(-1)^5 = -1$.
+- $0^n = 0$ for every counting number $n$.
+?eg Write 7200 as a product of powers of its prime factors.
+= $7200 = 72 \times 100 = (2^3 \times 3^2) \times (2^2 \times 5^2)$
+=> $7200 = 2^5 \times 3^2 \times 5^2$
+?eg Find the value of $(-3)^3 \times (-2)^4$.
+= $(-3)^3 = -27$ and $(-2)^4 = 16$
+=> $-432$
+
+# Exponential growth
+- When a quantity is **multiplied** by the same number at every step, it grows exponentially. This is far faster than adding the same amount each time.
+- A sheet of paper 0.001 cm thick doubles in thickness with each fold. After $k$ folds it is $0.001 \times 2^k$ cm thick.
+| Folds | 10 | 20 | 30 | 46 |
+| Thickness (about) | 1.02 cm | 10.5 m | 10.7 km | more than 7,00,000 km |
+- Every 10 extra folds multiply the thickness by $2^{10} = 1024$. After 46 folds the stack would reach beyond the Moon.
+- **Linear growth is additive; exponential growth is multiplicative.** A ladder to the Moon (3,84,400 km) with steps 20 cm apart needs about 192 crore steps, but the paper needs only 46 doublings.
+?eg The number of lotuses in a pond doubles every day. The pond is full on day 30. On which day is it half full?
+= Since the number doubles each day, the day before the pond is full it is half full.
+=> Day 29
+
+# Laws of exponents: same base
+- **Multiplying**: $n^a \times n^b = n^{a+b}$. Example: $3^4 \times 3^3 = 3^7$.
+- **Dividing**: $n^a \div n^b = n^{a-b}$, where $n \neq 0$. Example: $2^{100} \div 2^{25} = 2^{75}$.
+- **Power of a power**: $(n^a)^b = (n^b)^a = n^{ab}$. Example: $(4^3)^2 = 4^6$.
+?eg Compute $2^9$ using smaller powers.
+= $2^9 = 2^4 \times 2^5 = 16 \times 32$
+=> 512
+?eg Write $6^{12}$ as a power of a power in two different ways.
+= $12 = 3 \times 4 = 2 \times 6$
+=> $(6^3)^4$ and $(6^2)^6$ (others are possible)
+?eg Simplify $p^4 \times p^6 \div p^7$.
+= $p^{4 + 6 - 7}$
+=> $p^3$
+
+# Laws of exponents: same exponent
+- $m^a \times n^a = (mn)^a$. Example: $2^5 \times 5^5 = 10^5 = 1{,}00{,}000$.
+- $\dfrac{m^a}{n^a} = \left(\dfrac{m}{n}\right)^a$, where $n \neq 0$. Example: $\dfrac{10^4}{5^4} = 2^4 = 16$.
+?eg A doubling pond starts with 1 lotus. After 3 days all the lotuses are moved to a pond where the number triples every day. How many are there after 3 more days?
+= After 3 days: $2^3$. After 3 more days: $2^3 \times 3^3$.
+= $2^3 \times 3^3 = (2 \times 3)^3 = 6^3$
+=> 216
+?eg Are $2^4 \times 3^6$ and $6^4 \times 3^2$ equal?
+= $6^4 \times 3^2 = 2^4 \times 3^4 \times 3^2 = 2^4 \times 3^6$
+=> Yes
+
+# Counting combinations
+- If one choice can be made in $p$ ways and a second in $q$ ways, the two together can be made in $p \times q$ ways.
+- A code of $k$ places, each with $n$ possible symbols, can be made in $n^k$ ways.
+?eg A lock has 4 slots, each showing a digit from 0 to 9. How many codes are possible?
+= Each slot has 10 choices: $10 \times 10 \times 10 \times 10$
+=> $10^4 = 10{,}000$
+?eg A password has 3 places, each a capital letter A–Z or a digit 0–9. How many passwords are possible?
+= Each place has $26 + 10 = 36$ choices.
+=> $36^3 = 46{,}656$
+
+# Zero and negative exponents
+- $n^0 = 1$ for every $n \neq 0$, because $n^a \div n^a = n^{a - a} = n^0$ and any non-zero number divided by itself is 1.
+- $n^{-a} = \dfrac{1}{n^a}$ and $n^a = \dfrac{1}{n^{-a}}$, where $n \neq 0$. Examples: $2^{-1} = \dfrac{1}{2}$, $10^{-3} = \dfrac{1}{1000}$, $(-5)^{-3} = \dfrac{1}{(-5)^3} = -\dfrac{1}{125}$.
+- All the laws of exponents hold when the exponents are any integers.
+- $n$ cannot be 0 in these rules, because that would mean dividing by 0.
+?eg Simplify $3^2 \times 3^{-5} \times 3^6$.
+= $3^{2 - 5 + 6}$
+=> $3^3 = 27$
+?eg Simplify $2^4 \times (-4)^{-2}$.
+= $(-4)^{-2} = \dfrac{1}{(-4)^2} = \dfrac{1}{16}$, so the product is $16 \times \dfrac{1}{16}$.
+=> 1
+?eg How many times larger than $4^{-2}$ is $4^2$?
+= $4^2 \div 4^{-2} = 4^{2 - (-2)} = 4^4$
+=> 256 times
+
+# Powers of 10 and expanded form
+- Place values are powers of 10: $1000 = 10^3$, $100 = 10^2$, $10 = 10^1$, $1 = 10^0$, $\dfrac{1}{10} = 10^{-1}$, $\dfrac{1}{100} = 10^{-2}$.
+?eg Write 47.305 in expanded form using powers of 10.
+=> $(4 \times 10^1) + (7 \times 10^0) + (3 \times 10^{-1}) + (0 \times 10^{-2}) + (5 \times 10^{-3})$
+| Indian system | Power of 10 | International system | Power of 10 |
+| Lakh | $10^5$ | Million | $10^6$ |
+| Crore | $10^7$ | Billion | $10^9$ |
+| Arab | $10^9$ | Trillion | $10^{12}$ |
+| Kharab | $10^{11}$ | Quadrillion | $10^{15}$ |
+- $10^{100}$ is called a googol.
+
+# Scientific notation
+- In **scientific notation** (standard form) a number is written as $x \times 10^y$, where $1 \leq x < 10$ and $y$ is an integer.
+- $5900 = 5.9 \times 10^3$, $20800 = 2.08 \times 10^4$, $80{,}00{,}000 = 8 \times 10^6$.
+- The exponent tells the size of the number and matters most. Changing $2 \times 10^7$ to $3 \times 10^7$ adds one half; changing it to $2 \times 10^8$ makes it 10 times as large.
+- To compare numbers in scientific notation, compare the exponents first. If they are equal, compare the coefficients.
+- To multiply or divide, work with the coefficients and the powers of 10 separately, then adjust so that $1 \leq x < 10$.
+?eg Write 70,04,00,00,000 in scientific notation.
+= The decimal point moves 10 places to the left.
+=> $7.004 \times 10^{10}$
+?eg There are about $2 \times 10^{16}$ ants and $8 \times 10^9$ people in the world. About how many ants are there for each person?
+= $\dfrac{2 \times 10^{16}}{8 \times 10^9} = 0.25 \times 10^7$
+=> $2.5 \times 10^6$
+?eg A country has $4 \times 10^7$ households and each uses about 150 litres of water a day. Find the total daily use in scientific notation.
+= $4 \times 10^7 \times 1.5 \times 10^2 = 6 \times 10^9$
+=> $6 \times 10^9$ litres
+
+# Estimating with large numbers
+- For questions with no exact data: first **guess**, then write the relationship between the quantities, make **reasonable assumptions**, and calculate.
+- The aim is the right power of 10, not an exact figure. Different sensible assumptions give different but nearby answers.
+?eg Roughly how many seconds are there in a year? Write the answer in scientific notation.
+= $60 \times 60 \times 24 \times 365 = 3{,}15{,}36{,}000$
+=> About $3.15 \times 10^7$ seconds
+?eg How old is a person who has lived for $10^9$ seconds?
+= $10^9 \div (3.15 \times 10^7) \approx 31.7$
+=> About 31.7 years
+- $10^6$ seconds is under 12 days, but $10^9$ seconds is nearly 32 years. Three more powers of 10 make a huge difference.
+
+# Common mistakes
+- Reading $2^3$ as $2 \times 3$.
+- Adding exponents when the bases are different: $2^3 \times 3^2$ is **not** $6^5$.
+- Multiplying exponents in a product: $n^a \times n^b$ is $n^{a+b}$, while $(n^a)^b$ is $n^{ab}$.
+- Writing $n^0 = 0$. It is 1.
+- Thinking $2^{-3}$ is negative. It is $\dfrac{1}{8}$.
+- Writing $(-2)^4$ and $-2^4$ as the same. The first is 16, the second is $-16$.
+- Leaving a coefficient outside 1 to 10 in scientific notation, such as $25 \times 10^5$ instead of $2.5 \times 10^6$.
+
+@@formulas
+Meaning | $n^a = n \times n \times \ldots \times n$ ($a$ times)
+Product, same base | $n^a \times n^b = n^{a+b}$
+Quotient, same base | $n^a \div n^b = n^{a-b}$, $n \neq 0$
+Power of a power | $(n^a)^b = n^{ab}$
+Product, same exponent | $m^a \times n^a = (mn)^a$
+Quotient, same exponent | $m^a \div n^a = \left(\dfrac{m}{n}\right)^a$, $n \neq 0$
+Zero exponent | $n^0 = 1$, $n \neq 0$
+Negative exponent | $n^{-a} = \dfrac{1}{n^a}$, $n \neq 0$
+Negative base | Even power positive, odd power negative
+Codes | $k$ places with $n$ symbols each give $n^k$ codes
+Scientific notation | $x \times 10^y$ with $1 \leq x < 10$, $y$ an integer
+Lakh, crore, arab | $10^5$, $10^7$, $10^9$
+Million, billion, trillion | $10^6$, $10^9$, $10^{12}$
+
+@@dpp
+Q: Write in exponential form: $3 \times 3 \times 3 \times x \times x \times y$.
+A: $3^3x^2y$
+Q: Express 1080 as a product of powers of its prime factors.
+A: $2^3 \times 3^3 \times 5$
+Q: Find the value of $(-2)^5 \times (-1)^{20} \times 5^2$.
+A: $-800$
+Q: Simplify and write in exponential form: $7^8 \times 7^{-3} \div 7^2$.
+A: $7^3$
+Q: Simplify $(5^{-2})^{-3} \div 5^4$.
+A: $5^2 = 25$
+Q: Simplify $m^3n^5 \times (mn)^4$.
+A: $m^7n^9$
+Q: Which is greater: $2^{10}$ or $10^2$? $3^5$ or $5^3$?
+A: $2^{10} = 1024 > 100$; $3^5 = 243 > 125$
+Q: A number plate code has 2 capital letters followed by 3 digits. How many codes are possible?
+A: $26^2 \times 10^3 = 6{,}76{,}000$
+Q: Write in scientific notation: (i) 4,56,000 (ii) 90,30,00,000.
+A: (i) $4.56 \times 10^5$ (ii) $9.03 \times 10^8$
+Q: A factory makes $2.5 \times 10^4$ pens a day. How many does it make in 400 days? Answer in scientific notation.
+A: $2.5 \times 10^4 \times 4 \times 10^2 = 1 \times 10^7$

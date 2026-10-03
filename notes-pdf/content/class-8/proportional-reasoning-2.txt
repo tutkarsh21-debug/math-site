@@ -1,0 +1,166 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 2
+@chapter 3
+@title Proportional Reasoning – 2
+@summary Map scales, ratios with more than two terms, dividing a whole into several parts, pie charts, inverse proportion, and problems on work done together.
+
+# Recap of proportion
+- Two quantities are in **direct proportion** when they change by the same factor. Their quotient stays constant: $\dfrac{x_1}{y_1} = \dfrac{x_2}{y_2} = k$.
+- $a : b :: c : d$ exactly when $a \times d = b \times c$.
+- Rule of Three: if $a : b :: c : d$ then $d = \dfrac{bc}{a}$.
+?eg One cook mixes 6 cups of rice with 3 cups of dal, and another mixes 4 cups of rice with 2 cups of dal. Are the mixtures the same?
+= $6 \times 2 = 12$ and $3 \times 4 = 12$
+=> Yes, both are $2 : 1$
+
+# Ratios in maps
+- The **Representative Fraction (RF)** of a map is the ratio of a distance on the map to the actual distance on the ground, in the same unit.
+- RF $1 : 60{,}00{,}000$ means 1 cm on the map stands for 60,00,000 cm, which is 60 km.
+- Useful conversion: 1 km $= 1000$ m $= 1{,}00{,}000$ cm.
+- A map gives the straight-line distance, not the road distance.
+?eg A map has RF $1 : 25{,}00{,}000$. Two towns are 6.4 cm apart on the map. Find the actual distance.
+= 1 cm stands for 25,00,000 cm $= 25$ km.
+= $6.4 \times 25$
+=> 160 km
+?eg A classroom 8 m long is drawn to the scale $1 : 50$. How long is it in the drawing?
+= $800 \text{ cm} \div 50$
+=> 16 cm
+
+# Ratios with more than two terms
+- A ratio $a : b : c : d$ says that for every $a$ units of the first quantity there are $b$ of the second, $c$ of the third and $d$ of the fourth.
+- Two such ratios are proportional, $a : b : c : d :: p : q : r : s$, when $\dfrac{a}{p} = \dfrac{b}{q} = \dfrac{c}{r} = \dfrac{d}{s}$.
+- Simplest form: divide every term by the HCF of all the terms.
+- If one term is known, find the value of **one part** and multiply.
+?eg A spice mix uses coriander, chillies, dal and fenugreek in the ratio $8 : 4 : 2 : 1$. If only 2 chillies are available, how much of each of the others is needed?
+= Chillies drop from 4 to 2, a factor of $\dfrac{1}{2}$. Apply it to every term.
+=> 4 spoons of coriander, 1 spoon of dal and half a spoon of fenugreek
+?eg Red, blue and white paint are mixed in the ratio $2 : 3 : 5$. With 10 litres of white, how much red and blue are needed, and how much paint is made?
+= 5 parts $= 10$ litres, so 1 part $= 2$ litres.
+=> 4 litres of red and 6 litres of blue; 20 litres in all
+?eg A library has Odia, Hindi and English books in the ratio $3 : 2 : 1$. There are 288 Odia books. Find the others.
+= 3 parts $= 288$, so 1 part $= 96$.
+=> 192 Hindi books and 96 English books
+
+# Dividing a whole in a given ratio
+- To divide $x$ in the ratio $a : b : c : \ldots$, the parts are
+$$\frac{a}{a + b + c + \ldots} \times x, \quad \frac{b}{a + b + c + \ldots} \times x, \quad \frac{c}{a + b + c + \ldots} \times x, \ \ldots$$
+?eg Concrete is made from cement, sand and gravel in the ratio $1 : 1.5 : 3$. How much of each is needed for 110 units of concrete?
+= Total parts $= 5.5$, and $110 \div 5.5 = 20$.
+=> 20 units of cement, 30 of sand and 60 of gravel
+?eg The angles of a triangle are in the ratio $1 : 3 : 5$. Find them.
+= The sum is $180^\circ$ and there are 9 parts, so one part is $20^\circ$.
+=> $20^\circ$, $60^\circ$, $100^\circ$
+?eg A 150-minute practice session is split among warm-up, batting, bowling and fielding in the ratio $3 : 4 : 3 : 5$. Find the time for each.
+= Total parts $= 15$; one part $= 10$ minutes.
+=> 30, 40, 30 and 50 minutes
+?eg There are 100 coins of ₹10, ₹5, ₹2 and ₹1 in the ratio $4 : 3 : 2 : 1$. Find the total value.
+= The numbers of coins are 40, 30, 20 and 10.
+= Value $= 400 + 150 + 40 + 10$
+=> ₹600
+?eg Can a triangle have sides in the ratio $1 : 3 : 5$?
+= The sides would be $k$, $3k$, $5k$, and $k + 3k = 4k$ is less than $5k$.
+=> No. The sum of two sides must be greater than the third.
+
+# Pie charts
+- A **pie chart** shows how a whole is divided into parts. Each part is a sector (slice) of a circle.
+- The angle of a sector is proportional to the quantity it stands for. The angles add up to $360^\circ$.
+$$\text{Angle of a sector} = \frac{\text{value of the part}}{\text{total value}} \times 360^\circ$$
+- If the data are percentages: angle $=$ percentage $\times\ 3.6^\circ$.
+- **To draw**: draw a circle and one radius; measure the first angle from it and draw the next radius; continue from each new radius; label the sectors.
+| Grade | A | B | C | D | E | Total |
+| Students | 12 | 10 | 8 | 6 | 4 | 40 |
+| Angle | $108^\circ$ | $90^\circ$ | $72^\circ$ | $54^\circ$ | $36^\circ$ | $360^\circ$ |
+!fig w=320 h=205; Q O 160 100; Q p0 230 100; Q p1 138.4 33.4; Q p2 93.4 121.6; Q p3 160 170; Q p4 216.6 141.1; C O 70; L O p0; L O p1; L O p2; L O p3; L O p4; T 185 68 A; T 123 84 B; T 135 138 C; T 179 142 D; T 204 118 E; cap Pie chart of grades: each student is 9°
+?eg 360 people chose a favourite season: 90 summer, 120 rainy and the rest winter. Find the angles for a pie chart.
+= Winter $= 360 - 210 = 150$ people. Here each person is $1^\circ$.
+=> Summer $90^\circ$, rainy $120^\circ$, winter $150^\circ$
+?eg Favourite TV channels: entertainment 50%, sports 25%, news 15%, information 10%. Find the angles.
+= Multiply each percentage by $3.6^\circ$.
+=> $180^\circ$, $90^\circ$, $54^\circ$, $36^\circ$
+?eg In a pie chart the sector for "car" has an angle of $60^\circ$ and stands for 18 children. How many children were surveyed? How many does a $90^\circ$ sector stand for?
+= $60^\circ$ is $\dfrac{1}{6}$ of the circle, so the total is $18 \times 6 = 108$.
+= $90^\circ$ is $\dfrac{1}{4}$ of 108.
+=> 108 children; 27 children
+
+# Inverse proportion
+- Two quantities are in **inverse proportion** when one is multiplied by a factor $n$ and the other is multiplied by $\dfrac{1}{n}$. Their **product stays constant**: $xy = k$.
+- If $(x_1, y_1)$ and $(x_2, y_2)$ are two pairs of values, then $x_1y_1 = x_2y_2$, and so $\dfrac{x_1}{x_2} = \dfrac{y_2}{y_1}$.
+| Speed (km/h) | 5 | 15 | 30 | 60 |
+| Time (hours) | 18 | 6 | 3 | 1.5 |
+| Speed $\times$ time | 90 | 90 | 90 | 90 |
+- Examples: speed and time for a fixed distance; number of workers and days for a fixed job; number of pumps and time to fill a tank; number of people and days a stock of food lasts.
+- **Direct or inverse?** Ask: if one quantity doubles, does the other double (direct) or halve (inverse)?
+- These problems assume that every worker, pump or machine works at the same steady rate.
+?eg Are $x$ and $y$ in inverse proportion? $x$: 40, 80, 25, 16 and $y$: 20, 10, 32, 50.
+= The products are $800, 800, 800, 800$.
+=> Yes
+?eg 20 workers lay a road in 4 days. How long will 10 workers take?
+= $20 \times 4 = 10 \times d$
+=> 8 days
+?eg 2 pumps fill a tank in 18 hours. How long do 4 pumps take?
+= $2 \times 18 = 4 \times t$
+=> 9 hours
+?eg Food for 80 students lasts 15 days. If 20 more students join, how long will it last?
+= $80 \times 15 = 100 \times d$
+=> 12 days
+?eg 42 machines make a batch of toys in 63 days. How many machines are needed to make it in 54 days?
+= $42 \times 63 = m \times 54$
+=> 49 machines
+?eg A car takes 2 hours at 60 km/h. How long does it take at 80 km/h?
+= $60 \times 2 = 80 \times t$
+=> 1.5 hours
+
+# Working together
+- Take the whole job as **1 unit of work**. If a person finishes it in $t$ hours, the work done in 1 hour is $\dfrac{1}{t}$.
+- Add the rates of all the workers to get the work done together in 1 hour. The time taken together is the reciprocal of that sum.
+- If two workers take $a$ and $b$ hours alone, together they take $\dfrac{ab}{a + b}$ hours.
+?eg Ram cuts a basket of vegetables in 1 hour and Shyam takes 1.5 hours. How long do they take together?
+= Rates: 1 and $\dfrac{1}{1.5} = \dfrac{2}{3}$ of the job per hour. Together: $\dfrac{5}{3}$ per hour.
+=> $\dfrac{3}{5}$ hour, that is 36 minutes
+?eg A small pump fills a tank in 3 hours and a large pump in 2 hours. How long do both take together?
+= Rates: $\dfrac{1}{3} + \dfrac{1}{2} = \dfrac{5}{6}$ of the tank per hour
+=> $\dfrac{6}{5}$ hours, that is 1 hour 12 minutes
+
+# Common mistakes
+- Using the Rule of Three for an inverse proportion. More workers mean **fewer** days.
+- Treating every "more means more" situation as a proportion. Check that the factor is the same.
+- Forgetting to change centimetres to kilometres when reading a map.
+- Dividing by the number of terms instead of the **sum** of the terms when sharing in a ratio.
+- Drawing pie-chart angles that do not add up to $360^\circ$.
+- Adding the times when two people work together. Add the **rates**.
+
+@@formulas
+Direct proportion | $\dfrac{x}{y} = k$ (constant quotient)
+Inverse proportion | $xy = k$ (constant product)
+Inverse proportion, two pairs | $x_1y_1 = x_2y_2$
+Representative Fraction | Map distance : actual distance, in the same unit
+1 km in cm | $1{,}00{,}000$ cm
+Multi-term proportion | $\dfrac{a}{p} = \dfrac{b}{q} = \dfrac{c}{r}$
+Part of $x$ in ratio $a : b : c$ | $\dfrac{a}{a + b + c} \times x$
+Angle of a pie-chart sector | $\dfrac{\text{part}}{\text{total}} \times 360^\circ$
+Percentage to angle | Percentage $\times\ 3.6^\circ$
+Rate of work | $\dfrac{1}{\text{time to finish alone}}$
+Time working together | $\dfrac{ab}{a + b}$
+Workers and days | Workers $\times$ days $=$ constant
+
+@@dpp
+Q: A map has RF $1 : 40{,}00{,}000$. Two cities are 3.5 cm apart. Find the actual distance.
+A: 140 km
+Q: Three numbers are in the ratio $2 : 3 : 7$ and the smallest is 18. Find the others.
+A: 27 and 63
+Q: Divide 180 in the ratio $2 : 3 : 4$.
+A: 40, 60 and 80
+Q: The sides of a triangle are in the ratio $3 : 4 : 5$ and its perimeter is 60 cm. Find the sides.
+A: 15 cm, 20 cm and 25 cm
+Q: In a class of 40, 16 like cricket, 14 football and 10 kabaddi. Find the pie-chart angles.
+A: $144^\circ$, $126^\circ$ and $90^\circ$
+Q: A pie-chart sector of $72^\circ$ stands for 50 people. How many people does the whole chart stand for?
+A: 250
+Q: $x$ and $y$ are in inverse proportion, and $y = 9$ when $x = 16$. Find $y$ when $x = 12$ and when $x = 48$.
+A: 12 and 3
+Q: 3 workers paint a fence in 4 days. How long will 4 workers take?
+A: 3 days
+Q: Chairs are arranged in 25 rows of 12. How many rows are needed with 20 chairs in a row?
+A: 15 rows
+Q: Tap A fills a tank in 4 hours and tap B in 6 hours. How long do they take together?
+A: 2.4 hours (2 hours 24 minutes)

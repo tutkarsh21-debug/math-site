@@ -1,0 +1,202 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 1
+@chapter 5
+@title Number Play
+@summary Parity, multiples and remainders studied with algebra; why the divisibility tests for 3, 9 and 11 work; digital roots; and cryptarithms.
+
+# Parity
+- Even numbers have the form $2n$ and odd numbers the form $2n + 1$. Negative numbers such as $-4$ are also even.
+- even $\pm$ even $=$ even; odd $\pm$ odd $=$ even; even $\pm$ odd $=$ odd.
+- $a + b$ and $a - b$ always have the **same parity**, because they differ by $2b$.
+- So for any numbers $a, b, c, d$, all the expressions $a \pm b \pm c \pm d$ have the same parity. Changing one sign changes the value by an even number.
+- For four **consecutive** numbers, $a \pm b \pm c \pm d$ is always even, because two of the numbers are odd and two are even.
+- An expression is always even if 2 can be taken out as a factor: $4m + 2q = 2(2m + q)$.
+?eg Which of these are even for all integer values of the letters: $6m - 4n$, $3g + 5h$, $x^2 + 2$, $13k - 5k$?
+= $6m - 4n = 2(3m - 2n)$: always even.
+= $3g + 5h$: odd when $g = 1, h = 0$, so not always even.
+= $x^2 + 2$: odd when $x$ is odd.
+= $13k - 5k = 8k$: always even.
+=> $6m - 4n$ and $13k - 5k$
+?eg Place $+$ or $-$ signs between 5, 6, 7, 8. Can the result be 3?
+= $5 + 6 + 7 + 8 = 26$ is even, and every other choice of signs has the same parity.
+=> No. Every result is even.
+
+# Sums of consecutive numbers
+- Every odd number is a sum of two consecutive numbers: $2n + 1 = n + (n + 1)$.
+- The sum of three consecutive numbers is 3 times the middle one: $(n - 1) + n + (n + 1) = 3n$.
+- The sum of four consecutive numbers is $4n + 6$, which is even but never a multiple of 4.
+?eg The sum of four consecutive numbers is 58. Find them.
+= $n + (n + 1) + (n + 2) + (n + 3) = 4n + 6 = 58$, so $n = 13$
+=> 13, 14, 15, 16
+?eg The greatest of five consecutive numbers is $p$. Write their sum.
+= The numbers are $p - 4, p - 3, p - 2, p - 1, p$.
+=> $5p - 10$
+
+# Even numbers and multiples of 4
+- An even number is either a multiple of 4 (form $4p$) or 2 more than a multiple of 4 (form $4p + 2$).
+| Numbers added | Sum | Multiple of 4? |
+| $4p$ and $4q$ | $4(p + q)$ | Yes |
+| $4p + 2$ and $4q + 2$ | $4(p + q + 1)$ | Yes |
+| $4p$ and $4q + 2$ | $4(p + q) + 2$ | No |
+- This is just like parity: two of the same kind give a multiple of 4, two of different kinds do not.
+
+# Properties of divisibility
+- If $a$ divides $M$ and $a$ divides $N$, then $a$ divides $M + N$ and $M - N$.
+- If $A$ is divisible by $k$, then every multiple of $A$ is divisible by $k$.
+- If $A$ is divisible by $k$, then $A$ is divisible by every factor of $k$.
+- If $A$ is divisible by $k$ and by $m$, then $A$ is divisible by the **LCM** of $k$ and $m$ (not always by $k \times m$).
+- The reverse statements can fail: a multiple of 8 can be a sum of two numbers that are not multiples of 8 ($72 = 50 + 22$); a multiple of 7 need not be a multiple of 28.
+?eg Always, sometimes or never true: "If a number is divisible by both 6 and 4, it is divisible by 24."
+= The LCM of 6 and 4 is 12. So the number is certainly divisible by 12.
+= 12 is divisible by 6 and 4 but not by 24. 48 is divisible by all three.
+=> Sometimes true
+?eg Always, sometimes or never true: "The sum of a multiple of 6 and a multiple of 9 is a multiple of 3."
+= $6x + 9y = 3(2x + 3y)$
+=> Always true
+?eg Always, sometimes or never true: "An odd number plus an even number is a multiple of 6."
+= The sum is odd, but every multiple of 6 is even.
+=> Never true
+
+# Remainders
+- Numbers that leave remainder $r$ on division by $n$ have the form $nk + r$. Those leaving remainder 3 on division by 5 are $5k + 3$: $3, 8, 13, 18, \ldots$ The same numbers can be written $5k - 2$ with $k \geq 1$.
+- **Remainders can be added, subtracted and multiplied.** If two numbers leave remainders $r$ and $s$ on division by $n$, their sum, difference and product leave the same remainders as $r + s$, $r - s$ and $rs$ (reduced by multiples of $n$).
+- If a number leaves the same remainder $r$ with several divisors, it has the form (LCM of the divisors) $\times k + r$.
+?eg On division by 7, the number 661 leaves remainder 3 and 4779 leaves remainder 5. Find the remainders of $4779 + 661$ and $4779 - 661$.
+= Write $4779 = 7p + 5$ and $661 = 7q + 3$.
+= Sum $= 7(p + q) + 8 = 7(p + q + 1) + 1$. Difference $= 7(p - q) + 2$.
+=> Remainders 1 and 2
+?eg Find the smallest number that leaves remainder 2 on division by 3, remainder 3 on division by 4 and remainder 4 on division by 5.
+= Each remainder is 1 less than the divisor, so the number is 1 less than a common multiple of 3, 4 and 5.
+= LCM$(3, 4, 5) = 60$
+=> 59
+?eg Describe all numbers that leave remainder 2 on division by 3 and also on division by 4.
+= Such a number is 2 more than a common multiple of 3 and 4.
+=> $12n + 2$: 2, 14, 26, 38, ...
+
+# Divisibility by 2, 4, 5, 8 and 10
+- A number $\ldots dcba$ equals $\ldots + 1000d + 100c + 10b + a$. Every place value except the units is a multiple of 10 (and so of 2 and 5).
+| Divisor | Test |
+| 10 | Units digit is 0 |
+| 5 | Units digit is 0 or 5 |
+| 2 | Units digit is even |
+| 4 | Number formed by the last two digits is divisible by 4 (since 100 is a multiple of 4) |
+| 8 | Number formed by the last three digits is divisible by 8 (since 1000 is a multiple of 8) |
+
+# Divisibility by 9 and 3
+- Each power of 10 is 1 more than a multiple of 9: $10 = 9 + 1$, $100 = 99 + 1$, $1000 = 999 + 1$.
+- So a number and the **sum of its digits** leave the same remainder on division by 9 (and by 3).
+- **A number is divisible by 9 exactly when its digit sum is divisible by 9, and by 3 exactly when its digit sum is divisible by 3.**
+- Rearranging the digits does not change the digit sum, so it does not change divisibility by 9 or 3.
+?eg Find the remainder when 7309 is divided by 9.
+= $7 + 3 + 0 + 9 = 19$, then $1 + 9 = 10$, then $1 + 0 = 1$
+=> 1
+?eg $31z5$ is a multiple of 9. Find the digit $z$.
+= Digit sum $= 9 + z$ must be a multiple of 9.
+=> $z = 0$ or $z = 9$
+?eg How many multiples of 9 lie between 4300 and 4400?
+= The first is 4302 (digit sum 9) and the last is 4392 (digit sum 18).
+= $\dfrac{4392 - 4302}{9} + 1$
+=> 11
+
+# Divisibility by 11
+- Place values are alternately 1 more and 1 less than a multiple of 11: $1 = 0 + 1$, $10 = 11 - 1$, $100 = 99 + 1$, $1000 = 1001 - 1$.
+- **Test**: starting from the units digit, put alternate $+$ and $-$ signs before the digits and add. The result has the same remainder as the number on division by 11. The number is divisible by 11 exactly when the result is 0 or a multiple of 11.
+- If the result is negative, add 11 to get the remainder.
+?eg Is 90904 divisible by 11?
+= From the units digit: $4 - 0 + 9 - 0 + 9 = 22$
+=> Yes, since 22 is a multiple of 11
+?eg Find the remainder when 5529 is divided by 11.
+= $9 - 2 + 5 - 5 = 7$
+=> 7
+?eg Find the remainder when 328105 is divided by 11.
+= $5 - 0 + 1 - 8 + 2 - 3 = -3$, and $-3 + 11 = 8$
+=> 8
+
+# Divisibility by other numbers
+- To test divisibility by a product, use factors that have **no common factor**: 6 uses 2 and 3; 12 uses 3 and 4; 15 uses 3 and 5; 18 uses 2 and 9; 24 uses 3 and 8; 36 uses 4 and 9; 44 uses 4 and 11.
+- Testing 24 with 4 and 6 fails, because the LCM of 4 and 6 is only 12. The number 12 passes both tests but is not divisible by 24.
+?eg $48a23b$ is a multiple of 18. Find all pairs of digits $(a, b)$.
+= Divisible by 2: $b$ is 0, 2, 4, 6 or 8.
+= Divisible by 9: $17 + a + b$ is a multiple of 9, so $a + b = 1$ or $a + b = 10$.
+=> $(1, 0), (8, 2), (6, 4), (4, 6), (2, 8)$
+?eg $3p7q8$ is divisible by 44. Find all pairs $(p, q)$.
+= Divisible by 4: $q8$ is a multiple of 4, so $q$ is 0, 2, 4, 6 or 8.
+= Divisible by 11: $(8 + 7 + 3) - (p + q) = 18 - (p + q)$ is 0 or 11. Since $p + q = 18$ needs $q = 9$, we get $p + q = 7$.
+=> $(7, 0), (5, 2), (3, 4), (1, 6)$
+
+# Digital roots
+- Add the digits of a number, then the digits of the result, and so on until one digit is left. That digit is the **digital root**.
+- The digital root is the remainder on division by 9, except that multiples of 9 have digital root 9.
+- Digital roots of consecutive numbers run $1, 2, \ldots, 9, 1, 2, \ldots$ Adding 9 to a number does not change its digital root.
+- Digital roots can check calculations: the digital root of a sum (or product) equals the digital root of the sum (or product) of the digital roots. This check was described by Āryabhaṭa II (about 950 CE).
+?eg Find the digital root of 489710.
+= $4 + 8 + 9 + 7 + 1 + 0 = 29$, $2 + 9 = 11$, $1 + 1 = 2$
+=> 2
+?eg What is the digital root of $9a + 36b + 13$?
+= $9a + 36b + 13 = 9(a + 4b + 1) + 4$
+=> 4
+?eg Check $234 \times 56 = 13104$ using digital roots.
+= Digital roots: 234 gives 9, 56 gives 2. Product of roots $= 18$, digital root 9.
+= 13104 has digit sum 9.
+=> The roots agree, so the answer passes the check.
+
+# Cryptarithms
+- In a cryptarithm each letter stands for one digit, different letters stand for different digits, and a number never starts with 0.
+- Useful clues: the units digits, carries, the number of digits in the answer, and parity.
+?eg Solve AB $+$ 37 $=$ 6A.
+= Units: $B + 7$ ends in A. Tens: $A + 3$ plus any carry is 6, so $A = 3$ with no carry or $A = 2$ with a carry.
+= If $A = 3$, $B + 7$ ends in 3 gives $B = 6$, which produces a carry: not allowed. If $A = 2$, $B + 7 = 12$ gives $B = 5$.
+=> $25 + 37 = 62$
+?eg Solve PQ $\times$ 8 $=$ RS.
+= The product has two digits, so PQ is at most 12. PQ $= 10$ gives 80 (repeats 0), PQ $= 11$ repeats a digit.
+=> $12 \times 8 = 96$
+?eg Solve JK $\times$ 6 $=$ KKK.
+= KKK $= 111 \times$ K $= 37 \times 3 \times$ K, so JK $\times 2 = 37 \times$ K. K must be even.
+= K $= 2$ gives JK $= 37$ (units digit not 2). K $= 4$ gives JK $= 74$.
+=> $74 \times 6 = 444$
+
+# Common mistakes
+- Saying "divisible by 4 and 6 means divisible by 24". Use the LCM, which is 12.
+- Adding digits to test divisibility by 11. That test uses **alternating** signs.
+- Using the units digit to test divisibility by 3 or 9.
+- Giving digital root 0 for a multiple of 9. It is 9.
+- Deciding a statement is always true from a few examples. Use algebra, or find one counter-example.
+
+@@formulas
+Even and odd | $2n$ and $2n + 1$
+Parity of $a + b$ and $a - b$ | Always the same
+Three consecutive numbers | Sum $= 3 \times$ middle number
+Four consecutive numbers | Sum $= 4n + 6$
+Remainder form | Remainder $r$ on division by $n$: $nk + r$
+Sum and difference | If $a$ divides $M$ and $N$, then $a$ divides $M \pm N$
+Two divisors | Divisible by $k$ and $m$ means divisible by LCM$(k, m)$
+Test for 3 and 9 | Digit sum divisible by 3 or 9
+Test for 4 | Last two digits divisible by 4
+Test for 8 | Last three digits divisible by 8
+Test for 11 | Alternating sum of digits is 0 or a multiple of 11
+Test for 6, 12, 18, 24, 36 | Use 2 and 3; 3 and 4; 2 and 9; 3 and 8; 4 and 9
+Digital root | Remainder on division by 9 (9 for multiples of 9)
+Product of consecutive integers | Two: multiple of 2. Three: multiple of 6. Four: multiple of 24.
+
+@@dpp
+Q: Is $8a - 6b + 4$ always even for integers $a$ and $b$? Give a reason.
+A: Yes; it equals $2(4a - 3b + 2)$
+Q: The sum of three consecutive numbers is 96. Find them.
+A: 31, 32, 33
+Q: Write an expression for all numbers that leave remainder 4 on division by 7, and list the first four.
+A: $7k + 4$: 4, 11, 18, 25
+Q: Two numbers leave remainders 5 and 6 on division by 8. What remainder does their sum leave? Their product?
+A: Sum: 3. Product: 6.
+Q: Without dividing, find the remainder when 86435 is divided by 9.
+A: Digit sum 26, then 8; remainder 8
+Q: Test 72952 for divisibility by 11.
+A: $2 - 5 + 9 - 2 + 7 = 11$, so it is divisible by 11
+Q: $5x28$ is divisible by 12. Find the digit $x$.
+A: 28 is divisible by 4; $15 + x$ must be a multiple of 3, so $x = 0, 3, 6$ or $9$
+Q: Find the digital roots of 9875 and of $9875 + 18$.
+A: 2 and 2
+Q: Always, sometimes or never true: "If a number is divisible by 9 and 6, it is divisible by 54."
+A: Sometimes true (18 is not; 54 is). It is always divisible by 18.
+Q: Solve the cryptarithm ON $+$ ON $+$ ON $=$ PO.
+A: $31 + 31 + 31 = 93$

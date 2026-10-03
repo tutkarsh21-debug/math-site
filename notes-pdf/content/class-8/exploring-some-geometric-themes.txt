@@ -1,0 +1,179 @@
+@class Class 8
+@board CBSE
+@book Ganita Prakash Part 2
+@chapter 4
+@title Exploring Some Geometric Themes
+@summary Two themes in geometry: fractals, which repeat the same pattern at smaller and smaller scales, and ways of visualising solids through nets, shortest paths, projections (front, top and side views) and isometric drawings.
+
+# Fractals
+- A **fractal** is a self-similar shape: it shows the same pattern again and again at smaller and smaller scales.
+- In nature: ferns, trees, clouds, coastlines, mountains and lightning.
+- In art and architecture: the towers of temples such as the Kandariya Mahadev Temple at Khajuraho (about 1025 CE), patterns on Fulani wedding blankets of Nigeria, and prints by the artist M. C. Escher.
+- A mathematical fractal is the result of repeating one geometric step for ever. Each stage of the repetition is called a **step**: Step 0, Step 1, Step 2, and so on.
+
+# Sierpinski Carpet
+- **Rule**: divide a square into 9 equal smaller squares and remove the central one. Repeat on each of the 8 squares that remain.
+- Let $R_n$ be the number of squares remaining and $H_n$ the number of holes at Step $n$.
+- Each remaining square produces 8 new squares: $R_{n+1} = 8R_n$, so $R_n = 8^n$.
+- Each remaining square also produces one new hole: $H_{n+1} = H_n + R_n$, so $H_n = 1 + 8 + 8^2 + \ldots + 8^{n-1}$.
+- Each step keeps $\dfrac{8}{9}$ of the area. Starting from area 1, the area at Step $n$ is $\left(\dfrac{8}{9}\right)^n$.
+| Step | 0 | 1 | 2 | 3 |
+| Squares remaining | 1 | 8 | 64 | 512 |
+| Holes | 0 | 1 | 9 | 73 |
+| Area remaining | 1 | $\dfrac{8}{9}$ | $\dfrac{64}{81}$ | $\dfrac{512}{729}$ |
+
+# Sierpinski Triangle
+- **Rule**: join the mid-points of the sides of an equilateral triangle to get 4 congruent equilateral triangles, and remove the central one. Repeat on each of the 3 triangles that remain. It is also called the Sierpinski Gasket.
+!fig w=270 h=185; Q A 60 155; Q B 210 155; Q C 135 25; Q D 135 155; Q E 172.5 90; Q F 97.5 90; F A D F; F D B E; F F E C; L A B; L B C; L C A; L D E; L E F; L F D; cap Step 1: the middle triangle is removed, three remain
+- Triangles remaining at Step $n$: $3^n$. Holes: $1 + 3 + 3^2 + \ldots + 3^{n-1}$. Area remaining: $\left(\dfrac{3}{4}\right)^n$ of the original.
+- Why the four triangles are congruent: each corner triangle has two sides equal to half a side with a $60^\circ$ angle between them, so it is equilateral with side half the original. The middle triangle then also has three sides of that length.
+?eg How many triangles remain, and how many holes are there, at Step 4 of the Sierpinski Triangle?
+= Triangles: $3^4 = 81$. Holes: $1 + 3 + 9 + 27 = 40$.
+=> 81 triangles and 40 holes
+?eg What fraction of the original area remains at Step 3 of the Sierpinski Triangle?
+= $\left(\dfrac{3}{4}\right)^3$
+=> $\dfrac{27}{64}$
+
+# Koch Snowflake
+- **Rule**: start with an equilateral triangle. Divide each side into 3 equal parts, raise an equilateral triangle on the middle part and remove that middle part. Repeat on every side of the new shape. (Described by Helge von Koch in 1904.)
+- Each side is replaced by 4 sides, each one-third as long.
+- Number of sides at Step $n$: $3 \times 4^n$. Length of each side (starting from 1): $\dfrac{1}{3^n}$.
+- Perimeter at Step $n$: $3 \times \left(\dfrac{4}{3}\right)^n$. The perimeter keeps growing without limit, although the shape stays inside a fixed region.
+?eg Find the number of sides and the perimeter of the Koch Snowflake at Step 2, starting from a triangle of side 1 unit.
+= Sides: $3 \times 4^2 = 48$, each of length $\dfrac{1}{9}$.
+=> 48 sides; perimeter $\dfrac{48}{9} = 5\tfrac{1}{3}$ units
+
+# Solids: faces, edges, vertices
+- **Faces** are the flat surfaces of a solid. **Edges** are the line segments where faces meet. **Vertices** are the points where edges meet. A cuboid has 6 faces, 12 edges and 8 vertices.
+- A **prism** has two congruent polygons as opposite faces, joined by parallelograms. It is named after the polygon: triangular prism, pentagonal prism, and so on.
+- A **pyramid** has a polygon as base and a point (apex) joined to every vertex of the base. A triangular pyramid is a **tetrahedron**.
+- An **octahedron** is two square pyramids joined at their bases: 8 triangular faces. A **dodecahedron** has 12 pentagonal faces.
+| Solid | Faces | Edges | Vertices |
+| Prism on an $n$-sided polygon | $n + 2$ | $3n$ | $2n$ |
+| Pyramid on an $n$-sided polygon | $n + 1$ | $2n$ | $n + 1$ |
+| Cube or cuboid | 6 | 12 | 8 |
+| Tetrahedron | 4 | 6 | 4 |
+| Octahedron | 8 | 12 | 6 |
+- For all of these, Faces $+$ Vertices $-$ Edges $= 2$.
+?eg A prism has two 10-sided polygons as its ends. Find its faces, edges and vertices.
+= Faces: $10 + 2$. Edges: $3 \times 10$. Vertices: $2 \times 10$.
+=> 12 faces, 30 edges, 20 vertices
+?eg A pyramid has a 10-sided base. Find its faces, edges and vertices.
+=> 11 faces, 20 edges, 11 vertices
+
+# Profiles
+- What we see of a solid from one direction is its **profile**. The same solid can have very different profiles from different viewpoints.
+| Solid | One profile | Another profile |
+| Cylinder | Rectangle (from the side) | Circle (from the top) |
+| Cone | Triangle (from the side) | Circle (from the top) |
+| Triangular prism | Rectangle | Triangle |
+| Cone with its top cut off | Trapezium | Circle |
+| Pentagonal prism | Pentagon | Rectangle |
+- A profile does not fix the solid: a sphere, a cylinder and a cone can all show a circle.
+
+# Nets
+- A **net** is a flat shape that can be folded to make a solid. It is what you get when the solid is unfolded onto a plane.
+- A **cube** has 11 different nets (nets that differ only by a turn or a flip count as the same). Each has 6 squares, but not every arrangement of 6 squares folds into a cube.
+!fig w=250 h=215; Q a1 105 20; Q a2 145 20; Q b0 65 60; Q b1 105 60; Q b2 145 60; Q b3 185 60; Q c0 65 100; Q c1 105 100; Q c2 145 100; Q c3 185 100; Q d1 105 140; Q d2 145 140; Q e1 105 180; Q e2 145 180; L a1 a2; L a1 e1; L a2 e2; L b0 b3; L c0 c3; L b0 c0; L b3 c3; L d1 d2; L e1 e2; cap One of the 11 nets of a cube
+- **Cuboid** $l \times b \times h$: six rectangles in three matching pairs.
+- **Regular tetrahedron**: 4 equilateral triangles; it has 2 different nets. **Square pyramid**: a square with a triangle on each side.
+- **Cylinder**: two circles and a rectangle. The rectangle has one side equal to the height and the other equal to the circumference $2\pi r$ of the circle.
+- **Cone**: a circle and a sector of a larger circle. The radius of the sector is the slant height of the cone.
+- **Octahedron**: 8 equilateral triangles; like the cube, it has 11 nets. A dodecahedron has 43,380 nets.
+- A sphere has no net: a flat sheet cannot wrap a ball without wrinkles or gaps.
+?eg A cylinder has radius 7 cm and height 10 cm. What are the sides of the rectangle in its net? (Take $\pi = \dfrac{22}{7}$.)
+= One side is the height. The other is the circumference $2 \times \dfrac{22}{7} \times 7$.
+=> 10 cm and 44 cm
+?eg Six squares are joined in a straight row. Is this a net of a cube?
+= When folded, the row wraps round only 4 side faces and then overlaps. The top and bottom stay open.
+=> No
+
+# Shortest paths on a cuboid
+- On a plane the shortest path between two points is the straight segment joining them.
+- A path on the surface of a cuboid becomes a path of the **same length** on its net. So unfold the cuboid, join the two points by a straight line and find its length, often with the Baudhāyana–Pythagoras theorem.
+- The straight line must stay inside the net. Different ways of unfolding give different lengths, so **compare all the possible unfoldings** and take the smallest.
+?eg An ant sits at the centre of the front face of a cube of side 4 cm. A grain of sugar is at the centre of the top face. Find the shortest path along the surface.
+= Unfold the top face upward. The ant is 2 cm below the shared edge and the sugar is 2 cm above it, on the same vertical line.
+=> 4 cm
+?eg A cuboid is 6 cm long, 3 cm wide and 2 cm high. An ant at a bottom corner wants to reach the opposite top corner. Find the shortest path along the surface.
+= The three unfoldings give $\sqrt{(6 + 3)^2 + 2^2} = \sqrt{85}$, $\sqrt{(6 + 2)^2 + 3^2} = \sqrt{73}$ and $\sqrt{(3 + 2)^2 + 6^2} = \sqrt{61}$.
+=> $\sqrt{61}$ cm, about 7.8 cm
+
+# Projections
+- The **projection** of a point P on a plane is the point O of the plane such that OP is perpendicular to the plane. The projection of an object is made of the projections of all its points.
+- The projection of a line segment is **never longer** than the segment. It has the same length only when the segment is parallel to the plane, and it shrinks to a point when the segment is perpendicular to the plane.
+- **Parallel lines project to parallel lines.** So the projection of a parallelogram is always a parallelogram (or a line segment).
+- Different objects can have the same projection, so one projection is not enough. We use three perpendicular planes:
+| View | Plane | Seen from |
+| Front view | Vertical plane | The front |
+| Top view | Horizontal plane | Above |
+| Side view | Side plane | The side |
+- When sunlight falls perpendicular to a wall or floor, the **shadow** of an object is the same as its projection. A torch held close gives a larger, stretched shadow.
+| Solid (standing upright) | Front view | Top view | Side view |
+| Cube | Square | Square | Square |
+| Cuboid | Rectangle | Rectangle | Rectangle |
+| Cylinder | Rectangle | Circle | Rectangle |
+| Cone | Triangle | Circle | Triangle |
+| Square pyramid | Triangle | Square with its diagonals | Triangle |
+?eg Three identical cubes are placed in an L shape: two side by side on the ground and one on top of the left cube. Describe the front, top and side views.
+= Front: two squares in a row with a third square above the left one (an L shape).
+= Top: two squares side by side. Side: two squares, one above the other.
+=> L shape; a 2 by 1 rectangle; a 1 by 2 rectangle
+?eg A stick 10 cm long makes a projection 6 cm long on the floor. How much higher is one end than the other?
+= The stick, its projection and the height difference form a right triangle: $h^2 = 10^2 - 6^2 = 64$.
+=> 8 cm
+
+# Isometric drawings
+- In an **isometric projection** of a cube, all 12 edges appear with **equal length**. This happens when the cube is viewed along a line through opposite corners. Its outline is a regular hexagon.
+- An **isometric grid** is made of dots (or lines) forming equilateral triangles. It has three directions: vertical for **height**, and two slanting directions for **length** and **depth**.
+- To draw a solid: move along the three directions, counting units edge by edge. Parallel edges of the solid stay parallel in the drawing, and equal lengths stay equal.
+- Draw faintly first, then darken only the edges that are visible.
+- Four cubes joined face to face can be arranged flat in 5 ways (the "tetris" shapes) and in 3 more ways that are not flat, giving 8 solids in all.
+- Some drawings on an isometric grid, such as the "impossible triangle", cannot be built as real solids. Each corner looks correct, but the whole does not fit together.
+
+# Common mistakes
+- Thinking that the area of the Sierpinski Carpet at Step $n$ is $1 - \dfrac{n}{9}$. Each step multiplies the area by $\dfrac{8}{9}$.
+- Counting the base of a pyramid twice, or forgetting the two end faces of a prism.
+- Assuming any six joined squares make a cube net.
+- Taking the first unfolding as the shortest path without checking the others.
+- Confusing the top view with the front view.
+- Drawing an isometric cube with horizontal edges. Only the height direction is along a grid line that is vertical; the other two slant.
+
+@@formulas
+Sierpinski Carpet, squares | $R_n = 8^n$
+Sierpinski Carpet, holes | $H_n = 1 + 8 + \ldots + 8^{n-1}$
+Sierpinski Carpet, area | $\left(\dfrac{8}{9}\right)^n$
+Sierpinski Triangle, triangles | $3^n$
+Sierpinski Triangle, area | $\left(\dfrac{3}{4}\right)^n$
+Koch Snowflake, sides | $3 \times 4^n$
+Koch Snowflake, perimeter | $3 \times \left(\dfrac{4}{3}\right)^n$
+Prism on an $n$-gon | $n + 2$ faces, $3n$ edges, $2n$ vertices
+Pyramid on an $n$-gon | $n + 1$ faces, $2n$ edges, $n + 1$ vertices
+Euler's relation | $F + V - E = 2$
+Nets of a cube | 11
+Net of a cylinder | Rectangle $h$ by $2\pi r$ and two circles
+Shortest path, corner to opposite corner | Smallest of $\sqrt{(l+b)^2 + h^2}$, $\sqrt{(l+h)^2 + b^2}$, $\sqrt{(b+h)^2 + l^2}$
+Projection of a segment | Length $\leq$ actual length
+Three views | Front (vertical plane), top (horizontal plane), side (side plane)
+
+@@dpp
+Q: How many squares remain at Step 3 of the Sierpinski Carpet, and how many holes are there?
+A: 512 squares and $1 + 8 + 64 = 73$ holes
+Q: What fraction of the area remains at Step 2 of the Sierpinski Carpet?
+A: $\dfrac{64}{81}$
+Q: How many sides does the Koch Snowflake have at Step 3?
+A: $3 \times 4^3 = 192$
+Q: Find the faces, edges and vertices of a hexagonal prism.
+A: 8, 18 and 12
+Q: Find the faces, edges and vertices of a pentagonal pyramid.
+A: 6, 10 and 6
+Q: Name a solid whose profile is a circle from one direction and a triangle from another.
+A: A cone
+Q: A cylinder has radius 3.5 cm and height 12 cm. Find the sides of the rectangle in its net. (Take $\pi = \dfrac{22}{7}$.)
+A: 12 cm and 22 cm
+Q: A cuboid is 4 cm by 3 cm by 5 cm (length, breadth, height). An ant goes from a bottom corner to the opposite top corner along the surface. Find the shortest distance.
+A: The smallest of $\sqrt{74}$, $\sqrt{90}$, $\sqrt{80}$, that is $\sqrt{74}$ cm, about 8.6 cm
+Q: What are the front, top and side views of an upright cylinder?
+A: Rectangle, circle, rectangle
+Q: True or false: the projection of a line segment can be longer than the segment.
+A: False. It is equal to or shorter than the segment.
