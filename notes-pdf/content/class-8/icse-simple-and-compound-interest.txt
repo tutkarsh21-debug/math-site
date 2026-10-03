@@ -1,0 +1,136 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 9
+@title Simple and Compound Interest
+@summary Simple interest and its formula, finding the principal, rate or time, and compound interest calculated year by year and by formula, with the difference between the two.
+
+# Simple interest
+- **Principal** $P$: the money borrowed or deposited. **Rate** $R$: the interest on ₹100 for one year, written as a percentage per annum. **Time** $T$: the period in years.
+- **Interest** $I$: the extra money paid for using the principal. **Amount** $A = P + I$.
+$$I = \frac{P \times R \times T}{100}$$
+- Time must be in **years**: 6 months $= \dfrac{1}{2}$ year, 73 days $= \dfrac{73}{365} = \dfrac{1}{5}$ year.
+- When counting days between two dates, leave out the first day and include the last.
+?eg Find the simple interest and the amount on ₹6000 at 8% per annum for 3 years.
+= $I = \dfrac{6000 \times 8 \times 3}{100} = 1440$
+=> Interest ₹1440; amount ₹7440
+?eg Find the simple interest on ₹7300 at 10% per annum for 146 days.
+= $T = \dfrac{146}{365} = \dfrac{2}{5}$ year. $I = \dfrac{7300 \times 10 \times 2}{100 \times 5}$.
+=> ₹292
+
+# Finding P, R or T
+| To find | Formula |
+| Principal | $P = \dfrac{100 \times I}{R \times T}$ |
+| Rate | $R = \dfrac{100 \times I}{P \times T}$ |
+| Time | $T = \dfrac{100 \times I}{P \times R}$ |
+| Principal from the amount | $P = \dfrac{100 \times A}{100 + R \times T}$ |
+?eg At what rate will ₹4000 earn ₹1200 as simple interest in 5 years?
+= $R = \dfrac{100 \times 1200}{4000 \times 5}$
+=> 6% per annum
+?eg In how many years will ₹2500 amount to ₹3250 at 6% per annum simple interest?
+= $I = 750$. $T = \dfrac{100 \times 750}{2500 \times 6}$.
+=> 5 years
+?eg What sum amounts to ₹5800 in 4 years at 4% per annum simple interest?
+= $P = \dfrac{100 \times 5800}{100 + 16}$
+=> ₹5000
+?eg A sum doubles itself in 8 years at simple interest. Find the rate.
+= Interest equals the principal: $P = \dfrac{P \times R \times 8}{100}$.
+=> 12.5% per annum
+?eg A sum amounts to ₹5600 in 2 years and to ₹6400 in 3 years at simple interest. Find the sum and the rate.
+= Interest for 1 year $= 800$. Interest for 2 years $= 1600$, so the sum is $5600 - 1600 = 4000$.
+= $R = \dfrac{100 \times 800}{4000 \times 1}$
+=> ₹4000; 20% per annum
+
+# Compound interest
+- In **compound interest** the interest of each year is added to the principal, and the next year's interest is calculated on this larger sum.
+- **Amount at the end of a year becomes the principal for the next year.**
+- Compound interest (C.I.) $=$ final amount $-$ original principal.
+- For the first year, C.I. and S.I. are equal. After that, C.I. is greater.
+| Year | Principal (₹) | Interest at 10% (₹) | Amount (₹) |
+| 1 | 8000 | 800 | 8800 |
+| 2 | 8800 | 880 | 9680 |
+| 3 | 9680 | 968 | 10648 |
+?eg Find the compound interest on ₹8000 for 3 years at 10% per annum.
+= From the table the amount is ₹10,648.
+=> ₹2648
+?eg Find the amount on ₹5000 for 2 years when the rates for the two years are 8% and 10%.
+= After year 1: $5000 + 400 = 5400$. After year 2: $5400 + 540$.
+=> ₹5940
+
+# Compound interest by formula
+$$A = P\left(1 + \frac{R}{100}\right)^n, \qquad \text{C.I.} = A - P$$
+- Here $n$ is the number of years and the interest is compounded yearly.
+- **Different rates**: $A = P\left(1 + \dfrac{R_1}{100}\right)\left(1 + \dfrac{R_2}{100}\right)$.
+- **Compounded half-yearly**: use rate $\dfrac{R}{2}\%$ and $2n$ periods.
+?eg Find the compound interest on ₹12,000 for 2 years at 5% per annum.
+= $A = 12000 \times \left(\dfrac{21}{20}\right)^2 = 12000 \times \dfrac{441}{400} = 13230$
+=> ₹1230
+?eg Find the amount on ₹10,000 for 1 year at 10% per annum, compounded half-yearly.
+= Two half-years at 5%: $10000 \times (1.05)^2$
+=> ₹11,025
+?eg What sum amounts to ₹6050 in 2 years at 10% per annum compound interest?
+= $P \times 1.21 = 6050$
+=> ₹5000
+
+# Comparing C.I. and S.I.
+- For 2 years: C.I. $-$ S.I. $= P\left(\dfrac{R}{100}\right)^2$. It equals one year's interest on the first year's interest.
+?eg Find the difference between the C.I. and the S.I. on ₹5000 for 2 years at 6% per annum.
+= $5000 \times 0.06 \times 0.06$
+=> ₹18
+?eg The difference between the C.I. and the S.I. on a sum for 2 years at 5% is ₹15. Find the sum.
+= $P \times \dfrac{1}{400} = 15$
+=> ₹6000
+
+# Growth and depreciation
+- A quantity growing by $R\%$ a year becomes $P\left(1 + \dfrac{R}{100}\right)^n$ after $n$ years.
+- A quantity falling by $R\%$ a year becomes $P\left(1 - \dfrac{R}{100}\right)^n$.
+?eg A town of 20,000 people grows by 5% a year. Find its population after 2 years.
+= $20000 \times 1.05^2$
+=> 22,050
+?eg A machine worth ₹50,000 loses 10% of its value each year. Find its value after 2 years.
+= $50000 \times 0.9^2$
+=> ₹40,500
+
+# Common mistakes
+- Using months or days as $T$ without converting to years.
+- Giving the amount when the interest is asked, or the reverse.
+- Calculating every year's compound interest on the original principal.
+- Writing $\left(1 + R\right)^n$ instead of $\left(1 + \dfrac{R}{100}\right)^n$.
+- For half-yearly compounding, halving the rate but not doubling the number of periods.
+- Using a plus sign for depreciation.
+
+@@formulas
+Simple interest | $I = \dfrac{PRT}{100}$
+Amount | $A = P + I$
+Principal | $P = \dfrac{100I}{RT}$
+Rate | $R = \dfrac{100I}{PT}$
+Time | $T = \dfrac{100I}{PR}$
+Principal from amount (S.I.) | $P = \dfrac{100A}{100 + RT}$
+Compound amount | $A = P\left(1 + \dfrac{R}{100}\right)^n$
+Compound interest | $A - P$
+Different rates | $A = P\left(1 + \dfrac{R_1}{100}\right)\left(1 + \dfrac{R_2}{100}\right)$
+Half-yearly | $A = P\left(1 + \dfrac{R}{200}\right)^{2n}$
+C.I. $-$ S.I. for 2 years | $P\left(\dfrac{R}{100}\right)^2$
+Depreciation | $P\left(1 - \dfrac{R}{100}\right)^n$
+
+@@dpp
+Q: Find the simple interest on ₹4500 at 6% per annum for 4 years.
+A: ₹1080
+Q: Find the amount on ₹8000 at 7.5% per annum simple interest for 2 years.
+A: ₹9200
+Q: At what rate will ₹3000 earn ₹720 simple interest in 3 years?
+A: 8% per annum
+Q: In how many years will ₹6000 earn ₹1500 at 5% per annum simple interest?
+A: 5 years
+Q: What sum earns ₹900 as simple interest in 3 years at 6% per annum?
+A: ₹5000
+Q: A sum trebles itself in 16 years at simple interest. Find the rate.
+A: 12.5% per annum
+Q: Find the compound interest on ₹4000 for 2 years at 10% per annum.
+A: ₹840
+Q: Find the amount on ₹16,000 for 3 years at 5% per annum compound interest.
+A: ₹18,522
+Q: Find the difference between the C.I. and the S.I. on ₹8000 for 2 years at 5% per annum.
+A: ₹20
+Q: A car worth ₹3,00,000 depreciates by 10% a year. Find its value after 2 years.
+A: ₹2,43,000

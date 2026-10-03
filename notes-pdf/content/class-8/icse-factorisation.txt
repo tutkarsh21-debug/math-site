@@ -1,0 +1,152 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 13
+@title Factorisation
+@summary Factorising algebraic expressions by taking out common factors, by grouping, by using identities and by splitting the middle term of a trinomial.
+
+# Factors
+- To **factorise** an expression is to write it as a **product** of simpler expressions. Each one is a **factor**.
+- Factorising is the reverse of multiplying: $3x(x + 2) = 3x^2 + 6x$, so $3x^2 + 6x = 3x(x + 2)$.
+- Check any factorisation by multiplying the factors back.
+- **Always take out the common factor first**, then look at what is left.
+
+# Common factors
+- Find the HCF of the terms: the HCF of the numerical coefficients and the lowest power of each common variable.
+- Write the HCF outside a bracket and divide each term by it.
+?eg Factorise $6x^2y - 9xy^2 + 3xy$.
+= HCF $= 3xy$
+=> $3xy(2x - 3y + 1)$
+?eg Factorise $5(a + b) - 2x(a + b)$.
+= The bracket $(a + b)$ is common.
+=> $(a + b)(5 - 2x)$
+?eg Factorise $x(a - 3) + y(3 - a)$.
+= $3 - a = -(a - 3)$, giving $x(a - 3) - y(a - 3)$.
+=> $(a - 3)(x - y)$
+
+# Grouping
+- Used for four (or more) terms with no factor common to all.
+- Arrange the terms in groups so that each group has a common factor and the same bracket is left in each.
+?eg Factorise $ab + bc + ax + cx$.
+= $b(a + c) + x(a + c)$
+=> $(a + c)(b + x)$
+?eg Factorise $x^2 - 3x - xy + 3y$.
+= $x(x - 3) - y(x - 3)$
+=> $(x - 3)(x - y)$
+?eg Factorise $6ab - 4b + 6 - 9a$.
+= $2b(3a - 2) - 3(3a - 2)$
+=> $(3a - 2)(2b - 3)$
+
+# Difference of two squares
+$$a^2 - b^2 = (a + b)(a - b)$$
+- Each term must be a perfect square and the sign between them must be minus.
+- After using the identity, check whether a factor can be factorised again.
+?eg Factorise $49x^2 - 81y^2$.
+=> $(7x + 9y)(7x - 9y)$
+?eg Factorise $3a^3 - 48a$.
+= $3a(a^2 - 16)$
+=> $3a(a + 4)(a - 4)$
+?eg Factorise $x^4 - 1$.
+= $(x^2 + 1)(x^2 - 1)$
+=> $(x^2 + 1)(x + 1)(x - 1)$
+?eg Factorise $(a + b)^2 - c^2$.
+=> $(a + b + c)(a + b - c)$
+?eg Evaluate $(73)^2 - (27)^2$.
+= $(73 + 27)(73 - 27) = 100 \times 46$
+=> 4600
+
+# Perfect square trinomials
+- $a^2 + 2ab + b^2 = (a + b)^2$ and $a^2 - 2ab + b^2 = (a - b)^2$.
+- **Test**: the first and last terms are perfect squares and the middle term is twice the product of their square roots.
+?eg Factorise $9x^2 + 24xy + 16y^2$.
+= $(3x)^2 + 2(3x)(4y) + (4y)^2$
+=> $(3x + 4y)^2$
+?eg Factorise $4a^2 - 20a + 25$.
+=> $(2a - 5)^2$
+?eg Factorise $x^2 + 6x + 9 - y^2$.
+= $(x + 3)^2 - y^2$
+=> $(x + 3 + y)(x + 3 - y)$
+
+# Trinomials of the form x² + bx + c
+- Find two numbers whose **product is $c$** and whose **sum is $b$**. If they are $p$ and $q$, then $x^2 + bx + c = (x + p)(x + q)$.
+| Sign of $c$ | Sign of $b$ | Signs of $p$ and $q$ |
+| $+$ | $+$ | Both positive |
+| $+$ | $-$ | Both negative |
+| $-$ | $+$ | Opposite signs; the larger is positive |
+| $-$ | $-$ | Opposite signs; the larger is negative |
+?eg Factorise $x^2 + 9x + 20$.
+= Product 20, sum 9: 4 and 5.
+=> $(x + 4)(x + 5)$
+?eg Factorise $x^2 - 7x + 12$.
+= Product 12, sum $-7$: $-3$ and $-4$.
+=> $(x - 3)(x - 4)$
+?eg Factorise $x^2 + 2x - 15$.
+= Product $-15$, sum 2: 5 and $-3$.
+=> $(x + 5)(x - 3)$
+?eg Factorise $y^2 - 4y - 21$.
+= Product $-21$, sum $-4$: $-7$ and 3.
+=> $(y - 7)(y + 3)$
+
+# Trinomials of the form ax² + bx + c
+- Find two numbers whose **product is $ac$** and whose **sum is $b$**. Split the middle term with them and factorise by grouping.
+?eg Factorise $2x^2 + 7x + 3$.
+= Product 6, sum 7: 6 and 1. $2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3)$.
+=> $(x + 3)(2x + 1)$
+?eg Factorise $3x^2 - 10x + 8$.
+= Product 24, sum $-10$: $-6$ and $-4$. $3x^2 - 6x - 4x + 8 = 3x(x - 2) - 4(x - 2)$.
+=> $(x - 2)(3x - 4)$
+?eg Factorise $6a^2 - a - 2$.
+= Product $-12$, sum $-1$: $-4$ and 3. $6a^2 - 4a + 3a - 2 = 2a(3a - 2) + 1(3a - 2)$.
+=> $(3a - 2)(2a + 1)$
+
+# Using factors to divide
+- To divide one expression by another, factorise both and cancel the common factors.
+?eg Divide $x^2 - 5x + 6$ by $x - 2$.
+= $x^2 - 5x + 6 = (x - 2)(x - 3)$
+=> $x - 3$
+?eg Simplify $\dfrac{4x^2 - 9}{2x^2 + 3x}$.
+= $\dfrac{(2x + 3)(2x - 3)}{x(2x + 3)}$
+=> $\dfrac{2x - 3}{x}$
+
+# Common mistakes
+- Leaving a common factor inside the bracket.
+- Sign errors when the second group starts with a minus.
+- Trying to factorise a sum of squares such as $x^2 + 9$.
+- For $ax^2 + bx + c$, looking for numbers with product $c$ instead of $ac$.
+- Stopping at $(x^2 + 1)(x^2 - 1)$ without factorising $x^2 - 1$.
+- Not checking by multiplying the factors back.
+
+@@formulas
+Common factor | $ab + ac = a(b + c)$
+Grouping | $ax + ay + bx + by = (a + b)(x + y)$
+Difference of squares | $a^2 - b^2 = (a + b)(a - b)$
+Perfect square | $a^2 + 2ab + b^2 = (a + b)^2$
+Perfect square | $a^2 - 2ab + b^2 = (a - b)^2$
+Monic trinomial | $x^2 + (p + q)x + pq = (x + p)(x + q)$
+General trinomial | Split $bx$ using numbers with product $ac$ and sum $b$
+Sign change | $b - a = -(a - b)$
+Fourth powers | $a^4 - b^4 = (a^2 + b^2)(a + b)(a - b)$
+Division | Factorise and cancel common factors
+Check | Multiply the factors to get the original expression
+
+@@dpp
+Q: Factorise $8a^3b^2 - 12a^2b^3$.
+A: $4a^2b^2(2a - 3b)$
+Q: Factorise $3x(y - 2) - 5(y - 2)$.
+A: $(y - 2)(3x - 5)$
+Q: Factorise $pq - pr + q^2 - qr$.
+A: $(q - r)(p + q)$
+Q: Factorise $25a^2 - 64b^2$.
+A: $(5a + 8b)(5a - 8b)$
+Q: Factorise $2x^3 - 50x$.
+A: $2x(x + 5)(x - 5)$
+Q: Factorise $16x^2 - 40xy + 25y^2$.
+A: $(4x - 5y)^2$
+Q: Factorise $x^2 + 11x + 24$.
+A: $(x + 3)(x + 8)$
+Q: Factorise $x^2 - x - 42$.
+A: $(x - 7)(x + 6)$
+Q: Factorise $2x^2 + 5x - 12$.
+A: $(2x - 3)(x + 4)$
+Q: Evaluate $(105)^2 - (95)^2$ using factors.
+A: $200 \times 10 = 2000$

@@ -1,0 +1,125 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 1
+@title Rational Numbers
+@summary Rational numbers, their standard form, the four operations and their properties, representation on the number line, and inserting rational numbers between two given ones.
+
+# What a rational number is
+- A **rational number** is a number of the form $\dfrac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+- Every natural number, whole number, integer and fraction is a rational number: $5 = \dfrac{5}{1}$, $0 = \dfrac{0}{1}$, $-3 = \dfrac{-3}{1}$.
+- A rational number is **positive** if $p$ and $q$ have the same sign, and **negative** if they have opposite signs.
+- **Equivalent rational numbers**: multiplying or dividing both terms by the same non-zero integer gives an equal number. $\dfrac{2}{3} = \dfrac{4}{6} = \dfrac{-6}{-9}$.
+- **Standard form**: the denominator is positive and the two terms have no common factor other than 1.
+?eg Write $\dfrac{36}{-48}$ in standard form.
+= Divide both terms by their HCF 12 and make the denominator positive.
+=> $\dfrac{-3}{4}$
+
+# Comparing rational numbers
+- Write both numbers with positive denominators. Convert to a common denominator (the LCM) and compare the numerators.
+- Or cross-multiply: for positive denominators, $\dfrac{a}{b} > \dfrac{c}{d}$ exactly when $ad > bc$.
+- Every positive rational number is greater than 0, and every negative rational number is less than 0.
+?eg Which is greater: $\dfrac{-5}{6}$ or $\dfrac{-7}{9}$?
+= LCM of 6 and 9 is 18: $\dfrac{-15}{18}$ and $\dfrac{-14}{18}$.
+=> $\dfrac{-7}{9}$ is greater
+?eg Arrange in ascending order: $\dfrac{2}{3}, \dfrac{-1}{2}, \dfrac{5}{6}, \dfrac{-3}{4}$.
+= With denominator 12: $\dfrac{8}{12}, \dfrac{-6}{12}, \dfrac{10}{12}, \dfrac{-9}{12}$
+=> $\dfrac{-3}{4}, \dfrac{-1}{2}, \dfrac{2}{3}, \dfrac{5}{6}$
+
+# The four operations
+- **Addition**: same denominators, add the numerators. Different denominators, first convert to the LCM.
+- **Subtraction**: add the additive inverse. $\dfrac{a}{b} - \dfrac{c}{d} = \dfrac{a}{b} + \left(\dfrac{-c}{d}\right)$.
+- **Multiplication**: $\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}$.
+- **Division**: multiply by the reciprocal. $\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \times \dfrac{d}{c}$, where $c \neq 0$.
+?eg Find $\dfrac{-3}{8} + \dfrac{5}{12}$.
+= LCM of 8 and 12 is 24: $\dfrac{-9}{24} + \dfrac{10}{24}$
+=> $\dfrac{1}{24}$
+?eg Find $\dfrac{7}{15} - \dfrac{-3}{10}$.
+= $\dfrac{14}{30} + \dfrac{9}{30}$
+=> $\dfrac{23}{30}$
+?eg Find $\dfrac{-4}{9} \times \dfrac{15}{-16}$ and $\dfrac{-8}{21} \div \dfrac{4}{7}$.
+= $\dfrac{-60}{-144} = \dfrac{5}{12}$ and $\dfrac{-8}{21} \times \dfrac{7}{4} = \dfrac{-2}{3}$
+=> $\dfrac{5}{12}$ and $\dfrac{-2}{3}$
+
+# Properties
+| Property | Addition | Subtraction | Multiplication | Division |
+| Closure | Yes | Yes | Yes | Yes, except division by 0 |
+| Commutative | Yes | No | Yes | No |
+| Associative | Yes | No | Yes | No |
+- **Additive identity**: $\dfrac{a}{b} + 0 = \dfrac{a}{b}$. **Multiplicative identity**: $\dfrac{a}{b} \times 1 = \dfrac{a}{b}$.
+- **Additive inverse** (negative) of $\dfrac{a}{b}$ is $\dfrac{-a}{b}$: their sum is 0.
+- **Multiplicative inverse** (reciprocal) of $\dfrac{a}{b}$ is $\dfrac{b}{a}$, where $a \neq 0$: their product is 1. Zero has no reciprocal.
+- **Distributive property**: $\dfrac{a}{b} \times \left(\dfrac{c}{d} + \dfrac{e}{f}\right) = \dfrac{a}{b} \times \dfrac{c}{d} + \dfrac{a}{b} \times \dfrac{e}{f}$. It also holds over subtraction.
+- 1 and $-1$ are the only rational numbers equal to their own reciprocals.
+?eg Write the additive inverse and the multiplicative inverse of $\dfrac{-5}{7}$.
+=> $\dfrac{5}{7}$ and $\dfrac{-7}{5}$
+?eg Use the distributive property to find $\dfrac{3}{5} \times \dfrac{7}{11} + \dfrac{3}{5} \times \dfrac{4}{11}$.
+= $\dfrac{3}{5} \times \left(\dfrac{7}{11} + \dfrac{4}{11}\right) = \dfrac{3}{5} \times 1$
+=> $\dfrac{3}{5}$
+?eg What should be added to $\dfrac{-5}{8}$ to get $\dfrac{3}{4}$?
+= $\dfrac{3}{4} - \left(\dfrac{-5}{8}\right) = \dfrac{6}{8} + \dfrac{5}{8}$
+=> $\dfrac{11}{8}$
+?eg The product of two rational numbers is $\dfrac{-14}{27}$. One of them is $\dfrac{7}{9}$. Find the other.
+= $\dfrac{-14}{27} \div \dfrac{7}{9} = \dfrac{-14}{27} \times \dfrac{9}{7}$
+=> $\dfrac{-2}{3}$
+
+# On the number line
+- Positive rational numbers lie to the right of 0 and negative ones to the left.
+- To mark $\dfrac{p}{q}$: divide each unit into $q$ equal parts and count $p$ parts from 0 (to the left if negative).
+- For an improper fraction, first write it as a mixed number: $\dfrac{-7}{3} = -2\tfrac{1}{3}$ lies between $-3$ and $-2$.
+!fig w=340 h=110; Q L 20 50; Q R 320 50; L L R; P a 50 50 -; P b 110 50 -; P c 170 50 -; P d 230 50 -; P e 290 50 -; P p 210 50 -; P q 130 50 -; T 50 72 −2; T 110 72 −1; T 170 72 0; T 230 72 1; T 290 72 2; T 210 36 2/3; T 130 36 −2/3; cap The points 2/3 and −2/3 on the number line
+
+# Rational numbers between two rational numbers
+- Between any two different rational numbers there are **infinitely many** rational numbers.
+- **Mean method**: $\dfrac{a + b}{2}$ lies between $a$ and $b$. Repeat to get more.
+- **Common denominator method**: write both with the same denominator; if there is not enough room between the numerators, multiply both terms by 10 (or any suitable number).
+?eg Find a rational number between $\dfrac{1}{4}$ and $\dfrac{1}{3}$.
+= $\dfrac{1}{2}\left(\dfrac{1}{4} + \dfrac{1}{3}\right) = \dfrac{1}{2} \times \dfrac{7}{12}$
+=> $\dfrac{7}{24}$
+?eg Insert four rational numbers between $\dfrac{2}{5}$ and $\dfrac{3}{5}$.
+= Multiply both terms by 5: $\dfrac{10}{25}$ and $\dfrac{15}{25}$.
+=> $\dfrac{11}{25}, \dfrac{12}{25}, \dfrac{13}{25}, \dfrac{14}{25}$
+
+# Common mistakes
+- Adding numerators and denominators separately: $\dfrac{1}{2} + \dfrac{1}{3}$ is not $\dfrac{2}{5}$.
+- Thinking $\dfrac{-5}{6} > \dfrac{-4}{6}$ because 5 is greater than 4. For negatives the order reverses.
+- Leaving a negative denominator in the answer.
+- Taking the reciprocal as the negative: the reciprocal of $\dfrac{2}{3}$ is $\dfrac{3}{2}$, not $\dfrac{-2}{3}$.
+- Inverting the first fraction instead of the second in a division.
+- Saying 0 has a reciprocal.
+
+@@formulas
+Rational number | $\dfrac{p}{q}$, $q \neq 0$
+Standard form | Positive denominator, terms in lowest form
+Comparison | $\dfrac{a}{b} > \dfrac{c}{d}$ when $ad > bc$ ($b, d > 0$)
+Addition | $\dfrac{a}{b} + \dfrac{c}{d} = \dfrac{ad + bc}{bd}$
+Multiplication | $\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}$
+Division | $\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{ad}{bc}$
+Additive identity | 0
+Multiplicative identity | 1
+Additive inverse of $\dfrac{a}{b}$ | $\dfrac{-a}{b}$
+Reciprocal of $\dfrac{a}{b}$ | $\dfrac{b}{a}$, $a \neq 0$
+Distributive property | $x(y + z) = xy + xz$
+Number between $a$ and $b$ | $\dfrac{a + b}{2}$
+
+@@dpp
+Q: Write $\dfrac{-45}{-60}$ in standard form.
+A: $\dfrac{3}{4}$
+Q: Which is smaller: $\dfrac{-4}{7}$ or $\dfrac{-5}{9}$?
+A: $\dfrac{-4}{7}$ (since $-36 < -35$)
+Q: Find $\dfrac{-7}{12} + \dfrac{5}{18}$.
+A: $\dfrac{-11}{36}$
+Q: Find $\dfrac{3}{4} - \dfrac{5}{6}$.
+A: $\dfrac{-1}{12}$
+Q: Find $\dfrac{-9}{14} \times \dfrac{7}{-3}$.
+A: $\dfrac{3}{2}$
+Q: Find $\dfrac{-15}{28} \div \dfrac{5}{7}$.
+A: $\dfrac{-3}{4}$
+Q: Write the additive inverse and the reciprocal of $\dfrac{9}{-11}$.
+A: $\dfrac{9}{11}$ and $\dfrac{-11}{9}$
+Q: What should be subtracted from $\dfrac{2}{3}$ to get $\dfrac{-1}{6}$?
+A: $\dfrac{5}{6}$
+Q: Find $\dfrac{4}{7} \times \dfrac{5}{9} - \dfrac{4}{7} \times \dfrac{-4}{9}$ using the distributive property.
+A: $\dfrac{4}{7} \times 1 = \dfrac{4}{7}$
+Q: Insert three rational numbers between $\dfrac{1}{2}$ and $\dfrac{3}{4}$.
+A: For example $\dfrac{9}{16}, \dfrac{10}{16}, \dfrac{11}{16}$

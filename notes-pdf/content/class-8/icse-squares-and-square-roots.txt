@@ -1,0 +1,137 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 3
+@title Squares and Square Roots
+@summary Perfect squares and their properties, and finding square roots by prime factorisation and by the long division method, including square roots of decimals and fractions.
+
+# Squares
+- The **square** of a number is the number multiplied by itself: $n^2 = n \times n$.
+- A natural number that is the square of a natural number is a **perfect square**: 1, 4, 9, 16, 25, ...
+- In the prime factorisation of a perfect square, every prime occurs an **even** number of times.
+| $n$ | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 25 |
+| $n^2$ | 121 | 144 | 169 | 196 | 225 | 256 | 289 | 324 | 361 | 400 | 625 |
+
+# Properties of perfect squares
+- A perfect square ends in **0, 1, 4, 5, 6 or 9**. A number ending in 2, 3, 7 or 8 is never a perfect square.
+- A perfect square ends in an **even number of zeros**.
+- The square of an even number is even; the square of an odd number is odd.
+- A perfect square leaves remainder 0 or 1 on division by 3, and remainder 0 or 1 on division by 4.
+- **Sum of the first $n$ odd numbers** $= n^2$.
+- Between $n^2$ and $(n + 1)^2$ there are $2n$ natural numbers.
+- $(n + 1)^2 - n^2 = 2n + 1$.
+- **Pythagorean triplet**: for any natural number $m > 1$, the numbers $2m$, $m^2 - 1$, $m^2 + 1$ form a triplet.
+?eg Which of these cannot be perfect squares: 2457, 5776, 6400, 9000?
+= 2457 ends in 7. 9000 ends in an odd number of zeros.
+=> 2457 and 9000
+?eg Without adding, find $1 + 3 + 5 + \ldots + 19$.
+= There are 10 odd numbers.
+=> $10^2 = 100$
+?eg Write a Pythagorean triplet one of whose members is 16.
+= $2m = 16$ gives $m = 8$: $m^2 - 1 = 63$, $m^2 + 1 = 65$.
+=> 16, 63, 65
+
+# Quick squares
+- Use identities: $(a + b)^2 = a^2 + 2ab + b^2$ and $(a - b)^2 = a^2 - 2ab + b^2$.
+- A number ending in 5: $(10a + 5)^2 = 100a(a + 1) + 25$. Write $a(a + 1)$ followed by 25.
+?eg Find $43^2$, $98^2$ and $65^2$.
+= $43^2 = 1600 + 240 + 9$; $98^2 = 10000 - 400 + 4$; $65^2$: $6 \times 7 = 42$, then 25.
+=> 1849, 9604 and 4225
+
+# Square root by prime factorisation
+- If $x^2 = y$, then $x$ is a **square root** of $y$. The symbol $\sqrt{y}$ means the positive square root.
+- **Method**: write the number as a product of primes; make **pairs** of equal primes; take one from each pair and multiply.
+- If a prime is left unpaired, the number is not a perfect square. Multiplying or dividing by the unpaired primes makes it one.
+?eg Find $\sqrt{7056}$.
+= $7056 = 2^4 \times 3^2 \times 7^2$
+=> $2^2 \times 3 \times 7 = 84$
+?eg Find the smallest number by which 1800 must be multiplied to make it a perfect square, and the square root of the result.
+= $1800 = 2^3 \times 3^2 \times 5^2$. One 2 is unpaired.
+=> Multiply by 2; $\sqrt{3600} = 60$
+?eg Find the smallest number by which 2925 must be divided to get a perfect square.
+= $2925 = 3^2 \times 5^2 \times 13$
+=> 13; the quotient 225 has square root 15
+
+# Square root by long division
+- Mark off the digits in **pairs (periods)** from the units place. For decimals, pair to the left and to the right of the decimal point.
+- Find the largest number whose square is not more than the first period. It is the first digit of the root and the first divisor.
+- Subtract, bring down the next period. **Double the quotient** so far and write it with a blank digit.
+- Choose the largest digit for the blank so that (new divisor) $\times$ (that digit) is not more than the dividend. Repeat.
+- The number of digits in the square root of an $n$-digit perfect square is $\dfrac{n}{2}$ if $n$ is even and $\dfrac{n + 1}{2}$ if $n$ is odd.
+?eg Find $\sqrt{2304}$ by long division.
+= Periods: 23 | 04. $4^2 = 16$; $23 - 16 = 7$; bring down 04 to get 704.
+= Double 4 is 8. $88 \times 8 = 704$. Remainder 0.
+=> 48
+?eg Find $\sqrt{54756}$.
+= Periods: 5 | 47 | 56. $2^2 = 4$, remainder 1, dividend 147. $43 \times 3 = 129$, remainder 18, dividend 1856. $464 \times 4 = 1856$.
+=> 234
+?eg Find the least number that must be subtracted from 5607 to make it a perfect square.
+= Long division gives quotient 74 with remainder 131 ($74^2 = 5476$).
+=> 131
+?eg Find the least number that must be added to 1300 to make it a perfect square.
+= $36^2 = 1296 < 1300 < 37^2 = 1369$
+=> 69
+
+# Decimals and fractions
+- $\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}$ and $\sqrt{ab} = \sqrt{a} \times \sqrt{b}$.
+- For a decimal, the square root has **half as many** decimal places as the number.
+- To find a square root correct to $n$ decimal places, work to $n + 1$ places and round off.
+?eg Find $\sqrt{\dfrac{441}{961}}$ and $\sqrt{5\tfrac{19}{25}}$.
+= $\dfrac{21}{31}$; and $5\tfrac{19}{25} = \dfrac{144}{25}$ has square root $\dfrac{12}{5}$
+=> $\dfrac{21}{31}$ and $2\tfrac{2}{5}$
+?eg Find $\sqrt{12.25}$ and $\sqrt{0.0169}$.
+=> 3.5 and 0.13
+?eg Find $\sqrt{2}$ correct to two decimal places.
+= Long division of 2.000000 gives 1.414...
+=> 1.41
+
+# Word problems
+?eg The area of a square field is 5184 sq m. Find its side and perimeter.
+= Side $= \sqrt{5184} = 72$ m
+=> 72 m; 288 m
+?eg 1225 students stand in rows so that the number of rows equals the number of students in each row. Find the number of rows.
+=> $\sqrt{1225} = 35$
+
+# Common mistakes
+- Pairing digits from the left instead of from the units place.
+- Forgetting to double the whole quotient at each step.
+- Writing $\sqrt{a + b} = \sqrt{a} + \sqrt{b}$.
+- Giving $\sqrt{0.9} = 0.3$. In fact $0.3^2 = 0.09$.
+- Leaving an unpaired prime under the root in the factor method.
+- Deciding that a number is a perfect square from its last digit alone.
+
+@@formulas
+Square | $n^2 = n \times n$
+Last digits of a perfect square | 0, 1, 4, 5, 6, 9
+Sum of the first $n$ odd numbers | $n^2$
+Numbers between $n^2$ and $(n+1)^2$ | $2n$
+Consecutive squares | $(n + 1)^2 - n^2 = 2n + 1$
+Pythagorean triplet | $2m$, $m^2 - 1$, $m^2 + 1$
+Number ending in 5 | $(10a + 5)^2 = 100a(a + 1) + 25$
+Product | $\sqrt{ab} = \sqrt{a}\sqrt{b}$
+Quotient | $\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}$
+Digits in the root | $\dfrac{n}{2}$ or $\dfrac{n + 1}{2}$
+Side of a square | $\sqrt{\text{area}}$
+Useful roots | $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$, $\sqrt{5} \approx 2.236$
+
+@@dpp
+Q: Which of these cannot be perfect squares: 1296, 3853, 4000, 7744?
+A: 3853 and 4000
+Q: Find $75^2$ and $104^2$ using short methods.
+A: 5625 and 10816
+Q: Find $\sqrt{1764}$ by prime factorisation.
+A: 42
+Q: Find the smallest number by which 3675 must be multiplied to make it a perfect square.
+A: $3675 = 3 \times 5^2 \times 7^2$; multiply by 3
+Q: Find $\sqrt{4489}$ by long division.
+A: 67
+Q: Find $\sqrt{15129}$.
+A: 123
+Q: Find $\sqrt{\dfrac{225}{729}}$.
+A: $\dfrac{5}{9}$
+Q: Find $\sqrt{31.36}$.
+A: 5.6
+Q: Find the least number that must be subtracted from 2000 to make it a perfect square.
+A: $2000 - 44^2 = 64$
+Q: A square garden has area 2916 sq m. Find the length of fencing needed to go round it.
+A: Side 54 m; 216 m

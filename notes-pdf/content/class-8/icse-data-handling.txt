@@ -1,0 +1,121 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 22
+@title Data Handling
+@summary Organising raw data into frequency tables, grouped data and class intervals, and showing data with bar graphs, histograms and pie charts.
+
+# Data
+- **Data** are numerical facts collected for a purpose. Data as first collected are **raw data**.
+- Each entry is an **observation**. The number of times an observation occurs is its **frequency**.
+- **Range** $=$ highest observation $-$ lowest observation.
+- **Tally marks** make counting easy: four upright strokes and a fifth across them make a bundle of five.
+- A **frequency distribution table** lists the observations with their frequencies.
+?eg The marks of 20 students are: 5, 7, 6, 8, 5, 9, 7, 6, 7, 8, 5, 7, 9, 6, 7, 8, 10, 7, 6, 8. Make a frequency table.
+= Count each mark: 5 occurs 3 times, 6 four times, 7 six times, 8 four times, 9 twice, 10 once.
+=> Frequencies 3, 4, 6, 4, 2, 1 (total 20)
+| Marks | 5 | 6 | 7 | 8 | 9 | 10 |
+| Frequency | 3 | 4 | 6 | 4 | 2 | 1 |
+
+# Grouped data
+- When there are many different observations, they are put into groups called **class intervals**.
+- **Class limits**: in the class 10–20, the lower limit is 10 and the upper limit is 20.
+- **Exclusive form**: 0–10, 10–20, 20–30. The upper limit is **not** included, so 10 goes in 10–20.
+- **Inclusive form**: 1–10, 11–20, 21–30. Both limits are included.
+- **Class size (width)** $=$ upper limit $-$ lower limit (in exclusive form).
+- **Class mark** $= \dfrac{\text{upper limit} + \text{lower limit}}{2}$.
+?eg For the class 40–50, find the class size and the class mark.
+=> 10 and 45
+?eg The weights (in kg) of 15 students are: 32, 41, 38, 45, 36, 49, 43, 37, 40, 52, 34, 47, 39, 44, 50. Group them into classes 30–35, 35–40, 40–45, 45–50, 50–55.
+= 30–35: 32, 34. 35–40: 38, 36, 37, 39. 40–45: 41, 43, 40, 44. 45–50: 45, 49, 47. 50–55: 52, 50.
+=> Frequencies 2, 4, 4, 3, 2
+
+# Bar graph
+- A **bar graph** shows ungrouped data with bars of **equal width** and **equal gaps** between them. The height of a bar shows the value.
+- Choose a suitable scale, label both axes and give the graph a title.
+- A **double bar graph** shows two sets of data side by side for comparison.
+
+# Histogram
+- A **histogram** shows **grouped continuous data**. Class intervals are on the horizontal axis and frequencies on the vertical axis.
+- The bars have **no gaps**, because the classes are continuous.
+- With equal class sizes, the heights of the bars are proportional to the frequencies.
+- If the first class does not start at 0, a **kink** (zig-zag) is drawn on the horizontal axis.
+| Marks | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 |
+| Number of students | 4 | 8 | 12 | 10 | 6 |
+!fig w=340 h=210; Q O 50 170; Q X 320 170; Q Y 50 20; L O X; L O Y; Q a1 70 170; Q a2 70 130; Q a3 115 130; Q a4 115 170; Q b2 115 90; Q b3 160 90; Q b4 160 170; Q c2 160 50; Q c3 205 50; Q c4 205 170; Q d2 205 70; Q d3 250 70; Q d4 250 170; Q e2 250 110; Q e3 295 110; Q e4 295 170; F a1 a2 a3 a4; F a4 b2 b3 b4; F b4 c2 c3 c4; F c4 d2 d3 d4; F d4 e2 e3 e4; L a1 a2; L a2 a3; L a3 a4; L a4 b2; L b2 b3; L b3 b4; L b4 c2; L c2 c3; L c3 c4; L c4 d2; L d2 d3; L d3 d4; L d4 e2; L e2 e3; L e3 e4; T 70 186 0; T 115 186 10; T 160 186 20; T 205 186 30; T 250 186 40; T 295 186 50; T 36 134 4; T 36 94 8; T 36 54 12; cap Histogram of the marks of 40 students
+?eg From the histogram above: (i) which class has the highest frequency? (ii) How many students scored 30 or more? (iii) How many scored less than 20?
+=> (i) 20–30 (ii) $10 + 6 = 16$ (iii) $4 + 8 = 12$
+
+# Pie chart
+- A **pie chart** (circle graph) shows how a whole is divided into parts. Each part is a **sector**.
+- The angle of each sector is proportional to the value it represents:
+$$\text{Central angle} = \frac{\text{value of the component}}{\text{total value}} \times 360^\circ$$
+- The central angles add up to $360^\circ$.
+- To read a pie chart: value $= \dfrac{\text{central angle}}{360^\circ} \times$ total.
+| Item | Food | Rent | Education | Savings | Others | Total |
+| Amount (₹) | 6000 | 4000 | 3000 | 2000 | 3000 | 18000 |
+| Central angle | $120^\circ$ | $80^\circ$ | $60^\circ$ | $40^\circ$ | $60^\circ$ | $360^\circ$ |
+!fig w=320 h=205; Q O 160 100; Q p0 230 100; Q p1 125 39.4; Q p2 94.2 124; Q p3 147.8 168.9; Q p4 195 160.6; C O 70; L O p0; L O p1; L O p2; L O p3; L O p4; T 185 68 Food; T 118 88 Rent; T 124 136 Edu.; T 171 150 Sav.; T 198 128 Others; cap Pie chart of a family's monthly spending
+?eg Find the central angles for the family budget in the table.
+= Each ₹18,000 corresponds to $360^\circ$, so ₹1000 corresponds to $20^\circ$.
+=> $120^\circ$, $80^\circ$, $60^\circ$, $40^\circ$, $60^\circ$
+?eg In a pie chart of 720 students, the sector for "cricket" has an angle of $150^\circ$. How many students chose cricket?
+= $\dfrac{150}{360} \times 720$
+=> 300
+?eg A sector of $72^\circ$ stands for ₹2400. Find the total amount shown by the pie chart.
+= $72^\circ$ is $\dfrac{1}{5}$ of the circle.
+=> ₹12,000
+?eg In a pie chart, 35% of the students walk to school. Find the angle of that sector.
+= $0.35 \times 360^\circ$
+=> $126^\circ$
+
+# Choosing a graph
+| Data | Suitable graph |
+| Separate items to compare | Bar graph |
+| Two related sets to compare | Double bar graph |
+| Grouped continuous data | Histogram |
+| Parts of a whole | Pie chart |
+
+# Common mistakes
+- Putting an observation equal to an upper limit in that class (exclusive form). It belongs to the next class.
+- Leaving gaps between the bars of a histogram, or drawing a bar graph without gaps.
+- Central angles that do not add up to $360^\circ$.
+- Using percentages as angles: 25% is $90^\circ$, not $25^\circ$.
+- Forgetting to check that the frequencies add up to the number of observations.
+- Not stating the scale.
+
+@@formulas
+Range | Highest value $-$ lowest value
+Frequency | Number of times an observation occurs
+Class size | Upper limit $-$ lower limit
+Class mark | $\dfrac{\text{upper limit} + \text{lower limit}}{2}$
+Exclusive class $a$–$b$ | Includes $a$, excludes $b$
+Central angle | $\dfrac{\text{component}}{\text{total}} \times 360^\circ$
+Value from an angle | $\dfrac{\text{angle}}{360^\circ} \times$ total
+Percentage to angle | Percentage $\times\ 3.6^\circ$
+Sum of central angles | $360^\circ$
+Histogram | Bars without gaps, for continuous classes
+Bar graph | Bars of equal width with equal gaps
+Total frequency | Number of observations
+
+@@dpp
+Q: Find the range of 23, 45, 17, 38, 52, 29, 41.
+A: 35
+Q: Find the class mark and class size of the class 15–25.
+A: 20 and 10
+Q: In the exclusive classes 0–5, 5–10, 10–15, in which class is 5 placed?
+A: 5–10
+Q: The frequencies of the classes 0–10, 10–20, 20–30, 30–40 are 3, 9, 12, 6. How many observations are below 20? How many in all?
+A: 12; 30
+Q: In a survey of 90 people, 30 like tea. Find the central angle for tea in a pie chart.
+A: $120^\circ$
+Q: A sector of $45^\circ$ in a pie chart of 400 students stands for how many students?
+A: 50
+Q: A family spends 20% of its income on rent. Find the angle of that sector.
+A: $72^\circ$
+Q: A pie chart has sectors of $90^\circ$, $120^\circ$ and $60^\circ$. Find the angle of the fourth sector.
+A: $90^\circ$
+Q: Which graph is suitable for the heights of 50 students grouped in classes?
+A: A histogram
+Q: A sector of $108^\circ$ stands for 60 books. How many books does the whole pie chart show?
+A: 200

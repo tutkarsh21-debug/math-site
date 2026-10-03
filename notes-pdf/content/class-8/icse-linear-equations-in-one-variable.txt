@@ -1,0 +1,144 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 14
+@title Linear Equations in One Variable
+@summary Solving linear equations in one variable, including equations with brackets and fractions, and using equations to solve word problems on numbers, ages, digits, money and geometry.
+
+# Equations
+- An **equation** is a statement that two expressions are equal. It has a left-hand side (L.H.S.) and a right-hand side (R.H.S.).
+- A **linear equation in one variable** has one variable and its highest power is 1. Its general form is $ax + b = 0$, with $a \neq 0$.
+- The **solution (root)** is the value of the variable that makes both sides equal. A linear equation has exactly one solution.
+- **Rules**: the same number may be added to, subtracted from, multiplied into or divided into both sides (not dividing by zero).
+- **Transposing**: a term moved to the other side changes its sign. A multiplier becomes a divisor and a divisor becomes a multiplier.
+- Always **verify** by substituting the solution in the original equation.
+
+# Simple equations
+?eg Solve $5x - 7 = 18$.
+= $5x = 25$
+=> $x = 5$
+?eg Solve $7x + 4 = 3x - 12$.
+= $7x - 3x = -12 - 4$, so $4x = -16$
+=> $x = -4$
+?eg Solve $\dfrac{x}{3} - 2 = 5$.
+= $\dfrac{x}{3} = 7$
+=> $x = 21$
+
+# Equations with brackets
+- Remove the brackets, collect the variable terms on one side and the constants on the other, then simplify.
+?eg Solve $3(x - 2) + 5 = 2(x + 4)$.
+= $3x - 6 + 5 = 2x + 8$, so $3x - 2x = 8 + 1$
+=> $x = 9$
+?eg Solve $5(2x - 1) - 3(x + 4) = 4$.
+= $10x - 5 - 3x - 12 = 4$, so $7x = 21$
+=> $x = 3$
+
+# Equations with fractions
+- Multiply every term by the **LCM of the denominators** to clear the fractions.
+- Put brackets round a numerator with more than one term before multiplying.
+?eg Solve $\dfrac{x}{2} + \dfrac{x}{3} = 10$.
+= Multiply by 6: $3x + 2x = 60$
+=> $x = 12$
+?eg Solve $\dfrac{2x - 1}{3} - \dfrac{x + 2}{4} = 1$.
+= Multiply by 12: $4(2x - 1) - 3(x + 2) = 12$, so $8x - 4 - 3x - 6 = 12$ and $5x = 22$.
+=> $x = \dfrac{22}{5}$
+?eg Solve $\dfrac{3x + 5}{2x - 1} = \dfrac{4}{3}$.
+= Cross-multiply: $3(3x + 5) = 4(2x - 1)$, so $9x + 15 = 8x - 4$.
+=> $x = -19$
+?eg Solve $0.5x + 0.2 = 0.3x + 1.4$.
+= Multiply by 10: $5x + 2 = 3x + 14$
+=> $x = 6$
+
+# Word problems: method
+- Read the problem and decide what is unknown. Call it $x$.
+- Write the other quantities in terms of $x$.
+- Form an equation from the condition given.
+- Solve it, answer in words, and check against the problem.
+| Words | Algebra |
+| 5 more than a number | $x + 5$ |
+| 3 less than twice a number | $2x - 3$ |
+| Three consecutive numbers | $x$, $x + 1$, $x + 2$ |
+| Consecutive even (or odd) numbers | $x$, $x + 2$, $x + 4$ |
+| Two numbers in the ratio $3 : 5$ | $3x$, $5x$ |
+| Two-digit number, digits $x$ (tens) and $y$ (units) | $10x + y$ |
+
+# Numbers
+?eg The sum of three consecutive numbers is 87. Find them.
+= $x + x + 1 + x + 2 = 87$, so $3x = 84$
+=> 28, 29, 30
+?eg One number is 3 times another, and their difference is 36. Find them.
+= $3x - x = 36$
+=> 18 and 54
+?eg A number is as much greater than 21 as it is less than 71. Find it.
+= $x - 21 = 71 - x$
+=> 46
+?eg The sum of the digits of a two-digit number is 11. The number formed by reversing the digits is 27 more than the original. Find the number.
+= Let the units digit be $x$; the tens digit is $11 - x$. Number $= 10(11 - x) + x = 110 - 9x$; reversed $= 10x + 11 - x = 9x + 11$.
+= $9x + 11 - (110 - 9x) = 27$, so $18x = 126$ and $x = 7$.
+=> 47
+
+# Ages and money
+?eg A father is 30 years older than his son. In 5 years he will be 3 times as old as his son. Find their present ages.
+= Son $x$, father $x + 30$. $x + 35 = 3(x + 5)$, so $2x = 20$.
+=> Son 10 years, father 40 years
+?eg The ages of A and B are in the ratio $5 : 7$. Four years ago the ratio was $2 : 3$. Find their present ages.
+= $\dfrac{5x - 4}{7x - 4} = \dfrac{2}{3}$, so $15x - 12 = 14x - 8$ and $x = 4$.
+=> 20 years and 28 years
+?eg A purse has ₹5 and ₹2 coins, 40 coins in all, worth ₹140. How many coins of each kind are there?
+= ₹5 coins $x$, ₹2 coins $40 - x$: $5x + 2(40 - x) = 140$, so $3x = 60$.
+=> 20 coins of each kind
+
+# Geometry and speed
+?eg The length of a rectangle is 5 cm more than its breadth and its perimeter is 50 cm. Find its sides.
+= $2(x + x + 5) = 50$, so $2x + 5 = 25$
+=> Breadth 10 cm, length 15 cm
+?eg The angles of a triangle are $x$, $x + 20^\circ$ and $2x$. Find them.
+= $4x + 20 = 180$
+=> $40^\circ$, $60^\circ$, $80^\circ$
+?eg A man walks from home to a station at 4 km/h and returns at 6 km/h. The whole trip takes 5 hours. Find the distance.
+= $\dfrac{d}{4} + \dfrac{d}{6} = 5$; multiply by 12: $5d = 60$
+=> 12 km
+
+# Common mistakes
+- Forgetting to change the sign when transposing a term.
+- Multiplying only some of the terms by the LCM.
+- Dropping the bracket after a minus sign: $-(x + 2)$ is $-x - 2$.
+- Answering with $x$ when the question asks for another quantity (for example the father's age).
+- Writing a two-digit number as $xy$.
+- Not checking the answer in the original problem.
+
+@@formulas
+General form | $ax + b = 0$, $a \neq 0$
+Solution | $x = -\dfrac{b}{a}$
+Transposition | A term changes sign on crossing the equals sign
+Fractions | Multiply all terms by the LCM of the denominators
+Cross-multiplication | $\dfrac{a}{b} = \dfrac{c}{d}$ gives $ad = bc$
+Consecutive numbers | $x$, $x + 1$, $x + 2$
+Consecutive even or odd numbers | $x$, $x + 2$, $x + 4$
+Two-digit number | $10 \times$ tens digit $+$ units digit
+Age after $n$ years | Present age $+ n$
+Perimeter of a rectangle | $2(l + b)$
+Time | $\dfrac{\text{distance}}{\text{speed}}$
+Angle sum of a triangle | $180^\circ$
+
+@@dpp
+Q: Solve $4x + 9 = 33$.
+A: $x = 6$
+Q: Solve $9x - 5 = 4x + 20$.
+A: $x = 5$
+Q: Solve $2(3x - 1) = 4(x + 3)$.
+A: $x = 7$
+Q: Solve $\dfrac{x}{4} + \dfrac{x}{6} = 5$.
+A: $x = 12$
+Q: Solve $\dfrac{x + 3}{2} - \dfrac{x - 2}{5} = 4$.
+A: $x = 7$
+Q: Solve $\dfrac{2x + 1}{3x - 2} = \dfrac{5}{4}$.
+A: $x = 2$
+Q: The sum of three consecutive even numbers is 96. Find them.
+A: 30, 32, 34
+Q: A mother is 4 times as old as her daughter. In 6 years she will be 3 times as old. Find their present ages.
+A: Daughter 12 years, mother 48 years
+Q: The length of a rectangle is twice its breadth and its perimeter is 72 cm. Find its sides.
+A: 12 cm and 24 cm
+Q: A number increased by 15% becomes 92. Find the number.
+A: 80

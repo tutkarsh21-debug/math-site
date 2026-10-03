@@ -1,0 +1,141 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 8
+@title Profit, Loss and Discount
+@summary Cost price, selling price, profit and loss as amounts and percentages, overhead expenses, marked price and discount, successive discounts and tax on sales.
+
+# Basic terms
+- **Cost price (C.P.)**: the price at which an article is bought. **Selling price (S.P.)**: the price at which it is sold.
+- **Overheads**: extra expenses such as transport, repairs and labour. They are **added to the cost price**.
+- **Profit (gain)** $=$ S.P. $-$ C.P., when S.P. $>$ C.P.
+- **Loss** $=$ C.P. $-$ S.P., when C.P. $>$ S.P.
+- Profit and loss percentages are always calculated **on the cost price**.
+$$\text{Profit}\% = \frac{\text{Profit}}{\text{C.P.}} \times 100, \qquad \text{Loss}\% = \frac{\text{Loss}}{\text{C.P.}} \times 100$$
+?eg A table bought for ₹1600 is sold for ₹1840. Find the profit per cent.
+= Profit $= 240$. $\dfrac{240}{1600} \times 100$
+=> 15%
+?eg A man buys a second-hand cycle for ₹2400, spends ₹300 on repairs and sells it for ₹2430. Find his loss per cent.
+= Total C.P. $= 2700$. Loss $= 270$. $\dfrac{270}{2700} \times 100$
+=> 10%
+
+# Finding S.P. and C.P.
+| To find | Given a profit of $p\%$ | Given a loss of $l\%$ |
+| S.P. | C.P. $\times \dfrac{100 + p}{100}$ | C.P. $\times \dfrac{100 - l}{100}$ |
+| C.P. | S.P. $\times \dfrac{100}{100 + p}$ | S.P. $\times \dfrac{100}{100 - l}$ |
+?eg A fan costs ₹1500. At what price must it be sold to gain 12%?
+= $1500 \times \dfrac{112}{100}$
+=> ₹1680
+?eg By selling a watch for ₹1140 a shopkeeper loses 5%. Find the cost price.
+= $1140 \times \dfrac{100}{95}$
+=> ₹1200
+?eg By selling an article for ₹720 a man loses 10%. At what price should he sell it to gain 5%?
+= C.P. $= 720 \times \dfrac{100}{90} = 800$. New S.P. $= 800 \times \dfrac{105}{100}$.
+=> ₹840
+
+# Several articles
+- When the C.P. of $x$ articles equals the S.P. of $y$ articles, take the C.P. of one article as ₹1.
+- When articles are bought at one rate and sold at another, find the C.P. and S.P. of the **same number** of articles (use the LCM).
+- Two articles sold at the **same price**, one at a gain of $x\%$ and the other at a loss of $x\%$: there is always a **loss of $\dfrac{x^2}{100}\%$** overall.
+?eg The cost price of 12 pens equals the selling price of 10 pens. Find the profit per cent.
+= Let the C.P. of one pen be ₹1. S.P. of 10 pens $= 12$, C.P. of 10 pens $= 10$.
+=> $\dfrac{2}{10} \times 100 = 20\%$ profit
+?eg Lemons are bought at 5 for ₹20 and sold at 4 for ₹20. Find the gain per cent.
+= C.P. of one $= 4$; S.P. of one $= 5$.
+=> 25%
+?eg A man sells two radios for ₹1980 each, gaining 10% on one and losing 10% on the other. Find his overall gain or loss.
+= C.P. of the first $= 1980 \times \dfrac{100}{110} = 1800$; of the second $= 1980 \times \dfrac{100}{90} = 2200$.
+= Total C.P. $= 4000$; total S.P. $= 3960$.
+=> A loss of ₹40, that is 1%
+
+# Discount
+- **Marked price (M.P.)** or list price: the price printed on the article.
+- **Discount**: a reduction offered on the marked price. Discount is always calculated **on the marked price**.
+- S.P. $=$ M.P. $-$ discount $=$ M.P. $\times \dfrac{100 - d}{100}$, where $d$ is the discount per cent.
+$$\text{Discount}\% = \frac{\text{Discount}}{\text{M.P.}} \times 100$$
+?eg A shirt marked ₹800 is sold at a discount of 15%. Find the selling price.
+= $800 \times \dfrac{85}{100}$
+=> ₹680
+?eg After a discount of 20%, a bag is sold for ₹960. Find its marked price.
+= $960 \times \dfrac{100}{80}$
+=> ₹1200
+?eg An article marked ₹1250 is sold for ₹1100. Find the discount per cent.
+= $\dfrac{150}{1250} \times 100$
+=> 12%
+
+# Marked price, discount and profit together
+- First get the S.P. from the M.P. and the discount; then compare the S.P. with the C.P.
+- To fix the marked price: find the required S.P. from the C.P. and profit, then divide by $\dfrac{100 - d}{100}$.
+?eg A shopkeeper buys an article for ₹600 and marks it 30% above the cost price. He allows a discount of 10%. Find his profit per cent.
+= M.P. $= 780$. S.P. $= 780 \times 0.9 = 702$. Profit $= 102$.
+=> 17%
+?eg How much above the cost price must a trader mark his goods so that after allowing a discount of 20% he still gains 12%?
+= Let C.P. $= 100$. Required S.P. $= 112$. M.P. $= 112 \times \dfrac{100}{80} = 140$.
+=> 40% above the cost price
+
+# Successive discounts
+- Two discounts of $d_1\%$ and $d_2\%$ one after the other: S.P. $=$ M.P. $\times \dfrac{100 - d_1}{100} \times \dfrac{100 - d_2}{100}$.
+- They are equivalent to a single discount of $\left(d_1 + d_2 - \dfrac{d_1d_2}{100}\right)\%$, which is less than $d_1 + d_2$.
+?eg Find the single discount equivalent to successive discounts of 20% and 10%.
+= $20 + 10 - \dfrac{200}{100}$
+=> 28%
+?eg A washing machine marked ₹15,000 is sold with successive discounts of 10% and 5%. Find the selling price.
+= $15000 \times 0.9 \times 0.95$
+=> ₹12,825
+
+# Tax on sales
+- A tax such as GST is charged as a percentage of the **selling price** and added to the bill.
+- Amount paid $=$ S.P. $\times \left(1 + \dfrac{\text{tax}\%}{100}\right)$.
+- If the price **includes** tax, the price before tax $=$ amount paid $\div \left(1 + \dfrac{\text{tax}\%}{100}\right)$.
+?eg A pair of shoes is priced at ₹1500 and the tax is 12%. Find the amount to be paid.
+= $1500 \times 1.12$
+=> ₹1680
+?eg A fan is bought for ₹2360 including tax at 18%. Find its price before tax.
+= $2360 \div 1.18$
+=> ₹2000
+
+# Common mistakes
+- Calculating profit% or loss% on the selling price.
+- Calculating discount on the cost price instead of the marked price.
+- Leaving out the overheads from the cost price.
+- Adding successive discounts: 20% and 10% make 28%, not 30%.
+- Using $100 + l$ for a loss or $100 - p$ for a profit.
+- Finding the C.P. by taking the percentage of the S.P.
+
+@@formulas
+Profit | S.P. $-$ C.P.
+Loss | C.P. $-$ S.P.
+Profit% or loss% | $\dfrac{\text{profit or loss}}{\text{C.P.}} \times 100$
+S.P. at a profit | C.P. $\times \dfrac{100 + p}{100}$
+S.P. at a loss | C.P. $\times \dfrac{100 - l}{100}$
+C.P. from S.P. (profit) | S.P. $\times \dfrac{100}{100 + p}$
+C.P. from S.P. (loss) | S.P. $\times \dfrac{100}{100 - l}$
+Total cost | C.P. $+$ overheads
+Discount | M.P. $-$ S.P.
+Discount% | $\dfrac{\text{discount}}{\text{M.P.}} \times 100$
+S.P. after a discount | M.P. $\times \dfrac{100 - d}{100}$
+Successive discounts | $d_1 + d_2 - \dfrac{d_1d_2}{100}$
+Same S.P., gain and loss of $x\%$ | Loss of $\dfrac{x^2}{100}\%$
+Price with tax | S.P. $\times \left(1 + \dfrac{\text{tax}\%}{100}\right)$
+
+@@dpp
+Q: A chair bought for ₹750 is sold for ₹900. Find the profit per cent.
+A: 20%
+Q: A man buys a scooter for ₹18,000, spends ₹2000 on repairs and sells it for ₹19,000. Find his loss per cent.
+A: 5%
+Q: An article costs ₹2500. At what price must it be sold to gain 8%?
+A: ₹2700
+Q: By selling a book for ₹276 a shopkeeper gains 15%. Find the cost price.
+A: ₹240
+Q: The cost price of 15 articles equals the selling price of 12 articles. Find the profit per cent.
+A: 25%
+Q: A saree marked ₹2400 is sold at a discount of 12.5%. Find the selling price.
+A: ₹2100
+Q: After a discount of 25%, a toy is sold for ₹450. Find its marked price.
+A: ₹600
+Q: Find the single discount equivalent to successive discounts of 25% and 20%.
+A: 40%
+Q: A shopkeeper marks his goods 40% above cost and gives a discount of 25%. Find his profit or loss per cent.
+A: $1.4 \times 0.75 = 1.05$; a profit of 5%
+Q: A watch priced at ₹2500 is sold with tax at 18%. Find the amount paid.
+A: ₹2950

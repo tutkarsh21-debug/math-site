@@ -1,0 +1,131 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 10
+@title Direct and Inverse Variations
+@summary Direct and inverse variation, the unitary method, and problems on time and work, pipes and cisterns, and men and days.
+
+# Direct variation
+- Two quantities are in **direct variation** if an increase (or decrease) in one causes a **proportional** increase (or decrease) in the other.
+- If $x$ and $y$ vary directly, the ratio $\dfrac{x}{y}$ is **constant**: $\dfrac{x_1}{y_1} = \dfrac{x_2}{y_2}$.
+- Examples: number of articles and their cost; distance and time at a fixed speed; work done and wages.
+| Number of pens ($x$) | 2 | 5 | 8 | 12 |
+| Cost in ₹ ($y$) | 30 | 75 | 120 | 180 |
+- In the table $\dfrac{x}{y} = \dfrac{1}{15}$ throughout.
+?eg If 15 notebooks cost ₹675, find the cost of 22 notebooks.
+= $\dfrac{15}{675} = \dfrac{22}{y}$, so $y = \dfrac{675 \times 22}{15}$
+=> ₹990
+?eg A car uses 12 litres of petrol for 180 km. How far can it go on 20 litres?
+= $\dfrac{12}{180} = \dfrac{20}{d}$
+=> 300 km
+
+# Inverse variation
+- Two quantities are in **inverse variation** if an increase in one causes a **proportional decrease** in the other.
+- If $x$ and $y$ vary inversely, the product $xy$ is **constant**: $x_1y_1 = x_2y_2$.
+- Examples: number of workers and days for a job; speed and time for a fixed distance; number of animals and days a stock of food lasts.
+| Speed in km/h ($x$) | 20 | 30 | 40 | 60 |
+| Time in hours ($y$) | 6 | 4 | 3 | 2 |
+- In the table $xy = 120$ throughout.
+?eg 12 workers can build a wall in 15 days. How many days will 20 workers take?
+= $12 \times 15 = 20 \times d$
+=> 9 days
+?eg A car takes 4 hours at 60 km/h. How long will it take at 80 km/h?
+= $60 \times 4 = 80 \times t$
+=> 3 hours
+?eg A hostel has food for 120 students for 30 days. If 30 more students join, how long will the food last?
+= $120 \times 30 = 150 \times d$
+=> 24 days
+
+# Unitary method
+- Find the value for **one unit** first, then for the required number of units.
+- In direct variation, divide to get one unit and then multiply. In inverse variation, multiply to get one unit and then divide.
+?eg 8 men earn ₹4800 in a day. How much do 11 men earn?
+= One man earns ₹600.
+=> ₹6600
+?eg 6 pipes fill a tank in 40 minutes. How long do 8 pipes take?
+= One pipe takes $6 \times 40 = 240$ minutes.
+=> 30 minutes
+
+# Time and work
+- If a person does a piece of work in $n$ days, the work done in **one day** is $\dfrac{1}{n}$.
+- If the work done in one day is $\dfrac{1}{n}$, the whole work takes $n$ days.
+- If A takes $a$ days and B takes $b$ days, together they do $\dfrac{1}{a} + \dfrac{1}{b}$ of the work in a day and finish in $\dfrac{ab}{a + b}$ days.
+- Wages are shared in the ratio of the **work done**.
+?eg A can do a piece of work in 12 days and B in 18 days. How long do they take together?
+= One day's work $= \dfrac{1}{12} + \dfrac{1}{18} = \dfrac{5}{36}$
+=> $\dfrac{36}{5} = 7\tfrac{1}{5}$ days
+?eg A and B together finish a job in 6 days. A alone takes 10 days. How long does B alone take?
+= B's one day's work $= \dfrac{1}{6} - \dfrac{1}{10} = \dfrac{1}{15}$
+=> 15 days
+?eg A can do a job in 20 days and B in 30 days. They work together for 6 days and then A leaves. How long does B take to finish the rest?
+= Work done in 6 days $= 6 \times \left(\dfrac{1}{20} + \dfrac{1}{30}\right) = \dfrac{1}{2}$. Remaining work $= \dfrac{1}{2}$.
+=> $\dfrac{1}{2} \times 30 = 15$ days
+?eg A, B and C can do a job in 10, 12 and 15 days. How long do all three take together?
+= $\dfrac{1}{10} + \dfrac{1}{12} + \dfrac{1}{15} = \dfrac{6 + 5 + 4}{60} = \dfrac{1}{4}$
+=> 4 days
+?eg A and B do a job for ₹900. A alone can do it in 12 days and B alone in 6 days. How should the money be shared?
+= One day's work is in the ratio $\dfrac{1}{12} : \dfrac{1}{6} = 1 : 2$.
+=> A ₹300, B ₹600
+
+# Pipes and cisterns
+- A pipe that fills a tank in $n$ hours fills $\dfrac{1}{n}$ of it in one hour. This is treated as positive work.
+- An outlet that empties a tank in $m$ hours empties $\dfrac{1}{m}$ in one hour. This is treated as **negative** work.
+?eg Two taps fill a tank in 10 hours and 15 hours. How long do they take together?
+= $\dfrac{1}{10} + \dfrac{1}{15} = \dfrac{1}{6}$
+=> 6 hours
+?eg A tap fills a tank in 8 hours and a leak empties it in 12 hours. With both working, how long does the tank take to fill?
+= $\dfrac{1}{8} - \dfrac{1}{12} = \dfrac{1}{24}$
+=> 24 hours
+
+# More than two quantities
+- When three quantities are involved (men, hours a day, days), decide for each one whether it varies directly or inversely with the unknown.
+- For the same work: men $\times$ days $\times$ hours a day is constant. In general $\dfrac{M_1D_1H_1}{W_1} = \dfrac{M_2D_2H_2}{W_2}$.
+?eg 15 men working 8 hours a day finish a job in 12 days. How many days do 20 men take working 6 hours a day?
+= $15 \times 8 \times 12 = 20 \times 6 \times d$
+=> 12 days
+?eg 10 men dig a trench 50 m long in 4 days. How many men are needed to dig 150 m in 6 days?
+= $\dfrac{10 \times 4}{50} = \dfrac{m \times 6}{150}$
+=> 20 men
+
+# Common mistakes
+- Using a direct proportion for men and days. More men need fewer days.
+- Adding the times of two workers. Add their one-day work instead.
+- Forgetting to subtract the work of a leak or outlet.
+- Sharing wages in the ratio of the days taken. Use the ratio of work done.
+- Not checking units: hours with hours, days with days.
+
+@@formulas
+Direct variation | $\dfrac{x_1}{y_1} = \dfrac{x_2}{y_2}$
+Inverse variation | $x_1y_1 = x_2y_2$
+One day's work | $\dfrac{1}{\text{number of days for the whole work}}$
+Two workers together | $\dfrac{ab}{a + b}$ days
+Three workers together | $1 \div \left(\dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c}\right)$ days
+B alone | $\dfrac{1}{b} = \dfrac{1}{t} - \dfrac{1}{a}$
+Remaining work | $1 -$ work done
+Wages | Shared in the ratio of work done
+Filling and emptying | Net rate $= \dfrac{1}{n} - \dfrac{1}{m}$
+Men, days and hours | $\dfrac{M_1D_1H_1}{W_1} = \dfrac{M_2D_2H_2}{W_2}$
+Speed and time | Speed $\times$ time $=$ distance (constant)
+Unitary method | Find the value for one unit first
+
+@@dpp
+Q: If 7 kg of rice cost ₹455, find the cost of 12 kg.
+A: ₹780
+Q: 18 men can reap a field in 20 days. How many days will 24 men take?
+A: 15 days
+Q: A train takes 5 hours at 72 km/h. How long will it take at 90 km/h?
+A: 4 hours
+Q: Food for 80 soldiers lasts 45 days. For how many days will it last 100 soldiers?
+A: 36 days
+Q: A can do a job in 15 days and B in 10 days. How long do they take together?
+A: 6 days
+Q: A and B together finish a job in 12 days. A alone takes 20 days. How long does B alone take?
+A: 30 days
+Q: A does a job in 8 days. What fraction of it does A do in 3 days, and what fraction is left?
+A: $\dfrac{3}{8}$ done; $\dfrac{5}{8}$ left
+Q: Two taps fill a tank in 12 hours and 6 hours. How long do they take together?
+A: 4 hours
+Q: A tap fills a tank in 6 hours and an outlet empties it in 9 hours. With both open, how long does it take to fill?
+A: 18 hours
+Q: 12 men working 6 hours a day finish a job in 10 days. How many days do 9 men take working 8 hours a day?
+A: 10 days

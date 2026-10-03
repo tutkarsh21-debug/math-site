@@ -1,0 +1,124 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 16
+@title Understanding Shapes
+@summary Curves and polygons, convex and concave polygons, regular polygons, the sum of the interior and exterior angles of a polygon, and the number of diagonals.
+
+# Curves and polygons
+- A **simple curve** does not cross itself. A **closed curve** begins and ends at the same point.
+- A **polygon** is a simple closed curve made only of line segments. The segments are its **sides** and their end points its **vertices**.
+- A **diagonal** joins two vertices that are not next to each other.
+- **Adjacent sides** share a vertex. **Adjacent vertices** are the ends of one side.
+| Number of sides | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| Name | Triangle | Quadrilateral | Pentagon | Hexagon | Heptagon | Octagon | Nonagon | Decagon |
+
+# Convex and concave polygons
+- **Convex polygon**: every interior angle is less than $180^\circ$. All its diagonals lie inside it.
+- **Concave polygon**: at least one interior angle is greater than $180^\circ$ (a reflex angle). At least one diagonal lies partly outside.
+- Unless told otherwise, "polygon" means a convex polygon.
+!fig w=330 h=170; Q a 40 60; Q b 90 30; Q c 140 60; Q d 125 130; Q e 55 130; L a b; L b c; L c d; L d e; L e a; Q p 200 40; Q q 300 40; Q r 300 130; Q s 250 85; Q t 200 130; L p q; L q r; L r s; L s t; L t p; T 90 150 convex; T 250 150 concave; cap A convex pentagon and a concave pentagon
+
+# Regular polygons
+- A **regular polygon** has **all sides equal** and **all angles equal**. Examples: equilateral triangle, square, regular hexagon.
+- A rhombus has equal sides but is not regular (its angles differ). A rectangle has equal angles but is not regular (its sides differ).
+
+# Interior angles
+- A polygon of $n$ sides can be divided into $n - 2$ triangles by the diagonals from one vertex.
+$$\text{Sum of the interior angles} = (n - 2) \times 180^\circ = (2n - 4) \text{ right angles}$$
+| Polygon | Sides | Sum of interior angles | Each angle if regular |
+| Triangle | 3 | $180^\circ$ | $60^\circ$ |
+| Quadrilateral | 4 | $360^\circ$ | $90^\circ$ |
+| Pentagon | 5 | $540^\circ$ | $108^\circ$ |
+| Hexagon | 6 | $720^\circ$ | $120^\circ$ |
+| Octagon | 8 | $1080^\circ$ | $135^\circ$ |
+| Decagon | 10 | $1440^\circ$ | $144^\circ$ |
+- Each interior angle of a regular polygon $= \dfrac{(n - 2) \times 180^\circ}{n}$.
+?eg Find the sum of the interior angles of a polygon with 12 sides.
+= $(12 - 2) \times 180^\circ$
+=> $1800^\circ$
+?eg The sum of the interior angles of a polygon is $1260^\circ$. How many sides does it have?
+= $(n - 2) \times 180 = 1260$, so $n - 2 = 7$
+=> 9 sides
+?eg Four angles of a pentagon are $100^\circ$, $110^\circ$, $95^\circ$ and $125^\circ$. Find the fifth.
+= $540^\circ - 430^\circ$
+=> $110^\circ$
+?eg The angles of a hexagon are $x$, $x + 10^\circ$, $x + 20^\circ$, $x + 30^\circ$, $x + 40^\circ$ and $x + 50^\circ$. Find $x$.
+= $6x + 150 = 720$
+=> $x = 95^\circ$
+
+# Exterior angles
+- An **exterior angle** is formed when a side is produced. At each vertex, interior angle $+$ exterior angle $= 180^\circ$.
+- **The sum of the exterior angles of any convex polygon, one at each vertex, is $360^\circ$.**
+- For a regular polygon of $n$ sides: each exterior angle $= \dfrac{360^\circ}{n}$, so $n = \dfrac{360^\circ}{\text{exterior angle}}$.
+- Each interior angle of a regular polygon $= 180^\circ - \dfrac{360^\circ}{n}$.
+!fig w=300 h=190; P A 70 150 bl; P B 210 150 b; P C 250 60 tr; P D 140 20 t; P E 50 70 l; Q X 280 150; L A B; L B C; L C D; L D E; L E A; D B X; A X B C ext; cap The exterior angle at B is formed by producing AB
+?eg Find each exterior angle and each interior angle of a regular polygon of 15 sides.
+= Exterior: $360^\circ \div 15$. Interior: $180^\circ - 24^\circ$.
+=> $24^\circ$ and $156^\circ$
+?eg Each exterior angle of a regular polygon is $40^\circ$. How many sides does it have?
+= $360 \div 40$
+=> 9
+?eg Each interior angle of a regular polygon is $140^\circ$. Find the number of sides.
+= Exterior angle $= 40^\circ$
+=> 9
+?eg Can a regular polygon have each exterior angle equal to $50^\circ$?
+= $360 \div 50 = 7.2$, which is not a whole number.
+=> No
+?eg The ratio of each interior angle to each exterior angle of a regular polygon is $4 : 1$. Find the number of sides.
+= $4x + x = 180^\circ$, so the exterior angle is $36^\circ$.
+=> 10 sides
+
+# Diagonals
+- From one vertex of an $n$-sided polygon, $n - 3$ diagonals can be drawn.
+$$\text{Number of diagonals} = \frac{n(n - 3)}{2}$$
+?eg How many diagonals does an octagon have?
+= $\dfrac{8 \times 5}{2}$
+=> 20
+?eg A polygon has 35 diagonals. How many sides does it have?
+= $n(n - 3) = 70 = 10 \times 7$
+=> 10 sides
+
+# Common mistakes
+- Using $(n - 2) \times 180^\circ$ for the sum of the exterior angles. That sum is always $360^\circ$.
+- Taking $n \times 180^\circ$ as the interior angle sum.
+- Calling a rhombus or a rectangle a regular polygon.
+- Finding the number of sides from the interior angle by dividing $360^\circ$ by it. Use the exterior angle.
+- Counting sides as diagonals.
+- Accepting a number of sides that is not a whole number.
+
+@@formulas
+Interior angle sum | $(n - 2) \times 180^\circ$
+In right angles | $(2n - 4)$ right angles
+Exterior angle sum | $360^\circ$
+Interior $+$ exterior at a vertex | $180^\circ$
+Regular polygon, exterior angle | $\dfrac{360^\circ}{n}$
+Regular polygon, interior angle | $\dfrac{(n - 2) \times 180^\circ}{n}$
+Number of sides | $\dfrac{360^\circ}{\text{exterior angle}}$
+Diagonals from one vertex | $n - 3$
+Number of diagonals | $\dfrac{n(n - 3)}{2}$
+Triangles from one vertex | $n - 2$
+Regular pentagon, hexagon, octagon | $108^\circ$, $120^\circ$, $135^\circ$
+Convex polygon | Every interior angle less than $180^\circ$
+
+@@dpp
+Q: Find the sum of the interior angles of a heptagon.
+A: $900^\circ$
+Q: The sum of the interior angles of a polygon is $1620^\circ$. Find the number of sides.
+A: 11
+Q: Find each interior angle of a regular nonagon.
+A: $140^\circ$
+Q: Each exterior angle of a regular polygon is $18^\circ$. Find the number of sides.
+A: 20
+Q: Each interior angle of a regular polygon is $150^\circ$. Find the number of sides.
+A: 12
+Q: Five angles of a hexagon are $120^\circ$ each. Find the sixth.
+A: $120^\circ$
+Q: The angles of a quadrilateral are in the ratio $2 : 3 : 5 : 8$. Find them.
+A: $40^\circ, 60^\circ, 100^\circ, 160^\circ$
+Q: How many diagonals does a decagon have?
+A: 35
+Q: Is a regular polygon with each interior angle $100^\circ$ possible?
+A: No; the exterior angle would be $80^\circ$ and $360 \div 80$ is not a whole number
+Q: The interior angle of a regular polygon is 5 times its exterior angle. Find the number of sides.
+A: Exterior angle $30^\circ$; 12 sides

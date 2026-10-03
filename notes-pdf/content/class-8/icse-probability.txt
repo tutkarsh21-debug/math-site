@@ -1,0 +1,139 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 23
+@title Probability
+@summary Random experiments, outcomes and events, the probability of an event with equally likely outcomes, and standard problems on coins, dice, cards and coloured balls.
+
+# Basic terms
+- An **experiment** is an action that gives a definite result. A **random experiment** is one whose result cannot be predicted beforehand, though all the possible results are known.
+- Each possible result is an **outcome**. The set of all outcomes is the **sample space** $S$.
+- An **event** is one or more outcomes of the experiment. The outcomes that make it happen are **favourable** to it.
+- Outcomes are **equally likely** when each has the same chance of happening, as with a fair coin or an unbiased die.
+| Experiment | Sample space | Number of outcomes |
+| Tossing a coin | H, T | 2 |
+| Tossing two coins | HH, HT, TH, TT | 4 |
+| Throwing a die | 1, 2, 3, 4, 5, 6 | 6 |
+| Drawing a card from a pack | 52 cards | 52 |
+
+# Probability of an event
+- When all the outcomes are equally likely:
+$$P(E) = \frac{\text{number of outcomes favourable to } E}{\text{total number of outcomes}}$$
+- Probability is a number from 0 to 1: $0 \leq P(E) \leq 1$.
+- An **impossible event** has probability 0. A **sure (certain) event** has probability 1.
+- The event "not E" is the **complement** of E: $P(E) + P(\text{not } E) = 1$.
+- The probabilities of all the outcomes of an experiment add up to 1.
+?eg A coin is tossed once. Find the probability of getting a head.
+=> $\dfrac{1}{2}$
+?eg A die is thrown once. Find the probability of getting (i) a 4 (ii) an even number (iii) a number greater than 4 (iv) a 7.
+= Favourable outcomes: (i) 1 (ii) 2, 4, 6 (iii) 5, 6 (iv) none.
+=> (i) $\dfrac{1}{6}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{1}{3}$ (iv) 0
+?eg The probability that it will rain tomorrow is 0.35. Find the probability that it will not rain.
+= $1 - 0.35$
+=> 0.65
+
+# Coins
+- Two coins tossed together (or one coin tossed twice) give 4 outcomes: HH, HT, TH, TT.
+- Three coins give 8 outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.
+?eg Two coins are tossed together. Find the probability of getting (i) two heads (ii) exactly one head (iii) at least one head.
+= (i) HH (ii) HT, TH (iii) HH, HT, TH
+=> (i) $\dfrac{1}{4}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{3}{4}$
+?eg Three coins are tossed. Find the probability of getting exactly two tails.
+= Favourable: HTT, THT, TTH
+=> $\dfrac{3}{8}$
+
+# Dice
+- A die has faces 1 to 6. Prime numbers on it: 2, 3, 5. Composite numbers: 4, 6. The number 1 is neither.
+- Two dice thrown together give $6 \times 6 = 36$ outcomes, written as ordered pairs $(a, b)$.
+| Sum of the two dice | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| Number of ways | 1 | 2 | 3 | 4 | 5 | 6 | 5 | 4 | 3 | 2 | 1 |
+?eg A die is thrown once. Find the probability of getting a prime number.
+= 2, 3, 5
+=> $\dfrac{1}{2}$
+?eg Two dice are thrown together. Find the probability that (i) the sum is 8 (ii) both show the same number (iii) the sum is less than 5.
+= (i) $(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)$: 5 ways. (ii) 6 doublets. (iii) Sums 2, 3, 4: $1 + 2 + 3 = 6$ ways.
+=> (i) $\dfrac{5}{36}$ (ii) $\dfrac{1}{6}$ (iii) $\dfrac{1}{6}$
+
+# Playing cards
+- A pack has **52 cards** in 4 suits of 13 cards each: spades and clubs (black), hearts and diamonds (red).
+- Each suit has an ace, the numbers 2 to 10, and three **face cards**: jack, queen and king.
+| Kind of card | Number in the pack |
+| Red cards | 26 |
+| Black cards | 26 |
+| Cards of one suit | 13 |
+| Aces | 4 |
+| Kings (or queens, or jacks) | 4 |
+| Face cards | 12 |
+?eg A card is drawn at random from a well-shuffled pack. Find the probability that it is (i) a king (ii) a red card (iii) a face card (iv) the ace of spades (v) not a heart.
+=> (i) $\dfrac{4}{52} = \dfrac{1}{13}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{12}{52} = \dfrac{3}{13}$ (iv) $\dfrac{1}{52}$ (v) $\dfrac{39}{52} = \dfrac{3}{4}$
+?eg Find the probability of drawing a black queen.
+= There are 2 black queens.
+=> $\dfrac{1}{26}$
+
+# Balls, numbers and letters
+?eg A bag has 5 red, 4 blue and 3 green balls. One ball is drawn at random. Find the probability that it is (i) blue (ii) not red (iii) red or green.
+= Total 12 balls.
+=> (i) $\dfrac{1}{3}$ (ii) $\dfrac{7}{12}$ (iii) $\dfrac{8}{12} = \dfrac{2}{3}$
+?eg Cards numbered 1 to 20 are mixed and one is drawn. Find the probability that the number is (i) a multiple of 3 (ii) a prime (iii) a perfect square.
+= (i) 3, 6, 9, 12, 15, 18. (ii) 2, 3, 5, 7, 11, 13, 17, 19. (iii) 1, 4, 9, 16.
+=> (i) $\dfrac{3}{10}$ (ii) $\dfrac{2}{5}$ (iii) $\dfrac{1}{5}$
+?eg A letter is chosen at random from the word ARITHMETIC. Find the probability that it is a vowel.
+= The word has 10 letters; the vowels are A, I, E, I.
+=> $\dfrac{2}{5}$
+?eg A bag has 6 white balls and some black balls. The probability of drawing a black ball is $\dfrac{3}{5}$. How many black balls are there?
+= $\dfrac{x}{x + 6} = \dfrac{3}{5}$, so $5x = 3x + 18$
+=> 9
+
+# Experimental probability
+- When an experiment is repeated many times, the **experimental probability** of an event is
+$$\frac{\text{number of trials in which the event happened}}{\text{total number of trials}}$$
+- As the number of trials increases, it comes closer to the theoretical probability.
+?eg A coin is tossed 200 times and heads appears 112 times. Find the experimental probability of a tail.
+= Tails: 88 times.
+=> $\dfrac{88}{200} = \dfrac{11}{25}$
+?eg In a batch of 500 bulbs, 20 are defective. Find the probability that a bulb chosen at random is not defective.
+=> $\dfrac{480}{500} = \dfrac{24}{25}$
+
+# Common mistakes
+- Counting HT and TH as one outcome.
+- Taking the number of outcomes for two dice as 12 instead of 36.
+- Counting 1 as a prime number.
+- Counting aces as face cards.
+- Giving a probability greater than 1 or less than 0.
+- For "at least one", counting only "exactly one".
+
+@@formulas
+Probability | $P(E) = \dfrac{\text{favourable outcomes}}{\text{total outcomes}}$
+Range | $0 \leq P(E) \leq 1$
+Impossible event | $P = 0$
+Sure event | $P = 1$
+Complement | $P(\text{not } E) = 1 - P(E)$
+One coin | 2 outcomes
+Two coins | 4 outcomes
+Three coins | 8 outcomes
+One die | 6 outcomes
+Two dice | 36 outcomes
+Pack of cards | 52 cards, 4 suits of 13, 12 face cards
+Experimental probability | $\dfrac{\text{times the event happened}}{\text{number of trials}}$
+
+@@dpp
+Q: A die is thrown once. Find the probability of getting a number less than 3.
+A: $\dfrac{1}{3}$
+Q: A die is thrown once. Find the probability of getting a multiple of 3.
+A: $\dfrac{1}{3}$
+Q: Two coins are tossed. Find the probability of getting no head.
+A: $\dfrac{1}{4}$
+Q: Three coins are tossed. Find the probability of getting at least two heads.
+A: $\dfrac{4}{8} = \dfrac{1}{2}$
+Q: Two dice are thrown. Find the probability that the sum is 7.
+A: $\dfrac{1}{6}$
+Q: A card is drawn from a pack of 52. Find the probability that it is a diamond.
+A: $\dfrac{1}{4}$
+Q: A card is drawn from a pack of 52. Find the probability that it is a red face card.
+A: $\dfrac{6}{52} = \dfrac{3}{26}$
+Q: A bag has 4 red, 6 white and 5 black balls. Find the probability that a ball drawn at random is not white.
+A: $\dfrac{9}{15} = \dfrac{3}{5}$
+Q: A number is chosen at random from 1 to 25. Find the probability that it is divisible by 4.
+A: $\dfrac{6}{25}$
+Q: The probability of winning a game is 0.72. Find the probability of losing it.
+A: 0.28

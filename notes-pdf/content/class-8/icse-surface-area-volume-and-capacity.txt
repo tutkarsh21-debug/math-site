@@ -1,0 +1,146 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 21
+@title Surface Area, Volume and Capacity
+@summary Surface area and volume of the cuboid, cube and cylinder, the units of volume and capacity, and problems on boxes, tanks, walls and pipes.
+
+# Cuboid
+- A **cuboid** has length $l$, breadth $b$ and height $h$. It has 6 rectangular faces; opposite faces are equal.
+| Quantity | Formula |
+| Volume | $l \times b \times h$ |
+| Total surface area | $2(lb + bh + hl)$ |
+| Lateral surface area (area of the four walls) | $2(l + b) \times h$ |
+| Diagonal | $\sqrt{l^2 + b^2 + h^2}$ |
+!fig w=320 h=190; Q a 50 160; Q b 220 160; Q c 220 80; Q d 50 80; Q e 100 120; Q f 270 120; Q g 270 40; Q h 100 40; L a b; L b c; L c d; L d a; L b f; L f g; L g c; L g h; L h d; D a e; D e f; D e h; T 135 176 l; T 256 148 b; T 282 84 h; cap Cuboid with length l, breadth b and height h
+- **Lateral surface area** $=$ perimeter of the base $\times$ height.
+- A box open at the top has surface area $lb + 2(l + b)h$.
+?eg A cuboid is 15 cm long, 10 cm wide and 8 cm high. Find its volume and total surface area.
+= Volume $= 1200$. Surface area $= 2(150 + 80 + 120)$.
+=> 1200 cu cm; 700 sq cm
+?eg A room is 6 m long, 5 m wide and 3.5 m high. Find the cost of whitewashing its four walls at ₹40 per sq m.
+= Area of the walls $= 2(6 + 5) \times 3.5 = 77$ sq m
+=> ₹3080
+?eg The volume of a cuboid is 720 cu cm, its length is 12 cm and its breadth is 10 cm. Find its height.
+= $720 \div (12 \times 10)$
+=> 6 cm
+
+# Cube
+- A **cube** is a cuboid with all edges equal to $a$.
+| Quantity | Formula |
+| Volume | $a^3$ |
+| Total surface area | $6a^2$ |
+| Lateral surface area | $4a^2$ |
+| Diagonal | $a\sqrt{3}$ |
+- If the edge is doubled, the surface area becomes 4 times and the volume 8 times.
+?eg The total surface area of a cube is 486 sq cm. Find its edge and volume.
+= $6a^2 = 486$, so $a = 9$ cm
+=> 9 cm; 729 cu cm
+?eg Three cubes of edge 6 cm each are joined end to end. Find the surface area of the cuboid formed.
+= The cuboid is 18 cm by 6 cm by 6 cm: $2(108 + 36 + 108)$.
+=> 504 sq cm
+?eg How many cubes of edge 5 cm can be cut from a cube of edge 20 cm?
+= $\dfrac{20^3}{5^3}$
+=> 64
+
+# Units of volume and capacity
+- **Volume** is the space a solid occupies. **Capacity** is the quantity a container can hold.
+| Conversion | Value |
+| 1 cu cm | 1 mL |
+| 1 litre | 1000 cu cm |
+| 1 cu m | $1{,}000{,}000$ cu cm $= 1000$ litres $= 1$ kilolitre |
+| 1 cu cm | 1000 cu mm |
+?eg A tank is 2.5 m long, 2 m wide and 1.6 m deep. How many litres of water does it hold?
+= Volume $= 8$ cu m
+=> 8000 litres
+?eg Water is poured into a tank 80 cm long and 50 cm wide to a depth of 30 cm. Find the volume of water in litres.
+= $80 \times 50 \times 30 = 120000$ cu cm
+=> 120 litres
+
+# Walls, boxes and bricks
+- Number of bricks $=$ volume of the wall $\div$ volume of one brick (leave out the space taken by mortar if given).
+- For a closed box of thickness $t$: each internal dimension $=$ external dimension $- 2t$. Volume of material $=$ external volume $-$ internal volume.
+?eg How many bricks, each 20 cm by 10 cm by 7.5 cm, are needed for a wall 6 m long, 3 m high and 20 cm thick?
+= Wall: $600 \times 300 \times 20 = 3{,}600{,}000$ cu cm. Brick: 1500 cu cm.
+=> 2400
+?eg A closed wooden box measures 40 cm by 30 cm by 20 cm on the outside and the wood is 1 cm thick. Find the volume of the wood.
+= Inside: 38 cm by 28 cm by 18 cm $= 19152$ cu cm. Outside: 24000 cu cm.
+=> 4848 cu cm
+
+# Cylinder
+- A **right circular cylinder** has two equal circular ends of radius $r$ and height $h$.
+| Quantity | Formula |
+| Volume | $\pi r^2h$ |
+| Curved surface area | $2\pi rh$ |
+| Total surface area | $2\pi r(r + h)$ |
+| Area of each end | $\pi r^2$ |
+- The curved surface, when cut and opened flat, is a rectangle with sides $2\pi r$ and $h$.
+- **Hollow cylinder** (pipe) with outer radius $R$ and inner radius $r$: volume of material $= \pi(R^2 - r^2)h$.
+- Take $\pi = \dfrac{22}{7}$ unless told otherwise.
+?eg Find the volume, curved surface area and total surface area of a cylinder of radius 7 cm and height 10 cm.
+= Volume $= \dfrac{22}{7} \times 49 \times 10$. Curved surface $= 2 \times \dfrac{22}{7} \times 7 \times 10$. Total $= 2 \times \dfrac{22}{7} \times 7 \times 17$.
+=> 1540 cu cm; 440 sq cm; 748 sq cm
+?eg The curved surface area of a cylinder is 1320 sq cm and its height is 15 cm. Find its radius and volume.
+= $2 \times \dfrac{22}{7} \times r \times 15 = 1320$ gives $r = 14$ cm. Volume $= \dfrac{22}{7} \times 196 \times 15$.
+=> 14 cm; 9240 cu cm
+?eg A cylindrical tank has diameter 2.8 m and height 3 m. Find its capacity in litres.
+= $\dfrac{22}{7} \times 1.4^2 \times 3 = 18.48$ cu m
+=> 18,480 litres
+?eg A metal pipe is 70 cm long with outer radius 5 cm and inner radius 4 cm. Find the volume of metal.
+= $\dfrac{22}{7} \times (25 - 16) \times 70$
+=> 1980 cu cm
+?eg A rectangular sheet 44 cm by 20 cm is rolled along its length to form a cylinder. Find its volume.
+= Circumference $= 44$ cm gives $r = 7$ cm; height 20 cm.
+=> 3080 cu cm
+
+# Melting and recasting
+- When a solid is melted and recast, or a liquid is poured from one container to another, the **volume stays the same**.
+?eg A solid metal cuboid 22 cm by 14 cm by 7 cm is melted and recast into a cylinder of radius 7 cm. Find the height of the cylinder.
+= $\dfrac{22}{7} \times 49 \times h = 2156$
+=> 14 cm
+
+# Common mistakes
+- Confusing total surface area with lateral (or curved) surface area.
+- Using the diameter in place of the radius.
+- Writing 1 cu m $= 100$ litres. It is 1000 litres.
+- Subtracting the thickness only once for a closed box.
+- Mixing centimetres with metres in the same calculation.
+- Giving area units (sq cm) for a volume or volume units for an area.
+
+@@formulas
+Cuboid, volume | $lbh$
+Cuboid, total surface area | $2(lb + bh + hl)$
+Cuboid, four walls | $2(l + b)h$
+Cuboid, diagonal | $\sqrt{l^2 + b^2 + h^2}$
+Cube, volume | $a^3$
+Cube, total surface area | $6a^2$
+Cube, diagonal | $a\sqrt{3}$
+Cylinder, volume | $\pi r^2h$
+Cylinder, curved surface area | $2\pi rh$
+Cylinder, total surface area | $2\pi r(r + h)$
+Hollow cylinder | $\pi(R^2 - r^2)h$
+Capacity | 1 litre $= 1000$ cu cm; 1 cu m $= 1000$ litres
+Number of bricks | Volume of wall $\div$ volume of one brick
+Recasting | Volume unchanged
+
+@@dpp
+Q: Find the volume and total surface area of a cuboid 12 cm by 8 cm by 5 cm.
+A: 480 cu cm; 392 sq cm
+Q: Find the area of the four walls of a room 8 m by 6 m by 4 m.
+A: 112 sq m
+Q: The volume of a cube is 1728 cu cm. Find its edge and total surface area.
+A: 12 cm; 864 sq cm
+Q: How many litres of water does a tank 3 m by 2 m by 1.5 m hold?
+A: 9000 litres
+Q: How many bricks 25 cm by 12.5 cm by 8 cm are needed for a wall 10 m long, 4 m high and 25 cm thick?
+A: 4000
+Q: Find the volume of a cylinder of radius 3.5 cm and height 12 cm.
+A: 462 cu cm
+Q: Find the curved surface area of a cylinder of diameter 14 cm and height 20 cm.
+A: 880 sq cm
+Q: The volume of a cylinder is 3850 cu cm and its height is 25 cm. Find its radius.
+A: 7 cm
+Q: Find the total surface area of a closed cylinder of radius 7 cm and height 13 cm.
+A: 880 sq cm
+Q: A cube of edge 11 cm is melted and recast into a cylinder of radius 7 cm. Find the height of the cylinder, to one decimal place.
+A: $1331 \div 154 \approx 8.6$ cm

@@ -1,0 +1,135 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 18
+@title Constructions
+@summary Ruler-and-compass constructions of angles and of quadrilaterals, parallelograms, rectangles, rhombuses and squares from given measurements.
+
+# Basic constructions
+- Use only a ruler and compasses unless a protractor is allowed. Keep all arcs visible.
+- **Perpendicular bisector of a segment AB**: with centres A and B and the same radius (more than half of AB), draw arcs on both sides. Join the two points where the arcs cross.
+- **Bisector of an angle**: with the vertex as centre, cut both arms. From these two points draw equal arcs to cross. Join the vertex to the crossing point.
+- **Angle of $60^\circ$**: with centre A draw an arc cutting the line at P. With centre P and the same radius, cut the arc at Q. Then $\angle QAP = 60^\circ$.
+| Angle | How to construct |
+| $60^\circ$ | One step of the radius along the arc |
+| $120^\circ$ | Two steps of the radius along the arc |
+| $90^\circ$ | Bisect the angle between $60^\circ$ and $120^\circ$ |
+| $30^\circ$ | Bisect $60^\circ$ |
+| $45^\circ$ | Bisect $90^\circ$ |
+| $75^\circ$ | Bisect the angle between $60^\circ$ and $90^\circ$ |
+| $105^\circ$ | Bisect the angle between $90^\circ$ and $120^\circ$ |
+| $135^\circ$ | $90^\circ + 45^\circ$ |
+
+# Before constructing a quadrilateral
+- Draw a **rough sketch** and mark the given measurements.
+- A quadrilateral needs **five** independent measurements. Special quadrilaterals need fewer because their properties give the rest.
+| Figure | Measurements needed |
+| Quadrilateral | 5 |
+| Parallelogram | 3 |
+| Rectangle | 2 |
+| Rhombus | 2 |
+| Square | 1 |
+- Usually one triangle of the figure is constructed first; the fourth vertex is then found with arcs.
+
+# Quadrilaterals
+| Given | Method |
+| 4 sides and 1 diagonal | Draw the diagonal; make a triangle on each side of it with the given sides |
+| 4 sides and 1 angle | Draw two sides with the angle between them; cut arcs for the other two sides |
+| 3 sides and 2 included angles | Draw the middle side; make the angles at its ends; cut off the other two sides |
+| 3 sides and 2 diagonals | Draw the triangle with one side and the two segments from its ends; complete with arcs |
+?eg Construct quadrilateral ABCD with $AB = 5$ cm, $BC = 4$ cm, $CD = 4.5$ cm, $DA = 3.5$ cm and $BD = 6$ cm.
+= Draw $BD = 6$ cm. With centres B and D and radii 5 cm and 3.5 cm, draw arcs meeting at A.
+= On the other side of BD, with centres B and D and radii 4 cm and 4.5 cm, draw arcs meeting at C.
+=> Join AB, AD, BC and CD
+?eg Construct quadrilateral PQRS with $PQ = 5$ cm, $QR = 4$ cm, $RS = 3.5$ cm, $\angle Q = 60^\circ$ and $\angle R = 90^\circ$.
+= Draw $QR = 4$ cm. At Q construct $60^\circ$ and cut off $QP = 5$ cm.
+= At R construct $90^\circ$ and cut off $RS = 3.5$ cm.
+=> Join PS
+
+# Parallelograms
+- Use: opposite sides are equal and parallel; the diagonals bisect each other.
+| Given | Method |
+| 2 adjacent sides and the included angle | Draw the two sides with the angle; complete with arcs equal to the opposite sides |
+| 2 adjacent sides and a diagonal | Draw the triangle formed by them; complete with arcs |
+| 2 diagonals and the angle between them | Draw one diagonal and mark its mid-point O; draw the other through O at the given angle, half on each side |
+| 1 side and 2 diagonals | Draw the triangle with the side and the two half-diagonals; extend each half-diagonal by its own length |
+?eg Construct parallelogram ABCD with $AB = 6$ cm, $BC = 4$ cm and $\angle B = 60^\circ$.
+= Draw $AB = 6$ cm. At B construct $60^\circ$ and cut off $BC = 4$ cm.
+= With centre A and radius 4 cm, and centre C and radius 6 cm, draw arcs meeting at D.
+=> Join AD and CD
+!fig w=320 h=190; P A 80 150 bl; P B 260 150 br; P C 200 46 tr; P D 20 46 tl; L A B; L B C; L C D; L D A; A A B C 60°; N A B 6 cm; T 258 100 4 cm; cap Draw AB and BC first, then find D with two arcs
+?eg Construct a parallelogram with diagonals 8 cm and 6 cm that meet at $60^\circ$.
+= Draw $AC = 8$ cm and mark its mid-point O. Through O draw a line making $60^\circ$ with AC.
+= On this line mark $OB = OD = 3$ cm on opposite sides of O.
+=> Join AB, BC, CD and DA
+
+# Rectangles
+| Given | Method |
+| Length and breadth | Draw the length; construct $90^\circ$ at both ends; cut off the breadth on each |
+| One side and a diagonal | Draw the side AB; construct $90^\circ$ at B; from A cut this line with the diagonal as radius |
+?eg Construct rectangle ABCD with $AB = 6$ cm and $AC = 7.5$ cm.
+= Draw $AB = 6$ cm. At B construct $90^\circ$. With centre A and radius 7.5 cm, cut the perpendicular at C.
+= With centre A and radius BC, and centre C and radius 6 cm, draw arcs meeting at D.
+=> Join AD and CD. (BC will measure 4.5 cm.)
+
+# Rhombuses
+| Given | Method |
+| Side and one angle | Draw two sides with the angle; complete with arcs equal to the side |
+| Side and one diagonal | Draw the diagonal; from both ends draw arcs equal to the side, on both sides of it |
+| Two diagonals | Draw one diagonal; construct its perpendicular bisector; mark half of the other diagonal on each side |
+?eg Construct a rhombus with diagonals 8 cm and 6 cm.
+= Draw $AC = 8$ cm and its perpendicular bisector, meeting AC at O.
+= Mark $OB = OD = 3$ cm on the bisector.
+=> Join AB, BC, CD and DA. Each side will measure 5 cm.
+
+# Squares
+| Given | Method |
+| Side | Draw the side; construct $90^\circ$ at both ends; cut off the side on each; join |
+| Diagonal | Draw the diagonal; construct its perpendicular bisector; mark half the diagonal on each side of the mid-point |
+?eg Construct a square with diagonal 6 cm.
+= Draw $AC = 6$ cm and its perpendicular bisector through O.
+=> Mark $OB = OD = 3$ cm on it and join AB, BC, CD and DA
+
+# Common mistakes
+- Starting without a rough sketch.
+- Using a protractor where a compass construction is required.
+- Erasing the construction arcs.
+- Marking the full diagonal on each side of O instead of half.
+- Drawing the second triangle on the same side of the diagonal as the first.
+- Not checking that the first triangle is possible (sum of two sides greater than the third).
+
+@@formulas
+Quadrilateral | 5 measurements
+Parallelogram | 3 measurements
+Rectangle, rhombus | 2 measurements
+Square | 1 measurement
+$60^\circ$ | One radius step on the arc
+$90^\circ$ | Bisector of the angle between $60^\circ$ and $120^\circ$
+$45^\circ$, $30^\circ$ | Bisect $90^\circ$, bisect $60^\circ$
+Parallelogram | Opposite sides equal; diagonals bisect each other
+Rectangle | Angles $90^\circ$; diagonals equal
+Rhombus | Diagonals are perpendicular bisectors of each other
+Side of a rhombus | $\sqrt{\left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2}$
+Side of a square | $\dfrac{\text{diagonal}}{\sqrt{2}}$
+
+@@dpp
+Q: Which angles are bisected to construct $75^\circ$?
+A: The angle between $60^\circ$ and $90^\circ$
+Q: How many measurements are needed to construct (i) a quadrilateral (ii) a rectangle?
+A: 5 and 2
+Q: A quadrilateral has sides 4 cm, 5 cm, 6 cm, 4.5 cm and a diagonal 7 cm. What is drawn first?
+A: The diagonal, then a triangle on each side of it
+Q: A parallelogram has diagonals 10 cm and 8 cm. What lengths are marked from their point of intersection?
+A: 5 cm and 5 cm on one, 4 cm and 4 cm on the other
+Q: A rectangle has one side 8 cm and a diagonal 10 cm. What will the other side measure?
+A: 6 cm
+Q: A rhombus has diagonals 12 cm and 16 cm. What will each side measure?
+A: 10 cm
+Q: A square has a diagonal 8 cm. What will its side measure, to one decimal place?
+A: 5.7 cm
+Q: In constructing a rhombus with side 5 cm and one angle $60^\circ$, what is the length of the shorter diagonal?
+A: 5 cm
+Q: Can a quadrilateral be constructed with $AB = 3$ cm, $AD = 4$ cm and diagonal $BD = 8$ cm?
+A: No; $3 + 4 < 8$, so triangle ABD is impossible
+Q: Write the steps to bisect a given angle.
+A: Cut both arms with an arc from the vertex; from the two points draw equal arcs to cross; join the vertex to the crossing point

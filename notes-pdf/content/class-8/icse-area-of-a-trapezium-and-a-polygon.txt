@@ -1,0 +1,134 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 20
+@title Area of a Trapezium and a Polygon
+@summary Areas of triangles, parallelograms, rhombuses, trapeziums and general polygons, the field-book method for irregular fields, and the circumference and area of a circle.
+
+# Triangles and rectangles
+| Figure | Perimeter | Area |
+| Rectangle, $l$ by $b$ | $2(l + b)$ | $l \times b$ |
+| Square, side $a$ | $4a$ | $a^2$, also $\dfrac{1}{2} \times \text{diagonal}^2$ |
+| Triangle, base $b$ and height $h$ | Sum of the sides | $\dfrac{1}{2} \times b \times h$ |
+| Triangle with sides $a$, $b$, $c$ | $a + b + c$ | $\sqrt{s(s - a)(s - b)(s - c)}$, $s = \dfrac{a + b + c}{2}$ |
+| Equilateral triangle, side $a$ | $3a$ | $\dfrac{\sqrt{3}}{4}a^2$ |
+?eg Find the area of a triangle with sides 10 cm, 17 cm and 21 cm.
+= $s = 24$. Area $= \sqrt{24 \times 14 \times 7 \times 3} = \sqrt{7056}$.
+=> 84 sq cm
+?eg The base of a triangle is 16 cm and its area is 96 sq cm. Find its height.
+= $\dfrac{1}{2} \times 16 \times h = 96$
+=> 12 cm
+
+# Parallelogram and rhombus
+- **Parallelogram**: area $=$ base $\times$ height, where the height is the perpendicular distance between the base and the opposite side.
+- **Rhombus**: area $=$ base $\times$ height, and also $\dfrac{1}{2} \times d_1 \times d_2$.
+?eg A parallelogram has sides 20 cm and 12 cm. The height on the 20 cm side is 9 cm. Find the area and the height on the 12 cm side.
+= Area $= 20 \times 9 = 180$ sq cm. Then $12 \times h = 180$.
+=> 180 sq cm; 15 cm
+?eg The diagonals of a rhombus are 30 cm and 16 cm. Find its area, side and height.
+= Area $= \dfrac{1}{2} \times 30 \times 16 = 240$ sq cm. Side $= \sqrt{15^2 + 8^2} = 17$ cm. Height $= 240 \div 17$.
+=> 240 sq cm; 17 cm; about 14.1 cm
+
+# Trapezium
+- A trapezium has one pair of parallel sides. If their lengths are $a$ and $b$ and the perpendicular distance between them is $h$:
+$$\text{Area} = \frac{1}{2} \times (a + b) \times h$$
+!fig w=330 h=180; P A 40 140 bl; P B 290 140 br; P C 220 40 tr; P D 100 40 tl; Q M 100 140; L A B; L B C; L C D; L D A; D D M; R D M B; M D C a; N A B b; T 113 95 h; cap Area of a trapezium = ½ (a + b) × h
+- Reason: a diagonal splits the trapezium into two triangles with bases $a$ and $b$ and the same height $h$.
+?eg The parallel sides of a trapezium are 18 cm and 12 cm and the distance between them is 8 cm. Find its area.
+= $\dfrac{1}{2} \times 30 \times 8$
+=> 120 sq cm
+?eg The area of a trapezium is 180 sq cm and its height is 9 cm. One parallel side is 6 cm longer than the other. Find the parallel sides.
+= $\dfrac{1}{2}(x + x + 6) \times 9 = 180$, so $2x + 6 = 40$
+=> 17 cm and 23 cm
+?eg The parallel sides of an isosceles trapezium are 20 cm and 10 cm and each of the other sides is 13 cm. Find its area.
+= Each end triangle has base $\dfrac{20 - 10}{2} = 5$ cm and hypotenuse 13 cm, so the height is 12 cm.
+= $\dfrac{1}{2} \times 30 \times 12$
+=> 180 sq cm
+
+# Quadrilateral
+- If a diagonal has length $d$ and the perpendiculars on it from the other two vertices are $h_1$ and $h_2$:
+$$\text{Area} = \frac{1}{2} \times d \times (h_1 + h_2)$$
+?eg In quadrilateral ABCD, diagonal $AC = 24$ cm and the perpendiculars from B and D on AC are 8 cm and 13 cm. Find the area.
+= $\dfrac{1}{2} \times 24 \times 21$
+=> 252 sq cm
+
+# Polygon and field book
+- The area of any polygon is found by dividing it into triangles, rectangles and trapeziums and adding their areas.
+- **Regular hexagon** of side $a$: six equilateral triangles, area $= 6 \times \dfrac{\sqrt{3}}{4}a^2 = \dfrac{3\sqrt{3}}{2}a^2$.
+- **Field book**: a surveyor measures along a base line and records the perpendicular offsets to the corners on each side. The field is then a set of right triangles and trapeziums.
+?eg In a field book, base line AD $= 100$ m. At 30 m from A there is an offset of 20 m to B on the left; at 60 m there is an offset of 30 m to E on the right; at 80 m there is an offset of 40 m to C on the left. Find the area of the field ABCDE.
+= Left side: triangle (base 30, height 20) $= 300$; trapezium between 30 m and 80 m with parallel sides 20 and 40 $= \dfrac{1}{2} \times 60 \times 50 = 1500$; triangle (base 20, height 40) $= 400$.
+= Right side: triangle AED with base 100 and height 30 $= 1500$.
+=> $300 + 1500 + 400 + 1500 = 3700$ sq m
+?eg Find the area of a regular hexagon of side 6 cm.
+= $\dfrac{3\sqrt{3}}{2} \times 36$
+=> $54\sqrt{3}$ sq cm, about 93.5 sq cm
+
+# Circle
+- Circumference $= 2\pi r = \pi d$. Area $= \pi r^2$. Take $\pi = \dfrac{22}{7}$ unless told otherwise.
+- **Ring** between two concentric circles of radii $R$ and $r$: area $= \pi(R^2 - r^2)$.
+- A wheel covers a distance equal to its circumference in one revolution.
+?eg Find the circumference and the area of a circle of radius 14 cm.
+= $2 \times \dfrac{22}{7} \times 14$ and $\dfrac{22}{7} \times 196$
+=> 88 cm and 616 sq cm
+?eg The area of a circle is 154 sq cm. Find its radius and circumference.
+= $r^2 = 154 \times \dfrac{7}{22} = 49$
+=> 7 cm; 44 cm
+?eg A circular path 3.5 m wide runs round a circular garden of radius 10.5 m. Find the area of the path.
+= $\dfrac{22}{7}(14^2 - 10.5^2) = \dfrac{22}{7} \times 85.75$
+=> 269.5 sq m
+?eg The wheel of a cart has diameter 1.4 m. How many revolutions does it make in travelling 1.1 km?
+= Circumference $= 4.4$ m. $1100 \div 4.4$
+=> 250
+
+# Paths
+- Path of width $w$ outside a rectangle $l$ by $b$: area $= (l + 2w)(b + 2w) - lb$.
+- Path of width $w$ inside: area $= lb - (l - 2w)(b - 2w)$.
+?eg A room 12 m by 9 m has a carpet that leaves a border 0.5 m wide all round. Find the area of the border.
+= Carpet: 11 m by 8 m $= 88$ sq m. Room: 108 sq m.
+=> 20 sq m
+
+# Common mistakes
+- Using a slant side as the height.
+- Forgetting the $\dfrac{1}{2}$ in the triangle, rhombus and trapezium formulas.
+- Using the diameter instead of the radius in $\pi r^2$.
+- Writing the area of a ring as $\pi(R - r)^2$.
+- In field-book problems, using distances from A as the heights of the trapeziums instead of the differences between them.
+- Mixing units such as centimetres and metres.
+
+@@formulas
+Triangle | $\dfrac{1}{2} \times$ base $\times$ height
+Heron's formula | $\sqrt{s(s - a)(s - b)(s - c)}$
+Equilateral triangle | $\dfrac{\sqrt{3}}{4}a^2$
+Parallelogram | Base $\times$ height
+Rhombus | $\dfrac{1}{2}d_1d_2$
+Trapezium | $\dfrac{1}{2}(a + b)h$
+Quadrilateral | $\dfrac{1}{2}d(h_1 + h_2)$
+Regular hexagon | $\dfrac{3\sqrt{3}}{2}a^2$
+Circumference | $2\pi r$
+Area of a circle | $\pi r^2$
+Ring | $\pi(R^2 - r^2)$
+Path outside a rectangle | $(l + 2w)(b + 2w) - lb$
+Revolutions | Distance $\div$ circumference
+
+@@dpp
+Q: Find the area of a triangle with base 15 cm and height 8 cm.
+A: 60 sq cm
+Q: Find the area of a triangle with sides 9 cm, 10 cm and 17 cm.
+A: $s = 18$; area $= \sqrt{18 \times 9 \times 8 \times 1} = 36$ sq cm
+Q: A parallelogram has area 216 sq cm and base 18 cm. Find its height.
+A: 12 cm
+Q: Find the area of a rhombus with diagonals 18 cm and 24 cm.
+A: 216 sq cm
+Q: The parallel sides of a trapezium are 25 cm and 15 cm, and the distance between them is 10 cm. Find its area.
+A: 200 sq cm
+Q: The area of a trapezium is 105 sq cm and its parallel sides are 9 cm and 12 cm. Find its height.
+A: 10 cm
+Q: A quadrilateral has a diagonal 30 cm with perpendiculars 6 cm and 10 cm on it. Find its area.
+A: 240 sq cm
+Q: Find the area of a circle of diameter 21 cm.
+A: 346.5 sq cm
+Q: Find the area of a ring with outer radius 7 cm and inner radius 3.5 cm.
+A: 115.5 sq cm
+Q: A wheel of radius 35 cm makes 400 revolutions. Find the distance covered.
+A: 880 m

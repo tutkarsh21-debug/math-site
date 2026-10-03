@@ -1,0 +1,130 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 4
+@title Cubes and Cube Roots
+@summary Perfect cubes and their properties, finding cube roots by prime factorisation, cube roots of negative numbers and fractions, and related problems.
+
+# Cubes
+- The **cube** of a number is the number multiplied by itself three times: $n^3 = n \times n \times n$.
+- A natural number that is the cube of a natural number is a **perfect cube**: 1, 8, 27, 64, 125, ...
+- In the prime factorisation of a perfect cube, every prime occurs a number of times that is a **multiple of 3**.
+| $n$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| $n^3$ | 1 | 8 | 27 | 64 | 125 | 216 | 343 | 512 | 729 | 1000 |
+| $n$ | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| $n^3$ | 1331 | 1728 | 2197 | 2744 | 3375 | 4096 | 4913 | 5832 | 6859 | 8000 |
+
+# Properties of cubes
+- The cube of an even number is even and the cube of an odd number is odd.
+- The cube of a **negative** number is negative: $(-4)^3 = -64$.
+- The cube of a fraction: $\left(\dfrac{a}{b}\right)^3 = \dfrac{a^3}{b^3}$.
+- The units digit of $n^3$ depends only on the units digit of $n$:
+| Units digit of $n$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| Units digit of $n^3$ | 0 | 1 | 8 | 7 | 4 | 5 | 6 | 3 | 2 | 9 |
+- A number ending in $k$ zeros has a cube ending in $3k$ zeros.
+- **Odd-number pattern**: $1 = 1^3$, $3 + 5 = 2^3$, $7 + 9 + 11 = 3^3$, $13 + 15 + 17 + 19 = 4^3$.
+- $1^3 + 2^3 + \ldots + n^3 = (1 + 2 + \ldots + n)^2$.
+?eg Find the cube of $-7$, of $\dfrac{2}{5}$ and of 0.3.
+=> $-343$, $\dfrac{8}{125}$ and 0.027
+?eg What is the units digit of the cube of 2387?
+= The units digit 7 gives a cube ending in 3.
+=> 3
+?eg Find $1^3 + 2^3 + 3^3 + 4^3 + 5^3$ using a pattern.
+= $(1 + 2 + 3 + 4 + 5)^2 = 15^2$
+=> 225
+
+# Testing for a perfect cube
+- Write the prime factorisation and group equal primes in **triplets**. If no prime is left over, the number is a perfect cube.
+- To make a number a perfect cube, **multiply** by the primes needed to complete the triplets, or **divide** by the primes left over.
+?eg Is 2744 a perfect cube?
+= $2744 = 2^3 \times 7^3$
+=> Yes; it is $14^3$
+?eg Find the smallest number by which 1323 must be multiplied to get a perfect cube.
+= $1323 = 3^3 \times 7^2$. One more 7 is needed.
+=> 7
+?eg Find the smallest number by which 8640 must be divided to get a perfect cube.
+= $8640 = 2^6 \times 3^3 \times 5$
+=> 5; the quotient 1728 is $12^3$
+
+# Cube roots
+- If $x^3 = y$, then $x$ is the **cube root** of $y$: $x = \sqrt[3]{y}$.
+- **Prime factorisation method**: group the prime factors in triplets, take one from each triplet and multiply.
+- $\sqrt[3]{-a} = -\sqrt[3]{a}$. The cube root of a negative number is negative.
+- $\sqrt[3]{ab} = \sqrt[3]{a} \times \sqrt[3]{b}$ and $\sqrt[3]{\dfrac{a}{b}} = \dfrac{\sqrt[3]{a}}{\sqrt[3]{b}}$.
+?eg Find $\sqrt[3]{9261}$.
+= $9261 = 3^3 \times 7^3$
+=> 21
+?eg Find $\sqrt[3]{-5832}$.
+= $5832 = 2^3 \times 3^6$, so $\sqrt[3]{5832} = 2 \times 9 = 18$.
+=> $-18$
+?eg Find $\sqrt[3]{\dfrac{-125}{343}}$ and $\sqrt[3]{3\tfrac{3}{8}}$.
+= $\dfrac{-5}{7}$; and $3\tfrac{3}{8} = \dfrac{27}{8}$
+=> $\dfrac{-5}{7}$ and $\dfrac{3}{2}$
+?eg Find $\sqrt[3]{0.008}$ and $\sqrt[3]{15.625}$.
+= $0.008 = \dfrac{8}{1000}$ and $15.625 = \dfrac{15625}{1000}$, with $25^3 = 15625$
+=> 0.2 and 2.5
+?eg Find $\sqrt[3]{27 \times 64}$.
+= $3 \times 4$
+=> 12
+
+# Cube root by inspection
+- For a perfect cube of up to six digits: the **units digit** of the root comes from the units digit of the number (using the table). The **tens digit** comes from the digits left after removing the last three: find the largest cube not greater than them.
+?eg Find the cube root of 17576 by inspection.
+= It ends in 6, so the root ends in 6. Removing the last three digits leaves 17: $2^3 = 8 \leq 17 < 27$.
+=> 26
+?eg Find the cube root of 110592 by inspection.
+= Ends in 2, so the root ends in 8. The remaining digits 110: $4^3 = 64 \leq 110 < 125$.
+=> 48
+
+# Word problems
+- Volume of a cube of edge $a$ is $a^3$, so edge $= \sqrt[3]{\text{volume}}$.
+?eg The volume of a cubical box is 13824 cu cm. Find its edge and the area of one face.
+= $13824 = 2^9 \times 3^3$, so the edge is $2^3 \times 3 = 24$ cm.
+=> 24 cm; 576 sq cm
+?eg Three numbers are in the ratio $1 : 2 : 3$ and the sum of their cubes is 972. Find them.
+= $x^3 + 8x^3 + 27x^3 = 36x^3 = 972$, so $x^3 = 27$.
+=> 3, 6 and 9
+
+# Common mistakes
+- Writing $n^3 = 3n$.
+- Making pairs instead of triplets when finding a cube root.
+- Saying the cube root of a negative number does not exist. It is negative.
+- Writing $\sqrt[3]{a + b} = \sqrt[3]{a} + \sqrt[3]{b}$.
+- Wrong decimal places: $\sqrt[3]{0.008} = 0.2$, not 0.02.
+- Using the rule "squares never end in 2, 3, 7, 8" for cubes. A cube can end in any digit.
+
+@@formulas
+Cube | $n^3 = n \times n \times n$
+Cube of a negative number | $(-a)^3 = -a^3$
+Cube of a fraction | $\left(\dfrac{a}{b}\right)^3 = \dfrac{a^3}{b^3}$
+Perfect cube test | Prime factors form triplets
+Cube root | $\sqrt[3]{a^3} = a$
+Negative number | $\sqrt[3]{-a} = -\sqrt[3]{a}$
+Product | $\sqrt[3]{ab} = \sqrt[3]{a}\sqrt[3]{b}$
+Quotient | $\sqrt[3]{\dfrac{a}{b}} = \dfrac{\sqrt[3]{a}}{\sqrt[3]{b}}$
+Sum of cubes | $1^3 + 2^3 + \ldots + n^3 = \left[\dfrac{n(n + 1)}{2}\right]^2$
+Zeros | $k$ zeros in $n$ give $3k$ zeros in $n^3$
+Edge of a cube | $\sqrt[3]{\text{volume}}$
+Units digits (number, cube) | 2 and 8, 3 and 7, 7 and 3, 8 and 2 swap; others stay
+
+@@dpp
+Q: Find the cubes of 13, $-9$ and $\dfrac{3}{4}$.
+A: 2197, $-729$ and $\dfrac{27}{64}$
+Q: Is 1372 a perfect cube?
+A: No; $1372 = 2^2 \times 7^3$
+Q: Find the smallest number by which 675 must be multiplied to get a perfect cube.
+A: 5
+Q: Find the smallest number by which 3087 must be divided to get a perfect cube.
+A: $3087 = 3^2 \times 7^3$; divide by 9
+Q: Find $\sqrt[3]{4096}$.
+A: 16
+Q: Find $\sqrt[3]{-2197}$.
+A: $-13$
+Q: Find $\sqrt[3]{\dfrac{729}{1331}}$.
+A: $\dfrac{9}{11}$
+Q: Find $\sqrt[3]{0.343}$.
+A: 0.7
+Q: Find the cube root of 29791 by inspection.
+A: 31
+Q: The volume of a cube is 5832 cu cm. Find its edge.
+A: 18 cm

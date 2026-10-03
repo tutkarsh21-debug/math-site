@@ -1,0 +1,133 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 17
+@title Special Types of Quadrilaterals
+@summary The trapezium, parallelogram, rectangle, rhombus, square and kite: their definitions, properties of sides, angles and diagonals, and problems based on them.
+
+# Quadrilaterals
+- A **quadrilateral** has 4 sides, 4 angles, 4 vertices and 2 diagonals.
+- The **sum of its angles is $360^\circ$**.
+- **Adjacent sides** meet at a vertex; **opposite sides** do not. **Adjacent angles** share a side; **opposite angles** do not.
+?eg The angles of a quadrilateral are in the ratio $3 : 4 : 5 : 6$. Find them.
+= $18x = 360^\circ$, so $x = 20^\circ$
+=> $60^\circ, 80^\circ, 100^\circ, 120^\circ$
+
+# Trapezium
+- A **trapezium** has **one pair of opposite sides parallel**.
+- The two angles on each non-parallel side add up to $180^\circ$ (co-interior angles).
+- An **isosceles trapezium** has equal non-parallel sides. Its base angles are equal and its diagonals are equal.
+!fig w=320 h=165; P A 40 135 bl; P B 280 135 br; P C 220 40 tr; P D 100 40 tl; L A B; L B C; L C D; L D A; cap Isosceles trapezium: AB is parallel to DC and AD = BC
+?eg In trapezium ABCD, $AB \parallel DC$, $\angle A = 65^\circ$ and $\angle B = 80^\circ$. Find $\angle C$ and $\angle D$.
+= $\angle D = 180^\circ - 65^\circ$ and $\angle C = 180^\circ - 80^\circ$
+=> $\angle C = 100^\circ$, $\angle D = 115^\circ$
+
+# Parallelogram
+- A **parallelogram** has **both pairs of opposite sides parallel**.
+- Opposite sides are **equal**.
+- Opposite angles are **equal**.
+- Adjacent angles are **supplementary** (add up to $180^\circ$).
+- The diagonals **bisect each other**.
+- Each diagonal divides it into two congruent triangles.
+!fig w=320 h=175; P A 40 140 bl; P B 220 140 br; P C 280 40 tr; P D 100 40 tl; P O 160 90 t; L A B; L B C; L C D; L D A; L A C; L B D; cap Parallelogram: OA = OC and OB = OD
+?eg In parallelogram ABCD, $\angle A = 70^\circ$. Find the other angles.
+=> $\angle C = 70^\circ$, $\angle B = \angle D = 110^\circ$
+?eg Two adjacent sides of a parallelogram are in the ratio $3 : 5$ and its perimeter is 64 cm. Find its sides.
+= $2(3x + 5x) = 64$, so $x = 4$
+=> 12 cm and 20 cm
+?eg In parallelogram PQRS, $\angle P = (2x + 15)^\circ$ and $\angle R = (3x - 20)^\circ$. Find $x$ and all the angles.
+= Opposite angles are equal: $2x + 15 = 3x - 20$, so $x = 35$.
+=> $\angle P = \angle R = 85^\circ$, $\angle Q = \angle S = 95^\circ$
+
+# Rectangle
+- A **rectangle** is a parallelogram in which **every angle is $90^\circ$**.
+- It has all the properties of a parallelogram.
+- Its diagonals are **equal** and bisect each other, so the four half-diagonals are equal.
+?eg The diagonals of rectangle ABCD meet at O. If $\angle AOB = 70^\circ$, find $\angle OAB$ and $\angle OBC$.
+= $OA = OB$, so $\angle OAB = \dfrac{180^\circ - 70^\circ}{2} = 55^\circ = \angle OBA$. Then $\angle OBC = 90^\circ - 55^\circ$.
+=> $55^\circ$ and $35^\circ$
+?eg A rectangle has sides 9 cm and 12 cm. Find the length of a diagonal.
+= $\sqrt{81 + 144}$
+=> 15 cm
+
+# Rhombus
+- A **rhombus** is a parallelogram with **all sides equal**.
+- It has all the properties of a parallelogram.
+- Its diagonals **bisect each other at right angles**.
+- Each diagonal **bisects the angles** at the vertices it joins.
+- The diagonals are not equal (unless it is a square).
+!fig w=320 h=190; P A 40 95 l; P B 160 30 t; P C 280 95 r; P D 160 160 b; P O 160 95 tr; L A B; L B C; L C D; L D A; L A C; L B D; R A O B; cap Rhombus: the diagonals bisect each other at right angles
+?eg The diagonals of a rhombus are 16 cm and 12 cm. Find its side and perimeter.
+= Half-diagonals 8 and 6: side $= \sqrt{64 + 36} = 10$ cm
+=> 10 cm; 40 cm
+?eg In rhombus ABCD, $\angle ABC = 56^\circ$. Find $\angle ACD$.
+= $\angle BCD = 180^\circ - 56^\circ = 124^\circ$. Diagonal AC bisects it.
+=> $62^\circ$
+
+# Square
+- A **square** is a rectangle with all sides equal; it is also a rhombus with every angle $90^\circ$.
+- All sides are equal and every angle is $90^\circ$.
+- The diagonals are **equal**, **bisect each other at right angles**, and make $45^\circ$ with the sides.
+- Diagonal of a square of side $a$ is $a\sqrt{2}$.
+?eg The diagonal of a square is $7\sqrt{2}$ cm. Find its side and area.
+=> 7 cm; 49 sq cm
+
+# Kite
+- A **kite** has **two pairs of equal adjacent sides**: $AB = AD$ and $CB = CD$.
+- The diagonal AC (the axis of symmetry) is the **perpendicular bisector** of BD.
+- AC bisects $\angle A$ and $\angle C$. The angles at B and D are equal.
+?eg In kite ABCD with $AB = AD$ and $CB = CD$, $\angle A = 100^\circ$ and $\angle C = 60^\circ$. Find $\angle B$.
+= $\angle B = \angle D$, so $2\angle B = 360^\circ - 160^\circ$
+=> $100^\circ$
+
+# Comparing the diagonals
+| Property of the diagonals | Parallelogram | Rectangle | Rhombus | Square | Kite |
+| Bisect each other | Yes | Yes | Yes | Yes | No |
+| Equal | No | Yes | No | Yes | No |
+| Perpendicular | No | No | Yes | Yes | Yes |
+| Bisect the angles | No | No | Yes | Yes | One only |
+- Every square is a rectangle and a rhombus. Every rectangle and every rhombus is a parallelogram. Every parallelogram is a trapezium in the sense of having a pair of parallel sides.
+
+# Common mistakes
+- Taking adjacent angles of a parallelogram as equal instead of supplementary.
+- Saying the diagonals of a parallelogram are equal.
+- Saying the diagonals of a rectangle are perpendicular.
+- Using the full diagonals instead of half-diagonals to find the side of a rhombus.
+- Forgetting that the diagonals of a rhombus bisect its angles.
+- Treating a kite as a parallelogram.
+
+@@formulas
+Angle sum | $360^\circ$
+Trapezium | One pair of parallel sides; co-interior angles add up to $180^\circ$
+Parallelogram | Opposite sides and angles equal; diagonals bisect each other
+Adjacent angles of a parallelogram | Sum $180^\circ$
+Rectangle | All angles $90^\circ$; diagonals equal
+Diagonal of a rectangle | $\sqrt{l^2 + b^2}$
+Rhombus | All sides equal; diagonals perpendicular bisectors
+Side of a rhombus | $\sqrt{\left(\dfrac{d_1}{2}\right)^2 + \left(\dfrac{d_2}{2}\right)^2}$
+Square | All sides equal, all angles $90^\circ$
+Diagonal of a square | $a\sqrt{2}$
+Kite | Two pairs of equal adjacent sides; one diagonal bisects the other at $90^\circ$
+Perimeter of a parallelogram | $2 \times$ (sum of adjacent sides)
+
+@@dpp
+Q: Three angles of a quadrilateral are $75^\circ$, $105^\circ$ and $90^\circ$. Find the fourth.
+A: $90^\circ$
+Q: In parallelogram ABCD, $\angle B = 125^\circ$. Find $\angle A$, $\angle C$ and $\angle D$.
+A: $55^\circ$, $55^\circ$ and $125^\circ$
+Q: The perimeter of a parallelogram is 60 cm and one side is 18 cm. Find the adjacent side.
+A: 12 cm
+Q: The diagonals of a parallelogram are 14 cm and 10 cm. How far is each vertex from their point of intersection?
+A: 7 cm and 5 cm
+Q: The diagonals of rectangle PQRS meet at O and $\angle POQ = 110^\circ$. Find $\angle OPQ$.
+A: $35^\circ$
+Q: The diagonals of a rhombus are 24 cm and 10 cm. Find its perimeter.
+A: 52 cm
+Q: One angle of a rhombus is $70^\circ$. Find the other three angles.
+A: $110^\circ$, $70^\circ$, $110^\circ$
+Q: In trapezium ABCD, $AB \parallel DC$ and $\angle A = 108^\circ$. Find $\angle D$.
+A: $72^\circ$
+Q: Name the quadrilaterals whose diagonals are perpendicular to each other.
+A: Rhombus, square and kite
+Q: A square has side 10 cm. Find the length of its diagonal.
+A: $10\sqrt{2}$ cm, about 14.14 cm

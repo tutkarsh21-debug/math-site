@@ -1,0 +1,125 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 5
+@title Playing with Numbers
+@summary Numbers in generalised form, number tricks with reversed digits, puzzles in which letters stand for digits, and the tests of divisibility with the reasons behind them.
+
+# Generalised form
+- A two-digit number with tens digit $a$ and units digit $b$ is $10a + b$. It is written $ab$ only as a shorthand, not as a product.
+- A three-digit number with digits $a$, $b$, $c$ is $100a + 10b + c$.
+- Reversing the digits of $10a + b$ gives $10b + a$.
+?eg Write 73 and 508 in generalised form.
+=> $10 \times 7 + 3$ and $100 \times 5 + 10 \times 0 + 8$
+
+# Tricks with reversed digits
+| Operation | Result | Always divisible by |
+| Two-digit number $+$ its reverse | $11(a + b)$ | 11; quotient is the sum of the digits |
+| Two-digit number $-$ its reverse | $9(a - b)$ | 9; quotient is the difference of the digits |
+| Three-digit number $-$ its reverse | $99(a - c)$ | 99; quotient is the difference of the end digits |
+| $abc + bca + cab$ | $111(a + b + c)$ | 111, and so by 37 and 3 |
+?eg Without adding, find the quotient when $58 + 85$ is divided by 11.
+= The sum is $11(5 + 8)$.
+=> 13
+?eg Without subtracting, find the quotient when $742 - 247$ is divided by 99.
+= The difference is $99(7 - 2)$.
+=> 5
+?eg The sum of a two-digit number and the number formed by reversing its digits is 121. The digits differ by 3. Find the number.
+= $11(a + b) = 121$ gives $a + b = 11$; with $a - b = 3$ we get $a = 7$, $b = 4$.
+=> 74 or 47
+
+# Letters for digits
+- In these puzzles each letter stands for **one digit**, the same letter always stands for the same digit, and the leading digit of a number is not zero.
+- Work column by column from the units place, keeping track of the **carry**.
+?eg Find A and B: 3A $+$ 25 $=$ B2 (two-digit numbers).
+= Units: $A + 5$ ends in 2, so $A = 7$ with carry 1.
+= Tens: $3 + 2 + 1 = 6$, so $B = 6$.
+=> $37 + 25 = 62$
+?eg Find A and B: A1 $\times$ 3 $=$ 9B (A1 and 9B are two-digit numbers).
+= Units: $1 \times 3 = 3$, so $B = 3$. Tens: $3A = 9$, so $A = 3$.
+=> $31 \times 3 = 93$
+?eg Find A, B and C: AB $\times$ 5 $=$ CAB, where AB is a two-digit number and CAB a three-digit number.
+= $5 \times B$ ends in B, so $B = 0$ or $B = 5$. Try $B = 5$: $25 \times 5 = 125$ and $75 \times 5 = 375$ both work; with $B = 0$, $50 \times 5 = 250$ works too.
+=> $25 \times 5 = 125$, $75 \times 5 = 375$ or $50 \times 5 = 250$
+
+# Tests of divisibility
+| Divisor | Test |
+| 2 | The units digit is 0, 2, 4, 6 or 8 |
+| 3 | The sum of the digits is divisible by 3 |
+| 4 | The number formed by the last two digits is divisible by 4 |
+| 5 | The units digit is 0 or 5 |
+| 6 | Divisible by both 2 and 3 |
+| 8 | The number formed by the last three digits is divisible by 8 |
+| 9 | The sum of the digits is divisible by 9 |
+| 10 | The units digit is 0 |
+| 11 | (Sum of the digits in odd places) $-$ (sum of the digits in even places) is 0 or a multiple of 11 |
+- **Why the tests for 2, 5 and 10 work**: $10a + b$ differs from $b$ by a multiple of 10, so only the units digit matters.
+- **Why the tests for 3 and 9 work**: $100a + 10b + c = 99a + 9b + (a + b + c)$. The first part is divisible by 9, so the number and its digit sum leave the same remainder.
+- **Why the test for 11 works**: $100a + 10b + c = 99a + 11b + (a - b + c)$.
+- For other divisors use **co-prime factors**: 12 uses 3 and 4; 15 uses 3 and 5; 18 uses 2 and 9; 24 uses 3 and 8; 45 uses 5 and 9.
+?eg Test 73,548 for divisibility by 2, 3, 4, 6, 8 and 9.
+= Units digit 8: divisible by 2. Digit sum 27: divisible by 3 and 9. So also by 6.
+= Last two digits 48: divisible by 4. Last three digits 548: $548 = 8 \times 68 + 4$, not divisible by 8.
+=> Divisible by 2, 3, 4, 6 and 9; not by 8
+?eg Is 9,18,082 divisible by 11?
+= Odd places from the right: $2 + 0 + 1 = 3$. Even places: $8 + 8 + 9 = 25$. Difference 22.
+=> Yes
+
+# Finding missing digits
+- Use the test for the given divisor to form a condition on the missing digit.
+?eg The number $21y5$ is a multiple of 9. Find the digit $y$.
+= Digit sum $= 8 + y$ must be a multiple of 9.
+=> $y = 1$
+?eg The number $31z5$ is a multiple of 3. Find the possible values of $z$.
+= $9 + z$ must be a multiple of 3.
+=> $z = 0, 3, 6$ or $9$
+?eg Find the digit $x$ if $4x32$ is divisible by 11.
+= Odd places: $2 + x$. Even places: $3 + 4 = 7$. So $x - 5$ is 0 or a multiple of 11.
+=> $x = 5$
+?eg Find the digits $a$ and $b$ if $7a8b$ is divisible by 45 and $b \neq 0$.
+= Divisible by 5 with $b \neq 0$: $b = 5$. Divisible by 9: $20 + a$ is a multiple of 9.
+=> $a = 7$, $b = 5$
+
+# Common mistakes
+- Treating $ab$ as $a \times b$ when it stands for a two-digit number.
+- Testing divisibility by 4 with only the units digit.
+- Testing divisibility by 12 with 2 and 6. Use 3 and 4, which have no common factor.
+- For 11, adding all the digits instead of taking alternate sums.
+- Giving only one value when several digits satisfy the condition.
+- Forgetting the carry in letter puzzles.
+
+@@formulas
+Two-digit number | $10a + b$
+Three-digit number | $100a + 10b + c$
+Number plus its reverse | $11(a + b)$
+Number minus its reverse | $9(a - b)$
+Three-digit number minus its reverse | $99(a - c)$
+Cyclic sum | $abc + bca + cab = 111(a + b + c)$
+Divisible by 3 or 9 | Digit sum divisible by 3 or 9
+Divisible by 4 | Last two digits divisible by 4
+Divisible by 8 | Last three digits divisible by 8
+Divisible by 6 | Divisible by 2 and 3
+Divisible by 11 | Alternate digit sums differ by 0 or a multiple of 11
+Divisible by 12, 15, 18, 45 | Use 3 and 4; 3 and 5; 2 and 9; 5 and 9
+
+@@dpp
+Q: Write 96 and 407 in generalised form.
+A: $10 \times 9 + 6$ and $100 \times 4 + 10 \times 0 + 7$
+Q: Without adding, find the quotient when $47 + 74$ is divided by 11.
+A: 11
+Q: Without subtracting, find the quotient when $83 - 38$ is divided by 9.
+A: 5
+Q: Find the quotient when $851 - 158$ is divided by 99.
+A: 7
+Q: Find A and B: 4A $+$ 38 $=$ B5.
+A: $A = 7$, $B = 8$ ($47 + 38 = 85$)
+Q: Test 45,936 for divisibility by 3, 4, 8 and 9.
+A: Digit sum 27: divisible by 3 and 9. 36 is divisible by 4. 936 is divisible by 8.
+Q: Is 86,438 divisible by 11?
+A: Odd places $8 + 4 + 8 = 20$, even places $3 + 6 = 9$; difference 11, so yes
+Q: The number $5x73$ is divisible by 3. Find the possible values of $x$.
+A: $15 + x$ divisible by 3: $x = 0, 3, 6, 9$
+Q: Find the digit $y$ if $38y7$ is divisible by 9.
+A: $y = 0$ or $y = 9$
+Q: Find the smallest digit that makes $63\square2$ divisible by 4.
+A: The last two digits must be 12, 32, 52, 72 or 92; the smallest digit is 1

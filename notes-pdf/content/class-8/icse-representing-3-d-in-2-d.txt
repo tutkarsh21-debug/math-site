@@ -1,0 +1,133 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 19
+@title Representing 3-D in 2-D
+@summary Solid shapes and their faces, edges and vertices, Euler's formula, nets of solids, and the different views of a three-dimensional object.
+
+# Two and three dimensions
+- A **plane (2-D) figure** has length and breadth only: triangle, rectangle, circle.
+- A **solid (3-D) figure** has length, breadth and height: cube, cylinder, sphere.
+- On paper a solid can be shown by an **oblique sketch** (on squared paper, not to exact scale) or an **isometric sketch** (on isometric dot paper, with true lengths along three directions).
+
+# Faces, edges and vertices
+- A **polyhedron** is a solid bounded only by flat polygonal faces.
+- **Face**: a flat surface. **Edge**: a line segment where two faces meet. **Vertex**: a point where three or more edges meet.
+- Cylinders, cones and spheres have curved surfaces, so they are **not** polyhedra.
+!fig w=300 h=190; Q a 50 160; Q b 170 160; Q c 170 60; Q d 50 60; Q e 100 125; Q f 220 125; Q g 220 25; Q h 100 25; L a b; L b c; L c d; L d a; L b f; L f g; L g c; L g h; L h d; D a e; D e f; D e h; T 135 100 face; T 245 80 edge; T 232 18 vertex; cap A cuboid has 6 faces, 12 edges and 8 vertices
+| Solid | Faces (F) | Vertices (V) | Edges (E) |
+| Cube | 6 | 8 | 12 |
+| Cuboid | 6 | 8 | 12 |
+| Triangular prism | 5 | 6 | 9 |
+| Triangular pyramid (tetrahedron) | 4 | 4 | 6 |
+| Square pyramid | 5 | 5 | 8 |
+| Pentagonal prism | 7 | 10 | 15 |
+| Hexagonal pyramid | 7 | 7 | 12 |
+
+# Prisms and pyramids
+- A **prism** has two congruent, parallel polygonal ends joined by rectangular (or parallelogram) faces. It is named after its ends.
+- A **pyramid** has a polygonal base and triangular faces meeting at one vertex (the apex). It is named after its base.
+| Solid with an $n$-sided base | Faces | Vertices | Edges |
+| Prism | $n + 2$ | $2n$ | $3n$ |
+| Pyramid | $n + 1$ | $n + 1$ | $2n$ |
+?eg Find the number of faces, vertices and edges of an octagonal prism.
+= $n = 8$
+=> 10 faces, 16 vertices, 24 edges
+?eg Find the number of faces, vertices and edges of a pentagonal pyramid.
+=> 6 faces, 6 vertices, 10 edges
+
+# Euler's formula
+- For every polyhedron:
+$$F + V - E = 2$$
+- It can be used to find one of the three numbers when the other two are known, or to check whether a polyhedron with given numbers can exist.
+?eg A polyhedron has 8 faces and 12 vertices. How many edges does it have?
+= $8 + 12 - E = 2$
+=> 18
+?eg A polyhedron has 20 edges and 12 vertices. Find the number of faces.
+= $F + 12 - 20 = 2$
+=> 10
+?eg Can a polyhedron have 10 faces, 20 edges and 15 vertices?
+= $10 + 15 - 20 = 5$, which is not 2.
+=> No
+?eg Verify Euler's formula for a square pyramid.
+= $F = 5$, $V = 5$, $E = 8$: $5 + 5 - 8$
+=> 2, so the formula holds
+
+# Nets
+- A **net** is a plane figure that can be folded to form a solid.
+- A cube has 6 square faces, so each of its nets has 6 squares. There are 11 different nets of a cube.
+- Not every arrangement of 6 squares is a net: four squares meeting at a point, or six squares in one row, will not fold into a cube.
+!fig w=250 h=215; Q a1 105 20; Q a2 145 20; Q b0 65 60; Q b1 105 60; Q b2 145 60; Q b3 185 60; Q c0 65 100; Q c1 105 100; Q c2 145 100; Q c3 185 100; Q d1 105 140; Q d2 145 140; Q e1 105 180; Q e2 145 180; L a1 a2; L a1 e1; L a2 e2; L b0 b3; L c0 c3; L b0 c0; L b3 c3; L d1 d2; L e1 e2; cap A net of a cube
+| Solid | Its net is made of |
+| Cube | 6 squares |
+| Cuboid | 6 rectangles in three equal pairs |
+| Triangular prism | 2 triangles and 3 rectangles |
+| Square pyramid | 1 square and 4 triangles |
+| Tetrahedron | 4 triangles |
+| Cylinder | 2 circles and 1 rectangle |
+| Cone | 1 circle and 1 sector of a circle |
+- In a **die**, the numbers on opposite faces add up to 7: 1 and 6, 2 and 5, 3 and 4. In a net of a die, opposite faces are never next to each other.
+?eg In the cross-shaped net of a cube shown above, the four squares in the column are numbered 1, 2, 3, 4 from the top and the side squares are 5 (left) and 6 (right). Which faces are opposite each other?
+= In a column of four, the first and third are opposite, and so are the second and fourth. The two side squares are opposite each other.
+=> 1 and 3; 2 and 4; 5 and 6
+?eg What solid is formed by a net of two equal circles and a rectangle?
+=> A cylinder
+
+# Views of a solid
+- A solid looks different from different directions. The three standard views are the **front view**, the **side view** and the **top view** (plan).
+| Solid (standing upright) | Front view | Side view | Top view |
+| Cube | Square | Square | Square |
+| Cuboid | Rectangle | Rectangle | Rectangle |
+| Cylinder | Rectangle | Rectangle | Circle |
+| Cone | Triangle | Triangle | Circle with its centre marked |
+| Sphere | Circle | Circle | Circle |
+| Square pyramid | Triangle | Triangle | Square with its diagonals |
+- A **cross-section** is the shape obtained when a solid is cut by a plane. A cube cut parallel to a face gives a square; a cylinder cut parallel to its base gives a circle, and cut vertically through its axis gives a rectangle.
+?eg Three cubes are placed in a row. Describe the front, side and top views.
+=> Front: 3 squares in a row. Side: 1 square. Top: 3 squares in a row.
+?eg What is the cross-section when a cone is cut by a plane parallel to its base?
+=> A circle
+
+# Common mistakes
+- Counting hidden edges or vertices twice, or missing them.
+- Applying Euler's formula to a cylinder, cone or sphere.
+- Mixing up the formulas for prisms and pyramids.
+- Assuming that any six joined squares form a net of a cube.
+- Confusing the top view with the front view.
+- Writing Euler's formula as $F + E - V = 2$.
+
+@@formulas
+Euler's formula | $F + V - E = 2$
+Cube or cuboid | 6 faces, 8 vertices, 12 edges
+Prism with $n$-sided ends | $n + 2$ faces, $2n$ vertices, $3n$ edges
+Pyramid with $n$-sided base | $n + 1$ faces, $n + 1$ vertices, $2n$ edges
+Tetrahedron | 4 faces, 4 vertices, 6 edges
+Nets of a cube | 11
+Opposite faces of a die | Add up to 7
+Net of a cylinder | 2 circles and a rectangle
+Net of a cone | A circle and a sector
+Three views | Front, side and top
+Polyhedron | A solid with flat polygonal faces only
+Edges from Euler's formula | $E = F + V - 2$
+
+@@dpp
+Q: How many faces, edges and vertices does a triangular prism have?
+A: 5 faces, 9 edges, 6 vertices
+Q: How many faces, vertices and edges does a hexagonal prism have?
+A: 8, 12 and 18
+Q: A pyramid has 7 vertices. What is the shape of its base, and how many edges does it have?
+A: A hexagon; 12 edges
+Q: A polyhedron has 6 faces and 12 edges. Find the number of vertices.
+A: 8
+Q: A polyhedron has 9 faces and 9 vertices. Find the number of edges.
+A: 16
+Q: Can a polyhedron have 7 faces, 10 vertices and 16 edges?
+A: No; $7 + 10 - 16 = 1$
+Q: Name the solid whose net has one square and four triangles.
+A: A square pyramid
+Q: On a die, which number is opposite 3?
+A: 4
+Q: Write the front, side and top views of an upright cylinder.
+A: Rectangle, rectangle, circle
+Q: Is a cone a polyhedron? Give a reason.
+A: No; it has a curved surface

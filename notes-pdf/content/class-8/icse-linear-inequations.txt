@@ -1,0 +1,124 @@
+@class Class 8
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 15
+@title Linear Inequations
+@summary Linear inequations in one variable, the rules for solving them, the replacement set and the solution set, and showing the solution on the number line.
+
+# Inequations
+- An **inequation** compares two expressions with one of the signs $<$, $>$, $\leq$, $\geq$.
+| Sign | Read as |
+| $<$ | is less than |
+| $>$ | is greater than |
+| $\leq$ | is less than or equal to |
+| $\geq$ | is greater than or equal to |
+- A **linear inequation in one variable** has the form $ax + b < c$ (or with $>$, $\leq$, $\geq$), where $a \neq 0$.
+- $x < 5$ and $5 > x$ mean the same thing.
+
+# Replacement set and solution set
+- The **replacement set** (domain) is the set from which values of the variable are chosen. It is given in the question.
+- The **solution set** is the set of all values from the replacement set that satisfy the inequation.
+- The same inequation can have different solution sets for different replacement sets.
+| Symbol | Set | Elements |
+| $N$ | Natural numbers | $1, 2, 3, \ldots$ |
+| $W$ | Whole numbers | $0, 1, 2, 3, \ldots$ |
+| $Z$ or $I$ | Integers | $\ldots, -2, -1, 0, 1, 2, \ldots$ |
+| $R$ | Real numbers | All points on the number line |
+?eg Write the solution set of $x < 4$ when the replacement set is (i) $N$ (ii) $W$ (iii) $\{-2, 0, 3, 5, 6\}$.
+=> (i) $\{1, 2, 3\}$ (ii) $\{0, 1, 2, 3\}$ (iii) $\{-2, 0, 3\}$
+
+# Rules for solving
+- **Adding or subtracting** the same number on both sides does **not** change the sign.
+- **Multiplying or dividing** both sides by the same **positive** number does **not** change the sign.
+- **Multiplying or dividing** both sides by the same **negative** number **reverses** the sign: $<$ becomes $>$ and $\leq$ becomes $\geq$.
+- A term may be transposed from one side to the other by changing its sign, just as in an equation.
+- If the sides are interchanged, the sign reverses: $a > b$ is the same as $b < a$.
+?eg Solve $3x - 5 < 10$, $x \in N$.
+= $3x < 15$, so $x < 5$
+=> $\{1, 2, 3, 4\}$
+?eg Solve $-2x \geq 6$, $x \in Z$.
+= Divide by $-2$ and reverse the sign: $x \leq -3$.
+=> $\{\ldots, -5, -4, -3\}$
+?eg Solve $7 - 3x > 1$, $x \in W$.
+= $-3x > -6$, so $x < 2$
+=> $\{0, 1\}$
+?eg Solve $5x + 2 \leq 3x + 12$, $x \in N$.
+= $2x \leq 10$, so $x \leq 5$
+=> $\{1, 2, 3, 4, 5\}$
+?eg Solve $\dfrac{2x - 1}{3} > 3$, $x \in \{1, 2, 3, \ldots, 8\}$.
+= $2x - 1 > 9$, so $x > 5$
+=> $\{6, 7, 8\}$
+?eg Solve $\dfrac{x}{2} - \dfrac{x}{3} \leq 1$, $x \in W$.
+= Multiply by 6: $3x - 2x \leq 6$
+=> $\{0, 1, 2, 3, 4, 5, 6\}$
+
+# On the number line
+- For a solution set of **integers, whole or natural numbers**: mark each solution with a thick dot. Three dots beyond the last marked number show that the set continues.
+- For **real numbers**: draw a thick line over the part that is included. Use a **solid dot** at an end point that is included ($\leq$ or $\geq$) and a **hollow circle** at an end point that is not included ($<$ or $>$).
+!fig w=340 h=110; Q L 20 50; Q R 320 50; L L R; P a 50 50 -; P b 90 50 -; P c 130 50 -; P d 170 50 -; Q e 210 50; Q f 250 50; Q g 290 50; T 50 72 −3; T 90 72 −2; T 130 72 −1; T 170 72 0; T 210 72 1; T 250 72 2; T 290 72 3; cap Solution set {−3, −2, −1, 0} of −3 ≤ x < 1, x ∈ Z, shown by dots
+!fig w=340 h=110; Q L 20 50; Q R 320 50; L L R; P a 90 50 -; Q b 250 50; Q b2 246 50; H a b2; C b 4; T 50 72 −3; T 90 72 −2; T 130 72 −1; T 170 72 0; T 210 72 1; T 250 72 2; T 290 72 3; cap −2 ≤ x < 2, x ∈ R: solid dot at −2 (included), hollow circle at 2 (not included)
+
+# Combined inequations
+- A statement such as $-3 < 2x - 1 \leq 5$ contains two inequations. Solve by doing the same operation to **all three parts**.
+- Or split it into two inequations, solve each, and take the values common to both.
+?eg Solve $-3 < 2x - 1 \leq 5$, $x \in Z$.
+= Add 1: $-2 < 2x \leq 6$. Divide by 2: $-1 < x \leq 3$.
+=> $\{0, 1, 2, 3\}$
+?eg Solve $-5 \leq 3x + 1 < 10$, $x \in R$, and describe the graph.
+= Subtract 1: $-6 \leq 3x < 9$. Divide by 3: $-2 \leq x < 3$.
+=> All real numbers from $-2$ to 3; solid dot at $-2$, hollow circle at 3
+?eg Solve $2 \leq 5 - x < 6$, $x \in Z$.
+= Subtract 5: $-3 \leq -x < 1$. Multiply by $-1$ and reverse: $3 \geq x > -1$.
+=> $\{0, 1, 2, 3\}$
+
+# Greatest and least values
+?eg Find the greatest value of $x$ satisfying $4x - 3 \leq 17$, $x \in N$, and the least value of $x$ satisfying $2x + 1 > 9$, $x \in N$.
+= $x \leq 5$; and $x > 4$
+=> Greatest 5; least 5
+?eg Find the smallest integer satisfying $3x + 8 > 2$.
+= $3x > -6$, so $x > -2$
+=> $-1$
+
+# Common mistakes
+- Not reversing the sign when multiplying or dividing by a negative number.
+- Reversing the sign when adding or subtracting, or when dividing by a positive number.
+- Ignoring the replacement set and listing numbers that are not in it.
+- Including an end point when the sign is $<$ or $>$.
+- Using a solid dot where a hollow circle is needed.
+- Listing 0 as a natural number.
+
+@@formulas
+Add or subtract | Sign unchanged
+Multiply or divide by a positive number | Sign unchanged
+Multiply or divide by a negative number | Sign reversed
+Interchange sides | $a > b$ means $b < a$
+Replacement set | The set from which values of $x$ are taken
+Solution set | Values in the replacement set that satisfy the inequation
+Natural numbers | $N = \{1, 2, 3, \ldots\}$
+Whole numbers | $W = \{0, 1, 2, \ldots\}$
+Integers | $Z = \{\ldots, -1, 0, 1, \ldots\}$
+Included end point | $\leq$ or $\geq$: solid dot
+Excluded end point | $<$ or $>$: hollow circle
+Combined inequation | Do the same operation to all three parts
+
+@@dpp
+Q: Write the solution set of $x \leq 3$, $x \in W$.
+A: $\{0, 1, 2, 3\}$
+Q: Solve $2x + 3 < 11$, $x \in N$.
+A: $\{1, 2, 3\}$
+Q: Solve $-3x < 12$, $x \in Z$, $x$ negative.
+A: $x > -4$: $\{-3, -2, -1\}$
+Q: Solve $8 - x \geq 5$, $x \in W$.
+A: $\{0, 1, 2, 3\}$
+Q: Solve $4x - 7 \leq 2x + 3$, $x \in N$.
+A: $\{1, 2, 3, 4, 5\}$
+Q: Solve $\dfrac{3x + 1}{2} > 5$, $x \in \{1, 2, 3, 4, 5, 6\}$.
+A: $x > 3$: $\{4, 5, 6\}$
+Q: Solve $-4 \leq 2x < 6$, $x \in Z$.
+A: $\{-2, -1, 0, 1, 2\}$
+Q: Solve $1 < 3x - 2 \leq 10$, $x \in N$.
+A: $1 < x \leq 4$: $\{2, 3, 4\}$
+Q: How is $x > -1$, $x \in R$, shown on the number line?
+A: A hollow circle at $-1$ and a thick line with an arrow to the right
+Q: Find the greatest integer satisfying $5x - 2 < 14$.
+A: 3
