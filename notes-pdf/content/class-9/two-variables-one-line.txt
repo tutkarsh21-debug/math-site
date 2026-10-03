@@ -1,0 +1,175 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 2
+@chapter 13
+@title Two Variables, One Line
+@summary A linear equation in two variables has infinitely many solutions, and they form a straight line. This chapter covers the slope of a line and the ways of solving a pair of linear equations: substitution, elimination and graphs.
+
+# Linear equations in two variables
+- An equation that can be written as $ax + by + c = 0$, where $a$, $b$, $c$ are real numbers and $a$, $b$ are not both zero, is a **linear equation in two variables**. This is its **standard form**.
+- $a$ is the coefficient of $x$, $b$ is the coefficient of $y$ and $c$ is the constant.
+- Fractions can be cleared by multiplying the whole equation by a suitable number.
+- An equation in one variable is a special case: $4x + 7 = 0$ is $4x + 0 \cdot y + 7 = 0$.
+?eg Write $3x = 2y - 5$ and $4y = 9$ in standard form and state $a$, $b$ and $c$.
+= $3x - 2y + 5 = 0$ and $0 \cdot x + 4y - 9 = 0$
+=> $a = 3$, $b = -2$, $c = 5$; and $a = 0$, $b = 4$, $c = -9$
+?eg A fruit seller sells mangoes at ₹80 per kg and bananas at ₹50 per kg. A customer buys $x$ kg of mangoes and $y$ kg of bananas and pays ₹340. Write an equation.
+= Cost of mangoes $= 80x$ and cost of bananas $= 50y$
+=> $80x + 50y = 340$
+
+# Solutions and their graph
+- A **solution** is a pair of values $(x, y)$ that satisfies the equation. It is an **ordered pair**: the $x$-value is written first.
+- A linear equation in two variables has **infinitely many** solutions. Choose any value of $x$ and solve for $y$.
+- Plotted as points, all the solutions lie on one **straight line**, and every point of that line is a solution.
+- Easy points: put $x = 0$ to find where the line cuts the $y$-axis, and $y = 0$ to find where it cuts the $x$-axis.
+- If $c = 0$, the line $ax + by = 0$ passes through the origin.
+- Multiplying an equation by a non-zero number does not change its solutions: $3x + 4y = 7$ and $6x + 8y = 14$ are the same line.
+?eg Check whether $(3, 2)$ and $(2, 3)$ are solutions of $2x + 3y = 12$. Find the points where its graph cuts the axes.
+= $(3, 2)$: $6 + 6 = 12$. $(2, 3)$: $4 + 9 = 13 \neq 12$.
+= $x = 0$ gives $y = 4$, and $y = 0$ gives $x = 6$.
+=> $(3, 2)$ is a solution and $(2, 3)$ is not. The line cuts the axes at $(0, 4)$ and $(6, 0)$.
+?eg $(2, -1)$ is a solution of both $3ax + 2y = 10$ and $x - by = 5$. Find $a$ and $b$.
+= First equation: $6a - 2 = 10$, so $a = 2$.
+= Second equation: $2 + b = 5$, so $b = 3$.
+=> $a = 2$, $b = 3$
+
+# Slope of a line
+- The **slope** (gradient) measures the steepness of a line. Moving from one point of the line to another, the horizontal change is the **run** and the vertical change is the **rise**.
+$$\text{Slope} = \frac{\text{Rise}}{\text{Run}} = \frac{y_2 - y_1}{x_2 - x_1}$$
+- The slope is the same whichever two points of the line are used, and in whichever order.
+| Slope | The line |
+| Positive | rises from left to right |
+| Negative | falls from left to right |
+| Zero | is horizontal, such as $y = 5$ |
+| Undefined | is vertical, such as $x = 2$ (the run is 0) |
+?eg Find the slope of the line through (a) $(1, 2)$ and $(5, 10)$ (b) $(-2, 7)$ and $(4, -5)$.
+= (a) $\dfrac{10 - 2}{5 - 1} = \dfrac{8}{4}$ (b) $\dfrac{-5 - 7}{4 - (-2)} = \dfrac{-12}{6}$
+=> (a) 2 (b) $-2$
+?eg A ramp rises 1.5 m over a horizontal length of 6 m. Find its slope. How long must a ramp of the same slope be to rise 2 m?
+= Slope $= \dfrac{1.5}{6} = 0.25$
+= Run $= \dfrac{2}{0.25}$
+=> Slope 0.25; a horizontal length of 8 m
+
+# Slope-intercept form
+- $y = mx + d$ is the **slope-intercept form**. $m$ is the slope and $d$ is the **$y$-intercept**: the line cuts the $y$-axis at $(0, d)$.
+- Why $m$ is the slope: for two points on the line, $y_2 - y_1 = (mx_2 + d) - (mx_1 + d) = m(x_2 - x_1)$.
+- From the standard form $ax + by + c = 0$ with $b \neq 0$: $y = -\dfrac{a}{b}x - \dfrac{c}{b}$, so
+$$m = -\frac{a}{b} \qquad d = -\frac{c}{b}$$
+- Two lines with the same slope and different $y$-intercepts are parallel.
+?eg Find the slope and the $y$-intercept of $4x + 2y = 10$.
+= $2y = -4x + 10$, so $y = -2x + 5$.
+=> Slope $-2$; $y$-intercept 5. For each increase of 1 in $x$, $y$ falls by 2.
+
+# Pair of linear equations
+- Two linear equations in the same two variables form a **pair**: $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$.
+- A **solution of the pair** is an ordered pair that satisfies **both** equations.
+- The idea of every method is to reduce the pair to one equation in one variable.
+
+# Substitution method
+- **Step 1**: From one equation, express one variable in terms of the other.
+- **Step 2**: Substitute this expression into the other equation and solve.
+- **Step 3**: Put the value back to find the other variable. Check in both equations.
+?eg Solve $2x + 3y = 13$ and $x - y = 4$.
+= From the second equation, $x = y + 4$.
+= Substitute in the first: $2(y + 4) + 3y = 13$, so $5y = 5$ and $y = 1$.
+= Then $x = 1 + 4 = 5$. Check: $10 + 3 = 13$ and $5 - 1 = 4$.
+=> $x = 5$, $y = 1$
+?eg Two angles of a triangle are $x°$ and $y°$ with $y = 3x$, and the third angle is $60°$. Find $x$ and $y$.
+= $x + y + 60 = 180$. Substituting $y = 3x$: $4x = 120$.
+=> $x = 30$, $y = 90$
+
+# Elimination method
+- **Step 1**: Multiply the equations by suitable numbers so that one variable has the same coefficient in both.
+- **Step 2**: Add or subtract the equations to remove that variable, and solve.
+- **Step 3**: Put the value back to find the other variable.
+?eg Solve $3x + 2y = 16$ and $5x - 3y = 14$.
+= Multiply the first by 3 and the second by 2: $9x + 6y = 48$ and $10x - 6y = 28$.
+= Adding: $19x = 76$, so $x = 4$. Then $12 + 2y = 16$ gives $y = 2$.
+=> $x = 4$, $y = 2$
+?eg 3 pens and 2 notebooks cost ₹95. 2 pens and 5 notebooks cost ₹155. Find the cost of each.
+= Let a pen cost ₹$x$ and a notebook ₹$y$: $3x + 2y = 95$ and $2x + 5y = 155$.
+= Multiply by 2 and by 3: $6x + 4y = 190$ and $6x + 15y = 465$. Subtracting: $11y = 275$, so $y = 25$.
+= Then $3x = 95 - 50$, so $x = 15$.
+=> A pen costs ₹15 and a notebook costs ₹25.
+?eg The digits of a two-digit number add up to 11. The number formed by reversing the digits is 27 more than the number. Find the number.
+= Let the tens digit be $x$ and the units digit be $y$. The number is $10x + y$ and the reversed number is $10y + x$.
+= $x + y = 11$ and $(10y + x) - (10x + y) = 27$, that is $y - x = 3$.
+= Adding: $2y = 14$, so $y = 7$ and $x = 4$.
+=> The number is 47.
+?eg Solve $7x + 5y = 46$ and $5x + 7y = 50$ by adding and subtracting.
+= The coefficients are interchanged. Adding: $12x + 12y = 96$, so $x + y = 8$.
+= Subtracting: $2x - 2y = -4$, so $x - y = -2$.
+=> $x = 3$, $y = 5$
+
+# How many solutions?
+- During elimination, both variables may disappear together. What is left decides the answer.
+| Condition | Number of solutions | The two lines |
+| $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$ | exactly one | intersect at a point |
+| $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$ | infinitely many | coincide |
+| $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$ | none | are parallel |
+- In the second case one equation is a multiple of the other, and elimination gives $0 = 0$. In the third case elimination gives a false statement such as $0 = 1$.
+?eg Without solving, find the number of solutions of (a) $2x + 3y = 7$, $4x + 6y = 14$ (b) $2x + 3y = 7$, $4x + 6y = 10$ (c) $x + 2y = 5$, $3x - y = 1$.
+= (a) $\dfrac{2}{4} = \dfrac{3}{6} = \dfrac{7}{14}$ (b) $\dfrac{2}{4} = \dfrac{3}{6} \neq \dfrac{7}{10}$ (c) $\dfrac{1}{3} \neq \dfrac{2}{-1}$
+=> (a) infinitely many (b) none (c) exactly one
+?eg For what value of $k$ does the pair $kx + 6y = 9$, $2x + 3y = 5$ have no solution?
+= We need $\dfrac{k}{2} = \dfrac{6}{3} \neq \dfrac{9}{5}$. The first two give $k = 4$, and $2 \neq \dfrac{9}{5}$.
+=> $k = 4$
+
+# Graphical method
+- Draw the two lines on the same axes. The solutions of the pair are the points that lie on **both** lines.
+!fig w=270 h=215; Q o 60 170; Q x1 30 170; Q x2 250 170; Q y1 60 205; Q y2 60 12; L x1 x2; L y1 y2; Q p 35 20; Q q 210 195; Q r 60 195; Q s 210 45; H p q; H r s; P S 135 120 -; T 244 186 x; T 48 18 y; T 110 40 x + y = 5; T 232 78 x − y = 1; T 160 124 (3, 2); cap The lines x + y = 5 and x − y = 1 meet at (3, 2)
+- Lines that **intersect** give one solution, the point of intersection. **Parallel** lines give no solution. **Coincident** lines give infinitely many.
+?eg Solve $x + y = 5$ and $x - y = 1$ graphically.
+= $x + y = 5$ passes through $(0, 5)$ and $(5, 0)$. $x - y = 1$ passes through $(1, 0)$ and $(0, -1)$.
+= The two lines cross at $(3, 2)$. Check: $3 + 2 = 5$ and $3 - 2 = 1$.
+=> $x = 3$, $y = 2$
+?eg Plan A costs ₹100 a month plus ₹2 per GB. Plan B costs ₹40 a month plus ₹5 per GB. For what usage do the two plans cost the same?
+= For $x$ GB the costs are $y = 100 + 2x$ and $y = 40 + 5x$.
+= $100 + 2x = 40 + 5x$ gives $x = 20$, and then $y = 140$.
+=> At 20 GB both cost ₹140. Below 20 GB Plan B is cheaper, and above it Plan A is cheaper.
+
+# Common mistakes
+- Writing a solution in the wrong order: $(3, 2)$ means $x = 3$ and $y = 2$.
+- Subtracting in different orders in the slope formula. Use $y_2 - y_1$ over $x_2 - x_1$ with the same point first in both.
+- Reading the slope of $4x + 2y = 10$ as 4. First write it as $y = -2x + 5$.
+- Multiplying only one side of an equation when preparing for elimination.
+- Sign errors when subtracting one equation from another. Change the sign of every term.
+- Comparing the ratios before writing both equations in the same form.
+
+@@formulas
+Standard form | $ax + by + c = 0$, with $a$ and $b$ not both zero
+Number of solutions of one equation | Infinitely many; they form a straight line
+Slope through two points | $\dfrac{y_2 - y_1}{x_2 - x_1} = \dfrac{\text{Rise}}{\text{Run}}$
+Slope-intercept form | $y = mx + d$, with slope $m$ and $y$-intercept $d$
+From standard form | $m = -\dfrac{a}{b}$ and $d = -\dfrac{c}{b}$
+Horizontal line | $y = k$, slope 0
+Vertical line | $x = k$, slope undefined
+Line through the origin | $ax + by = 0$
+Unique solution | $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$ (intersecting lines)
+Infinitely many solutions | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} = \dfrac{c_1}{c_2}$ (coincident lines)
+No solution | $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$ (parallel lines)
+Two-digit number | $10x + y$, with tens digit $x$ and units digit $y$
+Substitution method | Express one variable from one equation and put it in the other
+Elimination method | Make one coefficient equal in both equations, then add or subtract
+
+@@dpp
+Q: Write $5x = 3y + 8$ in standard form and state $a$, $b$ and $c$.
+A: $5x - 3y - 8 = 0$; $a = 5$, $b = -3$, $c = -8$
+Q: Is $(3, -2)$ a solution of $4x + 5y = 2$?
+A: Yes, since $12 - 10 = 2$
+Q: Find the slope of the line through $(2, 3)$ and $(6, 11)$.
+A: 2
+Q: Find the slope and the $y$-intercept of $3x + 4y = 12$.
+A: $y = -\dfrac{3}{4}x + 3$: slope $-\dfrac{3}{4}$, $y$-intercept 3
+Q: Solve $x + y = 12$ and $x - y = 2$.
+A: $x = 7$, $y = 5$
+Q: Solve by substitution: $y = 2x - 1$ and $3x + 2y = 12$.
+A: $x = 2$, $y = 3$
+Q: Solve by elimination: $2x + 3y = 12$ and $3x - 2y = 5$.
+A: $x = 3$, $y = 2$
+Q: How many solutions does the pair $3x - y = 4$, $6x - 2y = 9$ have?
+A: None. $\dfrac{3}{6} = \dfrac{-1}{-2} \neq \dfrac{4}{9}$, so the lines are parallel.
+Q: For what value of $k$ does the pair $2x + 5y = 7$, $4x + ky = 14$ have infinitely many solutions?
+A: $k = 10$
+Q: 4 chairs and 3 tables cost ₹2100. 5 chairs and 2 tables cost ₹1750. Find the cost of a chair and of a table.
+A: Chair ₹150; table ₹500

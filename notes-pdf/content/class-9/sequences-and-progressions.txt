@@ -1,0 +1,156 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 8
+@title Predicting What Comes Next? Exploring Sequences and Progressions
+@summary A sequence is an ordered list of numbers. This chapter shows two ways of writing its rule, and studies two special sequences: the arithmetic progression, which grows by adding, and the geometric progression, which grows by multiplying.
+
+# Sequences and their terms
+- A **sequence** is an ordered list of numbers. Each number is a **term**.
+- A sequence is **finite** if it stops (6, 12, 24, 48, 96) and **infinite** if it goes on for ever. Three dots show that it continues.
+- The terms are written $t_1, t_2, t_3, \ldots$ The subscript is the position: $t_4 = 7$ means the fourth term is 7. The position $n$ is always a natural number, but the term itself can be any number.
+| Sequence | Terms | Pattern |
+| Natural numbers | $1, 2, 3, 4, 5, \ldots$ | each term is 1 more than the last |
+| Odd numbers | $1, 3, 5, 7, 9, \ldots$ | the difference is always 2 |
+| Triangular numbers | $1, 3, 6, 10, 15, \ldots$ | $1,\ 1 + 2,\ 1 + 2 + 3, \ldots$ |
+| Square numbers | $1, 4, 9, 16, 25, \ldots$ | $1,\ 1 + 3,\ 1 + 3 + 5, \ldots$ |
+- The $n$th square number is the sum of the first $n$ odd numbers. The $n$th triangular number is the sum of the first $n$ natural numbers.
+- Some sequences, such as the prime numbers $2, 3, 5, 7, 11, \ldots$, have no simple rule.
+
+# Explicit rule
+- An **explicit rule** gives the $n$th term directly from its position $n$. Any term can be found without knowing the earlier ones.
+- To check whether a number is a term, set the rule equal to the number and solve for $n$. It is a term only if $n$ is a natural number.
+?eg For the sequence $t_n = 4n + 1$, find the first three terms and the 25th term. Are 213 and 150 terms of the sequence?
+= $t_1 = 5$, $t_2 = 9$, $t_3 = 13$ and $t_{25} = 101$
+= $4n + 1 = 213$ gives $n = 53$. $4n + 1 = 150$ gives $n = 37.25$.
+=> 5, 9, 13; $t_{25} = 101$; 213 is the 53rd term; 150 is not a term
+
+# Recursive rule
+- A **recursive rule** gives the first term (or first few terms) and a way to get each term from the terms before it.
+- To use it, the earlier terms must be worked out first.
+?eg Find the first four terms of the sequence $u_1 = 2$, $u_n = 3u_{n-1} - 1$ for $n \geq 2$.
+= $u_2 = 3(2) - 1 = 5$, $u_3 = 3(5) - 1 = 14$, $u_4 = 3(14) - 1 = 41$
+=> 2, 5, 14, 41
+- The **Virahānka–Fibonacci sequence** uses the two previous terms: $V_1 = 1$, $V_2 = 2$ and $V_n = V_{n-1} + V_{n-2}$ for $n \geq 3$. It gives $1, 2, 3, 5, 8, 13, 21, 34, 55, 89, \ldots$
+!tip Virahānka wrote down this sequence in the 7th century CE while studying the metres of Prakrit poetry. Gopāla and Hemachandra studied it further, well before Fibonacci (c. 1200 CE).
+
+# Arithmetic progressions
+- An **arithmetic progression (AP)** is a sequence in which each term is obtained by **adding** a fixed number to the term before it. The fixed number is the **common difference** $d$.
+- General form: $a,\ a + d,\ a + 2d,\ a + 3d,\ \ldots$ where $a$ is the first term.
+$$t_n = a + (n - 1)d$$
+- Recursive rule: $t_1 = a$ and $t_n = t_{n-1} + d$ for $n \geq 2$.
+- $d$ can be negative: $11, 7, 3, -1, \ldots$ is an AP with $d = -4$.
+- Plotting the points $(n, t_n)$ of an AP gives points on a **straight line**. An AP is a linear pattern.
+?eg Find the $n$th term and the 20th term of the AP $7, 11, 15, 19, \ldots$
+= $a = 7$ and $d = 4$, so $t_n = 7 + (n - 1) \times 4 = 4n + 3$.
+=> $t_n = 4n + 3$; $t_{20} = 83$
+?eg Which term of the AP $20, 17, 14, \ldots$ is $-40$? Is 0 a term of this AP?
+= $t_n = 20 + (n - 1)(-3) = 23 - 3n$
+= $23 - 3n = -40$ gives $n = 21$. $23 - 3n = 0$ gives $n = \dfrac{23}{3}$, which is not a natural number.
+=> $-40$ is the 21st term; 0 is not a term
+?eg The 4th term of an AP is 17 and the 9th term is 37. Find the AP and its 15th term.
+= $a + 3d = 17$ and $a + 8d = 37$. Subtracting: $5d = 20$, so $d = 4$ and $a = 5$.
+= $t_{15} = 5 + 14 \times 4$
+=> The AP is $5, 9, 13, \ldots$ and $t_{15} = 61$
+?eg How many three-digit numbers are divisible by 6?
+= They form the AP $102, 108, \ldots, 996$ with $d = 6$.
+= $996 = 102 + (n - 1) \times 6$, so $n - 1 = 149$.
+=> 150 numbers
+
+# Sum of the first n natural numbers
+- Write the sum forwards and backwards and add:
+$$S = 1 + 2 + \ldots + n \qquad S = n + (n - 1) + \ldots + 1$$
+- Each of the $n$ pairs adds up to $n + 1$, so $2S = n(n + 1)$.
+$$S_n = 1 + 2 + 3 + \ldots + n = \frac{n(n + 1)}{2}$$
+- Āryabhaṭa stated this result in the Āryabhaṭīya (499 CE): the sum is the average of the first and last terms multiplied by the number of terms.
+- The $n$th **triangular number** is $\dfrac{n(n + 1)}{2}$.
+- A sum that does not start from 1 is a difference of two such sums.
+?eg Find $1 + 2 + 3 + \ldots + 40$ and the 12th triangular number.
+= $S_{40} = \dfrac{40 \times 41}{2}$ and $\dfrac{12 \times 13}{2}$
+=> 820 and 78
+?eg Find $31 + 32 + 33 + \ldots + 70$.
+= The sum is $S_{70} - S_{30} = \dfrac{70 \times 71}{2} - \dfrac{30 \times 31}{2} = 2485 - 465$
+=> 2020
+
+# Geometric progressions
+- A **geometric progression (GP)** is a sequence in which each term is obtained by **multiplying** the term before it by a fixed number. The fixed number is the **common ratio** $r$.
+- General form: $a,\ ar,\ ar^2,\ ar^3,\ \ldots$
+$$t_n = ar^{n-1}$$
+- Recursive rule: $t_1 = a$ and $t_n = r \times t_{n-1}$ for $n \geq 2$.
+- To test for a GP, check that the ratio of each term to the one before it is the same.
+- $r$ can be a fraction or negative: $1, -1, 1, -1, \ldots$ is a GP with $r = -1$.
+- Plotting the points $(n, t_n)$ of a GP does **not** give a straight line. The points rise (or fall) faster and faster.
+?eg Is $8, 12, 18, 27, \ldots$ a GP? If so, find its $n$th term.
+= $\dfrac{12}{8} = \dfrac{3}{2}$, $\dfrac{18}{12} = \dfrac{3}{2}$, $\dfrac{27}{18} = \dfrac{3}{2}$. The ratio is constant.
+=> Yes, with $a = 8$ and $r = \dfrac{3}{2}$: $t_n = 8\left(\dfrac{3}{2}\right)^{n-1}$
+?eg Find the 7th term of the GP $2, 6, 18, \ldots$ Which term of the GP $5, 10, 20, \ldots$ is 1280?
+= $t_7 = 2 \times 3^6 = 2 \times 729$
+= $5 \times 2^{n-1} = 1280$, so $2^{n-1} = 256 = 2^8$ and $n = 9$.
+=> 1458; the 9th term
+?eg A culture starts with 50 bacteria and the number doubles every hour. How many are there after 6 hours and after $n$ hours?
+= After each hour the number is multiplied by 2, so after $n$ hours it is $50 \times 2^n$.
+=> 3200 after 6 hours; $50 \times 2^n$ after $n$ hours
+?eg A ball is dropped from a height of 50 m and each bounce reaches 80% of the previous height. How high does it rise after the 4th bounce?
+= The heights form a GP with first term $50 \times 0.8 = 40$ and $r = 0.8$: 40, 32, 25.6, 20.48.
+=> 20.48 m
+
+# Fractals and geometric progressions
+- A **fractal** is a pattern that repeats itself at smaller and smaller scales.
+- **Sierpiński triangle**: start with a triangle (stage 0). At each stage, join the mid-points of the sides of every shaded triangle and remove the middle one.
+| Stage $n$ | 0 | 1 | 2 | 3 | $n$ |
+| Number of shaded triangles | 1 | 3 | 9 | 27 | $3^n$ |
+| Shaded area (stage 0 has area 1) | 1 | $\frac{3}{4}$ | $\frac{9}{16}$ | $\frac{27}{64}$ | $\left(\frac{3}{4}\right)^n$ |
+- The number of triangles is a GP with ratio 3 and grows quickly. The shaded area is a GP with ratio $\dfrac{3}{4}$ and gets closer and closer to 0.
+
+# AP and GP compared
+| | AP | GP |
+| How the next term is found | add $d$ | multiply by $r$ |
+| What stays constant | difference $t_n - t_{n-1}$ | ratio $\dfrac{t_n}{t_{n-1}}$ |
+| $n$th term | $a + (n - 1)d$ | $ar^{n-1}$ |
+| Graph of $(n, t_n)$ | points on a straight line | points not on a straight line |
+
+# Common mistakes
+- Writing $t_n = a + nd$. The first term has no $d$ added, so it is $a + (n - 1)d$.
+- Writing the $n$th term of a GP as $ar^n$. The power is $n - 1$.
+- Accepting a value of $n$ that is not a natural number. Then the number is not a term.
+- Taking the common difference as (earlier term $-$ later term). It is $t_2 - t_1$.
+- Calling a sequence a GP after checking only one ratio. Check each pair of consecutive terms.
+
+@@formulas
+Explicit rule | $t_n$ written in terms of $n$
+Recursive rule | $t_n$ written in terms of earlier terms, with the starting term(s) given
+Virahānka–Fibonacci sequence | $V_1 = 1$, $V_2 = 2$, $V_n = V_{n-1} + V_{n-2}$
+General AP | $a,\ a + d,\ a + 2d,\ \ldots$
+$n$th term of an AP | $t_n = a + (n - 1)d$
+Recursive rule of an AP | $t_1 = a$, $t_n = t_{n-1} + d$
+Common difference | $d = t_2 - t_1$
+Sum of the first $n$ natural numbers | $\dfrac{n(n + 1)}{2}$
+$n$th triangular number | $\dfrac{n(n + 1)}{2}$
+$n$th square number | $n^2 = 1 + 3 + 5 + \ldots + (2n - 1)$
+General GP | $a,\ ar,\ ar^2,\ \ldots$
+$n$th term of a GP | $t_n = ar^{n-1}$
+Recursive rule of a GP | $t_1 = a$, $t_n = r \times t_{n-1}$
+Common ratio | $r = \dfrac{t_2}{t_1}$
+Sierpiński triangle, stage $n$ | $3^n$ triangles with total area $\left(\dfrac{3}{4}\right)^n$
+
+@@dpp
+Q: Write the first four terms of the sequence $t_n = n^2 + 1$.
+A: 2, 5, 10, 17
+Q: For $t_n = 7n - 4$, find the 15th term. Is 150 a term?
+A: $t_{15} = 101$; yes, 150 is the 22nd term
+Q: Write the first four terms of $s_1 = 4$, $s_n = 2s_{n-1} - 3$.
+A: 4, 5, 7, 11
+Q: Find the $n$th term and the 30th term of the AP $9, 14, 19, \ldots$
+A: $5n + 4$; 154
+Q: Which term of the AP $50, 46, 42, \ldots$ is $-10$?
+A: The 16th term
+Q: The 5th term of an AP is 22 and the 12th term is 50. Find $a$ and $d$.
+A: $d = 4$, $a = 6$
+Q: Find the sum of the first 60 natural numbers.
+A: $\dfrac{60 \times 61}{2} = 1830$
+Q: Find $21 + 22 + \ldots + 50$.
+A: $1275 - 210 = 1065$
+Q: Find the 8th term of the GP $3, 6, 12, \ldots$
+A: $3 \times 2^7 = 384$
+Q: Which term of the GP $4, 12, 36, \ldots$ is 2916?
+A: $3^{n-1} = 729 = 3^6$, so it is the 7th term

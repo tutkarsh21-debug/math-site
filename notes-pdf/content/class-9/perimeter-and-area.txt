@@ -1,0 +1,167 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 6
+@title Measuring Space: Perimeter and Area
+@summary This chapter measures the boundary and the region of plane shapes: the circumference and arcs of a circle, the areas of triangles and quadrilaterals (including Heron's and Brahmagupta's formulas), and the areas of circles, sectors and segments.
+
+# Perimeter and the number π
+- The **perimeter** of a shape is the total length of its boundary. Square of side $a$: $4a$. Equilateral triangle of side $a$: $3a$. Rectangle with sides $a$ and $b$: $2(a + b)$.
+- For every square the ratio perimeter : side is $4 : 1$, whatever its size. In the same way, for every circle the ratio **circumference : diameter** is the same number. This number is called $\pi$.
+$$\pi = \frac{C}{D} \qquad C = \pi d = 2\pi r$$
+- $\pi$ is **irrational**: its decimal form $3.14159265\ldots$ never ends and never repeats (proved by Lambert in 1761). So $\pi \approx \dfrac{22}{7}$ and $\pi \approx 3.14$, but $\pi \neq \dfrac{22}{7}$.
+| Who | Value or result for π |
+| Mesopotamia (c. 1900 BCE) | $3\dfrac{1}{8} = 3.125$ |
+| Archimedes (c. 250 BCE) | $3\dfrac{10}{71} < \pi < 3\dfrac{1}{7}$ |
+| Zu Chongzhi (480 CE) | $\dfrac{22}{7}$ and $\dfrac{355}{113} \approx 3.1415929$ |
+| Āryabhaṭa (499 CE) | $\dfrac{62832}{20000} = 3.1416$, called "approximate" |
+| Brahmagupta (628 CE) | $\sqrt{10} \approx 3.162$ |
+| Mādhava (14th century) | $\dfrac{\pi}{4} = 1 - \dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7} + \ldots$, an exact formula |
+!tip A regular hexagon drawn inside a circle of radius 1 has perimeter 6, which is less than the circumference $2\pi$. This shows $\pi > 3$.
+?eg A wheel has a diameter of 70 cm. How far does it move in one turn, and how many turns does it make in 1.1 km? Take $\pi = \dfrac{22}{7}$.
+= One turn $=$ circumference $= \dfrac{22}{7} \times 70 = 220$ cm
+= $1.1$ km $= 110000$ cm, so the number of turns is $\dfrac{110000}{220}$.
+=> 220 cm; 500 turns
+
+# Length of an arc
+- A semicircle is half the circle, so its length is $\pi r$. A quarter circle has length $\dfrac{\pi r}{2}$.
+- An arc that subtends an angle $\theta°$ at the centre is the fraction $\dfrac{\theta}{360}$ of the circle:
+$$\text{arc length} = \frac{\theta}{360} \times 2\pi r$$
+- The **perimeter of a sector** is the arc length plus two radii.
+- On a running track, a runner in an outer lane runs semicircles of larger radius. If the lanes are $w$ metres apart, one full lap in the next lane is $2\pi w$ metres longer. The **stagger** at the start makes up for this.
+?eg Find the length of an arc of a circle of radius 21 cm that subtends $120°$ at the centre. Take $\pi = \dfrac{22}{7}$.
+= Arc $= \dfrac{120}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{3} \times 132$
+=> 44 cm
+?eg Find the perimeter of a sector of radius 14 cm and angle $90°$. Take $\pi = \dfrac{22}{7}$.
+= Arc $= \dfrac{90}{360} \times 2 \times \dfrac{22}{7} \times 14 = 22$ cm
+= Perimeter $= 22 + 14 + 14$
+=> 50 cm
+?eg A semicircle is drawn on a segment $PQ$. Three smaller semicircles are drawn on three parts of $PQ$ that together make up $PQ$. Which path from $P$ to $Q$ is longer?
+= If the large radius is $a$ and the small radii are $b$, $c$, $d$, then $2a = 2b + 2c + 2d$, so $a = b + c + d$.
+= Large path $= \pi a$. Small paths together $= \pi b + \pi c + \pi d = \pi(b + c + d)$.
+=> The two paths are equal in length.
+
+# Area of rectangles, parallelograms and triangles
+- The unit of area is a square of side 1 unit. Rectangle: $ab$. Square: $a^2$.
+- **Parallelogram**: cutting a right-angled triangle from one end and moving it to the other turns it into a rectangle with the same base and height. So area $=$ base $\times$ height $= bh$.
+- The sides alone do not fix the area of a parallelogram. The height matters.
+- **Triangle**: two congruent copies of a triangle fit together to make a parallelogram with the same base and height. So area $= \dfrac{1}{2} \times$ base $\times$ height.
+- **Theorem**: a **median** of a triangle divides it into two triangles of equal area, because they have equal bases and the same height.
+!fig w=300 h=200; P A 120 25 t; P B 40 170 bl; P C 260 170 br; P D 150 170 b; F A B D; L A B; L B C; L C A; H A D; T 95 188 BD; T 205 188 DC; cap AD is a median. BD = DC, so the two triangles have equal area.
+- **Trapezium** with parallel sides $a$, $b$ and height $h$: area $= \dfrac{1}{2}(a + b)h$.
+- **Rhombus or kite** with diagonals $d_1$ and $d_2$: area $= \dfrac{1}{2}d_1d_2$.
+?eg The parallel sides of an isosceles trapezium are 30 cm and 14 cm, and each of the other sides is 17 cm. Find its area.
+= Dropping perpendiculars from the ends of the shorter side leaves $\dfrac{30 - 14}{2} = 8$ cm at each end of the longer side.
+= Height $= \sqrt{17^2 - 8^2} = 15$ cm. Area $= \dfrac{1}{2}(30 + 14) \times 15$.
+=> 330 cm²
+
+# Heron's formula
+- For a triangle with sides $a$, $b$, $c$, first find the **semi-perimeter** $s = \dfrac{a + b + c}{2}$. Then
+$$\text{Area} = \sqrt{s(s - a)(s - b)(s - c)}$$
+- For an **equilateral triangle** of side $a$ this gives $\dfrac{\sqrt{3}}{4}a^2$, the same as half base times height with height $\dfrac{\sqrt{3}}{2}a$.
+- Two more formulas: if $R$ is the radius of the circumcircle and $r$ the radius of the incircle, then Area $= \dfrac{abc}{4R}$ and Area $= r \times s$.
+?eg Find the area of a triangle with sides 13 cm, 14 cm and 15 cm. Then find the radius of its incircle.
+= $s = \dfrac{13 + 14 + 15}{2} = 21$
+= Area $= \sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056} = 84$ cm²
+= Area $= r \times s$, so $r = \dfrac{84}{21}$.
+=> Area 84 cm²; inradius 4 cm
+?eg The sides of a triangular plot are in the ratio $3 : 4 : 5$ and its perimeter is 96 m. Find its area.
+= The sides are $3k$, $4k$, $5k$ with $12k = 96$, so $k = 8$: the sides are 24 m, 32 m and 40 m.
+= $s = 48$. Area $= \sqrt{48 \times 24 \times 16 \times 8} = \sqrt{147456} = 384$
+=> 384 m² (check: it is right-angled, and $\dfrac{1}{2} \times 24 \times 32 = 384$)
+
+# Brahmagupta's formula for a cyclic quadrilateral
+- The four sides alone do not fix the area of a quadrilateral: a rhombus of side 3 can be pushed flatter and flatter. One more fact is needed.
+- If the quadrilateral is **cyclic**, with sides $a$, $b$, $c$, $d$ and semi-perimeter $s = \dfrac{a + b + c + d}{2}$, then (Brahmagupta, 628 CE)
+$$\text{Area} = \sqrt{(s - a)(s - b)(s - c)(s - d)}$$
+- A triangle is the special case $d = 0$: the formula then becomes Heron's formula. So Brahmagupta's formula **generalises** Heron's formula.
+- Check with a rectangle of sides $a$, $b$: $s = a + b$, and the formula gives $\sqrt{b \cdot a \cdot b \cdot a} = ab$.
+?eg A cyclic quadrilateral has sides 7 cm, 24 cm, 20 cm and 15 cm. Find its area.
+= $s = \dfrac{7 + 24 + 20 + 15}{2} = 33$
+= Area $= \sqrt{26 \times 9 \times 13 \times 18} = \sqrt{234 \times 234}$
+=> 234 cm²
+
+# Squaring a rectangle
+- To **square** a shape means to construct a square with the same area.
+- Baudhāyana's construction for a rectangle with sides $a$ and $b$ uses the identity
+$$ab = \left(\frac{a + b}{2}\right)^2 - \left(\frac{a - b}{2}\right)^2$$
+- In a right-angled triangle with hypotenuse $\dfrac{a + b}{2}$ and one side $\dfrac{a - b}{2}$, the third side $x$ has $x^2 = ab$. A square on that side has the same area as the rectangle.
+?eg Find the side of the square equal in area to a rectangle 9 cm by 4 cm, using the identity.
+= $\left(\dfrac{13}{2}\right)^2 - \left(\dfrac{5}{2}\right)^2 = \dfrac{169 - 25}{4} = 36$
+=> The side is 6 cm.
+
+# Area of a circle
+- For any shape, (perimeter)² : area stays the same when the shape is enlarged. For a circle the area is proportional to $r^2$, and Archimedes showed that the constant is exactly $\pi$.
+$$A = \pi r^2 = \frac{1}{2} \times \text{circumference} \times \text{radius}$$
+- Nīlakaṇṭha's picture: cut the circle into many thin slices and fit them together alternately. They form nearly a parallelogram with base $\pi r$ (half the circumference) and height $r$, so the area is $\pi r \times r$.
+?eg Find the area of a circle whose circumference is 44 cm. Take $\pi = \dfrac{22}{7}$.
+= $2 \times \dfrac{22}{7} \times r = 44$, so $r = 7$ cm.
+= Area $= \dfrac{22}{7} \times 49$
+=> 154 cm²
+
+# Sector and segment of a circle
+- A **sector** is the region between two radii and the arc joining their ends. A **segment** is the region between a chord and its arc.
+!fig w=250 h=215; P O 110 115 l; P A 185.2 87.6 r; P B 123.9 36.2 t; P P 34.8 142.4 l; P Q 150 184.3 br; C O 80; SEC O 80 20 80; SEG O 80 200 300; L O A; L O B; L P Q; T 150 80 sector; T 95 178 segment
+$$\text{Area of a sector} = \frac{\theta}{360} \times \pi r^2$$
+- Area of a **minor segment** $=$ area of the sector $-$ area of the triangle formed by the two radii and the chord.
+- Area of the **major** sector or segment $=$ area of the circle $-$ area of the minor one.
+?eg Find the area of a sector of radius 21 cm and angle $120°$. Take $\pi = \dfrac{22}{7}$.
+= Area $= \dfrac{120}{360} \times \dfrac{22}{7} \times 21 \times 21 = \dfrac{1}{3} \times 1386$
+=> 462 cm²
+?eg A chord of a circle of radius 14 cm subtends $90°$ at the centre. Find the area of the minor segment. Take $\pi = \dfrac{22}{7}$.
+= Sector $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14 = 154$ cm²
+= Triangle $= \dfrac{1}{2} \times 14 \times 14 = 98$ cm² (the two radii are at right angles)
+=> Segment $= 154 - 98 = 56$ cm²
+?eg The minute hand of a clock is 14 cm long. Find the area it sweeps in 15 minutes.
+= In 15 minutes the hand turns through $\dfrac{15}{60} \times 360° = 90°$.
+= Area $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14$
+=> 154 cm²
+
+# Common mistakes
+- Using the diameter in place of the radius in $\pi r^2$ or $2\pi r$.
+- Giving the arc length as the perimeter of a sector. Add the two radii.
+- Forgetting to halve the perimeter before using Heron's or Brahmagupta's formula.
+- Using Brahmagupta's formula for a quadrilateral that is not cyclic.
+- Writing $\pi = \dfrac{22}{7}$ as an exact value. It is an approximation.
+- Mixing units: change km to cm (or m) before dividing a distance by a circumference.
+
+@@formulas
+Circumference of a circle | $C = 2\pi r = \pi d$
+Length of an arc | $\dfrac{\theta}{360} \times 2\pi r$
+Perimeter of a sector | Arc length $+ 2r$
+Perimeter of a semicircular region | $\pi r + 2r$
+Area of a parallelogram | Base $\times$ height
+Area of a triangle | $\dfrac{1}{2} \times$ base $\times$ height
+Heron's formula | $\sqrt{s(s - a)(s - b)(s - c)}$, where $s = \dfrac{a + b + c}{2}$
+Area of an equilateral triangle | $\dfrac{\sqrt{3}}{4}a^2$
+Triangle, using the circumradius $R$ | $\dfrac{abc}{4R}$
+Triangle, using the inradius $r$ | $r \times s$
+Area of a trapezium | $\dfrac{1}{2}(a + b)h$
+Area of a rhombus or kite | $\dfrac{1}{2}d_1d_2$
+Brahmagupta's formula (cyclic quadrilateral) | $\sqrt{(s - a)(s - b)(s - c)(s - d)}$, where $s = \dfrac{a + b + c + d}{2}$
+Area of a circle | $\pi r^2$
+Area of a sector | $\dfrac{\theta}{360} \times \pi r^2$
+Area of a minor segment | Area of the sector $-$ area of the triangle
+Squaring a rectangle | $ab = \left(\dfrac{a + b}{2}\right)^2 - \left(\dfrac{a - b}{2}\right)^2$
+
+@@dpp
+Q: Find the circumference of a circle of radius 10.5 cm. Take $\pi = \dfrac{22}{7}$.
+A: 66 cm
+Q: The circumference of a circle is 132 cm. Find its radius. Take $\pi = \dfrac{22}{7}$.
+A: 21 cm
+Q: Find the length of an arc of radius 14 cm that subtends $45°$ at the centre. Take $\pi = \dfrac{22}{7}$.
+A: $\dfrac{45}{360} \times 88 = 11$ cm
+Q: Find the perimeter of a semicircular disc of radius 7 cm. Take $\pi = \dfrac{22}{7}$.
+A: $22 + 14 = 36$ cm
+Q: Use Heron's formula to find the area of a triangle with sides 5 cm, 12 cm and 13 cm.
+A: $s = 15$; $\sqrt{15 \times 10 \times 3 \times 2} = 30$ cm²
+Q: Find the area of a triangle with sides 10 cm, 17 cm and 21 cm.
+A: $s = 24$; $\sqrt{24 \times 14 \times 7 \times 3} = 84$ cm²
+Q: Find the area of an equilateral triangle of side 6 cm.
+A: $9\sqrt{3}$ cm²
+Q: The diagonals of a rhombus are 16 cm and 30 cm. Find its area and its side.
+A: Area 240 cm²; side $\sqrt{8^2 + 15^2} = 17$ cm
+Q: Find the area of a sector of radius 14 cm and angle $45°$. Take $\pi = \dfrac{22}{7}$.
+A: $\dfrac{1}{8} \times 616 = 77$ cm²
+Q: A chord of a circle of radius 7 cm subtends $90°$ at the centre. Find the area of the minor segment. Take $\pi = \dfrac{22}{7}$.
+A: $38.5 - 24.5 = 14$ cm²

@@ -1,0 +1,141 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 5
+@title I'm Up and Down, and Round and Round
+@summary This chapter is about the circle: how many circles pass through given points, the properties of chords, the angles that arcs subtend, and when four points lie on one circle.
+
+# Definitions
+- A **circle** is the set of all points in a plane that are at the same distance from a fixed point. The fixed point is the **centre** and the distance is the **radius**.
+- A set of points that satisfy a condition is called a **locus**. So a circle is the locus of points at a given distance from a given point.
+- A **chord** is a line segment joining two points of the circle. A chord through the centre is a **diameter**. The diameter is the longest chord.
+- An **arc** is a connected part of the circle. Two points on a circle make two arcs: the smaller is the **minor arc** and the larger is the **major arc**.
+- The angle a chord or an arc **subtends** at a point is the angle formed by joining its end points to that point.
+- **Symmetry**: every diameter is a line of reflection symmetry, and the circle looks the same after a rotation through any angle about its centre.
+
+# Circles through given points
+- Through **one** point or **two** points, infinitely many circles can be drawn.
+- The centre of every circle through $A$ and $B$ is equidistant from $A$ and $B$, so it lies on the **perpendicular bisector** of $AB$. The smallest such circle has $AB$ as a diameter.
+- **Theorem 1**: There is exactly **one** circle through three points that are not collinear.
+- Reason: the centre must lie on the perpendicular bisector of $AB$ and also on that of $AC$. These two lines meet at exactly one point $O$, and $OA = OB = OC$.
+- No circle passes through three collinear points, because the two perpendicular bisectors are then parallel.
+- The circle through the vertices of a triangle is its **circumcircle**, and its centre is the **circumcentre**.
+| Triangle | Position of the circumcentre |
+| Acute-angled | Inside the triangle |
+| Right-angled | At the mid-point of the hypotenuse |
+| Obtuse-angled | Outside the triangle |
+?eg A triangle has sides 6 cm, 8 cm and 10 cm. Where is its circumcentre, and what is the radius of its circumcircle?
+= $6^2 + 8^2 = 100 = 10^2$, so the triangle is right-angled and the hypotenuse is 10 cm.
+=> The circumcentre is the mid-point of the hypotenuse, and the radius is 5 cm.
+
+# Chords and the angles they subtend at the centre
+- **Theorem 2**: Equal chords of a circle subtend equal angles at the centre.
+- Reason: if $AB = DE$ and $C$ is the centre, then $CA = CD$ and $CB = CE$ (radii), so $\triangle CAB \cong \triangle CDE$ by SSS.
+- **Theorem 3** (converse): Chords that subtend equal angles at the centre are equal. Here the triangles are congruent by SAS.
+- The triangle formed by a chord and the centre is always **isosceles**, because two of its sides are radii.
+?eg A chord of a circle of radius 9 cm subtends an angle of $60°$ at the centre. Find the length of the chord.
+= The triangle formed by the chord and the two radii is isosceles with a vertex angle of $60°$.
+= Its base angles are $\dfrac{180° - 60°}{2} = 60°$ each, so the triangle is equilateral.
+=> The chord is 9 cm long.
+
+# The perpendicular from the centre to a chord
+- **Theorem 4**: The line joining the centre to the mid-point of a chord is perpendicular to the chord.
+- **Theorem 5** (converse): The perpendicular from the centre to a chord bisects the chord.
+- So the perpendicular bisector of any chord passes through the centre.
+!fig w=260 h=215; P O 130 105 t; P A 66 153 bl; P B 194 153 br; P M 130 153 b; C O 80; H A B; L O A; D O M; R O M B; T 86 122 r; T 142 132 d; cap OM is perpendicular to AB, and AM = MB
+- If the radius is $r$ and the chord is at distance $d$ from the centre, the right-angled triangle $OMA$ gives
+$$\text{length of chord} = 2\sqrt{r^2 - d^2}$$
+?eg A chord is 6 cm from the centre of a circle of radius 10 cm. Find its length.
+= Half the chord $= \sqrt{10^2 - 6^2} = \sqrt{64} = 8$ cm
+=> The chord is 16 cm long.
+?eg A chord 30 cm long is 8 cm from the centre. Find the radius.
+= Half the chord is 15 cm. $r = \sqrt{15^2 + 8^2} = \sqrt{289}$
+=> Radius $= 17$ cm
+
+# Distance of chords from the centre
+- The distance of a chord from the centre means the **perpendicular** distance.
+- **Theorem 6**: Equal chords are at the same distance from the centre.
+- **Theorem 7** (converse): Chords at the same distance from the centre are equal.
+- **Theorem 8**: Of two unequal chords, the **longer chord is nearer** to the centre.
+- Reason: $d^2 = r^2 - (\text{half chord})^2$, so a larger half-chord gives a smaller $d$. The diameter has $d = 0$ and is the longest chord.
+?eg Two parallel chords of a circle of radius 10 cm are 12 cm and 16 cm long. Find the distance between them when they are (a) on opposite sides of the centre (b) on the same side.
+= Distance of the 12 cm chord from the centre $= \sqrt{10^2 - 6^2} = 8$ cm
+= Distance of the 16 cm chord from the centre $= \sqrt{10^2 - 8^2} = 6$ cm
+=> (a) $8 + 6 = 14$ cm (b) $8 - 6 = 2$ cm
+
+# Angles subtended by an arc
+- The angle an arc subtends at the centre is measured by sweeping along the arc. It is less than $180°$ for a minor arc and more than $180°$ for a major arc.
+- **Theorem 9**: The angle subtended by an arc at the centre is **double** the angle it subtends at any point on the remaining part of the circle.
+!fig w=260 h=215; P O 130 110 b; P A 60.7 150 l; P B 199.3 150 r; P D 116.1 31.2 t; C O 80; L O A; L O B; H D A; H D B; cap Angle AOB = 2 × angle ADB
+- Reason: join $D$ to the centre and extend. Each of the two triangles formed is isosceles (two radii), and the exterior angle of each is twice its base angle.
+- **Angles in the same segment**: all the angles subtended by an arc at points on the remaining part of the circle are equal.
+- **Corollary**: the angle subtended by a diameter at any point on the circle is $90°$ (the angle in a semicircle), because the diameter subtends $180°$ at the centre.
+?eg An arc subtends $130°$ at the centre. What angle does it subtend at a point on the remaining part of the circle?
+= The angle at the circumference is half the angle at the centre.
+=> $65°$
+?eg $AB$ is a diameter and $C$ is a point on the circle with $\angle CAB = 35°$. Find $\angle CBA$.
+= $\angle ACB = 90°$ (angle in a semicircle)
+= $\angle CBA = 180° - 90° - 35°$
+=> $55°$
+
+# Concyclic points and cyclic quadrilaterals
+- Points that lie on one circle are called **concyclic**.
+- **Theorem 10**: If a segment $AB$ subtends equal angles at two points $C$ and $D$ on the same side of $AB$, then $A$, $B$, $C$ and $D$ are concyclic.
+- A quadrilateral whose four vertices lie on a circle is a **cyclic quadrilateral**.
+- **Theorem 11**: The opposite angles of a cyclic quadrilateral add up to $180°$.
+- **Theorem 12** (converse): If a pair of opposite angles of a quadrilateral add up to $180°$, the quadrilateral is cyclic.
+!fig w=260 h=215; Q O 130 110; P A 78.6 48.7 tl; P B 54.8 137.4 l; P C 191.3 161.4 br; P D 191.3 58.6 tr; C O 80; H A B; H B C; H C D; H D A; cap Angle A + angle C = 180° and angle B + angle D = 180°
+- Reason for Theorem 11: $\angle A$ is half the angle at the centre on one arc $BD$, and $\angle C$ is half the angle at the centre on the other arc. The two angles at the centre make a full turn of $360°$.
+- An exterior angle of a cyclic quadrilateral equals the interior opposite angle.
+- A parallelogram inscribed in a circle must be a rectangle, because its opposite angles are equal and also add up to $180°$.
+?eg In a cyclic quadrilateral $ABCD$, $\angle A = (3x + 5)°$ and $\angle C = (2x + 15)°$. Find $x$ and the two angles.
+= $(3x + 5) + (2x + 15) = 180$, so $5x = 160$ and $x = 32$.
+=> $x = 32$; $\angle A = 101°$ and $\angle C = 79°$
+?eg The angles of a quadrilateral, taken in order, are $70°$, $95°$, $110°$ and $85°$. Can it be inscribed in a circle?
+= Opposite angles: $70° + 110° = 180°$ and $95° + 85° = 180°$.
+=> Yes. Its opposite angles are supplementary, so it is cyclic.
+
+# Common mistakes
+- Using the full chord instead of **half** the chord in the right-angled triangle.
+- Taking the distance of a chord from the centre along a slanting line. It is always the perpendicular distance.
+- Thinking the longer chord is farther from the centre. It is nearer.
+- Halving the wrong angle: the angle at the **centre** is the double, the angle on the **circle** is the half.
+- Adding adjacent angles of a cyclic quadrilateral to $180°$. Only **opposite** angles are supplementary.
+
+@@formulas
+Circle | All points at distance $r$ from the centre
+Circles through 3 non-collinear points | Exactly one
+Circumcentre | Meeting point of the perpendicular bisectors of the sides
+Equal chords | Subtend equal angles at the centre, and conversely
+Centre to mid-point of a chord | Perpendicular to the chord
+Perpendicular from the centre | Bisects the chord
+Length of a chord | $2\sqrt{r^2 - d^2}$, where $d$ is its distance from the centre
+Equal chords | Equidistant from the centre, and conversely
+Unequal chords | The longer chord is nearer to the centre
+Angle at the centre | $2 \times$ angle at the remaining part of the circle
+Angles in the same segment | Equal
+Angle in a semicircle | $90°$
+Cyclic quadrilateral | Opposite angles add up to $180°$, and conversely
+Exterior angle of a cyclic quadrilateral | Equal to the interior opposite angle
+
+@@dpp
+Q: A chord is 12 cm from the centre of a circle of radius 13 cm. Find the length of the chord.
+A: $2\sqrt{169 - 144} = 10$ cm
+Q: A chord 16 cm long is 15 cm from the centre. Find the radius.
+A: $\sqrt{8^2 + 15^2} = 17$ cm
+Q: A circle has diameter 20 cm. How far from the centre is a chord of length 12 cm?
+A: $\sqrt{10^2 - 6^2} = 8$ cm
+Q: An arc subtends $84°$ at the centre. What angle does it subtend at a point on the remaining part of the circle?
+A: $42°$
+Q: $AB$ is a diameter and $C$ is a point on the circle with $\angle ABC = 28°$. Find $\angle BAC$.
+A: $90° - 28° = 62°$
+Q: In a cyclic quadrilateral $PQRS$, $\angle P = 68°$ and $\angle Q = 105°$. Find $\angle R$ and $\angle S$.
+A: $\angle R = 112°$ and $\angle S = 75°$
+Q: In a cyclic quadrilateral $ABCD$, $\angle A = (4x - 10)°$ and $\angle C = (x + 40)°$. Find $x$.
+A: $5x + 30 = 180$, so $x = 30$
+Q: Two parallel chords of lengths 14 cm and 48 cm lie on the same side of the centre of a circle of radius 25 cm. Find the distance between them.
+A: The distances from the centre are 24 cm and 7 cm, so the chords are 17 cm apart.
+Q: A chord subtends $60°$ at the centre of a circle of radius 7 cm. Find its length.
+A: 7 cm (the triangle is equilateral)
+Q: A regular hexagon is inscribed in a circle of radius 8 cm. Find the length of each side.
+A: 8 cm (each side subtends $60°$ at the centre)

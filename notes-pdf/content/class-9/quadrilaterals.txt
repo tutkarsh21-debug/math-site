@@ -1,0 +1,135 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 2
+@chapter 12
+@title Quadrilaterals
+@summary This chapter defines a quadrilateral carefully, proves the tests for a parallelogram, and uses parallelograms to prove the Midpoint Theorem, the Centroid Theorem and Varignon's theorem. It ends with tiling the plane using any quadrilateral.
+
+# What a quadrilateral is
+- A **quadrilateral** (4-gon) $ABCD$ is formed by four points $A$, $B$, $C$, $D$ in a plane, no three of them collinear, joined by the segments $AB$, $BC$, $CD$ and $DA$, where every point other than the four vertices lies on exactly one of these segments.
+- This rules out three collinear vertices (which would give a triangle), four points not in one plane (a non-planar figure) and sides that cross each other (a self-intersecting figure).
+- **Sides**: $AB$, $BC$, $CD$, $DA$. **Diagonals**: $AC$ and $BD$. **Adjacent** sides share a vertex and **opposite** sides do not. Angles at the ends of a side are adjacent angles.
+- The same quadrilateral can be named $BCDA$, $CDAB$, $DABC$ or in the reverse order, but not $ACBD$.
+- A quadrilateral is **convex** when all its interior angles are less than $180°$. Then its diagonals intersect. A **non-convex** quadrilateral has one angle greater than $180°$ (a dent), and its diagonals do not intersect.
+- The interior angles of any quadrilateral add up to $360°$.
+
+# Parallelograms and their properties
+- A **parallelogram** is a quadrilateral whose opposite sides are parallel. Rectangles, rhombuses and squares are parallelograms.
+- **Theorem 1**: In a parallelogram (a) opposite sides are equal (b) opposite angles are equal (c) the diagonals bisect each other.
+!fig w=330 h=190; P A 100 40 tl; P B 280 40 tr; P C 240 150 br; P D 60 150 bl; P E 170 95 t; L A B; L B C; L C D; L D A; D A C; D B D; cap ABCD is a parallelogram. E is the mid-point of both diagonals.
+- (a) The diagonal $AC$ is a transversal for both pairs of parallel sides, so $\triangle ACD \cong \triangle CAB$ by ASA. Hence $AB = DC$ and $AD = BC$.
+- (b) Adjacent angles are interior angles on the same side of a transversal, so they add up to $180°$. It follows that $\angle A = \angle C$ and $\angle B = \angle D$.
+- (c) $\triangle AED \cong \triangle CEB$ (using $AD = BC$ and the alternate angles), so $EA = EC$ and $EB = ED$.
+?eg In a parallelogram $ABCD$, $\angle A = (3x + 10)°$ and $\angle B = (2x + 20)°$. Find all four angles.
+= Adjacent angles are supplementary: $(3x + 10) + (2x + 20) = 180$, so $x = 30$.
+=> $\angle A = \angle C = 100°$ and $\angle B = \angle D = 80°$
+?eg The diagonals of a parallelogram $ABCD$ meet at $E$. If $AC = 16$ cm and $BD = 10$ cm, find $AE$ and $BE$.
+= The diagonals bisect each other.
+=> $AE = 8$ cm and $BE = 5$ cm
+
+# Tests for a parallelogram
+- The converses of the three properties are all true, and there is one more useful test.
+| Test | If a quadrilateral has ... then it is a parallelogram |
+| Theorem 2 | both pairs of opposite sides equal |
+| Theorem 3 | both pairs of opposite angles equal |
+| Theorem 4 | diagonals that bisect each other |
+| Theorem 5 | one pair of opposite sides both equal and parallel |
+- Proof of Theorem 2: $\triangle ACD \cong \triangle CAB$ by SSS, so the alternate angles are equal and the opposite sides are parallel.
+- Proof of Theorem 3: $2(\angle A + \angle B) = 360°$, so $\angle A + \angle B = 180°$ and $AD \parallel BC$. In the same way $AB \parallel DC$.
+- Proof of Theorem 4: $\triangle AED \cong \triangle CEB$ by SAS, which gives equal alternate angles.
+- Proof of Theorem 5: if $AB \parallel DC$ and $AB = DC$, then $\triangle EAB \cong \triangle ECD$ by ASA, so the diagonals bisect each other. Now use Theorem 4.
+- Special parallelograms: a parallelogram with one right angle is a **rectangle**. A parallelogram with equal diagonals is a rectangle. A parallelogram whose diagonal bisects an angle is a **rhombus**.
+?eg Show that $A(1, 1)$, $B(5, 2)$, $C(7, 6)$ and $D(3, 5)$ are the vertices of a parallelogram.
+= Mid-point of $AC = \left(\dfrac{1 + 7}{2}, \dfrac{1 + 6}{2}\right) = (4, 3.5)$. Mid-point of $BD = \left(\dfrac{5 + 3}{2}, \dfrac{2 + 5}{2}\right) = (4, 3.5)$.
+=> The diagonals bisect each other, so $ABCD$ is a parallelogram (Theorem 4).
+?eg One pair of opposite sides of a quadrilateral are equal and the other pair are parallel. Must it be a parallelogram?
+= Theorem 5 needs the **same** pair of sides to be equal and parallel.
+=> No. An isosceles trapezium is a counterexample.
+
+# The Midpoint Theorem
+- **Theorem 6 (Midpoint Theorem)**: The segment joining the mid-points of two sides of a triangle is parallel to the third side and is half as long.
+!fig w=320 h=205; P A 150 22 t; P B 40 180 bl; P C 280 180 br; P P 95 101 l; P Q 215 101 r; L A B; L A C; L B C; H P Q; cap P and Q are mid-points. PQ is parallel to BC and PQ = ½ BC.
+- Proof idea: draw a line through $C$ parallel to $BA$, meeting $PQ$ produced at $R$. Then $\triangle APQ \cong \triangle CRQ$ (AAS), so $PQ = QR$ and $CR = AP = BP$. Since $CR$ is equal and parallel to $BP$, $BCRP$ is a parallelogram (Theorem 5). Hence $PQ \parallel BC$ and $PQ = \dfrac{1}{2}PR = \dfrac{1}{2}BC$.
+- **Theorem 7 (Converse)**: The line through the mid-point of one side of a triangle, parallel to another side, bisects the third side.
+- Joining the mid-points of all three sides divides a triangle into **four congruent triangles**. Each has sides half as long as the original.
+?eg The sides of a triangle are 10 cm, 14 cm and 18 cm. Find the perimeter of the triangle formed by joining the mid-points of its sides.
+= Each side of the new triangle is half of one side: 5 cm, 7 cm and 9 cm.
+=> 21 cm
+?eg In $\triangle ABC$, $P$ is the mid-point of $AB$ and the line through $P$ parallel to $BC$ meets $AC$ at $Q$. If $AC = 13$ cm and $BC = 12$ cm, find $AQ$ and $PQ$.
+= By the converse of the Midpoint Theorem, $Q$ is the mid-point of $AC$.
+=> $AQ = 6.5$ cm and $PQ = 6$ cm
+
+# Medians and the centroid
+- A **median** joins a vertex of a triangle to the mid-point of the opposite side.
+- **Theorem 8 (Centroid Theorem)**: The three medians of a triangle pass through one point, the **centroid**. It divides each median in the ratio $2 : 1$, with the longer part towards the vertex.
+!fig w=320 h=205; P A 150 22 t; P B 40 180 bl; P C 280 180 br; P P 95 101 l; P Q 215 101 r; P R 160 180 b; P M 156.7 127.3 r; L A B; L A C; L B C; H A R; H B Q; H C P; cap M is the centroid. AM : MR = 2 : 1.
+- Proof idea: let two medians $CP$ and $BQ$ meet at $M$, and let $X$, $Y$ be the mid-points of $BM$ and $CM$. By the Midpoint Theorem in $\triangle ABC$ and in $\triangle MBC$, both $PQ$ and $XY$ are parallel to $BC$ and equal to half of it. So $\triangle MPQ \cong \triangle MYX$, which gives $MP = MY = YC$ and $MQ = MX = XB$. The same argument with another pair of medians gives the same point.
+?eg A median of a triangle is 12 cm long. How far is the centroid from the vertex and from the mid-point of the opposite side?
+= The centroid divides the median in the ratio $2 : 1$: $\dfrac{2}{3} \times 12$ and $\dfrac{1}{3} \times 12$.
+=> 8 cm from the vertex and 4 cm from the mid-point
+
+# The Midpoint Theorem for quadrilaterals
+- **Theorem 9 (Varignon's theorem)**: The mid-points of the four sides of any quadrilateral are the vertices of a parallelogram, called the **Varignon parallelogram**.
+!fig w=330 h=205; P A 60 40 tl; P B 250 30 tr; P C 290 170 br; P D 40 150 bl; P P 155 35 t; P Q 270 100 r; P R 165 160 b; P S 50 95 l; L A B; L B C; L C D; L D A; H P Q; H Q R; H R S; H S P; D A C; cap PQ and SR are both parallel to the diagonal AC
+- Proof: by the Midpoint Theorem in $\triangle ABC$ and $\triangle ADC$, both $PQ$ and $SR$ are parallel to $AC$ and equal to half of it. So $PQ$ is equal and parallel to $SR$.
+- The sides of the Varignon parallelogram are half the diagonals. So its perimeter equals the sum of the two diagonals of the quadrilateral.
+- If the diagonals are **equal**, it is a rhombus. If they are **perpendicular**, it is a rectangle.
+?eg The diagonals of a quadrilateral are 12 cm and 16 cm. Find the sides and the perimeter of its Varignon parallelogram.
+= The sides are half the diagonals: 6 cm and 8 cm.
+=> Sides 6 cm, 8 cm, 6 cm, 8 cm; perimeter 28 cm
+
+# Tiling the plane
+- To **tile** the plane is to cover it with copies of a shape, leaving no gaps and no overlaps.
+- Any parallelogram tiles the plane: a grid of two sets of parallel lines does it.
+- **Any quadrilateral tiles the plane.** Its four angles add up to $360°$, so four copies fit around a point with each angle used once.
+- Method: rotate a copy through $180°$ about the mid-point of a side. It fits exactly along that side. Repeat at every side of every copy.
+- In such a tiling the Varignon parallelograms of the copies form a grid of parallelograms.
+- A shape can tile around a point only if its angles can add up to $360°$ there. A regular pentagon cannot tile the plane: each angle is $108°$, and 360 is not a multiple of 108.
+?eg Can a regular hexagon tile the plane?
+= Each interior angle of a regular hexagon is $120°$, and $3 \times 120° = 360°$.
+=> Yes. Three hexagons meet at each vertex, as in a honeycomb.
+
+# Common mistakes
+- Using Theorem 5 with one pair of sides equal and the **other** pair parallel. The same pair must be both.
+- Saying the diagonals of every parallelogram are equal or perpendicular. They only bisect each other.
+- Writing the centroid ratio the wrong way round. The part from the vertex is the longer one.
+- Assuming the converse of a property without proof. Each converse here has its own proof.
+- Naming the vertices out of order: $ABCD$ means $A$ is joined to $B$, $B$ to $C$, $C$ to $D$ and $D$ to $A$.
+
+@@formulas
+Angle sum of a quadrilateral | $360°$
+Convex quadrilateral | Every interior angle is less than $180°$; the diagonals intersect
+Parallelogram | Opposite sides are parallel
+Properties of a parallelogram | Opposite sides equal, opposite angles equal, diagonals bisect each other
+Adjacent angles of a parallelogram | Add up to $180°$
+Tests for a parallelogram | Opposite sides equal; opposite angles equal; diagonals bisect each other; one pair of sides equal and parallel
+Midpoint Theorem | $PQ \parallel BC$ and $PQ = \dfrac{1}{2}BC$
+Converse of the Midpoint Theorem | A line through the mid-point of one side, parallel to a second side, bisects the third side
+Median | Joins a vertex to the mid-point of the opposite side
+Centroid | The medians meet at one point, which divides each in the ratio $2 : 1$ from the vertex
+Varignon parallelogram | Formed by the mid-points of the sides of any quadrilateral
+Perimeter of the Varignon parallelogram | Sum of the diagonals of the quadrilateral
+Angle sum of an $n$-gon | $(n - 2) \times 180°$
+Number of diagonals of an $n$-gon | $\dfrac{n(n - 3)}{2}$
+
+@@dpp
+Q: In a parallelogram $ABCD$, $\angle A = 65°$. Find the other three angles.
+A: $\angle B = 115°$, $\angle C = 65°$, $\angle D = 115°$
+Q: Two opposite sides of a parallelogram are $(4x + 3)$ cm and $(6x - 7)$ cm. Find $x$ and the length of the side.
+A: $x = 5$; 23 cm
+Q: The diagonals of a parallelogram $ABCD$ meet at $E$. If $AC = 18$ cm and $BD = 12$ cm, find $AE$ and $DE$.
+A: 9 cm and 6 cm
+Q: The angles of a quadrilateral, in order, are $70°$, $110°$, $70°$ and $110°$. Is it a parallelogram?
+A: Yes. Both pairs of opposite angles are equal.
+Q: The sides of a triangle are 8 cm, 12 cm and 16 cm. Find the perimeter of the triangle formed by joining the mid-points of its sides.
+A: $4 + 6 + 8 = 18$ cm
+Q: $D$ and $E$ are the mid-points of $AB$ and $AC$ in $\triangle ABC$, and $BC = 15$ cm. Find $DE$.
+A: 7.5 cm (and $DE \parallel BC$)
+Q: A median of a triangle is 15 cm long. Into what lengths does the centroid divide it?
+A: 10 cm (from the vertex) and 5 cm
+Q: The diagonals of a quadrilateral are 10 cm and 24 cm. Find the perimeter of its Varignon parallelogram.
+A: $10 + 24 = 34$ cm
+Q: The diagonals of a quadrilateral are equal. What special kind of parallelogram is its Varignon parallelogram?
+A: A rhombus
+Q: Can a regular octagon tile the plane on its own? Each of its angles is $135°$.
+A: No. 360 is not a multiple of 135.

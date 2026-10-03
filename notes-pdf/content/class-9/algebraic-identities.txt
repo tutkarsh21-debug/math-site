@@ -1,0 +1,168 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 4
+@title Exploring Algebraic Identities
+@summary An identity is an equation that is true for every value of its variables. This chapter builds the standard identities for squares and cubes and uses them to calculate quickly, factorise expressions and simplify algebraic fractions.
+
+# Identity and equation
+- An **equation** is true only for some values of the variable. $x^2 - 1 = 24$ is true only for $x = 5$ and $x = -5$.
+- An **identity** is true for **all** values of the variables. $(x + y)^2 = x^2 + 2xy + y^2$ holds whatever numbers $x$ and $y$ are: positive, negative or fractions.
+- An identity can be checked with numbers, but it is **proved** with the distributive property.
+- In general $(a + b)^2 \neq a^2 + b^2$. The two differ by $2ab$, so they are equal only when $a = 0$ or $b = 0$.
+
+# Squares of a sum and a difference
+$$(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2$$
+- Proof: $(a + b)^2 = (a + b)(a + b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$. Replacing $b$ by $-b$ gives the second identity.
+- Picture: a square of side $a + b$ is made of a square of area $a^2$, a square of area $b^2$ and two rectangles of area $ab$ each.
+!fig w=250 h=215; Q p 45 15; Q q 205 15; Q r 205 175; Q s 45 175; Q m 145 15; Q n 145 175; Q u 45 115; Q v 205 115; Q c 145 115; F p m c u; F c v r n; L p q; L q r; L r s; L s p; L m n; L u v; T 95 70 a²; T 175 70 ab; T 95 150 ab; T 175 150 b²; T 95 195 a; T 175 195 b; T 30 70 a; T 30 150 b; cap A square of side a + b
+?eg Expand $(3x + 5y)^2$ and $(4a - 3b)^2$.
+= $(3x)^2 + 2(3x)(5y) + (5y)^2$ and $(4a)^2 - 2(4a)(3b) + (3b)^2$
+=> $9x^2 + 30xy + 25y^2$ and $16a^2 - 24ab + 9b^2$
+?eg Find $52^2$ and $38^2$ without multiplying directly.
+= $52^2 = (50 + 2)^2 = 2500 + 200 + 4 = 2704$
+= $38^2 = (40 - 2)^2 = 1600 - 160 + 4 = 1444$
+=> 2704 and 1444
+?eg Take any three consecutive square numbers. Show that (smallest $+$ largest) $-\ 2\ \times$ (middle) is always 2.
+= Let the numbers be $n - 1$, $n$ and $n + 1$.
+= $(n - 1)^2 + (n + 1)^2 = (n^2 - 2n + 1) + (n^2 + 2n + 1) = 2n^2 + 2$
+=> $2n^2 + 2 - 2n^2 = 2$, whatever $n$ is.
+
+# Square of a sum of three terms
+$$(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$$
+- Proof: put $d = b + c$. Then $(a + d)^2 = a^2 + 2a(b + c) + (b + c)^2$, which expands to the result.
+- For a minus sign, treat the term as negative: the squares stay positive and only the products change sign.
+?eg Expand $(2p + q - 3r)^2$.
+= Take $a = 2p$, $b = q$, $c = -3r$.
+= $4p^2 + q^2 + 9r^2 + 2(2p)(q) + 2(q)(-3r) + 2(-3r)(2p)$
+=> $4p^2 + q^2 + 9r^2 + 4pq - 6qr - 12pr$
+?eg Find $112^2$ using this identity.
+= $(100 + 10 + 2)^2 = 10000 + 100 + 4 + 2000 + 40 + 400$
+=> 12544
+
+# Difference of two squares
+$$a^2 - b^2 = (a + b)(a - b)$$
+- Written as $a^2 = (a + b)(a - b) + b^2$, it gives a quick way to square a number. Śhrīdharāchārya gave this method around 750 CE.
+?eg Find $47 \times 53$ and $45^2$.
+= $47 \times 53 = (50 - 3)(50 + 3) = 2500 - 9 = 2491$
+= $45^2 = (45 + 5)(45 - 5) + 5^2 = 50 \times 40 + 25 = 2025$
+=> 2491 and 2025
+
+# Factorising with the square identities
+- **Factorising** is writing an expression as a product. Read the identities from right to left.
+- First take out any common factor. Then look for two perfect squares and check the middle term.
+?eg Factorise $49m^2 + 42m + 9$ and $16y^2 - 24y + 9$.
+= $49m^2 = (7m)^2$, $9 = 3^2$ and $42m = 2(7m)(3)$
+= $16y^2 = (4y)^2$, $9 = 3^2$ and $24y = 2(4y)(3)$
+=> $(7m + 3)^2$ and $(4y - 3)^2$
+?eg Factorise $12a^2 - 60ab + 75b^2$ and $36s^2 - 49t^2$.
+= $12a^2 - 60ab + 75b^2 = 3(4a^2 - 20ab + 25b^2) = 3(2a - 5b)^2$
+= $36s^2 - 49t^2 = (6s)^2 - (7t)^2$
+=> $3(2a - 5b)^2$ and $(6s + 7t)(6s - 7t)$
+
+# Products and factors of the form x² + (a + b)x + ab
+$$(x + a)(x + b) = x^2 + (a + b)x + ab \qquad (px + a)(qx + b) = pqx^2 + (pb + qa)x + ab$$
+- **Algebra tiles** show this as a rectangle: one $x^2$-tile, $(a + b)$ $x$-tiles and $ab$ unit tiles fit into a rectangle of sides $x + a$ and $x + b$.
+- To factorise $x^2 + sx + p$, find two numbers whose **sum is $s$** and whose **product is $p$**. Then split the middle term.
+- To factorise $ax^2 + bx + c$, find two numbers whose sum is $b$ and whose product is $ac$, split the middle term and group.
+?eg Factorise $x^2 + 9x + 20$ and $x^2 - x - 12$.
+= Sum 9, product 20: the numbers are 4 and 5.
+= Sum $-1$, product $-12$: the numbers are $-4$ and 3.
+=> $(x + 4)(x + 5)$ and $(x - 4)(x + 3)$
+?eg Factorise $6x^2 + 11x + 3$.
+= Sum 11, product $6 \times 3 = 18$: the numbers are 9 and 2.
+= $6x^2 + 9x + 2x + 3 = 3x(2x + 3) + 1(2x + 3)$
+=> $(3x + 1)(2x + 3)$
+?eg A rectangular garden is 5 m shorter in breadth than in length, and its area is 84 m². Find its length and breadth.
+= Let the length be $x$ m. Then $x(x - 5) = 84$, so $x^2 - 5x - 84 = 0$.
+= Sum $-5$, product $-84$: the numbers are $-12$ and 7. So $(x - 12)(x + 7) = 0$.
+= $x = 12$ or $x = -7$. A length cannot be negative.
+=> Length 12 m; breadth 7 m
+
+# Cubes of a sum and a difference
+$$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3 \qquad (a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
+- Proof: $(a + b)^3 = (a + b)(a^2 + 2ab + b^2)$, then use the distributive property.
+- Picture: a cube of edge $a + b$ splits into a cube of volume $a^3$, a cube of volume $b^3$, three cuboids of volume $a^2b$ and three of volume $ab^2$.
+- In $(a - b)^3$ the signs alternate: $+, -, +, -$.
+?eg Expand $(2x + 3)^3$ and find $98^3$.
+= $(2x)^3 + 3(2x)^2(3) + 3(2x)(3)^2 + 3^3 = 8x^3 + 36x^2 + 54x + 27$
+= $98^3 = (100 - 2)^3 = 1000000 - 3(10000)(2) + 3(100)(4) - 8 = 1000000 - 60000 + 1200 - 8$
+=> $8x^3 + 36x^2 + 54x + 27$ and $941192$
+?eg A cube has volume $27a^3 + 54a^2b + 36ab^2 + 8b^3$ cubic units. Find its edge.
+= $27a^3 = (3a)^3$, $8b^3 = (2b)^3$, $54a^2b = 3(3a)^2(2b)$ and $36ab^2 = 3(3a)(2b)^2$
+=> The volume is $(3a + 2b)^3$, so the edge is $3a + 2b$ units.
+
+# Sum and difference of two cubes
+$$x^3 + y^3 = (x + y)(x^2 - xy + y^2) \qquad x^3 - y^3 = (x - y)(x^2 + xy + y^2)$$
+- Check by multiplying out: $(x - y)(x^2 + xy + y^2) = x^3 + x^2y + xy^2 - x^2y - xy^2 - y^3 = x^3 - y^3$.
+- The sign in the first bracket matches the sign between the cubes. The middle term of the second bracket has the opposite sign.
+?eg Factorise $8x^3 + 27$ and $a^3 - 64b^3$.
+= $8x^3 + 27 = (2x)^3 + 3^3$ and $a^3 - 64b^3 = a^3 - (4b)^3$
+=> $(2x + 3)(4x^2 - 6x + 9)$ and $(a - 4b)(a^2 + 4ab + 16b^2)$
+
+# The identity for three cubes
+$$x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)$$
+- **Special case**: if $x + y + z = 0$, then $x^3 + y^3 + z^3 = 3xyz$.
+?eg Three numbers have sum 6, the sum of their products in pairs is 11 and their product is 6. Find the sum of their cubes.
+= $x^2 + y^2 + z^2 = (x + y + z)^2 - 2(xy + yz + zx) = 36 - 22 = 14$
+= $x^3 + y^3 + z^3 - 3(6) = 6 \times (14 - 11) = 18$
+=> $x^3 + y^3 + z^3 = 36$
+?eg Find $7^3 + (-4)^3 + (-3)^3$ without cubing.
+= $7 + (-4) + (-3) = 0$, so the sum of the cubes is $3xyz = 3 \times 7 \times (-4) \times (-3)$.
+=> 252
+
+# Simplifying rational expressions
+- A **rational expression** is a fraction whose numerator and denominator are polynomials.
+- To simplify, **factorise** the numerator and the denominator and cancel the common factors. A factor can be cancelled only if it is not zero.
+?eg Simplify $\dfrac{x^2 - 9}{x^2 + x - 12}$, assuming the denominator is not zero.
+= Numerator: $(x - 3)(x + 3)$. Denominator: sum 1, product $-12$ gives $(x + 4)(x - 3)$.
+= Cancel the common factor $(x - 3)$.
+=> $\dfrac{x + 3}{x + 4}$
+?eg Simplify $\dfrac{4y^2 - 20y + 25}{4y^2 - 25}$, assuming the denominator is not zero.
+= Numerator: $(2y - 5)^2$. Denominator: $(2y - 5)(2y + 5)$.
+=> $\dfrac{2y - 5}{2y + 5}$
+
+# Common mistakes
+- Writing $(a + b)^2 = a^2 + b^2$ or $(a + b)^3 = a^3 + b^3$. The middle terms are missing.
+- Squaring only the letter: $(3x)^2 = 9x^2$, not $3x^2$.
+- Getting the sign wrong in $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$. The middle term of the second bracket is $-xy$, not $-2xy$.
+- Cancelling terms instead of factors: in $\dfrac{x^2 - 9}{x^2 + x - 12}$ the $x^2$ cannot be cancelled. Factorise first.
+- Keeping a negative length. After solving, reject the value that does not fit the problem.
+
+@@formulas
+Square of a sum | $(a + b)^2 = a^2 + 2ab + b^2$
+Square of a difference | $(a - b)^2 = a^2 - 2ab + b^2$
+Square of three terms | $(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$
+Difference of squares | $a^2 - b^2 = (a + b)(a - b)$
+Quick squaring | $a^2 = (a + b)(a - b) + b^2$
+Product of two binomials | $(x + a)(x + b) = x^2 + (a + b)x + ab$
+General product | $(px + a)(qx + b) = pqx^2 + (pb + qa)x + ab$
+Cube of a sum | $(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$
+Cube of a difference | $(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$
+Sum of cubes | $x^3 + y^3 = (x + y)(x^2 - xy + y^2)$
+Difference of cubes | $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$
+Three cubes | $x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)$
+When $x + y + z = 0$ | $x^3 + y^3 + z^3 = 3xyz$
+Splitting the middle term | For $x^2 + sx + p$: find two numbers with sum $s$ and product $p$
+
+@@dpp
+Q: Expand $(5m + 2n)^2$.
+A: $25m^2 + 20mn + 4n^2$
+Q: Find $103^2$ using an identity.
+A: $(100 + 3)^2 = 10609$
+Q: Find $96 \times 104$ using an identity.
+A: $100^2 - 4^2 = 9984$
+Q: Factorise $25x^2 + 40xy + 16y^2$.
+A: $(5x + 4y)^2$
+Q: Factorise $x^2 - 7x + 10$.
+A: $(x - 2)(x - 5)$
+Q: Factorise $2x^2 + 7x + 6$.
+A: $(2x + 3)(x + 2)$
+Q: Expand $(x + 2y + 3z)^2$.
+A: $x^2 + 4y^2 + 9z^2 + 4xy + 12yz + 6zx$
+Q: Expand $(3p - 2)^3$.
+A: $27p^3 - 54p^2 + 36p - 8$
+Q: Factorise $125m^3 - 8$.
+A: $(5m - 2)(25m^2 + 10m + 4)$
+Q: Simplify $\dfrac{x^2 + 5x + 6}{x^2 - 4}$, assuming the denominator is not zero.
+A: $\dfrac{(x + 2)(x + 3)}{(x + 2)(x - 2)} = \dfrac{x + 3}{x - 2}$

@@ -1,0 +1,140 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 1
+@title Orienting Yourself: The Use of Coordinates
+@summary Two numbers are enough to fix the position of any point in a plane. This chapter sets up the coordinate plane and uses it to find the distance between two points.
+
+# The Cartesian plane
+- A **coordinate system** uses numbers to describe the exact position of a point.
+- Two number lines are drawn at right angles. The horizontal line is the **$x$-axis** and the vertical line is the **$y$-axis**. Together they are the **coordinate axes**.
+- The axes meet at the **origin** $O$, whose coordinates are $(0, 0)$.
+- Equal units are marked on both axes. Distances to the **right** of $O$ and **upwards** from $O$ are positive. Distances to the **left** and **downwards** are negative.
+- The plane containing the axes is called the **Cartesian plane**, the **coordinate plane** or the **$xy$-plane**.
+!tip The system is named after René Descartes (1637). The negative half of each axis depends on Brahmagupta's work on zero and negative numbers (628 CE).
+
+# Coordinates of a point
+- Every point $P$ in the plane is written as $P(x, y)$.
+- The **$x$-coordinate** is the perpendicular distance of $P$ from the $y$-axis, measured along the $x$-axis.
+- The **$y$-coordinate** is the perpendicular distance of $P$ from the $x$-axis, measured along the $y$-axis.
+- The order matters. If $x \neq y$, then $(x, y) \neq (y, x)$. The two are the same point only when $x = y$.
+- A point on the $x$-axis has the form $(x, 0)$. A point on the $y$-axis has the form $(0, y)$.
+?eg Write the coordinates of the point that is (a) on the $x$-axis, 4.5 units to the right of $O$ (b) on the $y$-axis, 4.5 units below $O$.
+= (a) It is on the $x$-axis, so $y = 0$. To the right means $x$ is positive.
+= (b) It is on the $y$-axis, so $x = 0$. Below means $y$ is negative.
+=> (a) $(4.5, 0)$ (b) $(0, -4.5)$
+
+# The four quadrants
+- The axes divide the plane into four parts called **quadrants**, numbered anticlockwise from the top right.
+!fig w=320 h=240; Q x1 20 120; Q x2 300 120; Q y1 160 15; Q y2 160 225; L x1 x2; L y1 y2; P O 160 120 bl; P P 220 80 tr; P Q 80 60 tl; P R 100 175 tl; P S 240 185 tr; T 245 40 Quadrant I (+, +); T 80 30 Quadrant II (−, +); T 80 215 Quadrant III (−, −); T 245 215 Quadrant IV (+, −); T 296 136 x; T 172 22 y; cap P(3, 2), Q(−4, 3), R(−3, −3) and S(4, −3.5) lie in the four quadrants
+| Quadrant | Sign of $x$ | Sign of $y$ | Example |
+| I | $+$ | $+$ | $(3, 2)$ |
+| II | $-$ | $+$ | $(-5, 3)$ |
+| III | $-$ | $-$ | $(-3, -3)$ |
+| IV | $+$ | $-$ | $(3, -5)$ |
+- A point on an axis does not belong to any quadrant.
+?eg In which quadrant, or on which axis, does each point lie: $(-5, 3)$, $(3, -5)$, $(0, 4)$, $(-2.9, 0)$?
+= $(-5, 3)$: $x$ negative, $y$ positive. $(3, -5)$: $x$ positive, $y$ negative.
+= $(0, 4)$ has $x = 0$ and $(-2.9, 0)$ has $y = 0$.
+=> Quadrant II; Quadrant IV; on the $y$-axis; on the $x$-axis
+
+# Distance along a line parallel to an axis
+- Two points with the same $y$-coordinate lie on a line parallel to the $x$-axis. The distance between $(x_1, y)$ and $(x_2, y)$ is $|x_2 - x_1|$.
+- Two points with the same $x$-coordinate lie on a line parallel to the $y$-axis. The distance between $(x, y_1)$ and $(x, y_2)$ is $|y_2 - y_1|$.
+- The bars mean the **absolute value**: take the difference and ignore its sign.
+?eg A door has its two ends at $(8.5, 0)$ and $(11.5, 0)$. How wide is it? Another door has ends at $(0, 1.5)$ and $(0, 4)$. Which door is wider?
+= First door: $|11.5 - 8.5| = 3$ units. Second door: $|4 - 1.5| = 2.5$ units.
+=> The first door is 3 units wide and is the wider one.
+?eg Three corners of a rectangular table are at $(8, 9)$, $(11, 9)$ and $(11, 7)$. Find the fourth corner and the length and width of the table.
+= The fourth corner has the $x$-coordinate of the first point and the $y$-coordinate of the third.
+= Length $= |11 - 8| = 3$ units and width $= |9 - 7| = 2$ units.
+=> Fourth corner $(8, 7)$; the table is 3 units by 2 units.
+
+# The distance formula
+- For a slanting segment, draw a right-angled triangle with sides parallel to the axes and use the **Baudhāyana–Pythagoras theorem**.
+!fig w=320 h=200; P A 60 160 bl; P D 240 50 tr; P F 240 160 br; L A F; L F D; H A D; R A F D; T 150 178 x₂ − x₁; T 275 110 y₂ − y₁; cap AD is the hypotenuse of a right-angled triangle
+- The distance between $A(x_1, y_1)$ and $D(x_2, y_2)$ is
+$$AD = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+- It makes no difference whether $x_2 - x_1$ and $y_2 - y_1$ are positive or negative, because they are squared.
+- The distance of $(x, y)$ from the origin is $\sqrt{x^2 + y^2}$.
+?eg Find the lengths of the sides of the triangle with vertices $A(3, 4)$, $D(7, 1)$ and $M(9, 6)$.
+= $AD = \sqrt{(7 - 3)^2 + (1 - 4)^2} = \sqrt{16 + 9} = 5$ units
+= $DM = \sqrt{(9 - 7)^2 + (6 - 1)^2} = \sqrt{4 + 25} = \sqrt{29}$ units
+= $MA = \sqrt{(3 - 9)^2 + (4 - 6)^2} = \sqrt{36 + 4} = \sqrt{40}$ units
+=> $AD = 5$, $DM = \sqrt{29}$ and $MA = \sqrt{40}$ units
+?eg Show that $A(2, 1)$, $B(-1, 2)$, $C(-2, -1)$ and $D(1, -2)$ are the vertices of a square, and find its area.
+= $AB^2 = 9 + 1 = 10$, $BC^2 = 1 + 9 = 10$, $CD^2 = 9 + 1 = 10$, $DA^2 = 1 + 9 = 10$, so all four sides are equal.
+= Diagonals: $AC^2 = 16 + 4 = 20$ and $BD^2 = 4 + 16 = 20$, so the diagonals are equal.
+= Four equal sides and equal diagonals make a square. Area $= (\sqrt{10})^2$.
+=> $ABCD$ is a square of area 10 square units.
+
+# Reflection in the axes
+- Reflecting a point in the **$y$-axis** changes the sign of its $x$-coordinate: $(x, y) \to (-x, y)$.
+- Reflecting a point in the **$x$-axis** changes the sign of its $y$-coordinate: $(x, y) \to (x, -y)$.
+- A reflection does not change lengths. A triangle and its image have equal sides.
+?eg Triangle $ADM$ with $A(3, 4)$, $D(7, 1)$, $M(9, 6)$ is reflected in the $y$-axis. Write the images and check that $A'D' = AD$.
+= $A'(-3, 4)$, $D'(-7, 1)$ and $M'(-9, 6)$
+= $A'D' = \sqrt{(-7 + 3)^2 + (1 - 4)^2} = \sqrt{16 + 9} = 5$ units, the same as $AD$.
+=> The reflection keeps the lengths of the sides.
+
+# Using distances: collinear points, mid-points and circles
+- **Collinear points**: three points lie on one line if the largest of the three distances between them equals the sum of the other two.
+- **Mid-point**: the mid-point $M$ of the segment joining $S(x_1, y_1)$ and $T(x_2, y_2)$ is
+$$M = \left(\frac{x_1 + x_2}{2},\ \frac{y_1 + y_2}{2}\right)$$
+- **Circle**: a point lies on a circle with centre $C$ and radius $r$ if its distance from $C$ equals $r$. It lies inside if the distance is less than $r$ and outside if it is greater.
+?eg Are the points $M(-3, -4)$, $A(0, 0)$ and $G(6, 8)$ on one straight line?
+= $MA = \sqrt{9 + 16} = 5$, $AG = \sqrt{36 + 64} = 10$, $MG = \sqrt{81 + 144} = 15$
+= $MA + AG = 5 + 10 = 15 = MG$
+=> Yes, the three points are collinear.
+?eg $M(-7, 1)$ is the mid-point of $A(3, -4)$ and $B(x, y)$. Find $B$.
+= $\dfrac{3 + x}{2} = -7$ gives $x = -17$, and $\dfrac{-4 + y}{2} = 1$ gives $y = 6$.
+=> $B = (-17, 6)$
+?eg Show that $A(1, -8)$, $B(-4, 7)$ and $C(-7, -4)$ lie on a circle with centre at the origin. Does $D(-5, 6)$ lie inside, on or outside this circle?
+= $OA = \sqrt{1 + 64} = \sqrt{65}$, $OB = \sqrt{16 + 49} = \sqrt{65}$, $OC = \sqrt{49 + 16} = \sqrt{65}$
+= All three are at the same distance from $O$, so they lie on a circle of radius $\sqrt{65}$.
+= $OD = \sqrt{25 + 36} = \sqrt{61}$, which is less than $\sqrt{65}$.
+=> The radius is $\sqrt{65}$ units, and $D$ lies inside the circle.
+
+# Common mistakes
+- Writing the coordinates in the wrong order. The $x$-coordinate always comes first.
+- Thinking a point on an axis is in a quadrant. It is on the boundary and belongs to none.
+- Sign errors with negative coordinates: $-3 - (-7) = 4$, not $-10$.
+- Forgetting to square before adding in the distance formula, or forgetting the square root at the end.
+- Saying three points are collinear because two of the distances are equal. Check that two distances **add up** to the third.
+
+@@formulas
+Origin | $(0, 0)$
+Point on the x-axis | $(x, 0)$
+Point on the y-axis | $(0, y)$
+Signs in the quadrants | I $(+, +)$, II $(-, +)$, III $(-, -)$, IV $(+, -)$
+Distance between $(x_1, y)$ and $(x_2, y)$ | $|x_2 - x_1|$
+Distance between $(x, y_1)$ and $(x, y_2)$ | $|y_2 - y_1|$
+Distance formula | $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+Distance from the origin | $\sqrt{x^2 + y^2}$
+Reflection in the x-axis | $(x, y) \to (x, -y)$
+Reflection in the y-axis | $(x, y) \to (-x, y)$
+Mid-point | $\left(\dfrac{x_1 + x_2}{2},\ \dfrac{y_1 + y_2}{2}\right)$
+Collinear points | $AB + BC = AC$ for some order of the three points
+Point on a circle (centre $C$, radius $r$) | Its distance from $C$ equals $r$
+
+@@dpp
+Q: Name the quadrant in which each point lies: $(-3, 5)$, $(4, -1)$, $(-2, -7)$.
+A: II, IV, III
+Q: Write the coordinates of the point on the $y$-axis that is 6 units below the origin.
+A: $(0, -6)$
+Q: Find the distance between $(-2, 5)$ and $(7, 5)$.
+A: $|7 - (-2)| = 9$ units
+Q: Find the distance between $(2, -1)$ and $(-4, 7)$.
+A: $\sqrt{36 + 64} = 10$ units
+Q: Find the perimeter of the triangle with vertices $(0, 0)$, $(8, 0)$ and $(8, 6)$.
+A: $8 + 6 + 10 = 24$ units
+Q: Check whether $(-2, -3)$, $(1, 1)$ and $(7, 9)$ are collinear.
+A: The distances are 5, 10 and 15, and $5 + 10 = 15$, so they are collinear.
+Q: Write the images of $(4, -7)$ after reflection in the $x$-axis and in the $y$-axis.
+A: $(4, 7)$ and $(-4, -7)$
+Q: Find the mid-point of the segment joining $(-6, 3)$ and $(2, -9)$.
+A: $(-2, -3)$
+Q: $M(1, 2)$ is the mid-point of $A(-3, 5)$ and $B$. Find $B$.
+A: $(5, -1)$
+Q: A circle has its centre at the origin and radius 13 units. Show that $(5, 12)$ lies on it, and say where $(9, 9)$ lies.
+A: $\sqrt{25 + 144} = 13$, so $(5, 12)$ is on the circle. $\sqrt{162} \approx 12.7 < 13$, so $(9, 9)$ is inside.

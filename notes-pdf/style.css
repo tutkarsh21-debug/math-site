@@ -26,7 +26,7 @@ body{margin:0;color:var(--ink);font:10.5pt/1.55 Poppins,'Segoe UI',sans-serif}
 .summary{color:var(--muted);margin:0 0 4mm}
 
 .topic{margin-bottom:5mm}
-h2{display:flex;align-items:center;gap:3mm;font-size:13.5pt;margin:0 0 2.5mm;color:var(--brand-strong);break-after:avoid}
+h2{display:flex;align-items:center;gap:3mm;font-size:13.5pt;margin:0 0 2.5mm;color:var(--brand-strong);break-after:avoid;break-inside:avoid}
 h2 .no{flex:none;display:grid;place-items:center;width:7.5mm;height:7.5mm;border-radius:2mm;background:var(--brand);color:#fff;font-size:10.5pt}
 ul{margin:0 0 2.5mm;padding-left:6mm}
 li{margin:1mm 0}

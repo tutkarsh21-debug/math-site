@@ -1,0 +1,159 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 3
+@title The World of Numbers
+@summary Numbers grew in stages: natural numbers, zero and the integers, rational numbers, and finally the irrational numbers that complete the real number line. This chapter covers each stage and the decimal form that tells rational and irrational numbers apart.
+
+# How the number system grew
+- **Natural numbers** $N = \{1, 2, 3, \ldots\}$ came from the need to count, by matching objects one to one. Tally bones such as the Lebombo and Ishango bones show counting tens of thousands of years ago.
+- **Zero** (śhūnya) became a number in the work of **Brahmagupta** (628 CE), who defined it as $a - a = 0$ and gave rules for calculating with it.
+- **Integers** $Z = \{\ldots, -2, -1, 0, 1, 2, \ldots\}$ add zero and the negative numbers. Brahmagupta called positive numbers **fortunes** (dhana) and negative numbers **debts** (ṛiṇa).
+- **Rational numbers** $Q$ are all numbers of the form $\dfrac{p}{q}$, where $p$ and $q$ are integers and $q \neq 0$.
+- **Irrational numbers** cannot be written as $\dfrac{p}{q}$. Examples are $\sqrt{2}$ and $\pi$.
+- **Real numbers** $R$ are the rational and irrational numbers together. They fill the number line completely.
+| Set | Symbol | Contains |
+| Natural numbers | $N$ | $1, 2, 3, \ldots$ |
+| Integers | $Z$ | natural numbers, zero and the negatives |
+| Rational numbers | $Q$ | all integers and all fractions |
+| Real numbers | $R$ | all rational and all irrational numbers |
+!tip Every natural number is an integer, every integer is a rational number, and every rational number is a real number. For example, $5 = \dfrac{5}{1}$.
+
+# Brahmagupta's rules for zero and integers
+- $a + 0 = a$, $a - 0 = a$ and $a \times 0 = 0$.
+- A fortune plus a fortune is a fortune: $5 + 4 = 9$. A debt plus a debt is a debt: $(-5) + (-4) = -9$.
+- The product of a debt and a fortune is a debt: $(-3) \times 4 = -12$.
+- The product of two debts is a fortune: $(-3) \times (-4) = 12$.
+- Subtracting a negative number is the same as adding the positive number: $10 - (-5) = 15$.
+- Natural numbers are closed under addition but **not** under subtraction ($3 - 5$ is not a natural number). Integers are closed under addition, subtraction and multiplication.
+?eg The temperature at noon is $6°$C. By midnight it falls by $14°$C. A trader has a debt of ₹700, then earns ₹1100, then loses ₹250. Find the midnight temperature and the trader's final position.
+= Temperature: $6 - 14 = -8$
+= Trader: $-700 + 1100 - 250 = 150$
+=> $-8°$C; the trader has ₹150
+
+# Rational numbers
+- A rational number has many forms: $-\dfrac{1}{3} = -\dfrac{2}{6} = -\dfrac{3}{9}$. These are **equivalent**. The **lowest form** has $p$ and $q$ co-prime (no common factor other than 1).
+- **Equality**: $\dfrac{a}{b} = \dfrac{c}{d}$ exactly when $ad = bc$.
+- **Addition and subtraction**: first write both with the same denominator, then $\dfrac{a}{b} \pm \dfrac{c}{b} = \dfrac{a \pm c}{b}$.
+- **Multiplication**: $\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}$. **Division**: $\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \times \dfrac{d}{c} = \dfrac{ad}{bc}$, with $c \neq 0$.
+- Addition and multiplication are commutative, and $p(q + r) = pq + pr$ (the distributive law).
+- Rational numbers are **closed** under addition, subtraction and multiplication, and under division by a non-zero number.
+?eg Find $\dfrac{3}{4} + \left(-\dfrac{5}{6}\right)$ and $\left(-\dfrac{2}{3}\right) \div \dfrac{4}{9}$.
+= $\dfrac{3}{4} - \dfrac{5}{6} = \dfrac{9}{12} - \dfrac{10}{12} = -\dfrac{1}{12}$
+= $-\dfrac{2}{3} \times \dfrac{9}{4} = -\dfrac{18}{12} = -\dfrac{3}{2}$
+=> $-\dfrac{1}{12}$ and $-\dfrac{3}{2}$
+?eg A tailor has $13\dfrac{1}{2}$ m of cloth. One shirt needs $2\dfrac{1}{4}$ m. How many shirts can be made?
+= $13\dfrac{1}{2} \div 2\dfrac{1}{4} = \dfrac{27}{2} \div \dfrac{9}{4} = \dfrac{27}{2} \times \dfrac{4}{9} = 6$
+=> 6 shirts
+
+# Rational numbers on the number line
+- To mark $\dfrac{p}{q}$, divide each unit interval into $q$ equal parts and move $p$ parts from 0: to the right for a positive number and to the left for a negative one.
+- A fraction greater than 1 is easier as a mixed number: $\dfrac{9}{4} = 2\dfrac{1}{4}$ lies one quarter of the way from 2 to 3.
+- The **absolute value** $|x|$ is the distance of $x$ from 0. It is never negative: $\left|\dfrac{5}{3}\right| = \left|-\dfrac{5}{3}\right| = \dfrac{5}{3}$ and $|0| = 0$.
+- The **distance** between $a$ and $b$ on the number line is $|a - b|$.
+- Rational numbers are **dense**: between any two rational numbers there is another one. Their average $\dfrac{a + b}{2}$ always lies between them, so there are infinitely many.
+?eg Find the distance between $-4$ and $3$, and a rational number between $\dfrac{1}{3}$ and $\dfrac{1}{2}$.
+= Distance $= |-4 - 3| = 7$
+= Average $= \dfrac{1}{2}\left(\dfrac{1}{3} + \dfrac{1}{2}\right) = \dfrac{1}{2} \times \dfrac{5}{6} = \dfrac{5}{12}$
+=> 7 units; $\dfrac{5}{12}$
+?eg Find five rational numbers between $\dfrac{2}{5}$ and $\dfrac{3}{5}$.
+= Write both with a larger denominator: $\dfrac{2}{5} = \dfrac{12}{30}$ and $\dfrac{3}{5} = \dfrac{18}{30}$.
+=> $\dfrac{13}{30}, \dfrac{14}{30}, \dfrac{15}{30}, \dfrac{16}{30}, \dfrac{17}{30}$
+
+# Irrational numbers
+- The diagonal of a square of side 1 has length $d$ with $d^2 = 1^2 + 1^2 = 2$, so $d = \sqrt{2}$. This length is **not** a rational number.
+- **Proof that $\sqrt{2}$ is irrational** (proof by contradiction, due to Hippasus):
+- Suppose $\sqrt{2} = \dfrac{p}{q}$ in lowest form, so $p$ and $q$ are co-prime.
+- Squaring, $2q^2 = p^2$. So $p^2$ is even, and therefore $p$ is even. Write $p = 2k$.
+- Then $2q^2 = 4k^2$, so $q^2 = 2k^2$. So $q^2$ is even, and therefore $q$ is even.
+- Now $p$ and $q$ are both even, so they share the factor 2. This contradicts the lowest form. Hence $\sqrt{2}$ is irrational.
+- The same method works for $\sqrt{3}$, $\sqrt{5}$, $\sqrt{7}$ and $\sqrt{10}$.
+- $\pi$, the ratio of the circumference of a circle to its diameter, is also irrational (proved by Lambert in 1761). Āryabhaṭa gave the approximation $\dfrac{3927}{1250} = 3.1416$, and Mādhava found the infinite series $\pi = 4\left(1 - \dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7} + \ldots\right)$.
+
+# Marking the square root of 2 on the number line
+- Take $OA = 1$ unit on the number line. At $A$ draw a perpendicular and mark $B$ on it with $AB = 1$ unit.
+- Then $OB = \sqrt{1^2 + 1^2} = \sqrt{2}$.
+- With centre $O$ and radius $OB$, draw an arc to cut the number line at $P$. Then $OP = \sqrt{2}$.
+!fig w=320 h=190; Q l 20 150; Q r 305 150; L l r; P O 60 150 b; P A 140 150 b; P B 140 70 t; P P 173.1 150 b; Q two 220 150; L A B; H O B; ARC O 113.1 0 45; R O A B; T 220 168 2; T 96 100 √2; T 152 112 1; cap OP = OB = √2, so P marks √2 on the number line
+- To get $\sqrt{3}$, repeat the step with $OB = \sqrt{2}$ as the base and a perpendicular of 1 unit: $\sqrt{(\sqrt{2})^2 + 1^2} = \sqrt{3}$. Continuing in this way gives $\sqrt{n}$ for any positive integer $n$ (the square root spiral).
+
+# Decimal expansions
+- The decimal form of a **rational** number either **terminates** ($\dfrac{3}{8} = 0.375$) or **repeats** ($\dfrac{5}{11} = 0.\overline{45}$).
+- It repeats because long division by $q$ has only a limited number of possible remainders, so a remainder must come again.
+- The decimal form of an **irrational** number never ends and never repeats: $\sqrt{2} = 1.41421356\ldots$ and $\pi = 3.14159265\ldots$
+- **Test without dividing**: write $\dfrac{p}{q}$ in lowest form. The decimal terminates exactly when the only prime factors of $q$ are 2 and 5. Then the denominator can be made a power of 10.
+- If $q = 2^m \times 5^n$, the number of decimal places is the larger of $m$ and $n$.
+?eg Without dividing, say whether $\dfrac{7}{40}$, $\dfrac{5}{12}$ and $\dfrac{9}{125}$ terminate. Give the number of decimal places where they do.
+= $40 = 2^3 \times 5$: terminates, with 3 places ($0.175$).
+= $12 = 2^2 \times 3$: the factor 3 means it repeats ($0.41\overline{6}$).
+= $125 = 5^3$: terminates, with 3 places ($0.072$).
+=> $\dfrac{7}{40}$ and $\dfrac{9}{125}$ terminate; $\dfrac{5}{12}$ repeats
+!tip The repeating block of $\dfrac{1}{7} = 0.\overline{142857}$ is a **cyclic number**: multiplying 142857 by 2, 3, 4, 5 or 6 gives the same digits in a rotated order, for example $142857 \times 2 = 285714$.
+
+# Converting decimals to fractions
+- **Terminating**: write over a power of 10 and reduce. $0.35 = \dfrac{35}{100} = \dfrac{7}{20}$.
+- **Pure repeating** (the block starts right after the point): let $x$ be the number, multiply by $10^n$ where $n$ is the number of repeating digits, and subtract.
+- **General repeating** (some digits first, then the block): multiply by $10^m$ for the $m$ non-repeating digits, then by $10^n$ for the repeating block, and subtract the two results.
+?eg Write $0.\overline{27}$ in the form $\dfrac{p}{q}$.
+= Let $x = 0.272727\ldots$ Two digits repeat, so $100x = 27.2727\ldots$
+= Subtracting: $99x = 27$
+=> $x = \dfrac{27}{99} = \dfrac{3}{11}$
+?eg Write $0.2\overline{3}$ in the form $\dfrac{p}{q}$.
+= Let $x = 0.2333\ldots$ One digit does not repeat: $10x = 2.333\ldots$
+= One digit repeats: $100x = 23.333\ldots$
+= Subtracting: $90x = 21$
+=> $x = \dfrac{21}{90} = \dfrac{7}{30}$
+?eg Write $1.4\overline{52}$ in the form $\dfrac{p}{q}$.
+= Let $x = 1.4525252\ldots$ Then $10x = 14.5252\ldots$ and $1000x = 1452.5252\ldots$
+= Subtracting: $990x = 1438$
+=> $x = \dfrac{1438}{990} = \dfrac{719}{495}$
+?eg Show that $0.\overline{9} = 1$.
+= Let $x = 0.999\ldots$ Then $10x = 9.999\ldots$
+= Subtracting: $9x = 9$
+=> $x = 1$. A terminating decimal always has a second form ending in repeating 9s.
+
+# Common mistakes
+- Calling $\dfrac{22}{7}$ equal to $\pi$. It is only an approximation; $\dfrac{22}{7}$ is rational and $\pi$ is irrational.
+- Calling every square root irrational. $\sqrt{81} = 9$ is rational.
+- Calling $1.01001000100001\ldots$ rational because it has a pattern. It has no single block that repeats, so it is irrational.
+- Testing for a terminating decimal before reducing: $\dfrac{21}{56} = \dfrac{3}{8}$ terminates, although 56 has the factor 7.
+- Multiplying by the wrong power of 10 when converting a repeating decimal. Count the repeating digits carefully.
+
+@@formulas
+Rational number | $\dfrac{p}{q}$, with $p$, $q$ integers and $q \neq 0$
+Equality | $\dfrac{a}{b} = \dfrac{c}{d}$ when $ad = bc$
+Product | $\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{ac}{bd}$
+Quotient | $\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{ad}{bc}$
+Distributive law | $p(q + r) = pq + pr$
+Rules for zero | $a + 0 = a$, $a - 0 = a$, $a \times 0 = 0$
+Signs in multiplication | $(-) \times (+) = (-)$ and $(-) \times (-) = (+)$
+Absolute value | $|x|$ = distance of $x$ from 0; $|x| \geq 0$
+Distance between $a$ and $b$ | $|a - b|$
+A rational number between $a$ and $b$ | $\dfrac{a + b}{2}$
+Terminating decimal | In lowest form, the denominator has no prime factor other than 2 and 5
+Number of decimal places | For $q = 2^m \times 5^n$, the larger of $m$ and $n$
+Pure repeating decimal | Multiply by $10^n$ ($n$ repeating digits) and subtract
+General repeating decimal | Multiply by $10^m$, then by $10^n$, and subtract
+Diagonal of a unit square | $\sqrt{2}$
+
+@@dpp
+Q: Classify each as rational or irrational: $\sqrt{49}$, $\sqrt{12}$, $0.2020020002\ldots$, $0.\overline{45}$.
+A: Rational (7); irrational; irrational; rational
+Q: Evaluate $(-9) \times (-6)$, $0 - (-11)$ and $(-36) \div 4$.
+A: 54, 11 and $-9$
+Q: Find $\dfrac{5}{8} - \dfrac{7}{12}$.
+A: $\dfrac{15}{24} - \dfrac{14}{24} = \dfrac{1}{24}$
+Q: Find $\left(-\dfrac{3}{5}\right) \div \dfrac{9}{10}$.
+A: $-\dfrac{2}{3}$
+Q: Find the distance between $-\dfrac{7}{2}$ and $\dfrac{5}{2}$ on the number line.
+A: 6 units
+Q: Find a rational number between $\dfrac{2}{3}$ and $\dfrac{3}{4}$.
+A: Their average, $\dfrac{17}{24}$ (other answers are possible)
+Q: Without dividing, say whether each terminates: $\dfrac{11}{80}$, $\dfrac{7}{30}$, $\dfrac{21}{56}$.
+A: Terminates; repeats; terminates (it equals $\dfrac{3}{8}$)
+Q: Write $0.\overline{7}$ in the form $\dfrac{p}{q}$.
+A: $\dfrac{7}{9}$
+Q: Write $0.\overline{36}$ in the form $\dfrac{p}{q}$.
+A: $\dfrac{36}{99} = \dfrac{4}{11}$
+Q: Write $0.4\overline{6}$ in the form $\dfrac{p}{q}$.
+A: $90x = 42$, so $x = \dfrac{7}{15}$

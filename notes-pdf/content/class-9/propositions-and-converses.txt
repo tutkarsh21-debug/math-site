@@ -1,0 +1,118 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 2
+@chapter 9
+@title Propositions and their Converses
+@summary A proposition is a statement that is either true or false. This chapter looks at "if ... then ..." statements, their converses, and how one counterexample is enough to show that a statement is false.
+
+# Propositions
+- A **proposition** is a statement that is either true or false.
+- Many propositions have the form **"If X, then Y"**. This is also written "X implies Y" or "Y when X". All three mean the same.
+- X is the condition (hypothesis) and Y is the conclusion.
+?eg Write "A number has an odd number of factors when it is a perfect square" in the form "If X, then Y".
+= The condition is "the number is a perfect square". The conclusion is "it has an odd number of factors".
+=> If a number is a perfect square, then it has an odd number of factors.
+
+# The converse
+- The **converse** of "If X, then Y" is "If Y, then X". The condition and the conclusion change places.
+- Any opening sentence that sets the scene (such as "Let $a$, $b$, $c$ be the sides of a triangle") stays as it is.
+- The truth of a proposition tells us **nothing** about its converse. Each must be checked separately.
+| Proposition | Converse | Example |
+| True | True | If a triangle is equilateral, then each of its angles is $60°$. |
+| True | False | If a number is a multiple of 6, then it is a multiple of 3. |
+| False | True | If $ab = 0$, then $a = 0$. |
+| False | False | If a number is prime, then it is odd. |
+?eg Write the converse of "If it rains, then the road is wet". Is the converse true?
+= Converse: "If the road is wet, then it has rained."
+=> The proposition is true, but the converse need not be. A water tanker may have spilled water on the road.
+
+# Counterexamples
+- A **counterexample** is one example in which the condition holds but the conclusion fails.
+- **One** counterexample is enough to show that a proposition is false. No number of supporting examples can prove it true: for that, a general argument is needed.
+?eg Show that "If a number is a multiple of 3, then it is a multiple of 6" is false.
+= 9 is a multiple of 3 but not a multiple of 6.
+=> 9 is a counterexample, so the statement is false.
+?eg Find a counterexample to "All numbers of the form $n^2 + n + 11$ are prime".
+= For $n = 1, 2, 3, \ldots, 9$ the values 13, 17, 23, 31, 41, 53, 67, 83, 101 are all prime.
+= For $n = 10$: $100 + 10 + 11 = 121 = 11 \times 11$.
+=> $n = 10$ is a counterexample.
+!tip Fermat believed that every number of the form $2^{2^n} + 1$ is prime. The first five (3, 5, 17, 257, 65537) are prime, but Euler showed that the next one, $2^{32} + 1 = 4294967297$, equals $641 \times 6700417$. No simple formula is known that gives only primes.
+
+# When a proposition and its converse are both true
+- If "If X, then Y" and "If Y, then X" are both true, then X and Y **imply each other**. Each holds exactly when the other does.
+- **Perfect squares and odd numbers of factors.** The factors of a number come in pairs whose product is the number: for 12 the pairs are $(1, 12)$, $(2, 6)$, $(3, 4)$.
+- If $n$ has an odd number of factors, some factor must be paired with itself, so $n = f \times f$ is a perfect square.
+- If $n$ is a perfect square, exactly one factor is paired with itself and the rest come in pairs, so the number of factors is odd.
+- So both statements are true: $n$ is a perfect square **exactly when** it has an odd number of factors.
+?eg List the factors of 36 and of 20 and check the statement above.
+= 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. That is 9 factors, an odd number, and $36 = 6^2$.
+= 20: 1, 2, 4, 5, 10, 20. That is 6 factors, an even number, and 20 is not a perfect square.
+=> Both agree with the statement.
+
+# Proving both directions
+- The two directions need two arguments. An argument that starts from Y and reaches X proves only the converse.
+- **Isosceles triangles.** Proposition: if two sides of a triangle are equal, then the angles opposite them are equal. Converse: if two angles of a triangle are equal, then the sides opposite them are equal. Both are true.
+- **Baudhāyana–Pythagoras theorem.** Let $a$, $b$, $c$ be the sides of a triangle. If the triangle is right-angled (with hypotenuse $c$), then $a^2 + b^2 = c^2$.
+- **Its converse.** Let $a$, $b$, $c$ be the sides of a triangle. If $a^2 + b^2 = c^2$, then the triangle is right-angled.
+- Proof of the converse: draw a right-angled triangle $XYZ$ whose perpendicular sides are $a$ and $b$. By the theorem its hypotenuse is $\sqrt{a^2 + b^2} = c$. So the two triangles have the same three sides and are congruent by SSS. Hence the given triangle has a right angle too.
+!fig w=340 h=170; P C 40 140 bl; P A 150 140 br; P B 40 50 tl; L C A; L C B; H A B; P Z 210 140 bl; P X 320 140 br; P Y 210 50 tl; L Z X; L Z Y; H X Y; R Y Z X; T 26 98 a; T 95 158 b; T 108 86 c; T 196 98 a; T 265 158 b; cap Triangle ABC has a² + b² = c². Triangle XYZ is drawn with a right angle at Z.
+?eg A triangle has sides 9 cm, 40 cm and 41 cm. Is it right-angled?
+= $9^2 + 40^2 = 81 + 1600 = 1681 = 41^2$
+=> Yes, by the converse of the Baudhāyana–Pythagoras theorem. The right angle is opposite the 41 cm side.
+
+# More examples to study
+| Proposition | True? | Converse true? |
+| If two lines are parallel, then corresponding angles made by a transversal are equal. | Yes | Yes |
+| If a quadrilateral is a square, then all its angles are equal. | Yes | No (a rectangle) |
+| If two triangles are congruent, then they have the same area. | Yes | No |
+| If $x = y$, then $x^2 = y^2$. | Yes | No ($x = 3$, $y = -3$) |
+| If $x = y$, then $x^3 = y^3$. | Yes | Yes |
+| If $n$ is divisible by 24, then it is divisible by 4 and by 6. | Yes | No ($n = 12$) |
+| If $n$ is divisible by 60, then it is divisible by 5 and by 12. | Yes | Yes |
+- The last two rows differ because 5 and 12 have no common factor, while 4 and 6 share the factor 2.
+?eg To test whether a number is divisible by 8, is it enough to check that it is divisible by 2 and by 4?
+= "If a number is divisible by 8, then it is divisible by 2 and by 4" is true.
+= The test needs the converse, which is false: 12 is divisible by 2 and by 4 but not by 8.
+=> No. A divisibility test works only when the converse is true.
+
+# Common mistakes
+- Assuming the converse is true because the proposition is true.
+- Trying to prove a statement with a few examples. Examples can only disprove.
+- Giving a "counterexample" in which the condition does not hold. In a counterexample the condition is true and the conclusion is false.
+- Changing the opening sentence when writing the converse. Only the "if" part and the "then" part are exchanged.
+- Proving "If Y, then X" and claiming to have proved "If X, then Y".
+
+@@formulas
+Proposition | A statement that is either true or false
+If X, then Y | Also written "X implies Y" or "Y when X"
+Converse of "If X, then Y" | "If Y, then X"
+Counterexample | A case where the condition holds but the conclusion fails
+To disprove a proposition | Give one counterexample
+To prove a proposition | Give a general argument, not examples
+X and Y imply each other | Both "If X, then Y" and "If Y, then X" are true
+Baudhāyana–Pythagoras theorem | If a triangle is right-angled, then $a^2 + b^2 = c^2$
+Converse of the theorem | If $a^2 + b^2 = c^2$, then the triangle is right-angled
+Perfect squares | $n$ is a perfect square exactly when it has an odd number of factors
+Isosceles triangle | Two sides are equal exactly when the angles opposite them are equal
+
+@@dpp
+Q: Write the converse of "If a number ends in 0, then it is divisible by 5". Is the converse true?
+A: "If a number is divisible by 5, then it ends in 0." False: 15 is a counterexample.
+Q: Give a counterexample to "If a number is divisible by 3, then it is divisible by 9".
+A: 6 (or 12, 15, ...)
+Q: "If a quadrilateral is a square, then its four sides are equal." Is this true? Is its converse true?
+A: True. The converse is false: a rhombus has four equal sides but need not be a square.
+Q: "If two angles are vertically opposite, then they are equal." Is the converse true?
+A: No. The two base angles of an isosceles triangle are equal but are not vertically opposite.
+Q: "If $n$ is even, then $n^2$ is even." Are the statement and its converse true?
+A: Both are true.
+Q: Give a counterexample to "All numbers of the form $n^2 + n + 41$ are prime".
+A: $n = 40$ gives $1681 = 41^2$ (also $n = 41$)
+Q: A triangle has sides 8 cm, 15 cm and 17 cm. Is it right-angled? Which result did you use?
+A: Yes, since $64 + 225 = 289 = 17^2$; the converse of the Baudhāyana–Pythagoras theorem.
+Q: "If a triangle is right-angled, then it has two acute angles." Is the converse true?
+A: No. A triangle with angles $50°$, $60°$ and $70°$ has two acute angles but is not right-angled.
+Q: Are "If $ab = 0$, then $a = 0$" and its converse true?
+A: The statement is false ($a = 3$, $b = 0$). The converse "If $a = 0$, then $ab = 0$" is true.
+Q: "If $n$ is divisible by 12, then it is divisible by 3 and by 4." Is the converse true?
+A: Yes, because 3 and 4 have no common factor.

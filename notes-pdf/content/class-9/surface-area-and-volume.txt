@@ -1,0 +1,171 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 2
+@chapter 14
+@title Math of Space: Surface Area and Volume
+@summary This chapter gives the surface areas and volumes of the basic solids (cuboid, cube, cylinder, cone, pyramid, sphere and hemisphere), explains where the formulas come from, and uses them to make estimates.
+
+# Cuboid and cube
+- A **cuboid** has six rectangular faces and is fixed by its length $l$, width $w$ and height $h$.
+- **Total surface area** is the sum of the areas of the six faces. **Volume** is the amount of space occupied, measured in cubic units.
+$$\text{TSA} = 2(lw + wh + lh) \qquad V = lwh$$
+- Why $V = lwh$: the cuboid is a stack of thin rectangular sheets, so volume $=$ area of base $\times$ height.
+- A **cube** of side $a$ is a cuboid with $l = w = h = a$: TSA $= 6a^2$ and $V = a^3$.
+- Unit conversions: $1 \text{ m}^3 = 1000$ litres and $1000 \text{ cm}^3 = 1$ litre.
+?eg Find the total surface area and the volume of a cuboid 8 cm by 5 cm by 3 cm.
+= TSA $= 2(40 + 15 + 24) = 2 \times 79$ and $V = 8 \times 5 \times 3$
+=> TSA 158 cm²; volume 120 cm³
+?eg A cube of side 4 cm and a cuboid 8 cm by 4 cm by 2 cm have the same volume. Which has the larger surface area?
+= Cube: $V = 64$ cm³ and TSA $= 6 \times 16 = 96$ cm².
+= Cuboid: $V = 64$ cm³ and TSA $= 2(32 + 8 + 16) = 112$ cm².
+=> The cuboid. For a given volume, the cube needs the least covering material.
+?eg A cube of side 3 cm is cut into cubes of side 1 cm. Compare the total surface area before and after.
+= Before: $6 \times 9 = 54$ cm². After: 27 small cubes, each of surface area 6 cm², giving 162 cm².
+=> The surface area becomes 3 times as large, while the volume stays the same.
+
+# Right circular cylinder
+- In a **right circular cylinder** the cross-section is a circle and the axis is perpendicular to the base. (If the axis is slanted, the cylinder is oblique.)
+- A **cross-section** is the shape obtained by a thin slice through a solid. A slice of a cylinder parallel to its base is a circle.
+- Cut along its height and opened out, the curved surface is a rectangle with sides $2\pi r$ and $h$.
+$$\text{CSA} = 2\pi rh \qquad \text{TSA (closed at both ends)} = 2\pi r(h + r) \qquad V = \pi r^2h$$
+- Closed at one end only (like a tumbler): surface area $= 2\pi rh + \pi r^2 = \pi r(2h + r)$.
+- Why $V = \pi r^2h$: the cylinder is a stack of thin circular discs, so volume $=$ area of base $\times$ height.
+?eg Find the curved surface area, total surface area and volume of a closed cylinder of radius 7 cm and height 10 cm. Take $\pi = \dfrac{22}{7}$.
+= CSA $= 2 \times \dfrac{22}{7} \times 7 \times 10 = 440$ cm²
+= TSA $= 2 \times \dfrac{22}{7} \times 7 \times (10 + 7) = 748$ cm²
+= $V = \dfrac{22}{7} \times 49 \times 10 = 1540$ cm³
+=> CSA 440 cm²; TSA 748 cm²; volume 1540 cm³
+?eg A school serves milk in cylindrical glasses of diameter 7 cm, filled to a height of 10 cm. How many litres are needed for 200 students?
+= One glass $= \dfrac{22}{7} \times 3.5 \times 3.5 \times 10 = 385$ cm³
+= 200 glasses $= 77000$ cm³
+=> 77 litres
+
+# Right circular cone
+- A **right circular cone** is formed when a right-angled triangle is rotated about one of the sides containing the right angle.
+- The radius $r$, height $h$ and **slant height** $l$ form a right-angled triangle:
+$$l^2 = h^2 + r^2$$
+!fig w=240 h=215; P V 120 25 t; P O 120 175 b; P A 50 175 bl; P B 190 175 br; L V A; L V B; L A B; D V O; R V O B; T 132 108 h; T 156 190 r; T 168 96 l; cap A section of a cone through its axis
+- Cut along a slant edge and opened out, the curved surface is a **sector** of a circle of radius $l$ with arc length $2\pi r$. Split into thin triangles of height $l$, its area is $\dfrac{1}{2} \times 2\pi r \times l$.
+$$\text{CSA} = \pi rl \qquad \text{TSA} = \pi rl + \pi r^2 = \pi r(l + r) \qquad V = \frac{1}{3}\pi r^2h$$
+- The volume of a cone is **one third** of the volume of the cylinder with the same base and height. Three cones full of salt exactly fill the cylinder.
+?eg A cone has radius 7 cm and height 24 cm. Find its slant height, curved surface area, total surface area and volume. Take $\pi = \dfrac{22}{7}$.
+= $l = \sqrt{24^2 + 7^2} = 25$ cm
+= CSA $= \dfrac{22}{7} \times 7 \times 25 = 550$ cm². TSA $= 550 + \dfrac{22}{7} \times 49 = 704$ cm².
+= $V = \dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 24 = 1232$ cm³
+=> $l = 25$ cm; CSA 550 cm²; TSA 704 cm²; volume 1232 cm³
+?eg A right-angled triangle with sides 8 cm, 15 cm and 17 cm is rotated about the 15 cm side. Find the volume of the solid formed.
+= The solid is a cone with height 15 cm and radius 8 cm.
+= $V = \dfrac{1}{3}\pi \times 64 \times 15$
+=> $320\pi$ cm³
+?eg The curved surface area of a cone is 220 cm² and its slant height is 14 cm. Find its radius. Take $\pi = \dfrac{22}{7}$.
+= $\dfrac{22}{7} \times r \times 14 = 220$, so $44r = 220$.
+=> $r = 5$ cm
+
+# Pyramids
+- A **pyramid** has a flat base (a triangle, a square or any polygon) whose points are all joined to a single point, the **apex**, outside the plane of the base.
+$$V = \frac{1}{3} \times \text{area of base} \times \text{height}$$
+- A cone can be thought of as a pyramid with a circular base, which is why the formulas match.
+- The surface area of a pyramid is the sum of the areas of all its faces. There is no separate formula.
+?eg A pyramid has a square base of side 6 m and a height of 10 m. Find its volume.
+= $V = \dfrac{1}{3} \times 36 \times 10$
+=> 120 m³
+
+# Sphere and hemisphere
+- A **sphere** is the set of all points in space at a given distance $r$ (the radius) from a fixed point (the centre).
+$$\text{Surface area} = 4\pi r^2 \qquad V = \frac{4}{3}\pi r^3$$
+- Archimedes showed that the surface area of a sphere equals the curved surface area of the cylinder that just encloses it (radius $r$, height $2r$): $2\pi r \times 2r = 4\pi r^2$.
+- Why the volume formula: divide the surface into tiny pieces and join each to the centre. This makes many thin cones of height $r$, so $V = \dfrac{1}{3} \times$ surface area $\times\ r = \dfrac{1}{3} \times 4\pi r^2 \times r$.
+- A **hemisphere** is half of a sphere, cut by a plane through the centre.
+$$\text{CSA} = 2\pi r^2 \qquad \text{TSA} = 3\pi r^2 \qquad V = \frac{2}{3}\pi r^3$$
+?eg Find the surface area and the volume of a sphere of radius 7 cm. Take $\pi = \dfrac{22}{7}$.
+= Surface area $= 4 \times \dfrac{22}{7} \times 49 = 616$ cm²
+= $V = \dfrac{4}{3} \times \dfrac{22}{7} \times 343 = \dfrac{4312}{3}$
+=> 616 cm²; about 1437.3 cm³
+?eg Find the curved surface area, total surface area and volume of a hemisphere of radius 10.5 cm. Take $\pi = \dfrac{22}{7}$.
+= CSA $= 2 \times \dfrac{22}{7} \times 110.25 = 693$ cm². TSA $= 3 \times \dfrac{22}{7} \times 110.25 = 1039.5$ cm².
+= $V = \dfrac{2}{3} \times \dfrac{22}{7} \times 1157.625 = 2425.5$ cm³
+=> CSA 693 cm²; TSA 1039.5 cm²; volume 2425.5 cm³
+?eg Show that the volume of a sphere is two-thirds of the volume of the smallest cylinder that encloses it.
+= The cylinder has radius $r$ and height $2r$, so its volume is $\pi r^2 \times 2r = 2\pi r^3$.
+=> $\dfrac{\frac{4}{3}\pi r^3}{2\pi r^3} = \dfrac{2}{3}$
+
+# How surface area and volume change with size
+- If every length of a solid is multiplied by $k$, its surface area is multiplied by $k^2$ and its volume by $k^3$.
+- For two solids of the same shape, the ratio of surface areas is the square, and the ratio of volumes is the cube, of the ratio of their lengths.
+?eg The radius of a sphere is doubled. What happens to its surface area and its volume?
+= Surface area: $4\pi(2r)^2 = 4 \times 4\pi r^2$. Volume: $\dfrac{4}{3}\pi(2r)^3 = 8 \times \dfrac{4}{3}\pi r^3$.
+=> The surface area becomes 4 times and the volume 8 times.
+?eg The radius of a sphere is increased by 10%. By what percentage does the volume increase?
+= New volume $= (1.1)^3 = 1.331$ times the old volume.
+=> 33.1%
+
+# Solids put into water and solids recast
+- A solid lowered completely into water pushes up a volume of water equal to its own volume.
+- When a solid is melted and made into another shape, the **volume** stays the same. The surface area changes.
+?eg A solid sphere of radius 3 cm is lowered into water in a cylinder of radius 5 cm. By how much does the water level rise?
+= Volume of the sphere $= \dfrac{4}{3}\pi \times 27 = 36\pi$ cm³
+= $\pi \times 25 \times h = 36\pi$, so $h = \dfrac{36}{25}$.
+=> 1.44 cm
+?eg A solid metal cube of side 11 cm is melted and made into a cylinder of radius 7 cm. Find the height of the cylinder. Take $\pi = \dfrac{22}{7}$.
+= Volume $= 11^3 = 1331$ cm³. So $\dfrac{22}{7} \times 49 \times h = 1331$, that is $154h = 1331$.
+=> $h \approx 8.64$ cm
+
+# Estimating with volumes
+- A **guesstimate** is a reasonable estimate made when exact data is missing. Steps: make a quick guess, choose a simple shape to model the object, state the assumptions, calculate, and compare with the guess.
+- Different assumptions give different answers. The reasoning matters more than the exact number.
+- Dividing the volume of a container by the volume of one ball gives only an **upper limit**, because spheres leave gaps. Cubes fill space completely, which is why volume is measured in unit cubes.
+?eg Estimate how many balls of diameter 6 cm fit in a box 60 cm by 60 cm by 30 cm, when packed in straight rows and layers.
+= Along the sides: $60 \div 6 = 10$, $60 \div 6 = 10$ and $30 \div 6 = 5$.
+=> $10 \times 10 \times 5 = 500$ balls
+
+# Common mistakes
+- Using the height in place of the slant height in $\pi rl$.
+- Using the diameter in place of the radius.
+- Forgetting the factor $\dfrac{1}{3}$ for a cone or pyramid.
+- Taking the total surface area of a hemisphere as $2\pi r^2$. The flat face adds $\pi r^2$.
+- Counting both ends when a vessel is open at the top.
+- Mixing units, or forgetting that $1000 \text{ cm}^3 = 1$ litre.
+
+@@formulas
+Cuboid: total surface area | $2(lw + wh + lh)$
+Cuboid: volume | $lwh$
+Cube: total surface area | $6a^2$
+Cube: volume | $a^3$
+Cylinder: curved surface area | $2\pi rh$
+Cylinder: total surface area (both ends closed) | $2\pi r(h + r)$
+Cylinder: surface area (one end closed) | $\pi r(2h + r)$
+Cylinder: volume | $\pi r^2h$
+Cone: slant height | $l = \sqrt{h^2 + r^2}$
+Cone: curved surface area | $\pi rl$
+Cone: total surface area | $\pi r(l + r)$
+Cone: volume | $\dfrac{1}{3}\pi r^2h$
+Pyramid: volume | $\dfrac{1}{3} \times$ area of base $\times$ height
+Sphere: surface area | $4\pi r^2$
+Sphere: volume | $\dfrac{4}{3}\pi r^3$
+Hemisphere: curved surface area | $2\pi r^2$
+Hemisphere: total surface area | $3\pi r^2$
+Hemisphere: volume | $\dfrac{2}{3}\pi r^3$
+Lengths multiplied by $k$ | Area $\times k^2$, volume $\times k^3$
+Capacity | $1000 \text{ cm}^3 = 1$ litre; $1 \text{ m}^3 = 1000$ litres
+
+@@dpp
+Q: Find the total surface area and the volume of a cuboid 10 cm by 6 cm by 4 cm.
+A: 248 cm² and 240 cm³
+Q: The volume of a cube is 216 cm³. Find its side and its total surface area.
+A: Side 6 cm; TSA 216 cm²
+Q: Find the curved surface area of a cylinder of radius 7 cm and height 15 cm. Take $\pi = \dfrac{22}{7}$.
+A: 660 cm²
+Q: Find the volume of a cylinder of radius 3.5 cm and height 10 cm. Take $\pi = \dfrac{22}{7}$.
+A: 385 cm³
+Q: A cone has radius 6 cm and height 8 cm. Find its slant height and its curved surface area. Take $\pi = 3.14$.
+A: $l = 10$ cm; CSA $= 188.4$ cm²
+Q: Find the volume of a cone of radius 7 cm and height 12 cm. Take $\pi = \dfrac{22}{7}$.
+A: 616 cm³
+Q: Find the surface area of a sphere of radius 10.5 cm. Take $\pi = \dfrac{22}{7}$.
+A: 1386 cm²
+Q: Find the volume of a sphere of radius 3 cm in terms of $\pi$.
+A: $36\pi$ cm³
+Q: Find the total surface area of a solid hemisphere of radius 7 cm. Take $\pi = \dfrac{22}{7}$.
+A: 462 cm²
+Q: A pyramid has a square base of side 9 cm and a height of 8 cm. Find its volume.
+A: 216 cm³

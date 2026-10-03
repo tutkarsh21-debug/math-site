@@ -271,5 +271,75 @@
   "dpp",
   "pyq",
   "pyq-solutions"
+ ],
+ "class-9/algebraic-identities": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/introduction-to-probability": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/linear-polynomials": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/orienting-yourself-coordinates": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/perimeter-and-area": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/propositions-and-converses": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/quadrilaterals": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/sequences-and-progressions": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/surface-area-and-volume": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/the-world-of-algorithms": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/the-world-of-numbers": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/two-variables-one-line": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/understanding-data": [
+  "notes",
+  "formulas",
+  "dpp"
+ ],
+ "class-9/up-and-down-round-and-round": [
+  "notes",
+  "formulas",
+  "dpp"
  ]
 }

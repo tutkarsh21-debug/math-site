@@ -1,0 +1,137 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 2
+@chapter 10
+@title How Quantities Combine: Understanding Data
+@summary When groups of different sizes are combined, a plain average is not enough. This chapter introduces the weighted mean, uses it for mixtures and scores, and shows how stacked bar charts display totals and shares.
+
+# Average of averages
+- The average of a combined group is (sum of all values) $\div$ (number of all values).
+- If one group has $n$ values with average $a$, its sum is $an$. If another has $m$ values with average $b$, its sum is $bm$.
+$$\text{Combined average} = \frac{an + bm}{n + m}$$
+- For three groups with averages $a$, $b$, $c$ and sizes $p$, $q$, $r$: $\dfrac{ap + bq + cr}{p + q + r}$.
+- Simply averaging the averages, $\dfrac{a + b}{2}$, is correct **only when the groups have the same size**. Otherwise it treats a small group as if it were as important as a large one.
+- The combined average always lies between the group averages, closer to the average of the **larger** group.
+?eg Section A has 20 students with an average score of 60. Section B has 30 students with an average score of 70. Find the average score of all the students.
+= Total of A $= 60 \times 20 = 1200$ and total of B $= 70 \times 30 = 2100$
+= Combined average $= \dfrac{1200 + 2100}{20 + 30} = \dfrac{3300}{50}$
+=> 66 (not 65, because Section B is larger)
+?eg A girl cycles on 5 days in each of three weeks. Her weekly averages are 12, 15 and 18 minutes a day. Find her average over the three weeks.
+= The three groups have the same size, so the averages can be averaged: $\dfrac{12 + 15 + 18}{3}$
+=> 15 minutes a day
+
+# Mixtures
+- The **concentration** of a substance in a mixture is $\dfrac{\text{quantity of the substance}}{\text{quantity of the mixture}}$.
+- When mixtures are combined, add the quantities of the substance and divide by the total quantity.
+- With **equal** quantities, the new concentration is midway between the two. With unequal quantities, it is closer to the concentration of the **larger** quantity.
+?eg 300 mL of syrup with 10% sugar is mixed with 200 mL of syrup with 25% sugar. Find the concentration of sugar in the mixture.
+= Sugar $= 0.10 \times 300 + 0.25 \times 200 = 30 + 50 = 80$ mL
+= Mixture $= 500$ mL, so the concentration is $\dfrac{80}{500}$.
+=> 16%
+?eg 400 g of an alloy that is 60% copper is melted with some alloy that is 30% copper. The result is 40% copper. How much of the second alloy was used?
+= Let it be $x$ g. Then $\dfrac{0.6 \times 400 + 0.3x}{400 + x} = 0.4$.
+= $240 + 0.3x = 160 + 0.4x$, so $0.1x = 80$.
+=> 800 g
+?eg How much water must be added to 6 litres of a 12% salt solution to bring the concentration down to 8%?
+= Salt $= 0.12 \times 6 = 0.72$ litres. Water adds no salt. Let $x$ litres be added.
+= $\dfrac{0.72}{6 + x} = 0.08$, so $6 + x = 9$.
+=> 3 litres
+
+# The weighted mean
+- If values $x_1, x_2, \ldots, x_n$ have **weights** $w_1, w_2, \ldots, w_n$, their **weighted mean** (weighted average) is
+$$\bar{x} = \frac{w_1x_1 + w_2x_2 + \ldots + w_nx_n}{w_1 + w_2 + \ldots + w_n}$$
+- A weight says how much a value counts: it can be a number of items, a quantity, a length of time or a level of importance.
+- The average of averages and the concentration of a mixture are both weighted means. The weights are the group sizes or the quantities mixed.
+- If all the weights are equal, the weighted mean is the ordinary mean. Multiplying every weight by the same number does not change it.
+!tip Brahmagupta gave this formula in 628 CE to find the mean depth of an uneven pit. Śrīdharācārya (c. 750 CE) used it to find the purity of gold when pieces of different purity are melted together.
+?eg A trench has three sections of lengths 3 m, 5 m and 2 m, dug to depths of 4 m, 6 m and 9 m. Find its mean depth.
+= Mean depth $= \dfrac{3 \times 4 + 5 \times 6 + 2 \times 9}{3 + 5 + 2} = \dfrac{12 + 30 + 18}{10}$
+=> 6 m
+
+# Custom weights
+- Weights can be **chosen** to give some parts more importance. A ratio such as $2 : 3 : 5$ gives the weights.
+- First put all the scores on the same scale (for example, percentages), then take the weighted mean.
+?eg A student scores 70% in internal tests, 80% in a project and 64% in the final examination. These are combined in the ratio $2 : 3 : 5$. Find the final score.
+= Final score $= \dfrac{70 \times 2 + 80 \times 3 + 64 \times 5}{2 + 3 + 5} = \dfrac{140 + 240 + 320}{10}$
+=> 70%
+?eg A customer rates a restaurant 4 for food, 5 for service and 3 for ambience. The weights are $5 : 3 : 2$. Find the overall rating.
+= $\dfrac{4 \times 5 + 5 \times 3 + 3 \times 2}{5 + 3 + 2} = \dfrac{41}{10}$
+=> 4.1
+
+# Adding or removing a value
+- The weighted mean also handles a change in the data. A group of $n$ values with average $a$ has total $an$.
+- After adding a value $v$: new average $= \dfrac{an + v}{n + 1}$. After removing a value $v$: new average $= \dfrac{an - v}{n - 1}$.
+?eg The average of 15 numbers is 40. A sixteenth number, 56, is added. Find the new average.
+= New total $= 15 \times 40 + 56 = 656$
+=> $\dfrac{656}{16} = 41$
+?eg The average weight of 10 parcels is 25 kg. A parcel of 34 kg is taken away. Find the average weight of the rest.
+= New total $= 250 - 34 = 216$
+=> $\dfrac{216}{9} = 24$ kg
+
+# Stacked bar charts
+- A **cluster column chart** places bars side by side. The clusters can be chosen in two ways (for example, by family or by category), and the choice decides which comparisons are easy.
+- A **stacked bar chart** joins the bars of a cluster end to end. The full length shows the **total**, and each part shows one component.
+- It is good for comparing totals while still seeing the parts. It is harder to compare parts that do not start from the same point.
+| | Pens | Notebooks | Bags | Total |
+| Shop A (sales in ₹) | 300 | 500 | 200 | 1000 |
+| Shop B (sales in ₹) | 400 | 800 | 800 | 2000 |
+!fig w=350 h=160; Q a1 80 40; Q a2 200 40; Q a3 200 70; Q a4 80 70; Q a5 116 40; Q a6 116 70; Q a7 176 40; Q a8 176 70; F a5 a7 a8 a6; L a1 a2; L a2 a3; L a3 a4; L a4 a1; L a5 a6; L a7 a8; Q b1 80 95; Q b2 320 95; Q b3 320 125; Q b4 80 125; Q b5 128 95; Q b6 128 125; Q b7 224 95; Q b8 224 125; F b5 b7 b8 b6; L b1 b2; L b2 b3; L b3 b4; L b4 b1; L b5 b6; L b7 b8; T 45 60 Shop A; T 45 115 Shop B; T 98 60 300; T 146 60 500; T 188 60 200; T 104 115 400; T 176 115 800; T 272 115 800; cap Stacked bar chart: pens, then notebooks (shaded), then bags
+
+# 100% stacked bar charts
+- In a **100% stacked bar chart** every bar has the same length, which stands for 100% of that total. Each part shows a **percentage** of the total.
+- It does the job of several pie charts at once, and lengths are easier to compare than angles.
+- For the shops above: Shop A is 30%, 50%, 20% and Shop B is 20%, 40%, 40%.
+!fig w=350 h=160; Q a1 80 40; Q a2 320 40; Q a3 320 70; Q a4 80 70; Q a5 152 40; Q a6 152 70; Q a7 272 40; Q a8 272 70; F a5 a7 a8 a6; L a1 a2; L a2 a3; L a3 a4; L a4 a1; L a5 a6; L a7 a8; Q b1 80 95; Q b2 320 95; Q b3 320 125; Q b4 80 125; Q b5 128 95; Q b6 128 125; Q b7 224 95; Q b8 224 125; F b5 b7 b8 b6; L b1 b2; L b2 b3; L b3 b4; L b4 b1; L b5 b6; L b7 b8; T 45 60 Shop A; T 45 115 Shop B; T 116 60 30%; T 212 60 50%; T 296 60 20%; T 104 115 20%; T 176 115 40%; T 272 115 40%; cap 100% stacked bar chart of the same data
+- A 100% stacked bar chart compares **shares**, not actual amounts. Pens are a larger share of Shop A's sales (30% against 20%), yet Shop B sold more pens (₹400 against ₹300).
+- From a stacked bar chart we can make the 100% stacked bar chart. The reverse is **not** possible, because the totals are lost.
+- A single stacked bar can be read both ways. A day of 24 hours split into activities is an example.
+?eg A house used 360, 300, 120 and 220 units of electricity for lighting, cooling, kitchen and other uses. Find the percentages for a 100% stacked bar.
+= Total $= 360 + 300 + 120 + 220 = 1000$ units
+=> 36%, 30%, 12% and 22%
+?eg A 100% stacked bar chart shows that 50% of the flowers in garden P and 40% of the flowers in garden Q bloom in summer. Which garden has more summer flowers?
+= The chart gives only shares. If P has 100 flowers in all and Q has 300, then P has 50 summer flowers and Q has 120.
+=> It cannot be decided from the chart. The totals are needed.
+
+# Common mistakes
+- Averaging two averages directly when the groups have different sizes.
+- Adding percentages when mixing: 10% and 25% do not make 35% or 17.5%.
+- Forgetting that added water increases the total quantity but not the quantity of salt or sugar.
+- Dividing by the number of values instead of by the **sum of the weights**.
+- Combining marks that are out of different totals without first changing them to percentages.
+- Reading actual amounts from a 100% stacked bar chart.
+
+@@formulas
+Sum of a group | Average $\times$ number of values
+Combined average of two groups | $\dfrac{an + bm}{n + m}$
+Combined average of three groups | $\dfrac{ap + bq + cr}{p + q + r}$
+Groups of equal size | Combined average $=$ average of the averages
+Concentration | $\dfrac{\text{quantity of the substance}}{\text{quantity of the mixture}}$
+Concentration of a mixture | $\dfrac{w_1x_1 + w_2x_2}{w_1 + w_2}$, with quantities $w$ and concentrations $x$
+Weighted mean | $\dfrac{w_1x_1 + w_2x_2 + \ldots + w_nx_n}{w_1 + w_2 + \ldots + w_n}$
+After adding a value $v$ | $\dfrac{an + v}{n + 1}$
+After removing a value $v$ | $\dfrac{an - v}{n - 1}$
+Percentage share | $\dfrac{\text{part}}{\text{total}} \times 100$
+Stacked bar chart | Shows the total and its parts
+100% stacked bar chart | Shows shares only; every bar is 100%
+
+@@dpp
+Q: Section A has 25 students with average marks 64, and Section B has 15 students with average marks 72. Find the combined average.
+A: $\dfrac{1600 + 1080}{40} = 67$
+Q: Three groups of the same size have averages 10, 14 and 18. Find the combined average.
+A: 14
+Q: 200 mL of a 5% salt solution is mixed with 300 mL of a 10% salt solution. Find the concentration of the mixture.
+A: $\dfrac{10 + 30}{500} = 8\%$
+Q: Scores of 50, 60 and 80 are combined in the ratio $1 : 2 : 2$. Find the weighted mean.
+A: $\dfrac{50 + 120 + 160}{5} = 66$
+Q: The average of 9 numbers is 20. A tenth number, 40, is added. Find the new average.
+A: $\dfrac{220}{10} = 22$
+Q: The average of 12 numbers is 15. The number 26 is removed. Find the average of the rest.
+A: $\dfrac{154}{11} = 14$
+Q: How much water must be added to 4 litres of a 15% sugar solution to make it a 10% solution?
+A: 2 litres
+Q: A café is rated 4 for food, 2 for service and 5 for ambience, with weights $3 : 2 : 1$. Find the overall rating.
+A: $\dfrac{12 + 4 + 5}{6} = 3.5$
+Q: A family spends ₹6000 on food, ₹4000 on rent and ₹2000 on other things. Find the percentages for a 100% stacked bar.
+A: 50%, 33.3% and 16.7%
+Q: True or false: a 100% stacked bar chart shows which bar has the larger total.
+A: False. Every bar is drawn to the same length, so the totals cannot be read from it.

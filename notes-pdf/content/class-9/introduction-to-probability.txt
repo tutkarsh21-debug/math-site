@@ -1,0 +1,145 @@
+@class Class 9
+@board CBSE
+@book Ganita Manjari Part 1
+@chapter 7
+@title The Mathematics of Maybe: Introduction to Probability
+@summary Probability measures how likely an event is, on a scale from 0 to 1. This chapter covers experimental and theoretical probability, sample spaces, events and tree diagrams.
+
+# Randomness and the probability scale
+- A **random experiment** is an action that can be repeated, whose possible results are known but whose actual result cannot be predicted. Tossing a coin and rolling a die are examples.
+- Each performance of the experiment is a **trial**, and each possible result is an **outcome**.
+- **Probability** is a number from 0 to 1 that measures how likely an event is. For any event $E$, $0 \leq P(E) \leq 1$.
+| Probability | Meaning | Example |
+| 0 | Impossible | Getting 7 on an ordinary die |
+| Between 0 and $\frac{1}{2}$ | Less likely | Getting 3 on a die |
+| $\frac{1}{2}$ | Even chance | Getting heads on a coin |
+| Between $\frac{1}{2}$ and 1 | More likely | Getting a number greater than 1 on a die |
+| 1 | Certain | Picking a red sweet from a bag of only red sweets |
+- A probability can be written as a fraction, a decimal or a percentage: $\dfrac{3}{4} = 0.75 = 75\%$.
+- A coin or die is **fair** (unbiased) when no outcome is favoured over another.
+- A guess based on personal judgement ("it looks like rain") is a **subjective** probability. This chapter is about measuring probability **objectively**.
+
+# Experimental probability
+- Experimental probability is found from actual trials or from recorded data.
+$$\text{Experimental probability} = \frac{\text{Number of times the event occurred}}{\text{Total number of trials}}$$
+- This fraction is also called the **relative frequency** of the event.
+- Different sets of trials can give different values.
+?eg A spinner is spun 80 times and stops on red 28 times. Find the experimental probability of red.
+= $\dfrac{28}{80} = \dfrac{7}{20}$
+=> $0.35$ or 35%
+
+# Theoretical probability
+- Theoretical probability is found by reasoning, when all the outcomes are **equally likely**. No experiment is needed.
+$$P(E) = \frac{\text{Number of favourable outcomes}}{\text{Number of possible outcomes}}$$
+- The event "$E$ does not happen" has probability $P(\text{not } E) = 1 - P(E)$.
+?eg A fair die is rolled once. Find the probability of getting (a) a prime number (b) a number that is not prime.
+= The primes on a die are 2, 3 and 5: 3 favourable outcomes out of 6.
+= $P(\text{not prime}) = 1 - \dfrac{1}{2}$
+=> (a) $\dfrac{1}{2}$ (b) $\dfrac{1}{2}$
+?eg A letter is picked at random from the word MATHEMATICS. Find the probability that it is (a) M (b) a vowel.
+= The word has 11 letters. M occurs twice. The vowels are A, E, A, I: four letters.
+=> (a) $\dfrac{2}{11}$ (b) $\dfrac{4}{11}$
+?eg A point is chosen at random inside a square of side 4 m. A circle of radius 1 m is drawn inside the square. Find the probability that the point lies inside the circle. Take $\pi = 3.14$.
+= When a point is chosen at random in a region, the probability is the ratio of the areas.
+= $\dfrac{\pi \times 1^2}{4 \times 4} = \dfrac{3.14}{16}$
+=> about 0.196
+
+# Probability from data and samples
+- When data has been collected, the relative frequency is used as an estimate of the probability.
+- Data is usually collected from a **sample**, a part of the whole **population**. The estimate from the sample is then applied to the population.
+- A larger sample that represents all parts of the population gives a more reliable estimate.
+?eg In a sample of 60 students, 18 walk to school. Estimate the probability that a student walks to school, and the number who walk in a school of 900 students.
+= Probability $\approx \dfrac{18}{60} = 0.3$
+= Expected number $= 0.3 \times 900$
+=> 0.3; about 270 students
+
+# Experimental and theoretical probability compared
+- For a small number of trials, the experimental probability can be quite different from the theoretical probability.
+- **Law of Large Numbers**: as the number of trials grows, the experimental probability gets closer to the theoretical probability.
+- **Gambler's fallacy**: believing that after several heads in a row, tails is "due". A fair coin has no memory. Each toss is independent, and the probability of tails stays $\dfrac{1}{2}$.
+?eg A die is rolled 12 times and shows 3 on three of them. Compare the experimental and theoretical probabilities of getting 3. What do you expect for 6000 rolls?
+= Experimental: $\dfrac{3}{12} = 0.25$. Theoretical: $\dfrac{1}{6} \approx 0.167$.
+=> They differ because 12 trials are few. For 6000 rolls the experimental value should be close to $\dfrac{1}{6}$, that is about 1000 threes.
+
+# Sample space and events
+- The **sample space** $S$ is the list of **all** possible outcomes, each written once. The number of outcomes is written $n(S)$.
+- An **event** is any outcome or group of outcomes. It is a subset of the sample space.
+- The sample space must suit the question. For "will it rain?", $S = \{\text{Rain}, \text{No rain}\}$ is enough. To study how much it rains, more outcomes are needed.
+| Experiment | Sample space | $n(S)$ |
+| Tossing a coin | $\{H, T\}$ | 2 |
+| Rolling a die | $\{1, 2, 3, 4, 5, 6\}$ | 6 |
+| Tossing two coins | $\{HH, HT, TH, TT\}$ | 4 |
+| A coin and a die together | $\{H1, H2, \ldots, H6, T1, T2, \ldots, T6\}$ | 12 |
+?eg A die is rolled. Write the event "a multiple of 3" as a set and find its probability.
+= $E = \{3, 6\}$ and $n(S) = 6$
+=> $P(E) = \dfrac{2}{6} = \dfrac{1}{3}$
+?eg A stall offers 3 snacks (samosa, pakora, bhaji) and 2 drinks (chai, lassi). How many snack-and-drink choices are there? Find the probability that a choice made at random includes lassi.
+= Each of the 3 snacks can go with each of the 2 drinks: $3 \times 2 = 6$ choices.
+= Three of the six choices include lassi.
+=> 6 choices; $\dfrac{3}{6} = \dfrac{1}{2}$
+
+# Tree diagrams
+- A **tree diagram** lists the outcomes of an experiment done in steps. Each branch is one possible result of a step, and each path from the start to an end is one outcome.
+!fig w=320 h=215; Q s 40 108; Q h 130 58; Q t 130 158; Q hh 225 33; Q ht 225 83; Q th 225 133; Q tt 225 183; L s h; L s t; L h hh; L h ht; L t th; L t tt; T 140 50 H; T 140 176 T; T 245 37 HH; T 245 87 HT; T 245 137 TH; T 245 187 TT; T 85 70 ½; T 85 150 ½; T 30 100 Start; cap Two tosses of a coin give four equally likely outcomes
+- To find the probability of one path, **multiply** the probabilities along its branches. To combine several paths, **add** their probabilities.
+- **With replacement**: the object is put back, so the probabilities are the same at each step. **Without replacement**: the numbers change after the first draw.
+?eg A coin is tossed twice. Find the probability of (a) two heads (b) one head and one tail.
+= $S = \{HH, HT, TH, TT\}$
+=> (a) $\dfrac{1}{4}$ (b) $\dfrac{2}{4} = \dfrac{1}{2}$
+?eg Three coins are tossed. Find the probability of (a) exactly two heads (b) at least one head.
+= $S = \{HHH, HHT, HTH, THH, HTT, THT, TTH, TTT\}$, so $n(S) = 8$.
+= Exactly two heads: $HHT, HTH, THH$. At least one head: every outcome except $TTT$.
+=> (a) $\dfrac{3}{8}$ (b) $\dfrac{7}{8}$
+?eg A bag has 2 red and 3 blue balls. A ball is drawn, put back, and a ball is drawn again. Find the probability that the two balls have the same colour.
+= $P(\text{red, red}) = \dfrac{2}{5} \times \dfrac{2}{5} = \dfrac{4}{25}$ and $P(\text{blue, blue}) = \dfrac{3}{5} \times \dfrac{3}{5} = \dfrac{9}{25}$
+=> $\dfrac{4}{25} + \dfrac{9}{25} = \dfrac{13}{25}$
+?eg A bag has 3 red and 2 blue balls. Two balls are drawn one after the other without replacement. Find the probability of (a) red then blue (b) two blue balls.
+= (a) $\dfrac{3}{5} \times \dfrac{2}{4} = \dfrac{6}{20}$. After a red ball is removed, 4 balls remain and 2 are blue.
+= (b) $\dfrac{2}{5} \times \dfrac{1}{4} = \dfrac{2}{20}$. After a blue ball is removed, only 1 blue ball remains.
+=> (a) $\dfrac{3}{10}$ (b) $\dfrac{1}{10}$
+
+# Common mistakes
+- Giving a probability greater than 1 or less than 0. Every probability lies from 0 to 1.
+- Using the formula for theoretical probability when the outcomes are not equally likely (for example, "the car starts or does not start").
+- Treating $HT$ and $TH$ as one outcome. They are different outcomes.
+- Counting repeated letters once: in MATHEMATICS there are 11 letters, not 8.
+- Forgetting that the total changes when a ball is not put back.
+- The gambler's fallacy: past results do not change the probability of the next independent trial.
+
+@@formulas
+Range of a probability | $0 \leq P(E) \leq 1$
+Impossible event | $P = 0$
+Certain event | $P = 1$
+Experimental probability | $\dfrac{\text{Number of times the event occurred}}{\text{Total number of trials}}$
+Theoretical probability | $\dfrac{\text{Number of favourable outcomes}}{\text{Number of possible outcomes}}$
+Complement | $P(\text{not } E) = 1 - P(E)$
+Estimate for a population | Probability from the sample $\times$ size of the population
+Sample space of one coin | $\{H, T\}$
+Sample space of one die | $\{1, 2, 3, 4, 5, 6\}$
+Two coins | $\{HH, HT, TH, TT\}$
+Number of outcomes for two steps | (outcomes of step 1) $\times$ (outcomes of step 2)
+Along a path of a tree diagram | Multiply the probabilities
+Several paths | Add the probabilities
+Law of Large Numbers | With more trials, experimental probability approaches theoretical probability
+
+@@dpp
+Q: Write the probability of an impossible event and of a certain event.
+A: 0 and 1
+Q: A die is rolled 40 times and shows 5 on nine of them. Write the experimental and the theoretical probability of getting 5.
+A: $\dfrac{9}{40} = 0.225$ and $\dfrac{1}{6}$
+Q: A die is rolled once. Find the probability of getting a number less than 3.
+A: $\dfrac{2}{6} = \dfrac{1}{3}$
+Q: A letter is chosen at random from the word STATISTICS. Find the probability that it is (a) T (b) a vowel.
+A: (a) $\dfrac{3}{10}$ (b) $\dfrac{3}{10}$
+Q: In a survey of 80 students, 28 prefer cricket. Estimate how many of the 1200 students of the school prefer cricket.
+A: $0.35 \times 1200 = 420$
+Q: Write the sample space for tossing a coin and rolling a die together. How many outcomes does it have?
+A: $\{H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6\}$; 12 outcomes
+Q: Two coins are tossed. Find the probability of getting at least one tail.
+A: $\dfrac{3}{4}$
+Q: Three coins are tossed. Find the probability of getting exactly one head.
+A: $\dfrac{3}{8}$
+Q: Cards numbered 1 to 20 are placed in a box and one is drawn. Find the probability that the number is (a) a multiple of 4 (b) prime.
+A: (a) $\dfrac{5}{20} = \dfrac{1}{4}$ (b) $\dfrac{8}{20} = \dfrac{2}{5}$
+Q: A bag has 3 red and 2 green balls. A ball is drawn, put back, and a ball is drawn again. Find the probability that both are red.
+A: $\dfrac{3}{5} \times \dfrac{3}{5} = \dfrac{9}{25}$
