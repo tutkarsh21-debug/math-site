@@ -1,5 +1,5 @@
 T: Sector and segment of a circle
-Q: [CBSE 2024, 5 marks] An arc of a circle of radius 21 cm subtends an angle of $60°$ at the centre. Find: (i) the length of the arc (ii) the area of the minor segment of the circle made by the corresponding chord.
+Q: [CBSE 2024, 5 marks] In a circle of radius 21 cm, an arc subtends $60°$ at the centre. Find (i) the length of the arc (ii) the area of the minor segment cut off by the chord of this arc.
 S: (i) Length of arc $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132 = 22$ cm
 S: (ii) Area of sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 21 \times 21 = 231$ cm²
 S: The triangle formed by the two radii and the chord has an angle of $60°$ between equal sides, so it is equilateral with side 21 cm. Its area $= \dfrac{\sqrt{3}}{4} \times 21^2 = \dfrac{441\sqrt{3}}{4}$ cm²

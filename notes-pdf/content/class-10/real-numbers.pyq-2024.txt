@@ -1,22 +1,22 @@
 T: HCF and LCM by prime factorisation
-Q: [CBSE 2024, 1 mark] If two positive integers $p$ and $q$ can be expressed as $p = 18a^2b^4$ and $q = 20a^3b^2$, where $a$ and $b$ are prime numbers, then LCM $(p, q)$ is: (a) $2a^2b^2$  (b) $180a^2b^2$  (c) $12a^2b^2$  (d) $180a^3b^4$
+Q: [CBSE 2024, 1 mark] Two positive integers are $p = 18a^2b^4$ and $q = 20a^3b^2$, where $a$ and $b$ are primes. What is the LCM of $p$ and $q$? (a) $2a^2b^2$  (b) $180a^2b^2$  (c) $12a^2b^2$  (d) $180a^3b^4$
 S: $p = 2 \times 3^2 \times a^2 \times b^4$ and $q = 2^2 \times 5 \times a^3 \times b^2$
 S: LCM takes the greatest power of every prime: $2^2 \times 3^2 \times 5 \times a^3 \times b^4 = 180a^3b^4$
 S: **Answer: (d)**
-Q: [CBSE 2024, 3 marks] In a teachers' workshop, the number of teachers teaching French, Hindi and English are 48, 80 and 144 respectively. Find the minimum number of rooms required if in each room the same number of teachers are seated and all of them are of the same subject.
+Q: [CBSE 2024, 3 marks] At a workshop there are 48 French teachers, 80 Hindi teachers and 144 English teachers. Every room must hold the same number of teachers, and all the teachers in a room must teach the same subject. What is the least number of rooms needed?
 S: For the fewest rooms, each room must seat the greatest possible number, which is the HCF of 48, 80 and 144.
 S: $48 = 2^4 \times 3$, $80 = 2^4 \times 5$, $144 = 2^4 \times 3^2$, so HCF $= 2^4 = 16$
 S: Number of rooms $= \dfrac{48}{16} + \dfrac{80}{16} + \dfrac{144}{16} = 3 + 5 + 9$
 S: **Answer: 17 rooms**
 
 T: The Fundamental Theorem of Arithmetic
-Q: [CBSE 2024, 2 marks] Show that the number $5 \times 11 \times 17 + 3 \times 11$ is a composite number.
+Q: [CBSE 2024, 2 marks] Show that $5 \times 11 \times 17 + 3 \times 11$ is a composite number.
 S: $5 \times 11 \times 17 + 3 \times 11 = 11\,(5 \times 17 + 3) = 11 \times 88$
 S: The number has factors other than 1 and itself (for example 11 and 88).
 S: **Hence it is a composite number.**
 
 T: Irrational numbers and their proofs
-Q: [CBSE 2024, 2 marks] Prove that $5 - 2\sqrt{3}$ is an irrational number. It is given that $\sqrt{3}$ is an irrational number.
+Q: [CBSE 2024, 2 marks] Given that $\sqrt{3}$ is irrational, prove that $5 - 2\sqrt{3}$ is irrational.
 S: Assume, to the contrary, that $5 - 2\sqrt{3}$ is rational. Then $5 - 2\sqrt{3} = \dfrac{a}{b}$, where $a$ and $b$ are integers and $b \neq 0$.
 S: Rearranging: $\sqrt{3} = \dfrac{5b - a}{2b}$
 S: Since $a$ and $b$ are integers, the right side is rational, so $\sqrt{3}$ is rational. This contradicts the given fact that $\sqrt{3}$ is irrational.

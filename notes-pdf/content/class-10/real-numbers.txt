@@ -115,16 +115,16 @@ Square root of a prime | $\sqrt{p}$ is irrational for every prime $p$
 @@dpp
 Q: Express 5005 as a product of its prime factors.
 A: $5005 = 5 \times 7 \times 11 \times 13$
-Q: Find the HCF and LCM of 336 and 54 by prime factorisation.
-A: $336 = 2^4 \times 3 \times 7$, $54 = 2 \times 3^3$; HCF $= 6$, LCM $= 3024$
+Q: Find the HCF and LCM of 252 and 90 by prime factorisation.
+A: $252 = 2^2 \times 3^2 \times 7$, $90 = 2 \times 3^2 \times 5$; HCF $= 18$, LCM $= 1260$
 Q: The HCF of two numbers is 23 and their LCM is 1449. If one number is 161, find the other.
 A: $\dfrac{23 \times 1449}{161} = 207$
 Q: Can $15^n$ end with the digit 0 for any natural number $n$? Give a reason.
 A: No. $15^n = 3^n \times 5^n$ has no factor 2.
 Q: Explain why $3 \times 5 \times 7 \times 11 + 7$ is a composite number.
 A: It equals $7\,(165 + 1) = 7 \times 166$, so it has factors other than 1 and itself.
-Q: Find the HCF and LCM of 8, 9 and 25.
-A: HCF $= 1$, LCM $= 1800$
+Q: Find the HCF and LCM of 15, 16 and 49.
+A: HCF $= 1$, LCM $= 11760$
 Q: Two tankers contain 850 litres and 680 litres of oil. Find the greatest capacity of a container that can measure the oil of both tankers an exact number of times.
 A: HCF$(850, 680) = 170$ litres
 Q: Three traffic lights change after every 48, 72 and 108 seconds. If they change together at 7:00:00 a.m., when will they next change together?

@@ -1,0 +1,23 @@
+T: Complementary events
+Q: [CBSE 2024, 1 mark] A player wins a game with probability 0.79. What is the probability that the player loses it? (a) 1.79  (b) 0.31  (c) 0.21%  (d) 0.21
+S: $P(\text{losing}) = 1 - P(\text{winning}) = 1 - 0.79 = 0.21$
+S: **Answer: (d)**
+
+T: Theoretical probability
+Q: [CBSE 2024, 1 mark] The even numbers are removed from the list 1, 4, 7, 9, 16, 21, 25, and one of the remaining numbers is picked at random. Find the probability that it is prime. (a) $\dfrac{2}{5}$  (b) $\dfrac{1}{5}$  (c) $\dfrac{1}{7}$  (d) $\dfrac{2}{7}$
+S: Removing the even numbers 4 and 16 leaves 1, 7, 9, 21, 25: five numbers.
+S: The only prime among them is 7 (1 is not prime; $9 = 3^2$, $21 = 3 \times 7$, $25 = 5^2$).
+S: Probability $= \dfrac{1}{5}$
+S: **Answer: (b)**
+
+T: Two dice
+Q: [CBSE 2024, 1 mark] Two dice are thrown together. Find the probability that the two numbers add up to 2, 3 or 5. (a) $\dfrac{7}{36}$  (b) $\dfrac{11}{36}$  (c) $\dfrac{5}{36}$  (d) $\dfrac{4}{9}$
+S: Sum 2: $(1,1)$. Sum 3: $(1,2), (2,1)$. Sum 5: $(1,4), (2,3), (3,2), (4,1)$.
+S: Favourable outcomes $= 1 + 2 + 4 = 7$ out of 36.
+S: **Answer: (a)**
+
+T: Playing cards
+Q: [CBSE 2024, 2 marks] A black card is missing from a pack of 52 playing cards. One card is drawn at random from the rest. Find the probability that it is the queen of hearts.
+S: One black card is lost, so 51 cards remain.
+S: The queen of hearts is a red card, so it is still in the pack.
+S: **Answer: $\dfrac{1}{51}$**

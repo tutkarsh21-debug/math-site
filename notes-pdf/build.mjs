@@ -59,18 +59,22 @@ const inline = s => {
 
 function parse(text, file) {
   const meta = {}, topics = [], formulas = [], dpp = [], pyq = [];
-  let topic = null, eg = null, mode = 'notes';
+  let topic = null, eg = null, mode = 'notes', group = null, q = null;
   const fail = (n, msg) => { throw new Error(`${file}:${n + 1}: ${msg}`); };
   text.split(/\r?\n/).forEach((raw, n) => {
     const line = raw.trim();
     if (!line) return;
-    if (line === '@@formulas' || line === '@@dpp' || line === '@@pyq') { mode = line.slice(2); return; }
+    if (line === '@@formulas' || line === '@@dpp' || line === '@@pyq') { mode = line.slice(2); group = q = null; return; }
     if (mode === 'pyq') {
-      const q = pyq.at(-1)?.qs.at(-1);
-      if (line.startsWith('T: ')) pyq.push({ topic: line.slice(3), qs: [] });
+      // The same topic can appear in several year files; its questions are collected under one heading.
+      if (line.startsWith('T: ')) {
+        const name = line.slice(3);
+        group = pyq.find(g => g.topic === name) || (pyq.push({ topic: name, qs: [] }), pyq.at(-1)); q = null;
+      }
       else if (line.startsWith('Q: ')) {
         const m = line.slice(3).match(/^\[(.+?)\]\s*(.*)$/) || fail(n, 'PYQ question needs a tag: "Q: [CBSE 2024, 1 mark] ..."');
-        (pyq.at(-1) || fail(n, 'PYQ question before the first "T: topic"')).qs.push({ tag: m[1], text: m[2], extra: [], steps: [] });
+        q = { tag: m[1], text: m[2], extra: [], steps: [] };
+        (group || fail(n, 'PYQ question before the first "T: topic"')).qs.push(q);
       }
       else if (!q) fail(n, 'PYQ lines must start with "T: topic" and "Q: [tag] question"');
       else if (line.startsWith('S: ')) q.steps.push(line.slice(3));
@@ -154,10 +158,12 @@ const DOCS = {
     + `<ol class="dpp">${dpp.map(d => `<li>${inline(d.q)}</li>`).join('')}</ol>`
     + `<section class="key"><h2 class="key-title">Answer Key</h2><ol class="answers">${dpp.map(d => `<li>${inline(d.a)}</li>`).join('')}</ol></section>`],
   pyq: ({ pyq }) => ['PYQ', `Previous year board questions, topic-wise: ${pyq.reduce((n, g) => n + g.qs.length, 0)} questions`,
-    `<p class="summary">The tag after each question gives the board paper and the marks. Solutions are in a separate PDF with the same question numbers.</p>` + pyqHtml(pyq, false)],
+    `<p class="summary">The tag after each question gives the board examination year and the marks. Solutions are in a separate PDF with the same question numbers.</p>` + pyqHtml(pyq, false) + PYQ_NOTE],
   'pyq-solutions': ({ pyq }) => ['PYQ Solutions', 'Step-by-step solutions to the previous year questions',
-    `<p class="summary">The question numbers match the PYQ question sheet.</p>` + pyqHtml(pyq, true)],
+    `<p class="summary">The question numbers match the PYQ question sheet.</p>` + pyqHtml(pyq, true) + PYQ_NOTE],
 };
+
+const PYQ_NOTE = `<p class="legal">These questions are based on questions asked in past board examinations. They have been reworded by MathSetu, the figures are redrawn, and the solutions are MathSetu's own. MathSetu is an independent study resource and is not affiliated with or endorsed by CBSE, CISCE, NCERT or any publisher.</p>`;
 
 // Previous year questions grouped by topic and numbered straight through; with solutions when asked.
 function pyqHtml(groups, solutions) {
@@ -188,14 +194,15 @@ ${body}
 }
 
 const only = process.argv[2];
-const all = fs.readdirSync(contentDir, { recursive: true }).map(String).filter(f => f.endsWith('.txt') && !f.endsWith('.pyq.txt')).map(f => f.replace(/\\/g, '/')).sort();
+const all = fs.readdirSync(contentDir, { recursive: true }).map(String).filter(f => f.endsWith('.txt') && !/\.pyq-\d+\.txt$/.test(f)).map(f => f.replace(/\\/g, '/')).sort();
 const files = all.filter(f => !only || f === only + '.txt');
 if (!files.length) throw new Error('No content files found' + (only ? ` for ${only}` : ''));
 fs.mkdirSync(tmpDir, { recursive: true });
 for (const f of files) {
-  // A chapter's previous year questions live beside it in <chapter>.pyq.txt.
-  const name = f.slice(0, -4), pyqFile = path.join(contentDir, name + '.pyq.txt'), sizes = [];
-  const ch = parse(fs.readFileSync(path.join(contentDir, f), 'utf8') + (fs.existsSync(pyqFile) ? '\n@@pyq\n' + fs.readFileSync(pyqFile, 'utf8') : ''), f);
+  // A chapter's previous year questions live beside it, one file per year: <chapter>.pyq-2024.txt. Newest year first.
+  const name = f.slice(0, -4), dir = path.dirname(path.join(contentDir, f)), base = path.basename(name), sizes = [];
+  const years = fs.readdirSync(dir).filter(x => x.startsWith(base + '.pyq-') && x.endsWith('.txt')).sort().reverse();
+  const ch = parse(fs.readFileSync(path.join(contentDir, f), 'utf8') + years.map(y => '\n@@pyq\n' + fs.readFileSync(path.join(dir, y), 'utf8')).join(''), f);
   for (const [kind, make] of Object.entries(DOCS)) {
     if (kind === 'formulas' && !ch.formulas.length || kind === 'dpp' && !ch.dpp.length || kind.startsWith('pyq') && !ch.pyq.length) continue;
     const html = path.join(tmpDir, `${name.replace(/\//g, '__')}-${kind}.html`), pdf = path.join(outDir, name, kind + '.pdf');

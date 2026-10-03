@@ -1,23 +1,23 @@
 T: Theorem 1: tangent and radius
-Q: [CBSE 2024, 1 mark] Assertion (A): The tangents drawn at the end points of a diameter of a circle are parallel. Reason (R): Diameter of a circle is the longest chord. Choose: (a) Both A and R are true and R is the correct explanation of A. (b) Both A and R are true but R is not the correct explanation of A. (c) A is true but R is false. (d) A is false but R is true.
+Q: [CBSE 2024, 1 mark] Assertion (A): the tangents at the two ends of a diameter of a circle are parallel. Reason (R): the diameter is the longest chord of a circle. Choose: (a) A and R are both true and R explains A. (b) A and R are both true but R does not explain A. (c) A is true and R is false. (d) A is false and R is true.
 S: A is true: each tangent is perpendicular to the diameter at its end point, and two lines perpendicular to the same line are parallel.
 S: R is true, but it is not the reason why the tangents are parallel.
 S: **Answer: (b)**
 
 T: Theorem 2: tangents from an external point
-Q: [CBSE 2024, 3 marks] $AB$ is a diameter of a circle with centre $O$. $AQ$, $BP$ and $PQ$ are tangents to the circle, where $Q$ lies on the tangent at $A$ and $P$ lies on the tangent at $B$. Prove that $\angle POQ = 90°$.
+Q: [CBSE 2024, 3 marks] $AB$ is a diameter of a circle with centre $O$. The tangents at $A$ and $B$ are met by a third tangent at $Q$ and $P$ respectively. Prove that $\angle POQ = 90°$.
 S: Let $PQ$ touch the circle at $C$. Join $OC$.
 S: In $\triangle OAQ$ and $\triangle OCQ$: $OA = OC$ (radii), $OQ$ is common and $QA = QC$ (tangents from $Q$). So $\triangle OAQ \cong \triangle OCQ$ (SSS), and $\angle AOQ = \angle COQ$.
 S: Similarly $\triangle OBP \cong \triangle OCP$, so $\angle BOP = \angle COP$.
 S: $AOB$ is a straight line: $\angle AOQ + \angle COQ + \angle COP + \angle BOP = 180°$, so $2\angle COQ + 2\angle COP = 180°$.
 S: **Hence $\angle POQ = \angle COQ + \angle COP = 90°$.**
-Q: [CBSE 2024, 3 marks] A circle with centre $O$ and radius 8 cm is inscribed in a quadrilateral $ABCD$ in which $P$, $Q$, $R$, $S$ are the points of contact on $AD$, $DC$, $CB$ and $BA$ respectively. If $AD$ is perpendicular to $DC$, $BC = 30$ cm and $BS = 24$ cm, then find the length $DC$.
+Q: [CBSE 2024, 3 marks] A circle of radius 8 cm with centre $O$ touches the sides $AD$, $DC$, $CB$ and $BA$ of a quadrilateral $ABCD$ at $P$, $Q$, $R$ and $S$. $AD \perp DC$, $BC = 30$ cm and $BS = 24$ cm. Find $DC$.
 S: Tangents from $B$ are equal: $BR = BS = 24$ cm, so $CR = BC - BR = 30 - 24 = 6$ cm.
 S: Tangents from $C$ are equal: $CQ = CR = 6$ cm.
 S: In quadrilateral $OPDQ$: $\angle D = 90°$ (given) and $\angle OPD = \angle OQD = 90°$ (radius is perpendicular to tangent), and $OP = OQ = 8$ cm. So $OPDQ$ is a square and $DQ = 8$ cm.
 S: $DC = DQ + QC = 8 + 6$
 S: **Answer: $DC = 14$ cm**
-Q: [CBSE 2024, 4 marks, case study] A backyard is in the shape of a triangle $ABC$ with right angle at $B$. $AB = 7$ m and $BC = 15$ m. A circular pit was dug inside it such that it touches the walls $AC$, $BC$ and $AB$ at $P$, $Q$ and $R$ respectively such that $AP = x$ m. (i) Find the length of $AR$ in terms of $x$. (ii) Write the type of quadrilateral $BQOR$. (iii) Find the length $PC$ in terms of $x$ and hence find the value of $x$, OR find $x$ and hence find the radius $r$ of the circle.
+Q: [CBSE 2024, 4 marks, case study] A triangular backyard $ABC$ has a right angle at $B$, with $AB = 7$ m and $BC = 15$ m. A circular pit inside it touches $AC$, $BC$ and $AB$ at $P$, $Q$ and $R$, and $AP = x$ m. (i) Write $AR$ in terms of $x$. (ii) What kind of quadrilateral is $BQOR$? (iii) Write $PC$ in terms of $x$ and find $x$, OR find $x$ and then the radius $r$ of the pit.
 !fig w=320 h=215; P B 50 180 bl; P A 50 82 tl; P C 260 180 br; P O 88.1 141.9 r; P Q 88.1 180 b; P R 50 141.9 l; P P 104.3 107.3 tr; L A B; L B C; L A C; C O 38.1; D O P; T 155 198 15 m; T 24 115 7 m
 S: (i) Tangents from $A$ are equal: $AR = AP = x$ m.
 S: (ii) $\angle B = \angle OQB = \angle ORB = 90°$ and $OQ = OR$ (radii), so $BQOR$ is a square.

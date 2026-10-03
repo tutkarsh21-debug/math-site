@@ -90,23 +90,23 @@ Angle turned by the minute hand | $6°$ per minute
 Angle turned by the hour hand | $30°$ per hour, $0.5°$ per minute
 
 @@dpp
-Q: Find the area of a sector of a circle of radius 6 cm with angle $60°$. Take $\pi = \dfrac{22}{7}$.
-A: $\dfrac{132}{7} \approx 18.86$ cm²
-Q: Find the area of a quadrant of a circle whose circumference is 22 cm.
-A: $r = 3.5$ cm; area $= \dfrac{77}{8} = 9.625$ cm²
-Q: The minute hand of a clock is 14 cm long. Find the area it sweeps in 5 minutes.
-A: $\dfrac{154}{3} \approx 51.33$ cm²
+Q: Find the area of a sector of a circle of radius 9 cm with angle $40°$. Take $\pi = \dfrac{22}{7}$.
+A: $\dfrac{198}{7} \approx 28.29$ cm²
+Q: Find the area of a quadrant of a circle whose circumference is 44 cm.
+A: $r = 7$ cm; area $= 38.5$ cm²
+Q: The minute hand of a clock is 7 cm long. Find the area it sweeps in 15 minutes.
+A: $\dfrac{1}{4} \times \dfrac{22}{7} \times 49 = 38.5$ cm²
 Q: Find the length of the arc of a sector of angle $120°$ in a circle of radius 21 cm.
 A: 44 cm
 Q: Find the perimeter of a sector of radius 10.5 cm and angle $60°$.
 A: $11 + 21 = 32$ cm
-Q: A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the minor segment. Take $\pi = 3.14$.
-A: $78.5 - 50 = 28.5$ cm²
+Q: A chord of a circle of radius 20 cm subtends a right angle at the centre. Find the area of the minor segment. Take $\pi = 3.14$.
+A: $314 - 200 = 114$ cm²
 Q: For the circle in the previous question, find the area of the major sector.
-A: $314 - 78.5 = 235.5$ cm²
+A: $1256 - 314 = 942$ cm²
 Q: A chord of a circle of radius 14 cm subtends $60°$ at the centre. Find the area of the minor segment. Take $\sqrt{3} = 1.73$.
 A: $\dfrac{308}{3} - 49 \times 1.73 \approx 102.67 - 84.77 = 17.9$ cm²
 Q: A car has two wipers that do not overlap. Each wiper has a blade 21 cm long sweeping through $120°$. Find the total area cleaned in one sweep.
 A: $2 \times 462 = 924$ cm²
-Q: The arc of a circle of radius 21 cm subtends $60°$ at the centre. Find the area of the sector and of the corresponding major sector.
-A: $231$ cm² and $1386 - 231 = 1155$ cm²
+Q: An arc of a circle of radius 14 cm subtends $45°$ at the centre. Find the area of the sector and of the corresponding major sector.
+A: $77$ cm² and $616 - 77 = 539$ cm²

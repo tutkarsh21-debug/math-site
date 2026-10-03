@@ -101,14 +101,14 @@ Consecutive integers | $x$, $x + 1$; consecutive even or odd integers: $x$, $x +
 Time, distance and speed | $\text{time} = \dfrac{\text{distance}}{\text{speed}}$
 
 @@dpp
-Q: Check whether $(x - 2)(x + 1) = (x - 1)(x + 3)$ is a quadratic equation.
-A: It simplifies to $3x - 1 = 0$, so it is not quadratic.
+Q: Check whether $(x + 2)(x - 3) = (x - 1)(x + 4)$ is a quadratic equation.
+A: It simplifies to $4x + 2 = 0$, so it is not quadratic.
 Q: Solve by factorisation: $x^2 - 3x - 10 = 0$.
 A: $x = 5$ or $x = -2$
-Q: Solve by factorisation: $2x^2 + x - 6 = 0$.
-A: $x = \dfrac{3}{2}$ or $x = -2$
-Q: Solve by factorisation: $6x^2 - x - 2 = 0$.
-A: $x = \dfrac{2}{3}$ or $x = -\dfrac{1}{2}$
+Q: Solve by factorisation: $2x^2 - 9x + 10 = 0$.
+A: $x = \dfrac{5}{2}$ or $x = 2$
+Q: Solve by factorisation: $6x^2 + 5x - 6 = 0$.
+A: $x = \dfrac{2}{3}$ or $x = -\dfrac{3}{2}$
 Q: Solve using the quadratic formula: $x^2 - 4x + 1 = 0$.
 A: $x = 2 \pm \sqrt{3}$
 Q: Find the discriminant of $3x^2 - 5x + 2 = 0$ and state the nature of its roots.

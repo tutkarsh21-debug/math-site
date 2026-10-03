@@ -115,17 +115,17 @@ Q: If $\cos A = \dfrac{4}{5}$, find $\sin A$ and $\tan A$.
 A: $\sin A = \dfrac{3}{5}$, $\tan A = \dfrac{3}{4}$
 Q: If $\sec\theta = \dfrac{13}{12}$, find $\sin\theta$ and $\cot\theta$.
 A: $\sin\theta = \dfrac{5}{13}$, $\cot\theta = \dfrac{12}{5}$
-Q: Evaluate $\sin 60° \cos 30° + \cos 60° \sin 30°$.
-A: $\dfrac{3}{4} + \dfrac{1}{4} = 1$
-Q: Evaluate $2\tan^2 45° + \cos^2 30° - \sin^2 60°$.
-A: $2 + \dfrac{3}{4} - \dfrac{3}{4} = 2$
-Q: Evaluate $\dfrac{5\cos^2 60° + 4\sec^2 30° - \tan^2 45°}{\sin^2 30° + \cos^2 30°}$.
-A: $\dfrac{5}{4} + \dfrac{16}{3} - 1 = \dfrac{67}{12}$
-Q: If $\tan(A + B) = \sqrt{3}$ and $\tan(A - B) = \dfrac{1}{\sqrt{3}}$, with $0° < A + B \leq 90°$ and $A > B$, find $A$ and $B$.
-A: $A = 45°$, $B = 15°$
-Q: Prove that $(\sec A + \tan A)(1 - \sin A) = \cos A$.
-A: LHS $= \dfrac{(1 + \sin A)(1 - \sin A)}{\cos A} = \dfrac{\cos^2 A}{\cos A} = \cos A$
-Q: Prove that $\dfrac{1 + \sec A}{\sec A} = \dfrac{\sin^2 A}{1 - \cos A}$.
-A: LHS $= 1 + \cos A$; RHS $= \dfrac{(1 - \cos A)(1 + \cos A)}{1 - \cos A} = 1 + \cos A$
-Q: Prove that $(\sin A + \text{cosec}\, A)^2 + (\cos A + \sec A)^2 = 7 + \tan^2 A + \cot^2 A$.
-A: Expand: $\sin^2 A + \cos^2 A + 2 + 2 + \text{cosec}^2 A + \sec^2 A = 5 + (1 + \cot^2 A) + (1 + \tan^2 A)$
+Q: Evaluate $\sin^2 30° + \cos^2 60° + \tan^2 45°$.
+A: $\dfrac{1}{4} + \dfrac{1}{4} + 1 = \dfrac{3}{2}$
+Q: Evaluate $3\tan^2 30° + 4\cos^2 45° - \sec^2 60°$.
+A: $1 + 2 - 4 = -1$
+Q: Evaluate $\dfrac{\sin 60° + \cos 30°}{1 + \tan 45°}$.
+A: $\dfrac{\sqrt{3}}{2}$
+Q: If $\sin(A + B) = \dfrac{\sqrt{3}}{2}$ and $\tan(A - B) = \dfrac{1}{\sqrt{3}}$, with $0° < A + B \leq 90°$ and $A > B$, find $A$ and $B$.
+A: $A + B = 60°$, $A - B = 30°$: $A = 45°$, $B = 15°$
+Q: Prove that $(1 + \cot^2 A)(1 - \cos A)(1 + \cos A) = 1$.
+A: LHS $= \text{cosec}^2 A \times \sin^2 A = 1$
+Q: Prove that $\cos^4 A - \sin^4 A = 1 - 2\sin^2 A$.
+A: LHS $= (\cos^2 A + \sin^2 A)(\cos^2 A - \sin^2 A) = \cos^2 A - \sin^2 A = 1 - 2\sin^2 A$
+Q: Prove that $(\sec A - \cos A)(\cot A + \tan A) = \tan A \sec A$.
+A: $\sec A - \cos A = \dfrac{\sin^2 A}{\cos A}$ and $\cot A + \tan A = \dfrac{1}{\sin A \cos A}$; the product is $\dfrac{\sin A}{\cos^2 A} = \tan A \sec A$

@@ -1,15 +1,15 @@
 T: Sum of the first n terms
-Q: [CBSE 2024, 1 mark] In an A.P., if the first term $a = 7$, $n$th term $a_n = 84$ and the sum of first $n$ terms $S_n = \dfrac{2093}{2}$, then $n$ is equal to: (a) 22  (b) 24  (c) 23  (d) 26
+Q: [CBSE 2024, 1 mark] An A.P. has first term $a = 7$ and $n$th term $a_n = 84$, and its first $n$ terms add up to $\dfrac{2093}{2}$. Find $n$. (a) 22  (b) 24  (c) 23  (d) 26
 S: $S_n = \dfrac{n}{2}(a + a_n) = \dfrac{n}{2}(7 + 84) = \dfrac{91n}{2}$
 S: $\dfrac{91n}{2} = \dfrac{2093}{2}$ gives $n = 23$
 S: **Answer: (c)**
-Q: [CBSE 2024, 5 marks] The sum of first and eighth terms of an A.P. is 32 and their product is 60. Find the first term and common difference of the A.P. Hence, also find the sum of its first 20 terms.
+Q: [CBSE 2024, 5 marks] In an A.P., the first and eighth terms have sum 32 and product 60. Find the first term and the common difference, and then the sum of the first 20 terms.
 S: $a + (a + 7d) = 32$, so $a + 7d = 32 - a$.
 S: Product: $a(32 - a) = 60$, so $a^2 - 32a + 60 = 0$ and $(a - 2)(a - 30) = 0$. Hence $a = 2$ or $a = 30$.
 S: If $a = 2$: $7d = 28$, so $d = 4$. Then $S_{20} = \dfrac{20}{2}[\,2(2) + 19(4)\,] = 10 \times 80 = 800$.
 S: If $a = 30$: $7d = -28$, so $d = -4$. Then $S_{20} = \dfrac{20}{2}[\,2(30) + 19(-4)\,] = 10 \times (-16) = -160$.
 S: **Answer: $a = 2$, $d = 4$, $S_{20} = 800$; or $a = 30$, $d = -4$, $S_{20} = -160$.**
-Q: [CBSE 2024, 5 marks] In an A.P. of 40 terms, the sum of first 9 terms is 153 and the sum of last 6 terms is 687. Determine the first term and common difference of the A.P. Also, find the sum of all the terms of the A.P.
+Q: [CBSE 2024, 5 marks] An A.P. has 40 terms. Its first 9 terms add up to 153 and its last 6 terms add up to 687. Find the first term, the common difference and the sum of all 40 terms.
 S: $S_9 = \dfrac{9}{2}[\,2a + 8d\,] = 153$, so $a + 4d = 17$.
 S: The last 6 terms are $a_{35}$ to $a_{40}$. Their sum $= \dfrac{6}{2}(a_{35} + a_{40}) = 3(2a + 73d) = 687$, so $2a + 73d = 229$.
 S: Substituting $a = 17 - 4d$: $34 - 8d + 73d = 229$, so $65d = 195$ and $d = 3$. Then $a = 5$.

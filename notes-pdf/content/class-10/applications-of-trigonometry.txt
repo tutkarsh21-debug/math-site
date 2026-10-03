@@ -89,14 +89,14 @@ Complementary angles | $\tan(90° - \theta) = \cot\theta$, so $\tan\theta \times
 Useful values | $\sqrt{2} \approx 1.414$, $\sqrt{3} \approx 1.732$
 
 @@dpp
-Q: A tower stands on level ground. From a point 30 m from its foot, the angle of elevation of its top is $30°$. Find the height of the tower.
-A: $\dfrac{30}{\sqrt{3}} = 10\sqrt{3} \approx 17.32$ m
+Q: A tower stands on level ground. From a point 45 m from its foot, the angle of elevation of its top is $30°$. Find the height of the tower.
+A: $\dfrac{45}{\sqrt{3}} = 15\sqrt{3} \approx 25.98$ m
 Q: A kite is flying at a height of 75 m above the ground. Its string makes an angle of $60°$ with the ground. Find the length of the string, assuming there is no slack.
 A: $\dfrac{75}{\sin 60°} = 50\sqrt{3} \approx 86.6$ m
-Q: A pole 6 m high casts a shadow $2\sqrt{3}$ m long. Find the sun's angle of elevation.
-A: $\tan\theta = \dfrac{6}{2\sqrt{3}} = \sqrt{3}$, so $\theta = 60°$
-Q: A tree breaks and its top touches the ground 8 m from its foot, making an angle of $30°$ with the ground. Find the original height of the tree.
-A: $\dfrac{8}{\sqrt{3}} + \dfrac{16}{\sqrt{3}} = 8\sqrt{3} \approx 13.86$ m
+Q: A pole 9 m high casts a shadow $3\sqrt{3}$ m long. Find the sun's angle of elevation.
+A: $\tan\theta = \dfrac{9}{3\sqrt{3}} = \sqrt{3}$, so $\theta = 60°$
+Q: A tree breaks and its top touches the ground 12 m from its foot, making an angle of $30°$ with the ground. Find the original height of the tree.
+A: $\dfrac{12}{\sqrt{3}} + \dfrac{24}{\sqrt{3}} = 12\sqrt{3} \approx 20.78$ m
 Q: From the top of a cliff 75 m high, the angle of depression of a boat is $60°$. Find the distance of the boat from the foot of the cliff.
 A: $\dfrac{75}{\sqrt{3}} = 25\sqrt{3} \approx 43.3$ m
 Q: An observer 1.5 m tall is 20.5 m from a tower 22 m high. Find the angle of elevation of the top of the tower from his eyes.

@@ -38,6 +38,13 @@ export default function About() {
       <h2>Understand once, score full marks</h2>
       <p>Understand a chapter properly once, and the marks follow. That is the idea behind everything on this site.</p>
 
+      <h2>Our material</h2>
+      <p>The notes, formula banks, practice sheets and diagrams on this site are written and drawn by {SITE.name}.
+        Previous year questions are based on questions asked in past board examinations; they are reworded,
+        and the solutions are our own. {SITE.name} is an independent study resource and is not affiliated with
+        or endorsed by CBSE, CISCE, NCERT or any publisher. Names of boards and textbooks are used only to
+        identify the syllabus a chapter belongs to.</p>
+
       <h2>Stay in touch</h2>
       <p>Daily problems are posted on Telegram and video lessons on YouTube. For questions, message us on Telegram.</p>
       <div className="cta-row">

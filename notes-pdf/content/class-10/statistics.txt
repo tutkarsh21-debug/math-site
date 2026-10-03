@@ -68,13 +68,13 @@ $$\text{Median} = l + \left(\frac{\frac{n}{2} - cf}{f}\right) \times h$$
 = $l = 20$, $cf = 13$, $f = 15$, $h = 10$
 = Median $= 20 + \dfrac{25 - 13}{15} \times 10 = 20 + 8$
 => Median $= 28$
-?eg The median of the following data is 28.5 and the total frequency is 60. Find $x$ and $y$.
+?eg The median of the following data is 27.5 and the total frequency is 50. Find $x$ and $y$.
 | Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
-| Frequency | 5 | $x$ | 20 | 15 | $y$ | 5 |
-= Total: $45 + x + y = 60$, so $x + y = 15$.
-= The median 28.5 lies in 20–30, so $l = 20$, $f = 20$, $cf = 5 + x$, $h = 10$, $\dfrac{n}{2} = 30$.
-= $28.5 = 20 + \dfrac{30 - (5 + x)}{20} \times 10$, so $8.5 = \dfrac{25 - x}{2}$ and $x = 8$
-=> $x = 8$ and $y = 7$
+| Frequency | 4 | $x$ | 16 | 12 | $y$ | 4 |
+= Total: $36 + x + y = 50$, so $x + y = 14$.
+= The median 27.5 lies in 20–30, so $l = 20$, $f = 16$, $cf = 4 + x$, $h = 10$, $\dfrac{n}{2} = 25$.
+= $27.5 = 20 + \dfrac{25 - (4 + x)}{16} \times 10$, so $7.5 \times 16 = 10(21 - x)$ and $21 - x = 12$
+=> $x = 9$ and $y = 5$
 
 # Which measure to use
 - **Mean**: uses every observation; best when the data has no extreme values. Example: average marks of a class.

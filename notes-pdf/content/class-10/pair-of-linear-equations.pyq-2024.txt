@@ -1,18 +1,18 @@
 T: Graphical method and consistency
-Q: [CBSE 2024, 1 mark] In a figure, the graphs of two linear equations are two straight lines that are not parallel and do not meet within the part of the plane that is drawn. The pair of these linear equations is: (a) consistent with unique solution  (b) consistent with infinitely many solutions  (c) inconsistent  (d) inconsistent but can be made consistent by extending these lines
+Q: [CBSE 2024, 1 mark] A graph shows the lines of two linear equations. The lines are not parallel, but they do not meet in the part of the plane that is drawn. The pair of equations is: (a) consistent, with a unique solution  (b) consistent, with infinitely many solutions  (c) inconsistent  (d) inconsistent, but made consistent by extending the lines
 S: The two lines are not parallel, so when extended they meet at exactly one point.
 S: A pair of lines that intersect at one point has a unique solution and is consistent.
 S: **Answer: (a)**
 
 T: Elimination method
-Q: [CBSE 2024, 2 marks] Solve the following system of linear equations $7x - 2y = 5$ and $8x + 7y = 15$ and verify your answer.
+Q: [CBSE 2024, 2 marks] Solve the pair $7x - 2y = 5$ and $8x + 7y = 15$, and verify the solution.
 S: Multiply the first equation by 7 and the second by 2: $49x - 14y = 35$ and $16x + 14y = 30$
 S: Add: $65x = 65$, so $x = 1$. From $7x - 2y = 5$: $7 - 2y = 5$, so $y = 1$.
 S: Verification: $7(1) - 2(1) = 5$ and $8(1) + 7(1) = 15$. Both are true.
 S: **Answer: $x = 1$, $y = 1$**
 
 T: Word problems
-Q: [CBSE 2024, 3 marks] Three years ago, Rashmi was thrice as old as Nazma. Ten years later, Rashmi will be twice as old as Nazma. How old are Rashmi and Nazma now?
+Q: [CBSE 2024, 3 marks] Three years ago Rashmi's age was three times Nazma's age. Ten years from now Rashmi's age will be twice Nazma's. Find their present ages.
 S: Let Rashmi be $x$ years old and Nazma $y$ years old now.
 S: Three years ago: $x - 3 = 3(y - 3)$, so $x = 3y - 6$.
 S: Ten years later: $x + 10 = 2(y + 10)$, so $x = 2y + 10$.

@@ -83,3 +83,4 @@ li::marker{color:var(--brand)}
 .pyq.solved .q{color:var(--muted);font-size:9.5pt}
 .pyq .sol{margin-top:2mm;padding-top:2mm;border-top:.3mm dashed var(--line)}
 .pyq .sol i{display:block;font-style:normal;font-size:8pt;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:1mm}
+.legal{margin-top:6mm;padding-top:2.5mm;border-top:.3mm solid var(--line);font-size:8pt;color:var(--muted);break-inside:avoid}

@@ -1,5 +1,5 @@
 T: Two right-angled triangles
-Q: [CBSE 2024, 5 marks] A pole 6 m high is fixed on the top of a tower. The angle of elevation of the top of the pole observed from a point $P$ on the ground is $60°$ and the angle of depression of the point $P$ from the top of the tower is $45°$. Find the height of the tower and the distance of point $P$ from the foot of the tower. (Use $\sqrt{3} = 1.73$)
+Q: [CBSE 2024, 5 marks] A 6 m pole stands on top of a tower. From a point $P$ on the ground, the top of the pole is seen at an angle of elevation of $60°$. From the top of the tower, $P$ is seen at an angle of depression of $45°$. Find the height of the tower and the distance of $P$ from its foot. (Take $\sqrt{3} = 1.73$.)
 !fig w=300 h=235; P P 50 205 bl; P F 190 205 br; P T 190 65 r; P Q 190 20 tr; L P F; H F T; L T Q; L P T; L P Q; R P F T; A F P T 45°; T 215 45 6 m; T 204 140 h; cap FT is the tower and TQ is the pole
 S: Let the height of the tower be $h$ m and the distance of $P$ from its foot be $d$ m.
 S: The angle of depression of $P$ from the top of the tower is $45°$, so the angle of elevation of the top of the tower from $P$ is $45°$: $\tan 45° = \dfrac{h}{d}$, so $d = h$.

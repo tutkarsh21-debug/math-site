@@ -108,8 +108,8 @@ Q: State whether all rectangles are similar. Give a reason.
 A: No. Their angles are equal but their sides need not be in the same ratio.
 Q: In $\triangle ABC$, $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = 3$ cm, $DB = 4.5$ cm and $EC = 6$ cm, find $AE$.
 A: $AE = \dfrac{3 \times 6}{4.5} = 4$ cm
-Q: In $\triangle PQR$, $E$ and $F$ lie on $PQ$ and $PR$ with $PE = 4$ cm, $QE = 4.5$ cm, $PF = 8$ cm and $RF = 9$ cm. Is $EF \parallel QR$?
-A: Yes: $\dfrac{4}{4.5} = \dfrac{8}{9}$
+Q: In $\triangle PQR$, $E$ and $F$ lie on $PQ$ and $PR$ with $PE = 6$ cm, $QE = 7.5$ cm, $PF = 4$ cm and $RF = 5$ cm. Is $EF \parallel QR$?
+A: Yes: $\dfrac{6}{7.5} = \dfrac{4}{5}$
 Q: In $\triangle ABC$, $DE \parallel BC$. If $AD = x + 1$, $DB = x$, $AE = x + 3$ and $EC = x + 1$, find $x$.
 A: $(x + 1)^2 = x(x + 3)$ gives $x = 1$
 Q: $\triangle ABC \sim \triangle PQR$ with $AB = 6$ cm, $BC = 8$ cm, $CA = 10$ cm and $PQ = 9$ cm. Find $QR$ and $RP$.

@@ -111,10 +111,10 @@ Cubic: product of zeroes | $\alpha\beta\gamma = -\dfrac{d}{a}$
 Graph of a quadratic | Parabola; opens upwards if $a > 0$, downwards if $a < 0$
 
 @@dpp
-Q: Find the zeroes of $x^2 + 7x + 10$ and verify the relationship between the zeroes and the coefficients.
-A: $-2$ and $-5$; sum $= -7$, product $= 10$
-Q: Find the zeroes of $4x^2 - 4x + 1$.
-A: $\dfrac{1}{2}$ and $\dfrac{1}{2}$
+Q: Find the zeroes of $x^2 + 9x + 14$ and verify the relationship between the zeroes and the coefficients.
+A: $-2$ and $-7$; sum $= -9$, product $= 14$
+Q: Find the zeroes of $9x^2 - 12x + 4$.
+A: $\dfrac{2}{3}$ and $\dfrac{2}{3}$
 Q: Find the zeroes of $5x^2 - 20$.
 A: $2$ and $-2$
 Q: Find a quadratic polynomial whose zeroes have sum $4$ and product $-5$.

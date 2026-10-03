@@ -103,8 +103,8 @@ Q: The length of a tangent from a point 10 cm from the centre of a circle is 8 c
 A: 6 cm
 Q: Two concentric circles have radii 10 cm and 6 cm. Find the length of the chord of the larger circle that touches the smaller circle.
 A: 16 cm
-Q: $PA$ and $PB$ are tangents to a circle with centre $O$. If $\angle APB = 80°$, find $\angle POA$.
-A: $\angle AOB = 100°$, so $\angle POA = 50°$
+Q: $PA$ and $PB$ are tangents to a circle with centre $O$. If $\angle APB = 70°$, find $\angle POA$.
+A: $\angle AOB = 110°$, so $\angle POA = 55°$
 Q: Tangents $PA$ and $PB$ from a point $P$ are inclined to each other at $60°$, and the radius of the circle is 5 cm. Find the length of each tangent.
 A: $\angle APO = 30°$, so $PA = \dfrac{5}{\tan 30°} = 5\sqrt{3}$ cm
 Q: A quadrilateral $ABCD$ circumscribes a circle. If $AB = 7$ cm, $BC = 10$ cm and $CD = 9$ cm, find $AD$.

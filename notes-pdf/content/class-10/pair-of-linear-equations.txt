@@ -108,14 +108,14 @@ Q: For which value of $k$ does the pair $x + 2y = 3$, $5x + ky = 7$ have no solu
 A: $\dfrac{1}{5} = \dfrac{2}{k}$ gives $k = 10$ (and $\dfrac{3}{7} \neq \dfrac{1}{5}$).
 Q: Solve by substitution: $x + y = 17$, $x - y = 5$.
 A: $x = 11$, $y = 6$
-Q: Solve by substitution: $3x - y = 3$, $9x - 3y = 9$.
+Q: Solve by substitution: $2x - y = 4$, $6x - 3y = 12$.
 A: Infinitely many solutions; the equations are the same line.
 Q: Solve by elimination: $2x + 3y = 13$, $5x - 2y = 4$.
 A: $x = 2$, $y = 3$
-Q: Solve: $\dfrac{x}{2} + \dfrac{2y}{3} = -1$, $x - \dfrac{y}{3} = 3$.
-A: $x = 2$, $y = -3$
-Q: The difference between two numbers is 26 and one number is three times the other. Find the numbers.
-A: 39 and 13
+Q: Solve: $\dfrac{x}{2} + \dfrac{y}{3} = 4$, $\dfrac{x}{4} - \dfrac{y}{3} = -1$.
+A: $x = 4$, $y = 6$
+Q: The sum of two numbers is 48 and one number is five times the other. Find the numbers.
+A: 8 and 40
 Q: 4 pencils and 3 pens cost ₹27, and 3 pencils and 4 pens cost ₹29. Find the cost of one pencil and of one pen.
 A: Pencil ₹3, pen ₹5
 Q: Five years ago a father was seven times as old as his son. Five years from now he will be three times as old. Find their present ages.
