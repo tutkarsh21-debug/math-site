@@ -1,0 +1,15 @@
+T: Two right-angled triangles
+Q: [CBSE 2023, 5 marks] Two towers stand on level ground. The first is 24 m high, and from the foot of the second tower its top is seen at an angle of elevation of $60°$. From the foot of the first tower, the top of the second is seen at an angle of elevation of $30°$. Find the distance between the towers, the height of the second tower, and the length of a wire joining the two tops.
+!fig w=240 h=250; P B 50 222 bl; P A 50 30 tl; P D 161 222 br; P C 161 158 tr; H B A; H D C; L B D; D D A; D B C; R A B D; R C D B; A B D A 60°; A D B C 30°; T 28 130 24 m
+S: Let $AB = 24$ m be the first tower, $CD = h$ the second, and $BD = d$ the distance between them.
+S: In $\triangle ABD$: $\tan 60° = \dfrac{24}{d}$, so $d = \dfrac{24}{\sqrt{3}} = 8\sqrt{3}$ m $\approx 13.86$ m.
+S: In $\triangle CDB$: $\tan 30° = \dfrac{h}{d}$, so $h = \dfrac{8\sqrt{3}}{\sqrt{3}} = 8$ m.
+S: The tops differ in height by $24 - 8 = 16$ m. Wire $AC = \sqrt{(8\sqrt{3})^2 + 16^2} = \sqrt{192 + 256} = \sqrt{448} = 8\sqrt{7}$ m.
+S: **Answer: distance $8\sqrt{3}$ m; second tower 8 m; wire $8\sqrt{7}$ m $\approx 21.17$ m**
+Q: [CBSE 2023, 5 marks] A spherical balloon of radius $r$ subtends an angle of $60°$ at the eye of an observer, and the angle of elevation of its centre from the eye is $45°$. Prove that the centre of the balloon is at a height of $\sqrt{2}\,r$.
+!fig w=230 h=230; P E 40 210 bl; P C 103.6 146.4 tr; P T 60.2 134.7 tl; P G 103.6 210 b; Q U 115.3 189.8; Q X 200 210; C C 45; L E X; L E T; L E U; D E C; D C G; D C T; R C T E; R C G E; A G E C 45°
+S: Let $E$ be the eye, $C$ the centre of the balloon, $ET$ a tangent to the balloon and $CG$ the height of the centre above the level of the eye.
+S: The two tangents from $E$ make an angle of $60°$, and $EC$ bisects it, so $\angle CET = 30°$.
+S: $CT \perp ET$ (radius and tangent). In $\triangle CTE$: $\sin 30° = \dfrac{r}{EC}$, so $EC = 2r$.
+S: In $\triangle CGE$: $\sin 45° = \dfrac{CG}{EC}$, so $CG = 2r \times \dfrac{1}{\sqrt{2}} = \sqrt{2}\,r$.
+S: **So the height of the centre is $\sqrt{2}$ times the radius. Proved.**

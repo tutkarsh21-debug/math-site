@@ -1,0 +1,19 @@
+T: The distance formula
+Q: [CBSE 2023, 1 mark] Find the distance between $(0, 2\sqrt{5})$ and $(-2\sqrt{5}, 0)$. (a) $2\sqrt{10}$ units  (b) $4\sqrt{10}$ units  (c) $2\sqrt{20}$ units  (d) 0
+S: Distance $= \sqrt{(-2\sqrt{5} - 0)^2 + (0 - 2\sqrt{5})^2} = \sqrt{20 + 20} = \sqrt{40} = 2\sqrt{10}$ units
+S: **Answer: (a)**
+Q: [CBSE 2023, 3 marks] Two vertices of an equilateral triangle are $(-5, 3)$ and $(5, 3)$, and the origin lies inside the triangle. Find the third vertex. Take $\sqrt{3} = 1.7$.
+S: The side joining the two given vertices has length 10, and its mid-point is $(0, 3)$.
+S: The third vertex is equidistant from the two given points, so it lies on the $y$-axis. Let it be $(0, y)$.
+S: $(0 - 5)^2 + (y - 3)^2 = 10^2$, so $(y - 3)^2 = 75$ and $y = 3 \pm 5\sqrt{3} = 3 \pm 8.5$
+S: $y = 11.5$ puts the whole triangle above the line $y = 3$, so the origin would be outside it. Hence $y = -5.5$.
+S: **Answer: $(0, -5.5)$**
+Q: [CBSE 2023, 1 mark] Assertion (A): $P(0, 2)$ is the point where the line $3x + 2y = 4$ meets the $y$-axis. Reason (R): The distance of $P(0, 2)$ from the $x$-axis is 2 units. Choose: (a) both true and R explains A  (b) both true but R does not explain A  (c) A true, R false  (d) A false, R true
+S: On the $y$-axis $x = 0$: $2y = 4$, so $y = 2$. The line meets the $y$-axis at $(0, 2)$, so A is true.
+S: The distance of a point from the $x$-axis is its $y$-coordinate, here 2 units, so R is true. But R does not tell us why $P$ lies on the line.
+S: **Answer: (b)**
+
+T: The section formula
+Q: [CBSE 2023, 1 mark] In what ratio does the $x$-axis divide the segment joining $A(3, 6)$ and $B(-12, -3)$? (a) $1 : 2$  (b) $1 : 4$  (c) $4 : 1$  (d) $2 : 1$
+S: Let the ratio be $k : 1$. On the $x$-axis the $y$-coordinate is 0: $\dfrac{-3k + 6}{k + 1} = 0$, so $k = 2$.
+S: **Answer: (d)**

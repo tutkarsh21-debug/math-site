@@ -1,0 +1,14 @@
+T: Zeroes and coefficients of a quadratic polynomial
+Q: [CBSE 2023, 1 mark] $\alpha$ and $\beta$ are the zeroes of $p(x) = x^2 + x - 1$. Find $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$. (a) 1  (b) 2  (c) $-1$  (d) $-\dfrac{1}{2}$
+S: $\alpha + \beta = -1$ and $\alpha\beta = -1$
+S: $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta} = \dfrac{-1}{-1} = 1$
+S: **Answer: (a)**
+Q: [CBSE 2023, 1 mark] Which of these is a quadratic polynomial with zeroes $-\dfrac{2}{3}$ and $\dfrac{2}{3}$? (a) $4x^2 - 9$  (b) $\dfrac{4}{9}(9x^2 + 4)$  (c) $x^2 + \dfrac{9}{4}$  (d) $5(9x^2 - 4)$
+S: Sum of zeroes $= 0$ and product $= -\dfrac{4}{9}$, so the polynomial is $k\left(x^2 - \dfrac{4}{9}\right) = \dfrac{k}{9}(9x^2 - 4)$.
+S: Taking $k = 45$ gives $5(9x^2 - 4)$.
+S: **Answer: (d)**
+
+T: Zeroes from the graph
+Q: [CBSE 2023, 1 mark] The graph of $y = p(x)$ is a parabola that opens downwards and touches the $x$-axis at exactly one point, without crossing it. How many zeroes does $p(x)$ have? (a) 3  (b) 1  (c) 2  (d) 0
+S: The graph meets the $x$-axis at only one point, so there is only one value of $x$ for which $p(x) = 0$.
+S: **Answer: (b)**

@@ -1,0 +1,22 @@
+T: Surface area
+Q: [CBSE 2023, 1 mark] A cylinder 5 cm high has a curved surface area of 94.2 cm². Find its radius, taking $\pi = 3.14$. (a) 2 cm  (b) 3 cm  (c) 2.9 cm  (d) 6 cm
+S: $2\pi rh = 94.2$: $2 \times 3.14 \times r \times 5 = 94.2$, so $31.4r = 94.2$ and $r = 3$ cm.
+S: **Answer: (b)**
+Q: [CBSE 2023, 1 mark] Find the curved surface area of a cone of height 24 cm and radius 7 cm. (a) 528 cm²  (b) 1056 cm²  (c) 550 cm²  (d) 500 cm²
+S: Slant height $l = \sqrt{24^2 + 7^2} = \sqrt{625} = 25$ cm
+S: Curved surface area $= \pi rl = \dfrac{22}{7} \times 7 \times 25 = 550$ cm²
+S: **Answer: (c)**
+
+T: Volume
+Q: [CBSE 2023, 3 marks] A room is a cylinder with a hemispherical dome on top. The radius of the dome is half the height of the cylindrical part, and the room holds $\dfrac{1408}{21}$ m³ of air. Find the total height of the room. Take $\pi = \dfrac{22}{7}$.
+S: Let the radius be $r$ m. Then the cylinder is $2r$ m high.
+S: Volume $= \pi r^2(2r) + \dfrac{2}{3}\pi r^3 = \dfrac{8}{3}\pi r^3 = \dfrac{8}{3} \times \dfrac{22}{7} \times r^3 = \dfrac{176}{21}r^3$
+S: $\dfrac{176}{21}r^3 = \dfrac{1408}{21}$, so $r^3 = 8$ and $r = 2$.
+S: Total height $=$ cylinder $+$ dome $= 2r + r = 3r$
+S: **Answer: 6 m**
+Q: [CBSE 2023, 3 marks] An ice-cream cone has radius 3 cm and height 12 cm. The lowest part of the cone, one-sixth of its volume, is left empty. The rest is filled with ice-cream, with a hemisphere of ice-cream on top. Find the volume of the ice-cream. Take $\pi = 3.14$.
+S: Volume of the cone $= \dfrac{1}{3}\pi r^2h = \dfrac{1}{3} \times \pi \times 9 \times 12 = 36\pi$ cm³
+S: Ice-cream inside the cone $= \dfrac{5}{6} \times 36\pi = 30\pi$ cm³
+S: Hemisphere on top $= \dfrac{2}{3}\pi r^3 = \dfrac{2}{3} \times \pi \times 27 = 18\pi$ cm³
+S: Total $= 48\pi = 48 \times 3.14$
+S: **Answer: 150.72 cm³**

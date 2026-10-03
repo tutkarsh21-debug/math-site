@@ -1,0 +1,20 @@
+T: Common difference and the nth term
+Q: [CBSE 2023, 1 mark] The numbers $p - 1$, $p + 1$ and $2p + 3$ are in AP. Find $p$. (a) $-2$  (b) 4  (c) 0  (d) 2
+S: In an AP the middle term is the average of its neighbours: $2(p + 1) = (p - 1) + (2p + 3)$.
+S: $2p + 2 = 3p + 2$, so $p = 0$.
+S: **Answer: (c)**
+
+T: Sum of the first n terms
+Q: [CBSE 2023, 5 marks] In an AP, the 11th term and the 17th term are in the ratio $3 : 4$. Find the ratio of the 5th term to the 21st term, and the ratio of the sum of the first 5 terms to the sum of the first 21 terms.
+S: $\dfrac{a + 10d}{a + 16d} = \dfrac{3}{4}$, so $4a + 40d = 3a + 48d$ and $a = 8d$.
+S: $\dfrac{a_5}{a_{21}} = \dfrac{a + 4d}{a + 20d} = \dfrac{12d}{28d} = \dfrac{3}{7}$
+S: $S_5 = \dfrac{5}{2}(2a + 4d) = \dfrac{5}{2}(20d) = 50d$ and $S_{21} = \dfrac{21}{2}(2a + 20d) = \dfrac{21}{2}(36d) = 378d$
+S: $\dfrac{S_5}{S_{21}} = \dfrac{50}{378} = \dfrac{25}{189}$
+S: **Answer: $a_5 : a_{21} = 3 : 7$ and $S_5 : S_{21} = 25 : 189$**
+Q: [CBSE 2023, 5 marks] 250 logs are stacked in rows: 22 in the bottom row, 21 in the next, 20 in the one above, and so on. How many rows are there, and how many logs are in the top row?
+S: The rows form an AP with $a = 22$ and $d = -1$, and $S_n = 250$.
+S: $\dfrac{n}{2}\left[44 - (n - 1)\right] = 250$, so $n(45 - n) = 500$
+S: $n^2 - 45n + 500 = 0$, so $(n - 20)(n - 25) = 0$ and $n = 20$ or $25$.
+S: If $n = 25$, the top row would have $22 - 24 = -2$ logs, which is impossible. So $n = 20$.
+S: Top row $= a_{20} = 22 - 19 = 3$
+S: **Answer: 20 rows, with 3 logs in the top row**

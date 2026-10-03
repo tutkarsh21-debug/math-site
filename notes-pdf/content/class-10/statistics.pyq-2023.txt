@@ -1,0 +1,24 @@
+T: Mean of grouped data
+Q: [CBSE 2023, 1 mark] Every observation in a set of data is increased by 3. What happens to the mean? (a) it does not change  (b) it increases by 3  (c) it increases by 6  (d) it increases by $3n$
+S: The total increases by $3n$, so the mean increases by $\dfrac{3n}{n} = 3$.
+S: **Answer: (b)**
+
+T: Mode of grouped data
+Q: [CBSE 2023, 1 mark] The table gives the marks of 80 students in a test. Find the modal class. (a) 10–20  (b) 20–30  (c) 30–40  (d) 50–60
+| Marks | Less than 10 | Less than 20 | Less than 30 | Less than 40 | Less than 50 | Less than 60 |
+| Number of students | 3 | 12 | 27 | 57 | 75 | 80 |
+S: The table is cumulative. Subtract to get the frequency of each class:
+| Class | 0–10 | 10–20 | 20–30 | 30–40 | 40–50 | 50–60 |
+| Frequency | 3 | 9 | 15 | 30 | 18 | 5 |
+S: The highest frequency is 30, in the class 30–40.
+S: **Answer: (c)**
+
+T: Median of grouped data
+Q: [CBSE 2023, 4 marks] The table shows the monsoon rainfall recorded in 24 sub-divisions of the country. (i) Write the modal class. (ii) Find the median, OR find the mean rainfall. (iii) A sub-division with at least 1000 mm of rain is said to have good rainfall. How many had good rainfall?
+| Rainfall (mm) | 200–400 | 400–600 | 600–800 | 800–1000 | 1000–1200 | 1200–1400 | 1400–1600 | 1600–1800 |
+| Sub-divisions | 2 | 4 | 7 | 4 | 2 | 3 | 1 | 1 |
+S: (i) The highest frequency is 7. **Modal class: 600–800.**
+S: (ii) Cumulative frequencies: 2, 6, 13, 17, 19, 22, 23, 24. $n = 24$, so $\dfrac{n}{2} = 12$ and the median class is 600–800, with $l = 600$, $cf = 6$, $f = 7$, $h = 200$.
+S: Median $= 600 + \dfrac{12 - 6}{7} \times 200 = 600 + 171.43$. **Median $\approx 771.43$ mm.**
+S: OR: with class marks 300, 500, ..., 1700, $\sum f_ix_i = 600 + 2000 + 4900 + 3600 + 2200 + 3900 + 1500 + 1700 = 20400$. Mean $= \dfrac{20400}{24}$. **Mean $= 850$ mm.**
+S: (iii) Classes from 1000 mm upwards: $2 + 3 + 1 + 1$. **7 sub-divisions had good rainfall.**

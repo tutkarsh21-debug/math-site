@@ -1,0 +1,8 @@
+T: Sector and segment of a circle
+Q: [CBSE 2023, 5 marks] A chord of a circle of radius 14 cm subtends an angle of $60°$ at the centre. Find the area of the minor segment and the area of the major segment. Take $\pi = \dfrac{22}{7}$ and $\sqrt{3} = 1.732$.
+!fig w=240 h=215; P O 120 105 t; P A 72.5 187.3 bl; P B 167.5 187.3 br; C O 95; SEG O 95 240 300; L O A; L O B; L A B; A A O B 60°
+S: Area of the sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 14 \times 14 = \dfrac{616}{6} \approx 102.67$ cm²
+S: The triangle formed by the two radii and the chord has a $60°$ angle between equal sides, so it is equilateral with side 14 cm. Its area is $\dfrac{\sqrt{3}}{4} \times 14^2 = 49\sqrt{3} \approx 84.87$ cm².
+S: Minor segment $= 102.67 - 84.87 = 17.80$ cm²
+S: Area of the circle $= \dfrac{22}{7} \times 14 \times 14 = 616$ cm², so the major segment $= 616 - 17.80 = 598.20$ cm².
+S: **Answer: minor segment $\approx 17.80$ cm²; major segment $\approx 598.20$ cm²**

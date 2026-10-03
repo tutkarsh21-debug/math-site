@@ -1,0 +1,12 @@
+T: Nature of roots
+Q: [CBSE 2023, 1 mark] What is the least positive value of $k$ for which $2x^2 + kx - 4 = 0$ has rational roots? (a) $\pm 2\sqrt{2}$  (b) 2  (c) $\pm 2$  (d) $\sqrt{2}$
+S: The roots are rational when the discriminant is a perfect square. $D = k^2 - 4(2)(-4) = k^2 + 32$.
+S: Among the options, $k = \sqrt{2}$ gives $D = 34$, which is not a perfect square. $k = 2$ gives $D = 36 = 6^2$.
+S: **Answer: (b)**
+
+T: Word problems
+Q: [CBSE 2023, 4 marks] A school photo is 18 cm long and 12 cm wide. Its length and width are each to be increased by $x$ cm so that the area doubles. (i) Write an equation for this. (ii) Write it as a quadratic equation in standard form. (iii) Find the new length and width, OR decide whether any rational value of $x$ gives a new area of 220 cm².
+S: (i) Original area $= 18 \times 12 = 216$ cm², so the new area is 432 cm². **$(18 + x)(12 + x) = 432$**
+S: (ii) $216 + 30x + x^2 = 432$. **$x^2 + 30x - 216 = 0$**
+S: (iii) $(x + 36)(x - 6) = 0$, so $x = 6$ (a length cannot be negative). **New size: 24 cm by 18 cm.**
+S: OR: $(18 + x)(12 + x) = 220$ gives $x^2 + 30x - 4 = 0$, with $D = 900 + 16 = 916$. This is not a perfect square, so the roots are irrational. **No rational value of $x$ works.**

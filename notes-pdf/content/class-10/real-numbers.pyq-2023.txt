@@ -1,0 +1,18 @@
+T: HCF and LCM by prime factorisation
+Q: [CBSE 2023, 2 marks] What is the largest number that leaves remainder 1 when it divides 85 and remainder 2 when it divides 72?
+S: The number divides $85 - 1 = 84$ and $72 - 2 = 70$ exactly, so it is the HCF of 84 and 70.
+S: $84 = 2^2 \times 3 \times 7$ and $70 = 2 \times 5 \times 7$
+S: HCF $= 2 \times 7$
+S: **Answer: 14**
+
+T: Irrational numbers and their proofs
+Q: [CBSE 2023, 3 marks] Show that $\sqrt{5}$ is irrational.
+S: Suppose $\sqrt{5}$ is rational. Then $\sqrt{5} = \dfrac{a}{b}$, where $a$ and $b$ are positive integers with no common factor other than 1.
+S: Squaring, $5b^2 = a^2$. So 5 divides $a^2$, and therefore 5 divides $a$. Write $a = 5c$.
+S: Then $5b^2 = 25c^2$, so $b^2 = 5c^2$. So 5 divides $b^2$, and therefore 5 divides $b$.
+S: Now 5 is a common factor of $a$ and $b$, which contradicts the fact that they have no common factor other than 1.
+S: **So our assumption is wrong, and $\sqrt{5}$ is irrational.**
+Q: [CBSE 2023, 1 mark] $\triangle ABC$ is right-angled at $B$ with $AB = 2$ cm and $BC = 3$ cm. Assertion (A): The perimeter of $\triangle ABC$ is a rational number. Reason (R): The sum of the squares of two rational numbers is always rational. Choose: (a) both true and R explains A  (b) both true but R does not explain A  (c) A true, R false  (d) A false, R true
+S: $AC = \sqrt{2^2 + 3^2} = \sqrt{13}$, which is irrational. Perimeter $= 5 + \sqrt{13}$ is irrational, so A is false.
+S: R is true: squares of rational numbers are rational, and so is their sum.
+S: **Answer: (d)**

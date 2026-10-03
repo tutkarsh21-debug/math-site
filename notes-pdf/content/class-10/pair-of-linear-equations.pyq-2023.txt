@@ -1,0 +1,24 @@
+T: Graphical method and consistency
+Q: [CBSE 2023, 1 mark] For what value of $k$ does the pair $kx = y + 2$ and $6x = 2y + 3$ have infinitely many solutions? (a) $k = 3$  (b) no such value exists  (c) $k = -3$  (d) $k = 4$
+S: Write the pair as $kx - y - 2 = 0$ and $6x - 2y - 3 = 0$.
+S: For infinitely many solutions we need $\dfrac{k}{6} = \dfrac{-1}{-2} = \dfrac{-2}{-3}$.
+S: But $\dfrac{1}{2} \neq \dfrac{2}{3}$, so the condition can never be met.
+S: **Answer: (b)**
+Q: [CBSE 2023, 2 marks] Solve the pair of equations $x = 3$ and $y = -4$ graphically.
+S: The graph of $x = 3$ is a line parallel to the $y$-axis, 3 units to its right.
+S: The graph of $y = -4$ is a line parallel to the $x$-axis, 4 units below it.
+!fig w=300 h=230; Q x1 20 70; Q x2 285 70; Q y1 110 15; Q y2 110 220; L x1 x2; L y1 y2; Q a 200 15; Q b 200 220; Q c 20 190; Q d 285 190; H a b; H c d; P S 200 190 -; T 102 86 O; T 280 62 x; T 98 22 y; T 222 40 x = 3; T 55 182 y = −4; T 232 208 (3, −4)
+S: The two lines cross at one point.
+S: **Answer: $x = 3$, $y = -4$**
+Q: [CBSE 2023, 2 marks] Use the graphical method to decide whether the pair $x = 0$ and $y = -7$ is consistent.
+S: The graph of $x = 0$ is the $y$-axis. The graph of $y = -7$ is a line parallel to the $x$-axis, 7 units below it.
+S: These two lines are perpendicular, so they meet at exactly one point, $(0, -7)$.
+S: **Answer: the pair is consistent, with the unique solution $x = 0$, $y = -7$**
+
+T: Word problems
+Q: [CBSE 2023, 3 marks] Half the difference of two numbers is 2. The larger number added to twice the smaller number gives 13. Find the two numbers.
+S: Let the larger number be $x$ and the smaller be $y$.
+S: $\dfrac{x - y}{2} = 2$, so $x - y = 4$ ... (1)
+S: $x + 2y = 13$ ... (2)
+S: Subtracting (1) from (2): $3y = 9$, so $y = 3$ and $x = 7$.
+S: **Answer: 7 and 3**

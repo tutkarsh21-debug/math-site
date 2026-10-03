@@ -1,0 +1,15 @@
+T: Complementary events
+Q: [CBSE 2023, 1 mark] An event happens with probability $p$ and does not happen with probability $q$. How are $p$ and $q$ related? (a) $p + q = 1$  (b) $p = 1$, $q = 1$  (c) $p = q - 1$  (d) $p + q + 1 = 0$
+S: An event and its complement cover all the outcomes, so their probabilities add up to 1.
+S: **Answer: (a)**
+Q: [CBSE 2023, 1 mark] In a group of 20 people, 5 cannot swim. One person is chosen at random. Find the probability that the person can swim. (a) $\dfrac{3}{4}$  (b) $\dfrac{1}{3}$  (c) 1  (d) $\dfrac{1}{4}$
+S: $20 - 5 = 15$ people can swim. Probability $= \dfrac{15}{20} = \dfrac{3}{4}$
+S: **Answer: (a)**
+
+T: Theoretical probability
+Q: [CBSE 2023, 1 mark] 6000 lottery tickets are sold. A girl works out that her probability of winning the first prize is 0.08. How many tickets did she buy? (a) 40  (b) 240  (c) 480  (d) 750
+S: $\dfrac{\text{her tickets}}{6000} = 0.08$, so her tickets $= 0.08 \times 6000 = 480$.
+S: **Answer: (c)**
+Q: [CBSE 2023, 2 marks] A bag holds 4 red, 3 blue and 2 yellow balls. One ball is drawn at random. Find the probability that it is (i) red (ii) yellow.
+S: Total balls $= 4 + 3 + 2 = 9$
+S: **Answer: (i) $\dfrac{4}{9}$ (ii) $\dfrac{2}{9}$**

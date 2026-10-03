@@ -1,0 +1,30 @@
+T: Theorem 1: tangent and radius
+Q: [CBSE 2023, 1 mark] $PQ$ is the tangent at $B$ to a circle with centre $O$, and $AB$ is a chord with $\angle AOB = 95°$. $Q$ lies on the same side of $OB$ as $A$. Find $\angle ABQ$. (a) $47.5°$  (b) $42.5°$  (c) $85°$  (d) $95°$
+!fig w=250 h=195; P O 120 90 t; P A 75.8 130.5 l; P B 164.2 130.5 r; P P 201.3 90 r; P Q 127.1 171 b; C O 60; L O A; L O B; L A B; L P Q; A A O B 95°
+S: $OA = OB$ (radii), so $\angle OBA = \angle OAB = \dfrac{180° - 95°}{2} = 42.5°$.
+S: $\angle OBQ = 90°$ (radius is perpendicular to tangent).
+S: $\angle ABQ = 90° - 42.5° = 47.5°$
+S: **Answer: (a)**
+Q: [CBSE 2023, 4 marks] A discus leaves the thrower's circular path along a tangent. $AB$ is such a tangent, touching a circle of radius 75 cm and centre $O$ at $A$, with $\angle ABO = 30°$. $OB$ cuts the circle at $Q$, and $P$ is the point on $AB$ with $PQ \parallel OA$. (i) Find $AB$. (ii) Find $OB$. (iii) Find $AP$, OR find $PQ$.
+!fig w=270 h=190; P O 95 90 l; P A 95 165 bl; P B 224.9 165 br; P Q 160 127.5 tr; P P 160 165 b; C O 75; L O A; L A B; L O B; H P Q; R O A B; A A B O 30°; T 68 132 75 cm
+S: $OA \perp AB$, because the radius is perpendicular to the tangent at the point of contact.
+S: (i) $\tan 30° = \dfrac{OA}{AB}$, so $AB = 75\sqrt{3}$ cm. **$AB = 75\sqrt{3}$ cm.**
+S: (ii) $\sin 30° = \dfrac{OA}{OB}$, so $OB = 150$ cm. **$OB = 150$ cm.**
+S: (iii) $OQ = 75$ cm (radius), so $QB = 150 - 75 = 75$ cm and $Q$ is the mid-point of $OB$.
+S: $PQ \parallel OA$, so $\triangle BPQ \sim \triangle BAO$ with $\dfrac{BP}{BA} = \dfrac{PQ}{AO} = \dfrac{BQ}{BO} = \dfrac{1}{2}$.
+S: $AP = \dfrac{1}{2}AB$. **$AP = \dfrac{75\sqrt{3}}{2}$ cm.** OR: $PQ = \dfrac{1}{2}OA$. **$PQ = 37.5$ cm.**
+
+T: Theorem 2: tangents from an external point
+Q: [CBSE 2023, 3 marks] $TP$ and $TQ$ are tangents from an external point $T$ to a circle with centre $O$. Prove that $\angle PTQ = 2\angle OPQ$.
+!fig w=270 h=200; P O 90 100 l; P T 230 100 r; P P 107.9 53.3 t; P Q 107.9 146.7 b; C O 50; L T P; L T Q; L O P; L O Q; H P Q
+S: Let $\angle PTQ = \theta$. $TP = TQ$ (tangents from an external point), so $\triangle TPQ$ is isosceles.
+S: $\angle TPQ = \angle TQP = \dfrac{180° - \theta}{2} = 90° - \dfrac{\theta}{2}$
+S: $\angle OPT = 90°$ (radius is perpendicular to tangent), so $\angle OPQ = 90° - \left(90° - \dfrac{\theta}{2}\right) = \dfrac{\theta}{2}$.
+S: **So $\angle PTQ = 2\angle OPQ$. Proved.**
+Q: [CBSE 2023, 3 marks] A circle with centre $O$ is inscribed in a quadrilateral $ABCD$, touching $AB$, $BC$, $CD$ and $DA$ at $Q$, $P$, $S$ and $R$. $\angle B = 90°$, $AD = 17$ cm, $AB = 20$ cm and $DS = 3$ cm. Find the radius of the circle.
+!fig w=290 h=255; P A 40 230 bl; P B 240 230 br; P C 240 116.8 tr; P D 157.3 106.9 tl; P O 180 170 l; P Q 180 230 b; P P 240 170 r; P R 136.6 128.6 l; P S 187.1 110.5 t; C O 60; L A B; L B C; L C D; L D A; D O Q; D O P; R A B C
+S: Tangents from a point are equal: $DR = DS = 3$ cm, so $AR = AD - DR = 17 - 3 = 14$ cm.
+S: $AQ = AR = 14$ cm, so $QB = AB - AQ = 20 - 14 = 6$ cm.
+S: In $OQBP$: $\angle B = 90°$ and $\angle OQB = \angle OPB = 90°$ (radius is perpendicular to tangent), and $OQ = OP$. So $OQBP$ is a square.
+S: $r = OQ = QB$
+S: **Answer: radius $= 6$ cm**

@@ -1,0 +1,12 @@
+T: Basic Proportionality Theorem
+Q: [CBSE 2023, 2 marks] In $\triangle ABC$, $X$ lies on $AB$ and $Z$ on $AC$ with $XZ \parallel BC$. $M$ is a point on $BC$, and $AM$ meets $XZ$ at $Y$. If $AZ = 3$ cm, $ZC = 2$ cm, $BM = 3$ cm and $MC = 5$ cm, find $XY$.
+!fig w=320 h=210; P A 160 20 t; P B 60 180 bl; P C 260 180 br; P X 100 116 l; P Z 220 116 r; P M 135 180 b; P Y 145 116 tr; L A B; L A C; L B C; H X Z; L A M
+S: $XZ \parallel BC$, so $\dfrac{AX}{AB} = \dfrac{AZ}{AC} = \dfrac{3}{3 + 2} = \dfrac{3}{5}$.
+S: In $\triangle ABM$, $XY \parallel BM$, so $\triangle AXY \sim \triangle ABM$ (AA).
+S: $\dfrac{XY}{BM} = \dfrac{AX}{AB} = \dfrac{3}{5}$, so $XY = \dfrac{3}{5} \times 3$
+S: **Answer: $XY = 1.8$ cm**
+Q: [CBSE 2023, 5 marks] A line parallel to one side of a triangle meets the other two sides at distinct points. Prove that it divides those two sides in the same ratio.
+S: This is the Basic Proportionality Theorem. In $\triangle ABC$, let $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. Join $BE$ and $CD$, and draw $EN \perp AB$ and $DM \perp AC$.
+S: $\dfrac{\text{ar}(ADE)}{\text{ar}(BDE)} = \dfrac{\frac{1}{2} \times AD \times EN}{\frac{1}{2} \times DB \times EN} = \dfrac{AD}{DB}$ and $\dfrac{\text{ar}(ADE)}{\text{ar}(CED)} = \dfrac{\frac{1}{2} \times AE \times DM}{\frac{1}{2} \times EC \times DM} = \dfrac{AE}{EC}$
+S: $\triangle BDE$ and $\triangle CED$ are on the same base $DE$ and between the same parallels, so their areas are equal.
+S: **Hence $\dfrac{AD}{DB} = \dfrac{AE}{EC}$. Proved.** (The figure is with the 2026 question above.)
