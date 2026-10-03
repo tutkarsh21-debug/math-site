@@ -16,11 +16,14 @@ const find = ({ cls, slug }) => {
   return { c, ch, board, list, i: list.indexOf(ch) };
 };
 
-// The three tabs of a chapter. Each shows one PDF from public/pdf/<class>/<slug>/, built by notes-pdf/build.mjs.
+// The tabs of a chapter. Each shows PDFs from public/pdf/<class>/<slug>/, built by notes-pdf/build.mjs.
+// files: [file name, button label]. only: the classes that have this tab (all classes if left out).
 const TABS = [
-  { kind: 'notes', label: 'Short Notes', about: 'Topic-wise short notes with solved examples.' },
-  { kind: 'formulas', label: 'Formula Bank', about: 'Every formula and result of the chapter on one sheet.' },
-  { kind: 'dpp', label: 'DPP Sheet', about: 'Daily practice problems with an answer key.' },
+  { kind: 'notes', label: 'Short Notes', about: 'Topic-wise short notes with solved examples.', files: [['notes', 'Short Notes']] },
+  { kind: 'formulas', label: 'Formula Bank', about: 'Every formula and result of the chapter on one sheet.', files: [['formulas', 'Formula Bank']] },
+  { kind: 'dpp', label: 'DPP Sheet', about: 'Daily practice problems with an answer key.', files: [['dpp', 'DPP Sheet']] },
+  { kind: 'pyq', label: 'PYQ', about: 'Previous year board questions, topic-wise, with solutions in a separate PDF.', only: ['class-10'],
+    files: [['pyq', 'Questions'], ['pyq-solutions', 'Solutions']] },
 ];
 
 export async function generateMetadata({ params }) {
@@ -36,6 +39,7 @@ export default async function Chapter({ params }) {
   const { c, i, ch, board, list } = find(p); if (!ch) notFound();
   const prev = list[i - 1], next = list[i + 1];
   const ready = PDFS[`${p.cls}/${p.slug}`] || [];
+  const tabs = TABS.filter(t => !t.only || t.only.includes(p.cls));
   return (<>
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
@@ -49,23 +53,27 @@ export default async function Chapter({ params }) {
           ? <iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" />
           : <div className="video ph">Video coming soon</div>}</div>
         <div className="tabs" id="material">
-          {TABS.map((t, n) => (<Fragment key={t.kind}>
+          {tabs.map((t, n) => (<Fragment key={t.kind}>
             <input type="radio" name="material" id={`tab-${t.kind}`} defaultChecked={n === 0} />
             <label htmlFor={`tab-${t.kind}`}>{t.label}</label>
           </Fragment>))}
-          {TABS.map(t => {
-            const pdf = `/pdf/${p.cls}/${p.slug}/${t.kind}.pdf`;
+          {tabs.map(t => {
+            const files = t.files.filter(([file]) => ready.includes(file));
             return (<div key={t.kind} className="tab-panel">
-              {ready.includes(t.kind) ? (<>
-                <div className="pdf-bar">
-                  <span>{t.about}</span>
-                  <span className="cta-row">
-                    <a className="btn btn-sm" href={pdf} target="_blank" rel="noopener">Open PDF</a>
-                    <a className="btn btn-sm btn-outline" href={pdf} download={`MathSetu-${p.cls}-${p.slug}-${t.kind}.pdf`}>Download</a>
-                  </span>
-                </div>
-                <iframe className="pdf" src={`${pdf}#navpanes=0&view=FitH`} title={`${ch.title}: ${t.label}`} loading="lazy" />
-              </>) : <p className="muted">The {t.label} PDF for this chapter is being prepared.</p>}
+              {files.length === 0 && <p className="muted">The {t.label} PDF for this chapter is being prepared.</p>}
+              {files.map(([file, name]) => {
+                const pdf = `/pdf/${p.cls}/${p.slug}/${file}.pdf`;
+                return (<div key={file} className="pdf-block">
+                  <div className="pdf-bar">
+                    <span>{t.files.length > 1 ? <strong>{name}</strong> : t.about}</span>
+                    <span className="cta-row">
+                      <a className="btn btn-sm" href={pdf} target="_blank" rel="noopener">Open PDF</a>
+                      <a className="btn btn-sm btn-outline" href={pdf} download={`MathSetu-${p.cls}-${p.slug}-${file}.pdf`}>Download</a>
+                    </span>
+                  </div>
+                  <iframe className="pdf" src={`${pdf}#navpanes=0&view=FitH`} title={`${ch.title}: ${name}`} loading="lazy" />
+                </div>);
+              })}
             </div>);
           })}
         </div>

@@ -92,7 +92,7 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 .tag.ready{background:var(--t3);border-color:transparent;color:var(--fg)}
 .chapter-card{display:flex;gap:.9rem;align-items:flex-start}
 .num{flex:none;display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:10px;background:var(--t1);color:var(--brand);font-weight:700}
-/* tabs: the Nth radio input shows the Nth panel, without JavaScript (up to 3 tabs) */
+/* tabs: the Nth radio input shows the Nth panel, without JavaScript (up to 4 tabs) */
 .tabs>input{position:absolute;opacity:0;pointer-events:none}
 .tabs>label{display:inline-flex;align-items:center;gap:.5rem;padding:.55rem 1.4rem;margin:0 .5rem .6rem 0;border:1px solid var(--line);border-radius:999px;font-weight:600;cursor:pointer;background:var(--card)}
 .tabs>label small{font-weight:500;color:var(--muted)}
@@ -100,7 +100,7 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 .tabs>input:checked+label small{color:#fff;opacity:.85}
 .tabs>input:focus-visible+label{outline:2px solid var(--brand);outline-offset:2px}
 .tab-panel{display:none;margin-top:1.2rem}
-.tabs>input:nth-of-type(1):checked~.tab-panel:nth-of-type(1),.tabs>input:nth-of-type(2):checked~.tab-panel:nth-of-type(2),.tabs>input:nth-of-type(3):checked~.tab-panel:nth-of-type(3){display:block}
+.tabs>input:nth-of-type(1):checked~.tab-panel:nth-of-type(1),.tabs>input:nth-of-type(2):checked~.tab-panel:nth-of-type(2),.tabs>input:nth-of-type(3):checked~.tab-panel:nth-of-type(3),.tabs>input:nth-of-type(4):checked~.tab-panel:nth-of-type(4){display:block}
 .part+.part{margin-top:2.5rem}
 .part h2{margin-bottom:1rem}
 .chapter-card strong{display:block;margin-bottom:.35rem}
@@ -129,6 +129,7 @@ a.card:hover{text-decoration:none;transform:translateY(-3px);box-shadow:var(--sh
 /* chapter material: one PDF per tab */
 .chapter .tabs{margin-top:1.5rem}
 .pdf-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem 1rem;margin-bottom:.8rem;color:var(--muted)}
+.pdf-block+.pdf-block{margin-top:1.5rem}
 .pdf{display:block;width:100%;height:85vh;min-height:520px;border:1px solid var(--line);border-radius:var(--radius);background:var(--soft)}
 .formulas{list-style:none;padding:0;display:grid;gap:.5rem}
 .formulas li{background:var(--soft);border-left:4px solid var(--brand);border-radius:8px;padding:.6rem .9rem;font-weight:500}

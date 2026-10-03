@@ -1,0 +1,86 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 2
+@title Banking (Recurring Deposit Accounts)
+@summary In a recurring deposit account a fixed sum is deposited every month for a fixed period. This chapter is about finding the interest and the maturity value, and working backwards from them.
+
+# The recurring deposit account
+- In a **recurring deposit (R.D.) account**, the account holder deposits the same amount every month for a fixed number of months.
+- At the end of the period the bank pays back the total amount deposited together with the interest. This payment is the **maturity value (M.V.)**.
+- Symbols: $P$ = monthly deposit (instalment), $n$ = number of months, $r$ = rate of interest per cent per annum.
+- $n$ is always in **months**. Change years to months first: 2 years $= 24$ months, $1\tfrac{1}{2}$ years $= 18$ months.
+
+# Interest and maturity value
+- The interest on a recurring deposit is
+$$I = P \times \frac{n(n + 1)}{2 \times 12} \times \frac{r}{100}$$
+- Total amount deposited $= P \times n$.
+$$\text{M.V.} = P \times n + I$$
+- Where the formula comes from: the first deposit earns interest for $n$ months, the second for $n - 1$ months, and so on down to 1 month. The total is $1 + 2 + \dots + n = \dfrac{n(n + 1)}{2}$ months, which is $\dfrac{n(n + 1)}{2 \times 12}$ years of interest on a single deposit $P$.
+?eg Mohan deposits ₹600 per month in a recurring deposit account for 20 months at 10% per annum. Find the interest and the maturity value.
+= $P = 600$, $n = 20$, $r = 10$
+= $I = 600 \times \dfrac{20 \times 21}{2 \times 12} \times \dfrac{10}{100} = 600 \times 17.5 \times 0.1 =$ ₹1,050
+= Total deposited $= 600 \times 20 =$ ₹12,000
+=> Interest ₹1,050; maturity value ₹13,050
+
+# Finding the monthly deposit
+- Put the given maturity value in $\text{M.V.} = Pn + I$ with $P$ as the unknown.
+?eg Ritu has a recurring deposit account for 2 years at 8% per annum. If she receives ₹26,000 at maturity, find her monthly deposit.
+= $n = 24$, $r = 8$. $I = P \times \dfrac{24 \times 25}{2 \times 12} \times \dfrac{8}{100} = P \times 25 \times \dfrac{8}{100} = 2P$
+= M.V. $= 24P + 2P = 26P = 26000$
+=> Monthly deposit $=$ ₹1,000
+
+# Finding the rate of interest
+- Find the interest as M.V. $-$ total deposited, then use the interest formula with $r$ as the unknown.
+?eg Amit deposits ₹200 per month for 36 months in a recurring deposit account and receives ₹8,310 at maturity. Find the rate of interest.
+= Total deposited $= 200 \times 36 =$ ₹7,200, so $I = 8310 - 7200 =$ ₹1,110
+= $1110 = 200 \times \dfrac{36 \times 37}{2 \times 12} \times \dfrac{r}{100} = 200 \times 55.5 \times \dfrac{r}{100} = 111r$
+=> $r = 10\%$ per annum
+
+# Finding the time
+- With $n$ unknown, the interest formula gives a quadratic equation in $n$. Solve it and take the positive whole-number root.
+?eg Kiran deposits ₹300 per month in a recurring deposit account at 12% per annum and earns ₹900 as interest. Find the time for which the account was held.
+= $900 = 300 \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{12}{100} = 1.5\,n(n + 1)$
+= $n(n + 1) = 600$, so $n^2 + n - 600 = 0$ and $(n + 25)(n - 24) = 0$
+= $n = 24$ (the negative value is rejected)
+=> The account was held for 24 months, that is 2 years.
+!tip $n(n + 1)$ is a product of two consecutive numbers. Look for the two consecutive numbers that give the product: $24 \times 25 = 600$.
+
+# Common mistakes
+- Using $n$ in years. The formula needs months.
+- Forgetting the 12 in the denominator: the formula has $2 \times 12 = 24$.
+- Giving the interest when the maturity value is asked, or the other way round.
+- Adding $P$ instead of $P \times n$ to the interest.
+
+@@formulas
+Interest on a recurring deposit | $I = P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$
+Total amount deposited | $P \times n$
+Maturity value | $\text{M.V.} = P \times n + I$
+Maturity value in one step | $\text{M.V.} = P\left[n + \dfrac{n(n + 1)}{2400}\,r\right]$
+Interest from the maturity value | $I = \text{M.V.} - P \times n$
+Monthly deposit | $P$, in rupees per month
+Time | $n$, always in months
+Rate | $r\%$ per annum
+Equivalent principal for one month | $P \times \dfrac{n(n + 1)}{2}$
+
+@@dpp
+Q: Find the interest on a recurring deposit of ₹500 per month for 12 months at 8% per annum.
+A: $500 \times \dfrac{12 \times 13}{24} \times \dfrac{8}{100} =$ ₹260
+Q: Find the maturity value of the account in the previous question.
+A: $6000 + 260 =$ ₹6,260
+Q: Anil deposits ₹1,200 per month for 15 months at 6% per annum. Find the maturity value.
+A: $I = 1200 \times 10 \times 0.06 =$ ₹720; M.V. $=$ ₹18,720
+Q: Meena deposits ₹800 per month for $1\tfrac{1}{2}$ years at 10% per annum. Find the amount she gets at maturity.
+A: $I = 800 \times \dfrac{18 \times 19}{24} \times 0.1 =$ ₹1,140; M.V. $=$ ₹15,540
+Q: A recurring deposit account of ₹2,500 per month for 12 months earns ₹1,625 as interest. Find the rate of interest.
+A: $1625 = 2500 \times 6.5 \times \dfrac{r}{100}$, so $r = 10\%$
+Q: The maturity value of a recurring deposit account held for 3 years at 8% per annum is ₹12,132. Find the monthly deposit.
+A: $36P + 4.44P = 40.44P = 12132$, so $P =$ ₹300
+Q: Sonia deposits ₹400 per month at 9% per annum and receives ₹198 as interest. Find the time in months.
+A: $198 = 400 \times \dfrac{n(n+1)}{24} \times 0.09$ gives $n(n + 1) = 132$, so $n = 11$ months
+Q: A man deposits ₹1,000 per month in a recurring deposit account and gets ₹26,000 at the end of 2 years. Find the rate of interest.
+A: Deposited ₹24,000; $I =$ ₹2,000 $= 1000 \times 25 \times \dfrac{r}{100}$, so $r = 8\%$
+Q: Which gives more interest: ₹500 per month for 24 months at 6%, or ₹1,000 per month for 12 months at 6%?
+A: $500 \times 25 \times 0.06 =$ ₹750 and $1000 \times 6.5 \times 0.06 =$ ₹390; the first
+Q: Explain why the number of months in the interest formula appears as $\dfrac{n(n + 1)}{2}$.
+A: The deposits earn interest for $n, n - 1, \dots, 1$ months, and $1 + 2 + \dots + n = \dfrac{n(n + 1)}{2}$.

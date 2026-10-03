@@ -1,0 +1,110 @@
+@class Class 10
+@board ICSE
+@book Selina Concise Mathematics
+@chapter 1
+@title GST (Goods and Services Tax)
+@summary GST is a single tax charged on the supply of goods and services. This chapter covers how the tax is worked out on a bill and how a dealer sets off the tax already paid.
+
+# What GST is
+- **GST** is a tax charged on the value of goods and services each time they are supplied (sold).
+- The amount on which the tax is calculated is the **taxable value**. Normally it is the selling price after any discount.
+- The **rate of GST** depends on the goods or service and is always given in the question.
+$$\text{GST} = \frac{\text{rate} \times \text{taxable value}}{100} \qquad \text{Amount of the bill} = \text{taxable value} + \text{GST}$$
+- If a discount is given: taxable value $=$ list price $-$ discount. GST is charged on the discounted price.
+
+# Sales within a state: CGST and SGST
+- When the seller and the buyer are in the **same state** (intra-state supply), the GST is split into two equal parts.
+- **CGST** (Central GST) goes to the Central Government and **SGST** (State GST) goes to the State Government. In a Union Territory, UTGST takes the place of SGST.
+$$\text{CGST} = \text{SGST} = \frac{1}{2} \times \text{GST}$$
+- So at a GST rate of 18%, CGST is 9% and SGST is 9%.
+?eg An article with list price ₹8,000 is sold at a discount of 10% within the same state. If the rate of GST is 18%, find the CGST, the SGST and the amount of the bill.
+= Discount $= 10\%$ of ₹8,000 $=$ ₹800, so taxable value $=$ ₹7,200
+= CGST $= 9\%$ of ₹7,200 $=$ ₹648 and SGST $= 9\%$ of ₹7,200 $=$ ₹648
+= Amount of the bill $= 7200 + 648 + 648$
+=> CGST ₹648, SGST ₹648, bill amount ₹8,496
+
+# Sales between states: IGST
+- When the seller and the buyer are in **different states** (inter-state supply), a single tax called **IGST** (Integrated GST) is charged at the full rate. It goes to the Central Government.
+$$\text{IGST} = \text{GST at the full rate}$$
+?eg A dealer in Delhi sells goods worth ₹15,000 to a dealer in Jaipur. If the rate of GST is 12%, find the tax charged and the amount of the bill.
+= Delhi and Jaipur are in different states, so IGST is charged.
+= IGST $= 12\%$ of ₹15,000 $=$ ₹1,800
+=> IGST ₹1,800; bill amount ₹16,800
+
+# A bill with several items
+- Work out the taxable value and the GST for each item separately, because the rates can differ, and then add.
+?eg Find the amount of this bill for a sale within the same state.
+| Item | Price per unit (₹) | Quantity | Rate of GST |
+| A | 500 | 2 | 12% |
+| B | 1,200 | 1 | 18% |
+= Item A: taxable value $= 500 \times 2 =$ ₹1,000; GST $= 12\%$ of 1,000 $=$ ₹120 (CGST ₹60, SGST ₹60)
+= Item B: taxable value $=$ ₹1,200; GST $= 18\%$ of 1,200 $=$ ₹216 (CGST ₹108, SGST ₹108)
+= Total taxable value $=$ ₹2,200 and total GST $=$ ₹336
+=> Amount of the bill $=$ ₹2,536
+
+# Finding the price before tax
+- If the amount of the bill and the rate $r\%$ are known:
+$$\text{Taxable value} = \frac{\text{amount of the bill} \times 100}{100 + r}$$
+?eg The amount of a bill, including GST at 18%, is ₹5,310. Find the price of the article before tax.
+= Let the taxable value be ₹$x$. Then $x + \dfrac{18}{100}x = 5310$, so $\dfrac{118x}{100} = 5310$
+= $x = \dfrac{5310 \times 100}{118}$
+=> The price before tax is ₹4,500.
+
+# Input tax credit
+- A dealer pays GST when buying goods (**input GST**) and collects GST when selling them (**output GST**).
+- The dealer does not pay tax twice. The tax already paid on purchases is set off against the tax collected on sales. This set-off is the **input tax credit (ITC)**.
+$$\text{GST payable to the government} = \text{output GST} - \text{input GST}$$
+- So each dealer effectively pays tax only on the value that he or she adds.
+?eg A dealer buys an article for ₹20,000 and sells it to a consumer for ₹25,000, both within the same state. The rate of GST is 18%. Find (i) the input CGST and SGST (ii) the output CGST and SGST (iii) the net GST payable by the dealer (iv) the price paid by the consumer.
+= (i) Input CGST $= 9\%$ of 20,000 $=$ ₹1,800 and input SGST $=$ ₹1,800
+= (ii) Output CGST $= 9\%$ of 25,000 $=$ ₹2,250 and output SGST $=$ ₹2,250
+= (iii) Net CGST $= 2250 - 1800 =$ ₹450 and net SGST $=$ ₹450, so net GST $=$ ₹900
+= (iv) Price paid by the consumer $= 25000 + 2250 + 2250$
+=> Net GST payable ₹900 (CGST ₹450 + SGST ₹450); the consumer pays ₹29,500.
+?eg A dealer in Mumbai buys goods for ₹10,000 from a dealer in Delhi and sells them for ₹12,000 to a customer in Mumbai. The rate of GST is 18%. Find the net GST payable by the Mumbai dealer.
+= Purchase from another state: input IGST $= 18\%$ of 10,000 $=$ ₹1,800
+= Sale within the state: output GST $= 18\%$ of 12,000 $=$ ₹2,160 (CGST ₹1,080 + SGST ₹1,080)
+= Net GST payable $= 2160 - 1800$
+=> ₹360
+!tip Check: the dealer added ₹2,000 of value, and 18% of ₹2,000 is ₹360.
+
+# Common mistakes
+- Charging GST on the list price when a discount is given. Tax is on the discounted price.
+- Charging both CGST and SGST at the full rate. Each is half the GST rate.
+- Using CGST and SGST for a sale between two states. That sale carries IGST.
+- Forgetting to subtract the input tax when the net tax payable is asked.
+
+@@formulas
+GST | $\dfrac{\text{rate} \times \text{taxable value}}{100}$
+Taxable value with a discount | List price $-$ discount
+Amount of the bill | Taxable value $+$ GST
+Sale within a state | CGST $=$ SGST $= \dfrac{1}{2} \times$ GST
+Sale between states | IGST $=$ GST at the full rate
+Price before tax | $\dfrac{\text{amount of the bill} \times 100}{100 + r}$
+Input GST | Tax paid by a dealer on purchases
+Output GST | Tax collected by a dealer on sales
+Net GST payable | Output GST $-$ input GST
+Tax on value added | Net GST $=$ rate $\times$ (selling price $-$ cost price), when both are taxable values
+Discount | $\dfrac{\text{discount \%} \times \text{list price}}{100}$
+
+@@dpp
+Q: Find the GST on goods with taxable value ₹6,500 at 12%, and the amount of the bill.
+A: GST ₹780; bill ₹7,280
+Q: An article marked at ₹4,000 is sold within the same state at a discount of 15%. The rate of GST is 18%. Find the CGST and the SGST.
+A: Taxable value ₹3,400; CGST ₹306, SGST ₹306
+Q: A dealer in Kolkata sells goods worth ₹24,000 to a dealer in Patna. The rate of GST is 5%. Name the tax and find its amount.
+A: IGST; ₹1,200
+Q: The amount of a bill including GST at 12% is ₹8,960. Find the taxable value.
+A: ₹8,000
+Q: A shopkeeper sells 3 shirts at ₹800 each (GST 5%) and 2 pairs of shoes at ₹1,500 each (GST 18%) within the same state. Find the amount of the bill.
+A: $2400 + 120 + 3000 + 540 =$ ₹6,060
+Q: A dealer buys an article for ₹8,000 and sells it for ₹10,000 within the same state. The rate of GST is 12%. Find the net CGST and SGST payable by the dealer.
+A: Net CGST ₹120, net SGST ₹120
+Q: For the dealer in the previous question, find the price paid by the consumer.
+A: ₹11,200
+Q: A manufacturer sells a machine to a wholesaler for ₹40,000, and the wholesaler sells it to a retailer for ₹46,000, all within one state. The rate of GST is 18%. Find the net GST paid by the wholesaler.
+A: $18\%$ of ₹6,000 $=$ ₹1,080
+Q: The CGST on an article sold within a state is ₹270 at a GST rate of 18%. Find the taxable value and the amount of the bill.
+A: Taxable value ₹3,000; bill ₹3,540
+Q: An article is sold at a discount of 20% and the amount of the bill, including GST at 28%, is ₹5,120. Find the list price.
+A: Taxable value ₹4,000; list price ₹5,000
