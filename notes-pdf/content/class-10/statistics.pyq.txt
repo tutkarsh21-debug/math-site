@@ -1,0 +1,18 @@
+T: Mean of grouped data
+Q: [CBSE 2024, 1 mark] For some data $x_1, x_2, \dots, x_n$ with respective frequencies $f_1, f_2, \dots, f_n$, the value of $\sum f_i(x_i - \bar{x})$ is equal to: (a) $n\bar{x}$  (b) $1$  (c) $\sum f_i$  (d) $0$
+S: $\sum f_i(x_i - \bar{x}) = \sum f_ix_i - \bar{x}\sum f_i$
+S: Since $\bar{x} = \dfrac{\sum f_ix_i}{\sum f_i}$, we have $\bar{x}\sum f_i = \sum f_ix_i$, so the value is $0$.
+S: **Answer: (d)**
+
+T: Median of grouped data
+Q: [CBSE 2024, 1 mark] The middle most observation of every data arranged in order is called: (a) mode  (b) median  (c) mean  (d) deviation
+S: The median is the middle value of data arranged in order.
+S: **Answer: (b)**
+Q: [CBSE 2024, 4 marks, case study] BINGO is a game of chance. The host has 75 balls numbered 1 through 75. The table shows the data of one game where 48 balls were used before Tara said "BINGO". (i) Write the median class. (ii) When the first ball was picked up, what was the probability of calling out an even number? (iii) Find the median of the given data, OR find the mode of the given data.
+| Numbers announced | 0–15 | 15–30 | 30–45 | 45–60 | 60–75 |
+| Number of times | 8 | 9 | 10 | 12 | 9 |
+S: (i) $n = 48$, so $\dfrac{n}{2} = 24$. The cumulative frequencies are 8, 17, 27, 39, 48. The first one greater than 24 is 27, so the median class is 30–45.
+S: (ii) Of the numbers 1 to 75, the even numbers are $2, 4, \dots, 74$, which is 37 numbers. Probability $= \dfrac{37}{75}$
+S: (iii) Median $= l + \dfrac{\frac{n}{2} - cf}{f} \times h = 30 + \dfrac{24 - 17}{10} \times 15 = 30 + 10.5 = 40.5$
+S: OR: the modal class is 45–60, with $f_1 = 12$, $f_0 = 10$, $f_2 = 9$. Mode $= 45 + \dfrac{12 - 10}{24 - 10 - 9} \times 15 = 45 + 6 = 51$
+S: **Answer: (i) 30–45 (ii) $\dfrac{37}{75}$ (iii) median 40.5, or mode 51**

@@ -1,0 +1,23 @@
+T: Basic Proportionality Theorem
+Q: [CBSE 2024, 5 marks] If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, then prove that the other two sides are divided in the same ratio.
+!fig w=340 h=225; P A 170 22 t; P B 40 200 bl; P C 300 200 br; P D 111.5 102 l; P E 228.5 102 r; L A B; L A C; L B C; H D E; D B E; D C D
+S: Given: in $\triangle ABC$, $DE \parallel BC$, with $D$ on $AB$ and $E$ on $AC$. To prove: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+S: Construction: join $BE$ and $CD$. Draw $EN \perp AB$ and $DM \perp AC$.
+S: $\dfrac{\text{ar}(\triangle ADE)}{\text{ar}(\triangle BDE)} = \dfrac{\frac{1}{2} \times AD \times EN}{\frac{1}{2} \times DB \times EN} = \dfrac{AD}{DB}$
+S: $\dfrac{\text{ar}(\triangle ADE)}{\text{ar}(\triangle CED)} = \dfrac{\frac{1}{2} \times AE \times DM}{\frac{1}{2} \times EC \times DM} = \dfrac{AE}{EC}$
+S: $\triangle BDE$ and $\triangle CED$ are on the same base $DE$ and between the same parallels $DE$ and $BC$, so $\text{ar}(\triangle BDE) = \text{ar}(\triangle CED)$.
+S: **Hence $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.**
+
+T: Criteria for similarity of triangles
+Q: [CBSE 2024, 2 marks] In the given figure, $ABCD$ is a quadrilateral. Diagonal $BD$ bisects $\angle B$ and $\angle D$ both. Prove that (i) $\triangle ABD \sim \triangle CBD$ (ii) $AB = BC$.
+!fig w=300 h=200; P A 70 170 bl; P B 230 170 br; P C 235 40 tr; P D 85 60 tl; L A B; L B C; L C D; L D A; H B D
+S: (i) In $\triangle ABD$ and $\triangle CBD$: $\angle ABD = \angle CBD$ ($BD$ bisects $\angle B$) and $\angle ADB = \angle CDB$ ($BD$ bisects $\angle D$).
+S: So $\triangle ABD \sim \triangle CBD$ by the AA criterion.
+S: (ii) Corresponding sides are proportional: $\dfrac{AB}{CB} = \dfrac{BD}{BD} = 1$
+S: **Hence $AB = BC$.**
+Q: [CBSE 2024, 5 marks] In the given figure $PA$, $QB$ and $RC$ are each perpendicular to $AC$. If $AP = x$, $BQ = y$ and $CR = z$, then prove that $\dfrac{1}{x} + \dfrac{1}{z} = \dfrac{1}{y}$.
+!fig w=320 h=205; P A 40 170 bl; P B 106 170 b; P C 260 170 br; P P 40 110 tl; P Q 106 128 t; P R 260 30 tr; L A C; L A P; L B Q; L C R; L P C; L A R; T 28 145 x; T 116 152 y; T 272 105 z; R P A B; R Q B C; R R C A
+S: In $\triangle CQB$ and $\triangle CPA$: $\angle C$ is common and $\angle CBQ = \angle CAP = 90°$, so $\triangle CQB \sim \triangle CPA$ (AA). Hence $\dfrac{BQ}{AP} = \dfrac{BC}{AC}$, that is $\dfrac{y}{x} = \dfrac{BC}{AC}$.
+S: In $\triangle AQB$ and $\triangle ARC$: $\angle A$ is common and $\angle ABQ = \angle ACR = 90°$, so $\triangle AQB \sim \triangle ARC$ (AA). Hence $\dfrac{BQ}{CR} = \dfrac{AB}{AC}$, that is $\dfrac{y}{z} = \dfrac{AB}{AC}$.
+S: Adding: $\dfrac{y}{x} + \dfrac{y}{z} = \dfrac{BC + AB}{AC} = \dfrac{AC}{AC} = 1$
+S: Dividing by $y$: **$\dfrac{1}{x} + \dfrac{1}{z} = \dfrac{1}{y}$.**

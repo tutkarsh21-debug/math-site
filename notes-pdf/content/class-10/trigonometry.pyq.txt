@@ -1,0 +1,24 @@
+T: Ratios of standard angles
+Q: [CBSE 2024, 1 mark] If $\cos(\alpha + \beta) = 0$, then the value of $\cos\left(\dfrac{\alpha + \beta}{2}\right)$ is equal to: (a) $\dfrac{1}{\sqrt{2}}$  (b) $\dfrac{1}{2}$  (c) $0$  (d) $\sqrt{2}$
+S: $\cos(\alpha + \beta) = 0 = \cos 90°$, so $\alpha + \beta = 90°$.
+S: $\cos\left(\dfrac{\alpha + \beta}{2}\right) = \cos 45° = \dfrac{1}{\sqrt{2}}$
+S: **Answer: (a)**
+Q: [CBSE 2024, 2 marks] Evaluate: $2\sqrt{2}\cos 45° \sin 30° + 2\sqrt{3}\cos 30°$
+S: $= 2\sqrt{2} \times \dfrac{1}{\sqrt{2}} \times \dfrac{1}{2} + 2\sqrt{3} \times \dfrac{\sqrt{3}}{2}$
+S: $= 1 + 3$
+S: **Answer: 4**
+Q: [CBSE 2024, 2 marks] If $A = 60°$ and $B = 30°$, verify that $\sin(A + B) = \sin A \cos B + \cos A \sin B$.
+S: LHS $= \sin(60° + 30°) = \sin 90° = 1$
+S: RHS $= \sin 60° \cos 30° + \cos 60° \sin 30° = \dfrac{\sqrt{3}}{2} \times \dfrac{\sqrt{3}}{2} + \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{3}{4} + \dfrac{1}{4} = 1$
+S: **LHS $=$ RHS. Verified.**
+
+T: Trigonometric identities
+Q: [CBSE 2024, 1 mark] If $\sec\theta - \tan\theta = m$, then the value of $\sec\theta + \tan\theta$ is: (a) $1 - \dfrac{1}{m}$  (b) $m^2 - 1$  (c) $\dfrac{1}{m}$  (d) $-m$
+S: $\sec^2\theta - \tan^2\theta = 1$, so $(\sec\theta + \tan\theta)(\sec\theta - \tan\theta) = 1$.
+S: $\sec\theta + \tan\theta = \dfrac{1}{\sec\theta - \tan\theta} = \dfrac{1}{m}$
+S: **Answer: (c)**
+Q: [CBSE 2024, 3 marks] Prove that: $\dfrac{\tan\theta}{1 - \cot\theta} + \dfrac{\cot\theta}{1 - \tan\theta} = 1 + \sec\theta\,\text{cosec}\,\theta$
+S: Write $s = \sin\theta$ and $c = \cos\theta$. Then $\dfrac{\tan\theta}{1 - \cot\theta} = \dfrac{s/c}{(s - c)/s} = \dfrac{s^2}{c(s - c)}$ and $\dfrac{\cot\theta}{1 - \tan\theta} = \dfrac{c/s}{(c - s)/c} = -\dfrac{c^2}{s(s - c)}$.
+S: LHS $= \dfrac{s^3 - c^3}{sc(s - c)} = \dfrac{(s - c)(s^2 + sc + c^2)}{sc(s - c)} = \dfrac{s^2 + c^2 + sc}{sc}$
+S: $= \dfrac{1 + sc}{sc} = \dfrac{1}{sc} + 1$
+S: **$= 1 + \sec\theta\,\text{cosec}\,\theta =$ RHS**

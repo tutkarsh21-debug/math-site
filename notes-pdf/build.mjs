@@ -1,9 +1,10 @@
-// Builds three PDFs per chapter (short notes, formula bank, DPP sheet) from the text files in content/.
+// Builds the PDFs of each chapter (short notes, formula bank, DPP sheet, and PYQ questions and solutions
+// where there are any) from the text files in content/.
 //
 //   npm install            (once, inside notes-pdf/)
 //   node build.mjs         (all chapters)   or   node build.mjs class-10/real-numbers
 //
-// Output: ../public/pdf/<class>/<slug>/{notes,formulas,dpp}.pdf, and ../lib/pdfs.json listing what exists
+// Output: ../public/pdf/<class>/<slug>/{notes,formulas,dpp,pyq,pyq-solutions}.pdf, and ../lib/pdfs.json listing what exists
 // (the website reads that list). Needs Chrome or Edge installed (or set CHROME_PATH).
 //
 // Content file format (see content/class-10/real-numbers.txt):
@@ -19,6 +20,8 @@
 //   !fig ...          a diagram (see figure.mjs); works in a topic, an example question or its solution
 //   @@formulas        starts the formula bank; then one "Name | formula" per line
 //   @@dpp             starts the DPP sheet; then "Q: question" lines, each followed by "A: answer"
+//   @@pyq             starts the previous year questions; "T: topic", then "Q: [CBSE 2024, 1 mark] question"
+//                     followed by one or more "S: solution step" lines
 // Inside any text: $...$ is maths (LaTeX) and **...** is bold.
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -55,13 +58,30 @@ const inline = s => {
 };
 
 function parse(text, file) {
-  const meta = {}, topics = [], formulas = [], dpp = [];
+  const meta = {}, topics = [], formulas = [], dpp = [], pyq = [];
   let topic = null, eg = null, mode = 'notes';
   const fail = (n, msg) => { throw new Error(`${file}:${n + 1}: ${msg}`); };
   text.split(/\r?\n/).forEach((raw, n) => {
     const line = raw.trim();
     if (!line) return;
-    if (line === '@@formulas' || line === '@@dpp') { mode = line.slice(2); return; }
+    if (line === '@@formulas' || line === '@@dpp' || line === '@@pyq') { mode = line.slice(2); return; }
+    if (mode === 'pyq') {
+      const q = pyq.at(-1)?.qs.at(-1);
+      if (line.startsWith('T: ')) pyq.push({ topic: line.slice(3), qs: [] });
+      else if (line.startsWith('Q: ')) {
+        const m = line.slice(3).match(/^\[(.+?)\]\s*(.*)$/) || fail(n, 'PYQ question needs a tag: "Q: [CBSE 2024, 1 mark] ..."');
+        (pyq.at(-1) || fail(n, 'PYQ question before the first "T: topic"')).qs.push({ tag: m[1], text: m[2], extra: [], steps: [] });
+      }
+      else if (!q) fail(n, 'PYQ lines must start with "T: topic" and "Q: [tag] question"');
+      else if (line.startsWith('S: ')) q.steps.push(line.slice(3));
+      else if (line.startsWith('!fig ')) (q.steps.length ? q.steps : q.extra).push({ type: 'fig', fig: line.slice(5) });
+      else if (line.startsWith('|')) {
+        const row = line.split('|').slice(1, line.endsWith('|') ? -1 : undefined).map(c => c.trim()), list = q.steps.length ? q.steps : q.extra;
+        if (list.at(-1)?.rows) list.at(-1).rows.push(row); else list.push({ type: 'table', rows: [row] });
+      }
+      else fail(n, 'unrecognised PYQ line: ' + line.slice(0, 40));
+      return;
+    }
     if (mode === 'formulas') {
       const i = line.indexOf('|'); if (i < 0) fail(n, 'formula line needs "Name | formula"');
       formulas.push({ name: line.slice(0, i).trim(), formula: line.slice(i + 1).trim() }); return;
@@ -96,7 +116,8 @@ function parse(text, file) {
   });
   for (const k of ['class', 'board', 'book', 'chapter', 'title']) if (!meta[k]) throw new Error(`${file}: missing @${k}`);
   for (const d of dpp) if (!d.a) throw new Error(`${file}: DPP question without an answer: ${d.q.slice(0, 40)}`);
-  return { meta, topics, formulas, dpp };
+  for (const g of pyq) for (const q of g.qs) if (!q.steps.length) throw new Error(file + ': PYQ question without a solution: ' + q.text.slice(0, 40));
+  return { meta, topics, formulas, dpp, pyq };
 }
 
 const table = t => '<table class="data"><tbody>' + t.rows.map((r, i) => '<tr>' + r.map(c => i ? `<td>${inline(c)}</td>` : `<th>${inline(c)}</th>`).join('') + '</tr>').join('') + '</tbody></table>';
@@ -132,7 +153,19 @@ const DOCS = {
     `<p class="summary">Try every question on your own first. The answer key is on the last page.</p>`
     + `<ol class="dpp">${dpp.map(d => `<li>${inline(d.q)}</li>`).join('')}</ol>`
     + `<section class="key"><h2 class="key-title">Answer Key</h2><ol class="answers">${dpp.map(d => `<li>${inline(d.a)}</li>`).join('')}</ol></section>`],
+  pyq: ({ pyq }) => ['PYQ', `Previous year board questions, topic-wise: ${pyq.reduce((n, g) => n + g.qs.length, 0)} questions`,
+    `<p class="summary">The tag after each question gives the board paper and the marks. Solutions are in a separate PDF with the same question numbers.</p>` + pyqHtml(pyq, false)],
+  'pyq-solutions': ({ pyq }) => ['PYQ Solutions', 'Step-by-step solutions to the previous year questions',
+    `<p class="summary">The question numbers match the PYQ question sheet.</p>` + pyqHtml(pyq, true)],
 };
+
+// Previous year questions grouped by topic and numbered straight through; with solutions when asked.
+function pyqHtml(groups, solutions) {
+  let no = 0;
+  return groups.map((g, i) => `<section class="topic"><h2><span class="no">${i + 1}</span>${inline(g.topic)}</h2>` + g.qs.map(q =>
+    `<div class="pyq${solutions ? ' solved' : ''}"><div class="q"><b>${++no}.</b><span>${inline(q.text)} <em class="src">${esc(q.tag)}</em>${q.extra.map(block).join('')}</span></div>`
+    + (solutions ? `<div class="sol"><i>Solution</i>${q.steps.map(step).join('')}</div>` : '') + '</div>').join('') + '</section>').join('\n');
+}
 
 const LOGO = `<img class="logo" alt="" src="${pathToFileURL(path.join(here, '..', 'public', 'logo.svg')).href}">`;
 const cssUrl = p => pathToFileURL(path.join(here, 'node_modules', p)).href;
@@ -155,14 +188,16 @@ ${body}
 }
 
 const only = process.argv[2];
-const all = fs.readdirSync(contentDir, { recursive: true }).map(String).filter(f => f.endsWith('.txt')).map(f => f.replace(/\\/g, '/')).sort();
+const all = fs.readdirSync(contentDir, { recursive: true }).map(String).filter(f => f.endsWith('.txt') && !f.endsWith('.pyq.txt')).map(f => f.replace(/\\/g, '/')).sort();
 const files = all.filter(f => !only || f === only + '.txt');
 if (!files.length) throw new Error('No content files found' + (only ? ` for ${only}` : ''));
 fs.mkdirSync(tmpDir, { recursive: true });
 for (const f of files) {
-  const name = f.slice(0, -4), ch = parse(fs.readFileSync(path.join(contentDir, f), 'utf8'), f), sizes = [];
+  // A chapter's previous year questions live beside it in <chapter>.pyq.txt.
+  const name = f.slice(0, -4), pyqFile = path.join(contentDir, name + '.pyq.txt'), sizes = [];
+  const ch = parse(fs.readFileSync(path.join(contentDir, f), 'utf8') + (fs.existsSync(pyqFile) ? '\n@@pyq\n' + fs.readFileSync(pyqFile, 'utf8') : ''), f);
   for (const [kind, make] of Object.entries(DOCS)) {
-    if (kind === 'formulas' && !ch.formulas.length || kind === 'dpp' && !ch.dpp.length) continue;
+    if (kind === 'formulas' && !ch.formulas.length || kind === 'dpp' && !ch.dpp.length || kind.startsWith('pyq') && !ch.pyq.length) continue;
     const html = path.join(tmpDir, `${name.replace(/\//g, '__')}-${kind}.html`), pdf = path.join(outDir, name, kind + '.pdf');
     fs.writeFileSync(html, page(ch.meta, ...make(ch)));
     fs.mkdirSync(path.dirname(pdf), { recursive: true });

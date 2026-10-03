@@ -73,3 +73,13 @@ li::marker{color:var(--brand)}
 .fig text.ang{font-size:10.5px;fill:#1557d6;font-weight:500}
 .fig figcaption{font-size:8.5pt;color:var(--muted);margin-top:.5mm}
 .eg .q .fig{font-weight:400}
+
+/* previous year questions */
+.pyq{break-inside:avoid;margin:2.5mm 0}
+.pyq .q{display:flex;gap:2.5mm}
+.pyq .q>b{flex:none;min-width:6mm;color:var(--brand)}
+.pyq .src{font-style:normal;font-size:8pt;font-weight:600;color:var(--brand-strong);background:var(--soft);border-radius:1.5mm;padding:.3mm 1.8mm;white-space:nowrap}
+.pyq.solved{border:.3mm solid var(--line);border-radius:2.5mm;padding:2.5mm 4mm}
+.pyq.solved .q{color:var(--muted);font-size:9.5pt}
+.pyq .sol{margin-top:2mm;padding-top:2mm;border-top:.3mm dashed var(--line)}
+.pyq .sol i{display:block;font-style:normal;font-size:8pt;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:1mm}
