@@ -1,0 +1,215 @@
+@paper yes
+@class Class 10
+@board ICSE
+@title MathSetu Sample Paper 1: Mathematics
+@marks 80
+@time 2 hours 30 minutes
+@instructions The blue number beside each heading is the question number. Questions 1 to 3 make up Section A (40 marks) and Questions 4 to 10 make up Section B (40 marks).; Attempt all questions from Section A and any four questions from Section B.; The parts of the questions are numbered 1 to 42 straight through, and the marks for each part are shown beside it.; All working, including rough work, must be shown clearly on the same sheet as the rest of the answer. Marks are lost if essential working is left out.; Mathematical tables may be used. Take $\pi = \dfrac{22}{7}$ unless another value is given.
+
+@@pyq
+T: Section A, Question 1: choose the correct answer (15 marks)
+Q: [1 mark] An article is marked at ₹800 and sold within the same state. If the rate of GST is 18%, the CGST charged is: (a) ₹36  (b) ₹72  (c) ₹80  (d) ₹144
+S: For a sale within a state, CGST is half the GST rate: 9% of ₹800 $=$ ₹72.
+S: **Answer: (b) ₹72**
+Q: [1 mark] ₹500 is deposited every month for 12 months in a recurring deposit account. The equivalent principal for one month, used to calculate the interest, is: (a) ₹6000  (b) ₹33,000  (c) ₹39,000  (d) ₹78,000
+S: Equivalent principal for one month $= P \times \dfrac{n(n + 1)}{2} = 500 \times \dfrac{12 \times 13}{2} =$ ₹39,000.
+S: **Answer: (c) ₹39,000**
+Q: [1 mark] A ₹100 share is bought at ₹125 and pays a dividend of 10%. The rate of return on the investment is: (a) 8%  (b) 10%  (c) 12.5%  (d) 25%
+S: Dividend on one share $=$ ₹10 on an investment of ₹125, so the return is $\dfrac{10}{125} \times 100 = 8\%$.
+S: **Answer: (a) 8%**
+Q: [1 mark] The solution set of $-3 < 2x - 1 \le 5$, where $x$ is a whole number, is: (a) $\{1, 2, 3\}$  (b) $\{0, 1, 2\}$  (c) $\{0, 1, 2, 3\}$  (d) $\{-1, 0, 1, 2, 3\}$
+S: Add 1 throughout: $-2 < 2x \le 6$, so $-1 < x \le 3$. The whole numbers in this range are 0, 1, 2, 3.
+S: **Answer: (c) $\{0, 1, 2, 3\}$**
+Q: [1 mark] The roots of $x^2 - 6x + 9 = 0$ are: (a) real and unequal  (b) real and equal  (c) not real  (d) equal in size and opposite in sign
+S: $D = (-6)^2 - 4(1)(9) = 0$, so the roots are real and equal (both are 3).
+S: **Answer: (b) real and equal**
+Q: [1 mark] The mean proportional between 4 and 25 is: (a) 10  (b) 14.5  (c) 21  (d) 100
+S: Mean proportional $= \sqrt{4 \times 25} = 10$.
+S: **Answer: (a) 10**
+Q: [1 mark] The remainder when $x^3 - 2x^2 + 3x - 4$ is divided by $x - 2$ is: (a) $-4$  (b) 0  (c) 2  (d) 6
+S: By the Remainder Theorem, the remainder is $f(2) = 8 - 8 + 6 - 4 = 2$.
+S: **Answer: (c) 2**
+Q: [1 mark] $A$ is a matrix of order $2 \times 3$ and $B$ is a matrix of order $3 \times 1$. The order of $AB$ is: (a) $3 \times 3$  (b) $2 \times 1$  (c) $1 \times 2$  (d) $AB$ is not possible
+S: The columns of $A$ (3) equal the rows of $B$ (3), so $AB$ exists, with the rows of $A$ and the columns of $B$: $2 \times 1$.
+S: **Answer: (b) $2 \times 1$**
+Q: [1 mark] The $n$th term of an A.P. is $5n - 2$. Its common difference is: (a) $-2$  (b) 2  (c) 3  (d) 5
+S: $T_1 = 3$ and $T_2 = 8$, so $d = 8 - 3 = 5$.
+S: **Answer: (d) 5**
+Q: [1 mark] The 5th term of the G.P. $3, 6, 12, \dots$ is: (a) 24  (b) 36  (c) 48  (d) 96
+S: $a = 3$, $r = 2$: $T_5 = ar^4 = 3 \times 16 = 48$.
+S: **Answer: (c) 48**
+Q: [1 mark] The image of the point $(3, -4)$ after reflection in the $y$-axis is: (a) $(3, 4)$  (b) $(-3, 4)$  (c) $(-3, -4)$  (d) $(-4, 3)$
+S: Reflection in the $y$-axis changes the sign of the $x$-coordinate only: $(3, -4) \to (-3, -4)$.
+S: **Answer: (c) $(-3, -4)$**
+Q: [1 mark] The slope of the line $3x - 4y + 7 = 0$ is: (a) $\dfrac{3}{4}$  (b) $-\dfrac{3}{4}$  (c) $\dfrac{4}{3}$  (d) $\dfrac{7}{4}$
+S: Write it as $y = \dfrac{3}{4}x + \dfrac{7}{4}$. The slope is $\dfrac{3}{4}$.
+S: **Answer: (a) $\dfrac{3}{4}$**
+Q: [1 mark] An arc of a circle subtends an angle of $110°$ at the centre. The angle it subtends at a point on the remaining part of the circle is: (a) $55°$  (b) $70°$  (c) $110°$  (d) $220°$
+S: The angle at the centre is twice the angle at the circumference: $\dfrac{110°}{2} = 55°$.
+S: **Answer: (a) $55°$**
+Q: [1 mark] The volume of a cone of radius 3 cm and height 7 cm is: (a) 22 cm$^3$  (b) 66 cm$^3$  (c) 132 cm$^3$  (d) 198 cm$^3$
+S: Volume $= \dfrac{1}{3}\pi r^2 h = \dfrac{1}{3} \times \dfrac{22}{7} \times 9 \times 7 = 66$ cm$^3$.
+S: **Answer: (b) 66 cm$^3$**
+Q: [1 mark] A letter is chosen at random from the letters of the word TRIANGLE. The probability that it is a vowel is: (a) $\dfrac{1}{4}$  (b) $\dfrac{3}{8}$  (c) $\dfrac{1}{2}$  (d) $\dfrac{5}{8}$
+S: The word has 8 letters, of which 3 (I, A, E) are vowels. Probability $= \dfrac{3}{8}$.
+S: **Answer: (b) $\dfrac{3}{8}$**
+
+T: Section A, Question 2 (12 marks)
+Q: [4 marks] Meera deposits ₹1200 every month for 2 years in a recurring deposit account that pays simple interest at 8% per annum. Find the interest she earns and the amount she gets on maturity.
+S: $P =$ ₹1200, $n = 24$ months, $r = 8\%$.
+S: Interest $= P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100} = 1200 \times \dfrac{24 \times 25}{24} \times \dfrac{8}{100} =$ ₹2400.
+S: Total deposited $= 1200 \times 24 =$ ₹28,800, so the maturity amount $= 28{,}800 + 2400 =$ ₹31,200.
+S: **Answer: interest ₹2400, maturity amount ₹31,200**
+Q: [4 marks] If $A = \begin{bmatrix} 2 & 1 \\ -1 & 3 \end{bmatrix}$ and $B = \begin{bmatrix} 1 & 0 \\ 2 & -1 \end{bmatrix}$, find $A^2 - 2B$.
+S: $A^2 = \begin{bmatrix} 2 & 1 \\ -1 & 3 \end{bmatrix}\begin{bmatrix} 2 & 1 \\ -1 & 3 \end{bmatrix} = \begin{bmatrix} 4 - 1 & 2 + 3 \\ -2 - 3 & -1 + 9 \end{bmatrix} = \begin{bmatrix} 3 & 5 \\ -5 & 8 \end{bmatrix}$
+S: $2B = \begin{bmatrix} 2 & 0 \\ 4 & -2 \end{bmatrix}$
+S: $A^2 - 2B = \begin{bmatrix} 3 - 2 & 5 - 0 \\ -5 - 4 & 8 + 2 \end{bmatrix}$
+S: **Answer: $\begin{bmatrix} 1 & 5 \\ -9 & 10 \end{bmatrix}$**
+Q: [4 marks] Prove that $\dfrac{\cos A}{1 - \sin A} + \dfrac{\cos A}{1 + \sin A} = 2\sec A$.
+S: LHS $= \dfrac{\cos A\,(1 + \sin A) + \cos A\,(1 - \sin A)}{(1 - \sin A)(1 + \sin A)}$
+S: $= \dfrac{2\cos A}{1 - \sin^2 A} = \dfrac{2\cos A}{\cos^2 A}$
+S: **$= \dfrac{2}{\cos A} = 2\sec A =$ RHS. Proved.**
+
+T: Section A, Question 3 (13 marks)
+Q: [4 marks] A solid metal sphere of radius 6 cm is melted and recast into a solid cylinder of radius 4 cm. Find the height of the cylinder and its curved surface area, correct to one decimal place.
+S: Volume of the sphere $= \dfrac{4}{3}\pi \times 6^3 = 288\pi$ cm$^3$.
+S: Volume of the cylinder $= \pi \times 4^2 \times h = 16\pi h$. So $16\pi h = 288\pi$ and $h = 18$ cm.
+S: Curved surface area $= 2\pi r h = 2 \times \dfrac{22}{7} \times 4 \times 18 = \dfrac{3168}{7} \approx 452.6$ cm$^2$.
+S: **Answer: height 18 cm, curved surface area $\approx 452.6$ cm$^2$**
+Q: [4 marks] $A(2, 3)$ and $B(6, -5)$ are two points. Find (i) the slope of $AB$ (ii) the equation of the perpendicular bisector of $AB$ (iii) the point where this bisector meets the $x$-axis.
+S: (i) Slope of $AB = \dfrac{-5 - 3}{6 - 2} = -2$.
+S: (ii) The mid-point of $AB$ is $\left(\dfrac{2 + 6}{2}, \dfrac{3 - 5}{2}\right) = (4, -1)$, and the slope of the perpendicular bisector is $\dfrac{1}{2}$.
+S: Its equation is $y + 1 = \dfrac{1}{2}(x - 4)$, that is $x - 2y - 6 = 0$.
+S: (iii) Put $y = 0$: $x = 6$. The point is $(6, 0)$.
+S: **Answer: (i) $-2$ (ii) $x - 2y - 6 = 0$ (iii) $(6, 0)$**
+Q: [5 marks] Use graph paper for this question, with 1 cm $=$ 1 unit on both axes. Plot the point $A(4, 3)$. Reflect $A$ in the $x$-axis to get $B$, reflect $A$ in the origin to get $C$, and reflect $A$ in the $y$-axis to get $D$. (i) Write the coordinates of $B$, $C$ and $D$. (ii) Name the figure $ABCD$. (iii) Find its perimeter and its area.
+S: (i) $B = (4, -3)$, $C = (-4, -3)$ and $D = (-4, 3)$.
+!fig w=340 h=240; Q X1 20 120; Q X2 320 120; Q Y1 170 10; Q Y2 170 230; D X1 X2; D Y1 Y2; P A 250 60 tr; P B 250 180 br; P C 90 180 bl; P D 90 60 tl; L A B; L B C; L C D; L D A; T 312 112 x; T 180 18 y; T 160 136 O
+S: (ii) $AB$ and $CD$ are vertical, $BC$ and $DA$ are horizontal, and all the angles are right angles, so $ABCD$ is a rectangle.
+S: (iii) $AB = 6$ units and $BC = 8$ units. Perimeter $= 2(6 + 8) = 28$ units and area $= 6 \times 8 = 48$ square units.
+S: **Answer: (i) $B(4, -3)$, $C(-4, -3)$, $D(-4, 3)$ (ii) a rectangle (iii) perimeter 28 units, area 48 square units**
+
+T: Section B, Question 4 (10 marks)
+Q: [3 marks] A dealer in Delhi sells a washing machine, marked at ₹20,000, to a customer in Delhi at a discount of 10%. The rate of GST is 18%. Find the CGST, the SGST and the total amount the customer pays.
+S: Selling price after discount $= 20{,}000 - 10\%\text{ of }20{,}000 =$ ₹18,000.
+S: CGST $= 9\%$ of 18,000 $=$ ₹1620 and SGST $= 9\%$ of 18,000 $=$ ₹1620.
+S: Amount paid $= 18{,}000 + 1620 + 1620 =$ ₹21,240.
+S: **Answer: CGST ₹1620, SGST ₹1620, amount paid ₹21,240**
+Q: [3 marks] Solve $x^2 - 5x - 3 = 0$, giving the answers correct to two decimal places.
+S: $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \dfrac{5 \pm \sqrt{25 + 12}}{2} = \dfrac{5 \pm \sqrt{37}}{2}$, and $\sqrt{37} \approx 6.083$.
+S: $x = \dfrac{5 + 6.083}{2} \approx 5.54$ or $x = \dfrac{5 - 6.083}{2} \approx -0.54$.
+S: **Answer: $x = 5.54$ or $x = -0.54$**
+Q: [4 marks] Find the mean of the following distribution by the step-deviation method.
+| Class | 0 – 20 | 20 – 40 | 40 – 60 | 60 – 80 | 80 – 100 |
+| Frequency | 6 | 10 | 16 | 12 | 6 |
+S: Take the assumed mean $A = 50$ and the class width $i = 20$, with $t = \dfrac{x - A}{i}$.
+| Class | $f$ | $x$ | $t$ | $ft$ |
+| 0 – 20 | 6 | 10 | $-2$ | $-12$ |
+| 20 – 40 | 10 | 30 | $-1$ | $-10$ |
+| 40 – 60 | 16 | 50 | 0 | 0 |
+| 60 – 80 | 12 | 70 | 1 | 12 |
+| 80 – 100 | 6 | 90 | 2 | 12 |
+| Total | 50 | | | 2 |
+S: Mean $= A + \dfrac{\sum ft}{\sum f} \times i = 50 + \dfrac{2}{50} \times 20 = 50.8$.
+S: **Answer: mean $= 50.8$**
+
+T: Section B, Question 5 (10 marks)
+Q: [3 marks] A man invests ₹9600 in ₹100 shares at a premium of 20%. The company declares a dividend of 15%. Find (i) the number of shares he buys (ii) his annual dividend (iii) the rate of return on his investment.
+S: (i) Market value of one share $= 100 + 20 =$ ₹120. Number of shares $= \dfrac{9600}{120} = 80$.
+S: (ii) Dividend on one share $= 15\%$ of ₹100 $=$ ₹15. Annual dividend $= 80 \times 15 =$ ₹1200.
+S: (iii) Rate of return $= \dfrac{1200}{9600} \times 100 = 12.5\%$.
+S: **Answer: (i) 80 shares (ii) ₹1200 (iii) 12.5%**
+Q: [3 marks] In a cyclic quadrilateral $ABCD$, $\angle A = (2x + 4)°$, $\angle B = (x + 40)°$ and $\angle C = (3x + 16)°$. Find $x$ and all four angles.
+S: Opposite angles of a cyclic quadrilateral add up to $180°$: $(2x + 4) + (3x + 16) = 180$, so $5x = 160$ and $x = 32$.
+S: $\angle A = 68°$, $\angle C = 112°$, $\angle B = 72°$ and $\angle D = 180° - 72° = 108°$.
+S: **Answer: $x = 32$; the angles are $68°$, $72°$, $112°$ and $108°$**
+Q: [4 marks] Use the Factor Theorem to show that $x - 2$ is a factor of $2x^3 + x^2 - 13x + 6$. Hence factorise the expression completely.
+S: Let $f(x) = 2x^3 + x^2 - 13x + 6$. Then $f(2) = 16 + 4 - 26 + 6 = 0$, so $x - 2$ is a factor.
+S: Dividing $f(x)$ by $x - 2$ gives the quotient $2x^2 + 5x - 3$.
+S: $2x^2 + 5x - 3 = 2x^2 + 6x - x - 3 = 2x(x + 3) - 1(x + 3) = (2x - 1)(x + 3)$.
+S: **Answer: $(x - 2)(2x - 1)(x + 3)$**
+
+T: Section B, Question 6 (10 marks)
+Q: [3 marks] Solve $3x - 7 \le 7x + 5 < 19$, where $x$ is an integer, and show the solution set on a number line.
+S: From $3x - 7 \le 7x + 5$: $-12 \le 4x$, so $x \ge -3$. From $7x + 5 < 19$: $7x < 14$, so $x < 2$.
+S: So $-3 \le x < 2$, and the solution set is $\{-3, -2, -1, 0, 1\}$. On the number line these five integers are marked with dots.
+!fig w=340 h=64; Q L 20 26; Q R 320 26; L L R; P -3 90 26 b; P -2 130 26 b; P -1 170 26 b; P 0 210 26 b; P 1 250 26 b; T 50 43 -4; T 290 43 2
+S: **Answer: $\{-3, -2, -1, 0, 1\}$**
+Q: [3 marks] The 4th term of an A.P. is 22 and its 15th term is 66. Find the first term, the common difference and the sum of its first 8 terms.
+S: $a + 3d = 22$ and $a + 14d = 66$. Subtracting, $11d = 44$, so $d = 4$ and $a = 10$.
+S: $S_8 = \dfrac{8}{2}\,[2 \times 10 + 7 \times 4] = 4 \times 48 = 192$.
+S: **Answer: $a = 10$, $d = 4$, $S_8 = 192$**
+Q: [4 marks] In $\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ so that $DE \parallel BC$ and $AD : DB = 2 : 3$. (i) Prove that $\triangle ADE \sim \triangle ABC$. (ii) If $DE = 4$ cm, find $BC$. (iii) Find the ratio of the area of $\triangle ADE$ to the area of trapezium $DBCE$.
+!fig w=320 h=215; P A 160 25 t; P B 50 190 bl; P C 280 190 br; P D 116 91 l; P E 208 91 r; L A B; L A C; L B C; H D E
+S: (i) $\angle A$ is common and $\angle ADE = \angle ABC$ (corresponding angles, $DE \parallel BC$). So $\triangle ADE \sim \triangle ABC$ (AA).
+S: (ii) $\dfrac{AD}{AB} = \dfrac{2}{2 + 3} = \dfrac{2}{5}$, so $\dfrac{DE}{BC} = \dfrac{2}{5}$ and $BC = \dfrac{5}{2} \times 4 = 10$ cm.
+S: (iii) $\dfrac{\text{area of } \triangle ADE}{\text{area of } \triangle ABC} = \left(\dfrac{2}{5}\right)^2 = \dfrac{4}{25}$. So the trapezium has $25 - 4 = 21$ of the 25 parts.
+S: **Answer: (ii) $BC = 10$ cm (iii) $4 : 21$**
+
+T: Section B, Question 7 (10 marks)
+Q: [3 marks] What number must be added to each of 2, 6, 8 and 18 so that the four results are in proportion?
+S: Let the number be $x$. Then $\dfrac{2 + x}{6 + x} = \dfrac{8 + x}{18 + x}$.
+S: $(2 + x)(18 + x) = (6 + x)(8 + x)$ gives $36 + 20x + x^2 = 48 + 14x + x^2$, so $6x = 12$ and $x = 2$.
+S: Check: 4, 8, 10, 20 are in proportion, since $4 \times 20 = 8 \times 10$.
+S: **Answer: 2**
+Q: [3 marks] The 3rd term of a G.P. is 12 and its 6th term is 96. Find the first term, the common ratio and the sum of its first 8 terms.
+S: $ar^2 = 12$ and $ar^5 = 96$. Dividing, $r^3 = 8$, so $r = 2$ and $a = 3$.
+S: $S_8 = \dfrac{a(r^8 - 1)}{r - 1} = \dfrac{3(256 - 1)}{2 - 1} = 765$.
+S: **Answer: $a = 3$, $r = 2$, $S_8 = 765$**
+Q: [4 marks] From a point $A$ on level ground, the angle of elevation of the top of a tower is $30°$. On walking 40 m towards the tower to a point $B$, the angle of elevation becomes $60°$. Find the height of the tower, correct to two decimal places, and the distance of $B$ from the tower. (Take $\sqrt{3} = 1.732$.)
+S: Let the tower be $h$ m high and let $B$ be $x$ m from its foot.
+S: From $B$: $\tan 60° = \dfrac{h}{x}$, so $h = \sqrt{3}\,x$. From $A$: $\tan 30° = \dfrac{h}{x + 40}$, so $x + 40 = \sqrt{3}\,h$.
+S: Then $x + 40 = \sqrt{3} \times \sqrt{3}\,x = 3x$, so $x = 20$ m.
+S: $h = 20\sqrt{3} = 20 \times 1.732 = 34.64$ m.
+S: **Answer: height 34.64 m; $B$ is 20 m from the tower**
+
+T: Section B, Question 8 (10 marks)
+Q: [3 marks] Cards numbered 1 to 30 are put in a box and one card is drawn at random. Find the probability that the number on it is (i) a multiple of 4 (ii) a prime number (iii) a perfect square.
+S: (i) Multiples of 4: 4, 8, 12, 16, 20, 24, 28, which is 7 cards. Probability $= \dfrac{7}{30}$.
+S: (ii) Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, which is 10 cards. Probability $= \dfrac{10}{30} = \dfrac{1}{3}$.
+S: (iii) Perfect squares: 1, 4, 9, 16, 25, which is 5 cards. Probability $= \dfrac{5}{30} = \dfrac{1}{6}$.
+S: **Answer: (i) $\dfrac{7}{30}$ (ii) $\dfrac{1}{3}$ (iii) $\dfrac{1}{6}$**
+Q: [3 marks] In what ratio does the $y$-axis divide the line segment joining $A(-4, 1)$ and $B(6, 6)$? Also find the point of division.
+S: Let the ratio be $k : 1$. The $x$-coordinate of the point of division is 0: $\dfrac{6k - 4}{k + 1} = 0$, so $k = \dfrac{2}{3}$. The ratio is $2 : 3$.
+S: $y = \dfrac{2 \times 6 + 3 \times 1}{2 + 3} = \dfrac{15}{5} = 3$.
+S: **Answer: ratio $2 : 3$, point $(0, 3)$**
+Q: [4 marks] A conical tent is 12 m high and the radius of its base is 9 m. Find (i) the cost of the canvas for its curved surface at ₹70 per m$^2$ (ii) the volume of air inside it, correct to the nearest m$^3$.
+S: Slant height $l = \sqrt{9^2 + 12^2} = 15$ m.
+S: (i) Curved surface area $= \pi r l = \dfrac{22}{7} \times 9 \times 15 = \dfrac{2970}{7}$ m$^2$. Cost $= \dfrac{2970}{7} \times 70 =$ ₹29,700.
+S: (ii) Volume $= \dfrac{1}{3}\pi r^2 h = \dfrac{1}{3} \times \dfrac{22}{7} \times 81 \times 12 = \dfrac{7128}{7} \approx 1018$ m$^3$.
+S: **Answer: (i) ₹29,700 (ii) about 1018 m$^3$**
+
+T: Section B, Question 9 (10 marks)
+Q: [3 marks] The length of a rectangular garden is 4 m more than its breadth, and its area is 96 m$^2$. Find its length, its breadth and its perimeter.
+S: Let the breadth be $x$ m. Then $x(x + 4) = 96$, so $x^2 + 4x - 96 = 0$.
+S: $(x + 12)(x - 8) = 0$, so $x = 8$ (a length cannot be negative).
+S: Breadth $= 8$ m, length $= 12$ m, perimeter $= 2(8 + 12) = 40$ m.
+S: **Answer: length 12 m, breadth 8 m, perimeter 40 m**
+Q: [3 marks] (i) Chords $AB$ and $CD$ of a circle meet at a point $P$ inside the circle. If $AP = 6$ cm, $PB = 4$ cm and $CP = 3$ cm, find $CD$. (ii) From a point $T$ outside another circle, a tangent $TQ$ and a secant $TRS$ are drawn, with $TR = 4$ cm and $RS = 5$ cm. Find $TQ$.
+S: (i) $AP \times PB = CP \times PD$, so $6 \times 4 = 3 \times PD$ and $PD = 8$ cm. Then $CD = 3 + 8 = 11$ cm.
+S: (ii) $TQ^2 = TR \times TS = 4 \times (4 + 5) = 36$, so $TQ = 6$ cm.
+S: **Answer: (i) $CD = 11$ cm (ii) $TQ = 6$ cm**
+Q: [4 marks] The marks of 11 students in a test are 12, 18, 25, 9, 30, 21, 15, 27, 33, 6 and 24. Find (i) the median (ii) the lower quartile (iii) the upper quartile (iv) the interquartile range.
+S: In ascending order: 6, 9, 12, 15, 18, 21, 24, 25, 27, 30, 33. Here $n = 11$.
+S: (i) Median $= \left(\dfrac{n + 1}{2}\right)$th term $=$ 6th term $= 21$.
+S: (ii) Lower quartile $Q_1 = \left(\dfrac{n + 1}{4}\right)$th term $=$ 3rd term $= 12$.
+S: (iii) Upper quartile $Q_3 = \left(\dfrac{3(n + 1)}{4}\right)$th term $=$ 9th term $= 27$.
+S: (iv) Interquartile range $= Q_3 - Q_1 = 27 - 12 = 15$.
+S: **Answer: (i) 21 (ii) 12 (iii) 27 (iv) 15**
+
+T: Section B, Question 10 (10 marks)
+Q: [3 marks] Find the equation of the line that passes through $(2, -1)$ and is parallel to the line $3x + 4y = 7$. Also write its $y$-intercept.
+S: The slope of $3x + 4y = 7$ is $-\dfrac{3}{4}$, and a parallel line has the same slope.
+S: $y + 1 = -\dfrac{3}{4}(x - 2)$ gives $4y + 4 = -3x + 6$, that is $3x + 4y - 2 = 0$.
+S: Put $x = 0$: $y = \dfrac{1}{2}$.
+S: **Answer: $3x + 4y - 2 = 0$, with $y$-intercept $\dfrac{1}{2}$**
+Q: [3 marks] Find $x$ and $y$ if $\begin{bmatrix} 2 & x \\ y & 3 \end{bmatrix}\begin{bmatrix} 1 \\ 2 \end{bmatrix} = \begin{bmatrix} 8 \\ 7 \end{bmatrix}$.
+S: Multiplying, $\begin{bmatrix} 2 + 2x \\ y + 6 \end{bmatrix} = \begin{bmatrix} 8 \\ 7 \end{bmatrix}$.
+S: So $2 + 2x = 8$ gives $x = 3$, and $y + 6 = 7$ gives $y = 1$.
+S: **Answer: $x = 3$, $y = 1$**
+Q: [4 marks] Using a ruler and compasses only, construct $\triangle ABC$ with $AB = 5$ cm, $BC = 6$ cm and $\angle ABC = 60°$. Construct the incircle of the triangle and measure its radius.
+S: Draw $BC = 6$ cm. At $B$ construct an angle of $60°$ and cut off $BA = 5$ cm on its arm. Join $AC$.
+S: Construct the bisectors of $\angle B$ and $\angle C$. They meet at the incentre $I$.
+S: From $I$ draw $IN$ perpendicular to $BC$, meeting it at $N$. With centre $I$ and radius $IN$ draw the circle. It touches all three sides.
+S: On measuring, $IN$ comes to about 1.6 cm.
+S: **Answer: the radius of the incircle measures about 1.6 cm**

@@ -5,5 +5,12 @@
   "title": "MathSetu Sample Paper 1: Mathematics (Standard)",
   "marks": "80",
   "time": "3 hours"
+ },
+ "class-10/icse-sample-paper-1": {
+  "class": "Class 10",
+  "board": "ICSE",
+  "title": "MathSetu Sample Paper 1: Mathematics",
+  "marks": "80",
+  "time": "2 hours 30 minutes"
  }
 }
