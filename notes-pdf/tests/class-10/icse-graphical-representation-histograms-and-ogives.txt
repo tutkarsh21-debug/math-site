@@ -1,0 +1,69 @@
+Q: An ogive is a
+- bar graph
+* cumulative frequency curve
+- frequency polygon
+- pie chart
+W: It is drawn by plotting cumulative frequencies and joining the points with a smooth curve.
+
+Q: A histogram is used to estimate the
+- mean
+- median
+* mode
+- range
+W: The mode is read from the tallest rectangle and its neighbours.
+
+Q: An ogive is used to estimate the
+- mean
+* median
+- mode
+- class size
+W: The median and the quartiles are read from the cumulative frequency curve.
+
+Q: To draw a "less than" ogive, cumulative frequencies are plotted against
+- the lower class limits
+* the upper class limits
+- the class marks
+- the frequencies
+W: A cumulative frequency counts all the values below the upper limit of its class.
+
+Q: The classes 10-19, 20-29, 30-39 are made continuous. The first class becomes
+- 10-20
+* 9.5-19.5
+- 10-19.5
+- 9-20
+W: The gap is 1, so 0.5 is subtracted from each lower limit and added to each upper limit.
+
+Q: An ogive is drawn for 80 students. To estimate the median, the curve is read at a cumulative frequency of
+- 20
+* 40
+- 60
+- 80
+W: The median corresponds to $\dfrac{n}{2}$.
+
+Q: An ogive is drawn for 80 students. To estimate the lower quartile, the curve is read at a cumulative frequency of
+* 20
+- 40
+- 60
+- 80
+W: The lower quartile corresponds to $\dfrac{n}{4}$.
+
+Q: An ogive for the marks of 80 students shows a cumulative frequency of 65 at 60 marks. The number of students who scored more than 60 is
+- 65
+* 15
+- 20
+- 60
+W: $80 - 65$.
+
+Q: In a histogram with equal class widths, the height of each rectangle is proportional to
+- the class mark
+* the frequency of the class
+- the cumulative frequency
+- the class width
+W: With equal widths, areas and heights both represent frequencies.
+
+Q: To find the mode from a histogram, we join the upper corners of the tallest rectangle to the nearer upper corners of the two adjacent rectangles, and read
+- the height of the tallest rectangle
+* the value on the horizontal axis below the point where the two lines cross
+- the mid-point of the tallest rectangle
+- the upper limit of the modal class
+W: A perpendicular is dropped from the point of intersection to the horizontal axis.

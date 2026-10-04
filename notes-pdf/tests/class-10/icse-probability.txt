@@ -1,0 +1,69 @@
+Q: A die is thrown once. The probability of getting an odd prime number is
+- $\dfrac{1}{6}$
+* $\dfrac{1}{3}$
+- $\dfrac{1}{2}$
+- $\dfrac{2}{3}$
+W: The odd primes on a die are 3 and 5.
+
+Q: A card is drawn from a pack of 52 cards. The probability that it is a black queen is
+- $\dfrac{1}{52}$
+* $\dfrac{1}{26}$
+- $\dfrac{1}{13}$
+- $\dfrac{1}{4}$
+W: There are 2 black queens.
+
+Q: A bag has 6 red balls and some blue balls. The probability of drawing a blue ball is $\dfrac{2}{5}$. The number of blue balls is
+- 2
+* 4
+- 6
+- 9
+W: $\dfrac{x}{6 + x} = \dfrac{2}{5}$ gives $5x = 12 + 2x$.
+
+Q: Two coins are tossed together. The probability of getting at least one head is
+- $\dfrac{1}{4}$
+- $\dfrac{1}{2}$
+* $\dfrac{3}{4}$
+- 1
+W: Only TT has no head.
+
+Q: Cards numbered 1 to 25 are shuffled and one is drawn. The probability that its number is a perfect square is
+- $\dfrac{4}{25}$
+* $\dfrac{1}{5}$
+- $\dfrac{6}{25}$
+- $\dfrac{1}{25}$
+W: The squares are 1, 4, 9, 16 and 25.
+
+Q: A letter is chosen at random from the word MATHEMATICS. The probability that it is M is
+- $\dfrac{1}{11}$
+* $\dfrac{2}{11}$
+- $\dfrac{1}{8}$
+- $\dfrac{2}{9}$
+W: M occurs twice among the 11 letters.
+
+Q: A die is thrown once. The probability of getting a number less than 7 is
+- 0
+- $\dfrac{1}{6}$
+- $\dfrac{6}{7}$
+* 1
+W: Every outcome is less than 7, so the event is certain.
+
+Q: If $P(E) = \dfrac{3}{8}$, then $P(\text{not } E)$ is
+- $\dfrac{3}{8}$
+* $\dfrac{5}{8}$
+- $\dfrac{8}{3}$
+- $\dfrac{1}{8}$
+W: $1 - \dfrac{3}{8}$.
+
+Q: Two dice are thrown together. The probability that the product of the numbers is 12 is
+- $\dfrac{1}{18}$
+* $\dfrac{1}{9}$
+- $\dfrac{1}{12}$
+- $\dfrac{1}{6}$
+W: (2,6), (3,4), (4,3) and (6,2): 4 out of 36.
+
+Q: A card is drawn from a pack of 52 cards. The probability that it is neither a king nor a heart is
+- $\dfrac{4}{13}$
+* $\dfrac{9}{13}$
+- $\dfrac{35}{52}$
+- $\dfrac{3}{4}$
+W: Kings or hearts number $4 + 13 - 1 = 16$, leaving 36 cards, and $\dfrac{36}{52} = \dfrac{9}{13}$.

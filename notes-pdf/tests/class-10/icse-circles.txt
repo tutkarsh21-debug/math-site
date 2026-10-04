@@ -1,0 +1,69 @@
+Q: An arc subtends an angle of 140° at the centre. The angle it subtends at a point on the remaining part of the circle is
+- 140°
+* 70°
+- 40°
+- 280°
+W: The angle at the centre is twice the angle at the circumference.
+
+Q: AB is a diameter of a circle and C is a point on the circle. If $\angle CAB = 35°$, then $\angle ABC$ is
+- 35°
+* 55°
+- 90°
+- 145°
+W: $\angle ACB = 90°$ (angle in a semicircle), so $\angle ABC = 90° - 35°$.
+
+Q: ABCD is a cyclic quadrilateral with $\angle A = 110°$. Then $\angle C$ is
+- 110°
+* 70°
+- 20°
+- 250°
+W: Opposite angles of a cyclic quadrilateral are supplementary.
+
+Q: An exterior angle of a cyclic quadrilateral is equal to
+- the adjacent interior angle
+* the interior opposite angle
+- 90°
+- half the interior opposite angle
+W: Both are supplements of the same angle.
+
+Q: C and D lie on the same side of chord AB of a circle. If $\angle ACB = 40°$, then $\angle ADB$ is
+- 80°
+- 20°
+* 40°
+- 140°
+W: Angles in the same segment are equal.
+
+Q: A chord of a circle is equal to its radius. The angle it subtends at a point on the major arc is
+- 60°
+* 30°
+- 120°
+- 15°
+W: The chord and two radii form an equilateral triangle, so the angle at the centre is 60°.
+
+Q: A parallelogram inscribed in a circle is always a
+- rhombus
+* rectangle
+- trapezium
+- kite
+W: Its opposite angles are equal and also supplementary, so each is 90°.
+
+Q: The reflex angle subtended by a major arc at the centre is 250°. The angle this arc subtends at a point on the minor arc is
+- 55°
+- 110°
+* 125°
+- 250°
+W: Half of 250°.
+
+Q: In cyclic quadrilateral ABCD, $\angle A = (2x + 10)°$ and $\angle C = (3x + 20)°$. The value of $x$ is
+- 10
+- 25
+* 30
+- 34
+W: $5x + 30 = 180$.
+
+Q: Equal arcs of a circle subtend at the centre
+- right angles
+* equal angles
+- supplementary angles
+- unequal angles
+W: Equal arcs have equal chords, and equal chords subtend equal angles at the centre.

@@ -1,0 +1,69 @@
+Q: $\sec^2\theta - \tan^2\theta$ is equal to
+- 0
+* 1
+- $\sin^2\theta$
+- $2\tan^2\theta$
+W: From $1 + \tan^2\theta = \sec^2\theta$.
+
+Q: $(1 + \cot^2\theta)\sin^2\theta$ is equal to
+- 0
+* 1
+- $\cos^2\theta$
+- $\tan^2\theta$
+W: $\operatorname{cosec}^2\theta \times \sin^2\theta = 1$.
+
+Q: $\sin\theta \operatorname{cosec}\theta + \cos\theta \sec\theta$ is equal to
+- 0
+- 1
+* 2
+- $\sin\theta + \cos\theta$
+W: Each product of a ratio and its reciprocal is 1.
+
+Q: $\tan\theta + \cot\theta$ is equal to
+- 1
+- $\sin\theta \cos\theta$
+* $\sec\theta \operatorname{cosec}\theta$
+- $\sec\theta + \operatorname{cosec}\theta$
+W: $\dfrac{\sin^2\theta + \cos^2\theta}{\sin\theta\cos\theta} = \dfrac{1}{\sin\theta\cos\theta}$.
+
+Q: $\dfrac{1 + \tan^2 A}{1 + \cot^2 A}$ is equal to
+- 1
+* $\tan^2 A$
+- $\cot^2 A$
+- $\sec^2 A$
+W: $\dfrac{\sec^2 A}{\operatorname{cosec}^2 A} = \dfrac{\sin^2 A}{\cos^2 A}$.
+
+Q: $\cos 37° \operatorname{cosec} 53°$ is equal to
+- 0
+* 1
+- $\tan 37°$
+- $\cos^2 37°$
+W: $\operatorname{cosec} 53° = \sec 37°$, and $\cos 37° \sec 37° = 1$.
+
+Q: $\sin^4\theta - \cos^4\theta$ is equal to
+- 1
+* $\sin^2\theta - \cos^2\theta$
+- $\sin^2\theta + \cos^2\theta$
+- 0
+W: $(\sin^2\theta - \cos^2\theta)(\sin^2\theta + \cos^2\theta)$, and the second bracket is 1.
+
+Q: For an acute angle $\theta$, $\sqrt{\dfrac{1 - \sin\theta}{1 + \sin\theta}}$ is equal to
+- $\sec\theta + \tan\theta$
+* $\sec\theta - \tan\theta$
+- $\operatorname{cosec}\theta - \cot\theta$
+- $\tan\theta - \sec\theta$
+W: Multiply top and bottom inside the root by $1 - \sin\theta$ to get $\dfrac{1 - \sin\theta}{\cos\theta}$.
+
+Q: $(\sin\theta + \cos\theta)^2$ is equal to
+- 1
+* $1 + 2\sin\theta\cos\theta$
+- $1 - 2\sin\theta\cos\theta$
+- $2\sin\theta\cos\theta$
+W: $\sin^2\theta + \cos^2\theta + 2\sin\theta\cos\theta$.
+
+Q: $\tan^2\theta - \sin^2\theta$ is equal to
+- $\tan^2\theta + \sin^2\theta$
+* $\tan^2\theta \sin^2\theta$
+- $\cos^2\theta$
+- 1
+W: $\sin^2\theta\left(\dfrac{1}{\cos^2\theta} - 1\right) = \sin^2\theta \tan^2\theta$.

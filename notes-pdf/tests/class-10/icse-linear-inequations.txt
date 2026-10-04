@@ -1,0 +1,69 @@
+Q: If $3x - 5 < 4$ and $x$ is a natural number, the solution set is
+- $\{1, 2, 3\}$
+* $\{1, 2\}$
+- $\{0, 1, 2\}$
+- $\{3, 4, 5, \ldots\}$
+W: $x < 3$, and natural numbers start from 1.
+
+Q: If $-3 \le 2x - 1 < 5$ and $x$ is an integer, the solution set is
+- $\{-1, 0, 1, 2, 3\}$
+* $\{-1, 0, 1, 2\}$
+- $\{0, 1, 2\}$
+- $\{-2, -1, 0, 1, 2\}$
+W: Adding 1 and dividing by 2 gives $-1 \le x < 3$.
+
+Q: The solution of $-\dfrac{x}{3} \le 2$ is
+- $x \le -6$
+* $x \ge -6$
+- $x \le 6$
+- $x \ge 6$
+W: Multiplying by $-3$ reverses the sign.
+
+Q: The values of $x$ that satisfy both $2x + 1 \ge 7$ and $3x - 5 \le 10$ are
+- $x \ge 3$
+- $x \le 5$
+* $3 \le x \le 5$
+- $x \le 3$ or $x \ge 5$
+W: The first gives $x \ge 3$ and the second $x \le 5$.
+
+Q: The smallest whole number that satisfies $5 - 2x < 1$ is
+- 1
+- 2
+* 3
+- 4
+W: $-2x < -4$ gives $x > 2$.
+
+Q: On a number line, $-2 < x \le 3$ (for real $x$) is shown with
+- solid dots at both $-2$ and 3
+* a hollow circle at $-2$ and a solid dot at 3
+- a solid dot at $-2$ and a hollow circle at 3
+- hollow circles at both $-2$ and 3
+W: A hollow circle marks an end that is not included.
+
+Q: If $a > b$, then
+- $-a > -b$
+* $-a < -b$
+- $-a = -b$
+- $a - b < 0$
+W: Multiplying by $-1$ reverses an inequality.
+
+Q: If $12 - 5x > 1$ and $x$ is a whole number, the solution set is
+- $\{1, 2\}$
+* $\{0, 1, 2\}$
+- $\{0, 1, 2, 3\}$
+- $\{3, 4, 5, \ldots\}$
+W: $x < 2.2$, and whole numbers start from 0.
+
+Q: The solution of $x + 2 \le 2x - 1$ is
+- $x \le 3$
+* $x \ge 3$
+- $x \ge 1$
+- $x \le -3$
+W: $2 + 1 \le 2x - x$.
+
+Q: The largest integer that satisfies $4x - 3 < 2x + 8$ is
+- 4
+* 5
+- 6
+- 11
+W: $2x < 11$ gives $x < 5.5$.

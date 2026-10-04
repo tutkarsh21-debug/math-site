@@ -1,0 +1,69 @@
+Q: The 6th term of the G.P. 2, 6, 18, ... is
+- 162
+* 486
+- 729
+- 1458
+W: $2 \times 3^5$.
+
+Q: The common ratio of the G.P. 16, 8, 4, ... is
+- 2
+* $\dfrac{1}{2}$
+- $-8$
+- 8
+W: $8 \div 16$.
+
+Q: The sum of the first 5 terms of the G.P. 1, 2, 4, ... is
+- 16
+* 31
+- 32
+- 63
+W: $\dfrac{2^5 - 1}{2 - 1}$.
+
+Q: The geometric mean between 4 and 25 is
+- 14.5
+* 10
+- 29
+- 100
+W: $\sqrt{4 \times 25}$.
+
+Q: The product of three numbers in G.P. is 216. The middle number is
+- 3
+* 6
+- 8
+- 72
+W: Take $\dfrac{a}{r}$, $a$, $ar$: the product is $a^3 = 216$.
+
+Q: The $n$th term of a G.P. with first term $a$ and common ratio $r$ is
+- $a + (n - 1)r$
+* $ar^{n - 1}$
+- $ar^n$
+- $a^n r$
+W: Each term is $r$ times the one before.
+
+Q: Which term of the G.P. 3, 6, 12, ... is 384?
+- 7th
+* 8th
+- 9th
+- 128th
+W: $3 \times 2^{n - 1} = 384$ gives $2^{n - 1} = 128 = 2^7$.
+
+Q: The sum of the first 4 terms of the G.P. 81, 27, 9, ... is
+- 117
+* 120
+- 121
+- 108
+W: $81 + 27 + 9 + 3$.
+
+Q: The 4th term of a G.P. is 24 and the 7th term is 192. The first term is
+- 2
+* 3
+- 6
+- 8
+W: $r^3 = 8$ gives $r = 2$, and $a \times 8 = 24$.
+
+Q: If $k$, 6 and 18 are in G.P., then $k$ is
+- 1
+* 2
+- 3
+- 12
+W: $6^2 = 18k$.

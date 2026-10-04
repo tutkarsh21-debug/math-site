@@ -1,0 +1,69 @@
+Q: The mean of 3, 7, 11, 15 and 19 is
+- 10
+* 11
+- 12
+- 55
+W: The sum is 55, and $55 \div 5 = 11$.
+
+Q: For 9 observations arranged in order, the median is the
+- 4th observation
+* 5th observation
+- 6th observation
+- mean of the 4th and 5th
+W: $\dfrac{n + 1}{2} = 5$.
+
+Q: The median of 2, 4, 5, 7, 8, 10, 12, 13 is
+- 7
+* 7.5
+- 8
+- 7.6
+W: The mean of the 4th and 5th values: $\dfrac{7 + 8}{2}$.
+
+Q: The lower quartile of 3, 5, 7, 8, 10, 12, 14, 15, 18, 20, 22 is
+- 5
+* 7
+- 8
+- 12
+W: With $n = 11$, the lower quartile is the $\dfrac{n + 1}{4}$ = 3rd term.
+
+Q: The upper quartile of 3, 5, 7, 8, 10, 12, 14, 15, 18, 20, 22 is
+- 15
+* 18
+- 20
+- 14
+W: The upper quartile is the $\dfrac{3(n + 1)}{4}$ = 9th term.
+
+Q: If the lower quartile is 7 and the upper quartile is 18, the inter-quartile range is
+- 25
+* 11
+- 12.5
+- 5.5
+W: $Q_3 - Q_1 = 18 - 7$.
+
+Q: The mode of 2, 3, 3, 5, 5, 5, 7 is
+- 3
+* 5
+- 7
+- 4
+W: 5 occurs most often.
+
+Q: In the step-deviation method, $A = 25$, $\Sigma ft = 10$, $\Sigma f = 50$ and the class width is 10. The mean is
+- 25.2
+* 27
+- 35
+- 30
+W: $25 + \dfrac{10}{50} \times 10$.
+
+Q: The classes 0-10 and 10-20 have frequencies 4 and 6. The mean is
+- 10
+* 11
+- 12
+- 15
+W: Using class marks 5 and 15: $\dfrac{20 + 90}{10}$.
+
+Q: The mean of 5, 7, $x$ and 11 is 8. The value of $x$ is
+- 8
+* 9
+- 10
+- 7
+W: $23 + x = 32$.

@@ -1,0 +1,69 @@
+Q: A Rs 100 share is quoted at a premium of Rs 20. Its market value is
+- Rs 80
+- Rs 100
+* Rs 120
+- Rs 20
+W: Market value = nominal value + premium.
+
+Q: The dividend on a share is always calculated on its
+- market value
+* nominal (face) value
+- premium
+- selling price
+W: The dividend rate is a percentage of the face value.
+
+Q: A man holds 50 shares of nominal value Rs 100 each, and the dividend is 8%. His annual income is
+- Rs 40
+* Rs 400
+- Rs 800
+- Rs 4000
+W: 8% of Rs 100 is Rs 8 a share, and $50 \times 8 = 400$.
+
+Q: Rs 3600 is invested in Rs 100 shares quoted at Rs 120. The number of shares bought is
+- 36
+* 30
+- 43
+- 18
+W: $3600 \div 120 = 30$.
+
+Q: A company pays a dividend of 10% on Rs 100 shares quoted at Rs 125. The rate of return on the investment is
+- 10%
+- 12.5%
+* 8%
+- 7.5%
+W: Rs 10 is earned on Rs 125 invested: $\dfrac{10}{125} \times 100$.
+
+Q: A Rs 50 share is quoted at a discount of Rs 10. Its market value is
+- Rs 60
+* Rs 40
+- Rs 45
+- Rs 10
+W: Market value = nominal value − discount.
+
+Q: Rs 9000 is invested in 8% Rs 100 shares quoted at Rs 90. The annual income is
+- Rs 720
+* Rs 800
+- Rs 900
+- Rs 648
+W: 100 shares are bought, each paying Rs 8.
+
+Q: A man sells 60 shares at Rs 150 each. The sale proceeds are
+- Rs 6000
+* Rs 9000
+- Rs 2500
+- Rs 900
+W: $60 \times 150$.
+
+Q: Which is the better investment: 12% Rs 100 shares at Rs 120, or 8% Rs 100 shares at Rs 90?
+* The first, with a return of 10%
+- The second, with a return of 10%
+- The second, with a return of about 8.9%
+- Both give the same return
+W: The first returns $\dfrac{12}{120} = 10\%$; the second returns $\dfrac{8}{90}$, about 8.9%.
+
+Q: To get an annual income of Rs 600 from 10% Rs 100 shares quoted at Rs 110, the sum to be invested is
+- Rs 6000
+* Rs 6600
+- Rs 5400
+- Rs 660
+W: 60 shares are needed, costing $60 \times 110$.

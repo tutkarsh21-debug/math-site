@@ -1,0 +1,69 @@
+Q: To draw a tangent to a circle at a point P on it, we draw
+- a line through P and the centre
+* the perpendicular at P to the radius OP
+- the bisector of OP
+- a chord through P
+W: A tangent is perpendicular to the radius at the point of contact.
+
+Q: To draw tangents to a circle with centre O from an external point P, the first step is to
+- join P to any point on the circle
+* bisect OP and draw a circle on OP as diameter
+- draw a perpendicular at P to OP
+- draw a chord parallel to OP
+W: This circle cuts the given circle at the two points of contact, because the angle in a semicircle is 90°.
+
+Q: The centre of the circumscribed circle of a triangle is the point where
+- the angle bisectors meet
+* the perpendicular bisectors of the sides meet
+- the medians meet
+- the altitudes meet
+W: That point is equidistant from the three vertices.
+
+Q: The centre of the inscribed circle of a triangle is the point where
+* the angle bisectors meet
+- the perpendicular bisectors of the sides meet
+- the medians meet
+- the altitudes meet
+W: That point is equidistant from the three sides.
+
+Q: The radius of the inscribed circle of a triangle is
+- the distance from the incentre to a vertex
+* the perpendicular distance from the incentre to a side
+- half of the longest side
+- the distance between the incentre and the circumcentre
+W: The circle touches each side, so the radius meets the side at right angles.
+
+Q: A regular hexagon is inscribed in a circle by
+- bisecting the diameter three times
+* stepping off the radius six times round the circle
+- drawing three perpendicular diameters
+- drawing tangents at six points
+W: The side of the hexagon equals the radius.
+
+Q: The circumscribed circle of a triangle passes through
+- the mid-points of its sides
+* its three vertices
+- its incentre
+- the feet of its altitudes
+W: It is the circle drawn around the triangle.
+
+Q: A point P is 10 cm from the centre of a circle of radius 6 cm. When measured, each tangent from P should be
+- 4 cm
+* 8 cm
+- 16 cm
+- 11.7 cm
+W: $\sqrt{10^2 - 6^2} = 8$. Measuring the tangents is a check on the construction.
+
+Q: The circumcentre of an obtuse-angled triangle lies
+- inside the triangle
+* outside the triangle
+- on a side of the triangle
+- at a vertex
+W: For an acute-angled triangle it lies inside, and for a right-angled triangle on the hypotenuse.
+
+Q: The circumcentre of a right-angled triangle is
+- the vertex of the right angle
+* the mid-point of the hypotenuse
+- the centroid
+- outside the triangle
+W: The hypotenuse is a diameter of the circumscribed circle.

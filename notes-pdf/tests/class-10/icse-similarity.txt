@@ -1,0 +1,69 @@
+Q: The sides of two similar triangles are in the ratio 2 : 3. Their areas are in the ratio
+- 2 : 3
+* 4 : 9
+- 8 : 27
+- 3 : 2
+W: The ratio of areas is the square of the ratio of sides.
+
+Q: In triangle ABC, DE is parallel to BC, with D on AB and E on AC. If AD = 3 cm, DB = 6 cm and AE = 4 cm, then EC is
+- 2 cm
+* 8 cm
+- 4.5 cm
+- 12 cm
+W: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+
+Q: A map is drawn to a scale of 1 : 20,000. A road 5 cm long on the map has an actual length of
+- 100 m
+* 1 km
+- 10 km
+- 4 km
+W: $5 \times 20000 = 100000$ cm = 1 km.
+
+Q: $\triangle ABC \sim \triangle DEF$, and their areas are 64 sq cm and 121 sq cm. If EF = 15.4 cm, then BC is
+- 8.1 cm
+* 11.2 cm
+- 21.2 cm
+- 8 cm
+W: The sides are in the ratio $\sqrt{64} : \sqrt{121} = 8 : 11$, and $\dfrac{8}{11} \times 15.4 = 11.2$.
+
+Q: A model of a building is made to a scale of 1 : 50. The model is 20 cm high. The actual height is
+- 2.5 m
+* 10 m
+- 100 m
+- 1000 m
+W: $20 \times 50 = 1000$ cm.
+
+Q: One triangle has angles 50° and 60°, and another has angles 60° and 70°. The triangles are
+- congruent
+* similar
+- neither similar nor congruent
+- equal in area
+W: The third angles are 70° and 50°, so all three angles match.
+
+Q: A model is made to a scale of 1 : 100. A floor in the model has area 6 sq cm. The actual area of the floor is
+- 600 sq cm
+* 6 sq m
+- 60 sq m
+- 600 sq m
+W: Areas are multiplied by $100^2$: 60,000 sq cm = 6 sq m.
+
+Q: A model is made to a scale of 1 : 10. A tank in the model has volume 3 cubic cm. The actual volume of the tank is
+- 30 cubic cm
+- 300 cubic cm
+* 3000 cubic cm
+- 30,000 cubic cm
+W: Volumes are multiplied by $10^3$.
+
+Q: In triangle ABC, DE is parallel to BC and AD : DB = 2 : 3. Then DE : BC is
+- 2 : 3
+* 2 : 5
+- 3 : 5
+- 4 : 9
+W: Triangles ADE and ABC are similar, and AD : AB = 2 : 5.
+
+Q: In triangle ABC, DE is parallel to BC and AD : DB = 2 : 3. The ratio of the area of triangle ADE to the area of triangle ABC is
+- 2 : 5
+- 4 : 9
+* 4 : 25
+- 2 : 3
+W: The sides are in the ratio 2 : 5, so the areas are in the ratio $2^2 : 5^2$.

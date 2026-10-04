@@ -34,7 +34,7 @@ const STEPS = [
 const FAQ = [
   { q: 'Which classes and boards are covered?', a: 'Class 8, 9 and 10 Maths for both CBSE and ICSE. Each board has its own chapter list, so you only see the chapters of your syllabus.' },
   { q: 'Is the study material free?', a: 'Yes. The notes, formula banks, DPP sheets, previous year questions and online tests are free and can be used without an account. A free account is needed only to save your test scores.' },
-  { q: 'What do I get on a chapter page?', a: 'Short notes, a formula bank and a DPP sheet as PDFs. Class 10 chapters also have previous year questions with solutions. Chapter tests and video lectures are being added chapter by chapter.' },
+  { q: 'What do I get on a chapter page?', a: 'Short notes, a formula bank and a DPP sheet as PDFs. Class 10 chapters also have previous year questions with solutions. Every chapter has a timed online test of 10 questions. Video lectures are being added chapter by chapter.' },
   { q: 'Which language are the lessons in?', a: 'Video lessons are taught in Hinglish, a mix of Hindi and English. The notes and practice sheets are written in English, as questions appear in the exam.' },
   { q: 'Do you help with Olympiad preparation?', a: 'Yes. The Olympiad page explains how to prepare for SOF IMO alongside your school syllabus.' },
 ];
@@ -134,7 +134,7 @@ export default function Home() {
           <Link className="btn" href="/tests">Open Test Series</Link>
           <Link className="btn btn-outline" href="/sample-papers">Sample Papers</Link>
         </div>
-        <p className="muted small" style={{marginTop:'1rem'}}>{Object.keys(TESTS).length === 1 ? '1 chapter test is ready' : `${Object.keys(TESTS).length} chapter tests are ready`}; more are added chapter by chapter.</p>
+        <p className="muted small" style={{marginTop:'1rem'}}>{Object.keys(TESTS).length} chapter tests are ready, one for every chapter of Class 8, 9 and 10.</p>
       </div>
       <form className="card try reveal">
         <span className="tag">Class 10 · Real Numbers</span>

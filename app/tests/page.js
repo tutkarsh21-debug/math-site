@@ -12,7 +12,7 @@ export default function Tests() {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Test Series</div>
       <h1>Online Test Series (Class 8-10)</h1>
-      <p>Timed chapter tests you take on this site. You get your score, the right answers and an explanation for every question as soon as you submit. {count} chapter tests are ready; more are added chapter by chapter.</p>
+      <p>Timed chapter tests you take on this site. You get your score, the right answers and an explanation for every question as soon as you submit. There are {count} chapter tests, each with 10 questions.</p>
       <p style={{marginTop:'.6rem'}}><Link href="/login">Log in</Link> before a test to save your score in My tests.</p>
     </div></div>
     <section className="section"><div className="wrap">

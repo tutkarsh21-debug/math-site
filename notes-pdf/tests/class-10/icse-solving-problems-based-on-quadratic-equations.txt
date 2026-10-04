@@ -1,0 +1,69 @@
+Q: The product of two consecutive natural numbers is 132. The numbers are
+- 10 and 11
+* 11 and 12
+- 12 and 13
+- 6 and 22
+W: $x(x + 1) = 132$ gives $(x + 12)(x - 11) = 0$.
+
+Q: The sum of a natural number and its square is 72. The number is
+- 6
+* 8
+- 9
+- 12
+W: $x^2 + x - 72 = 0$ gives $(x + 9)(x - 8) = 0$.
+
+Q: The sum of a positive integer and its reciprocal is $\dfrac{10}{3}$. The integer is
+- 2
+* 3
+- 4
+- 10
+W: $3x^2 - 10x + 3 = 0$ gives $x = 3$ or $\dfrac{1}{3}$.
+
+Q: A rectangle has perimeter 34 cm and area 60 sq cm. Its length is
+- 10 cm
+* 12 cm
+- 15 cm
+- 20 cm
+W: $x(17 - x) = 60$ gives $x = 12$ or 5.
+
+Q: The hypotenuse of a right triangle is 13 cm and the other two sides differ by 7 cm. The shortest side is
+- 4 cm
+* 5 cm
+- 6 cm
+- 7 cm
+W: $x^2 + (x + 7)^2 = 169$ gives $x^2 + 7x - 60 = 0$, so $x = 5$.
+
+Q: The product of Ritu's age 2 years ago and her age 4 years from now is 40. Her present age is
+- 4 years
+* 6 years
+- 8 years
+- 10 years
+W: $(x - 2)(x + 4) = 40$ gives $x^2 + 2x - 48 = 0$.
+
+Q: A train covers 360 km at a uniform speed. If the speed were 5 km/h more, the journey would take 1 hour less. The speed of the train is
+- 36 km/h
+* 40 km/h
+- 45 km/h
+- 60 km/h
+W: $\dfrac{360}{x} - \dfrac{360}{x + 5} = 1$ gives $x^2 + 5x - 1800 = 0$.
+
+Q: Some books are bought for Rs 600. If each book cost Rs 5 less, 4 more books could be bought for the same amount. The number of books bought is
+- 15
+* 20
+- 24
+- 30
+W: $\dfrac{600}{x} - \dfrac{600}{x + 4} = 5$ gives $x^2 + 4x - 480 = 0$.
+
+Q: The sides of two squares differ by 4 cm and the sum of their areas is 400 sq cm. The side of the smaller square is
+- 8 cm
+* 12 cm
+- 14 cm
+- 16 cm
+W: $x^2 + (x + 4)^2 = 400$ gives $x^2 + 4x - 192 = 0$.
+
+Q: A takes 5 days less than B to do a job, and together they finish it in 6 days. A alone takes
+- 6 days
+* 10 days
+- 12 days
+- 15 days
+W: $\dfrac{1}{x} + \dfrac{1}{x + 5} = \dfrac{1}{6}$ gives $x^2 - 7x - 30 = 0$.

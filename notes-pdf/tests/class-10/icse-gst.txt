@@ -1,0 +1,69 @@
+Q: For a sale within a state, GST at 18% is charged as
+- IGST at 18%
+* CGST at 9% and SGST at 9%
+- CGST at 18% and SGST at 18%
+- CGST at 6% and SGST at 12%
+W: Within a state the rate is split equally between the centre and the state.
+
+Q: For a sale from one state to another, the tax charged is
+- CGST only
+- SGST only
+- CGST and SGST
+* IGST
+W: Integrated GST applies to inter-state sales, at the full rate.
+
+Q: An article is priced at Rs 5000 and GST is 12%. The bill amount is
+- Rs 5012
+- Rs 5060
+* Rs 5600
+- Rs 6200
+W: The tax is Rs 600.
+
+Q: An article priced at Rs 2000 is sold within a state with GST at 18%. The CGST is
+- Rs 360
+* Rs 180
+- Rs 90
+- Rs 18
+W: CGST is half of the GST: 9% of Rs 2000.
+
+Q: The bill for an article, including GST at 18%, is Rs 5900. The price before tax is
+- Rs 4838
+* Rs 5000
+- Rs 5200
+- Rs 4900
+W: $5900 \div 1.18 = 5000$.
+
+Q: An article marked at Rs 1000 is sold at a discount of 10%, and GST at 12% is charged. The amount paid is
+- Rs 1020
+* Rs 1008
+- Rs 1120
+- Rs 990
+W: The discounted price is Rs 900, and $900 \times 1.12 = 1008$.
+
+Q: A dealer buys goods for Rs 10,000 and sells them for Rs 12,000, both within the same state, with GST at 18%. After input tax credit, the GST he pays to the government is
+- Rs 2160
+- Rs 1800
+* Rs 360
+- Rs 180
+W: Output tax Rs 2160 minus input tax Rs 1800, which is 18% of the value added, Rs 2000.
+
+Q: A bill has one item of Rs 400 taxed at 5% and another of Rs 600 taxed at 18%. The total GST is
+- Rs 230
+- Rs 115
+* Rs 128
+- Rs 108
+W: $20 + 108 = 128$.
+
+Q: An article of Rs 5000 is sold within a state with GST at 28%. The SGST is
+- Rs 1400
+* Rs 700
+- Rs 350
+- Rs 280
+W: SGST is 14% of Rs 5000.
+
+Q: When a discount is given, GST is calculated on
+- the marked price
+* the price after the discount
+- the discount
+- the cost price of the dealer
+W: Tax is charged on the amount at which the article is actually sold.

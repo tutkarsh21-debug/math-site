@@ -1,0 +1,69 @@
+Q: In a recurring deposit account, with monthly deposit P for $n$ months at $r$% per year, the interest is
+- $\dfrac{P \times n \times r}{100}$
+* $P \times \dfrac{n(n + 1)}{2 \times 12} \times \dfrac{r}{100}$
+- $P \times \dfrac{n(n - 1)}{2} \times \dfrac{r}{100}$
+- $P \times \dfrac{n(n + 1)}{2} \times \dfrac{r}{100}$
+W: The deposits together are equal to $P \times \dfrac{n(n + 1)}{2}$ kept for one month, that is $\dfrac{1}{12}$ of a year.
+
+Q: Rs 500 is deposited every month for 12 months at 10% per year. The interest is
+- Rs 600
+* Rs 325
+- Rs 300
+- Rs 650
+W: $500 \times \dfrac{12 \times 13}{24} \times \dfrac{10}{100} = 500 \times 6.5 \times 0.1$.
+
+Q: Rs 500 is deposited every month for 12 months and the interest earned is Rs 325. The maturity value is
+- Rs 6000
+* Rs 6325
+- Rs 6500
+- Rs 825
+W: Total deposits Rs 6000 plus interest Rs 325.
+
+Q: Rs 200 is deposited every month for 36 months at 11% per year. The interest is
+- Rs 792
+* Rs 1221
+- Rs 2442
+- Rs 1110
+W: $200 \times \dfrac{36 \times 37}{24} \times \dfrac{11}{100} = 200 \times 55.5 \times 0.11$.
+
+Q: The maturity value of a recurring deposit account is
+- the interest only
+- the total of the deposits only
+* the total of the deposits plus the interest
+- the last deposit plus the interest
+W: The bank returns all the money deposited, together with the interest.
+
+Q: Rs 1000 is deposited every month for 24 months at 6% per year. The maturity value is
+- Rs 24,000
+- Rs 25,440
+* Rs 25,500
+- Rs 26,880
+W: Interest $= 1000 \times \dfrac{24 \times 25}{24} \times 0.06 = 1500$, added to Rs 24,000.
+
+Q: A recurring deposit for 12 months at 8% per year earns interest of Rs 416. The monthly deposit is
+- Rs 400
+- Rs 520
+* Rs 800
+- Rs 1000
+W: $P \times 6.5 \times 0.08 = 416$ gives $P = 800$.
+
+Q: Rs 600 is deposited every month for 20 months and the interest earned is Rs 630. The rate of interest per year is
+- 5%
+* 6%
+- 8%
+- 10%
+W: $600 \times \dfrac{20 \times 21}{24} \times \dfrac{r}{100} = 105r = 630$.
+
+Q: Rs 100 deposited every month for 12 months is equivalent to how much kept for one month?
+- Rs 1200
+- Rs 6600
+* Rs 7800
+- Rs 15,600
+W: $100 \times \dfrac{12 \times 13}{2} = 7800$.
+
+Q: In a recurring deposit account, the depositor pays
+- one lump sum at the start
+* a fixed amount every month
+- a different amount each month
+- only the interest every month
+W: The same instalment is paid each month for a fixed period.

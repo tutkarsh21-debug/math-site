@@ -1,0 +1,69 @@
+Q: The locus of a point equidistant from two fixed points is
+- the line joining the points
+* the perpendicular bisector of the segment joining them
+- a circle through the points
+- a line parallel to the segment joining them
+W: Every point on the perpendicular bisector is equally far from the two ends.
+
+Q: The locus of a point equidistant from two intersecting lines is
+- a circle
+* the pair of bisectors of the angles between the lines
+- a line parallel to one of them
+- the point of intersection only
+W: A point on an angle bisector is equally far from the two arms.
+
+Q: The locus of a point that stays at a fixed distance from a fixed point is
+- a straight line
+* a circle
+- a square
+- a pair of parallel lines
+W: The fixed point is the centre and the fixed distance is the radius.
+
+Q: The locus of a point equidistant from two parallel lines is
+- a circle
+* a line parallel to them and midway between them
+- a line perpendicular to them
+- a pair of lines
+W: Every point of the midway line is at the same distance from both.
+
+Q: The point equidistant from the three vertices of a triangle is its
+- incentre
+* circumcentre
+- centroid
+- orthocentre
+W: It is where the perpendicular bisectors of the sides meet.
+
+Q: The point equidistant from the three sides of a triangle is its
+* incentre
+- circumcentre
+- centroid
+- orthocentre
+W: It is where the bisectors of the angles meet.
+
+Q: The locus of a point that is 3 cm from a given straight line is
+- one line parallel to it
+* a pair of lines parallel to it, one on each side
+- a circle of radius 3 cm
+- a line perpendicular to it
+W: Points 3 cm away exist on both sides of the line.
+
+Q: The locus of the centres of all circles that pass through two fixed points A and B is
+- the line AB
+* the perpendicular bisector of AB
+- a circle on AB as diameter
+- the mid-point of AB only
+W: Each centre is equidistant from A and B.
+
+Q: The locus of the mid-points of all equal chords of a circle is
+- a diameter
+* a circle concentric with the given circle
+- a chord
+- a tangent
+W: Equal chords are at the same distance from the centre, so their mid-points are too.
+
+Q: A and B are fixed points. The locus of a point P that moves so that $\angle APB = 90°$ is
+- the perpendicular bisector of AB
+* the circle on AB as diameter (apart from A and B)
+- a line parallel to AB
+- the segment AB
+W: The angle in a semicircle is a right angle.

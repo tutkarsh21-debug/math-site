@@ -1,0 +1,69 @@
+Q: The mid-point of the segment joining $(-4, 6)$ and $(8, -2)$ is
+- $(4, 4)$
+* $(2, 2)$
+- $(6, 4)$
+- $(-6, 4)$
+W: $\left(\dfrac{-4 + 8}{2}, \dfrac{6 - 2}{2}\right)$.
+
+Q: The point that divides the segment joining $(2, 3)$ and $(8, 9)$ in the ratio 2 : 1 is
+- $(4, 5)$
+* $(6, 7)$
+- $(5, 6)$
+- $(7, 8)$
+W: $\left(\dfrac{2 \times 8 + 1 \times 2}{3}, \dfrac{2 \times 9 + 1 \times 3}{3}\right)$.
+
+Q: The centroid of the triangle with vertices $(0, 0)$, $(6, 0)$ and $(3, 9)$ is
+- $(3, 4.5)$
+* $(3, 3)$
+- $(4.5, 4.5)$
+- $(9, 9)$
+W: $\left(\dfrac{0 + 6 + 3}{3}, \dfrac{0 + 0 + 9}{3}\right)$.
+
+Q: The $y$-axis divides the segment joining $(-3, 4)$ and $(6, 1)$ in the ratio
+- 2 : 1
+* 1 : 2
+- 1 : 1
+- 3 : 1
+W: The $x$-co-ordinate is 0: $\dfrac{6k - 3}{k + 1} = 0$ gives $k = \dfrac{1}{2}$.
+
+Q: The points of trisection of the segment joining $(0, 0)$ and $(9, 12)$ are
+- $(3, 3)$ and $(6, 6)$
+* $(3, 4)$ and $(6, 8)$
+- $(4.5, 6)$ only
+- $(2, 3)$ and $(4, 6)$
+W: They divide the segment in the ratios 1 : 2 and 2 : 1.
+
+Q: $(3, y)$ is the mid-point of the segment joining $(1, 4)$ and $(5, 10)$. The value of $y$ is
+- 6
+* 7
+- 8
+- 14
+W: $y = \dfrac{4 + 10}{2}$.
+
+Q: M$(4, 3)$ is the mid-point of AB and A is $(2, 5)$. The point B is
+- $(3, 4)$
+* $(6, 1)$
+- $(0, 7)$
+- $(8, 6)$
+W: $B = (2 \times 4 - 2, 2 \times 3 - 5)$.
+
+Q: The centroid of a triangle is $(2, 3)$ and two of its vertices are $(1, 1)$ and $(3, 2)$. The third vertex is
+- $(2, 2)$
+* $(2, 6)$
+- $(6, 9)$
+- $(4, 3)$
+W: The co-ordinates add up to $(6, 9)$, so the third vertex is $(6 - 4, 9 - 3)$.
+
+Q: The $x$-axis divides the segment joining $(1, -6)$ and $(4, 3)$ in the ratio
+- 1 : 2
+* 2 : 1
+- 1 : 1
+- 3 : 1
+W: The $y$-co-ordinate is 0: $\dfrac{3k - 6}{k + 1} = 0$ gives $k = 2$.
+
+Q: A$(1, 1)$, B$(5, 1)$ and C$(7, 4)$ are three vertices of parallelogram ABCD. The vertex D is
+- $(11, 4)$
+* $(3, 4)$
+- $(4, 3)$
+- $(1, 4)$
+W: The diagonals have the same mid-point, so D = A + C − B.

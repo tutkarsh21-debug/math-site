@@ -1,0 +1,69 @@
+Q: The mean proportional between 4 and 9 is
+- 6.5
+* 6
+- 13
+- 36
+W: $\sqrt{4 \times 9} = 6$.
+
+Q: The third proportional to 4 and 6 is
+- 8
+* 9
+- 12
+- 24
+W: $4 : 6 = 6 : x$ gives $x = \dfrac{36}{4}$.
+
+Q: The fourth proportional to 2, 3 and 8 is
+- 9
+- 10
+* 12
+- 16
+W: $2 : 3 = 8 : x$ gives $x = 12$.
+
+Q: If $a : b = 2 : 3$, then $(3a + 2b) : (4a - b)$ is
+- 5 : 12
+* 12 : 5
+- 6 : 5
+- 13 : 5
+W: Put $a = 2$, $b = 3$: $(6 + 6) : (8 - 3)$.
+
+Q: The compounded ratio of 2 : 3 and 4 : 5 is
+- 6 : 8
+* 8 : 15
+- 10 : 12
+- 5 : 6
+W: Multiply the first terms and the second terms.
+
+Q: The duplicate ratio of 3 : 4 is
+- 6 : 8
+* 9 : 16
+- 27 : 64
+- $\sqrt{3} : 2$
+W: The duplicate ratio of $a : b$ is $a^2 : b^2$.
+
+Q: If $\dfrac{a}{b} = \dfrac{c}{d}$, then by componendo and dividendo
+- $\dfrac{a + b}{b} = \dfrac{c + d}{d}$
+* $\dfrac{a + b}{a - b} = \dfrac{c + d}{c - d}$
+- $\dfrac{a}{c} = \dfrac{b}{d}$
+- $\dfrac{b}{a} = \dfrac{d}{c}$
+W: The others are componendo, alternendo and invertendo.
+
+Q: If $\dfrac{x + 3}{x - 3} = \dfrac{5}{2}$, then $x$ is
+- 5
+* 7
+- 9
+- 11
+W: By componendo and dividendo, $\dfrac{2x}{6} = \dfrac{7}{3}$.
+
+Q: What number must be added to each of 3, 5, 7 and 10 so that the results are in proportion?
+- 3
+* 5
+- 7
+- 10
+W: $(3 + x)(10 + x) = (5 + x)(7 + x)$ gives $30 + 13x = 35 + 12x$.
+
+Q: If $a$, $b$, $c$ are in continued proportion, then
+- $a^2 = bc$
+* $b^2 = ac$
+- $c^2 = ab$
+- $a + c = 2b$
+W: $a : b = b : c$.

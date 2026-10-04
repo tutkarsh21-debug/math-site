@@ -1,0 +1,69 @@
+Q: The 20th term of the A.P. 5, 9, 13, ... is
+- 80
+* 81
+- 85
+- 100
+W: $5 + 19 \times 4$.
+
+Q: In the A.P. 4, 7, 10, ..., the number 100 is
+- not a term
+* the 33rd term
+- the 32nd term
+- the 34th term
+W: $4 + (n - 1) \times 3 = 100$ gives $n - 1 = 32$.
+
+Q: The sum of the first 30 terms of the A.P. 1, 3, 5, ... is
+- 870
+* 900
+- 930
+- 465
+W: $\dfrac{30}{2}[2 + 29 \times 2] = 15 \times 60$.
+
+Q: The arithmetic mean between 7 and 19 is
+- 12
+* 13
+- 14
+- 26
+W: $\dfrac{7 + 19}{2}$.
+
+Q: Three numbers in A.P. have sum 24 and product 440. The numbers are
+- 6, 8, 10
+* 5, 8, 11
+- 4, 8, 12
+- 2, 8, 14
+W: Take $a - d$, $a$, $a + d$: $a = 8$ and $8(64 - d^2) = 440$ gives $d = 3$.
+
+Q: The $n$th term of an A.P. is $4n - 1$. Its common difference is
+- $-1$
+- 3
+* 4
+- 5
+W: The terms are 3, 7, 11, ...
+
+Q: The 4th term of an A.P. is 11 and the 9th term is 26. The common difference is
+- 2
+* 3
+- 5
+- 15
+W: $5d = 26 - 11$.
+
+Q: The sum of the first $n$ terms of an A.P. with first term $a$ and common difference $d$ is
+- $n[2a + (n - 1)d]$
+* $\dfrac{n}{2}[2a + (n - 1)d]$
+- $\dfrac{n}{2}[a + (n - 1)d]$
+- $a + (n - 1)d$
+W: It is $\dfrac{n}{2}$ times the sum of the first and last terms.
+
+Q: How many terms of the A.P. 3, 5, 7, ... must be added to get 120?
+- 8
+* 10
+- 12
+- 15
+W: $\dfrac{n}{2}[6 + 2(n - 1)] = n(n + 2) = 120$.
+
+Q: The 10th term from the end of the A.P. 3, 6, 9, ..., 99 is
+- 30
+- 69
+* 72
+- 75
+W: From the end the A.P. is 99, 96, ...: $99 - 9 \times 3$.

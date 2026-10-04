@@ -1,0 +1,69 @@
+Q: The volume of a cylinder of radius 7 cm and height 20 cm is (take $\pi = \dfrac{22}{7}$)
+- 880 cubic cm
+- 1540 cubic cm
+* 3080 cubic cm
+- 6160 cubic cm
+W: $\dfrac{22}{7} \times 49 \times 20$.
+
+Q: The total surface area of a solid cylinder of radius 7 cm and height 13 cm is (take $\pi = \dfrac{22}{7}$)
+- 572 sq cm
+* 880 sq cm
+- 726 sq cm
+- 1760 sq cm
+W: $2\pi r(r + h) = 44 \times 20$.
+
+Q: A cone has radius 6 cm and height 8 cm. Its curved surface area is
+- $48\pi$ sq cm
+* $60\pi$ sq cm
+- $96\pi$ sq cm
+- $80\pi$ sq cm
+W: The slant height is 10 cm, and $\pi r l = 60\pi$.
+
+Q: The volume of a sphere of radius 3 cm is
+- $9\pi$ cubic cm
+- $12\pi$ cubic cm
+* $36\pi$ cubic cm
+- $108\pi$ cubic cm
+W: $\dfrac{4}{3}\pi \times 27$.
+
+Q: The total surface area of a solid hemisphere of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+- 308 sq cm
+* 462 sq cm
+- 616 sq cm
+W: $3\pi r^2 = 3 \times \dfrac{22}{7} \times 49$.
+
+Q: A metal sphere of radius 6 cm is melted and recast into a cylinder of radius 6 cm. The height of the cylinder is
+- 6 cm
+* 8 cm
+- 12 cm
+- 4 cm
+W: $\dfrac{4}{3}\pi \times 216 = \pi \times 36 \times h$.
+
+Q: A cone and a cylinder have the same base radius and the same height. The ratio of their volumes is
+- 1 : 2
+* 1 : 3
+- 3 : 1
+- 2 : 3
+W: The volume of the cone is one-third that of the cylinder.
+
+Q: How many lead balls of radius 1 cm can be made from a lead sphere of radius 4 cm?
+- 4
+- 16
+* 64
+- 256
+W: The volumes are in the ratio $4^3 : 1^3$.
+
+Q: The volume of a cone of radius 7 cm and height 6 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 cubic cm
+* 308 cubic cm
+- 462 cubic cm
+- 924 cubic cm
+W: $\dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 6$.
+
+Q: A hollow cylinder has external radius 4 cm, internal radius 3 cm and height 7 cm. The volume of the material is (take $\pi = \dfrac{22}{7}$)
+- 22 cubic cm
+* 154 cubic cm
+- 198 cubic cm
+- 352 cubic cm
+W: $\dfrac{22}{7} \times (16 - 9) \times 7$.

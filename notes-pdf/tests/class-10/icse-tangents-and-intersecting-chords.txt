@@ -1,0 +1,69 @@
+Q: A point is 25 cm from the centre of a circle of radius 7 cm. The length of the tangent from the point is
+- 18 cm
+* 24 cm
+- 26 cm
+- 32 cm
+W: $\sqrt{25^2 - 7^2} = \sqrt{576}$.
+
+Q: Two circles of radii 5 cm and 3 cm touch each other externally. The distance between their centres is
+- 2 cm
+* 8 cm
+- 15 cm
+- 4 cm
+W: For external contact, the distance is the sum of the radii.
+
+Q: Two circles of radii 8 cm and 3 cm touch each other internally. The distance between their centres is
+- 11 cm
+* 5 cm
+- 24 cm
+- 2.5 cm
+W: For internal contact, the distance is the difference of the radii.
+
+Q: Chords AB and CD of a circle meet at a point P inside it. If PA = 4 cm, PB = 6 cm and PC = 3 cm, then PD is
+- 7 cm
+* 8 cm
+- 4.5 cm
+- 2 cm
+W: $PA \times PB = PC \times PD$ gives $24 = 3 \times PD$.
+
+Q: From an external point P, a tangent PT and a secant PAB are drawn to a circle. If PA = 4 cm and PB = 9 cm, then PT is
+- 5 cm
+* 6 cm
+- 6.5 cm
+- 36 cm
+W: $PT^2 = PA \times PB = 36$.
+
+Q: The angle between a tangent and a chord through the point of contact is 55°. The angle in the alternate segment is
+- 35°
+* 55°
+- 110°
+- 125°
+W: This is the alternate segment theorem.
+
+Q: A circle touches the sides BC, CA and AB of triangle ABC at D, E and F. If AF = 3 cm, BD = 4 cm and CE = 5 cm, the perimeter of the triangle is
+- 12 cm
+* 24 cm
+- 18 cm
+- 36 cm
+W: Tangents from each vertex are equal, so the perimeter is $2(3 + 4 + 5)$.
+
+Q: The number of common tangents to two circles that touch each other externally is
+- 1
+- 2
+* 3
+- 4
+W: Two direct common tangents and one at the point of contact.
+
+Q: Two secants PAB and PCD are drawn to a circle from an external point P. If PA = 3 cm, PB = 12 cm and PC = 4 cm, then PD is
+- 8 cm
+* 9 cm
+- 11 cm
+- 16 cm
+W: $PA \times PB = PC \times PD$ gives $36 = 4 \times PD$.
+
+Q: The angle between a tangent and the radius drawn to the point of contact is
+- 0°
+- 45°
+* 90°
+- 180°
+W: A tangent is perpendicular to the radius at the point of contact.
