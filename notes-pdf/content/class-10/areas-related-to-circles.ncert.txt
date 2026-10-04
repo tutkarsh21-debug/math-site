@@ -1,0 +1,61 @@
+T: Exercise 11.1
+Q: [Q1] Find the area of a sector of a circle of radius 6 cm with sector angle $60°$. (Use $\pi = \dfrac{22}{7}$ unless told otherwise.)
+S: Area of a sector $= \dfrac{\theta}{360} \times \pi r^2 = \dfrac{60}{360} \times \dfrac{22}{7} \times 6 \times 6 = \dfrac{132}{7}$.
+S: **Answer: $\dfrac{132}{7}$ cm$^2$ (about 18.86 cm$^2$)**
+Q: [Q2] Find the area of a quadrant of a circle whose circumference is 22 cm.
+S: $2\pi r = 22$ gives $r = \dfrac{22 \times 7}{2 \times 22} = \dfrac{7}{2}$ cm.
+S: Area of a quadrant $= \dfrac{1}{4}\pi r^2 = \dfrac{1}{4} \times \dfrac{22}{7} \times \dfrac{7}{2} \times \dfrac{7}{2} = \dfrac{77}{8}$.
+S: **Answer: $\dfrac{77}{8}$ cm$^2$**
+Q: [Q3] The minute hand of a clock is 14 cm long. Find the area it sweeps in 5 minutes.
+S: In 60 minutes the hand turns through $360°$, so in 5 minutes it turns through $30°$.
+S: Area $= \dfrac{30}{360} \times \dfrac{22}{7} \times 14 \times 14 = \dfrac{154}{3}$.
+S: **Answer: $\dfrac{154}{3}$ cm$^2$ (about 51.33 cm$^2$)**
+Q: [Q4] A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of (i) the minor segment (ii) the major sector. (Use $\pi = 3.14$.)
+S: Area of the minor sector $= \dfrac{90}{360} \times 3.14 \times 100 = 78.5$ cm$^2$. Area of the right triangle formed by the radii $= \dfrac{1}{2} \times 10 \times 10 = 50$ cm$^2$.
+S: (i) Minor segment $= 78.5 - 50 = 28.5$ cm$^2$.
+S: (ii) Major sector $=$ area of the circle $-$ minor sector $= 314 - 78.5 = 235.5$ cm$^2$.
+S: **Answer: (i) 28.5 cm$^2$ (ii) 235.5 cm$^2$**
+Q: [Q5] In a circle of radius 21 cm, an arc subtends an angle of $60°$ at the centre. Find (i) the length of the arc (ii) the area of the sector (iii) the area of the segment formed by the corresponding chord.
+S: (i) Arc length $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = 22$ cm.
+S: (ii) Area of the sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 21 \times 21 = 231$ cm$^2$.
+S: (iii) The triangle formed by the two radii and the chord is equilateral (two equal sides with an angle of $60°$ between them). Its area is $\dfrac{\sqrt{3}}{4} \times 21^2 = \dfrac{441\sqrt{3}}{4}$ cm$^2$. Segment $= 231 - \dfrac{441\sqrt{3}}{4}$ cm$^2$.
+S: **Answer: (i) 22 cm (ii) 231 cm$^2$ (iii) $\left(231 - \dfrac{441\sqrt{3}}{4}\right)$ cm$^2$**
+Q: [Q6] A chord of a circle of radius 15 cm subtends an angle of $60°$ at the centre. Find the areas of the minor and major segments. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
+S: Area of the sector $= \dfrac{60}{360} \times 3.14 \times 225 = 117.75$ cm$^2$.
+S: The triangle is equilateral with side 15 cm: area $= \dfrac{\sqrt{3}}{4} \times 225 = 1.73 \times 56.25 = 97.3125$ cm$^2$.
+S: Minor segment $= 117.75 - 97.3125 = 20.4375$ cm$^2$. Major segment $= 3.14 \times 225 - 20.4375 = 706.5 - 20.4375 = 686.0625$ cm$^2$.
+S: **Answer: minor segment 20.4375 cm$^2$, major segment 686.0625 cm$^2$**
+Q: [Q7] A chord of a circle of radius 12 cm subtends an angle of $120°$ at the centre. Find the area of the corresponding segment. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
+S: Area of the sector $= \dfrac{120}{360} \times 3.14 \times 144 = 150.72$ cm$^2$.
+S: Draw the perpendicular from the centre to the chord. It makes two right triangles with angles of $60°$ at the centre: the height is $12\cos 60° = 6$ cm and half the chord is $12\sin 60° = 6\sqrt{3}$ cm.
+S: Area of the triangle $= \dfrac{1}{2} \times 12\sqrt{3} \times 6 = 36\sqrt{3} = 62.28$ cm$^2$.
+S: **Answer: segment $= 150.72 - 62.28 = 88.44$ cm$^2$**
+Q: [Q8] A horse is tied to a peg at one corner of a square field of side 15 m by a rope 5 m long. Find (i) the area of the field the horse can graze (ii) the increase in the grazing area if the rope were 10 m long. (Use $\pi = 3.14$.)
+S: The corner angle is $90°$, so the horse grazes a quadrant of a circle whose radius is the length of the rope.
+S: (i) $\dfrac{1}{4} \times 3.14 \times 5^2 = 19.625$ m$^2$.
+S: (ii) With a 10 m rope: $\dfrac{1}{4} \times 3.14 \times 10^2 = 78.5$ m$^2$. Increase $= 78.5 - 19.625 = 58.875$ m$^2$.
+S: **Answer: (i) 19.625 m$^2$ (ii) 58.875 m$^2$**
+Q: [Q9] A brooch is made of silver wire as a circle of diameter 35 mm, with 5 diameters that divide it into 10 equal sectors. Find (i) the total length of wire needed (ii) the area of each sector.
+S: (i) Circumference $= \dfrac{22}{7} \times 35 = 110$ mm. Five diameters $= 5 \times 35 = 175$ mm. Total $= 285$ mm.
+S: (ii) Each sector has angle $36°$: area $= \dfrac{1}{10} \times \dfrac{22}{7} \times \dfrac{35}{2} \times \dfrac{35}{2} = \dfrac{385}{4}$ mm$^2$.
+S: **Answer: (i) 285 mm (ii) $\dfrac{385}{4}$ mm$^2$ (96.25 mm$^2$)**
+Q: [Q10] An umbrella has 8 equally spaced ribs. Taking it as a flat circle of radius 45 cm, find the area between two consecutive ribs.
+S: The ribs divide the circle into 8 equal sectors, each with angle $45°$.
+S: Area $= \dfrac{1}{8} \times \dfrac{22}{7} \times 45 \times 45 = \dfrac{22275}{28}$.
+S: **Answer: $\dfrac{22275}{28}$ cm$^2$ (about 795.54 cm$^2$)**
+Q: [Q11] A car has two wipers that do not overlap. Each blade is 25 cm long and sweeps through $115°$. Find the total area cleaned at each sweep.
+S: Area swept by one blade $= \dfrac{115}{360} \times \dfrac{22}{7} \times 25 \times 25$.
+S: Total for two blades $= 2 \times \dfrac{115}{360} \times \dfrac{22}{7} \times 625 = \dfrac{158125}{126}$.
+S: **Answer: $\dfrac{158125}{126}$ cm$^2$ (about 1254.96 cm$^2$)**
+Q: [Q12] A lighthouse spreads a red light over a sector of angle $80°$ to a distance of 16.5 km. Find the area of the sea over which ships are warned. (Use $\pi = 3.14$.)
+S: Area $= \dfrac{80}{360} \times 3.14 \times 16.5 \times 16.5 = \dfrac{2}{9} \times 3.14 \times 272.25 = 189.97$.
+S: **Answer: about 189.97 km$^2$**
+Q: [Q13] A round table cover of radius 28 cm has six equal designs, each the segment between a side of a regular hexagon drawn in the circle and the arc above it. Find the cost of making the designs at ₹0.35 per cm$^2$. (Use $\sqrt{3} = 1.7$.)
+S: Each side of the hexagon subtends $60°$ at the centre, so each design is a segment of angle $60°$, and its triangle is equilateral with side 28 cm.
+S: One sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 28 \times 28 = \dfrac{1232}{3}$ cm$^2$. One triangle $= \dfrac{\sqrt{3}}{4} \times 28^2 = 1.7 \times 196 = 333.2$ cm$^2$.
+S: Six designs $= 6\left(\dfrac{1232}{3} - 333.2\right) = 2464 - 1999.2 = 464.8$ cm$^2$.
+S: Cost $= 464.8 \times 0.35 =$ ₹162.68.
+S: **Answer: ₹162.68**
+Q: [Q14] The area of a sector of angle $p$ (in degrees) of a circle of radius $R$ is (A) $\dfrac{p}{180} \times 2\pi R$ (B) $\dfrac{p}{180} \times \pi R^2$ (C) $\dfrac{p}{360} \times 2\pi R$ (D) $\dfrac{p}{720} \times 2\pi R^2$.
+S: Area of a sector $= \dfrac{p}{360} \times \pi R^2 = \dfrac{p}{720} \times 2\pi R^2$.
+S: **Answer: (D)**

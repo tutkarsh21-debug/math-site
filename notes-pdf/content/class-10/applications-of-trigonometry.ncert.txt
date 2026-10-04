@@ -1,0 +1,64 @@
+T: Exercise 9.1
+Q: [Q1] A 20 m rope is stretched tight from the top of a vertical pole to the ground and makes an angle of $30°$ with the ground. Find the height of the pole.
+!fig w=300 h=205; P B 70 170 bl; P A 70 70 t; P C 243 170 br; L A B; L B C; H A C; R A B C; A B C A 30°; N A C 20 m
+S: Let $AB$ be the pole and $AC$ the rope. In right triangle $ABC$, $\sin 30° = \dfrac{AB}{AC}$.
+S: $\dfrac{1}{2} = \dfrac{AB}{20}$, so $AB = 10$ m.
+S: **Answer: 10 m**
+Q: [Q2] A tree breaks in a storm and its top touches the ground 8 m from the foot of the tree, making an angle of $30°$ with the ground. Find the height of the tree.
+S: Let the tree break at a height $h$, and let the broken part have length $l$. The standing part, the ground and the broken part form a right triangle with base 8 m.
+S: $\tan 30° = \dfrac{h}{8}$ gives $h = \dfrac{8}{\sqrt{3}}$ m. $\cos 30° = \dfrac{8}{l}$ gives $l = \dfrac{16}{\sqrt{3}}$ m.
+S: Height of the tree $= h + l = \dfrac{24}{\sqrt{3}} = 8\sqrt{3}$ m.
+S: **Answer: $8\sqrt{3}$ m (about 13.86 m)**
+Q: [Q3] Two slides are planned in a park: one whose top is 1.5 m high and inclined at $30°$ to the ground, and a steeper one whose top is 3 m high and inclined at $60°$. Find the length of each slide.
+S: In each case the slide is the hypotenuse and the height is the side opposite the angle, so length $= \dfrac{\text{height}}{\sin\theta}$.
+S: First slide: $\dfrac{1.5}{\sin 30°} = \dfrac{1.5}{1/2} = 3$ m. Second slide: $\dfrac{3}{\sin 60°} = \dfrac{3 \times 2}{\sqrt{3}} = 2\sqrt{3}$ m.
+S: **Answer: 3 m and $2\sqrt{3}$ m**
+Q: [Q4] The angle of elevation of the top of a tower from a point on the ground 30 m from its foot is $30°$. Find the height of the tower.
+S: $\tan 30° = \dfrac{h}{30}$, so $h = \dfrac{30}{\sqrt{3}} = 10\sqrt{3}$ m.
+S: **Answer: $10\sqrt{3}$ m**
+Q: [Q5] A kite flies 60 m above the ground. Its string is tied to a point on the ground and makes an angle of $60°$ with the ground. Find the length of the string, assuming it is straight.
+S: $\sin 60° = \dfrac{60}{l}$, so $l = \dfrac{60 \times 2}{\sqrt{3}} = 40\sqrt{3}$ m.
+S: **Answer: $40\sqrt{3}$ m**
+Q: [Q6] A boy 1.5 m tall stands some distance from a 30 m tall building. As he walks towards it, the angle of elevation of its top from his eyes increases from $30°$ to $60°$. How far did he walk?
+S: The top of the building is $30 - 1.5 = 28.5$ m above his eye level.
+S: At $30°$ his distance from the building is $\dfrac{28.5}{\tan 30°} = 28.5\sqrt{3}$ m. At $60°$ it is $\dfrac{28.5}{\tan 60°} = \dfrac{28.5}{\sqrt{3}}$ m.
+S: Distance walked $= 28.5\sqrt{3} - \dfrac{28.5}{\sqrt{3}} = \dfrac{28.5 \times 2}{\sqrt{3}} = \dfrac{57}{\sqrt{3}} = 19\sqrt{3}$ m.
+S: **Answer: $19\sqrt{3}$ m**
+Q: [Q7] From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed on a 20 m high building are $45°$ and $60°$. Find the height of the tower.
+S: Let the point be $d$ m from the building and the tower be $h$ m high.
+S: $\tan 45° = \dfrac{20}{d}$ gives $d = 20$. $\tan 60° = \dfrac{20 + h}{d}$ gives $20 + h = 20\sqrt{3}$.
+S: **Answer: $h = 20(\sqrt{3} - 1)$ m (about 14.64 m)**
+Q: [Q8] A statue 1.6 m tall stands on a pedestal. From a point on the ground the angle of elevation of the top of the statue is $60°$ and that of the top of the pedestal is $45°$. Find the height of the pedestal.
+S: Let the pedestal be $h$ m high and the point be $d$ m away. $\tan 45° = \dfrac{h}{d}$ gives $d = h$.
+S: $\tan 60° = \dfrac{h + 1.6}{h}$ gives $h\sqrt{3} = h + 1.6$, so $h = \dfrac{1.6}{\sqrt{3} - 1} = \dfrac{1.6(\sqrt{3} + 1)}{2} = 0.8(\sqrt{3} + 1)$.
+S: **Answer: $0.8(\sqrt{3} + 1)$ m (about 2.19 m)**
+Q: [Q9] The angle of elevation of the top of a building from the foot of a tower is $30°$, and the angle of elevation of the top of the tower from the foot of the building is $60°$. The tower is 50 m high. Find the height of the building.
+S: Let the distance between them be $d$ m and the building be $h$ m high.
+S: $\tan 60° = \dfrac{50}{d}$ gives $d = \dfrac{50}{\sqrt{3}}$. $\tan 30° = \dfrac{h}{d}$ gives $h = \dfrac{d}{\sqrt{3}} = \dfrac{50}{3}$.
+S: **Answer: $16\dfrac{2}{3}$ m**
+Q: [Q10] Two poles of equal height stand on opposite sides of a road 80 m wide. From a point on the road between them, the angles of elevation of their tops are $60°$ and $30°$. Find the height of the poles and the distances of the point from them.
+S: Let each pole be $h$ m high and the point be $x$ m from the pole seen at $60°$, so $(80 - x)$ m from the other.
+S: $\tan 60° = \dfrac{h}{x}$ gives $h = \sqrt{3}\,x$. $\tan 30° = \dfrac{h}{80 - x}$ gives $h = \dfrac{80 - x}{\sqrt{3}}$.
+S: So $3x = 80 - x$, $x = 20$ and $h = 20\sqrt{3}$.
+S: **Answer: the poles are $20\sqrt{3}$ m high, and the point is 20 m and 60 m from them**
+Q: [Q11] A TV tower stands on one bank of a canal. From the point directly opposite on the other bank the angle of elevation of its top is $60°$. From a point 20 m further back on the same line the angle is $30°$. Find the height of the tower and the width of the canal.
+!fig w=310 h=215; P B 60 180 bl; P A 60 60 t; P C 129 180 b; P D 268 180 br; L A B; L B D; L A C; L A D; R A B C; A B C A 60°; A B D A 30°; M C D 20 m
+S: Let $AB = h$ be the tower and $BC = x$ the width of the canal, with $CD = 20$ m.
+S: In $\triangle ABC$: $\tan 60° = \dfrac{h}{x}$, so $h = \sqrt{3}\,x$. In $\triangle ABD$: $\tan 30° = \dfrac{h}{x + 20}$, so $x + 20 = \sqrt{3}\,h = 3x$.
+S: So $x = 10$ and $h = 10\sqrt{3}$.
+S: **Answer: the tower is $10\sqrt{3}$ m high and the canal is 10 m wide**
+Q: [Q12] From the top of a 7 m high building, the angle of elevation of the top of a cable tower is $60°$ and the angle of depression of its foot is $45°$. Find the height of the tower.
+S: Let the horizontal distance be $d$ m. The angle of depression of the foot is $45°$, so $\tan 45° = \dfrac{7}{d}$ and $d = 7$.
+S: The part of the tower above the level of the building top is $d\tan 60° = 7\sqrt{3}$ m.
+S: **Answer: $7 + 7\sqrt{3} = 7(\sqrt{3} + 1)$ m (about 19.12 m)**
+Q: [Q13] From the top of a lighthouse 75 m above sea level, the angles of depression of two ships are $30°$ and $45°$. One ship is exactly behind the other on the same side. Find the distance between the ships.
+S: The ship seen at $45°$ is $\dfrac{75}{\tan 45°} = 75$ m from the foot of the lighthouse. The ship seen at $30°$ is $\dfrac{75}{\tan 30°} = 75\sqrt{3}$ m away.
+S: **Answer: $75\sqrt{3} - 75 = 75(\sqrt{3} - 1)$ m (about 54.9 m)**
+Q: [Q14] A girl 1.2 m tall sees a balloon moving in a horizontal line at a height of 88.2 m. The angle of elevation of the balloon from her eyes is $60°$ and, some time later, $30°$. Find the distance travelled by the balloon in that time.
+S: The balloon is $88.2 - 1.2 = 87$ m above her eye level.
+S: Horizontal distance at $60°$: $\dfrac{87}{\tan 60°} = \dfrac{87}{\sqrt{3}} = 29\sqrt{3}$ m. At $30°$: $\dfrac{87}{\tan 30°} = 87\sqrt{3}$ m.
+S: **Answer: $87\sqrt{3} - 29\sqrt{3} = 58\sqrt{3}$ m**
+Q: [Q15] A straight highway leads to the foot of a tower. From the top of the tower a car is seen at an angle of depression of $30°$, approaching at a uniform speed. Six seconds later the angle of depression is $60°$. How much more time does the car take to reach the foot of the tower?
+S: Let the tower be $h$ m high. The car is first $\dfrac{h}{\tan 30°} = \sqrt{3}\,h$ away and then $\dfrac{h}{\tan 60°} = \dfrac{h}{\sqrt{3}}$ away.
+S: In 6 seconds it covers $\sqrt{3}\,h - \dfrac{h}{\sqrt{3}} = \dfrac{2h}{\sqrt{3}}$. The remaining distance $\dfrac{h}{\sqrt{3}}$ is half of this, so at the same speed it takes half the time.
+S: **Answer: 3 seconds**

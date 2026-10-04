@@ -1,0 +1,77 @@
+T: Exercise 12.1
+Q: [Q1] Two cubes, each of volume 64 cm$^3$, are joined end to end. Find the surface area of the cuboid formed. (Take $\pi = \dfrac{22}{7}$ in this chapter unless told otherwise.)
+S: Side of each cube $= \sqrt[3]{64} = 4$ cm. The cuboid measures $8 \times 4 \times 4$ cm.
+S: Surface area $= 2(lb + bh + hl) = 2(32 + 16 + 32) = 160$.
+S: **Answer: 160 cm$^2$**
+Q: [Q2] A vessel is a hollow hemisphere with a hollow cylinder mounted on it. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find its inner surface area.
+S: $r = 7$ cm, and the height of the cylinder is $13 - 7 = 6$ cm.
+S: Inner surface area $= 2\pi r^2 + 2\pi r h = 2\pi r(r + h) = 2 \times \dfrac{22}{7} \times 7 \times 13 = 572$.
+S: **Answer: 572 cm$^2$**
+Q: [Q3] A toy is a cone of radius 3.5 cm mounted on a hemisphere of the same radius. Its total height is 15.5 cm. Find the total surface area of the toy.
+S: Height of the cone $= 15.5 - 3.5 = 12$ cm, so its slant height is $l = \sqrt{3.5^2 + 12^2} = \sqrt{156.25} = 12.5$ cm.
+S: Total surface area $= \pi r l + 2\pi r^2 = \pi r(l + 2r) = \dfrac{22}{7} \times 3.5 \times (12.5 + 7) = 11 \times 19.5 = 214.5$.
+S: **Answer: 214.5 cm$^2$**
+Q: [Q4] A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.
+S: The hemisphere must fit on one face of the cube, so its greatest diameter is 7 cm and $r = 3.5$ cm.
+S: Surface area $=$ surface of the cube $-$ area of the circle covered $+$ curved surface of the hemisphere $= 6 \times 49 - \pi r^2 + 2\pi r^2 = 294 + \pi r^2$.
+S: $= 294 + \dfrac{22}{7} \times 3.5 \times 3.5 = 294 + 38.5 = 332.5$.
+S: **Answer: greatest diameter 7 cm, surface area 332.5 cm$^2$**
+Q: [Q5] A hemispherical depression is cut out of one face of a cubical wooden block, with the diameter $l$ of the hemisphere equal to the edge of the cube. Find the surface area of the remaining solid.
+S: The radius of the hemisphere is $\dfrac{l}{2}$. One face loses a circle of area $\pi\left(\dfrac{l}{2}\right)^2$ and gains the curved surface $2\pi\left(\dfrac{l}{2}\right)^2$.
+S: Surface area $= 6l^2 - \dfrac{\pi l^2}{4} + \dfrac{\pi l^2}{2} = 6l^2 + \dfrac{\pi l^2}{4}$.
+S: **Answer: $\dfrac{l^2}{4}(24 + \pi)$ square units**
+Q: [Q6] A medicine capsule is a cylinder with a hemisphere at each end. The whole capsule is 14 mm long and 5 mm in diameter. Find its surface area.
+S: $r = 2.5$ mm. The cylindrical part is $14 - 2 \times 2.5 = 9$ mm long.
+S: Surface area $= 2\pi r h + 2 \times 2\pi r^2 = 2\pi r(h + 2r) = 2 \times \dfrac{22}{7} \times 2.5 \times 14 = 220$.
+S: **Answer: 220 mm$^2$**
+Q: [Q7] A tent is a cylinder with a conical top. The cylindrical part is 2.1 m high and 4 m in diameter, and the slant height of the top is 2.8 m. Find the area of canvas used, and its cost at ₹500 per m$^2$. (The base is not covered.)
+S: $r = 2$ m. Canvas area $=$ curved surface of the cylinder $+$ curved surface of the cone $= 2\pi r h + \pi r l = \pi r(2h + l)$.
+S: $= \dfrac{22}{7} \times 2 \times (4.2 + 2.8) = 44$ m$^2$.
+S: Cost $= 44 \times 500 =$ ₹22,000.
+S: **Answer: 44 m$^2$ and ₹22,000**
+Q: [Q8] From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm$^2$.
+S: $r = 0.7$ cm, $h = 2.4$ cm, and the slant height of the cone is $l = \sqrt{0.7^2 + 2.4^2} = \sqrt{6.25} = 2.5$ cm.
+S: Total surface area $=$ curved surface of the cylinder $+$ one circular base $+$ curved surface of the cone $= 2\pi r h + \pi r^2 + \pi r l = \pi r(2h + r + l)$.
+S: $= \dfrac{22}{7} \times 0.7 \times (4.8 + 0.7 + 2.5) = 2.2 \times 8 = 17.6$ cm$^2$.
+S: **Answer: about 18 cm$^2$**
+Q: [Q9] A wooden article is made by scooping out a hemisphere from each end of a solid cylinder of height 10 cm and base radius 3.5 cm. Find its total surface area.
+S: Total surface area $=$ curved surface of the cylinder $+$ two hemispherical surfaces $= 2\pi r h + 2 \times 2\pi r^2 = 2\pi r(h + 2r)$.
+S: $= 2 \times \dfrac{22}{7} \times 3.5 \times (10 + 7) = 22 \times 17 = 374$.
+S: **Answer: 374 cm$^2$**
+
+T: Exercise 12.2
+Q: [Q1] A solid is a cone standing on a hemisphere, both of radius 1 cm, and the height of the cone equals its radius. Find the volume of the solid in terms of $\pi$.
+S: Volume $= \dfrac{2}{3}\pi r^3 + \dfrac{1}{3}\pi r^2 h = \dfrac{2}{3}\pi (1)^3 + \dfrac{1}{3}\pi (1)^2 (1) = \pi$.
+S: **Answer: $\pi$ cm$^3$**
+Q: [Q2] A model is a cylinder with a cone attached at each end, made of thin aluminium sheet. Its diameter is 3 cm, its length is 12 cm and each cone is 2 cm high. Find the volume of air in the model.
+S: $r = 1.5$ cm. The cylinder is $12 - 2 - 2 = 8$ cm long.
+S: Volume $= \pi r^2 \times 8 + 2 \times \dfrac{1}{3}\pi r^2 \times 2 = \pi \times 2.25 \times \left(8 + \dfrac{4}{3}\right) = 21\pi = 21 \times \dfrac{22}{7} = 66$.
+S: **Answer: 66 cm$^3$**
+Q: [Q3] A gulab jamun contains sugar syrup up to about 30% of its volume. Each is shaped like a cylinder with two hemispherical ends, with length 5 cm and diameter 2.8 cm. About how much syrup is there in 45 gulab jamuns?
+S: $r = 1.4$ cm. The cylindrical part is $5 - 2.8 = 2.2$ cm long.
+S: Volume of one $= \pi r^2 h + \dfrac{4}{3}\pi r^3 = \pi r^2\left(h + \dfrac{4r}{3}\right) = \dfrac{22}{7} \times 1.96 \times \left(2.2 + \dfrac{5.6}{3}\right) \approx 25.05$ cm$^3$.
+S: Volume of 45 $\approx 1127.28$ cm$^3$. Syrup $= 30\%$ of this $\approx 338$ cm$^3$.
+S: **Answer: about 338 cm$^3$**
+Q: [Q4] A wooden pen stand is a cuboid 15 cm by 10 cm by 3.5 cm with four conical depressions, each of radius 0.5 cm and depth 1.4 cm. Find the volume of wood in the stand.
+S: Volume of the cuboid $= 15 \times 10 \times 3.5 = 525$ cm$^3$.
+S: Volume of four cones $= 4 \times \dfrac{1}{3} \times \dfrac{22}{7} \times 0.5^2 \times 1.4 = \dfrac{22}{15} \approx 1.47$ cm$^3$.
+S: **Answer: $525 - 1.47 = 523.53$ cm$^3$**
+Q: [Q5] A vessel is an inverted cone of height 8 cm with an open top of radius 5 cm, full of water. Lead shots, each a sphere of radius 0.5 cm, are dropped in and one-fourth of the water flows out. Find the number of lead shots.
+S: Volume of water $= \dfrac{1}{3}\pi \times 5^2 \times 8 = \dfrac{200\pi}{3}$ cm$^3$. The water that flows out is $\dfrac{1}{4}$ of this, $\dfrac{50\pi}{3}$ cm$^3$, and equals the volume of the shots.
+S: Volume of one shot $= \dfrac{4}{3}\pi \times 0.5^3 = \dfrac{\pi}{6}$ cm$^3$.
+S: Number of shots $= \dfrac{50\pi}{3} \div \dfrac{\pi}{6} = 100$.
+S: **Answer: 100**
+Q: [Q6] A solid iron pole is a cylinder of height 220 cm and base diameter 24 cm, with another cylinder of height 60 cm and radius 8 cm on top. Find the mass of the pole if 1 cm$^3$ of iron has a mass of about 8 g. (Use $\pi = 3.14$.)
+S: Volume $= \pi \times 12^2 \times 220 + \pi \times 8^2 \times 60 = 3.14 \times (31680 + 3840) = 3.14 \times 35520 = 111532.8$ cm$^3$.
+S: Mass $= 111532.8 \times 8 = 892262.4$ g.
+S: **Answer: about 892.26 kg**
+Q: [Q7] A solid made of a cone of height 120 cm and radius 60 cm standing on a hemisphere of radius 60 cm is placed upright in a cylinder full of water, touching the bottom. The cylinder has radius 60 cm and height 180 cm. Find the volume of water left in the cylinder.
+S: Volume of the cylinder $= \pi \times 60^2 \times 180 = 648000\pi$ cm$^3$.
+S: Volume of the solid $= \dfrac{1}{3}\pi \times 60^2 \times 120 + \dfrac{2}{3}\pi \times 60^3 = 144000\pi + 144000\pi = 288000\pi$ cm$^3$.
+S: Water left $= 648000\pi - 288000\pi = 360000\pi = 360000 \times \dfrac{22}{7} \approx 1131428.57$ cm$^3$.
+S: **Answer: about 1131428.57 cm$^3$, that is about 1.131 m$^3$**
+Q: [Q8] A spherical glass vessel has a cylindrical neck 8 cm long and 2 cm in diameter, and the spherical part is 8.5 cm in diameter. A child measures its volume as 345 cm$^3$. Is she correct? (Take these as inside measurements and $\pi = 3.14$.)
+S: Volume of the sphere $= \dfrac{4}{3} \times 3.14 \times 4.25^3 = \dfrac{4}{3} \times 3.14 \times 76.765625 \approx 321.39$ cm$^3$.
+S: Volume of the neck $= 3.14 \times 1^2 \times 8 = 25.12$ cm$^3$.
+S: Total $\approx 321.39 + 25.12 = 346.51$ cm$^3$.
+S: **Answer: she is not correct. The volume is about 346.51 cm$^3$.**

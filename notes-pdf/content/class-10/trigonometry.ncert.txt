@@ -1,0 +1,130 @@
+T: Exercise 8.1
+Q: [Q1] In $\triangle ABC$, right-angled at $B$, $AB = 24$ cm and $BC = 7$ cm. Find (i) $\sin A$, $\cos A$ (ii) $\sin C$, $\cos C$.
+S: $AC = \sqrt{24^2 + 7^2} = \sqrt{625} = 25$ cm.
+S: (i) For angle $A$ the opposite side is $BC$ and the adjacent side is $AB$: $\sin A = \dfrac{7}{25}$, $\cos A = \dfrac{24}{25}$.
+S: (ii) For angle $C$ the opposite side is $AB$ and the adjacent side is $BC$: $\sin C = \dfrac{24}{25}$, $\cos C = \dfrac{7}{25}$.
+S: **Answer: (i) $\sin A = \dfrac{7}{25}$, $\cos A = \dfrac{24}{25}$ (ii) $\sin C = \dfrac{24}{25}$, $\cos C = \dfrac{7}{25}$**
+Q: [Q2] In $\triangle PQR$, right-angled at $Q$, $PQ = 12$ cm and $PR = 13$ cm (textbook Fig. 8.13). Find $\tan P - \cot R$.
+!fig w=220 h=215; P P 70 40 t; P Q 70 172 bl; P R 125 172 br; L P Q; L Q R; L P R; R P Q R; T 44 112 12 cm; T 132 100 13 cm
+S: $QR = \sqrt{13^2 - 12^2} = \sqrt{25} = 5$ cm.
+S: $\tan P = \dfrac{QR}{PQ} = \dfrac{5}{12}$ and $\cot R = \dfrac{QR}{PQ} = \dfrac{5}{12}$.
+S: **Answer: $\tan P - \cot R = 0$**
+Q: [Q3] If $\sin A = \dfrac{3}{4}$, find $\cos A$ and $\tan A$.
+S: Take the opposite side as $3k$ and the hypotenuse as $4k$. The adjacent side is $\sqrt{16k^2 - 9k^2} = \sqrt{7}\,k$.
+S: **Answer: $\cos A = \dfrac{\sqrt{7}}{4}$ and $\tan A = \dfrac{3}{\sqrt{7}}$**
+Q: [Q4] Given $15 \cot A = 8$, find $\sin A$ and $\sec A$.
+S: $\cot A = \dfrac{8}{15}$, so take the adjacent side as $8k$ and the opposite side as $15k$. The hypotenuse is $\sqrt{64k^2 + 225k^2} = 17k$.
+S: **Answer: $\sin A = \dfrac{15}{17}$ and $\sec A = \dfrac{17}{8}$**
+Q: [Q5] Given $\sec\theta = \dfrac{13}{12}$, find all the other trigonometric ratios.
+S: Take the hypotenuse as $13k$ and the adjacent side as $12k$. The opposite side is $\sqrt{169k^2 - 144k^2} = 5k$.
+S: **Answer: $\sin\theta = \dfrac{5}{13}$, $\cos\theta = \dfrac{12}{13}$, $\tan\theta = \dfrac{5}{12}$, $\text{cosec}\,\theta = \dfrac{13}{5}$, $\cot\theta = \dfrac{12}{5}$**
+Q: [Q6] $\angle A$ and $\angle B$ are acute angles such that $\cos A = \cos B$. Show that $\angle A = \angle B$.
+S: Take a triangle $ABC$ right-angled at $C$, so that $\angle A$ and $\angle B$ are its acute angles. Then $\cos A = \dfrac{AC}{AB}$ and $\cos B = \dfrac{BC}{AB}$.
+S: $\cos A = \cos B$ gives $AC = BC$.
+S: Angles opposite equal sides of a triangle are equal, so $\angle B = \angle A$.
+S: **Hence $\angle A = \angle B$.**
+Q: [Q7] If $\cot\theta = \dfrac{7}{8}$, evaluate (i) $\dfrac{(1 + \sin\theta)(1 - \sin\theta)}{(1 + \cos\theta)(1 - \cos\theta)}$ (ii) $\cot^2\theta$.
+S: (i) $\dfrac{1 - \sin^2\theta}{1 - \cos^2\theta} = \dfrac{\cos^2\theta}{\sin^2\theta} = \cot^2\theta = \dfrac{49}{64}$.
+S: (ii) $\cot^2\theta = \left(\dfrac{7}{8}\right)^2 = \dfrac{49}{64}$.
+S: **Answer: (i) $\dfrac{49}{64}$ (ii) $\dfrac{49}{64}$**
+Q: [Q8] If $3 \cot A = 4$, check whether $\dfrac{1 - \tan^2 A}{1 + \tan^2 A} = \cos^2 A - \sin^2 A$.
+S: $\cot A = \dfrac{4}{3}$, so the adjacent side is $4k$, the opposite side is $3k$ and the hypotenuse is $5k$: $\tan A = \dfrac{3}{4}$, $\sin A = \dfrac{3}{5}$, $\cos A = \dfrac{4}{5}$.
+S: LHS $= \dfrac{1 - \frac{9}{16}}{1 + \frac{9}{16}} = \dfrac{7}{25}$. RHS $= \dfrac{16}{25} - \dfrac{9}{25} = \dfrac{7}{25}$.
+S: **Answer: yes, both sides equal $\dfrac{7}{25}$**
+Q: [Q9] In $\triangle ABC$, right-angled at $B$, $\tan A = \dfrac{1}{\sqrt{3}}$. Find (i) $\sin A \cos C + \cos A \sin C$ (ii) $\cos A \cos C - \sin A \sin C$.
+S: Take $BC = k$ and $AB = \sqrt{3}\,k$, so $AC = \sqrt{k^2 + 3k^2} = 2k$.
+S: $\sin A = \dfrac{1}{2}$, $\cos A = \dfrac{\sqrt{3}}{2}$, $\sin C = \dfrac{\sqrt{3}}{2}$, $\cos C = \dfrac{1}{2}$.
+S: (i) $\dfrac{1}{2} \times \dfrac{1}{2} + \dfrac{\sqrt{3}}{2} \times \dfrac{\sqrt{3}}{2} = \dfrac{1}{4} + \dfrac{3}{4} = 1$. (ii) $\dfrac{\sqrt{3}}{2} \times \dfrac{1}{2} - \dfrac{1}{2} \times \dfrac{\sqrt{3}}{2} = 0$.
+S: **Answer: (i) 1 (ii) 0**
+Q: [Q10] In $\triangle PQR$, right-angled at $Q$, $PR + QR = 25$ cm and $PQ = 5$ cm. Find $\sin P$, $\cos P$ and $\tan P$.
+S: Let $QR = x$ cm, so $PR = (25 - x)$ cm. By the Pythagoras theorem, $(25 - x)^2 = 5^2 + x^2$.
+S: $625 - 50x = 25$ gives $x = 12$. So $QR = 12$ cm and $PR = 13$ cm.
+S: **Answer: $\sin P = \dfrac{12}{13}$, $\cos P = \dfrac{5}{13}$, $\tan P = \dfrac{12}{5}$**
+Q: [Q11] State whether each is true or false, with a reason. (i) The value of $\tan A$ is always less than 1. (ii) $\sec A = \dfrac{12}{5}$ for some value of angle $A$. (iii) $\cos A$ is the abbreviation for the cosecant of angle $A$. (iv) $\cot A$ is the product of cot and $A$. (v) $\sin\theta = \dfrac{4}{3}$ for some angle $\theta$.
+S: (i) False. For example, $\tan 60° = \sqrt{3} > 1$.
+S: (ii) True. $\sec A$ is the hypotenuse divided by the adjacent side, which can be any number from 1 upwards, and $\dfrac{12}{5} > 1$.
+S: (iii) False. $\cos A$ stands for the cosine of $A$. The cosecant is written $\text{cosec}\,A$.
+S: (iv) False. $\cot A$ is one symbol, the cotangent of the angle $A$. "cot" alone has no meaning.
+S: (v) False. $\sin\theta$ is the opposite side divided by the hypotenuse, and the hypotenuse is the longest side, so $\sin\theta$ cannot be more than 1.
+S: **Answer: (i) False (ii) True (iii) False (iv) False (v) False**
+
+T: Exercise 8.2
+Q: [Q1] Evaluate: (i) $\sin 60° \cos 30° + \sin 30° \cos 60°$ (ii) $2\tan^2 45° + \cos^2 30° - \sin^2 60°$ (iii) $\dfrac{\cos 45°}{\sec 30° + \text{cosec}\,30°}$ (iv) $\dfrac{\sin 30° + \tan 45° - \text{cosec}\,60°}{\sec 30° + \cos 60° + \cot 45°}$ (v) $\dfrac{5\cos^2 60° + 4\sec^2 30° - \tan^2 45°}{\sin^2 30° + \cos^2 30°}$.
+S: (i) $\dfrac{\sqrt{3}}{2} \times \dfrac{\sqrt{3}}{2} + \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{3}{4} + \dfrac{1}{4} = 1$.
+S: (ii) $2(1)^2 + \dfrac{3}{4} - \dfrac{3}{4} = 2$.
+S: (iii) $\dfrac{\frac{1}{\sqrt{2}}}{\frac{2}{\sqrt{3}} + 2} = \dfrac{\sqrt{3}}{2\sqrt{2}\,(\sqrt{3} + 1)}$. Multiply the top and bottom by $(\sqrt{3} - 1)$: $\dfrac{\sqrt{3}\,(\sqrt{3} - 1)}{4\sqrt{2}} = \dfrac{3 - \sqrt{3}}{4\sqrt{2}} = \dfrac{3\sqrt{2} - \sqrt{6}}{8}$.
+S: (iv) $\dfrac{\frac{1}{2} + 1 - \frac{2}{\sqrt{3}}}{\frac{2}{\sqrt{3}} + \frac{1}{2} + 1} = \dfrac{3\sqrt{3} - 4}{3\sqrt{3} + 4}$. Multiply the top and bottom by $(3\sqrt{3} - 4)$: $\dfrac{(3\sqrt{3} - 4)^2}{27 - 16} = \dfrac{43 - 24\sqrt{3}}{11}$.
+S: (v) $\dfrac{5 \times \frac{1}{4} + 4 \times \frac{4}{3} - 1}{\frac{1}{4} + \frac{3}{4}} = \dfrac{15 + 64 - 12}{12} = \dfrac{67}{12}$.
+S: **Answer: (i) 1 (ii) 2 (iii) $\dfrac{3\sqrt{2} - \sqrt{6}}{8}$ (iv) $\dfrac{43 - 24\sqrt{3}}{11}$ (v) $\dfrac{67}{12}$**
+Q: [Q2] Choose the correct option and justify it. (i) $\dfrac{2\tan 30°}{1 + \tan^2 30°} =$ (A) $\sin 60°$ (B) $\cos 60°$ (C) $\tan 60°$ (D) $\sin 30°$. (ii) $\dfrac{1 - \tan^2 45°}{1 + \tan^2 45°} =$ (A) $\tan 90°$ (B) 1 (C) $\sin 45°$ (D) 0. (iii) $\sin 2A = 2\sin A$ is true when $A =$ (A) $0°$ (B) $30°$ (C) $45°$ (D) $60°$. (iv) $\dfrac{2\tan 30°}{1 - \tan^2 30°} =$ (A) $\cos 60°$ (B) $\sin 60°$ (C) $\tan 60°$ (D) $\sin 30°$.
+S: (i) $\dfrac{2 \times \frac{1}{\sqrt{3}}}{1 + \frac{1}{3}} = \dfrac{2}{\sqrt{3}} \times \dfrac{3}{4} = \dfrac{\sqrt{3}}{2} = \sin 60°$. Option (A).
+S: (ii) $\dfrac{1 - 1}{1 + 1} = 0$. Option (D).
+S: (iii) For $A = 0°$: $\sin 0° = 0$ and $2\sin 0° = 0$, so it holds. For the other options it fails, for example $\sin 60° \neq 2\sin 30°$. Option (A).
+S: (iv) $\dfrac{2 \times \frac{1}{\sqrt{3}}}{1 - \frac{1}{3}} = \dfrac{2}{\sqrt{3}} \times \dfrac{3}{2} = \sqrt{3} = \tan 60°$. Option (C).
+S: **Answer: (i) A (ii) D (iii) A (iv) C**
+Q: [Q3] If $\tan(A + B) = \sqrt{3}$ and $\tan(A - B) = \dfrac{1}{\sqrt{3}}$, with $0° < A + B \le 90°$ and $A > B$, find $A$ and $B$.
+S: $\tan(A + B) = \sqrt{3} = \tan 60°$ gives $A + B = 60°$. $\tan(A - B) = \dfrac{1}{\sqrt{3}} = \tan 30°$ gives $A - B = 30°$.
+S: Adding, $2A = 90°$, so $A = 45°$ and $B = 15°$.
+S: **Answer: $A = 45°$, $B = 15°$**
+Q: [Q4] State whether each is true or false, with a reason. (i) $\sin(A + B) = \sin A + \sin B$. (ii) The value of $\sin\theta$ increases as $\theta$ increases. (iii) The value of $\cos\theta$ increases as $\theta$ increases. (iv) $\sin\theta = \cos\theta$ for all values of $\theta$. (v) $\cot A$ is not defined for $A = 0°$.
+S: (i) False. With $A = 60°$, $B = 30°$: $\sin 90° = 1$ but $\sin 60° + \sin 30° = \dfrac{\sqrt{3} + 1}{2} \neq 1$.
+S: (ii) True for $0° \le \theta \le 90°$: the values go $0, \dfrac{1}{2}, \dfrac{1}{\sqrt{2}}, \dfrac{\sqrt{3}}{2}, 1$.
+S: (iii) False. From $0°$ to $90°$ the values of $\cos\theta$ go from 1 down to 0.
+S: (iv) False. They are equal only for $\theta = 45°$. For example $\sin 30° = \dfrac{1}{2}$ but $\cos 30° = \dfrac{\sqrt{3}}{2}$.
+S: (v) True. $\cot 0° = \dfrac{\cos 0°}{\sin 0°} = \dfrac{1}{0}$, which is not defined.
+S: **Answer: (i) False (ii) True (iii) False (iv) False (v) True**
+
+T: Exercise 8.3
+Q: [Q1] Express $\sin A$, $\sec A$ and $\tan A$ in terms of $\cot A$.
+S: $\text{cosec}^2 A = 1 + \cot^2 A$, so $\sin A = \dfrac{1}{\text{cosec}\,A} = \dfrac{1}{\sqrt{1 + \cot^2 A}}$.
+S: $\tan A = \dfrac{1}{\cot A}$.
+S: $\sec^2 A = 1 + \tan^2 A = 1 + \dfrac{1}{\cot^2 A}$, so $\sec A = \dfrac{\sqrt{1 + \cot^2 A}}{\cot A}$.
+S: **Answer: $\sin A = \dfrac{1}{\sqrt{1 + \cot^2 A}}$, $\sec A = \dfrac{\sqrt{1 + \cot^2 A}}{\cot A}$, $\tan A = \dfrac{1}{\cot A}$**
+Q: [Q2] Write all the other trigonometric ratios of $\angle A$ in terms of $\sec A$.
+S: $\cos A = \dfrac{1}{\sec A}$.
+S: $\tan^2 A = \sec^2 A - 1$, so $\tan A = \sqrt{\sec^2 A - 1}$ and $\cot A = \dfrac{1}{\sqrt{\sec^2 A - 1}}$.
+S: $\sin A = \tan A \times \cos A = \dfrac{\sqrt{\sec^2 A - 1}}{\sec A}$ and $\text{cosec}\,A = \dfrac{\sec A}{\sqrt{\sec^2 A - 1}}$.
+S: **Answer: $\cos A = \dfrac{1}{\sec A}$, $\sin A = \dfrac{\sqrt{\sec^2 A - 1}}{\sec A}$, $\tan A = \sqrt{\sec^2 A - 1}$, $\cot A = \dfrac{1}{\sqrt{\sec^2 A - 1}}$, $\text{cosec}\,A = \dfrac{\sec A}{\sqrt{\sec^2 A - 1}}$**
+Q: [Q3] Choose the correct option and justify it. (i) $9\sec^2 A - 9\tan^2 A =$ (A) 1 (B) 9 (C) 8 (D) 0. (ii) $(1 + \tan\theta + \sec\theta)(1 + \cot\theta - \text{cosec}\,\theta) =$ (A) 0 (B) 1 (C) 2 (D) $-1$. (iii) $(\sec A + \tan A)(1 - \sin A) =$ (A) $\sec A$ (B) $\sin A$ (C) $\text{cosec}\,A$ (D) $\cos A$. (iv) $\dfrac{1 + \tan^2 A}{1 + \cot^2 A} =$ (A) $\sec^2 A$ (B) $-1$ (C) $\cot^2 A$ (D) $\tan^2 A$.
+S: (i) $9(\sec^2 A - \tan^2 A) = 9 \times 1 = 9$. Option (B).
+S: (ii) $\dfrac{\cos\theta + \sin\theta + 1}{\cos\theta} \times \dfrac{\sin\theta + \cos\theta - 1}{\sin\theta} = \dfrac{(\sin\theta + \cos\theta)^2 - 1}{\sin\theta\cos\theta} = \dfrac{2\sin\theta\cos\theta}{\sin\theta\cos\theta} = 2$. Option (C).
+S: (iii) $\dfrac{1 + \sin A}{\cos A} \times (1 - \sin A) = \dfrac{1 - \sin^2 A}{\cos A} = \cos A$. Option (D).
+S: (iv) $\dfrac{\sec^2 A}{\text{cosec}^2 A} = \dfrac{\sin^2 A}{\cos^2 A} = \tan^2 A$. Option (D).
+S: **Answer: (i) B (ii) C (iii) D (iv) D**
+Q: [Q4 (i)] Prove that $(\text{cosec}\,\theta - \cot\theta)^2 = \dfrac{1 - \cos\theta}{1 + \cos\theta}$.
+S: LHS $= \left(\dfrac{1 - \cos\theta}{\sin\theta}\right)^2 = \dfrac{(1 - \cos\theta)^2}{1 - \cos^2\theta} = \dfrac{(1 - \cos\theta)^2}{(1 - \cos\theta)(1 + \cos\theta)}$
+S: **$= \dfrac{1 - \cos\theta}{1 + \cos\theta} =$ RHS**
+Q: [Q4 (ii)] Prove that $\dfrac{\cos A}{1 + \sin A} + \dfrac{1 + \sin A}{\cos A} = 2\sec A$.
+S: LHS $= \dfrac{\cos^2 A + (1 + \sin A)^2}{(1 + \sin A)\cos A} = \dfrac{\cos^2 A + \sin^2 A + 1 + 2\sin A}{(1 + \sin A)\cos A} = \dfrac{2(1 + \sin A)}{(1 + \sin A)\cos A}$
+S: **$= \dfrac{2}{\cos A} = 2\sec A =$ RHS**
+Q: [Q4 (iii)] Prove that $\dfrac{\tan\theta}{1 - \cot\theta} + \dfrac{\cot\theta}{1 - \tan\theta} = 1 + \sec\theta\,\text{cosec}\,\theta$.
+S: Write everything with $\sin\theta$ and $\cos\theta$: LHS $= \dfrac{\sin^2\theta}{\cos\theta\,(\sin\theta - \cos\theta)} - \dfrac{\cos^2\theta}{\sin\theta\,(\sin\theta - \cos\theta)} = \dfrac{\sin^3\theta - \cos^3\theta}{\sin\theta\cos\theta\,(\sin\theta - \cos\theta)}$
+S: Using $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$: $= \dfrac{\sin^2\theta + \sin\theta\cos\theta + \cos^2\theta}{\sin\theta\cos\theta} = \dfrac{1 + \sin\theta\cos\theta}{\sin\theta\cos\theta}$
+S: **$= \sec\theta\,\text{cosec}\,\theta + 1 =$ RHS**
+Q: [Q4 (iv)] Prove that $\dfrac{1 + \sec A}{\sec A} = \dfrac{\sin^2 A}{1 - \cos A}$.
+S: LHS $= \dfrac{1}{\sec A} + 1 = \cos A + 1$.
+S: RHS $= \dfrac{1 - \cos^2 A}{1 - \cos A} = \dfrac{(1 - \cos A)(1 + \cos A)}{1 - \cos A} = 1 + \cos A$.
+S: **LHS $=$ RHS**
+Q: [Q4 (v)] Prove that $\dfrac{\cos A - \sin A + 1}{\cos A + \sin A - 1} = \text{cosec}\,A + \cot A$, using $\text{cosec}^2 A = 1 + \cot^2 A$.
+S: Divide the numerator and the denominator by $\sin A$: LHS $= \dfrac{\cot A - 1 + \text{cosec}\,A}{\cot A + 1 - \text{cosec}\,A}$.
+S: In the numerator replace 1 by $\text{cosec}^2 A - \cot^2 A$: $(\cot A + \text{cosec}\,A) - (\text{cosec}\,A - \cot A)(\text{cosec}\,A + \cot A) = (\cot A + \text{cosec}\,A)(1 - \text{cosec}\,A + \cot A)$.
+S: **So LHS $= \dfrac{(\cot A + \text{cosec}\,A)(\cot A + 1 - \text{cosec}\,A)}{\cot A + 1 - \text{cosec}\,A} = \text{cosec}\,A + \cot A =$ RHS**
+Q: [Q4 (vi)] Prove that $\sqrt{\dfrac{1 + \sin A}{1 - \sin A}} = \sec A + \tan A$.
+S: Multiply the numerator and the denominator inside the root by $(1 + \sin A)$: LHS $= \sqrt{\dfrac{(1 + \sin A)^2}{1 - \sin^2 A}} = \dfrac{1 + \sin A}{\cos A}$
+S: **$= \dfrac{1}{\cos A} + \dfrac{\sin A}{\cos A} = \sec A + \tan A =$ RHS**
+Q: [Q4 (vii)] Prove that $\dfrac{\sin\theta - 2\sin^3\theta}{2\cos^3\theta - \cos\theta} = \tan\theta$.
+S: LHS $= \dfrac{\sin\theta\,(1 - 2\sin^2\theta)}{\cos\theta\,(2\cos^2\theta - 1)}$.
+S: Using $1 = \sin^2\theta + \cos^2\theta$: $1 - 2\sin^2\theta = \cos^2\theta - \sin^2\theta$ and $2\cos^2\theta - 1 = \cos^2\theta - \sin^2\theta$.
+S: **So LHS $= \dfrac{\sin\theta}{\cos\theta} = \tan\theta =$ RHS**
+Q: [Q4 (viii)] Prove that $(\sin A + \text{cosec}\,A)^2 + (\cos A + \sec A)^2 = 7 + \tan^2 A + \cot^2 A$.
+S: LHS $= \sin^2 A + \text{cosec}^2 A + 2 + \cos^2 A + \sec^2 A + 2$, since $\sin A \times \text{cosec}\,A = 1$ and $\cos A \times \sec A = 1$.
+S: $= (\sin^2 A + \cos^2 A) + 4 + (1 + \cot^2 A) + (1 + \tan^2 A)$
+S: **$= 7 + \tan^2 A + \cot^2 A =$ RHS**
+Q: [Q4 (ix)] Prove that $(\text{cosec}\,A - \sin A)(\sec A - \cos A) = \dfrac{1}{\tan A + \cot A}$.
+S: LHS $= \dfrac{1 - \sin^2 A}{\sin A} \times \dfrac{1 - \cos^2 A}{\cos A} = \dfrac{\cos^2 A \sin^2 A}{\sin A \cos A} = \sin A \cos A$.
+S: RHS $= \dfrac{1}{\frac{\sin A}{\cos A} + \frac{\cos A}{\sin A}} = \dfrac{\sin A \cos A}{\sin^2 A + \cos^2 A} = \sin A \cos A$.
+S: **LHS $=$ RHS**
+Q: [Q4 (x)] Prove that $\dfrac{1 + \tan^2 A}{1 + \cot^2 A} = \left(\dfrac{1 - \tan A}{1 - \cot A}\right)^2 = \tan^2 A$.
+S: First expression: $\dfrac{\sec^2 A}{\text{cosec}^2 A} = \dfrac{\sin^2 A}{\cos^2 A} = \tan^2 A$.
+S: Second expression: $1 - \cot A = \dfrac{\tan A - 1}{\tan A}$, so $\dfrac{1 - \tan A}{1 - \cot A} = \dfrac{(1 - \tan A)\tan A}{\tan A - 1} = -\tan A$, and its square is $\tan^2 A$.
+S: **Both expressions equal $\tan^2 A$.**

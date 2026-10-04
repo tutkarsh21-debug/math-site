@@ -4,14 +4,16 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/areas-related-to-circles": [
   "notes",
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/arithmetic-progression": [
   "notes",
@@ -272,7 +274,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/triangles": [
   "notes",
@@ -286,7 +289,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-8/a-square-and-a-cube": [
   "notes",
