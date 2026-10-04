@@ -29,6 +29,7 @@ export default function Account({ titles, classLabels }) {
       <div className="cta-row">
         <Link className="btn" href="/tests">Take a test</Link>
         <Link className="btn btn-outline" href={`/${user.cls}`}>My class chapters</Link>
+        {user.admin && <Link className="btn btn-outline" href="/admin/enquiries">Enquiries</Link>}
         <button className="btn btn-outline" onClick={logout}>Logout</button>
       </div>
     </div>

@@ -26,7 +26,7 @@ export default function Privacy() {
       <h2>Deleting your account</h2>
       <p>Message us on <a href={SITE.telegram}>Telegram</a> from your registered number and we will delete your account and scores.</p>
       <h2>Enquiry form</h2>
-      <p>Enquiries are collected through a Google Form. Details entered there are stored by Google on our behalf and are used only to reply to you.</p>
+      <p>When you send an enquiry we store the student's name, the mobile number, the class, the board and your message. These are used only to reply to you and are not shared.</p>
     </div>
   </>);
 }
