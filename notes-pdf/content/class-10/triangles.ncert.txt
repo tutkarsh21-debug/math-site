@@ -1,0 +1,159 @@
+T: Exercise 6.1
+Q: [Q1] Fill in the blanks with the correct word from the brackets: (i) All circles are ___. (congruent, similar) (ii) All squares are ___. (similar, congruent) (iii) All ___ triangles are similar. (isosceles, equilateral) (iv) Two polygons with the same number of sides are similar if (a) their corresponding angles are ___ and (b) their corresponding sides are ___. (equal, proportional)
+S: Similar figures have the same shape but not always the same size. Circles and squares can differ in size, so they are similar, not always congruent.
+S: **Answer: (i) similar (ii) similar (iii) equilateral (iv) (a) equal (b) proportional**
+Q: [Q2] Give two different examples of a pair of (i) similar figures (ii) non-similar figures.
+S: (i) Two circles of different radii, and two equilateral triangles of different sides.
+S: (ii) A circle and a square, and a square and a rectangle that is not a square.
+S: **Other correct examples are possible.**
+Q: [Q3] Are the quadrilaterals in the textbook figure similar? One is a rhombus $PQRS$ with each side 1.5 cm and no right angle, and the other is a square $ABCD$ with each side 3 cm.
+S: The corresponding sides are proportional: each ratio is $\dfrac{1.5}{3} = \dfrac{1}{2}$.
+S: But the corresponding angles are not equal: every angle of the square is $90°$, and the angles of the rhombus are not $90°$.
+S: **Answer: they are not similar**
+
+T: Exercise 6.2
+Q: [Q1] In each case $DE \parallel BC$, with $D$ on $AB$ and $E$ on $AC$. (i) $AD = 1.5$ cm, $DB = 3$ cm, $AE = 1$ cm. Find $EC$. (ii) $DB = 7.2$ cm, $AE = 1.8$ cm, $EC = 5.4$ cm. Find $AD$.
+!fig w=320 h=215; P A 160 25 t; P B 50 190 bl; P C 280 190 br; P D 123.3 80 l; P E 200 80 r; L A B; L A C; L B C; H D E
+S: By the Basic Proportionality Theorem, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+S: (i) $\dfrac{1.5}{3} = \dfrac{1}{EC}$, so $EC = 2$ cm.
+S: (ii) $\dfrac{AD}{7.2} = \dfrac{1.8}{5.4}$, so $AD = \dfrac{7.2}{3} = 2.4$ cm.
+S: **Answer: (i) $EC = 2$ cm (ii) $AD = 2.4$ cm**
+Q: [Q2] $E$ and $F$ are points on the sides $PQ$ and $PR$ of $\triangle PQR$. Say whether $EF \parallel QR$ when (i) $PE = 3.9$ cm, $EQ = 3$ cm, $PF = 3.6$ cm, $FR = 2.4$ cm (ii) $PE = 4$ cm, $QE = 4.5$ cm, $PF = 8$ cm, $RF = 9$ cm (iii) $PQ = 1.28$ cm, $PR = 2.56$ cm, $PE = 0.18$ cm, $PF = 0.36$ cm.
+S: By the converse of the Basic Proportionality Theorem, $EF \parallel QR$ exactly when $\dfrac{PE}{EQ} = \dfrac{PF}{FR}$.
+S: (i) $\dfrac{3.9}{3} = 1.3$ and $\dfrac{3.6}{2.4} = 1.5$. Not equal, so $EF$ is not parallel to $QR$.
+S: (ii) $\dfrac{4}{4.5} = \dfrac{8}{9}$ and $\dfrac{8}{9}$. Equal, so $EF \parallel QR$.
+S: (iii) $EQ = 1.28 - 0.18 = 1.10$ and $FR = 2.56 - 0.36 = 2.20$. $\dfrac{0.18}{1.10} = \dfrac{9}{55}$ and $\dfrac{0.36}{2.20} = \dfrac{9}{55}$. Equal, so $EF \parallel QR$.
+S: **Answer: (i) no (ii) yes (iii) yes**
+Q: [Q3] In the figure, $L$ lies on the diagonal $AC$ of quadrilateral $ABCD$, with $M$ on $AB$ and $N$ on $AD$ such that $LM \parallel CB$ and $LN \parallel CD$. Prove that $\dfrac{AM}{AB} = \dfrac{AN}{AD}$.
+!fig w=320 h=215; P A 40 110 l; P B 200 45 t; P C 290 110 r; P D 240 180 b; P L 160 110 b; P M 116.8 78.8 t; P N 136 143.6 b; L A B; L B C; L C D; L D A; L A C; H L M; H L N
+S: In $\triangle ABC$, $LM \parallel CB$, so $\dfrac{AM}{AB} = \dfrac{AL}{AC}$.
+S: In $\triangle ADC$, $LN \parallel CD$, so $\dfrac{AN}{AD} = \dfrac{AL}{AC}$.
+S: **Both ratios equal $\dfrac{AL}{AC}$, so $\dfrac{AM}{AB} = \dfrac{AN}{AD}$.**
+Q: [Q4] In the figure, $D$ is on $AB$ and $F$, $E$ are on $BC$ such that $DE \parallel AC$ and $DF \parallel AE$. Prove that $\dfrac{BF}{FE} = \dfrac{BE}{EC}$.
+!fig w=330 h=210; P A 150 30 t; P B 50 180 bl; P C 300 180 br; P D 105 97.5 l; P E 187.5 180 b; P F 125.6 180 b; L A B; L B C; L A C; H D E; L A E; H D F
+S: In $\triangle ABC$, $DE \parallel AC$, so $\dfrac{BD}{DA} = \dfrac{BE}{EC}$.
+S: In $\triangle ABE$, $DF \parallel AE$, so $\dfrac{BD}{DA} = \dfrac{BF}{FE}$.
+S: **Hence $\dfrac{BF}{FE} = \dfrac{BE}{EC}$.**
+Q: [Q5] In the figure, $O$ is a point inside $\triangle PQR$, $D$ is on $PO$, $E$ is on $PQ$ and $F$ is on $PR$, with $DE \parallel OQ$ and $DF \parallel OR$. Show that $EF \parallel QR$.
+!fig w=330 h=220; P P 160 25 t; P Q 50 190 bl; P R 290 190 br; P O 165 150 b; P D 162 75 r; P E 116 91 l; P F 212 91 r; L P Q; L Q R; L P R; L P O; L O Q; L O R; H D E; H D F; D E F
+S: In $\triangle POQ$, $DE \parallel OQ$, so $\dfrac{PE}{EQ} = \dfrac{PD}{DO}$.
+S: In $\triangle POR$, $DF \parallel OR$, so $\dfrac{PF}{FR} = \dfrac{PD}{DO}$.
+S: So $\dfrac{PE}{EQ} = \dfrac{PF}{FR}$ in $\triangle PQR$.
+S: **By the converse of the Basic Proportionality Theorem, $EF \parallel QR$.**
+Q: [Q6] In the figure, $O$ is a point inside $\triangle PQR$, and $A$, $B$, $C$ are points on $OP$, $OQ$, $OR$ such that $AB \parallel PQ$ and $AC \parallel PR$. Show that $BC \parallel QR$.
+!fig w=330 h=225; P P 160 20 t; P Q 40 190 bl; P R 290 195 br; P O 165 130 b; P A 162.5 75 r; P B 102.5 160 b; P C 227.5 162.5 b; L P Q; L Q R; L P R; L O P; L O Q; L O R; H A B; H A C; D B C
+S: In $\triangle OPQ$, $AB \parallel PQ$, so $\dfrac{OA}{AP} = \dfrac{OB}{BQ}$.
+S: In $\triangle OPR$, $AC \parallel PR$, so $\dfrac{OA}{AP} = \dfrac{OC}{CR}$.
+S: So $\dfrac{OB}{BQ} = \dfrac{OC}{CR}$ in $\triangle OQR$.
+S: **By the converse of the Basic Proportionality Theorem, $BC \parallel QR$.**
+Q: [Q7] Using the Basic Proportionality Theorem, prove that a line through the mid-point of one side of a triangle, parallel to another side, bisects the third side.
+S: In $\triangle ABC$, let $D$ be the mid-point of $AB$ and let the line through $D$ parallel to $BC$ meet $AC$ at $E$.
+S: Since $DE \parallel BC$, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$. But $AD = DB$, so $\dfrac{AE}{EC} = 1$.
+S: **Hence $AE = EC$, so $E$ is the mid-point of $AC$.**
+Q: [Q8] Using the converse of the Basic Proportionality Theorem, prove that the line joining the mid-points of two sides of a triangle is parallel to the third side.
+S: In $\triangle ABC$, let $D$ and $E$ be the mid-points of $AB$ and $AC$. Then $\dfrac{AD}{DB} = 1$ and $\dfrac{AE}{EC} = 1$.
+S: So $\dfrac{AD}{DB} = \dfrac{AE}{EC}$.
+S: **By the converse of the Basic Proportionality Theorem, $DE \parallel BC$.**
+Q: [Q9] $ABCD$ is a trapezium with $AB \parallel DC$, and its diagonals meet at $O$. Show that $\dfrac{AO}{BO} = \dfrac{CO}{DO}$.
+S: Through $O$ draw $EO \parallel AB$, meeting $AD$ at $E$. Then $EO \parallel DC$ as well.
+S: In $\triangle ADC$, $EO \parallel DC$, so $\dfrac{AE}{ED} = \dfrac{AO}{OC}$.
+S: In $\triangle DAB$, $EO \parallel AB$, so $\dfrac{DE}{EA} = \dfrac{DO}{OB}$, that is $\dfrac{AE}{ED} = \dfrac{BO}{OD}$.
+S: So $\dfrac{AO}{OC} = \dfrac{BO}{OD}$.
+S: **Rearranging, $\dfrac{AO}{BO} = \dfrac{CO}{DO}$.**
+Q: [Q10] The diagonals of a quadrilateral $ABCD$ meet at $O$ such that $\dfrac{AO}{BO} = \dfrac{CO}{DO}$. Show that $ABCD$ is a trapezium.
+S: The given relation can be written as $\dfrac{AO}{OC} = \dfrac{BO}{OD}$.
+S: Through $O$ draw $EO \parallel AB$, meeting $AD$ at $E$. In $\triangle DAB$, $\dfrac{DE}{EA} = \dfrac{DO}{OB}$, so $\dfrac{AE}{ED} = \dfrac{BO}{OD} = \dfrac{AO}{OC}$.
+S: In $\triangle ADC$, $\dfrac{AE}{ED} = \dfrac{AO}{OC}$, so by the converse of the Basic Proportionality Theorem $EO \parallel DC$.
+S: **$AB \parallel EO$ and $EO \parallel DC$, so $AB \parallel DC$ and $ABCD$ is a trapezium.**
+
+T: Exercise 6.3
+Q: [Q1] For each pair of triangles in the textbook figure, say whether they are similar, name the criterion and write the similarity in symbols. The data in the figure is given in the table.
+| Pair | First triangle | Second triangle |
+| (i) | $\triangle ABC$: $\angle A = 60°$, $\angle B = 80°$, $\angle C = 40°$ | $\triangle PQR$: $\angle P = 60°$, $\angle Q = 80°$, $\angle R = 40°$ |
+| (ii) | $\triangle ABC$: $AB = 2$, $BC = 2.5$, $AC = 3$ | $\triangle PQR$: $QR = 4$, $PR = 5$, $PQ = 6$ |
+| (iii) | $\triangle LMP$: $LM = 2.7$, $MP = 2$, $LP = 3$ | $\triangle DEF$: $DE = 4$, $EF = 5$, $DF = 6$ |
+| (iv) | $\triangle MNL$: $MN = 2.5$, $ML = 5$, $\angle M = 70°$ | $\triangle PQR$: $PQ = 5$, $QR = 10$, $\angle Q = 70°$ |
+| (v) | $\triangle ABC$: $AB = 2.5$, $BC = 3$, $\angle A = 80°$ | $\triangle DEF$: $DF = 5$, $EF = 6$, $\angle F = 80°$ |
+| (vi) | $\triangle DEF$: $\angle D = 70°$, $\angle E = 80°$ | $\triangle PQR$: $\angle Q = 80°$, $\angle R = 30°$ |
+S: (i) All three pairs of angles are equal. Similar by AAA: $\triangle ABC \sim \triangle PQR$.
+S: (ii) $\dfrac{AB}{QR} = \dfrac{2}{4}$, $\dfrac{BC}{RP} = \dfrac{2.5}{5}$, $\dfrac{CA}{PQ} = \dfrac{3}{6}$. All equal $\dfrac{1}{2}$. Similar by SSS: $\triangle ABC \sim \triangle QRP$.
+S: (iii) $\dfrac{MP}{DE} = \dfrac{2}{4} = 0.5$ and $\dfrac{LP}{DF} = \dfrac{3}{6} = 0.5$, but $\dfrac{LM}{EF} = \dfrac{2.7}{5} = 0.54$. The sides are not proportional, so the triangles are not similar.
+S: (iv) $\dfrac{MN}{QP} = \dfrac{2.5}{5} = \dfrac{1}{2}$ and $\dfrac{ML}{QR} = \dfrac{5}{10} = \dfrac{1}{2}$, and the included angles $\angle M$ and $\angle Q$ are both $70°$. Similar by SAS: $\triangle MNL \sim \triangle QPR$.
+S: (v) $\dfrac{AB}{DF} = \dfrac{BC}{EF} = \dfrac{1}{2}$, but $\angle A$ is not the angle between $AB$ and $BC$ (that is $\angle B$), so SAS cannot be used. Not similar.
+S: (vi) $\angle F = 180° - 70° - 80° = 30°$ and $\angle P = 180° - 80° - 30° = 70°$. The angles match. Similar by AAA: $\triangle DEF \sim \triangle PQR$.
+S: **Answer: similar in (i), (ii), (iv) and (vi). Not similar in (iii) and (v).**
+Q: [Q2] In the figure, $\triangle ODC \sim \triangle OBA$, $\angle BOC = 125°$ and $\angle CDO = 70°$. Find $\angle DOC$, $\angle DCO$ and $\angle OAB$.
+!fig w=320 h=215; Q l1 40 50; Q l2 280 50; Q m1 40 170; Q m2 280 170; L l1 l2; L m1 m2; P D 130 50 t; P C 190 50 t; P A 110 170 b; P B 170 170 b; P O 150 110 l; L A C; L B D
+S: $DOB$ is a straight line, so $\angle DOC = 180° - 125° = 55°$.
+S: In $\triangle DOC$: $\angle DCO = 180° - 70° - 55° = 55°$.
+S: Since $\triangle ODC \sim \triangle OBA$, corresponding angles are equal: $\angle OAB = \angle OCD = 55°$.
+S: **Answer: $\angle DOC = 55°$, $\angle DCO = 55°$, $\angle OAB = 55°$**
+Q: [Q3] The diagonals $AC$ and $BD$ of a trapezium $ABCD$ with $AB \parallel DC$ meet at $O$. Using a similarity criterion, show that $\dfrac{OA}{OC} = \dfrac{OB}{OD}$.
+S: In $\triangle OAB$ and $\triangle OCD$: $\angle OAB = \angle OCD$ and $\angle OBA = \angle ODC$ (alternate angles, $AB \parallel DC$).
+S: So $\triangle OAB \sim \triangle OCD$ (AA).
+S: **Corresponding sides are proportional: $\dfrac{OA}{OC} = \dfrac{OB}{OD}$.**
+Q: [Q4] In the figure, $S$ is on $QR$ and $T$ is on $QP$ produced, with $\dfrac{QR}{QS} = \dfrac{QT}{PR}$ and $\angle 1 = \angle 2$, where $\angle 1 = \angle PQR$ and $\angle 2 = \angle PRQ$. Show that $\triangle PQS \sim \triangle TQR$.
+!fig w=330 h=205; P Q 40 170 bl; P R 290 170 br; P P 165 60 l; P S 250 170 b; P T 183.75 43.5 t; L Q R; L Q T; L P R; L P S; L T R; A R Q P 1; A P R Q 2
+S: In $\triangle PQR$, $\angle 1 = \angle 2$, so the sides opposite them are equal: $PR = PQ$.
+S: The given relation becomes $\dfrac{QR}{QS} = \dfrac{QT}{PQ}$, that is $\dfrac{QS}{QR} = \dfrac{PQ}{QT}$.
+S: In $\triangle PQS$ and $\triangle TQR$: $\dfrac{PQ}{TQ} = \dfrac{QS}{QR}$ and the included angle $\angle Q$ is common.
+S: **Hence $\triangle PQS \sim \triangle TQR$ (SAS).**
+Q: [Q5] $S$ and $T$ are points on the sides $PR$ and $QR$ of $\triangle PQR$ such that $\angle P = \angle RTS$. Show that $\triangle RPQ \sim \triangle RTS$.
+S: In $\triangle RPQ$ and $\triangle RTS$: $\angle RPQ = \angle RTS$ (given) and $\angle R$ is common.
+S: **Hence $\triangle RPQ \sim \triangle RTS$ (AA).**
+Q: [Q6] In the figure, $D$ is on $AB$ and $E$ is on $AC$, and $\triangle ABE \cong \triangle ACD$. Show that $\triangle ADE \sim \triangle ABC$.
+!fig w=320 h=220; P A 160 20 t; P B 60 190 bl; P C 260 190 br; P D 118 91.4 l; P E 202 91.4 r; L A B; L A C; L B C; L D E; L B E; L C D
+S: Since $\triangle ABE \cong \triangle ACD$, the corresponding parts are equal: $AB = AC$ and $AE = AD$.
+S: So $\dfrac{AD}{AB} = \dfrac{AE}{AC}$, and $\angle A$ is common to $\triangle ADE$ and $\triangle ABC$.
+S: **Hence $\triangle ADE \sim \triangle ABC$ (SAS).**
+Q: [Q7] In the figure, the altitudes $AD$ and $CE$ of $\triangle ABC$ meet at $P$. Show that (i) $\triangle AEP \sim \triangle CDP$ (ii) $\triangle ABD \sim \triangle CBE$ (iii) $\triangle AEP \sim \triangle ADB$ (iv) $\triangle PDC \sim \triangle BEC$.
+!fig w=330 h=215; P A 40 180 bl; P B 290 180 br; P C 130 40 t; P E 130 180 b; P D 148.4 56.1 tr; P P 130 77.1 l; L A B; L B C; L C A; L A D; L C E; R C E B; R A D B
+S: Each pair has a right angle, so one more pair of equal angles gives AA similarity.
+S: (i) $\angle AEP = \angle CDP = 90°$ and $\angle APE = \angle CPD$ (vertically opposite). So $\triangle AEP \sim \triangle CDP$.
+S: (ii) $\angle ADB = \angle CEB = 90°$ and $\angle B$ is common. So $\triangle ABD \sim \triangle CBE$.
+S: (iii) $\angle AEP = \angle ADB = 90°$ and $\angle PAE = \angle BAD$ (the same angle). So $\triangle AEP \sim \triangle ADB$.
+S: (iv) $\angle PDC = \angle BEC = 90°$ and $\angle PCD = \angle BCE$ (the same angle). So $\triangle PDC \sim \triangle BEC$.
+S: **All four pairs are similar by AA.**
+Q: [Q8] $E$ is a point on the side $AD$ produced of a parallelogram $ABCD$, and $BE$ meets $CD$ at $F$. Show that $\triangle ABE \sim \triangle CFB$.
+S: In $\triangle ABE$ and $\triangle CFB$: $\angle A = \angle C$ (opposite angles of a parallelogram).
+S: $AE \parallel BC$, so $\angle AEB = \angle CBF$ (alternate angles).
+S: **Hence $\triangle ABE \sim \triangle CFB$ (AA).**
+Q: [Q9] In the figure, $ABC$ and $AMP$ are right triangles, right-angled at $B$ and $M$, with $M$ on $AC$ and $P$ on $AB$ produced. Prove that (i) $\triangle ABC \sim \triangle AMP$ (ii) $\dfrac{CA}{PA} = \dfrac{BC}{MP}$.
+!fig w=330 h=215; P A 40 180 bl; P B 190 180 b; P C 190 30 t; P P 290 180 br; P M 165 55 tl; L A P; L B C; L A C; L M P; R A B C; R A M P
+S: (i) In $\triangle ABC$ and $\triangle AMP$: $\angle ABC = \angle AMP = 90°$ and $\angle A$ is common. So $\triangle ABC \sim \triangle AMP$ (AA).
+S: (ii) Corresponding sides of similar triangles are proportional: $\dfrac{CA}{PA} = \dfrac{BC}{MP}$.
+S: **Both parts are proved.**
+Q: [Q10] $CD$ and $GH$ are the bisectors of $\angle ACB$ and $\angle EGF$, with $D$ on $AB$ and $H$ on $FE$, in $\triangle ABC$ and $\triangle EFG$. If $\triangle ABC \sim \triangle FEG$, show that (i) $\dfrac{CD}{GH} = \dfrac{AC}{FG}$ (ii) $\triangle DCB \sim \triangle HGE$ (iii) $\triangle DCA \sim \triangle HGF$.
+S: $\triangle ABC \sim \triangle FEG$ gives $\angle A = \angle F$, $\angle B = \angle E$ and $\angle ACB = \angle FGE$. Halving the last pair: $\angle ACD = \angle FGH$ and $\angle DCB = \angle HGE$.
+S: (iii) In $\triangle DCA$ and $\triangle HGF$: $\angle A = \angle F$ and $\angle ACD = \angle FGH$. So $\triangle DCA \sim \triangle HGF$ (AA).
+S: (i) From (iii), $\dfrac{CD}{GH} = \dfrac{AC}{FG}$.
+S: (ii) In $\triangle DCB$ and $\triangle HGE$: $\angle B = \angle E$ and $\angle DCB = \angle HGE$. So $\triangle DCB \sim \triangle HGE$ (AA).
+S: **All three parts are proved.**
+Q: [Q11] In the figure, $ABC$ is an isosceles triangle with $AB = AC$, and $E$ is a point on $CB$ produced. If $AD \perp BC$ and $EF \perp AC$, prove that $\triangle ABD \sim \triangle ECF$.
+!fig w=300 h=215; P A 160 20 t; P B 120 180 b; P C 200 180 br; P D 160 180 b; P E 40 180 bl; P F 190.6 142.4 r; L A B; L A C; L B C; D E B; L A D; L E F; R A D C; R E F C
+S: $AB = AC$, so $\angle ABD = \angle ACB$, that is $\angle ABD = \angle ECF$.
+S: Also $\angle ADB = \angle EFC = 90°$.
+S: **Hence $\triangle ABD \sim \triangle ECF$ (AA).**
+Q: [Q12] The sides $AB$ and $BC$ and the median $AD$ of $\triangle ABC$ are proportional to the sides $PQ$ and $QR$ and the median $PM$ of $\triangle PQR$. Show that $\triangle ABC \sim \triangle PQR$.
+S: Given $\dfrac{AB}{PQ} = \dfrac{BC}{QR} = \dfrac{AD}{PM}$. Since $D$ and $M$ are mid-points, $\dfrac{BC}{QR} = \dfrac{2BD}{2QM} = \dfrac{BD}{QM}$.
+S: So $\dfrac{AB}{PQ} = \dfrac{BD}{QM} = \dfrac{AD}{PM}$, and $\triangle ABD \sim \triangle PQM$ (SSS). Hence $\angle B = \angle Q$.
+S: In $\triangle ABC$ and $\triangle PQR$: $\dfrac{AB}{PQ} = \dfrac{BC}{QR}$ and the included angles $\angle B$ and $\angle Q$ are equal.
+S: **Hence $\triangle ABC \sim \triangle PQR$ (SAS).**
+Q: [Q13] $D$ is a point on the side $BC$ of $\triangle ABC$ such that $\angle ADC = \angle BAC$. Show that $CA^2 = CB \cdot CD$.
+S: In $\triangle ADC$ and $\triangle BAC$: $\angle ADC = \angle BAC$ (given) and $\angle C$ is common. So $\triangle ADC \sim \triangle BAC$ (AA).
+S: Corresponding sides are proportional: $\dfrac{CA}{CB} = \dfrac{CD}{CA}$.
+S: **Hence $CA^2 = CB \cdot CD$.**
+Q: [Q14] The sides $AB$ and $AC$ and the median $AD$ of $\triangle ABC$ are proportional to the sides $PQ$ and $PR$ and the median $PM$ of $\triangle PQR$. Show that $\triangle ABC \sim \triangle PQR$.
+S: Produce $AD$ to $E$ so that $DE = AD$, and produce $PM$ to $N$ so that $MN = PM$. Join $CE$ and $RN$.
+S: In $\triangle ABD$ and $\triangle ECD$: $AD = ED$, $BD = CD$ and $\angle ADB = \angle EDC$. So they are congruent (SAS) and $CE = AB$. In the same way $RN = PQ$.
+S: Given $\dfrac{AB}{PQ} = \dfrac{AC}{PR} = \dfrac{AD}{PM}$. So $\dfrac{CE}{RN} = \dfrac{AC}{PR} = \dfrac{2AD}{2PM} = \dfrac{AE}{PN}$, and $\triangle ACE \sim \triangle PRN$ (SSS). Hence $\angle CAD = \angle RPM$.
+S: Joining $BE$ and $QN$ and repeating the argument gives $\angle BAD = \angle QPM$. Adding, $\angle BAC = \angle QPR$.
+S: **With $\dfrac{AB}{PQ} = \dfrac{AC}{PR}$ and $\angle A = \angle P$, $\triangle ABC \sim \triangle PQR$ (SAS).**
+Q: [Q15] A vertical pole 6 m high casts a shadow 4 m long. At the same time a tower casts a shadow 28 m long. Find the height of the tower.
+S: At the same time the sun's rays make the same angle with the ground, so the right triangles formed by the pole and the tower with their shadows are similar (AA).
+S: $\dfrac{\text{height of tower}}{28} = \dfrac{6}{4}$, so the height is $\dfrac{6 \times 28}{4} = 42$ m.
+S: **Answer: 42 m**
+Q: [Q16] $AD$ and $PM$ are medians of $\triangle ABC$ and $\triangle PQR$, where $\triangle ABC \sim \triangle PQR$. Prove that $\dfrac{AB}{PQ} = \dfrac{AD}{PM}$.
+S: $\triangle ABC \sim \triangle PQR$ gives $\angle B = \angle Q$ and $\dfrac{AB}{PQ} = \dfrac{BC}{QR} = \dfrac{2BD}{2QM} = \dfrac{BD}{QM}$.
+S: In $\triangle ABD$ and $\triangle PQM$: $\dfrac{AB}{PQ} = \dfrac{BD}{QM}$ and $\angle B = \angle Q$. So $\triangle ABD \sim \triangle PQM$ (SAS).
+S: **Hence $\dfrac{AB}{PQ} = \dfrac{AD}{PM}$.**
