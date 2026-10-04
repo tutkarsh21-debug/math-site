@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import Test from '@/components/Test';
 import { CLASSES } from '@/lib/data';
 import TESTS from '@/lib/tests.json';
@@ -13,13 +14,14 @@ const find = ({ cls, slug }) => {
 
 export async function generateMetadata({ params }) {
   const p = await params, { c, ch } = find(p);
-  return ch ? { title: `${ch.title} Chapter Test | ${c.label} ${ch.boards[0]}`, description: `Online chapter test for ${c.label} ${ch.title}: timed MCQs with answers and explanations.` } : {};
+  return ch ? { title: `${ch.title} MCQ Test | ${c.label} ${ch.boards[0]} Maths`, description: `Free online MCQ test for ${c.label} ${ch.boards[0]} Maths, ${ch.title}: 10 timed questions with answers and an explanation for each.` } : {};
 }
 
 export default async function TestPage({ params }) {
   const p = await params, { c, ch, test } = find(p);
   if (!ch) notFound();
   return (<>
+    <JsonLd data={breadcrumbs([['Test Series', '/tests'], [`${ch.title} test`, `/tests/${p.cls}/${p.slug}`]])} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/tests">Test Series</Link><span>/</span>{ch.title}</div>
       <h1>{ch.title}: Chapter Test</h1>

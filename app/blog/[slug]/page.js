@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import JsonLd, { breadcrumbs } from '@/components/JsonLd';
+import { SITE } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
 
 export const generateStaticParams = () => POSTS.map(p => ({ slug: p.slug }));
 export async function generateMetadata({ params }) {
   const { slug } = await params, p = POSTS.find(x => x.slug === slug);
-  return p ? { title: p.title, description: p.summary } : {};
+  return p ? { title: p.title, description: p.summary, openGraph: { type: 'article', title: p.title, description: p.summary, publishedTime: p.date, images: ['/og.png'] } } : {};
 }
 
 export default async function Post({ params }) {
@@ -13,6 +15,9 @@ export default async function Post({ params }) {
   if (!p) notFound();
   const others = POSTS.filter(x => x.slug !== slug).slice(0, 3);
   return (<>
+    <JsonLd data={breadcrumbs([['Blog', '/blog'], [p.title, `/blog/${slug}`]])} />
+    <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: p.title, description: p.summary, datePublished: p.date, dateModified: p.date,
+      mainEntityOfPage: `${SITE.url}/blog/${slug}`, image: `${SITE.url}/og.png`, author: { '@id': `${SITE.url}/#org` }, publisher: { '@id': `${SITE.url}/#org` } }} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/blog">Blog</Link><span>/</span>{p.category}</div>
       <h1>{p.title}</h1>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import JsonLd from '@/components/JsonLd';
 import { BOARDS, CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
@@ -192,6 +193,8 @@ export default function Home() {
     <section className="section soft"><div className="wrap narrow">
       <div className="section-head center reveal"><span className="kicker">FAQ</span><h2>Frequently asked questions</h2></div>
       {FAQ.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
+      <JsonLd data={{ '@context': 'https://schema.org', '@type': 'FAQPage',
+        mainEntity: FAQ.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }} />
     </div></section>
 
     <section className="section"><div className="wrap">

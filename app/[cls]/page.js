@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import { BOARDS, CLASSES } from '@/lib/data';
 import PAPERS from '@/lib/papers.json';
 import PDFS from '@/lib/pdfs.json';
@@ -10,7 +11,7 @@ export const generateStaticParams = () => Object.keys(CLASSES).map(cls => ({ cls
 export async function generateMetadata({ params }) {
   const { cls } = await params;
   const c = CLASSES[cls];
-  return c ? { title: `${c.label} Maths | CBSE & ICSE`, description: `${c.label} Maths for CBSE and ICSE: chapter-wise notes, formula banks, practice sheets, online tests and help with doubts.` } : {};
+  return c ? { title: `${c.label} Maths Notes, Formulas, DPP and Tests | CBSE & ICSE`, description: `${c.label} Maths for CBSE and ICSE: chapter-wise notes, formula banks, practice sheets, online tests and help with doubts.` } : {};
 }
 
 export default async function ClassPage({ params }) {
@@ -34,6 +35,7 @@ export default async function ClassPage({ params }) {
     { href: `/recorded-lectures#${cls}`, badge: 'RECORDED', kind: 'rec', title: 'Watch recorded lectures', text: 'Chapter-wise video lectures in Hinglish that you can watch any time.', go: 'See the lectures' },
   ].filter(Boolean);
   return (<>
+    <JsonLd data={breadcrumbs([[`${c.label} Maths`, `/${cls}`]])} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
       <h1>{c.label} Maths</h1>

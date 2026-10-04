@@ -1,0 +1,977 @@
+{
+ "class-10/applications-of-trigonometry": [
+  "Line of sight and the two angles",
+  "Choosing the ratio",
+  "One right-angled triangle",
+  "Two right-angled triangles",
+  "Steps for every problem"
+ ],
+ "class-10/areas-related-to-circles": [
+  "Circle: a quick recap",
+  "Sector of a circle",
+  "Segment of a circle",
+  "Finding the area of the triangle for other angles"
+ ],
+ "class-10/arithmetic-progression": [
+  "What is an AP?",
+  "The nth term",
+  "Sum of the first n terms",
+  "Word problems",
+  "Useful ideas"
+ ],
+ "class-10/circles": [
+  "Lines and a circle",
+  "Number of tangents from a point",
+  "Theorem 1: tangent and radius",
+  "Theorem 2: tangents from an external point",
+  "Results worth remembering"
+ ],
+ "class-10/coordinate-geometry": [
+  "Coordinates: a quick recap",
+  "The distance formula",
+  "Using distances to identify figures",
+  "The section formula"
+ ],
+ "class-10/icse-arithmetic-progression": [
+  "Sequence, series and A.P.",
+  "The general term",
+  "Sum of n terms",
+  "Arithmetic mean",
+  "Choosing terms conveniently"
+ ],
+ "class-10/icse-banking-recurring-deposit-accounts": [
+  "The recurring deposit account",
+  "Interest and maturity value",
+  "Finding the monthly deposit",
+  "Finding the rate of interest",
+  "Finding the time"
+ ],
+ "class-10/icse-circles": [
+  "Terms",
+  "Angle at the centre and at the circumference",
+  "Cyclic quadrilaterals",
+  "Arcs, chords and angles",
+  "How to write a solution"
+ ],
+ "class-10/icse-constructions-circles": [
+  "Rules for every construction",
+  "Tangent at a point on the circle",
+  "Tangents from an external point",
+  "Circumscribed circle of a triangle",
+  "Inscribed circle of a triangle",
+  "Circles and a regular hexagon"
+ ],
+ "class-10/icse-cylinder-cone-and-sphere": [
+  "Cylinder",
+  "Cone",
+  "Sphere and hemisphere",
+  "Melting and recasting",
+  "Combination of solids"
+ ],
+ "class-10/icse-equation-of-a-line": [
+  "A point on a line",
+  "Inclination and slope",
+  "Parallel and perpendicular lines",
+  "Forms of the equation",
+  "Slope and intercepts from an equation",
+  "Lines parallel or perpendicular to a given line"
+ ],
+ "class-10/icse-geometric-progression": [
+  "What a G.P. is",
+  "The general term",
+  "Sum of n terms",
+  "Geometric mean",
+  "Choosing terms conveniently",
+  "A.P. and G.P. compared"
+ ],
+ "class-10/icse-graphical-representation-histograms-and-ogives": [
+  "Frequency distributions: the terms",
+  "Making classes continuous",
+  "Histogram",
+  "Mode from a histogram",
+  "Cumulative frequency table",
+  "Ogive",
+  "Reading an ogive"
+ ],
+ "class-10/icse-gst": [
+  "What GST is",
+  "Sales within a state: CGST and SGST",
+  "Sales between states: IGST",
+  "A bill with several items",
+  "Finding the price before tax",
+  "Input tax credit"
+ ],
+ "class-10/icse-heights-and-distances": [
+  "Angles of elevation and depression",
+  "Which ratio to use",
+  "Problems with one triangle",
+  "Problems with two triangles",
+  "Steps for every problem"
+ ],
+ "class-10/icse-linear-inequations": [
+  "Inequations and their signs",
+  "Rules for solving",
+  "Solution set and the replacement set",
+  "Representing the solution on a number line",
+  "Combining inequations"
+ ],
+ "class-10/icse-loci": [
+  "What a locus is",
+  "The two locus theorems",
+  "Standard loci",
+  "Loci in a triangle",
+  "Construction questions"
+ ],
+ "class-10/icse-matrices": [
+  "What a matrix is",
+  "Addition, subtraction and multiplication by a number",
+  "Multiplication of matrices",
+  "Properties of multiplication",
+  "Solving matrix equations"
+ ],
+ "class-10/icse-measures-of-central-tendency": [
+  "Mean of raw and tabulated data",
+  "Mean of grouped data",
+  "Median of raw data",
+  "Quartiles of raw data",
+  "Median and quartiles of grouped data",
+  "Mode"
+ ],
+ "class-10/icse-probability": [
+  "Basic terms",
+  "Probability of an event",
+  "Coins and dice",
+  "Playing cards",
+  "Balls, numbered cards and letters",
+  "Finding an unknown number"
+ ],
+ "class-10/icse-quadratic-equations": [
+  "Standard form and roots",
+  "Solving by factorisation",
+  "The quadratic formula",
+  "Nature of the roots"
+ ],
+ "class-10/icse-ratio-and-proportion": [
+  "Ratio",
+  "Proportion",
+  "Continued proportion",
+  "Properties of proportion",
+  "The k-method for proofs"
+ ],
+ "class-10/icse-reflection": [
+  "Reflection in a line",
+  "Reflection in the axes and in the origin",
+  "Reflection in a line parallel to an axis",
+  "Invariant points",
+  "Reflection of figures",
+  "Graph questions: how to answer"
+ ],
+ "class-10/icse-remainder-and-factor-theorems": [
+  "Polynomials and division",
+  "The remainder theorem",
+  "The factor theorem",
+  "Finding unknown constants",
+  "Factorising a cubic polynomial"
+ ],
+ "class-10/icse-section-and-mid-point-formula": [
+  "The section formula",
+  "Finding the ratio",
+  "Points of trisection",
+  "The mid-point formula",
+  "Centroid of a triangle"
+ ],
+ "class-10/icse-shares-and-dividend": [
+  "Shares and their values",
+  "Dividend",
+  "Return on investment",
+  "Selling and reinvesting"
+ ],
+ "class-10/icse-similarity": [
+  "Similar triangles",
+  "Conditions for similarity",
+  "Basic proportionality theorem",
+  "Areas of similar triangles",
+  "Maps and models"
+ ],
+ "class-10/icse-solving-problems-based-on-quadratic-equations": [
+  "The method",
+  "Problems on numbers",
+  "Problems on ages",
+  "Problems on geometry",
+  "Problems on speed, distance and time",
+  "Problems on cost and on work"
+ ],
+ "class-10/icse-tangents-and-intersecting-chords": [
+  "Tangent and secant",
+  "Tangent properties",
+  "Circles that touch each other",
+  "Intersecting chords",
+  "Tangent and secant from an external point",
+  "The alternate segment theorem"
+ ],
+ "class-10/icse-trigonometrical-identities": [
+  "The ratios and their relations",
+  "The three basic identities",
+  "Proving identities",
+  "Complementary angles",
+  "Using the tables"
+ ],
+ "class-10/pair-of-linear-equations": [
+  "The pair and its solution",
+  "Graphical method",
+  "Conditions for consistency",
+  "Substitution method",
+  "Elimination method",
+  "Word problems"
+ ],
+ "class-10/polynomials": [
+  "Polynomials and their zeroes",
+  "Zeroes from the graph",
+  "Zeroes and coefficients of a quadratic polynomial",
+  "Forming a quadratic polynomial",
+  "Expressions in the zeroes",
+  "Zeroes and coefficients of a cubic polynomial"
+ ],
+ "class-10/probability": [
+  "The language of probability",
+  "Theoretical probability",
+  "Complementary events",
+  "Coins",
+  "Two dice",
+  "Playing cards",
+  "Other common types"
+ ],
+ "class-10/quadratic-equations": [
+  "Standard form",
+  "Solving by factorisation",
+  "The quadratic formula",
+  "Nature of roots",
+  "Word problems"
+ ],
+ "class-10/real-numbers": [
+  "Numbers at a glance",
+  "The Fundamental Theorem of Arithmetic",
+  "HCF and LCM by prime factorisation",
+  "Word problems on HCF and LCM",
+  "Irrational numbers and their proofs"
+ ],
+ "class-10/statistics": [
+  "Grouped data: the terms",
+  "Mean of grouped data",
+  "Mode of grouped data",
+  "Median of grouped data",
+  "Which measure to use"
+ ],
+ "class-10/surface-areas-and-volumes": [
+  "Formulas for the basic solids",
+  "Surface area of a combination of solids",
+  "Volume of a combination of solids",
+  "Working with the dimensions"
+ ],
+ "class-10/triangles": [
+  "Similar figures",
+  "Similar triangles",
+  "Basic Proportionality Theorem (Thales theorem)",
+  "Criteria for similarity of triangles",
+  "Applications: heights and shadows",
+  "Writing a proof"
+ ],
+ "class-10/trigonometry": [
+  "Trigonometric ratios",
+  "Finding all ratios from one",
+  "Ratios of standard angles",
+  "Trigonometric identities",
+  "How to prove an identity"
+ ],
+ "class-8/a-square-and-a-cube": [
+  "Square numbers",
+  "Factors and squares",
+  "Patterns in the units digit",
+  "Squares and odd numbers",
+  "Square roots",
+  "Estimating square roots",
+  "Cube numbers",
+  "Cube roots"
+ ],
+ "class-8/a-story-of-numbers": [
+  "Counting and number systems",
+  "Early ways of counting",
+  "Roman numerals",
+  "The idea of a base",
+  "Place value",
+  "The Hindu number system",
+  "Writing numbers in other bases"
+ ],
+ "class-8/algebra-play": [
+  "Think of a number",
+  "The date trick",
+  "Number pyramids",
+  "Calendar and number grids",
+  "Algebra grids",
+  "The largest product",
+  "Divisibility tricks with digits",
+  "Word problems with equations"
+ ],
+ "class-8/area": [
+  "Area and perimeter",
+  "Paths",
+  "Triangle",
+  "Useful facts about triangle areas",
+  "Any polygon",
+  "Parallelogram",
+  "Rhombus",
+  "Trapezium",
+  "Changing shape, keeping area",
+  "Units of area"
+ ],
+ "class-8/baudhayana-pythagoras-theorem": [
+  "Doubling and halving a square",
+  "The isosceles right triangle",
+  "The number root 2",
+  "The theorem",
+  "Baudhāyana triples",
+  "Applications"
+ ],
+ "class-8/exploring-some-geometric-themes": [
+  "Fractals",
+  "Sierpinski Carpet",
+  "Sierpinski Triangle",
+  "Koch Snowflake",
+  "Solids: faces, edges, vertices",
+  "Profiles",
+  "Nets",
+  "Shortest paths on a cuboid",
+  "Projections",
+  "Isometric drawings"
+ ],
+ "class-8/fractions-in-disguise": [
+  "Per cent",
+  "Percentage of a quantity",
+  "Percentages greater than 100",
+  "Comparing with percentages",
+  "Percentage increase and decrease",
+  "Profit and loss",
+  "Discount and tax",
+  "Interest without compounding",
+  "Compounding",
+  "Depreciation and decline"
+ ],
+ "class-8/icse-algebraic-expressions": [
+  "Terms and expressions",
+  "Polynomials",
+  "Addition and subtraction",
+  "Multiplication",
+  "Division",
+  "Simplifying with brackets"
+ ],
+ "class-8/icse-algebraic-identities": [
+  "Identity and equation",
+  "The basic identities",
+  "Quick calculation",
+  "Relations between the identities",
+  "Square of a trinomial",
+  "Cubes of binomials"
+ ],
+ "class-8/icse-area-of-a-trapezium-and-a-polygon": [
+  "Triangles and rectangles",
+  "Parallelogram and rhombus",
+  "Trapezium",
+  "Quadrilateral",
+  "Polygon and field book",
+  "Circle",
+  "Paths"
+ ],
+ "class-8/icse-constructions": [
+  "Basic constructions",
+  "Before constructing a quadrilateral",
+  "Quadrilaterals",
+  "Parallelograms",
+  "Rectangles",
+  "Rhombuses",
+  "Squares"
+ ],
+ "class-8/icse-cubes-and-cube-roots": [
+  "Cubes",
+  "Properties of cubes",
+  "Testing for a perfect cube",
+  "Cube roots",
+  "Cube root by inspection",
+  "Word problems"
+ ],
+ "class-8/icse-data-handling": [
+  "Data",
+  "Grouped data",
+  "Bar graph",
+  "Histogram",
+  "Pie chart",
+  "Choosing a graph"
+ ],
+ "class-8/icse-direct-and-inverse-variations": [
+  "Direct variation",
+  "Inverse variation",
+  "Unitary method",
+  "Time and work",
+  "Pipes and cisterns",
+  "More than two quantities"
+ ],
+ "class-8/icse-exponents-powers": [
+  "Powers",
+  "Laws of exponents",
+  "Fractional exponents",
+  "Expressing in exponential form",
+  "Finding an unknown exponent",
+  "Standard form"
+ ],
+ "class-8/icse-factorisation": [
+  "Factors",
+  "Common factors",
+  "Grouping",
+  "Difference of two squares",
+  "Perfect square trinomials",
+  "Trinomials of the form x² + bx + c",
+  "Trinomials of the form ax² + bx + c",
+  "Using factors to divide"
+ ],
+ "class-8/icse-linear-equations-in-one-variable": [
+  "Equations",
+  "Simple equations",
+  "Equations with brackets",
+  "Equations with fractions",
+  "Word problems: method",
+  "Numbers",
+  "Ages and money",
+  "Geometry and speed"
+ ],
+ "class-8/icse-linear-inequations": [
+  "Inequations",
+  "Replacement set and solution set",
+  "Rules for solving",
+  "On the number line",
+  "Combined inequations",
+  "Greatest and least values"
+ ],
+ "class-8/icse-percent-and-percentage": [
+  "Per cent",
+  "Percentage of a quantity",
+  "Increase and decrease",
+  "Comparisons",
+  "Word problems"
+ ],
+ "class-8/icse-playing-with-numbers": [
+  "Generalised form",
+  "Tricks with reversed digits",
+  "Letters for digits",
+  "Tests of divisibility",
+  "Finding missing digits"
+ ],
+ "class-8/icse-probability": [
+  "Basic terms",
+  "Probability of an event",
+  "Coins",
+  "Dice",
+  "Playing cards",
+  "Balls, numbers and letters",
+  "Experimental probability"
+ ],
+ "class-8/icse-profit-loss-and-discount": [
+  "Basic terms",
+  "Finding S.P. and C.P.",
+  "Several articles",
+  "Discount",
+  "Marked price, discount and profit together",
+  "Successive discounts",
+  "Tax on sales"
+ ],
+ "class-8/icse-rational-numbers": [
+  "What a rational number is",
+  "Comparing rational numbers",
+  "The four operations",
+  "Properties",
+  "On the number line",
+  "Rational numbers between two rational numbers"
+ ],
+ "class-8/icse-representing-3-d-in-2-d": [
+  "Two and three dimensions",
+  "Faces, edges and vertices",
+  "Prisms and pyramids",
+  "Euler's formula",
+  "Nets",
+  "Views of a solid"
+ ],
+ "class-8/icse-sets": [
+  "Sets and elements",
+  "Types of sets",
+  "Subsets",
+  "Operations on sets",
+  "Venn diagrams",
+  "Counting elements"
+ ],
+ "class-8/icse-simple-and-compound-interest": [
+  "Simple interest",
+  "Finding P, R or T",
+  "Compound interest",
+  "Compound interest by formula",
+  "Comparing C.I. and S.I.",
+  "Growth and depreciation"
+ ],
+ "class-8/icse-special-types-of-quadrilaterals": [
+  "Quadrilaterals",
+  "Trapezium",
+  "Parallelogram",
+  "Rectangle",
+  "Rhombus",
+  "Square",
+  "Kite",
+  "Comparing the diagonals"
+ ],
+ "class-8/icse-squares-and-square-roots": [
+  "Squares",
+  "Properties of perfect squares",
+  "Quick squares",
+  "Square root by prime factorisation",
+  "Square root by long division",
+  "Decimals and fractions",
+  "Word problems"
+ ],
+ "class-8/icse-surface-area-volume-and-capacity": [
+  "Cuboid",
+  "Cube",
+  "Units of volume and capacity",
+  "Walls, boxes and bricks",
+  "Cylinder",
+  "Melting and recasting"
+ ],
+ "class-8/icse-understanding-shapes": [
+  "Curves and polygons",
+  "Convex and concave polygons",
+  "Regular polygons",
+  "Interior angles",
+  "Exterior angles",
+  "Diagonals"
+ ],
+ "class-8/number-play": [
+  "Parity",
+  "Sums of consecutive numbers",
+  "Even numbers and multiples of 4",
+  "Properties of divisibility",
+  "Remainders",
+  "Divisibility by 2, 4, 5, 8 and 10",
+  "Divisibility by 9 and 3",
+  "Divisibility by 11",
+  "Divisibility by other numbers",
+  "Digital roots",
+  "Cryptarithms"
+ ],
+ "class-8/power-play": [
+  "Exponential notation",
+  "Exponential growth",
+  "Laws of exponents: same base",
+  "Laws of exponents: same exponent",
+  "Counting combinations",
+  "Zero and negative exponents",
+  "Powers of 10 and expanded form",
+  "Scientific notation",
+  "Estimating with large numbers"
+ ],
+ "class-8/proportional-reasoning-1": [
+  "Ratio",
+  "Proportion",
+  "The Rule of Three",
+  "When the Rule of Three does not apply",
+  "Comparing by unit rate",
+  "Dividing in a given ratio",
+  "Changing a mixture",
+  "Unit conversions"
+ ],
+ "class-8/proportional-reasoning-2": [
+  "Recap of proportion",
+  "Ratios in maps",
+  "Ratios with more than two terms",
+  "Dividing a whole in a given ratio",
+  "Pie charts",
+  "Inverse proportion",
+  "Working together"
+ ],
+ "class-8/quadrilaterals": [
+  "Quadrilaterals and their angles",
+  "Rectangle",
+  "Square",
+  "Parallelogram",
+  "Rhombus",
+  "Kite",
+  "Trapezium",
+  "How the families are related"
+ ],
+ "class-8/tales-by-dots-and-lines": [
+  "Mean and median",
+  "The mean as a balance point",
+  "Adding or removing values",
+  "Changing every value",
+  "Finding an unknown value",
+  "Mean and median with frequencies",
+  "Spreadsheets",
+  "Line graphs",
+  "Other ways of showing data"
+ ],
+ "class-8/we-distribute-yet-things-multiply": [
+  "The distributive property",
+  "Multiplying two brackets",
+  "Quick multiplication",
+  "Square of a sum",
+  "Square of a difference",
+  "Difference of two squares",
+  "Patterns explained by identities",
+  "Many ways to count"
+ ],
+ "class-9/algebraic-identities": [
+  "Identity and equation",
+  "Squares of a sum and a difference",
+  "Square of a sum of three terms",
+  "Difference of two squares",
+  "Factorising with the square identities",
+  "Products and factors of the form x² + (a + b)x + ab",
+  "Cubes of a sum and a difference",
+  "Sum and difference of two cubes",
+  "The identity for three cubes",
+  "Simplifying rational expressions"
+ ],
+ "class-9/icse-area-and-perimeter-of-plane-figures": [
+  "Triangles",
+  "Quadrilaterals",
+  "Paths and borders",
+  "Circle"
+ ],
+ "class-9/icse-area-theorems": [
+  "Basic ideas",
+  "The theorems",
+  "Medians and areas",
+  "Diagonals of quadrilaterals",
+  "Using the theorems in proofs"
+ ],
+ "class-9/icse-circle": [
+  "Terms",
+  "Chord and perpendicular from the centre",
+  "Equal chords",
+  "Two parallel chords",
+  "Two intersecting circles",
+  "Arcs and chords"
+ ],
+ "class-9/icse-co-ordinate-geometry": [
+  "The Cartesian plane",
+  "Dependent and independent variables",
+  "Graph of a linear equation",
+  "Inclination and slope",
+  "The form y = mx + c"
+ ],
+ "class-9/icse-complementary-angles": [
+  "Complementary angles",
+  "Evaluating without tables",
+  "Expressing in terms of angles below 45 degrees",
+  "Solving equations",
+  "Proving results"
+ ],
+ "class-9/icse-compound-interest-using-formula": [
+  "The formula",
+  "Different rates in different years",
+  "Other compounding periods",
+  "Finding P, r or n",
+  "C.I. and S.I. compared",
+  "Growth and depreciation"
+ ],
+ "class-9/icse-compound-interest-without-using-formula": [
+  "Simple interest",
+  "Compound interest",
+  "Useful facts",
+  "Comparing C.I. and S.I.",
+  "Interest compounded half-yearly",
+  "Repayments and growth"
+ ],
+ "class-9/icse-construction-of-polygons": [
+  "Before you construct",
+  "Quadrilaterals",
+  "Parallelograms",
+  "Rectangles",
+  "Rhombuses and squares",
+  "Trapeziums",
+  "Regular hexagon"
+ ],
+ "class-9/icse-distance-formula": [
+  "The formula",
+  "Points on the axes",
+  "Finding an unknown co-ordinate",
+  "Collinear points",
+  "Identifying triangles",
+  "Identifying quadrilaterals",
+  "Circles"
+ ],
+ "class-9/icse-expansions": [
+  "Squares of binomials",
+  "Relations between sum, difference and product",
+  "Expressions with a number and its reciprocal",
+  "Square of a trinomial",
+  "Cubes of binomials",
+  "Sum and product identities"
+ ],
+ "class-9/icse-factorisation": [
+  "What factorising means",
+  "Common factors",
+  "Grouping",
+  "Trinomials: splitting the middle term",
+  "Difference of two squares",
+  "Sum and difference of two cubes"
+ ],
+ "class-9/icse-graphical-solution": [
+  "The idea",
+  "Steps",
+  "Three possibilities",
+  "Lines parallel to the axes",
+  "Triangles formed by lines",
+  "Word problems"
+ ],
+ "class-9/icse-indices-exponents": [
+  "Meaning of an index",
+  "Laws of indices",
+  "Working with roots",
+  "Exponential equations"
+ ],
+ "class-9/icse-inequalities": [
+  "Side and angle",
+  "Triangle inequality",
+  "Shortest distance",
+  "Proving inequalities"
+ ],
+ "class-9/icse-isosceles-triangles": [
+  "The isosceles triangle",
+  "Properties of an isosceles triangle",
+  "Equilateral triangles",
+  "Angle-chasing"
+ ],
+ "class-9/icse-logarithms": [
+  "Definition",
+  "Basic results",
+  "Laws of logarithms",
+  "Using given values",
+  "Equations with logarithms"
+ ],
+ "class-9/icse-mean-and-median": [
+  "Arithmetic mean",
+  "Properties of the mean",
+  "Corrected and combined means",
+  "Mean of a frequency distribution",
+  "Median",
+  "Median of a frequency distribution"
+ ],
+ "class-9/icse-mid-point-and-its-converse": [
+  "Mid-point theorem",
+  "Converse of the mid-point theorem",
+  "The triangle of mid-points",
+  "Quadrilaterals",
+  "Trapezium",
+  "Equal intercept theorem"
+ ],
+ "class-9/icse-pythagoras-theorem": [
+  "The theorem",
+  "Converse",
+  "Pythagorean triplets",
+  "Standard applications",
+  "Problems from daily life",
+  "Results in triangles"
+ ],
+ "class-9/icse-rational-and-irrational-numbers": [
+  "Rational numbers",
+  "Decimal form of a rational number",
+  "Irrational numbers",
+  "Surds on the number line",
+  "Surds",
+  "Rationalisation"
+ ],
+ "class-9/icse-rectilinear-figures": [
+  "Polygons",
+  "Quadrilaterals",
+  "Parallelogram",
+  "Rectangle, rhombus and square",
+  "Trapezium and kite",
+  "Proofs with parallelograms"
+ ],
+ "class-9/icse-simultaneous-linear-equations": [
+  "A pair of linear equations",
+  "Method of substitution",
+  "Method of elimination",
+  "Method of cross-multiplication",
+  "Equations reducible to linear form",
+  "Word problems"
+ ],
+ "class-9/icse-solids": [
+  "Cuboid",
+  "Cube",
+  "Units and capacity",
+  "Hollow boxes",
+  "Uniform cross-section",
+  "Flow of water"
+ ],
+ "class-9/icse-solution-of-right-triangles": [
+  "What \"solving\" means",
+  "The two special triangles",
+  "One side and one angle given",
+  "Two sides given",
+  "Triangles with an altitude",
+  "Two triangles on a common side",
+  "Other figures"
+ ],
+ "class-9/icse-statistics": [
+  "Data",
+  "Frequency distribution",
+  "Class intervals",
+  "Making a grouped table",
+  "Cumulative frequency",
+  "Histogram",
+  "Frequency polygon"
+ ],
+ "class-9/icse-triangles-congruency-in-triangles": [
+  "Angles of a triangle",
+  "Congruent triangles",
+  "Conditions for congruency",
+  "Writing a proof",
+  "Results proved by congruency",
+  "Finding unknowns"
+ ],
+ "class-9/icse-trigonometrical-ratios-of-standard-angles": [
+  "Where the values come from",
+  "Table of values",
+  "Evaluating expressions",
+  "Verifying results",
+  "Solving for an angle",
+  "Finding sides"
+ ],
+ "class-9/icse-trigonometrical-ratios": [
+  "Naming the sides",
+  "The six ratios",
+  "Relations between the ratios",
+  "Given one ratio, find the others",
+  "Using the ratios to find sides",
+  "Expressions in sine and cosine"
+ ],
+ "class-9/introduction-to-probability": [
+  "Randomness and the probability scale",
+  "Experimental probability",
+  "Theoretical probability",
+  "Probability from data and samples",
+  "Experimental and theoretical probability compared",
+  "Sample space and events",
+  "Tree diagrams"
+ ],
+ "class-9/linear-polynomials": [
+  "Algebraic expressions",
+  "Polynomials in one variable",
+  "Value of a polynomial and linear equations",
+  "Linear patterns",
+  "Linear growth and linear decay",
+  "Linear relationships",
+  "Graph of a linear relationship"
+ ],
+ "class-9/orienting-yourself-coordinates": [
+  "The Cartesian plane",
+  "Coordinates of a point",
+  "The four quadrants",
+  "Distance along a line parallel to an axis",
+  "The distance formula",
+  "Reflection in the axes",
+  "Using distances: collinear points, mid-points and circles"
+ ],
+ "class-9/perimeter-and-area": [
+  "Perimeter and the number π",
+  "Length of an arc",
+  "Area of rectangles, parallelograms and triangles",
+  "Heron's formula",
+  "Brahmagupta's formula for a cyclic quadrilateral",
+  "Squaring a rectangle",
+  "Area of a circle",
+  "Sector and segment of a circle"
+ ],
+ "class-9/propositions-and-converses": [
+  "Propositions",
+  "The converse",
+  "Counterexamples",
+  "When a proposition and its converse are both true",
+  "Proving both directions",
+  "More examples to study"
+ ],
+ "class-9/quadrilaterals": [
+  "What a quadrilateral is",
+  "Parallelograms and their properties",
+  "Tests for a parallelogram",
+  "The Midpoint Theorem",
+  "Medians and the centroid",
+  "The Midpoint Theorem for quadrilaterals",
+  "Tiling the plane"
+ ],
+ "class-9/sequences-and-progressions": [
+  "Sequences and their terms",
+  "Explicit rule",
+  "Recursive rule",
+  "Arithmetic progressions",
+  "Sum of the first n natural numbers",
+  "Geometric progressions",
+  "Fractals and geometric progressions",
+  "AP and GP compared"
+ ],
+ "class-9/surface-area-and-volume": [
+  "Cuboid and cube",
+  "Right circular cylinder",
+  "Right circular cone",
+  "Pyramids",
+  "Sphere and hemisphere",
+  "How surface area and volume change with size",
+  "Solids put into water and solids recast",
+  "Estimating with volumes"
+ ],
+ "class-9/the-world-of-algorithms": [
+  "What an algorithm is",
+  "The addition algorithm",
+  "Finding the divisors of a number",
+  "A first algorithm for the gcd",
+  "Improving the algorithm",
+  "Euclid's subtraction algorithm",
+  "Āryabhaṭa's division algorithm",
+  "Comparing the algorithms"
+ ],
+ "class-9/the-world-of-numbers": [
+  "How the number system grew",
+  "Brahmagupta's rules for zero and integers",
+  "Rational numbers",
+  "Rational numbers on the number line",
+  "Irrational numbers",
+  "Marking the square root of 2 on the number line",
+  "Decimal expansions",
+  "Converting decimals to fractions"
+ ],
+ "class-9/two-variables-one-line": [
+  "Linear equations in two variables",
+  "Solutions and their graph",
+  "Slope of a line",
+  "Slope-intercept form",
+  "Pair of linear equations",
+  "Substitution method",
+  "Elimination method",
+  "How many solutions?",
+  "Graphical method"
+ ],
+ "class-9/understanding-data": [
+  "Average of averages",
+  "Mixtures",
+  "The weighted mean",
+  "Custom weights",
+  "Adding or removing a value",
+  "Stacked bar charts",
+  "100% stacked bar charts"
+ ],
+ "class-9/up-and-down-round-and-round": [
+  "Definitions",
+  "Circles through given points",
+  "Chords and the angles they subtend at the centre",
+  "The perpendicular from the centre to a chord",
+  "Distance of chords from the centre",
+  "Angles subtended by an arc",
+  "Concyclic points and cyclic quadrilaterals"
+ ]
+}

@@ -1,9 +1,11 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import { CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
+import TOPICS from '@/lib/topics.json';
 
 export const generateStaticParams = () =>
   Object.entries(CLASSES).flatMap(([cls, c]) => c.chapters.map(ch => ({ cls, slug: ch.slug })));
@@ -32,8 +34,9 @@ const TABS = [
 export async function generateMetadata({ params }) {
   const p = await params;
   const { c, ch } = find(p); if (!ch) return {};
-  return { title: `${ch.title} ${c.label} | ${ch.boards.join(' & ')} Notes, Formulas and DPP`,
-    description: ch.summary || `${c.label} ${ch.title}: short notes, formula bank and DPP sheet for ${ch.boards.join(' and ')}.`,
+  const what = `Free PDF notes, formula sheet, DPP${p.cls === 'class-10' ? ', previous year questions' : ''} and an online test`;
+  return { title: `${ch.title} ${c.label} ${ch.boards.join(' & ')} Notes, Formulas, DPP and Test`,
+    description: `${c.label} ${ch.boards.join(' and ')} Maths, ${ch.title}: ${ch.summary ? ch.summary + ' ' : ''}${what}.`.slice(0, 300),
     alternates: { canonical: `/${p.cls}/${p.slug}` } };
 }
 
@@ -44,7 +47,13 @@ export default async function Chapter({ params }) {
   const ready = PDFS[`${p.cls}/${p.slug}`] || [];
   const tabs = TABS.filter(t => (!t.only || t.only.includes(p.cls)) && (!t.optional || ready.includes(t.files[0][0])));
   const test = TESTS[`${p.cls}/${p.slug}`];
+  const topics = TOPICS[`${p.cls}/${p.slug}`] || [];
+  const url = `${SITE.url}/${p.cls}/${p.slug}`;
   return (<>
+    <JsonLd data={breadcrumbs([[`${c.label} Maths`, `/${p.cls}`], [ch.title, `/${p.cls}/${p.slug}`]])} />
+    <JsonLd data={{ '@context': 'https://schema.org', '@type': 'LearningResource', name: `${ch.title}: ${c.label} ${board} Maths notes`, url,
+      description: ch.summary || undefined, inLanguage: 'en', isAccessibleForFree: true, educationalLevel: c.label,
+      learningResourceType: ['Notes', 'Formula sheet', 'Practice problems'], teaches: topics, provider: { '@id': `${SITE.url}/#org` } }} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
       <h1>{ch.title} {c.label}</h1>
@@ -81,6 +90,11 @@ export default async function Chapter({ params }) {
             </div>);
           })}
         </div>
+        {topics.length > 0 && <section className="covers">
+          <h2>What this chapter covers</h2>
+          <ul>{topics.map(t => <li key={t}>{t}</li>)}</ul>
+          <p className="muted">The short notes explain each of these topics with solved examples, the formula bank lists every result on one sheet, and the DPP sheet gives practice questions with an answer key.{p.cls === 'class-10' ? ' Previous year board questions are arranged topic-wise with solutions.' : ''}</p>
+        </section>}
         {test && <div className="banner" style={{marginTop:'2rem'}}>
           <div><h2>Chapter test</h2><p>{test.qs.length} questions · {test.minutes} minutes · instant score with explanations</p></div>
           <Link className="btn btn-sun" href={`/tests/${p.cls}/${p.slug}`}>Start test</Link>

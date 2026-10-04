@@ -2,14 +2,28 @@ import './globals.css';
 import Link from 'next/link';
 import { Poppins } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
+import JsonLd from '@/components/JsonLd';
 import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
 
 const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600', '700'], variable: '--font', display: 'swap' });
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name} | Class 8-10 Maths for CBSE & ICSE`, template: `%s | ${SITE.name}` },
-  description: 'Class 8-10 Maths for CBSE and ICSE: video lessons in Hinglish, with notes, practice and Olympiad prep.',
+  title: { default: `${SITE.name} | Class 8, 9, 10 Maths Notes, Tests and Classes for CBSE & ICSE`, template: `%s | ${SITE.name}` },
+  description: 'Free Maths notes, formula sheets, DPP, previous year questions and online chapter tests for Class 8, 9 and 10 (CBSE and ICSE), with live classes and lessons in Hinglish.',
+  // Each page names its own address as the one to index, so copies on other addresses are not counted separately.
+  alternates: { canonical: './' },
+  openGraph: { siteName: SITE.name, type: 'website', locale: 'en_IN', images: [{ url: '/og.png', width: 1200, height: 630, alt: `${SITE.name}: Class 8, 9 and 10 Maths` }] },
+  twitter: { card: 'summary_large_image', images: ['/og.png'] },
+};
+
+// Who runs the site, for search engines.
+const ORG = {
+  '@context': 'https://schema.org', '@graph': [
+    { '@type': 'EducationalOrganization', '@id': `${SITE.url}/#org`, name: SITE.name, url: SITE.url, logo: `${SITE.url}/logo.svg`,
+      description: 'Maths for Class 8, 9 and 10 (CBSE and ICSE): notes, practice, tests and classes.', sameAs: [SITE.telegram, SITE.youtube] },
+    { '@type': 'WebSite', '@id': `${SITE.url}/#site`, name: SITE.name, url: SITE.url, inLanguage: 'en-IN', publisher: { '@id': `${SITE.url}/#org` } },
+  ],
 };
 
 const Brand = () => (<Link className="brand" href="/"><img className="logo" src="/logo.svg" alt="" width="34" height="34" />{SITE.name}</Link>);
@@ -28,6 +42,7 @@ export default function RootLayout({ children }) {
           <AccountButton />
         </div></header>
         <main>{children}</main>
+        <JsonLd data={ORG} />
         <footer className="site-footer">
           <div className="wrap foot-grid">
             <div>

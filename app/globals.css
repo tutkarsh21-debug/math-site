@@ -272,6 +272,10 @@ button.btn{font-weight:600}
 .side a[aria-current]{color:var(--brand);font-weight:600}
 .video{aspect-ratio:16/9;width:100%;border:0;border-radius:var(--radius);background:var(--soft)}
 .ph{display:grid;place-items:center;color:var(--muted);border:1px dashed var(--line);aspect-ratio:auto;padding:1.1rem}
+.covers{margin-top:2rem}
+.covers ul{columns:2;column-gap:2rem;margin:.6rem 0 1rem}
+.covers li{break-inside:avoid;padding:.15rem 0}
+@media(max-width:600px){.covers ul{columns:1}}
 /* chapter material: one PDF per tab */
 .chapter .tabs{margin-top:1.5rem}
 .pdf-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem 1rem;margin-bottom:.8rem;color:var(--muted)}
