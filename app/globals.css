@@ -77,6 +77,16 @@ ul,ol{padding-left:1.2rem}
 .picker a:nth-of-type(3) .cls-no{background:var(--t3);color:#1c8a55}
 .picker a:nth-of-type(4) .cls-no{background:var(--t4);color:#c2376a}
 .arrow{color:var(--brand);font-size:1.2rem}
+/* the path from fear to confidence, on a glass panel in the hero */
+.bridge{position:relative;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.24);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:24px;padding:1.6rem 1.7rem;box-shadow:0 30px 60px rgba(4,20,70,.3)}
+.hero .bridge p{margin:0;max-width:none;font-size:1.05rem}
+.bridge-from{opacity:.7;text-decoration:line-through;text-decoration-color:rgba(255,255,255,.55)}
+.hero .bridge .bridge-to{font-size:1.3rem;font-weight:700;color:var(--sun);opacity:1}
+.bridge ol{list-style:none;margin:.9rem 0;padding:0 0 0 .55rem}
+.bridge li{position:relative;padding:.5rem 0 .5rem 1.7rem;border-left:2px dashed rgba(255,255,255,.4)}
+.bridge li::before{content:'';position:absolute;left:-.5rem;top:.95rem;width:.85rem;height:.85rem;border-radius:50%;background:var(--sun);box-shadow:0 0 0 4px rgba(255,197,51,.25)}
+.bridge li b{display:block;font-size:1.02rem}
+.bridge li span{font-size:.92rem;opacity:.9}
 
 /* stats */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border:1px solid var(--line);border-radius:20px;box-shadow:0 14px 40px rgba(16,40,90,.12);margin-top:-2.6rem;position:relative}
@@ -107,6 +117,10 @@ ul,ol{padding-left:1.2rem}
 .feat.f3 .icon{background:var(--t3);color:#1c8a55}
 .feat.f4 .icon{background:var(--t4);color:#c2376a}
 .feat:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+/* a worry about maths, and what the site does about it */
+.fear{border-top:4px solid var(--brand)}
+.fear.f2{border-top-color:#e0a100}.fear.f3{border-top-color:#2e9e62}.fear.f4{border-top-color:#d6477c}
+.fear q{display:block;font-style:italic;color:var(--muted);margin-bottom:.8rem;quotes:'“' '”'}
 .card .go{display:block;margin-top:.5rem;font-weight:600;font-size:.92rem;color:var(--brand)}
 .try-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
 .try{padding:1.5rem;box-shadow:0 14px 40px rgba(16,40,90,.12)}

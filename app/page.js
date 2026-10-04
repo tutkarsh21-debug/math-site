@@ -1,6 +1,5 @@
-import { Fragment } from 'react';
 import Link from 'next/link';
-import { BOARDS, CLASSES, MODES, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 
@@ -23,6 +22,22 @@ const FEATURES = [
   { icon: 'pyq', title: 'PYQ for Class 10', text: 'Previous year board questions arranged topic-wise, with step-by-step solutions.' },
   { icon: 'test', title: 'Chapter Tests', text: 'Timed online tests with your score and an explanation for every question.' },
   { icon: 'video', title: 'Video Lectures', text: 'Lessons in simple Hinglish, being added chapter by chapter.' },
+];
+
+// Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
+const FEARS = [
+  { worry: 'I did not understand what was done on the board.', title: 'We start from the basics', text: 'Short notes explain every idea in plain words with solved examples, so you can go at your own speed and read a step again.', href: '/self-study', go: 'See the notes' },
+  { worry: 'I understand in class but go blank in the exam.', title: 'Practice makes it stay', text: 'A daily practice sheet and a timed test for every chapter show you what you really know, well before the exam does.', href: '/tests', go: 'Try a test' },
+  { worry: 'There are too many formulas to remember.', title: 'One page per chapter', text: 'The formula bank puts every formula of a chapter on a single sheet, ready for a quick revision the night before.', href: '/self-study', go: 'Open a formula bank' },
+  { worry: 'I feel shy to ask my doubt in class.', title: 'Ask in private', text: 'Send your doubt with a photo and get a step-by-step answer from your teacher. Only you can see it.', href: '/doubts', go: 'Ask a doubt' },
+];
+
+// The path shown in the hero, from fear to confidence.
+const PATH = [
+  { title: 'Understand', text: 'Notes that start from the basics' },
+  { title: 'Practise', text: 'A few questions a day, with answers' },
+  { title: 'Check', text: 'A short test for every chapter' },
+  { title: 'Ask', text: 'Your doubt, answered step by step' },
 ];
 
 const STEPS = [
@@ -66,10 +81,10 @@ export default function Home() {
     <section className="hero"><div className="wrap hero-grid">
       <div>
         <span className="eyebrow">Class 8 · 9 · 10 &nbsp;|&nbsp; CBSE · ICSE · Olympiad</span>
-        <h1>Maths made <em>simple</em>, from basics to boards</h1>
-        <p>Notes, formulas, daily practice and tests for every chapter, with lessons in easy Hinglish. Understand once, score full marks.</p>
+        <h1>Maths fear ends where <em>understanding</em> begins</h1>
+        <p>Most students who fear maths are not weak at it. They missed one idea somewhere, and every chapter after that felt harder. {SITE.name} takes you back to that idea and builds up from there, one small step at a time.</p>
         <div className="cta-row">
-          <Link className="btn btn-sun" href="#explore">Explore courses</Link>
+          <Link className="btn btn-sun" href="#classes">Find my class</Link>
           <Link className="btn btn-ghost" href="/self-study">Start free self study</Link>
         </div>
         <ul className="ticks">
@@ -79,13 +94,12 @@ export default function Home() {
       <div className="hero-art">
         <span className="fx fx1" aria-hidden="true">a² + b² = c²</span>
         <span className="fx fx2" aria-hidden="true">sin²θ + cos²θ = 1</span>
-        <span className="fx fx3" aria-hidden="true">A = πr²</span>
-        <div className="picker">
-          <h2>Which class are you in?</h2>
-          {classes.map(([k, c]) => (
-            <Link key={k} href={`/${k}`}><b className="cls-no" aria-hidden="true">{c.label.replace(/\D/g, '')}</b>
-              <span>{c.label}<small>{c.chapters.length} chapters · CBSE and ICSE</small></span><span className="arrow">→</span></Link>))}
-          <Link href="/olympiad"><b className="cls-no" aria-hidden="true">★</b><span>Olympiad<small>SOF IMO preparation</small></span><span className="arrow">→</span></Link>
+        <div className="bridge">
+          <p className="bridge-from">“I can’t do maths.”</p>
+          <ol>
+            {PATH.map(s => <li key={s.title}><b>{s.title}</b><span>{s.text}</span></li>)}
+          </ol>
+          <p className="bridge-to">“I can do this.”</p>
         </div>
       </div>
     </div></section>
@@ -98,26 +112,30 @@ export default function Home() {
       {chips(false)}<span aria-hidden="true" style={{display:'contents'}}>{chips(true)}</span>
     </div></div>
 
-    <section className="section" id="explore"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Courses</span><h2>Choose how you want to study</h2><p>Pick a study mode, then your class.</p></div>
-      <div className="tabs center">
-        {MODES.map((m, i) => (<Fragment key={m.kind}>
-          <input type="radio" name="mode" id={`mode-${m.kind}`} defaultChecked={i === 0} />
-          <label htmlFor={`mode-${m.kind}`}>{m.label}</label>
-        </Fragment>))}
-        {MODES.map(m => (<div key={m.kind} className="tab-panel">
-          <p className="muted"><span className={`badge ${m.kind}`}>{m.badge}</span> {m.text}</p>
-          <div className="grid">
-            {classes.map(([k, c]) => (
-              <Link key={k} href={m.kind === 'self' ? `/${k}` : `${m.href}#${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>
-                <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">{m.label} →</span></Link>))}
-            <Link href={m.href} className="tile big" data-no="∑"><h3>All classes</h3><span>See everything in {m.label}</span><span className="go">Open →</span></Link>
-          </div>
-        </div>))}
+    <section className="section"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Maths fear</span><h2>Why maths feels hard, and what we do about it</h2><p>If any of these sounds like you, you are not alone, and it can be fixed.</p></div>
+      <div className="grid">
+        {FEARS.map((f, i) => (
+          <Link key={f.title} href={f.href} className={`card fear f${i % 4 + 1} reveal`}>
+            <q>{f.worry}</q>
+            <h3>{f.title}</h3>
+            <p>{f.text}</p>
+            <span className="go">{f.go} →</span>
+          </Link>))}
       </div>
     </div></section>
 
-    <section className="section soft"><div className="wrap">
+    <section className="section soft" id="classes"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Which class are you in?</h2><p>Pick your class to see everything for it: chapters, tests, live classes and help with doubts.</p></div>
+      <div className="grid">
+        {classes.map(([k, c]) => (
+          <Link key={k} href={`/${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>
+            <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">Open {c.label} →</span></Link>))}
+        <Link href="/olympiad" className="tile big" data-no="★"><h3>Olympiad</h3><span>SOF IMO preparation</span><span className="go">Open Olympiad →</span></Link>
+      </div>
+    </div></section>
+
+    <section className="section"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Inside every chapter</span><h2>Everything you need, in one place</h2><p>Built for school exams and board exams.</p></div>
       <div className="grid">
         {FEATURES.map((f, i) => (
@@ -125,7 +143,7 @@ export default function Home() {
       </div>
     </div></section>
 
-    <section className="section"><div className="wrap try-grid">
+    <section className="section soft"><div className="wrap try-grid">
       <div className="reveal">
         <span className="kicker">Test Series</span>
         <h2>Try a question right now</h2>
@@ -145,7 +163,7 @@ export default function Home() {
       </form>
     </div></section>
 
-    <section className="section soft"><div className="wrap">
+    <section className="section"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Begin with these chapters</h2><p>Open any chapter and start today.</p></div>
       <div className="grid">
         {featured.map(ch => (
@@ -157,26 +175,26 @@ export default function Home() {
       </div>
     </div></section>
 
-    <section className="section"><div className="wrap">
+    <section className="section soft"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">How it works</span><h2>Three steps for every chapter</h2></div>
       <div className="grid steps">
         {STEPS.map(s => <div key={s.title} className="step reveal"><h3>{s.title}</h3><p>{s.text}</p></div>)}
       </div>
     </div></section>
 
-    <section className="section soft"><div className="wrap">
+    <section className="section"><div className="wrap">
       <div className="banner reveal">
         <div><h2>Preparing for SOF IMO?</h2><p>See how to prepare alongside your school syllabus.</p></div>
         <Link className="btn btn-sun" href="/olympiad">Olympiad preparation</Link>
       </div>
     </div></section>
 
-    <section className="section"><div className="wrap narrow">
+    <section className="section soft"><div className="wrap narrow">
       <div className="section-head center reveal"><span className="kicker">FAQ</span><h2>Frequently asked questions</h2></div>
       {FAQ.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
     </div></section>
 
-    <section className="section soft"><div className="wrap">
+    <section className="section"><div className="wrap">
       <div className="banner reveal">
         <div><h2>A new problem every day</h2><p>Daily problems are posted on Telegram. Video lessons are on YouTube.</p></div>
         <div className="cta-row">
