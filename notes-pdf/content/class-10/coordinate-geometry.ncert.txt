@@ -1,0 +1,89 @@
+T: Exercise 7.1
+Q: [Q1] Find the distance between each pair of points: (i) $(2, 3)$, $(4, 1)$ (ii) $(-5, 7)$, $(-1, 3)$ (iii) $(a, b)$, $(-a, -b)$.
+S: Use the distance formula $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.
+S: (i) $\sqrt{(4 - 2)^2 + (1 - 3)^2} = \sqrt{4 + 4} = 2\sqrt{2}$
+S: (ii) $\sqrt{(-1 + 5)^2 + (3 - 7)^2} = \sqrt{16 + 16} = 4\sqrt{2}$
+S: (iii) $\sqrt{(-2a)^2 + (-2b)^2} = \sqrt{4a^2 + 4b^2} = 2\sqrt{a^2 + b^2}$
+S: **Answer: (i) $2\sqrt{2}$ (ii) $4\sqrt{2}$ (iii) $2\sqrt{a^2 + b^2}$ units**
+Q: [Q2] Find the distance between $(0, 0)$ and $(36, 15)$. Hence find the distance between the two towns of Section 7.2 of the textbook, where town B is 36 km east and 15 km north of town A.
+S: Distance $= \sqrt{36^2 + 15^2} = \sqrt{1296 + 225} = \sqrt{1521} = 39$.
+S: Taking town A as the origin, town B is the point $(36, 15)$, so the towns are 39 km apart.
+S: **Answer: 39 units, so the towns are 39 km apart**
+Q: [Q3] Are the points $(1, 5)$, $(2, 3)$ and $(-2, -11)$ collinear?
+S: Call them $A$, $B$ and $C$. $AB = \sqrt{1 + 4} = \sqrt{5} \approx 2.24$, $BC = \sqrt{16 + 196} = \sqrt{212} \approx 14.56$ and $AC = \sqrt{9 + 256} = \sqrt{265} \approx 16.28$.
+S: The two shorter distances add up to about 16.80, which is not equal to the longest distance 16.28.
+S: **Answer: no, the points are not collinear**
+Q: [Q4] Are $(5, -2)$, $(6, 4)$ and $(7, -2)$ the vertices of an isosceles triangle?
+S: Call them $A$, $B$ and $C$. $AB = \sqrt{1 + 36} = \sqrt{37}$, $BC = \sqrt{1 + 36} = \sqrt{37}$ and $AC = \sqrt{4 + 0} = 2$.
+S: $AB = BC$, and the points are not collinear since $AB + AC \neq BC$.
+S: **Answer: yes, the triangle is isosceles with $AB = BC$**
+Q: [Q5] Four friends sit at the points $A(3, 4)$, $B(6, 7)$, $C(9, 4)$ and $D(6, 1)$ of a classroom grid (read from the textbook figure). One student says $ABCD$ is a square and another disagrees. Who is correct?
+!fig w=240 h=230; P A 72 126 l; P B 126 72 t; P C 180 126 r; P D 126 180 b; L A B; L B C; L C D; L D A; D A C; D B D; cap A(3, 4), B(6, 7), C(9, 4), D(6, 1)
+S: Sides: $AB = \sqrt{3^2 + 3^2} = \sqrt{18}$, $BC = \sqrt{3^2 + 3^2} = \sqrt{18}$, $CD = \sqrt{18}$ and $DA = \sqrt{18}$. All four sides are equal.
+S: Diagonals: $AC = \sqrt{6^2 + 0^2} = 6$ and $BD = \sqrt{0^2 + 6^2} = 6$. The diagonals are equal.
+S: A quadrilateral with four equal sides and equal diagonals is a square.
+S: **Answer: $ABCD$ is a square, so the student who said so is correct**
+Q: [Q6] Name the type of quadrilateral formed, if any, by these points, with reasons: (i) $(-1, -2)$, $(1, 0)$, $(-1, 2)$, $(-3, 0)$ (ii) $(-3, 5)$, $(3, 1)$, $(0, 3)$, $(-1, -4)$ (iii) $(4, 5)$, $(7, 6)$, $(4, 3)$, $(1, 2)$.
+S: Call the points $A$, $B$, $C$, $D$ in order.
+S: (i) $AB = BC = CD = DA = \sqrt{4 + 4} = \sqrt{8}$. Diagonals: $AC = 4$ and $BD = 4$. All sides are equal and the diagonals are equal, so it is a square.
+S: (ii) $AB = \sqrt{36 + 16} = 2\sqrt{13}$, $BC = \sqrt{9 + 4} = \sqrt{13}$ and $AC = \sqrt{9 + 4} = \sqrt{13}$. Since $AC + CB = AB$, the points $A$, $C$, $B$ lie on one line, so no quadrilateral is formed.
+S: (iii) $AB = \sqrt{10}$, $BC = \sqrt{18}$, $CD = \sqrt{10}$, $DA = \sqrt{18}$. Diagonals: $AC = 2$ and $BD = \sqrt{36 + 16} = \sqrt{52}$. Opposite sides are equal but the diagonals are not, so it is a parallelogram.
+S: **Answer: (i) a square (ii) no quadrilateral (iii) a parallelogram**
+Q: [Q7] Find the point on the $x$-axis that is equidistant from $(2, -5)$ and $(-2, 9)$.
+S: Let the point be $(x, 0)$. Then $(x - 2)^2 + 25 = (x + 2)^2 + 81$.
+S: $x^2 - 4x + 29 = x^2 + 4x + 85$ gives $-8x = 56$, so $x = -7$.
+S: **Answer: $(-7, 0)$**
+Q: [Q8] Find the values of $y$ for which the distance between $P(2, -3)$ and $Q(10, y)$ is 10 units.
+S: $(10 - 2)^2 + (y + 3)^2 = 100$ gives $(y + 3)^2 = 36$, so $y + 3 = \pm 6$.
+S: **Answer: $y = 3$ or $y = -9$**
+Q: [Q9] $Q(0, 1)$ is equidistant from $P(5, -3)$ and $R(x, 6)$. Find the values of $x$, and the distances $QR$ and $PR$.
+S: $QP^2 = 25 + 16 = 41$ and $QR^2 = x^2 + 25$. Setting them equal, $x^2 = 16$, so $x = \pm 4$.
+S: In both cases $QR = \sqrt{41}$.
+S: If $R = (4, 6)$: $PR = \sqrt{1 + 81} = \sqrt{82}$. If $R = (-4, 6)$: $PR = \sqrt{81 + 81} = 9\sqrt{2}$.
+S: **Answer: $x = \pm 4$, $QR = \sqrt{41}$, and $PR = \sqrt{82}$ or $9\sqrt{2}$**
+Q: [Q10] Find a relation between $x$ and $y$ such that $(x, y)$ is equidistant from $(3, 6)$ and $(-3, 4)$.
+S: $(x - 3)^2 + (y - 6)^2 = (x + 3)^2 + (y - 4)^2$.
+S: $-6x - 12y + 45 = 6x - 8y + 25$ gives $12x + 4y - 20 = 0$.
+S: **Answer: $3x + y - 5 = 0$**
+
+T: Exercise 7.2
+Q: [Q1] Find the point that divides the join of $(-1, 7)$ and $(4, -3)$ in the ratio $2 : 3$.
+S: Section formula: $\left(\dfrac{m_1x_2 + m_2x_1}{m_1 + m_2}, \dfrac{m_1y_2 + m_2y_1}{m_1 + m_2}\right) = \left(\dfrac{2 \times 4 + 3 \times (-1)}{5}, \dfrac{2 \times (-3) + 3 \times 7}{5}\right)$.
+S: **Answer: $(1, 3)$**
+Q: [Q2] Find the points of trisection of the segment joining $(4, -1)$ and $(-2, -3)$.
+S: Let $A = (4, -1)$ and $B = (-2, -3)$. The first point $P$ divides $AB$ in the ratio $1 : 2$: $P = \left(\dfrac{-2 + 8}{3}, \dfrac{-3 - 2}{3}\right) = \left(2, -\dfrac{5}{3}\right)$.
+S: The second point $Q$ divides $AB$ in the ratio $2 : 1$: $Q = \left(\dfrac{-4 + 4}{3}, \dfrac{-6 - 1}{3}\right) = \left(0, -\dfrac{7}{3}\right)$.
+S: **Answer: $\left(2, -\dfrac{5}{3}\right)$ and $\left(0, -\dfrac{7}{3}\right)$**
+Q: [Q3] On a rectangular ground $ABCD$, lines are drawn 1 m apart, and 100 flower pots stand 1 m apart along $AD$. One student runs $\dfrac{1}{4}$ of $AD$ along the 2nd line and posts a green flag. Another runs $\dfrac{1}{5}$ of $AD$ along the 8th line and posts a red flag. Find the distance between the flags. Where should a blue flag go so that it is exactly halfway between them?
+S: Take $A$ as the origin, $AB$ as the $x$-axis and $AD$ as the $y$-axis, with $AD = 100$ m.
+S: Green flag: on the 2nd line at $\dfrac{1}{4} \times 100 = 25$ m, that is $(2, 25)$. Red flag: on the 8th line at $\dfrac{1}{5} \times 100 = 20$ m, that is $(8, 20)$.
+S: Distance $= \sqrt{(8 - 2)^2 + (20 - 25)^2} = \sqrt{61}$ m.
+S: Mid-point $= \left(\dfrac{2 + 8}{2}, \dfrac{25 + 20}{2}\right) = (5, 22.5)$.
+S: **Answer: $\sqrt{61}$ m apart. The blue flag goes on the 5th line, 22.5 m from $AB$.**
+Q: [Q4] In what ratio does $(-1, 6)$ divide the segment joining $(-3, 10)$ and $(6, -8)$?
+S: Let the ratio be $k : 1$. Then $\dfrac{6k - 3}{k + 1} = -1$ gives $7k = 2$, so $k = \dfrac{2}{7}$.
+S: Check with $y$: $\dfrac{-8 \times 2 + 10 \times 7}{9} = 6$.
+S: **Answer: $2 : 7$**
+Q: [Q5] In what ratio does the $x$-axis divide the segment joining $A(1, -5)$ and $B(-4, 5)$? Find the point of division.
+S: Let the ratio be $k : 1$. The $y$-coordinate of the point is 0: $\dfrac{5k - 5}{k + 1} = 0$, so $k = 1$.
+S: The point is the mid-point: $\left(\dfrac{1 - 4}{2}, 0\right) = \left(-\dfrac{3}{2}, 0\right)$.
+S: **Answer: $1 : 1$, at $\left(-\dfrac{3}{2}, 0\right)$**
+Q: [Q6] $(1, 2)$, $(4, y)$, $(x, 6)$ and $(3, 5)$ are the vertices of a parallelogram taken in order. Find $x$ and $y$.
+S: The diagonals of a parallelogram bisect each other, so the two diagonals have the same mid-point.
+S: $\dfrac{1 + x}{2} = \dfrac{4 + 3}{2}$ gives $x = 6$, and $\dfrac{2 + 6}{2} = \dfrac{y + 5}{2}$ gives $y = 3$.
+S: **Answer: $x = 6$, $y = 3$**
+Q: [Q7] $AB$ is a diameter of a circle with centre $(2, -3)$, and $B$ is $(1, 4)$. Find $A$.
+S: The centre is the mid-point of $AB$. Let $A = (x, y)$: $\dfrac{x + 1}{2} = 2$ gives $x = 3$, and $\dfrac{y + 4}{2} = -3$ gives $y = -10$.
+S: **Answer: $A = (3, -10)$**
+Q: [Q8] $A$ and $B$ are $(-2, -2)$ and $(2, -4)$. Find the point $P$ on the segment $AB$ such that $AP = \dfrac{3}{7}AB$.
+S: $AP = \dfrac{3}{7}AB$ means $PB = \dfrac{4}{7}AB$, so $P$ divides $AB$ in the ratio $3 : 4$.
+S: $P = \left(\dfrac{3 \times 2 + 4 \times (-2)}{7}, \dfrac{3 \times (-4) + 4 \times (-2)}{7}\right) = \left(-\dfrac{2}{7}, -\dfrac{20}{7}\right)$.
+S: **Answer: $P = \left(-\dfrac{2}{7}, -\dfrac{20}{7}\right)$**
+Q: [Q9] Find the points that divide the segment joining $A(-2, 2)$ and $B(2, 8)$ into four equal parts.
+S: The middle point is the mid-point of $AB$: $(0, 5)$.
+S: The other two are the mid-points of each half: $\left(\dfrac{-2 + 0}{2}, \dfrac{2 + 5}{2}\right) = \left(-1, \dfrac{7}{2}\right)$ and $\left(\dfrac{0 + 2}{2}, \dfrac{5 + 8}{2}\right) = \left(1, \dfrac{13}{2}\right)$.
+S: **Answer: $\left(-1, \dfrac{7}{2}\right)$, $(0, 5)$ and $\left(1, \dfrac{13}{2}\right)$**
+Q: [Q10] Find the area of the rhombus with vertices $(3, 0)$, $(4, 5)$, $(-1, 4)$ and $(-2, -1)$ taken in order.
+S: Call the vertices $A$, $B$, $C$, $D$. Diagonals: $AC = \sqrt{(-4)^2 + 4^2} = 4\sqrt{2}$ and $BD = \sqrt{(-6)^2 + (-6)^2} = 6\sqrt{2}$.
+S: Area $= \dfrac{1}{2} \times AC \times BD = \dfrac{1}{2} \times 4\sqrt{2} \times 6\sqrt{2} = 24$.
+S: **Answer: 24 square units**
