@@ -18,7 +18,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/cbse-sample-paper-1": [
   "paper",
@@ -222,7 +223,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/polynomials": [
   "notes",

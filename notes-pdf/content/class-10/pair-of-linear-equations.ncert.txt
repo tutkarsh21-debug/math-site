@@ -1,0 +1,116 @@
+T: Exercise 3.1
+Q: [Q1 (i)] Ten students of Class 10 took part in a quiz. The number of girls is 4 more than the number of boys. Form a pair of linear equations and find the numbers of boys and girls graphically.
+S: Let the number of girls be $x$ and the number of boys be $y$. Then $x + y = 10$ and $x - y = 4$.
+S: Points on $x + y = 10$: $(0, 10)$, $(10, 0)$. Points on $x - y = 4$: $(4, 0)$, $(10, 6)$.
+!fig w=270 h=235; Q X1 25 200; Q X2 240 200; Q Y1 40 215; Q Y2 40 20; L X1 X2; L Y1 Y2; Q a 40 40; Q b 200 200; Q c 104 200; Q d 200 104; H a b; L c d; P P 152 152 r; T 244 214 x; T 28 22 y; T 110 62 x + y = 10; T 232 100 x - y = 4; cap The two lines meet at P(7, 3)
+S: The lines meet at $(7, 3)$, so $x = 7$ and $y = 3$.
+S: **Answer: 7 girls and 3 boys**
+Q: [Q1 (ii)] 5 pencils and 7 pens cost ₹50, and 7 pencils and 5 pens cost ₹46. Form a pair of linear equations and find the cost of one pencil and of one pen graphically.
+S: Let a pencil cost ₹$x$ and a pen cost ₹$y$. Then $5x + 7y = 50$ and $7x + 5y = 46$.
+S: Points on $5x + 7y = 50$: $(10, 0)$, $(3, 5)$. Points on $7x + 5y = 46$: $(3, 5)$, $(8, -2)$.
+!fig w=270 h=225; Q X1 25 190; Q X2 245 190; Q Y1 40 205; Q Y2 40 20; L X1 X2; L Y1 Y2; Q a 220 190; Q b 40 61.4; Q c 49 37; Q d 148 175.6; H a b; L c d; P P 94 100 r; T 250 204 x; T 28 22 y; T 196 150 5x + 7y = 50; T 96 44 7x + 5y = 46; cap The two lines meet at P(3, 5)
+S: The lines meet at $(3, 5)$, so $x = 3$ and $y = 5$. Check: $5(3) + 7(5) = 50$ and $7(3) + 5(5) = 46$.
+S: **Answer: a pencil costs ₹3 and a pen costs ₹5**
+Q: [Q2] By comparing $\dfrac{a_1}{a_2}$, $\dfrac{b_1}{b_2}$ and $\dfrac{c_1}{c_2}$, say whether the lines intersect at a point, are parallel or coincide: (i) $5x - 4y + 8 = 0$, $7x + 6y - 9 = 0$ (ii) $9x + 3y + 12 = 0$, $18x + 6y + 24 = 0$ (iii) $6x - 3y + 10 = 0$, $2x - y + 9 = 0$.
+S: (i) $\dfrac{a_1}{a_2} = \dfrac{5}{7}$ and $\dfrac{b_1}{b_2} = \dfrac{-4}{6} = -\dfrac{2}{3}$. These are not equal, so the lines intersect at a point.
+S: (ii) $\dfrac{9}{18} = \dfrac{3}{6} = \dfrac{12}{24} = \dfrac{1}{2}$. All three ratios are equal, so the lines coincide.
+S: (iii) $\dfrac{6}{2} = 3$, $\dfrac{-3}{-1} = 3$ and $\dfrac{10}{9}$. The first two ratios are equal but the third is different, so the lines are parallel.
+S: **Answer: (i) intersecting (ii) coincident (iii) parallel**
+Q: [Q3] By comparing the ratios, say whether each pair is consistent or inconsistent: (i) $3x + 2y = 5$, $2x - 3y = 7$ (ii) $2x - 3y = 8$, $4x - 6y = 9$ (iii) $\dfrac{3}{2}x + \dfrac{5}{3}y = 7$, $9x - 10y = 14$ (iv) $5x - 3y = 11$, $-10x + 6y = -22$ (v) $\dfrac{4}{3}x + 2y = 8$, $2x + 3y = 12$.
+S: A pair is consistent if it has at least one solution (intersecting or coincident lines) and inconsistent if it has none (parallel lines).
+S: (i) $\dfrac{3}{2} \neq \dfrac{2}{-3}$, so the lines intersect. Consistent.
+S: (ii) $\dfrac{2}{4} = \dfrac{-3}{-6} = \dfrac{1}{2}$ but $\dfrac{8}{9} \neq \dfrac{1}{2}$, so the lines are parallel. Inconsistent.
+S: (iii) $\dfrac{3/2}{9} = \dfrac{1}{6}$ and $\dfrac{5/3}{-10} = -\dfrac{1}{6}$. These are not equal, so the lines intersect. Consistent.
+S: (iv) $\dfrac{5}{-10} = \dfrac{-3}{6} = \dfrac{11}{-22} = -\dfrac{1}{2}$, so the lines coincide. Consistent, with infinitely many solutions.
+S: (v) $\dfrac{4/3}{2} = \dfrac{2}{3}$, $\dfrac{2}{3}$ and $\dfrac{8}{12} = \dfrac{2}{3}$, so the lines coincide. Consistent, with infinitely many solutions.
+S: **Answer: (i) consistent (ii) inconsistent (iii) consistent (iv) consistent (v) consistent**
+Q: [Q4] Which of these pairs are consistent? Solve the consistent ones graphically: (i) $x + y = 5$, $2x + 2y = 10$ (ii) $x - y = 8$, $3x - 3y = 16$ (iii) $2x + y - 6 = 0$, $4x - 2y - 4 = 0$ (iv) $2x - 2y - 2 = 0$, $4x - 4y - 5 = 0$.
+S: (i) $\dfrac{1}{2} = \dfrac{1}{2} = \dfrac{5}{10}$, so the lines coincide and the pair is consistent. Both equations give the same line through $(0, 5)$ and $(5, 0)$. Every point on it, such as $(1, 4)$ or $(2, 3)$, is a solution, so there are infinitely many solutions.
+S: (ii) $\dfrac{1}{3} = \dfrac{-1}{-3}$ but $\dfrac{8}{16} = \dfrac{1}{2}$ is different, so the lines are parallel. Inconsistent.
+S: (iii) $\dfrac{2}{4} \neq \dfrac{1}{-2}$, so the lines intersect and the pair is consistent. Points on $2x + y = 6$: $(0, 6)$, $(3, 0)$. Points on $4x - 2y = 4$: $(1, 0)$, $(4, 6)$.
+!fig w=250 h=225; Q X1 30 190; Q X2 230 190; Q Y1 60 210; Q Y2 60 20; L X1 X2; L Y1 Y2; Q a 60 46; Q b 132 190; Q c 84 190; Q d 156 46; H a b; L c d; P P 108 142 r; T 234 204 x; T 48 22 y; cap The lines 2x + y = 6 and 4x - 2y = 4 meet at P(2, 2)
+S: The lines meet at $(2, 2)$, so $x = 2$, $y = 2$.
+S: (iv) $\dfrac{2}{4} = \dfrac{-2}{-4} = \dfrac{1}{2}$ but $\dfrac{-2}{-5} = \dfrac{2}{5}$ is different, so the lines are parallel. Inconsistent.
+S: **Answer: (i) consistent, infinitely many solutions (ii) inconsistent (iii) consistent, $x = 2$, $y = 2$ (iv) inconsistent**
+Q: [Q5] Half the perimeter of a rectangular garden is 36 m, and its length is 4 m more than its width. Find its dimensions.
+S: Let the width be $x$ m and the length be $y$ m. Then $y = x + 4$ and $x + y = 36$.
+S: Substituting, $x + x + 4 = 36$, so $x = 16$ and $y = 20$.
+S: **Answer: length 20 m and width 16 m**
+Q: [Q6] For the equation $2x + 3y - 8 = 0$, write another linear equation so that the pair represents (i) intersecting lines (ii) parallel lines (iii) coincident lines.
+S: (i) Choose coefficients with $\dfrac{a_1}{a_2} \neq \dfrac{b_1}{b_2}$, for example $3x + 2y - 7 = 0$ $\left(\dfrac{2}{3} \neq \dfrac{3}{2}\right)$.
+S: (ii) Keep the ratio of the coefficients the same but change the constant, for example $4x + 6y - 12 = 0$ $\left(\dfrac{2}{4} = \dfrac{3}{6} \neq \dfrac{8}{12}\right)$.
+S: (iii) Multiply the whole equation by a number, for example $4x + 6y - 16 = 0$.
+S: **Answer: (i) $3x + 2y - 7 = 0$ (ii) $4x + 6y - 12 = 0$ (iii) $4x + 6y - 16 = 0$. Other answers are possible.**
+Q: [Q7] Draw the graphs of $x - y + 1 = 0$ and $3x + 2y - 12 = 0$. Find the vertices of the triangle formed by these lines and the $x$-axis, and shade the triangle.
+S: Points on $x - y + 1 = 0$: $(-1, 0)$, $(0, 1)$, $(2, 3)$. Points on $3x + 2y - 12 = 0$: $(4, 0)$, $(2, 3)$, $(0, 6)$.
+!fig w=260 h=220; Q X1 15 170; Q X2 245 170; Q Y1 80 205; Q Y2 80 20; L X1 X2; L Y1 Y2; P B 52 170 bl; P C 192 170 br; P A 136 86 t; F A B C; Q e 24 198; Q f 178 44; Q g 98.7 30; Q h 210.7 198; L e f; L g h; T 250 184 x; T 68 22 y; cap The shaded triangle has vertices A(2, 3), B(-1, 0) and C(4, 0)
+S: The two lines meet at $(2, 3)$. The first line cuts the $x$-axis at $(-1, 0)$ and the second cuts it at $(4, 0)$.
+S: **Answer: the vertices are $(2, 3)$, $(-1, 0)$ and $(4, 0)$**
+
+T: Exercise 3.2
+Q: [Q1] Solve by the substitution method: (i) $x + y = 14$, $x - y = 4$ (ii) $s - t = 3$, $\dfrac{s}{3} + \dfrac{t}{2} = 6$ (iii) $3x - y = 3$, $9x - 3y = 9$ (iv) $0.2x + 0.3y = 1.3$, $0.4x + 0.5y = 2.3$ (v) $\sqrt{2}\,x + \sqrt{3}\,y = 0$, $\sqrt{3}\,x - \sqrt{8}\,y = 0$ (vi) $\dfrac{3x}{2} - \dfrac{5y}{3} = -2$, $\dfrac{x}{3} + \dfrac{y}{2} = \dfrac{13}{6}$.
+S: (i) From the second equation, $x = y + 4$. Then $y + 4 + y = 14$, so $y = 5$ and $x = 9$.
+S: (ii) $s = t + 3$. Then $\dfrac{t + 3}{3} + \dfrac{t}{2} = 6$ gives $2t + 6 + 3t = 36$, so $t = 6$ and $s = 9$.
+S: (iii) $y = 3x - 3$. Then $9x - 3(3x - 3) = 9$ gives $9 = 9$, which is always true. The two equations are the same line, so there are infinitely many solutions.
+S: (iv) Multiply both by 10: $2x + 3y = 13$ and $4x + 5y = 23$. From the first, $x = \dfrac{13 - 3y}{2}$. Then $2(13 - 3y) + 5y = 23$ gives $y = 3$ and $x = 2$.
+S: (v) From the first, $x = -\dfrac{\sqrt{3}}{\sqrt{2}}\,y$. Then $-\dfrac{3}{\sqrt{2}}\,y - 2\sqrt{2}\,y = 0$, so $y = 0$ and $x = 0$.
+S: (vi) Clearing fractions: $9x - 10y = -12$ and $2x + 3y = 13$. From the second, $x = \dfrac{13 - 3y}{2}$. Then $9(13 - 3y) - 20y = -24$ gives $47y = 141$, so $y = 3$ and $x = 2$.
+S: **Answer: (i) $x = 9$, $y = 5$ (ii) $s = 9$, $t = 6$ (iii) infinitely many solutions (iv) $x = 2$, $y = 3$ (v) $x = 0$, $y = 0$ (vi) $x = 2$, $y = 3$**
+Q: [Q2] Solve $2x + 3y = 11$ and $2x - 4y = -24$, and hence find $m$ for which $y = mx + 3$.
+S: From the first equation, $2x = 11 - 3y$. Substituting in the second: $11 - 3y - 4y = -24$, so $7y = 35$ and $y = 5$.
+S: Then $2x = 11 - 15 = -4$, so $x = -2$.
+S: In $y = mx + 3$: $5 = -2m + 3$, so $m = -1$.
+S: **Answer: $x = -2$, $y = 5$ and $m = -1$**
+Q: [Q3 (i)] The difference between two numbers is 26, and one number is three times the other. Find them.
+S: Let the numbers be $x$ and $y$ with $x > y$. Then $x - y = 26$ and $x = 3y$.
+S: Substituting, $3y - y = 26$, so $y = 13$ and $x = 39$.
+S: **Answer: 39 and 13**
+Q: [Q3 (ii)] The larger of two supplementary angles exceeds the smaller by $18°$. Find them.
+S: Let the angles be $x°$ and $y°$ with $x > y$. Then $x + y = 180$ and $x = y + 18$.
+S: Substituting, $2y + 18 = 180$, so $y = 81$ and $x = 99$.
+S: **Answer: $99°$ and $81°$**
+Q: [Q3 (iii)] 7 bats and 6 balls cost ₹3800, and 3 bats and 5 balls cost ₹1750. Find the cost of each bat and each ball.
+S: Let a bat cost ₹$x$ and a ball cost ₹$y$. Then $7x + 6y = 3800$ and $3x + 5y = 1750$.
+S: From the second, $x = \dfrac{1750 - 5y}{3}$. Then $7(1750 - 5y) + 18y = 11400$ gives $17y = 850$, so $y = 50$ and $x = \dfrac{1750 - 250}{3} = 500$.
+S: **Answer: a bat costs ₹500 and a ball costs ₹50**
+Q: [Q3 (iv)] A taxi charges a fixed amount plus a charge per km. A 10 km journey costs ₹105 and a 15 km journey costs ₹155. Find the fixed charge and the charge per km. What does a 25 km journey cost?
+S: Let the fixed charge be ₹$x$ and the charge per km be ₹$y$. Then $x + 10y = 105$ and $x + 15y = 155$.
+S: From the first, $x = 105 - 10y$. Then $105 - 10y + 15y = 155$, so $y = 10$ and $x = 5$.
+S: For 25 km: $5 + 25 \times 10 =$ ₹255.
+S: **Answer: fixed charge ₹5, ₹10 per km, and ₹255 for 25 km**
+Q: [Q3 (v)] A fraction becomes $\dfrac{9}{11}$ if 2 is added to both the numerator and the denominator, and $\dfrac{5}{6}$ if 3 is added to both. Find the fraction.
+S: Let the fraction be $\dfrac{x}{y}$. Then $\dfrac{x + 2}{y + 2} = \dfrac{9}{11}$ gives $11x - 9y = -4$, and $\dfrac{x + 3}{y + 3} = \dfrac{5}{6}$ gives $6x - 5y = -3$.
+S: From the second, $x = \dfrac{5y - 3}{6}$. Then $11(5y - 3) - 54y = -24$ gives $y = 9$ and $x = 7$.
+S: **Answer: $\dfrac{7}{9}$**
+Q: [Q3 (vi)] Five years from now a father will be three times as old as his son. Five years ago he was seven times as old as his son. Find their present ages.
+S: Let the father be $x$ years and the son $y$ years old. Then $x + 5 = 3(y + 5)$ gives $x - 3y = 10$, and $x - 5 = 7(y - 5)$ gives $x - 7y = -30$.
+S: From the first, $x = 3y + 10$. Then $3y + 10 - 7y = -30$, so $y = 10$ and $x = 40$.
+S: **Answer: the father is 40 years old and the son is 10 years old**
+
+T: Exercise 3.3
+Q: [Q1] Solve by the elimination method and by the substitution method: (i) $x + y = 5$, $2x - 3y = 4$ (ii) $3x + 4y = 10$, $2x - 2y = 2$ (iii) $3x - 5y - 4 = 0$, $9x = 2y + 7$ (iv) $\dfrac{x}{2} + \dfrac{2y}{3} = -1$, $x - \dfrac{y}{3} = 3$.
+S: (i) Elimination: multiply the first by 3 to get $3x + 3y = 15$ and add the second: $5x = 19$, so $x = \dfrac{19}{5}$ and $y = 5 - \dfrac{19}{5} = \dfrac{6}{5}$. Substitution: $x = 5 - y$ gives $10 - 2y - 3y = 4$, so $y = \dfrac{6}{5}$, the same result.
+S: (ii) Elimination: multiply the second by 2 to get $4x - 4y = 4$ and add the first: $7x = 14$, so $x = 2$ and $y = 1$. Substitution: $x = y + 1$ gives $3y + 3 + 4y = 10$, so $y = 1$.
+S: (iii) The equations are $3x - 5y = 4$ and $9x - 2y = 7$. Elimination: multiply the first by 3 to get $9x - 15y = 12$ and subtract the second: $-13y = 5$, so $y = -\dfrac{5}{13}$ and $x = \dfrac{4 + 5y}{3} = \dfrac{9}{13}$. Substitution: $y = \dfrac{9x - 7}{2}$ gives $6x - 45x + 35 = 8$, so $x = \dfrac{9}{13}$.
+S: (iv) Clearing fractions: $3x + 4y = -6$ and $3x - y = 9$. Elimination: subtracting, $5y = -15$, so $y = -3$ and $x = 2$. Substitution: $y = 3x - 9$ gives $3x + 12x - 36 = -6$, so $x = 2$.
+S: **Answer: (i) $x = \dfrac{19}{5}$, $y = \dfrac{6}{5}$ (ii) $x = 2$, $y = 1$ (iii) $x = \dfrac{9}{13}$, $y = -\dfrac{5}{13}$ (iv) $x = 2$, $y = -3$**
+Q: [Q2 (i)] A fraction becomes 1 if 1 is added to the numerator and 1 is subtracted from the denominator. It becomes $\dfrac{1}{2}$ if 1 is added to the denominator only. Find the fraction.
+S: Let the fraction be $\dfrac{x}{y}$. Then $x + 1 = y - 1$ gives $x - y = -2$, and $2x = y + 1$ gives $2x - y = 1$.
+S: Subtracting the first from the second, $x = 3$. Then $y = 5$.
+S: **Answer: $\dfrac{3}{5}$**
+Q: [Q2 (ii)] Five years ago one person was three times as old as another. Ten years from now the first will be twice as old as the second. Find their present ages.
+S: Let their ages be $x$ and $y$ years. Then $x - 5 = 3(y - 5)$ gives $x - 3y = -10$, and $x + 10 = 2(y + 10)$ gives $x - 2y = 10$.
+S: Subtracting the first from the second, $y = 20$. Then $x = 50$.
+S: **Answer: 50 years and 20 years**
+Q: [Q2 (iii)] The sum of the digits of a two-digit number is 9. Nine times the number is twice the number obtained by reversing its digits. Find the number.
+S: Let the tens digit be $x$ and the units digit be $y$. Then $x + y = 9$, and $9(10x + y) = 2(10y + x)$ gives $88x - 11y = 0$, that is $8x - y = 0$.
+S: Adding the two equations, $9x = 9$, so $x = 1$ and $y = 8$.
+S: **Answer: 18**
+Q: [Q2 (iv)] A person withdraws ₹2000 from a bank in ₹50 and ₹100 notes only, and gets 25 notes in all. How many notes of each kind are there?
+S: Let there be $x$ notes of ₹50 and $y$ notes of ₹100. Then $x + y = 25$, and $50x + 100y = 2000$ gives $x + 2y = 40$.
+S: Subtracting the first from the second, $y = 15$. Then $x = 10$.
+S: **Answer: 10 notes of ₹50 and 15 notes of ₹100**
+Q: [Q2 (v)] A library has a fixed charge for the first three days and an extra charge for each day after that. One reader paid ₹27 for seven days and another paid ₹21 for five days. Find the fixed charge and the charge for each extra day.
+S: Let the fixed charge be ₹$x$ and the charge per extra day be ₹$y$. Seven days means 4 extra days and five days means 2 extra days: $x + 4y = 27$ and $x + 2y = 21$.
+S: Subtracting, $2y = 6$, so $y = 3$ and $x = 15$.
+S: **Answer: fixed charge ₹15 and ₹3 for each extra day**
