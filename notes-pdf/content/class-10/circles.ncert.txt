@@ -1,0 +1,81 @@
+T: Exercise 10.1
+Q: [Q1] How many tangents can a circle have?
+S: There is exactly one tangent at each point of a circle, and a circle has infinitely many points.
+S: **Answer: infinitely many**
+Q: [Q2] Fill in the blanks: (i) A tangent to a circle intersects it in ___ point(s). (ii) A line intersecting a circle in two points is called a ___. (iii) A circle can have ___ parallel tangents at the most. (iv) The common point of a tangent to a circle and the circle is called ___.
+S: (iii) Two parallel tangents touch the circle at the ends of a diameter, so there can be only two.
+S: **Answer: (i) one (ii) secant (iii) two (iv) the point of contact**
+Q: [Q3] A tangent $PQ$ at a point $P$ of a circle of radius 5 cm meets a line through the centre $O$ at $Q$, with $OQ = 12$ cm. The length $PQ$ is (A) 12 cm (B) 13 cm (C) 8.5 cm (D) $\sqrt{119}$ cm.
+S: The radius is perpendicular to the tangent at the point of contact, so $\angle OPQ = 90°$.
+S: $PQ = \sqrt{OQ^2 - OP^2} = \sqrt{144 - 25} = \sqrt{119}$ cm.
+S: **Answer: (D) $\sqrt{119}$ cm**
+Q: [Q4] Draw a circle and two lines parallel to a given line such that one is a tangent and the other is a secant to the circle.
+S: Draw the given line $l$ and a circle with centre $O$. Draw a line parallel to $l$ that cuts the circle at two points: this is the secant. Then draw another line parallel to $l$ that just touches the circle at one point: this is the tangent.
+!fig w=330 h=215; Q a 40 55; Q b 255 55; Q c 40 120; Q d 255 120; Q e 40 190; Q f 255 190; P O 150 100 b; C O 45; H a b; L c d; L e f; T 290 59 tangent; T 290 124 secant; T 270 194 l; cap The tangent and the secant are both parallel to the line l
+S: **The figure shows one such tangent and secant.**
+
+T: Exercise 10.2
+Q: [Q1] From a point $Q$, the length of the tangent to a circle is 24 cm and the distance of $Q$ from the centre is 25 cm. The radius of the circle is (A) 7 cm (B) 12 cm (C) 15 cm (D) 24.5 cm.
+S: The radius is perpendicular to the tangent at the point of contact, so radius $= \sqrt{25^2 - 24^2} = \sqrt{49} = 7$ cm.
+S: **Answer: (A) 7 cm**
+Q: [Q2] $TP$ and $TQ$ are two tangents to a circle with centre $O$ such that $\angle POQ = 110°$. Then $\angle PTQ$ is (A) $60°$ (B) $70°$ (C) $80°$ (D) $90°$.
+!fig w=320 h=220; P O 110 110 l; P T 260 110 r; P P 134 55 t; P Q 134 165 b; C O 60; L T P; L T Q; L O P; L O Q; R O P T; R O Q T
+S: In quadrilateral $OPTQ$, $\angle OPT = \angle OQT = 90°$ (radius $\perp$ tangent). The four angles add up to $360°$.
+S: $\angle PTQ = 360° - 90° - 90° - 110° = 70°$.
+S: **Answer: (B) $70°$**
+Q: [Q3] Tangents $PA$ and $PB$ from a point $P$ to a circle with centre $O$ are inclined to each other at $80°$. Then $\angle POA$ is (A) $50°$ (B) $60°$ (C) $70°$ (D) $80°$.
+S: In quadrilateral $OAPB$, $\angle OAP = \angle OBP = 90°$, so $\angle AOB = 180° - 80° = 100°$.
+S: $\triangle OAP \cong \triangle OBP$ (RHS: $OA = OB$, $OP$ common), so $OP$ bisects $\angle AOB$ and $\angle POA = 50°$.
+S: **Answer: (A) $50°$**
+Q: [Q4] Prove that the tangents drawn at the ends of a diameter of a circle are parallel.
+S: Let $AB$ be a diameter of a circle with centre $O$, and let $PQ$ and $RS$ be the tangents at $A$ and $B$.
+S: The radius is perpendicular to the tangent at the point of contact, so $OA \perp PQ$ and $OB \perp RS$. That is, $\angle PAB = 90°$ and $\angle ABS = 90°$.
+S: These are alternate interior angles made by the transversal $AB$ with $PQ$ and $RS$, and they are equal.
+S: **Hence $PQ \parallel RS$.**
+Q: [Q5] Prove that the perpendicular at the point of contact to the tangent to a circle passes through the centre.
+S: Let the tangent $AB$ touch the circle with centre $O$ at $P$. We know that $OP \perp AB$, because the radius through the point of contact is perpendicular to the tangent.
+S: At a given point of a line, only one perpendicular to the line can be drawn. So the perpendicular to $AB$ at $P$ is the line $OP$ itself.
+S: **Hence the perpendicular at the point of contact passes through the centre $O$.**
+Q: [Q6] The length of a tangent from a point $A$, 5 cm from the centre of a circle, is 4 cm. Find the radius of the circle.
+S: Let the tangent touch the circle at $B$, with centre $O$. Then $\angle OBA = 90°$, $OA = 5$ cm and $AB = 4$ cm.
+S: $OB = \sqrt{5^2 - 4^2} = 3$ cm.
+S: **Answer: 3 cm**
+Q: [Q7] Two concentric circles have radii 5 cm and 3 cm. Find the length of the chord of the larger circle that touches the smaller circle.
+S: Let the chord $AB$ of the larger circle touch the smaller circle at $M$, with centre $O$. Then $OM \perp AB$, $OM = 3$ cm and $OA = 5$ cm.
+S: $AM = \sqrt{5^2 - 3^2} = 4$ cm. The perpendicular from the centre bisects the chord, so $AB = 2 \times 4 = 8$ cm.
+S: **Answer: 8 cm**
+Q: [Q8] A quadrilateral $ABCD$ is drawn to circumscribe a circle. Prove that $AB + CD = AD + BC$.
+!fig w=300 h=230; P A 69.2 73.3 l; P B 189.2 52.2 t; P C 226.9 155.9 r; P D 114.1 196.9 b; Q O 150 120; C O 60; L A B; L B C; L C D; L D A; P P 139.6 60.9 t; P Q 206.4 99.5 r; P R 170.5 176.4 b; P S 93.6 140.5 l
+S: Let the sides $AB$, $BC$, $CD$, $DA$ touch the circle at $P$, $Q$, $R$, $S$. Tangents from an external point to a circle are equal, so $AP = AS$, $BP = BQ$, $CR = CQ$ and $DR = DS$.
+S: Adding: $(AP + BP) + (CR + DR) = (AS + DS) + (BQ + CQ)$.
+S: **Hence $AB + CD = AD + BC$.**
+Q: [Q9] $XY$ and $X'Y'$ are two parallel tangents to a circle with centre $O$. Another tangent $AB$, with point of contact $C$, meets $XY$ at $A$ and $X'Y'$ at $B$. Prove that $\angle AOB = 90°$.
+!fig w=330 h=225; Q x1 40 60; Q x2 290 60; Q y1 40 160; Q y2 290 160; L x1 x2; L y1 y2; P O 160 110 l; C O 50; P P 160 60 t; P Q 160 160 b; P A 195 60 t; P B 231.4 160 b; P C 207 92.9 r; L A B; D O A; D O B; D O C; D P Q; T 28 64 X; T 302 64 Y; T 28 164 X'; T 302 164 Y'
+S: Let $XY$ touch the circle at $P$ and $X'Y'$ touch it at $Q$. Join $OC$.
+S: In $\triangle OPA$ and $\triangle OCA$: $OP = OC$ (radii), $AP = AC$ (tangents from $A$) and $OA$ is common. So $\triangle OPA \cong \triangle OCA$ (SSS), and $\angle POA = \angle COA$.
+S: In the same way $\triangle OQB \cong \triangle OCB$, so $\angle QOB = \angle COB$.
+S: The tangents at $P$ and $Q$ are parallel, so $PQ$ is a diameter and $POQ$ is a straight line: $\angle POA + \angle COA + \angle COB + \angle QOB = 180°$.
+S: So $2(\angle COA + \angle COB) = 180°$, that is $\angle COA + \angle COB = 90°$.
+S: **Hence $\angle AOB = 90°$.**
+Q: [Q10] Prove that the angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended at the centre by the line segment joining the points of contact.
+S: Let $PA$ and $PB$ be the tangents from $P$ to a circle with centre $O$. Then $\angle OAP = \angle OBP = 90°$ (radius $\perp$ tangent).
+S: In quadrilateral $OAPB$: $\angle APB + \angle AOB + 90° + 90° = 360°$.
+S: **Hence $\angle APB + \angle AOB = 180°$, so the two angles are supplementary.**
+Q: [Q11] Prove that a parallelogram circumscribing a circle is a rhombus.
+S: Let $ABCD$ be a parallelogram circumscribing a circle. Then $AB = CD$ and $AD = BC$ (opposite sides of a parallelogram).
+S: For any quadrilateral circumscribing a circle, $AB + CD = AD + BC$ (proved in Q8).
+S: So $2AB = 2AD$, that is $AB = AD$. Then $AB = BC = CD = DA$.
+S: **A parallelogram with all sides equal is a rhombus.**
+Q: [Q12] A triangle $ABC$ circumscribes a circle of radius 4 cm. The point of contact $D$ divides $BC$ into $BD = 8$ cm and $DC = 6$ cm. Find $AB$ and $AC$.
+S: Let the circle touch $AB$ at $F$ and $AC$ at $E$. Tangents from a point are equal: $BF = BD = 8$ cm, $CE = CD = 6$ cm, and let $AF = AE = x$ cm.
+S: Then $AB = 8 + x$, $AC = 6 + x$, $BC = 14$, and the semi-perimeter is $s = 14 + x$.
+S: By Heron's formula, area $= \sqrt{s(s - a)(s - b)(s - c)} = \sqrt{(14 + x) \times x \times 8 \times 6} = \sqrt{48x(14 + x)}$.
+S: Joining the centre $O$ to the vertices splits the triangle into three triangles of height 4 cm: area $= \dfrac{1}{2} \times 4 \times (AB + BC + CA) = 4(14 + x)$.
+S: So $48x(14 + x) = 16(14 + x)^2$, which gives $3x = 14 + x$ and $x = 7$.
+S: **Answer: $AB = 15$ cm and $AC = 13$ cm**
+Q: [Q13] Prove that opposite sides of a quadrilateral circumscribing a circle subtend supplementary angles at the centre of the circle.
+S: Let $ABCD$ touch the circle with centre $O$ at $P$, $Q$, $R$, $S$ on $AB$, $BC$, $CD$, $DA$ (as in the figure of Q8). Join $O$ to the four vertices and the four points of contact.
+S: $\triangle AOP \cong \triangle AOS$ (SSS: $OP = OS$, $AP = AS$, $OA$ common), so $\angle AOP = \angle AOS$. In the same way $\angle BOP = \angle BOQ$, $\angle COQ = \angle COR$ and $\angle DOR = \angle DOS$.
+S: The eight angles at $O$ add up to $360°$, so $2(\angle AOP + \angle BOP + \angle COR + \angle DOR) = 360°$.
+S: That is $(\angle AOP + \angle BOP) + (\angle COR + \angle DOR) = 180°$, so $\angle AOB + \angle COD = 180°$. Similarly $\angle BOC + \angle AOD = 180°$.
+S: **Hence opposite sides subtend supplementary angles at the centre.**
