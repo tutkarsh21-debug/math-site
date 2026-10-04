@@ -1,0 +1,196 @@
+@paper yes
+@class Class 10
+@board CBSE
+@title MathSetu Sample Paper 1: Mathematics (Standard)
+@marks 80
+@time 3 hours
+@instructions This paper has 38 questions in five sections, A to E. All questions are compulsory.; Section A has 20 questions of 1 mark each: 18 multiple choice questions and 2 assertion and reason questions.; Section B has 5 questions of 2 marks each.; Section C has 6 questions of 3 marks each.; Section D has 4 questions of 5 marks each.; Section E has 3 case study questions of 4 marks each, with parts of 1, 1 and 2 marks.; There is no overall choice. An internal choice is given in 2 questions of Section B, 2 questions of Section C, 3 questions of Section D and in the 2-mark part of each question of Section E.; Draw neat figures wherever they are needed. Take $\pi = \dfrac{22}{7}$ unless another value is given.; Calculators are not allowed.
+
+@@pyq
+T: Section A (20 questions of 1 mark each)
+Q: [1 mark] The HCF of $2^3 \times 3^2 \times 5$ and $2^2 \times 3^3 \times 7$ is: (a) 12  (b) 36  (c) 72  (d) 108
+S: Take the smallest power of each common prime: $2^2 \times 3^2 = 36$.
+S: **Answer: (b) 36**
+Q: [1 mark] If $\alpha$ and $\beta$ are the zeroes of $x^2 - 7x + 10$, then $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$ equals: (a) $\dfrac{7}{10}$  (b) $\dfrac{10}{7}$  (c) $-\dfrac{7}{10}$  (d) $\dfrac{3}{10}$
+S: $\alpha + \beta = 7$ and $\alpha\beta = 10$, so $\dfrac{1}{\alpha} + \dfrac{1}{\beta} = \dfrac{\alpha + \beta}{\alpha\beta} = \dfrac{7}{10}$.
+S: **Answer: (a) $\dfrac{7}{10}$**
+Q: [1 mark] A quadratic polynomial whose zeroes are $3$ and $-4$ is: (a) $x^2 - x - 12$  (b) $x^2 + x + 12$  (c) $x^2 + x - 12$  (d) $x^2 - 7x + 12$
+S: Sum of zeroes $= -1$ and product $= -12$, so the polynomial is $x^2 - (-1)x + (-12) = x^2 + x - 12$.
+S: **Answer: (c) $x^2 + x - 12$**
+Q: [1 mark] The pair of equations $3x + ky = 5$ and $6x + 8y = 7$ has no solution when $k$ equals: (a) 2  (b) 4  (c) 8  (d) 16
+S: For no solution, $\dfrac{a_1}{a_2} = \dfrac{b_1}{b_2} \neq \dfrac{c_1}{c_2}$: $\dfrac{3}{6} = \dfrac{k}{8}$ gives $k = 4$, and $\dfrac{5}{7} \neq \dfrac{1}{2}$.
+S: **Answer: (b) 4**
+Q: [1 mark] The roots of $2x^2 - 5x + 3 = 0$ are: (a) real and equal  (b) real and distinct  (c) not real  (d) both negative
+S: $D = b^2 - 4ac = 25 - 24 = 1 > 0$, so the roots are real and distinct (they are $1$ and $\dfrac{3}{2}$).
+S: **Answer: (b) real and distinct**
+Q: [1 mark] The 15th term of the AP $7, 13, 19, \dots$ is: (a) 85  (b) 91  (c) 97  (d) 105
+S: $a = 7$, $d = 6$: $a_{15} = 7 + 14 \times 6 = 91$.
+S: **Answer: (b) 91**
+Q: [1 mark] The sum of the first 10 terms of the AP $2, 5, 8, \dots$ is: (a) 145  (b) 150  (c) 155  (d) 165
+S: $S_{10} = \dfrac{10}{2}\,[2 \times 2 + 9 \times 3] = 5 \times 31 = 155$.
+S: **Answer: (c) 155**
+Q: [1 mark] The distance between the points $(-3, 4)$ and $(5, -2)$ is: (a) 6 units  (b) 8 units  (c) 10 units  (d) 14 units
+S: Distance $= \sqrt{(5 + 3)^2 + (-2 - 4)^2} = \sqrt{64 + 36} = 10$ units.
+S: **Answer: (c) 10 units**
+Q: [1 mark] The mid-point of the line segment joining $(2, -5)$ and $(-6, 9)$ is: (a) $(-2, 2)$  (b) $(-4, 4)$  (c) $(4, -7)$  (d) $(2, -2)$
+S: Mid-point $= \left(\dfrac{2 - 6}{2}, \dfrac{-5 + 9}{2}\right) = (-2, 2)$.
+S: **Answer: (a) $(-2, 2)$**
+Q: [1 mark] In $\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $DE \parallel BC$. If $AD = 3$ cm, $DB = 4.5$ cm and $AE = 4$ cm, then $EC$ is: (a) 5 cm  (b) 5.5 cm  (c) 6 cm  (d) 7.5 cm
+S: By the Basic Proportionality Theorem, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$, so $\dfrac{3}{4.5} = \dfrac{4}{EC}$ and $EC = 6$ cm.
+S: **Answer: (c) 6 cm**
+Q: [1 mark] Two similar triangles have corresponding sides in the ratio $3 : 5$. If the perimeter of the smaller triangle is 27 cm, the perimeter of the larger triangle is: (a) 36 cm  (b) 40 cm  (c) 45 cm  (d) 75 cm
+S: Perimeters of similar triangles are in the ratio of the corresponding sides: $\dfrac{27}{P} = \dfrac{3}{5}$, so $P = 45$ cm.
+S: **Answer: (c) 45 cm**
+Q: [1 mark] In $\triangle ABC \sim \triangle PQR$, $\angle A = 50°$ and $\angle Q = 60°$. Then $\angle C$ is: (a) $50°$  (b) $60°$  (c) $70°$  (d) $80°$
+S: Corresponding angles are equal, so $\angle B = \angle Q = 60°$. Then $\angle C = 180° - 50° - 60° = 70°$.
+S: **Answer: (c) $70°$**
+Q: [1 mark] A point is 13 cm from the centre of a circle of radius 5 cm. The length of the tangent from the point to the circle is: (a) 8 cm  (b) 12 cm  (c) 14 cm  (d) 18 cm
+S: The radius is perpendicular to the tangent, so length $= \sqrt{13^2 - 5^2} = \sqrt{144} = 12$ cm.
+S: **Answer: (b) 12 cm**
+Q: [1 mark] $PA$ and $PB$ are tangents to a circle with centre $O$. If $\angle APB = 70°$, then $\angle AOB$ is: (a) $70°$  (b) $90°$  (c) $110°$  (d) $140°$
+S: In quadrilateral $OAPB$, $\angle OAP = \angle OBP = 90°$, so $\angle AOB = 180° - 70° = 110°$.
+S: **Answer: (c) $110°$**
+Q: [1 mark] If $\sin\theta = \dfrac{3}{5}$ and $\theta$ is acute, then $\tan\theta$ is: (a) $\dfrac{4}{5}$  (b) $\dfrac{3}{4}$  (c) $\dfrac{4}{3}$  (d) $\dfrac{5}{3}$
+S: $\cos\theta = \sqrt{1 - \dfrac{9}{25}} = \dfrac{4}{5}$, so $\tan\theta = \dfrac{3/5}{4/5} = \dfrac{3}{4}$.
+S: **Answer: (b) $\dfrac{3}{4}$**
+Q: [1 mark] The value of $2\tan^2 45° + \cos^2 30° - \sin^2 60°$ is: (a) 0  (b) 1  (c) 2  (d) 3
+S: $2(1)^2 + \dfrac{3}{4} - \dfrac{3}{4} = 2$.
+S: **Answer: (c) 2**
+Q: [1 mark] The area of a sector of a circle of radius 6 cm with central angle $60°$ is: (a) $3\pi$ cm$^2$  (b) $6\pi$ cm$^2$  (c) $9\pi$ cm$^2$  (d) $12\pi$ cm$^2$
+S: Area $= \dfrac{60}{360} \times \pi \times 6^2 = 6\pi$ cm$^2$.
+S: **Answer: (b) $6\pi$ cm$^2$**
+Q: [1 mark] For a distribution, the mean is 20 and the median is 22. Using the empirical relation, the mode is: (a) 18  (b) 24  (c) 26  (d) 28
+S: Mode $= 3\,\text{Median} - 2\,\text{Mean} = 66 - 40 = 26$.
+S: **Answer: (c) 26**
+Q: [1 mark] **Assertion (A):** When a die is thrown once, the probability of getting a prime number is $\dfrac{1}{2}$. **Reason (R):** The prime numbers on a die are 2, 3 and 5. Choose the correct option: (a) Both A and R are true, and R is the correct explanation of A. (b) Both A and R are true, but R is not the correct explanation of A. (c) A is true, but R is false. (d) A is false, but R is true.
+S: There are 3 primes (2, 3, 5) among 6 equally likely outcomes, so the probability is $\dfrac{3}{6} = \dfrac{1}{2}$. Both statements are true, and R is the reason for A.
+S: **Answer: (a)**
+Q: [1 mark] **Assertion (A):** Two cubes, each of edge 4 cm, are joined end to end. The surface area of the cuboid formed is 192 cm$^2$. **Reason (R):** When two solids are joined, the surface area of the new solid is less than the sum of their surface areas. Choose the correct option from the four options given in Question 19.
+S: The cuboid measures $8 \times 4 \times 4$ cm, so its surface area is $2(32 + 32 + 16) = 160$ cm$^2$, not 192 cm$^2$. A is false.
+S: The two faces that are joined are hidden, so R is true.
+S: **Answer: (d)**
+
+T: Section B (5 questions of 2 marks each)
+Q: [2 marks] Two alarm bells ring at intervals of 18 minutes and 24 minutes. They ring together at 8:00 a.m. At what time will they next ring together?
+S: They ring together again after the LCM of 18 and 24 minutes.
+S: $18 = 2 \times 3^2$ and $24 = 2^3 \times 3$, so LCM $= 2^3 \times 3^2 = 72$ minutes $= 1$ hour 12 minutes.
+S: **Answer: 9:12 a.m.**
+Q: [2 marks] Find the value of $k$ for which $kx^2 - 12x + 9 = 0$ has two equal roots. **OR** Solve for $x$ and $y$: $2x + 3y = 13$ and $5x - 2y = 4$.
+S: Equal roots need $D = 0$: $(-12)^2 - 4(k)(9) = 0$, so $144 = 36k$ and $k = 4$.
+S: **OR:** Multiply the first equation by 2 and the second by 3: $4x + 6y = 26$ and $15x - 6y = 12$. Adding, $19x = 38$, so $x = 2$.
+S: Then $2(2) + 3y = 13$ gives $y = 3$.
+S: **Answer: $k = 4$; or $x = 2$, $y = 3$**
+Q: [2 marks] In $\triangle ABC$, points $D$ and $E$ lie on $AB$ and $AC$ with $AD = 4$ cm, $DB = 6$ cm, $AE = 5$ cm and $EC = 7.5$ cm. Show that $DE \parallel BC$. If $BC = 15$ cm, find $DE$.
+S: $\dfrac{AD}{DB} = \dfrac{4}{6} = \dfrac{2}{3}$ and $\dfrac{AE}{EC} = \dfrac{5}{7.5} = \dfrac{2}{3}$. The ratios are equal, so by the converse of the Basic Proportionality Theorem, $DE \parallel BC$.
+S: Then $\triangle ADE \sim \triangle ABC$ (AA), so $\dfrac{DE}{BC} = \dfrac{AD}{AB} = \dfrac{4}{10}$ and $DE = \dfrac{4}{10} \times 15 = 6$ cm.
+S: **Answer: $DE = 6$ cm**
+Q: [2 marks] Evaluate $4\sin^2 60° + 3\tan^2 30° - 8\sin 45° \cos 45°$. **OR** If $\sin(A + B) = 1$ and $\cos(A - B) = \dfrac{\sqrt{3}}{2}$, where $0° < A + B \le 90°$ and $A > B$, find $A$ and $B$.
+S: $4 \times \dfrac{3}{4} + 3 \times \dfrac{1}{3} - 8 \times \dfrac{1}{\sqrt{2}} \times \dfrac{1}{\sqrt{2}} = 3 + 1 - 4 = 0$.
+S: **OR:** $\sin(A + B) = 1$ gives $A + B = 90°$, and $\cos(A - B) = \dfrac{\sqrt{3}}{2}$ gives $A - B = 30°$. Adding, $2A = 120°$.
+S: **Answer: 0; or $A = 60°$, $B = 30°$**
+Q: [2 marks] A bag has 5 red, 8 white and 7 green balls. One ball is drawn at random. Find the probability that the ball is (i) white (ii) not red.
+S: Total balls $= 5 + 8 + 7 = 20$.
+S: (i) $P(\text{white}) = \dfrac{8}{20} = \dfrac{2}{5}$   (ii) $P(\text{not red}) = \dfrac{8 + 7}{20} = \dfrac{3}{4}$
+S: **Answer: (i) $\dfrac{2}{5}$ (ii) $\dfrac{3}{4}$**
+
+T: Section C (6 questions of 3 marks each)
+Q: [3 marks] Prove that $\sqrt{5}$ is an irrational number.
+S: Suppose $\sqrt{5}$ is rational. Then $\sqrt{5} = \dfrac{a}{b}$, where $a$ and $b$ are co-prime positive integers.
+S: Squaring, $a^2 = 5b^2$. So 5 divides $a^2$, and therefore 5 divides $a$. Write $a = 5c$.
+S: Then $25c^2 = 5b^2$, so $b^2 = 5c^2$. So 5 divides $b^2$, and therefore 5 divides $b$.
+S: Now 5 divides both $a$ and $b$, which contradicts the fact that they are co-prime.
+S: **So the assumption is wrong, and $\sqrt{5}$ is irrational.**
+Q: [3 marks] Find the zeroes of $6x^2 - 7x - 3$ and verify the relationship between the zeroes and the coefficients. **OR** The sum of the digits of a two-digit number is 9. The number obtained by reversing the digits is 27 more than the original number. Find the number.
+S: $6x^2 - 7x - 3 = 6x^2 - 9x + 2x - 3 = 3x(2x - 3) + 1(2x - 3) = (3x + 1)(2x - 3)$. The zeroes are $-\dfrac{1}{3}$ and $\dfrac{3}{2}$.
+S: Sum of zeroes $= -\dfrac{1}{3} + \dfrac{3}{2} = \dfrac{7}{6} = -\dfrac{b}{a}$. Product of zeroes $= -\dfrac{1}{3} \times \dfrac{3}{2} = -\dfrac{1}{2} = \dfrac{-3}{6} = \dfrac{c}{a}$. Verified.
+S: **OR:** Let the tens digit be $x$ and the units digit be $y$. Then $x + y = 9$, and $(10y + x) - (10x + y) = 27$ gives $y - x = 3$.
+S: Adding the two equations, $2y = 12$, so $y = 6$ and $x = 3$.
+S: **Answer: zeroes $-\dfrac{1}{3}$ and $\dfrac{3}{2}$; or the number is 36**
+Q: [3 marks] Prove that the lengths of the two tangents drawn from an external point to a circle are equal.
+S: Let $PA$ and $PB$ be the tangents from an external point $P$ to a circle with centre $O$. Join $OA$, $OB$ and $OP$.
+!fig w=320 h=220; P O 110 110 l; P P 260 110 r; P A 134 55 t; P B 134 165 b; C O 60; L P A; L P B; D O A; D O B; D O P; R O A P; R O B P
+S: In $\triangle OAP$ and $\triangle OBP$: $\angle OAP = \angle OBP = 90°$ (a radius is perpendicular to the tangent at the point of contact), $OA = OB$ (radii) and $OP = OP$ (common).
+S: So $\triangle OAP \cong \triangle OBP$ (RHS).
+S: **Therefore $PA = PB$ (CPCT).**
+Q: [3 marks] Prove that $\dfrac{\sin\theta}{1 + \cos\theta} + \dfrac{1 + \cos\theta}{\sin\theta} = 2\,\text{cosec}\,\theta$.
+S: LHS $= \dfrac{\sin^2\theta + (1 + \cos\theta)^2}{\sin\theta\,(1 + \cos\theta)} = \dfrac{\sin^2\theta + 1 + 2\cos\theta + \cos^2\theta}{\sin\theta\,(1 + \cos\theta)}$
+S: $= \dfrac{2 + 2\cos\theta}{\sin\theta\,(1 + \cos\theta)}$, using $\sin^2\theta + \cos^2\theta = 1$
+S: $= \dfrac{2(1 + \cos\theta)}{\sin\theta\,(1 + \cos\theta)} = \dfrac{2}{\sin\theta}$
+S: **$= 2\,\text{cosec}\,\theta =$ RHS. Proved.**
+Q: [3 marks] A chord of a circle of radius 14 cm subtends a right angle at the centre. Find the area of the minor segment. **OR** The minute hand of a clock is 10.5 cm long. Find the area it sweeps in 20 minutes.
+S: Area of the sector $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14 = 154$ cm$^2$.
+S: Area of the right triangle formed by the two radii $= \dfrac{1}{2} \times 14 \times 14 = 98$ cm$^2$.
+S: Area of the minor segment $= 154 - 98 = 56$ cm$^2$.
+S: **OR:** In 20 minutes the minute hand turns through $\dfrac{20}{60} \times 360° = 120°$. Area swept $= \dfrac{120}{360} \times \dfrac{22}{7} \times 10.5 \times 10.5 = \dfrac{1}{3} \times 346.5 = 115.5$ cm$^2$.
+S: **Answer: 56 cm$^2$; or 115.5 cm$^2$**
+Q: [3 marks] Find the mean of the following distribution of marks.
+| Marks | 0 – 10 | 10 – 20 | 20 – 30 | 30 – 40 | 40 – 50 |
+| Number of students | 3 | 5 | 12 | 6 | 4 |
+S: Use the class marks $x_i$: 5, 15, 25, 35, 45.
+| Marks | $f_i$ | $x_i$ | $f_i x_i$ |
+| 0 – 10 | 3 | 5 | 15 |
+| 10 – 20 | 5 | 15 | 75 |
+| 20 – 30 | 12 | 25 | 300 |
+| 30 – 40 | 6 | 35 | 210 |
+| 40 – 50 | 4 | 45 | 180 |
+| Total | 30 | | 780 |
+S: Mean $= \dfrac{\sum f_i x_i}{\sum f_i} = \dfrac{780}{30} = 26$.
+S: **Answer: mean $= 26$ marks**
+
+T: Section D (4 questions of 5 marks each)
+Q: [5 marks] A bus covers 300 km at a uniform speed. If its speed had been 10 km/h more, the journey would have taken 1 hour less. Find the speed of the bus. **OR** In an AP, the 4th term is 11 and the sum of the first 10 terms is 155. Find the AP, its 20th term and the sum of its first 20 terms.
+S: Let the speed be $x$ km/h. Then $\dfrac{300}{x} - \dfrac{300}{x + 10} = 1$.
+S: $300(x + 10) - 300x = x(x + 10)$, so $x^2 + 10x - 3000 = 0$.
+S: $(x + 60)(x - 50) = 0$, so $x = 50$ or $x = -60$. A speed cannot be negative, so $x = 50$.
+S: Check: $\dfrac{300}{50} = 6$ h and $\dfrac{300}{60} = 5$ h, a difference of 1 hour.
+S: **OR:** $a + 3d = 11$, and $\dfrac{10}{2}(2a + 9d) = 155$ gives $2a + 9d = 31$.
+S: Put $a = 11 - 3d$: $22 - 6d + 9d = 31$, so $d = 3$ and $a = 2$. The AP is $2, 5, 8, 11, \dots$
+S: $a_{20} = 2 + 19 \times 3 = 59$ and $S_{20} = \dfrac{20}{2}(2 + 59) = 610$.
+S: **Answer: 50 km/h; or AP $2, 5, 8, \dots$ with $a_{20} = 59$ and $S_{20} = 610$**
+Q: [5 marks] Prove that if a line is drawn parallel to one side of a triangle to cut the other two sides in distinct points, then it divides those two sides in the same ratio. Use this result to find $x$ if, in $\triangle PQR$, $ST \parallel QR$ with $S$ on $PQ$ and $T$ on $PR$, and $PS = x$, $SQ = x - 2$, $PT = x + 2$, $TR = x - 1$.
+S: In $\triangle ABC$, let $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. Join $BE$ and $CD$. Draw $EN \perp AB$ and $DM \perp AC$.
+!fig w=340 h=225; P A 160 25 t; P B 50 195 bl; P C 290 195 br; P D 105 110 l; P E 225 110 r; L A B; L A C; L B C; H D E; D B E; D C D
+S: $\dfrac{\text{ar}(ADE)}{\text{ar}(BDE)} = \dfrac{\frac{1}{2} \times AD \times EN}{\frac{1}{2} \times DB \times EN} = \dfrac{AD}{DB}$ and $\dfrac{\text{ar}(ADE)}{\text{ar}(DEC)} = \dfrac{\frac{1}{2} \times AE \times DM}{\frac{1}{2} \times EC \times DM} = \dfrac{AE}{EC}$.
+S: $\triangle BDE$ and $\triangle DEC$ stand on the same base $DE$ and lie between the same parallels $DE$ and $BC$, so $\text{ar}(BDE) = \text{ar}(DEC)$.
+S: Therefore $\dfrac{AD}{DB} = \dfrac{AE}{EC}$. Proved.
+S: In $\triangle PQR$: $\dfrac{PS}{SQ} = \dfrac{PT}{TR}$, so $\dfrac{x}{x - 2} = \dfrac{x + 2}{x - 1}$. Then $x^2 - x = x^2 - 4$, which gives $x = 4$.
+S: **Answer: $x = 4$**
+Q: [5 marks] From the top of a tower, the angles of depression of the top and the bottom of a pole 10 m high are $30°$ and $60°$. Find the height of the tower and its distance from the pole. **OR** Two ships are on opposite sides of a lighthouse 75 m high, in line with its foot. From the top of the lighthouse their angles of depression are $30°$ and $45°$. Find the distance between the ships. (Take $\sqrt{3} = 1.732$.)
+S: Let the tower be $h$ m high and $d$ m from the pole. The angles of depression equal the angles of elevation from the pole.
+S: From the bottom of the pole: $\tan 60° = \dfrac{h}{d}$, so $h = \sqrt{3}\,d$.
+S: From the top of the pole: $\tan 30° = \dfrac{h - 10}{d}$, so $h - 10 = \dfrac{d}{\sqrt{3}}$.
+S: Then $\sqrt{3}\,d - 10 = \dfrac{d}{\sqrt{3}}$, so $3d - 10\sqrt{3} = d$ and $d = 5\sqrt{3} \approx 8.66$ m. Hence $h = \sqrt{3} \times 5\sqrt{3} = 15$ m.
+S: **OR:** For the ship seen at $45°$: distance from the foot $= \dfrac{75}{\tan 45°} = 75$ m. For the ship seen at $30°$: distance $= \dfrac{75}{\tan 30°} = 75\sqrt{3}$ m.
+S: Distance between the ships $= 75 + 75\sqrt{3} = 75(1 + 1.732) = 204.9$ m.
+S: **Answer: height 15 m, distance $5\sqrt{3} \approx 8.66$ m; or 204.9 m**
+Q: [5 marks] A solid toy is a cone standing on a hemisphere of the same radius, 7 cm. The total height of the toy is 31 cm. Find its volume and its total surface area. **OR** A solid metal cone of radius 6 cm and height 24 cm is melted and recast into solid spheres of radius 2 cm. Find the number of spheres, and the surface area of one sphere. (Take $\pi = 3.14$.)
+S: Height of the cone $= 31 - 7 = 24$ cm, so its slant height is $l = \sqrt{7^2 + 24^2} = 25$ cm.
+S: Volume $= \dfrac{2}{3}\pi r^3 + \dfrac{1}{3}\pi r^2 h = \dfrac{1}{3}\pi r^2(2r + h) = \dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 38 = \dfrac{5852}{3} \approx 1950.67$ cm$^3$.
+S: Total surface area $= 2\pi r^2 + \pi r l = \pi r(2r + l) = \dfrac{22}{7} \times 7 \times 39 = 858$ cm$^2$.
+S: **OR:** Volume of the cone $= \dfrac{1}{3}\pi \times 6^2 \times 24 = 288\pi$ cm$^3$. Volume of one sphere $= \dfrac{4}{3}\pi \times 2^3 = \dfrac{32\pi}{3}$ cm$^3$.
+S: Number of spheres $= 288\pi \div \dfrac{32\pi}{3} = 27$. Surface area of one sphere $= 4\pi r^2 = 4 \times 3.14 \times 4 = 50.24$ cm$^2$.
+S: **Answer: volume $\approx 1950.67$ cm$^3$ and surface area 858 cm$^2$; or 27 spheres, each of surface area 50.24 cm$^2$**
+
+T: Section E (3 case study questions of 4 marks each)
+Q: [4 marks, case study] A student starts a fitness plan. She does 12 push-ups on the first day and, on every following day, 3 more than on the day before. (i) How many push-ups does she do on the 10th day? (ii) On which day does she do 60 push-ups? (iii) Find the total number of push-ups in the first 15 days, **OR** find the number of days in which the total reaches 255.
+S: The daily numbers form an AP with $a = 12$ and $d = 3$.
+S: (i) $a_{10} = 12 + 9 \times 3 = 39$.
+S: (ii) $12 + (n - 1) \times 3 = 60$ gives $n - 1 = 16$, so $n = 17$.
+S: (iii) $S_{15} = \dfrac{15}{2}\,[24 + 14 \times 3] = \dfrac{15}{2} \times 66 = 495$.
+S: OR: $\dfrac{n}{2}\,[24 + 3(n - 1)] = 255$ gives $3n^2 + 21n - 510 = 0$, that is $n^2 + 7n - 170 = 0$. So $(n - 10)(n + 17) = 0$ and $n = 10$.
+S: **Answer: (i) 39 (ii) the 17th day (iii) 495; or 10 days**
+Q: [4 marks, case study] Three lamp posts in a park stand at the points $P(2, 1)$, $Q(8, 3)$ and $R(6, 9)$ on a grid whose unit is 1 metre. (i) Find the distance $PQ$. (ii) Find the mid-point of $QR$. (iii) Find the point that divides $PR$ in the ratio $1 : 3$, **OR** show that $\triangle PQR$ is an isosceles right triangle.
+S: (i) $PQ = \sqrt{(8 - 2)^2 + (3 - 1)^2} = \sqrt{40} = 2\sqrt{10}$ m.
+S: (ii) Mid-point of $QR = \left(\dfrac{8 + 6}{2}, \dfrac{3 + 9}{2}\right) = (7, 6)$.
+S: (iii) The point is $\left(\dfrac{1 \times 6 + 3 \times 2}{1 + 3}, \dfrac{1 \times 9 + 3 \times 1}{1 + 3}\right) = (3, 3)$.
+S: OR: $PQ^2 = 40$, $QR^2 = (6 - 8)^2 + (9 - 3)^2 = 40$ and $PR^2 = (6 - 2)^2 + (9 - 1)^2 = 80$. So $PQ = QR$ and $PQ^2 + QR^2 = PR^2$: the triangle is isosceles and right-angled at $Q$.
+S: **Answer: (i) $2\sqrt{10}$ m (ii) $(7, 6)$ (iii) $(3, 3)$; or shown**
+Q: [4 marks, case study] A housing society recorded the water used in one day by each of its 40 households, as shown in the table. (i) Write the modal class. (ii) How many households used less than 200 litres? (iii) Find the median of the data, **OR** find its mode.
+| Water used (litres) | 100 – 150 | 150 – 200 | 200 – 250 | 250 – 300 | 300 – 350 |
+| Number of households | 5 | 8 | 13 | 9 | 5 |
+S: (i) The greatest frequency is 13, so the modal class is 200 – 250.
+S: (ii) $5 + 8 = 13$ households.
+S: (iii) The cumulative frequencies are 5, 13, 26, 35, 40 and $\dfrac{N}{2} = 20$, so the median class is 200 – 250, with $l = 200$, $cf = 13$, $f = 13$, $h = 50$.
+S: Median $= l + \dfrac{\frac{N}{2} - cf}{f} \times h = 200 + \dfrac{20 - 13}{13} \times 50 \approx 200 + 26.92 = 226.92$ litres.
+S: OR: Mode $= l + \dfrac{f_1 - f_0}{2f_1 - f_0 - f_2} \times h = 200 + \dfrac{13 - 8}{26 - 8 - 9} \times 50 = 200 + \dfrac{250}{9} \approx 227.78$ litres.
+S: **Answer: (i) 200 – 250 (ii) 13 (iii) median $\approx 226.92$ litres; or mode $\approx 227.78$ litres**
