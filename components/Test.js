@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
 // Text with $maths$ and **bold**, as in the notes.
-function Tex({ text }) {
+export function Tex({ text }) {
   let bold = false;
   const html = text.split(/(\$[^$]+\$)/).map(part =>
     part.startsWith('$') && part.endsWith('$') && part.length > 2

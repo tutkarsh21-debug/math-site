@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
               {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
               <Link href="/tests">Test Series</Link>
               <Link href="/sample-papers">Sample Papers</Link>
+              <Link href="/doubts">Ask a Doubt</Link>
               <Link href="/blog">Blog and Exam News</Link>
             </div>
             <div><h3>Connect</h3>

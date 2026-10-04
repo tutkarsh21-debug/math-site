@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.open-next/
+.wrangler/
+# local secrets for `next dev` (for example ANTHROPIC_API_KEY); never commit these
+.dev.vars*
+.env*
+*.log
