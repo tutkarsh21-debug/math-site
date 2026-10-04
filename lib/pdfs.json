@@ -240,7 +240,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/quadratic-equations": [
   "notes",
@@ -263,7 +264,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/surface-areas-and-volumes": [
   "notes",

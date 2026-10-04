@@ -1,0 +1,182 @@
+T: Exercise 13.1
+Q: [Q1] The numbers of plants in 20 houses are given below. Find the mean number of plants per house. Which method did you use, and why?
+| Number of plants | 0 – 2 | 2 – 4 | 4 – 6 | 6 – 8 | 8 – 10 | 10 – 12 | 12 – 14 |
+| Number of houses | 1 | 2 | 1 | 5 | 6 | 2 | 3 |
+S: The class marks and frequencies are small numbers, so the direct method is the easiest.
+| Class mark $x_i$ | 1 | 3 | 5 | 7 | 9 | 11 | 13 | Total |
+| $f_i$ | 1 | 2 | 1 | 5 | 6 | 2 | 3 | 20 |
+| $f_i x_i$ | 1 | 6 | 5 | 35 | 54 | 22 | 39 | 162 |
+S: Mean $= \dfrac{\sum f_i x_i}{\sum f_i} = \dfrac{162}{20} = 8.1$.
+S: **Answer: 8.1 plants per house, by the direct method**
+Q: [Q2] The daily wages of 50 workers of a factory are given below. Find the mean daily wage by a suitable method.
+| Daily wages (₹) | 500 – 520 | 520 – 540 | 540 – 560 | 560 – 580 | 580 – 600 |
+| Number of workers | 12 | 14 | 8 | 6 | 10 |
+S: Use the step-deviation method with $a = 550$, $h = 20$ and $u_i = \dfrac{x_i - a}{h}$.
+| $x_i$ | 510 | 530 | 550 | 570 | 590 | Total |
+| $f_i$ | 12 | 14 | 8 | 6 | 10 | 50 |
+| $u_i$ | $-2$ | $-1$ | 0 | 1 | 2 | |
+| $f_i u_i$ | $-24$ | $-14$ | 0 | 6 | 20 | $-12$ |
+S: Mean $= a + \dfrac{\sum f_i u_i}{\sum f_i} \times h = 550 + \dfrac{-12}{50} \times 20 = 550 - 4.8 = 545.2$.
+S: **Answer: ₹545.20**
+Q: [Q3] The daily pocket allowance of the children of a locality is given below. The mean is ₹18. Find the missing frequency $f$.
+| Allowance (₹) | 11 – 13 | 13 – 15 | 15 – 17 | 17 – 19 | 19 – 21 | 21 – 23 | 23 – 25 |
+| Number of children | 7 | 6 | 9 | 13 | $f$ | 5 | 4 |
+S: The class marks are 12, 14, 16, 18, 20, 22, 24.
+S: $\sum f_i = 44 + f$ and $\sum f_i x_i = 84 + 84 + 144 + 234 + 20f + 110 + 96 = 752 + 20f$.
+S: $\dfrac{752 + 20f}{44 + f} = 18$ gives $752 + 20f = 792 + 18f$, so $2f = 40$.
+S: **Answer: $f = 20$**
+Q: [Q4] The heartbeats per minute of 30 women are summarised below. Find the mean by a suitable method.
+| Heartbeats per minute | 65 – 68 | 68 – 71 | 71 – 74 | 74 – 77 | 77 – 80 | 80 – 83 | 83 – 86 |
+| Number of women | 2 | 4 | 3 | 8 | 7 | 4 | 2 |
+S: Use the step-deviation method with $a = 75.5$ and $h = 3$.
+| $x_i$ | 66.5 | 69.5 | 72.5 | 75.5 | 78.5 | 81.5 | 84.5 | Total |
+| $f_i$ | 2 | 4 | 3 | 8 | 7 | 4 | 2 | 30 |
+| $u_i$ | $-3$ | $-2$ | $-1$ | 0 | 1 | 2 | 3 | |
+| $f_i u_i$ | $-6$ | $-8$ | $-3$ | 0 | 7 | 8 | 6 | 4 |
+S: Mean $= 75.5 + \dfrac{4}{30} \times 3 = 75.5 + 0.4 = 75.9$.
+S: **Answer: 75.9 heartbeats per minute**
+Q: [Q5] Boxes of mangoes hold different numbers of mangoes, as shown below. Find the mean number of mangoes in a box. Which method did you choose?
+| Number of mangoes | 50 – 52 | 53 – 55 | 56 – 58 | 59 – 61 | 62 – 64 |
+| Number of boxes | 15 | 110 | 135 | 115 | 25 |
+S: The class marks are 51, 54, 57, 60, 63. (They are the same whether or not the classes are made continuous.) Use the step-deviation method with $a = 57$ and $h = 3$.
+| $x_i$ | 51 | 54 | 57 | 60 | 63 | Total |
+| $f_i$ | 15 | 110 | 135 | 115 | 25 | 400 |
+| $u_i$ | $-2$ | $-1$ | 0 | 1 | 2 | |
+| $f_i u_i$ | $-30$ | $-110$ | 0 | 115 | 50 | 25 |
+S: Mean $= 57 + \dfrac{25}{400} \times 3 = 57 + 0.1875 \approx 57.19$.
+S: **Answer: about 57.19 mangoes, by the step-deviation method**
+Q: [Q6] The daily expenditure on food of 25 households is given below. Find the mean by a suitable method.
+| Daily expenditure (₹) | 100 – 150 | 150 – 200 | 200 – 250 | 250 – 300 | 300 – 350 |
+| Number of households | 4 | 5 | 12 | 2 | 2 |
+S: Use the step-deviation method with $a = 225$ and $h = 50$.
+| $x_i$ | 125 | 175 | 225 | 275 | 325 | Total |
+| $f_i$ | 4 | 5 | 12 | 2 | 2 | 25 |
+| $u_i$ | $-2$ | $-1$ | 0 | 1 | 2 | |
+| $f_i u_i$ | $-8$ | $-5$ | 0 | 2 | 4 | $-7$ |
+S: Mean $= 225 + \dfrac{-7}{25} \times 50 = 225 - 14 = 211$.
+S: **Answer: ₹211**
+Q: [Q7] The concentration of SO$_2$ in the air (in ppm) in 30 localities is given below. Find the mean concentration.
+| Concentration (ppm) | 0.00 – 0.04 | 0.04 – 0.08 | 0.08 – 0.12 | 0.12 – 0.16 | 0.16 – 0.20 | 0.20 – 0.24 |
+| Frequency | 4 | 9 | 9 | 2 | 4 | 2 |
+| $x_i$ | 0.02 | 0.06 | 0.10 | 0.14 | 0.18 | 0.22 |
+| $f_i x_i$ | 0.08 | 0.54 | 0.90 | 0.28 | 0.72 | 0.44 |
+S: $\sum f_i = 30$ and $\sum f_i x_i = 2.96$.
+S: Mean $= \dfrac{2.96}{30} \approx 0.099$.
+S: **Answer: about 0.099 ppm**
+Q: [Q8] The absentee record of 40 students for a term is given below. Find the mean number of days a student was absent.
+| Number of days | 0 – 6 | 6 – 10 | 10 – 14 | 14 – 20 | 20 – 28 | 28 – 38 | 38 – 40 |
+| Number of students | 11 | 10 | 7 | 4 | 4 | 3 | 1 |
+S: The class widths are unequal, so use the direct method.
+| $x_i$ | 3 | 8 | 12 | 17 | 24 | 33 | 39 | Total |
+| $f_i x_i$ | 33 | 80 | 84 | 68 | 96 | 99 | 39 | 499 |
+S: Mean $= \dfrac{499}{40} = 12.475 \approx 12.48$.
+S: **Answer: about 12.48 days**
+Q: [Q9] The literacy rates (in %) of 35 cities are given below. Find the mean literacy rate.
+| Literacy rate (%) | 45 – 55 | 55 – 65 | 65 – 75 | 75 – 85 | 85 – 95 |
+| Number of cities | 3 | 10 | 11 | 8 | 3 |
+S: Use the step-deviation method with $a = 70$ and $h = 10$.
+| $x_i$ | 50 | 60 | 70 | 80 | 90 | Total |
+| $u_i$ | $-2$ | $-1$ | 0 | 1 | 2 | |
+| $f_i u_i$ | $-6$ | $-10$ | 0 | 8 | 6 | $-2$ |
+S: Mean $= 70 + \dfrac{-2}{35} \times 10 = 70 - 0.57 = 69.43$.
+S: **Answer: about 69.43%**
+
+T: Exercise 13.2
+Q: [Q1] The ages of patients admitted to a hospital in a year are given below. Find the mode and the mean, and compare them.
+| Age (years) | 5 – 15 | 15 – 25 | 25 – 35 | 35 – 45 | 45 – 55 | 55 – 65 |
+| Number of patients | 6 | 11 | 21 | 23 | 14 | 5 |
+S: The modal class is 35 – 45, with $l = 35$, $h = 10$, $f_1 = 23$, $f_0 = 21$, $f_2 = 14$.
+S: Mode $= l + \dfrac{f_1 - f_0}{2f_1 - f_0 - f_2} \times h = 35 + \dfrac{2}{46 - 35} \times 10 = 35 + 1.82 = 36.8$ years.
+S: For the mean, the class marks are 10, 20, 30, 40, 50, 60: $\sum f_i x_i = 60 + 220 + 630 + 920 + 700 + 300 = 2830$ and $\sum f_i = 80$. Mean $= \dfrac{2830}{80} = 35.37$ years.
+S: The largest number of patients are about 36.8 years old, while the average age of a patient is about 35.37 years.
+S: **Answer: mode $\approx 36.8$ years, mean $\approx 35.37$ years**
+Q: [Q2] The lifetimes (in hours) of 225 electrical components are given below. Find the modal lifetime.
+| Lifetime (hours) | 0 – 20 | 20 – 40 | 40 – 60 | 60 – 80 | 80 – 100 | 100 – 120 |
+| Frequency | 10 | 35 | 52 | 61 | 38 | 29 |
+S: The modal class is 60 – 80, with $l = 60$, $h = 20$, $f_1 = 61$, $f_0 = 52$, $f_2 = 38$.
+S: Mode $= 60 + \dfrac{61 - 52}{122 - 52 - 38} \times 20 = 60 + \dfrac{9}{32} \times 20 = 65.625$.
+S: **Answer: 65.625 hours**
+Q: [Q3] The monthly household expenditure of 200 families is given below. Find the modal and the mean monthly expenditure.
+| Expenditure (₹) | 1000 – 1500 | 1500 – 2000 | 2000 – 2500 | 2500 – 3000 | 3000 – 3500 | 3500 – 4000 | 4000 – 4500 | 4500 – 5000 |
+| Number of families | 24 | 40 | 33 | 28 | 30 | 22 | 16 | 7 |
+S: The modal class is 1500 – 2000, with $l = 1500$, $h = 500$, $f_1 = 40$, $f_0 = 24$, $f_2 = 33$.
+S: Mode $= 1500 + \dfrac{40 - 24}{80 - 24 - 33} \times 500 = 1500 + \dfrac{16}{23} \times 500 \approx 1847.83$.
+S: For the mean use $a = 2750$, $h = 500$. The values of $u_i$ are $-3, -2, -1, 0, 1, 2, 3, 4$, so $\sum f_i u_i = -72 - 80 - 33 + 0 + 30 + 44 + 48 + 28 = -35$.
+S: Mean $= 2750 + \dfrac{-35}{200} \times 500 = 2750 - 87.5 = 2662.5$.
+S: **Answer: mode $\approx$ ₹1847.83, mean $=$ ₹2662.50**
+Q: [Q4] The state-wise teacher-student ratio in higher secondary schools is given below. Find the mode and the mean, and interpret them.
+| Students per teacher | 15 – 20 | 20 – 25 | 25 – 30 | 30 – 35 | 35 – 40 | 40 – 45 | 45 – 50 | 50 – 55 |
+| Number of states / U.T. | 3 | 8 | 9 | 10 | 3 | 0 | 0 | 2 |
+S: The modal class is 30 – 35, with $l = 30$, $h = 5$, $f_1 = 10$, $f_0 = 9$, $f_2 = 3$.
+S: Mode $= 30 + \dfrac{10 - 9}{20 - 9 - 3} \times 5 = 30 + 0.625 \approx 30.6$.
+S: For the mean, the class marks are 17.5, 22.5, ..., 52.5: $\sum f_i x_i = 52.5 + 180 + 247.5 + 325 + 112.5 + 0 + 0 + 105 = 1022.5$ and $\sum f_i = 35$. Mean $= \dfrac{1022.5}{35} \approx 29.2$.
+S: Most states and U.T.s have about 30.6 students per teacher, and on average there are about 29.2 students per teacher.
+S: **Answer: mode $\approx 30.6$, mean $\approx 29.2$**
+Q: [Q5] The runs scored by some top batsmen in one-day internationals are given below. Find the mode.
+| Runs scored | 3000 – 4000 | 4000 – 5000 | 5000 – 6000 | 6000 – 7000 | 7000 – 8000 | 8000 – 9000 | 9000 – 10000 | 10000 – 11000 |
+| Number of batsmen | 4 | 18 | 9 | 7 | 6 | 3 | 1 | 1 |
+S: The modal class is 4000 – 5000, with $l = 4000$, $h = 1000$, $f_1 = 18$, $f_0 = 4$, $f_2 = 9$.
+S: Mode $= 4000 + \dfrac{18 - 4}{36 - 4 - 9} \times 1000 = 4000 + \dfrac{14}{23} \times 1000 \approx 4608.7$.
+S: **Answer: about 4608.7 runs**
+Q: [Q6] The number of cars passing a spot was noted for 100 periods of 3 minutes each, as below. Find the mode.
+| Number of cars | 0 – 10 | 10 – 20 | 20 – 30 | 30 – 40 | 40 – 50 | 50 – 60 | 60 – 70 | 70 – 80 |
+| Frequency | 7 | 14 | 13 | 12 | 20 | 11 | 15 | 8 |
+S: The modal class is 40 – 50, with $l = 40$, $h = 10$, $f_1 = 20$, $f_0 = 12$, $f_2 = 11$.
+S: Mode $= 40 + \dfrac{20 - 12}{40 - 12 - 11} \times 10 = 40 + \dfrac{80}{17} \approx 44.7$.
+S: **Answer: about 44.7 cars**
+
+T: Exercise 13.3
+Q: [Q1] The monthly electricity consumption of 68 consumers is given below. Find the median, mean and mode, and compare them.
+| Consumption (units) | 65 – 85 | 85 – 105 | 105 – 125 | 125 – 145 | 145 – 165 | 165 – 185 | 185 – 205 |
+| Number of consumers | 4 | 5 | 13 | 20 | 14 | 8 | 4 |
+| Cumulative frequency | 4 | 9 | 22 | 42 | 56 | 64 | 68 |
+S: Median: $\dfrac{n}{2} = 34$, so the median class is 125 – 145, with $l = 125$, $cf = 22$, $f = 20$, $h = 20$. Median $= l + \dfrac{\frac{n}{2} - cf}{f} \times h = 125 + \dfrac{34 - 22}{20} \times 20 = 137$.
+S: Mode: the modal class is 125 – 145, with $f_1 = 20$, $f_0 = 13$, $f_2 = 14$. Mode $= 125 + \dfrac{7}{40 - 27} \times 20 \approx 135.76$.
+S: Mean: with $a = 135$, $h = 20$ and $u_i = -3, -2, -1, 0, 1, 2, 3$, $\sum f_i u_i = -12 - 10 - 13 + 0 + 14 + 16 + 12 = 7$. Mean $= 135 + \dfrac{7}{68} \times 20 \approx 137.06$.
+S: The three measures are close to one another, at about 137 units.
+S: **Answer: median 137 units, mean $\approx 137.06$ units, mode $\approx 135.76$ units**
+Q: [Q2] The median of the distribution below is 28.5 and the total frequency is 60. Find $x$ and $y$.
+| Class interval | 0 – 10 | 10 – 20 | 20 – 30 | 30 – 40 | 40 – 50 | 50 – 60 |
+| Frequency | 5 | $x$ | 20 | 15 | $y$ | 5 |
+S: $5 + x + 20 + 15 + y + 5 = 60$ gives $x + y = 15$.
+S: The median 28.5 lies in 20 – 30, so $l = 20$, $f = 20$, $h = 10$, $cf = 5 + x$ and $\dfrac{n}{2} = 30$.
+S: $28.5 = 20 + \dfrac{30 - (5 + x)}{20} \times 10$ gives $8.5 = \dfrac{25 - x}{2}$, so $x = 8$ and $y = 7$.
+S: **Answer: $x = 8$, $y = 7$**
+Q: [Q3] The ages of 100 policy holders are given as a "less than" distribution: below 20: 2, below 25: 6, below 30: 24, below 35: 45, below 40: 78, below 45: 89, below 50: 92, below 55: 98, below 60: 100. Policies are given only to persons aged 18 or more but less than 60. Find the median age.
+S: Subtract each cumulative frequency from the next to get the class frequencies.
+| Age (years) | 18 – 20 | 20 – 25 | 25 – 30 | 30 – 35 | 35 – 40 | 40 – 45 | 45 – 50 | 50 – 55 | 55 – 60 |
+| Frequency | 2 | 4 | 18 | 21 | 33 | 11 | 3 | 6 | 2 |
+| Cumulative frequency | 2 | 6 | 24 | 45 | 78 | 89 | 92 | 98 | 100 |
+S: $\dfrac{n}{2} = 50$, so the median class is 35 – 40, with $l = 35$, $cf = 45$, $f = 33$, $h = 5$.
+S: Median $= 35 + \dfrac{50 - 45}{33} \times 5 \approx 35.76$.
+S: **Answer: about 35.76 years**
+Q: [Q4] The lengths of 40 leaves, measured to the nearest millimetre, are given below. Find the median length.
+| Length (mm) | 118 – 126 | 127 – 135 | 136 – 144 | 145 – 153 | 154 – 162 | 163 – 171 | 172 – 180 |
+| Number of leaves | 3 | 5 | 9 | 12 | 5 | 4 | 2 |
+| Cumulative frequency | 3 | 8 | 17 | 29 | 34 | 38 | 40 |
+S: The classes are not continuous, so change them to 117.5 – 126.5, 126.5 – 135.5, ..., 171.5 – 180.5.
+S: $\dfrac{n}{2} = 20$, so the median class is 144.5 – 153.5, with $l = 144.5$, $cf = 17$, $f = 12$, $h = 9$.
+S: Median $= 144.5 + \dfrac{20 - 17}{12} \times 9 = 144.5 + 2.25 = 146.75$.
+S: **Answer: 146.75 mm**
+Q: [Q5] The lifetimes of 400 neon lamps are given below. Find the median lifetime.
+| Lifetime (hours) | 1500 – 2000 | 2000 – 2500 | 2500 – 3000 | 3000 – 3500 | 3500 – 4000 | 4000 – 4500 | 4500 – 5000 |
+| Number of lamps | 14 | 56 | 60 | 86 | 74 | 62 | 48 |
+| Cumulative frequency | 14 | 70 | 130 | 216 | 290 | 352 | 400 |
+S: $\dfrac{n}{2} = 200$, so the median class is 3000 – 3500, with $l = 3000$, $cf = 130$, $f = 86$, $h = 500$.
+S: Median $= 3000 + \dfrac{200 - 130}{86} \times 500 \approx 3406.98$.
+S: **Answer: about 3406.98 hours**
+Q: [Q6] The numbers of letters in 100 surnames are given below. Find the median, the mean and the modal size.
+| Number of letters | 1 – 4 | 4 – 7 | 7 – 10 | 10 – 13 | 13 – 16 | 16 – 19 |
+| Number of surnames | 6 | 30 | 40 | 16 | 4 | 4 |
+| Cumulative frequency | 6 | 36 | 76 | 92 | 96 | 100 |
+S: Median: $\dfrac{n}{2} = 50$, so the median class is 7 – 10, with $l = 7$, $cf = 36$, $f = 40$, $h = 3$. Median $= 7 + \dfrac{50 - 36}{40} \times 3 = 8.05$.
+S: Mean: the class marks are 2.5, 5.5, 8.5, 11.5, 14.5, 17.5, so $\sum f_i x_i = 15 + 165 + 340 + 184 + 58 + 70 = 832$. Mean $= \dfrac{832}{100} = 8.32$.
+S: Mode: the modal class is 7 – 10, with $f_1 = 40$, $f_0 = 30$, $f_2 = 16$. Mode $= 7 + \dfrac{10}{80 - 46} \times 3 \approx 7.88$.
+S: **Answer: median 8.05, mean 8.32, mode $\approx 7.88$ letters**
+Q: [Q7] The weights of 30 students are given below. Find the median weight.
+| Weight (kg) | 40 – 45 | 45 – 50 | 50 – 55 | 55 – 60 | 60 – 65 | 65 – 70 | 70 – 75 |
+| Number of students | 2 | 3 | 8 | 6 | 6 | 3 | 2 |
+| Cumulative frequency | 2 | 5 | 13 | 19 | 25 | 28 | 30 |
+S: $\dfrac{n}{2} = 15$, so the median class is 55 – 60, with $l = 55$, $cf = 13$, $f = 6$, $h = 5$.
+S: Median $= 55 + \dfrac{15 - 13}{6} \times 5 \approx 56.67$.
+S: **Answer: about 56.67 kg**

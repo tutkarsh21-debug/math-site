@@ -1,0 +1,99 @@
+T: Exercise 14.1
+Q: [Q1] Complete the statements: (i) Probability of an event E $+$ probability of the event "not E" $=$ ___. (ii) The probability of an event that cannot happen is ___. Such an event is called ___. (iii) The probability of an event that is certain to happen is ___. Such an event is called ___. (iv) The sum of the probabilities of all the elementary events of an experiment is ___. (v) The probability of an event is greater than or equal to ___ and less than or equal to ___.
+S: **Answer: (i) 1 (ii) 0, an impossible event (iii) 1, a sure (certain) event (iv) 1 (v) 0 and 1**
+Q: [Q2] Which experiments have equally likely outcomes? Explain. (i) A driver tries to start a car; it starts or does not start. (ii) A player shoots a basketball; the shot is made or missed. (iii) A true-false question is answered; the answer is right or wrong. (iv) A baby is born; it is a boy or a girl.
+S: Outcomes are equally likely when there is no reason to expect one more than another.
+S: (i) Not equally likely. Whether the car starts depends on its condition, so the two outcomes do not have the same chance.
+S: (ii) Not equally likely. The result depends on the skill of the player.
+S: (iii) Equally likely. A guess at a true-false question is right or wrong with the same chance.
+S: (iv) Equally likely. A baby is a boy or a girl with the same chance.
+S: **Answer: (iii) and (iv) have equally likely outcomes**
+Q: [Q3] Why is tossing a coin a fair way to decide which team gets the ball at the start of a football game?
+S: A coin has only two outcomes, head and tail, and they are equally likely. Neither team can predict or control the result.
+S: **Answer: because each team has the same probability, $\dfrac{1}{2}$, of winning the toss**
+Q: [Q4] Which of these cannot be the probability of an event? (A) $\dfrac{2}{3}$ (B) $-1.5$ (C) 15% (D) 0.7
+S: A probability always lies from 0 to 1. $\dfrac{2}{3}$, $15\% = 0.15$ and $0.7$ are in this range, but $-1.5$ is negative.
+S: **Answer: (B) $-1.5$**
+Q: [Q5] If $P(E) = 0.05$, find the probability of "not E".
+S: $P(\text{not } E) = 1 - P(E) = 1 - 0.05$.
+S: **Answer: 0.95**
+Q: [Q6] A bag contains lemon flavoured candies only. One candy is taken out without looking. Find the probability that it is (i) an orange flavoured candy (ii) a lemon flavoured candy.
+S: (i) There is no orange flavoured candy in the bag, so this cannot happen: the probability is 0.
+S: (ii) Every candy is lemon flavoured, so this is certain: the probability is 1.
+S: **Answer: (i) 0 (ii) 1**
+Q: [Q7] In a group of 3 students, the probability that 2 students do not have the same birthday is 0.992. Find the probability that the 2 students have the same birthday.
+S: The two events are complements: $P(\text{same birthday}) = 1 - 0.992$.
+S: **Answer: 0.008**
+Q: [Q8] A bag has 3 red balls and 5 black balls. One ball is drawn at random. Find the probability that it is (i) red (ii) not red.
+S: Total balls $= 8$. (i) $P(\text{red}) = \dfrac{3}{8}$. (ii) $P(\text{not red}) = 1 - \dfrac{3}{8} = \dfrac{5}{8}$.
+S: **Answer: (i) $\dfrac{3}{8}$ (ii) $\dfrac{5}{8}$**
+Q: [Q9] A box has 5 red, 8 white and 4 green marbles. One marble is taken out at random. Find the probability that it is (i) red (ii) white (iii) not green.
+S: Total marbles $= 17$. (i) $\dfrac{5}{17}$ (ii) $\dfrac{8}{17}$ (iii) $\dfrac{5 + 8}{17} = \dfrac{13}{17}$.
+S: **Answer: (i) $\dfrac{5}{17}$ (ii) $\dfrac{8}{17}$ (iii) $\dfrac{13}{17}$**
+Q: [Q10] A piggy bank has a hundred 50p coins, fifty ₹1 coins, twenty ₹2 coins and ten ₹5 coins. One coin falls out, each being equally likely. Find the probability that it (i) is a 50p coin (ii) is not a ₹5 coin.
+S: Total coins $= 100 + 50 + 20 + 10 = 180$.
+S: (i) $\dfrac{100}{180} = \dfrac{5}{9}$. (ii) $\dfrac{180 - 10}{180} = \dfrac{17}{18}$.
+S: **Answer: (i) $\dfrac{5}{9}$ (ii) $\dfrac{17}{18}$**
+Q: [Q11] A fish is taken at random from a tank with 5 male fish and 8 female fish. Find the probability that it is a male fish.
+S: Total fish $= 13$, of which 5 are male.
+S: **Answer: $\dfrac{5}{13}$**
+Q: [Q12] An arrow is spun and comes to rest pointing at one of the numbers 1 to 8, all equally likely. Find the probability that it points at (i) 8 (ii) an odd number (iii) a number greater than 2 (iv) a number less than 9.
+S: There are 8 outcomes. (i) One outcome: $\dfrac{1}{8}$. (ii) 1, 3, 5, 7: $\dfrac{4}{8} = \dfrac{1}{2}$. (iii) 3, 4, 5, 6, 7, 8: $\dfrac{6}{8} = \dfrac{3}{4}$. (iv) All 8 numbers: $\dfrac{8}{8} = 1$.
+S: **Answer: (i) $\dfrac{1}{8}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{3}{4}$ (iv) 1**
+Q: [Q13] A die is thrown once. Find the probability of getting (i) a prime number (ii) a number lying between 2 and 6 (iii) an odd number.
+S: There are 6 outcomes. (i) 2, 3, 5: $\dfrac{3}{6} = \dfrac{1}{2}$. (ii) 3, 4, 5: $\dfrac{3}{6} = \dfrac{1}{2}$. (iii) 1, 3, 5: $\dfrac{3}{6} = \dfrac{1}{2}$.
+S: **Answer: $\dfrac{1}{2}$ in each case**
+Q: [Q14] One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting (i) a king of red colour (ii) a face card (iii) a red face card (iv) the jack of hearts (v) a spade (vi) the queen of diamonds.
+S: (i) There are 2 red kings: $\dfrac{2}{52} = \dfrac{1}{26}$.
+S: (ii) There are 12 face cards (jack, queen, king in 4 suits): $\dfrac{12}{52} = \dfrac{3}{13}$.
+S: (iii) There are 6 red face cards: $\dfrac{6}{52} = \dfrac{3}{26}$.
+S: (iv) There is 1 jack of hearts: $\dfrac{1}{52}$.
+S: (v) There are 13 spades: $\dfrac{13}{52} = \dfrac{1}{4}$.
+S: (vi) There is 1 queen of diamonds: $\dfrac{1}{52}$.
+S: **Answer: (i) $\dfrac{1}{26}$ (ii) $\dfrac{3}{13}$ (iii) $\dfrac{3}{26}$ (iv) $\dfrac{1}{52}$ (v) $\dfrac{1}{4}$ (vi) $\dfrac{1}{52}$**
+Q: [Q15] Five cards, the ten, jack, queen, king and ace of diamonds, are shuffled face down and one is picked at random. (i) Find the probability that it is the queen. (ii) If the queen is drawn and put aside, find the probability that the second card picked is (a) an ace (b) a queen.
+S: (i) One queen among 5 cards: $\dfrac{1}{5}$.
+S: (ii) Four cards remain: ten, jack, king, ace. (a) One ace: $\dfrac{1}{4}$. (b) No queen is left: $0$.
+S: **Answer: (i) $\dfrac{1}{5}$ (ii) (a) $\dfrac{1}{4}$ (b) 0**
+Q: [Q16] 12 defective pens are mixed with 132 good ones. One pen is taken at random. Find the probability that it is a good one.
+S: Total pens $= 144$. $P(\text{good}) = \dfrac{132}{144} = \dfrac{11}{12}$.
+S: **Answer: $\dfrac{11}{12}$**
+Q: [Q17] (i) A lot of 20 bulbs has 4 defective ones. One bulb is drawn at random. Find the probability that it is defective. (ii) The bulb drawn in (i) is not defective and is not replaced. One more bulb is drawn from the rest. Find the probability that it is not defective.
+S: (i) $\dfrac{4}{20} = \dfrac{1}{5}$.
+S: (ii) 19 bulbs remain, of which $16 - 1 = 15$ are not defective: $\dfrac{15}{19}$.
+S: **Answer: (i) $\dfrac{1}{5}$ (ii) $\dfrac{15}{19}$**
+Q: [Q18] A box has 90 discs numbered 1 to 90. One disc is drawn at random. Find the probability that it bears (i) a two-digit number (ii) a perfect square (iii) a number divisible by 5.
+S: (i) Two-digit numbers are 10 to 90, which is 81 numbers: $\dfrac{81}{90} = \dfrac{9}{10}$.
+S: (ii) Perfect squares are $1, 4, 9, \dots, 81$, which is 9 numbers: $\dfrac{9}{90} = \dfrac{1}{10}$.
+S: (iii) Multiples of 5 are $5, 10, \dots, 90$, which is 18 numbers: $\dfrac{18}{90} = \dfrac{1}{5}$.
+S: **Answer: (i) $\dfrac{9}{10}$ (ii) $\dfrac{1}{10}$ (iii) $\dfrac{1}{5}$**
+Q: [Q19] The six faces of a die show the letters A, B, C, D, E, A. The die is thrown once. Find the probability of getting (i) A (ii) D.
+S: (i) Two faces show A: $\dfrac{2}{6} = \dfrac{1}{3}$. (ii) One face shows D: $\dfrac{1}{6}$.
+S: **Answer: (i) $\dfrac{1}{3}$ (ii) $\dfrac{1}{6}$**
+Q: [Q20*] A die is dropped at random on a rectangle 3 m long and 2 m wide. Find the probability that it lands inside a circle of diameter 1 m drawn in the rectangle.
+S: Area of the rectangle $= 3 \times 2 = 6$ m$^2$. Area of the circle $= \pi \left(\dfrac{1}{2}\right)^2 = \dfrac{\pi}{4}$ m$^2$.
+S: Probability $= \dfrac{\pi/4}{6} = \dfrac{\pi}{24}$.
+S: **Answer: $\dfrac{\pi}{24}$**
+Q: [Q21] A lot has 144 ball pens, of which 20 are defective. A buyer takes a pen only if it is good. The shopkeeper draws one pen at random. Find the probability that the buyer (i) will buy it (ii) will not buy it.
+S: Good pens $= 144 - 20 = 124$. (i) $\dfrac{124}{144} = \dfrac{31}{36}$. (ii) $\dfrac{20}{144} = \dfrac{5}{36}$.
+S: **Answer: (i) $\dfrac{31}{36}$ (ii) $\dfrac{5}{36}$**
+Q: [Q22] Two dice are thrown. (i) Complete the table of the probability of each sum from 2 to 12 (the textbook gives $\dfrac{1}{36}$ for 2, $\dfrac{5}{36}$ for 8 and $\dfrac{1}{36}$ for 12). (ii) A student says the 11 sums 2, 3, ..., 12 each have probability $\dfrac{1}{11}$. Is this right?
+S: (i) There are 36 equally likely outcomes. Count the pairs that give each sum: for example, sum 4 comes from $(1, 3)$, $(2, 2)$, $(3, 1)$.
+| Sum | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| Number of ways | 1 | 2 | 3 | 4 | 5 | 6 | 5 | 4 | 3 | 2 | 1 |
+| Probability | $\dfrac{1}{36}$ | $\dfrac{2}{36}$ | $\dfrac{3}{36}$ | $\dfrac{4}{36}$ | $\dfrac{5}{36}$ | $\dfrac{6}{36}$ | $\dfrac{5}{36}$ | $\dfrac{4}{36}$ | $\dfrac{3}{36}$ | $\dfrac{2}{36}$ | $\dfrac{1}{36}$ |
+S: (ii) No. The 11 sums are not equally likely: a sum of 7 can come in 6 ways but a sum of 2 in only 1 way. So their probabilities are different, as the table shows.
+S: **Answer: (i) as in the table (ii) the argument is not correct**
+Q: [Q23] A coin is tossed 3 times. A player wins if all three tosses give the same result and loses otherwise. Find the probability that the player loses.
+S: The 8 equally likely outcomes are HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.
+S: The player wins with HHH or TTT, so the player loses in the other 6 outcomes: $\dfrac{6}{8} = \dfrac{3}{4}$.
+S: **Answer: $\dfrac{3}{4}$**
+Q: [Q24] A die is thrown twice. Find the probability that (i) 5 does not come up either time (ii) 5 comes up at least once.
+S: There are $6 \times 6 = 36$ outcomes.
+S: (i) Each throw can show any of the 5 numbers other than 5, so there are $5 \times 5 = 25$ such outcomes: $\dfrac{25}{36}$.
+S: (ii) This is the complement of (i): $1 - \dfrac{25}{36} = \dfrac{11}{36}$.
+S: **Answer: (i) $\dfrac{25}{36}$ (ii) $\dfrac{11}{36}$**
+Q: [Q25] Which arguments are correct? Give reasons. (i) When two coins are tossed there are three outcomes, two heads, two tails or one of each, so each has probability $\dfrac{1}{3}$. (ii) When a die is thrown there are two outcomes, an odd number or an even number, so the probability of an odd number is $\dfrac{1}{2}$.
+S: (i) Not correct. The equally likely outcomes are HH, HT, TH and TT. "One of each" covers both HT and TH, so its probability is $\dfrac{2}{4} = \dfrac{1}{2}$, while two heads and two tails each have probability $\dfrac{1}{4}$.
+S: (ii) Correct. There are 3 odd numbers (1, 3, 5) and 3 even numbers (2, 4, 6) among 6 equally likely outcomes, so "odd" and "even" are equally likely and $P(\text{odd}) = \dfrac{3}{6} = \dfrac{1}{2}$.
+S: **Answer: (i) is not correct and (ii) is correct**
