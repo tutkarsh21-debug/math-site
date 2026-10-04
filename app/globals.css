@@ -282,6 +282,8 @@ details p{margin:.6rem 0 0;color:var(--muted)}
 .site-footer .brand{display:flex;color:#fff;margin-bottom:.7rem}
 .copy{border-top:1px solid rgba(255,255,255,.12);padding:1rem 0;color:#8f9bb8;font-size:.85rem}
 
+/* the header menu moves to its own row before its seven links run out of room */
+@media(max-width:1120px){.nav{order:3;width:100%;overflow-x:auto;scrollbar-width:none;gap:1.2rem}}
 @media(max-width:860px){
   .hero-grid,.chapter{grid-template-columns:1fr}
   .hero-grid{padding-top:2.4rem;padding-bottom:4rem;gap:1.2rem}
