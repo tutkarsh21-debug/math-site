@@ -229,7 +229,8 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/probability": [
   "notes",
@@ -243,14 +244,16 @@
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/real-numbers": [
   "notes",
   "formulas",
   "dpp",
   "pyq",
-  "pyq-solutions"
+  "pyq-solutions",
+  "ncert"
  ],
  "class-10/statistics": [
   "notes",

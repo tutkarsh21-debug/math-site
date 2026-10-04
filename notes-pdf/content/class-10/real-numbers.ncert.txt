@@ -1,0 +1,60 @@
+T: Exercise 1.1
+Q: [Q1] Write each number as a product of its prime factors: (i) 140 (ii) 156 (iii) 3825 (iv) 5005 (v) 7429.
+S: Keep dividing by the smallest prime that divides the number.
+S: (i) $140 = 2 \times 70 = 2 \times 2 \times 35 = 2^2 \times 5 \times 7$
+S: (ii) $156 = 2 \times 78 = 2 \times 2 \times 39 = 2^2 \times 3 \times 13$
+S: (iii) $3825 = 3 \times 1275 = 3 \times 3 \times 425 = 3^2 \times 5 \times 85 = 3^2 \times 5^2 \times 17$
+S: (iv) $5005 = 5 \times 1001 = 5 \times 7 \times 143 = 5 \times 7 \times 11 \times 13$
+S: (v) $7429 = 17 \times 437 = 17 \times 19 \times 23$
+S: **Answer: (i) $2^2 \times 5 \times 7$ (ii) $2^2 \times 3 \times 13$ (iii) $3^2 \times 5^2 \times 17$ (iv) $5 \times 7 \times 11 \times 13$ (v) $17 \times 19 \times 23$**
+Q: [Q2] Find the LCM and HCF of each pair and verify that LCM $\times$ HCF $=$ product of the two numbers: (i) 26 and 91 (ii) 510 and 92 (iii) 336 and 54.
+S: HCF is the product of the smallest powers of the common primes. LCM is the product of the greatest powers of all the primes.
+S: (i) $26 = 2 \times 13$ and $91 = 7 \times 13$. HCF $= 13$ and LCM $= 2 \times 7 \times 13 = 182$.
+S: Check: $13 \times 182 = 2366$ and $26 \times 91 = 2366$.
+S: (ii) $510 = 2 \times 3 \times 5 \times 17$ and $92 = 2^2 \times 23$. HCF $= 2$ and LCM $= 2^2 \times 3 \times 5 \times 17 \times 23 = 23460$.
+S: Check: $2 \times 23460 = 46920$ and $510 \times 92 = 46920$.
+S: (iii) $336 = 2^4 \times 3 \times 7$ and $54 = 2 \times 3^3$. HCF $= 2 \times 3 = 6$ and LCM $= 2^4 \times 3^3 \times 7 = 3024$.
+S: Check: $6 \times 3024 = 18144$ and $336 \times 54 = 18144$.
+S: **Answer: (i) HCF 13, LCM 182 (ii) HCF 2, LCM 23460 (iii) HCF 6, LCM 3024. Verified in each case.**
+Q: [Q3] Find the LCM and HCF by the prime factorisation method: (i) 12, 15 and 21 (ii) 17, 23 and 29 (iii) 8, 9 and 25.
+S: (i) $12 = 2^2 \times 3$, $15 = 3 \times 5$, $21 = 3 \times 7$. The only common prime is 3, so HCF $= 3$. LCM $= 2^2 \times 3 \times 5 \times 7 = 420$.
+S: (ii) 17, 23 and 29 are all primes with no common factor, so HCF $= 1$. LCM $= 17 \times 23 \times 29 = 11339$.
+S: (iii) $8 = 2^3$, $9 = 3^2$, $25 = 5^2$. There is no common prime, so HCF $= 1$. LCM $= 2^3 \times 3^2 \times 5^2 = 1800$.
+S: **Answer: (i) HCF 3, LCM 420 (ii) HCF 1, LCM 11339 (iii) HCF 1, LCM 1800**
+Q: [Q4] Given that HCF $(306, 657) = 9$, find LCM $(306, 657)$.
+S: For two numbers, HCF $\times$ LCM $=$ product of the numbers.
+S: LCM $= \dfrac{306 \times 657}{9} = 34 \times 657 = 22338$.
+S: **Answer: 22338**
+Q: [Q5] Can $6^n$ end with the digit 0 for any natural number $n$?
+S: A number that ends in 0 is divisible by 10, so its prime factorisation must contain both 2 and 5.
+S: $6^n = (2 \times 3)^n = 2^n \times 3^n$. Its only prime factors are 2 and 3.
+S: By the Fundamental Theorem of Arithmetic this factorisation is unique, so 5 can never be a factor of $6^n$.
+S: **Answer: no, $6^n$ cannot end with the digit 0**
+Q: [Q6] Explain why $7 \times 11 \times 13 + 13$ and $7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 + 5$ are composite numbers.
+S: A composite number has a factor other than 1 and itself.
+S: $7 \times 11 \times 13 + 13 = 13\,(7 \times 11 + 1) = 13 \times 78$. It has the factors 13 and 78, so it is composite.
+S: $7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 + 5 = 5\,(7 \times 6 \times 4 \times 3 \times 2 \times 1 + 1) = 5 \times 1009$. It has the factors 5 and 1009, so it is composite.
+S: **Answer: each number can be written as a product of two factors greater than 1, so both are composite**
+Q: [Q7] Two people drive round a circular path. One takes 18 minutes for a round and the other takes 12 minutes. They start together from the same point in the same direction. After how many minutes will they meet again at the starting point?
+S: They are both at the starting point after a time that is a multiple of 18 and also of 12. The first such time is the LCM of 18 and 12.
+S: $18 = 2 \times 3^2$ and $12 = 2^2 \times 3$, so LCM $= 2^2 \times 3^2 = 36$.
+S: **Answer: after 36 minutes**
+
+T: Exercise 1.2
+Q: [Q1] Prove that $\sqrt{5}$ is irrational.
+S: Suppose $\sqrt{5}$ is rational. Then $\sqrt{5} = \dfrac{a}{b}$, where $a$ and $b$ are co-prime integers and $b \neq 0$.
+S: Squaring, $a^2 = 5b^2$. So 5 divides $a^2$, and therefore 5 divides $a$ (if a prime divides $a^2$, it divides $a$). Write $a = 5c$.
+S: Then $25c^2 = 5b^2$, so $b^2 = 5c^2$. So 5 divides $b^2$, and therefore 5 divides $b$.
+S: So $a$ and $b$ have the common factor 5, which contradicts the fact that they are co-prime.
+S: **The assumption is wrong, so $\sqrt{5}$ is irrational.**
+Q: [Q2] Prove that $3 + 2\sqrt{5}$ is irrational.
+S: Suppose $3 + 2\sqrt{5}$ is rational. Then $3 + 2\sqrt{5} = \dfrac{a}{b}$, where $a$ and $b$ are integers and $b \neq 0$.
+S: Rearranging, $\sqrt{5} = \dfrac{a - 3b}{2b}$.
+S: Since $a$ and $b$ are integers, $\dfrac{a - 3b}{2b}$ is rational, so $\sqrt{5}$ would be rational. This contradicts the fact that $\sqrt{5}$ is irrational.
+S: **The assumption is wrong, so $3 + 2\sqrt{5}$ is irrational.**
+Q: [Q3] Prove that the following are irrational: (i) $\dfrac{1}{\sqrt{2}}$ (ii) $7\sqrt{5}$ (iii) $6 + \sqrt{2}$.
+S: In each part, suppose the number is rational and equal to $\dfrac{a}{b}$, where $a$ and $b$ are integers and $b \neq 0$.
+S: (i) $\dfrac{1}{\sqrt{2}} = \dfrac{a}{b}$ gives $\sqrt{2} = \dfrac{b}{a}$ (here $a \neq 0$, as the number is not zero). The right side is rational but $\sqrt{2}$ is irrational, a contradiction.
+S: (ii) $7\sqrt{5} = \dfrac{a}{b}$ gives $\sqrt{5} = \dfrac{a}{7b}$. The right side is rational but $\sqrt{5}$ is irrational, a contradiction.
+S: (iii) $6 + \sqrt{2} = \dfrac{a}{b}$ gives $\sqrt{2} = \dfrac{a - 6b}{b}$. The right side is rational but $\sqrt{2}$ is irrational, a contradiction.
+S: **So $\dfrac{1}{\sqrt{2}}$, $7\sqrt{5}$ and $6 + \sqrt{2}$ are all irrational.**

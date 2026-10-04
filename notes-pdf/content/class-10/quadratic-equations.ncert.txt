@@ -1,0 +1,77 @@
+T: Exercise 4.1
+Q: [Q1] Check whether each of the following is a quadratic equation: (i) $(x + 1)^2 = 2(x - 3)$ (ii) $x^2 - 2x = (-2)(3 - x)$ (iii) $(x - 2)(x + 1) = (x - 1)(x + 3)$ (iv) $(x - 3)(2x + 1) = x(x + 5)$ (v) $(2x - 1)(x - 3) = (x + 5)(x - 1)$ (vi) $x^2 + 3x + 1 = (x - 2)^2$ (vii) $(x + 2)^3 = 2x(x^2 - 1)$ (viii) $x^3 - 4x^2 - x + 1 = (x - 2)^3$.
+S: Simplify each equation. It is quadratic if it takes the form $ax^2 + bx + c = 0$ with $a \neq 0$.
+S: (i) $x^2 + 2x + 1 = 2x - 6$ gives $x^2 + 7 = 0$. Quadratic.
+S: (ii) $x^2 - 2x = -6 + 2x$ gives $x^2 - 4x + 6 = 0$. Quadratic.
+S: (iii) $x^2 - x - 2 = x^2 + 2x - 3$ gives $-3x + 1 = 0$. The $x^2$ terms cancel, so it is not quadratic.
+S: (iv) $2x^2 - 5x - 3 = x^2 + 5x$ gives $x^2 - 10x - 3 = 0$. Quadratic.
+S: (v) $2x^2 - 7x + 3 = x^2 + 4x - 5$ gives $x^2 - 11x + 8 = 0$. Quadratic.
+S: (vi) $x^2 + 3x + 1 = x^2 - 4x + 4$ gives $7x - 3 = 0$. Not quadratic.
+S: (vii) $x^3 + 6x^2 + 12x + 8 = 2x^3 - 2x$ gives $x^3 - 6x^2 - 14x - 8 = 0$. The degree is 3, so it is not quadratic.
+S: (viii) $x^3 - 4x^2 - x + 1 = x^3 - 6x^2 + 12x - 8$ gives $2x^2 - 13x + 9 = 0$. Quadratic.
+S: **Answer: (i), (ii), (iv), (v) and (viii) are quadratic equations. (iii), (vi) and (vii) are not.**
+Q: [Q2] Write each situation as a quadratic equation. (i) A rectangular plot has area 528 m$^2$ and its length is one more than twice its breadth. (ii) The product of two consecutive positive integers is 306. (iii) A mother is 26 years older than her son, and the product of their ages 3 years from now will be 360. (iv) A train covers 480 km at a uniform speed. At a speed 8 km/h less it would take 3 hours more.
+S: (i) Let the breadth be $x$ m. Then the length is $(2x + 1)$ m, and $x(2x + 1) = 528$, that is $2x^2 + x - 528 = 0$.
+S: (ii) Let the integers be $x$ and $x + 1$. Then $x(x + 1) = 306$, that is $x^2 + x - 306 = 0$.
+S: (iii) Let the son's age be $x$ years, so the mother's is $x + 26$. After 3 years: $(x + 3)(x + 29) = 360$, that is $x^2 + 32x - 273 = 0$.
+S: (iv) Let the speed be $x$ km/h. Then $\dfrac{480}{x - 8} - \dfrac{480}{x} = 3$, so $480x - 480(x - 8) = 3x(x - 8)$, which gives $3x^2 - 24x - 3840 = 0$, that is $x^2 - 8x - 1280 = 0$.
+S: **Answer: (i) $2x^2 + x - 528 = 0$ (ii) $x^2 + x - 306 = 0$ (iii) $x^2 + 32x - 273 = 0$ (iv) $x^2 - 8x - 1280 = 0$**
+
+T: Exercise 4.2
+Q: [Q1] Find the roots by factorisation: (i) $x^2 - 3x - 10 = 0$ (ii) $2x^2 + x - 6 = 0$ (iii) $\sqrt{2}\,x^2 + 7x + 5\sqrt{2} = 0$ (iv) $2x^2 - x + \dfrac{1}{8} = 0$ (v) $100x^2 - 20x + 1 = 0$.
+S: (i) $x^2 - 5x + 2x - 10 = (x - 5)(x + 2) = 0$, so $x = 5$ or $x = -2$.
+S: (ii) $2x^2 + 4x - 3x - 6 = (2x - 3)(x + 2) = 0$, so $x = \dfrac{3}{2}$ or $x = -2$.
+S: (iii) $\sqrt{2}\,x^2 + 2x + 5x + 5\sqrt{2} = \sqrt{2}\,x(x + \sqrt{2}) + 5(x + \sqrt{2}) = (\sqrt{2}\,x + 5)(x + \sqrt{2}) = 0$, so $x = -\dfrac{5}{\sqrt{2}}$ or $x = -\sqrt{2}$.
+S: (iv) Multiply by 8: $16x^2 - 8x + 1 = (4x - 1)^2 = 0$, so $x = \dfrac{1}{4}$ (twice).
+S: (v) $100x^2 - 20x + 1 = (10x - 1)^2 = 0$, so $x = \dfrac{1}{10}$ (twice).
+S: **Answer: (i) $5, -2$ (ii) $\dfrac{3}{2}, -2$ (iii) $-\dfrac{5}{\sqrt{2}}, -\sqrt{2}$ (iv) $\dfrac{1}{4}, \dfrac{1}{4}$ (v) $\dfrac{1}{10}, \dfrac{1}{10}$**
+Q: [Q2] Solve the two problems of Example 1 of the textbook. (i) Two children have 45 marbles in all. Each loses 5 marbles, and the product of the numbers they then have is 124. How many did each have at first? (ii) The cost of making each toy (in rupees) is 55 minus the number of toys made that day. The total cost on one day was ₹750. How many toys were made?
+S: (i) Let one child have $x$ marbles, so the other has $45 - x$. After losing 5 each: $(x - 5)(40 - x) = 124$, which gives $x^2 - 45x + 324 = 0$.
+S: $(x - 36)(x - 9) = 0$, so $x = 36$ or $x = 9$. The children had 36 and 9 marbles.
+S: (ii) Let $x$ toys be made. Then $x(55 - x) = 750$, which gives $x^2 - 55x + 750 = 0$.
+S: $(x - 25)(x - 30) = 0$, so $x = 25$ or $x = 30$.
+S: **Answer: (i) 36 and 9 marbles (ii) 25 toys or 30 toys**
+Q: [Q3] Find two numbers whose sum is 27 and whose product is 182.
+S: Let one number be $x$. The other is $27 - x$, and $x(27 - x) = 182$, so $x^2 - 27x + 182 = 0$.
+S: $(x - 13)(x - 14) = 0$, so $x = 13$ or $x = 14$.
+S: **Answer: 13 and 14**
+Q: [Q4] Find two consecutive positive integers the sum of whose squares is 365.
+S: Let the integers be $x$ and $x + 1$. Then $x^2 + (x + 1)^2 = 365$, so $2x^2 + 2x - 364 = 0$, that is $x^2 + x - 182 = 0$.
+S: $(x + 14)(x - 13) = 0$. Since $x$ is positive, $x = 13$.
+S: **Answer: 13 and 14**
+Q: [Q5] The altitude of a right triangle is 7 cm less than its base, and the hypotenuse is 13 cm. Find the other two sides.
+S: Let the base be $x$ cm, so the altitude is $(x - 7)$ cm. By the Pythagoras theorem, $x^2 + (x - 7)^2 = 13^2$.
+S: $2x^2 - 14x + 49 = 169$ gives $x^2 - 7x - 60 = 0$, so $(x - 12)(x + 5) = 0$.
+S: A length cannot be negative, so $x = 12$. The altitude is $12 - 7 = 5$ cm.
+S: **Answer: base 12 cm and altitude 5 cm**
+Q: [Q6] On one day, the cost of making each pottery article (in rupees) was 3 more than twice the number of articles made that day, and the total cost was ₹90. Find the number of articles and the cost of each.
+S: Let $x$ articles be made. Each costs ₹$(2x + 3)$, so $x(2x + 3) = 90$, that is $2x^2 + 3x - 90 = 0$.
+S: $2x^2 + 15x - 12x - 90 = (2x + 15)(x - 6) = 0$. The number of articles is positive, so $x = 6$.
+S: Cost of each article $= 2 \times 6 + 3 =$ ₹15.
+S: **Answer: 6 articles, each costing ₹15**
+
+T: Exercise 4.3
+Q: [Q1] Find the nature of the roots, and find the roots if they are real: (i) $2x^2 - 3x + 5 = 0$ (ii) $3x^2 - 4\sqrt{3}\,x + 4 = 0$ (iii) $2x^2 - 6x + 3 = 0$.
+S: Use the discriminant $D = b^2 - 4ac$.
+S: (i) $D = 9 - 40 = -31 < 0$. There are no real roots.
+S: (ii) $D = 48 - 48 = 0$. There are two equal real roots, $x = \dfrac{4\sqrt{3}}{2 \times 3} = \dfrac{2}{\sqrt{3}}$.
+S: (iii) $D = 36 - 24 = 12 > 0$. There are two distinct real roots, $x = \dfrac{6 \pm \sqrt{12}}{4} = \dfrac{3 \pm \sqrt{3}}{2}$.
+S: **Answer: (i) no real roots (ii) equal roots $\dfrac{2}{\sqrt{3}}, \dfrac{2}{\sqrt{3}}$ (iii) distinct roots $\dfrac{3 + \sqrt{3}}{2}$ and $\dfrac{3 - \sqrt{3}}{2}$**
+Q: [Q2] Find the values of $k$ for which each equation has two equal roots: (i) $2x^2 + kx + 3 = 0$ (ii) $kx(x - 2) + 6 = 0$.
+S: Equal roots need $D = 0$.
+S: (i) $k^2 - 4(2)(3) = 0$ gives $k^2 = 24$, so $k = \pm 2\sqrt{6}$.
+S: (ii) The equation is $kx^2 - 2kx + 6 = 0$. $D = 4k^2 - 24k = 4k(k - 6) = 0$ gives $k = 0$ or $k = 6$. With $k = 0$ the equation is not quadratic, so $k = 6$.
+S: **Answer: (i) $k = \pm 2\sqrt{6}$ (ii) $k = 6$**
+Q: [Q3] Can a rectangular mango grove be designed with its length twice its breadth and an area of 800 m$^2$? If so, find its length and breadth.
+S: Let the breadth be $x$ m, so the length is $2x$ m. Then $2x^2 = 800$, that is $x^2 - 400 = 0$.
+S: $D = 0 + 1600 > 0$, so real roots exist: $x = \pm 20$. The breadth is positive, so $x = 20$.
+S: **Answer: yes, with breadth 20 m and length 40 m**
+Q: [Q4] The sum of the ages of two friends is 20 years. Four years ago the product of their ages was 48. Is this possible? If so, find their present ages.
+S: Let one friend be $x$ years old, so the other is $20 - x$. Four years ago: $(x - 4)(16 - x) = 48$.
+S: $-x^2 + 20x - 64 = 48$ gives $x^2 - 20x + 112 = 0$.
+S: $D = 400 - 448 = -48 < 0$, so there is no real value of $x$.
+S: **Answer: no, the situation is not possible**
+Q: [Q5] Can a rectangular park be designed with perimeter 80 m and area 400 m$^2$? If so, find its length and breadth.
+S: Length $+$ breadth $= 40$ m. Let the length be $x$ m, so the breadth is $(40 - x)$ m. Then $x(40 - x) = 400$, that is $x^2 - 40x + 400 = 0$.
+S: $D = 1600 - 1600 = 0$, so there are equal real roots: $(x - 20)^2 = 0$ gives $x = 20$.
+S: **Answer: yes, a square park with length 20 m and breadth 20 m**
