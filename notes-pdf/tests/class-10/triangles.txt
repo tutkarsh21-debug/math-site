@@ -1,0 +1,69 @@
+Q: Which of these are always similar?
+- Two isosceles triangles
+- Two right triangles
+* Two equilateral triangles
+- Two scalene triangles
+W: All their angles are 60° and their sides are in the same ratio.
+
+Q: In triangle ABC, DE is parallel to BC, with D on AB and E on AC. If AD = 2 cm, DB = 3 cm and AE = 4 cm, then EC is
+- 5 cm
+* 6 cm
+- 8 cm
+- 1.5 cm
+W: $\dfrac{AD}{DB} = \dfrac{AE}{EC}$ gives $\dfrac{2}{3} = \dfrac{4}{EC}$.
+
+Q: Two triangles are similar by the AA criterion if
+- two sides of one are equal to two sides of the other
+* two angles of one are equal to two angles of the other
+- their areas are equal
+- their perimeters are equal
+W: The third angles are then equal as well.
+
+Q: $\triangle ABC \sim \triangle DEF$, with AB = 4 cm, DE = 6 cm and BC = 6 cm. Then EF is
+- 4 cm
+- 8 cm
+* 9 cm
+- 12 cm
+W: $\dfrac{AB}{DE} = \dfrac{BC}{EF}$ gives $EF = \dfrac{6 \times 6}{4}$.
+
+Q: A vertical pole 6 m high casts a shadow 4 m long. At the same time a tower casts a shadow 28 m long. The height of the tower is
+- 18.7 m
+* 42 m
+- 36 m
+- 168 m
+W: The triangles are similar: $\dfrac{h}{28} = \dfrac{6}{4}$.
+
+Q: Triangles with sides 3, 4, 5 and 6, 8, 10 are similar by
+- AA
+* SSS
+- SAS
+- RHS
+W: The three pairs of sides are in the same ratio, 1 : 2.
+
+Q: In triangle ABC, DE is parallel to BC, $\dfrac{AD}{DB} = \dfrac{3}{5}$ and AC = 16 cm. Then AE is
+- 3 cm
+* 6 cm
+- 9.6 cm
+- 10 cm
+W: $\dfrac{AE}{AC} = \dfrac{3}{8}$.
+
+Q: $\triangle ABC \sim \triangle PQR$, with $\angle A = 50°$ and $\angle B = 60°$. Then $\angle R$ is
+- 50°
+- 60°
+* 70°
+- 110°
+W: $\angle R = \angle C = 180° - 110°$.
+
+Q: If a line divides two sides of a triangle in the same ratio, then the line is
+- perpendicular to the third side
+* parallel to the third side
+- equal to the third side
+- a median
+W: This is the converse of the Basic Proportionality Theorem.
+
+Q: The sides of two similar triangles are in the ratio 2 : 3. Their perimeters are in the ratio
+* 2 : 3
+- 4 : 9
+- 3 : 2
+- 8 : 27
+W: Every length, and so the perimeter, is in the same ratio as the sides.

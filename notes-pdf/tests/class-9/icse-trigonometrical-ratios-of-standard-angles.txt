@@ -1,0 +1,69 @@
+Q: The value of $\sin 30°$ is
+* $\dfrac{1}{2}$
+- $\dfrac{\sqrt{3}}{2}$
+- $\dfrac{1}{\sqrt{2}}$
+- 1
+W: In a 30°-60°-90° triangle the side opposite 30° is half the hypotenuse.
+
+Q: The value of $\tan 60°$ is
+- $\dfrac{1}{\sqrt{3}}$
+- 1
+* $\sqrt{3}$
+- $\dfrac{\sqrt{3}}{2}$
+W: $\tan 60° = \dfrac{\sin 60°}{\cos 60°} = \dfrac{\sqrt{3}/2}{1/2}$.
+
+Q: $\cos 0° + \sin 90°$ is equal to
+- 0
+- 1
+* 2
+- $\dfrac{1}{2}$
+W: Both values are 1.
+
+Q: $\sin 45° \times \cos 45°$ is equal to
+- 1
+* $\dfrac{1}{2}$
+- $\dfrac{1}{\sqrt{2}}$
+- 2
+W: $\dfrac{1}{\sqrt{2}} \times \dfrac{1}{\sqrt{2}} = \dfrac{1}{2}$.
+
+Q: $\sin 60° \cos 30° + \cos 60° \sin 30°$ is equal to
+- $\dfrac{1}{2}$
+- $\dfrac{\sqrt{3}}{2}$
+* 1
+- $\dfrac{3}{2}$
+W: $\dfrac{3}{4} + \dfrac{1}{4} = 1$.
+
+Q: $2 \sin 30° \cos 30°$ is equal to
+- $\sin 30°$
+* $\sin 60°$
+- $\cos 60°$
+- $\tan 60°$
+W: $2 \times \dfrac{1}{2} \times \dfrac{\sqrt{3}}{2} = \dfrac{\sqrt{3}}{2}$.
+
+Q: $\tan^2 60° - 2\sin^2 45°$ is equal to
+- 1
+* 2
+- 3
+- $\dfrac{5}{2}$
+W: $3 - 2 \times \dfrac{1}{2} = 2$.
+
+Q: If $\sin\theta = \cos\theta$ and $\theta$ is acute, then $\theta$ is
+- 30°
+* 45°
+- 60°
+- 90°
+W: Both are $\dfrac{1}{\sqrt{2}}$ at 45°.
+
+Q: If $2\cos\theta = 1$ and $\theta$ is acute, then $\theta$ is
+- 30°
+- 45°
+* 60°
+- 0°
+W: $\cos\theta = \dfrac{1}{2}$.
+
+Q: If $\tan 3x = 1$ and $3x$ is acute, then $x$ is
+- 45°
+- 30°
+* 15°
+- 10°
+W: $3x = 45°$.

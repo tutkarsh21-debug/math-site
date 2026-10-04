@@ -1,0 +1,69 @@
+Q: $35^2$ is equal to
+- 925
+- 1025
+* 1225
+- 1525
+W: For a number ending in 5: $3 \times 4 = 12$, followed by 25.
+
+Q: Which of these cannot be a perfect square?
+- 4900
+* 36000
+- 1600
+- 250000
+W: A perfect square ends in an even number of zeros. 36000 ends in three.
+
+Q: $\sqrt{7056}$ is equal to
+- 76
+* 84
+- 86
+- 94
+W: $7056 = 2^4 \times 3^2 \times 7^2$, so the root is $4 \times 3 \times 7 = 84$.
+
+Q: $\sqrt{0.0144}$ is equal to
+- 0.012
+* 0.12
+- 1.2
+- 0.0012
+W: $\sqrt{144} = 12$, and four decimal places become two.
+
+Q: $\sqrt{1\tfrac{9}{16}}$ is equal to
+- $1\tfrac{3}{4}$
+* $1\tfrac{1}{4}$
+- $\tfrac{3}{4}$
+- $1\tfrac{3}{16}$
+W: $1\tfrac{9}{16} = \dfrac{25}{16}$, whose square root is $\dfrac{5}{4}$.
+
+Q: The least number that must be subtracted from 2030 to get a perfect square is
+- 3
+* 5
+- 6
+- 30
+W: $45^2 = 2025$, and $2030 - 2025 = 5$.
+
+Q: The least number that must be added to 1500 to get a perfect square is
+- 11
+- 19
+* 21
+- 56
+W: $38^2 = 1444$ and $39^2 = 1521$, so add 21.
+
+Q: The area of a square field is 5184 sq m. Its side is
+- 68 m
+* 72 m
+- 78 m
+- 82 m
+W: $72^2 = 5184$.
+
+Q: The square root of a 5-digit perfect square has
+- 2 digits
+* 3 digits
+- 4 digits
+- 5 digits
+W: Pair the digits from the right: a 5-digit number gives 3 pairs (the last pair has one digit).
+
+Q: $\sqrt{12.25}$ is equal to
+- 3.05
+* 3.5
+- 3.75
+- 6.125
+W: $35^2 = 1225$, so $3.5^2 = 12.25$.

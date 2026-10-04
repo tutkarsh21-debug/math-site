@@ -1,0 +1,69 @@
+Q: In parallelogram ABCD, $\angle A = 65°$. Then $\angle C$ is
+* 65°
+- 115°
+- 25°
+- 130°
+W: Opposite angles of a parallelogram are equal.
+
+Q: The perimeter of a rhombus is 40 cm and one diagonal is 12 cm. The other diagonal is
+- 8 cm
+- 10 cm
+* 16 cm
+- 20 cm
+W: The side is 10 cm and half of the given diagonal is 6 cm, so half of the other is $\sqrt{100 - 36} = 8$ cm.
+
+Q: The diagonals of rectangle ABCD meet at O. If AO = 6.5 cm, then BD is
+- 6.5 cm
+* 13 cm
+- 3.25 cm
+- 26 cm
+W: The diagonals are equal and bisect each other, so BD = AC = 2 × AO.
+
+Q: The angle between a diagonal of a square and a side is
+- 30°
+* 45°
+- 60°
+- 90°
+W: The diagonal bisects the right angle at the vertex.
+
+Q: In an isosceles trapezium, the diagonals are
+- perpendicular
+* equal
+- bisectors of each other
+- parallel
+W: The non-parallel sides are equal, which makes the diagonals equal. They do not bisect each other.
+
+Q: The diagonals of a kite
+- are equal
+- bisect each other
+* meet at right angles
+- are parallel
+W: One diagonal is the perpendicular bisector of the other.
+
+Q: The adjacent sides of a parallelogram are in the ratio 2 : 3 and its perimeter is 50 cm. The longer side is
+- 10 cm
+* 15 cm
+- 20 cm
+- 30 cm
+W: $2(2x + 3x) = 50$ gives $x = 5$, so the sides are 10 cm and 15 cm.
+
+Q: A quadrilateral whose diagonals are equal and bisect each other at right angles is a
+- rectangle
+- rhombus
+* square
+- kite
+W: Equal diagonals come from the rectangle and perpendicular diagonals from the rhombus. Only a square has both.
+
+Q: One angle of a rhombus is 60° and its side is 8 cm. The shorter diagonal is
+- 4 cm
+* 8 cm
+- $8\sqrt{3}$ cm
+- 16 cm
+W: The shorter diagonal forms an equilateral triangle with two sides of the rhombus.
+
+Q: In trapezium ABCD, AB is parallel to DC and $\angle A = 110°$. Then $\angle D$ is
+- 110°
+* 70°
+- 90°
+- 250°
+W: Angles A and D are co-interior angles between the parallel sides, so they add up to 180°.

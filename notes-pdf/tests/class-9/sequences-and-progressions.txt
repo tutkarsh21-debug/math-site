@@ -1,0 +1,69 @@
+Q: The $n$th term of a sequence is $2n + 3$. Its 5th term is
+- 10
+* 13
+- 15
+- 25
+W: $2 \times 5 + 3 = 13$.
+
+Q: The common difference of the AP 3, 7, 11, 15, ... is
+- 3
+* 4
+- 7
+- 10
+W: $7 - 3 = 4$.
+
+Q: The 10th term of the AP 5, 8, 11, ... is
+- 30
+* 32
+- 35
+- 50
+W: $a + 9d = 5 + 27 = 32$.
+
+Q: The sum of the first 100 natural numbers is
+- 5000
+* 5050
+- 5100
+- 10100
+W: $\dfrac{100 \times 101}{2} = 5050$.
+
+Q: The common ratio of the GP 2, 6, 18, 54, ... is
+- 2
+* 3
+- 4
+- 12
+W: $6 \div 2 = 3$.
+
+Q: The 5th term of the GP 3, 6, 12, ... is
+- 24
+- 30
+* 48
+- 96
+W: $3 \times 2^4 = 48$.
+
+Q: A sequence is given by $a_1 = 2$ and $a_n = a_{n-1} + 5$. The term $a_4$ is
+- 12
+* 17
+- 20
+- 22
+W: The terms are 2, 7, 12, 17.
+
+Q: Which of these is an arithmetic progression?
+- 1, 2, 4, 8
+- 1, 4, 9, 16
+* 1, 4, 7, 10
+- 1, 1, 2, 3
+W: Only here is the difference between consecutive terms the same (3).
+
+Q: The sum of the first $n$ natural numbers is
+- $n^2$
+* $\dfrac{n(n + 1)}{2}$
+- $n(n + 1)$
+- $\dfrac{n(n - 1)}{2}$
+W: Pair the first and last terms: there are $\dfrac{n}{2}$ pairs, each adding to $n + 1$.
+
+Q: Sequence P starts 100, 200, 300, ... and sequence Q starts 1, 2, 4, 8, ... Which statement is true?
+- P is always ahead of Q
+* Q overtakes P after enough terms
+- They are equal at every term
+- Q is an arithmetic progression
+W: A GP with ratio greater than 1 grows faster than any AP in the long run. Here the 12th term of Q is 2048, while the 12th term of P is only 1200.

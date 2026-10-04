@@ -1,0 +1,69 @@
+Q: The sum of the interior angles of a pentagon is
+- 360°
+* 540°
+- 720°
+- 900°
+W: $(2n - 4)$ right angles $= 6 \times 90°$.
+
+Q: Each exterior angle of a regular hexagon is
+- 30°
+- 45°
+* 60°
+- 120°
+W: $360° \div 6 = 60°$.
+
+Q: Two adjacent angles of a parallelogram are in the ratio 2 : 3. The larger angle is
+- 72°
+* 108°
+- 120°
+- 144°
+W: $5x = 180°$ gives $x = 36°$, and $3x = 108°$.
+
+Q: In rhombus ABCD, $\angle ABC = 120°$. Then $\angle ABD$ is
+- 30°
+* 60°
+- 90°
+- 120°
+W: A diagonal of a rhombus bisects the angles at its ends.
+
+Q: The diagonals of rectangle ABCD meet at O and $\angle AOB = 60°$. Then $\angle OAB$ is
+- 30°
+- 45°
+* 60°
+- 120°
+W: OA = OB, so triangle OAB is isosceles with base angles $\dfrac{180° - 60°}{2}$.
+
+Q: A parallelogram whose diagonals are equal is a
+- rhombus
+* rectangle
+- kite
+- trapezium
+W: Equal diagonals make each angle a right angle.
+
+Q: A parallelogram whose diagonals are perpendicular is a
+* rhombus
+- rectangle
+- trapezium
+- kite only
+W: Perpendicular diagonals make all four sides equal.
+
+Q: The sum of the interior angles of a polygon is 1080°. The number of sides is
+- 6
+- 7
+* 8
+- 10
+W: $(n - 2) \times 180° = 1080°$ gives $n - 2 = 6$.
+
+Q: In a regular polygon, each interior angle is four times the exterior angle. The number of sides is
+- 5
+- 8
+* 10
+- 12
+W: The exterior angle is $180° \div 5 = 36°$, and $360° \div 36° = 10$.
+
+Q: In a kite,
+- both pairs of opposite angles are equal
+* one pair of opposite angles is equal
+- all four angles are equal
+- no two angles are equal
+W: The angles between the unequal sides are equal.

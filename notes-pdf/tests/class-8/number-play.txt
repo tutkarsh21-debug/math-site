@@ -1,0 +1,69 @@
+Q: The sum of two odd numbers is always
+- odd
+* even
+- a multiple of 4
+- prime
+W: Odd + odd = even, for example $3 + 5 = 8$.
+
+Q: Which number is divisible by 4?
+- 2314
+- 7122
+* 3516
+- 9030
+W: Check the last two digits: 16 is divisible by 4, while 14, 22 and 30 are not.
+
+Q: Which number is divisible by 9?
+- 4721
+* 5814
+- 6130
+- 8254
+W: The digits of 5814 add up to 18, which is divisible by 9.
+
+Q: Which number is divisible by 11?
+- 5216
+- 7302
+- 4825
+* 9174
+W: For 9174, $9 - 1 + 7 - 4 = 11$, which is divisible by 11.
+
+Q: The sum of any three consecutive whole numbers is always divisible by
+- 2
+* 3
+- 4
+- 6
+W: $n + (n + 1) + (n + 2) = 3(n + 1)$.
+
+Q: The remainder when 2347 is divided by 9 is
+- 5
+- 6
+* 7
+- 8
+W: A number and the sum of its digits leave the same remainder on division by 9. The digit sum is 16, and 16 leaves remainder 7.
+
+Q: The digital root of 9875 is
+* 2
+- 9
+- 11
+- 29
+W: $9 + 8 + 7 + 5 = 29$, then $2 + 9 = 11$, then $1 + 1 = 2$.
+
+Q: A number divisible by both 3 and 4 is always divisible by
+- 7
+- 8
+* 12
+- 24
+W: 3 and 4 have no common factor, so the number is divisible by $3 \times 4 = 12$.
+
+Q: The three-digit number 3d5 is divisible by 9. The digit d is
+- 0
+* 1
+- 4
+- 7
+W: The digit sum $8 + d$ must be a multiple of 9, so $d = 1$.
+
+Q: A is a digit and BA is a two-digit number such that A + A + A = BA. The value of A is
+- 2
+- 4
+* 5
+- 9
+W: $3 \times A$ must end in A. Only $3 \times 5 = 15$ works, so A = 5 and B = 1.

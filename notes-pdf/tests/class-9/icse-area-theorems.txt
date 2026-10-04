@@ -1,0 +1,69 @@
+Q: Parallelograms on the same base and between the same parallels are
+- congruent
+* equal in area
+- similar
+- equal in perimeter
+W: They have the same base and the same height.
+
+Q: A triangle and a parallelogram are on the same base and between the same parallels. The area of the triangle is
+- equal to that of the parallelogram
+* half that of the parallelogram
+- twice that of the parallelogram
+- one-third that of the parallelogram
+W: Triangle $= \dfrac{1}{2} \times$ base $\times$ height; parallelogram = base × height.
+
+Q: A parallelogram has area 80 sq cm. A triangle on the same base and between the same parallels has area
+- 160 sq cm
+- 80 sq cm
+* 40 sq cm
+- 20 sq cm
+W: The triangle is half the parallelogram.
+
+Q: AD is a median of triangle ABC, whose area is 36 sq cm. The area of triangle ABD is
+- 9 sq cm
+- 12 sq cm
+* 18 sq cm
+- 36 sq cm
+W: A median divides a triangle into two triangles of equal area.
+
+Q: The diagonals of a parallelogram divide it into four triangles that are
+- congruent
+* equal in area
+- right-angled
+- equilateral
+W: Each diagonal is bisected, so each of the four triangles is a quarter of the parallelogram.
+
+Q: Two triangles on the same base, on the same side of it and with equal areas, lie
+- on the same circle
+* between the same parallels
+- on perpendicular lines
+- one inside the other
+W: Equal areas on the same base mean equal heights.
+
+Q: A parallelogram has base 12 cm and corresponding height 7.5 cm. Its area is
+- 45 sq cm
+* 90 sq cm
+- 39 sq cm
+- 180 sq cm
+W: $12 \times 7.5 = 90$.
+
+Q: In triangle ABC of area 48 sq cm, D is the mid-point of BC and E is the mid-point of AD. The area of triangle BED is
+- 24 sq cm
+* 12 sq cm
+- 8 sq cm
+- 6 sq cm
+W: ABD is half of ABC (24), and BE is a median of ABD, so BED is half of that.
+
+Q: A rectangle and a parallelogram stand on the same base of 10 cm and between the same parallels. If the rectangle is 6 cm high, the area of the parallelogram is
+- 30 sq cm
+* 60 sq cm
+- 16 sq cm
+- 120 sq cm
+W: Both have base 10 cm and height 6 cm.
+
+Q: The three medians of a triangle of area 60 sq cm divide it into six triangles. The area of each is
+- 20 sq cm
+- 15 sq cm
+* 10 sq cm
+- 6 sq cm
+W: The six small triangles have equal areas.

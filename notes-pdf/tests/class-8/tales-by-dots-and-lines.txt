@@ -1,0 +1,69 @@
+Q: The mean of 4, 7, 9, 12 and 8 is
+- 7
+* 8
+- 9
+- 10
+W: The sum is 40, and $40 \div 5 = 8$.
+
+Q: The median of 3, 9, 5, 12 and 7 is
+- 5
+* 7
+- 9
+- 7.2
+W: In order: 3, 5, 7, 9, 12. The middle value is 7.
+
+Q: The median of 4, 8, 10 and 14 is
+- 8
+* 9
+- 10
+- 18
+W: With an even number of values, take the mean of the two middle ones: $(8 + 10) \div 2 = 9$.
+
+Q: The mean of 5 numbers is 12. A sixth number, 18, is added. The new mean is
+- 12
+- 12.5
+* 13
+- 15
+W: The total becomes $60 + 18 = 78$, and $78 \div 6 = 13$.
+
+Q: If 5 is added to every value in a data set, the mean
+- stays the same
+* increases by 5
+- is multiplied by 5
+- increases by 5 times the number of values
+W: Every value moves up by 5, so the balance point moves up by 5.
+
+Q: The mean of 6, $x$, 10 and 12 is 9. The value of $x$ is
+- 7
+* 8
+- 9
+- 10
+W: The total must be $4 \times 9 = 36$, so $x = 36 - 28 = 8$.
+
+Q: If every value in a data set is doubled, the median
+- stays the same
+- increases by 2
+* is doubled
+- is halved
+W: The order of the values does not change, and the middle value is doubled.
+
+Q: In a data set, the value 2 occurs 3 times, 4 occurs 2 times and 5 occurs 5 times. The mean is
+- 3.5
+- 3.67
+* 3.9
+- 4.1
+W: $\dfrac{2 \times 3 + 4 \times 2 + 5 \times 5}{10} = \dfrac{39}{10} = 3.9$.
+
+Q: A line graph is most suitable for showing
+- the parts of a whole
+* how a quantity changes over time
+- the favourite colours of a class
+- the number of students in each section
+W: Joining the points shows rises and falls from one time to the next.
+
+Q: For the data 2, 3, 3, 4, 48, which value describes a typical item better?
+- The mean, 12
+* The median, 3
+- The largest value, 48
+- The sum, 60
+W: The single large value 48 pulls the mean up to 12, but the median is not affected by it.

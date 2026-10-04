@@ -1,0 +1,69 @@
+Q: The mean of 6, 8, 10, 12 and 14 is
+- 8
+* 10
+- 12
+- 50
+W: The sum is 50, and $50 \div 5 = 10$.
+
+Q: The mean of 5 numbers is 18. If each number is increased by 3, the new mean is
+- 18
+* 21
+- 33
+- 54
+W: Adding the same number to every value adds it to the mean.
+
+Q: The mean of 10 numbers was found to be 15. Later it was noticed that 24 had been read as 42. The correct mean is
+- 16.8
+* 13.2
+- 14.2
+- 15
+W: The correct total is $150 - 42 + 24 = 132$.
+
+Q: The median of 11, 7, 15, 9, 13, 5, 17 is
+- 9
+* 11
+- 13
+- 15
+W: In order: 5, 7, 9, 11, 13, 15, 17. The middle value is 11.
+
+Q: The median of 2, 4, 6, 8, 10, 12 is
+- 6
+* 7
+- 8
+- 6.5
+W: The mean of the two middle values: $\dfrac{6 + 8}{2}$.
+
+Q: The mean of $x$, $x + 2$, $x + 4$, $x + 6$ and $x + 8$ is 11. The value of $x$ is
+- 5
+* 7
+- 9
+- 11
+W: The mean is the middle term $x + 4$.
+
+Q: The mean mark of 20 boys is 50 and that of 30 girls is 60. The mean mark of all 50 students is
+- 55
+* 56
+- 57
+- 58
+W: $\dfrac{1000 + 1800}{50} = 56$.
+
+Q: The sum of the deviations of a set of values from their mean is
+* 0
+- 1
+- the mean
+- the number of values
+W: The positive and negative deviations cancel.
+
+Q: The values 1, 2 and 3 occur with frequencies 2, 3 and 5. The mean is
+- 2
+* 2.3
+- 2.5
+- 3
+W: $\dfrac{2 + 6 + 15}{10} = 2.3$.
+
+Q: The median of the first 10 natural numbers is
+- 5
+* 5.5
+- 6
+- 10
+W: The two middle values are 5 and 6.

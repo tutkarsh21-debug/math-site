@@ -1,0 +1,69 @@
+Q: The roots of $x^2 - 7x + 12 = 0$ are
+- 2 and 6
+* 3 and 4
+- $-3$ and $-4$
+- 1 and 12
+W: $(x - 3)(x - 4) = 0$.
+
+Q: The discriminant of $2x^2 - 4x + 3 = 0$ is
+- 40
+- 8
+* $-8$
+- $-40$
+W: $b^2 - 4ac = 16 - 24$.
+
+Q: The roots of $x^2 - 6x + 9 = 0$ are
+- real and unequal
+* real and equal
+- not real
+- irrational
+W: The discriminant is $36 - 36 = 0$.
+
+Q: For which positive value of $k$ does $x^2 + kx + 16 = 0$ have equal roots?
+- 4
+* 8
+- 16
+- 32
+W: $k^2 - 64 = 0$.
+
+Q: The roots of $2x^2 - 5x + 3 = 0$ are
+- $-1$ and $-\dfrac{3}{2}$
+* 1 and $\dfrac{3}{2}$
+- 2 and 3
+- 1 and 3
+W: $(2x - 3)(x - 1) = 0$.
+
+Q: The roots of $ax^2 + bx + c = 0$ are given by
+- $\dfrac{-b \pm \sqrt{b^2 + 4ac}}{2a}$
+* $\dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+- $\dfrac{b \pm \sqrt{b^2 - 4ac}}{2a}$
+- $\dfrac{-b \pm \sqrt{b^2 - 4ac}}{a}$
+W: This is the quadratic formula.
+
+Q: Which of these is a quadratic equation?
+- $x^2 + 3x = x^2 - 4$
+- $(x + 2)(x - 2) = x^2 + x$
+* $(x + 1)^2 = 2(x - 3)$
+- $x^3 - x = 0$
+W: It simplifies to $x^2 + 7 = 0$. In the first two the $x^2$ terms cancel, and the last has degree 3.
+
+Q: The product of two consecutive positive integers is 306. The smaller integer is
+- 16
+* 17
+- 18
+- 153
+W: $x(x + 1) = 306$ gives $x^2 + x - 306 = 0$, so $x = 17$.
+
+Q: The length of a rectangle is 3 cm more than its breadth and its area is 40 sq cm. The breadth is
+- 4 cm
+* 5 cm
+- 8 cm
+- 10 cm
+W: $x(x + 3) = 40$ gives $(x + 8)(x - 5) = 0$.
+
+Q: The roots of $x^2 - 4x + 1 = 0$ are
+- $2 \pm \sqrt{5}$
+* $2 \pm \sqrt{3}$
+- $4 \pm \sqrt{3}$
+- $-2 \pm \sqrt{3}$
+W: $x = \dfrac{4 \pm \sqrt{16 - 4}}{2} = 2 \pm \sqrt{3}$.

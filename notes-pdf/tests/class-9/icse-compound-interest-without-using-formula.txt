@@ -1,0 +1,69 @@
+Q: The compound interest on Rs 5000 at 10% per year for 2 years is
+- Rs 1000
+* Rs 1050
+- Rs 1100
+- Rs 500
+W: First year Rs 500; second year 10% of Rs 5500 = Rs 550.
+
+Q: Rs 10,000 is invested at 8% per year compound interest. The amount after 2 years is
+- Rs 11,600
+* Rs 11,664
+- Rs 11,680
+- Rs 11,800
+W: After one year Rs 10,800; after two years $10800 + 864 = 11664$.
+
+Q: Rs 8000 is invested at 5% per year compound interest. The interest for the second year is
+- Rs 400
+* Rs 420
+- Rs 441
+- Rs 820
+W: The principal for the second year is Rs 8400, and 5% of it is Rs 420.
+
+Q: The difference between the compound and simple interest on Rs 2000 at 10% per year for 2 years is
+- Rs 10
+* Rs 20
+- Rs 40
+- Rs 200
+W: It is the interest on the first year's interest: 10% of Rs 200.
+
+Q: The compound interest on Rs 4000 for 1 year at 10% per year, compounded half-yearly, is
+- Rs 400
+* Rs 410
+- Rs 420
+- Rs 440
+W: Two half-years at 5%: Rs 200, then 5% of Rs 4200 = Rs 210.
+
+Q: For the first year, the compound interest and the simple interest on the same sum at the same rate (compounded yearly) are
+* equal
+- in the ratio 2 : 1
+- different, with C.I. greater
+- different, with S.I. greater
+W: The principal is the same in the first year. The difference begins in the second year.
+
+Q: A sum amounts to Rs 6050 in 2 years and to Rs 6655 in 3 years at compound interest. The rate per year is
+- 5%
+- 8%
+* 10%
+- 12%
+W: The third year's interest is Rs 605 on Rs 6050, which is 10%.
+
+Q: The compound interest on a sum for two successive years is Rs 400 and Rs 440. The rate per year is
+- 4%
+- 8%
+* 10%
+- 40%
+W: The extra Rs 40 is one year's interest on Rs 400.
+
+Q: A man borrows Rs 10,000 at 10% per year compound interest and repays Rs 4000 at the end of the first year. The principal for the second year is
+- Rs 6000
+- Rs 6600
+* Rs 7000
+- Rs 11,000
+W: The amount after one year is Rs 11,000, and $11000 - 4000 = 7000$.
+
+Q: The difference between the compound and simple interest on Rs 5000 at 4% per year for 2 years is
+- Rs 4
+* Rs 8
+- Rs 16
+- Rs 20
+W: The first year's interest is Rs 200, and 4% of Rs 200 is Rs 8.

@@ -1,0 +1,69 @@
+Q: The solution of $x + y = 5$ and $2x - y = 4$ is
+- $x = 2$, $y = 3$
+* $x = 3$, $y = 2$
+- $x = 4$, $y = 1$
+- $x = 1$, $y = 4$
+W: Adding gives $3x = 9$.
+
+Q: For the pair $a_1x + b_1y + c_1 = 0$ and $a_2x + b_2y + c_2 = 0$, if $\dfrac{a_1}{a_2} \ne \dfrac{b_1}{b_2}$, the pair has
+- no solution
+* a unique solution
+- two solutions
+- infinitely many solutions
+W: The lines have different slopes, so they meet at exactly one point.
+
+Q: The pair $2x + 3y = 7$ and $4x + 6y = 9$ has
+* no solution
+- a unique solution
+- two solutions
+- infinitely many solutions
+W: $\dfrac{2}{4} = \dfrac{3}{6} \ne \dfrac{7}{9}$, so the lines are parallel.
+
+Q: The pair $kx + 2y = 5$ and $3x + y = 1$ has no solution when $k$ is
+- 3
+* 6
+- $\dfrac{3}{2}$
+- 10
+W: $\dfrac{k}{3} = \dfrac{2}{1}$ gives $k = 6$, and $\dfrac{2}{1} \ne \dfrac{5}{1}$.
+
+Q: The pair $2x + 3y = 5$ and $4x + ky = 10$ has infinitely many solutions when $k$ is
+- 3
+- 5
+* 6
+- 12
+W: All three ratios must be equal: $\dfrac{2}{4} = \dfrac{3}{k} = \dfrac{5}{10}$.
+
+Q: The solution of $3x + 4y = 10$ and $2x - 2y = 2$ is
+- $x = 1$, $y = 2$
+* $x = 2$, $y = 1$
+- $x = 3$, $y = 2$
+- $x = 2$, $y = 2$
+W: The second equation gives $x = y + 1$; then $3y + 3 + 4y = 10$.
+
+Q: The sum of two numbers is 27 and their difference is 5. The numbers are
+- 15 and 12
+* 16 and 11
+- 17 and 10
+- 22 and 5
+W: $2x = 32$.
+
+Q: "2 kg of apples and 1 kg of grapes cost Rs 160. 4 kg of apples and 2 kg of grapes cost Rs 300." This pair of equations is
+- consistent with a unique solution
+* inconsistent
+- consistent with infinitely many solutions
+- not a pair of linear equations
+W: $\dfrac{2}{4} = \dfrac{1}{2} \ne \dfrac{160}{300}$, so no prices can satisfy both.
+
+Q: The lines $x = 2$ and $y = -3$ meet at
+- $(-3, 2)$
+* $(2, -3)$
+- $(2, 0)$
+- $(0, -3)$
+W: The point has $x = 2$ and $y = -3$.
+
+Q: The sum of the digits of a two-digit number is 8. When 18 is added to the number, its digits are reversed. The number is
+- 26
+* 35
+- 53
+- 44
+W: $9(b - a) = 18$ gives $b - a = 2$; with $a + b = 8$, $a = 3$ and $b = 5$.

@@ -1,0 +1,69 @@
+Q: How many independent measurements are needed to construct a unique quadrilateral?
+- 3
+- 4
+* 5
+- 6
+W: For example four sides and one diagonal, or three sides and two included angles.
+
+Q: An angle of 60° is constructed by
+- bisecting a straight angle
+* cutting an arc with the same radius from a point on the first arc
+- drawing a perpendicular
+- bisecting an angle of 90°
+W: The three points form an equilateral triangle, each angle of which is 60°.
+
+Q: Which angle cannot be constructed using a ruler and compasses only?
+- 15°
+- 22.5°
+- 75°
+* 40°
+W: 15°, 22.5° and 75° come from bisecting and adding 60° and 90°. An angle of 40° cannot be obtained in this way.
+
+Q: The least number of measurements needed to construct a parallelogram is
+- 2
+* 3
+- 4
+- 5
+W: For example two adjacent sides and the included angle. The other sides follow because opposite sides are equal and parallel.
+
+Q: The least number of measurements needed to construct a square is
+* 1
+- 2
+- 3
+- 4
+W: One side (or one diagonal) is enough, as all sides are equal and all angles are 90°.
+
+Q: To construct a rhombus when both diagonals are given, we first draw one diagonal and then
+- an angle of 60° at one end
+* its perpendicular bisector
+- a parallel line through its midpoint
+- a circle on it as diameter
+W: The diagonals of a rhombus bisect each other at right angles.
+
+Q: Every point on the perpendicular bisector of a line segment AB is
+- nearer to A than to B
+- at a distance AB from A
+* equidistant from A and B
+- on the segment AB
+W: This property is what makes the construction with equal arcs work.
+
+Q: A rectangle has sides 6 cm and 8 cm. Its diagonal, which can be used to check the construction, is
+- 7 cm
+* 10 cm
+- 12 cm
+- 14 cm
+W: $\sqrt{6^2 + 8^2} = 10$.
+
+Q: To construct quadrilateral ABCD given its four sides and diagonal AC, the first step is to construct
+- angle ABC
+* triangle ABC from AB, BC and AC
+- side CD
+- the perpendicular bisector of AC
+W: The diagonal splits the quadrilateral into two triangles, each of which can be built from three sides.
+
+Q: A quadrilateral ABCD with AB = 3 cm, BC = 4 cm and diagonal AC = 8 cm cannot be constructed because
+- the sides are too short
+* AB + BC is less than AC
+- no angle is given
+- AC must be equal to BC
+W: In triangle ABC, the sum of two sides must be greater than the third, but $3 + 4 < 8$.

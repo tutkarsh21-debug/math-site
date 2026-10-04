@@ -40,6 +40,15 @@ for (const f of fs.readdirSync(dir, { recursive: true }).map(String).filter(f =>
     if (new Set(q.o).size !== 4) throw new Error(`${f}: question ${i + 1} has two identical options`);
   });
   if (!qs.length) throw new Error(`${f}: no questions`);
+  // The options are put in a mixed order, so the right answer is spread evenly over the four positions.
+  // The order depends only on the question text, so it stays the same from one build to the next.
+  for (const q of qs) {
+    let seed = [...q.q].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+    const next = () => (seed = (seed * 1103515245 + 12345) >>> 0) / 4294967296;
+    const order = [0, 1, 2, 3];
+    for (let i = 3; i > 0; i--) { const j = Math.floor(next() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+    q.o = order.map(i => q.o[i]); q.a = order.indexOf(q.a);
+  }
   tests[f.slice(0, -4)] = { minutes: minutes || Math.ceil(qs.length * 1.5), qs };
 }
 fs.writeFileSync(out, JSON.stringify(tests) + '\n');

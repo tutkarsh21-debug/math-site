@@ -1,0 +1,69 @@
+Q: $\log_2 8$ is equal to
+- 2
+* 3
+- 4
+- 16
+W: $2^3 = 8$.
+
+Q: The logarithm of 1 to any base is
+* 0
+- 1
+- the base
+- not defined
+W: $a^0 = 1$ for every valid base $a$.
+
+Q: $\log_5 5 + \log_5 1$ is equal to
+- 0
+* 1
+- 5
+- 6
+W: $\log_5 5 = 1$ and $\log_5 1 = 0$.
+
+Q: $\log_{10} 2 + \log_{10} 5$ is equal to
+- $\log_{10} 7$
+* 1
+- 10
+- $\log_{10} 2.5$
+W: $\log 2 + \log 5 = \log 10 = 1$.
+
+Q: $\log_3 81$ is equal to
+- 3
+* 4
+- 9
+- 27
+W: $3^4 = 81$.
+
+Q: If $\log_x 16 = 2$, then $x$ is
+- 2
+* 4
+- 8
+- 32
+W: $x^2 = 16$, and a base must be positive.
+
+Q: $\log \dfrac{m}{n}$ is equal to
+- $\dfrac{\log m}{\log n}$
+* $\log m - \log n$
+- $\log m + \log n$
+- $\log (m - n)$
+W: This is the quotient law.
+
+Q: $2 \log 3$ is equal to
+- $\log 6$
+- $\log 5$
+* $\log 9$
+- $\log 8$
+W: $n \log a = \log a^n$, and $3^2 = 9$.
+
+Q: If $\log_{10} 2 = 0.3010$, then $\log_{10} 8$ is
+- 0.6020
+* 0.9030
+- 2.4080
+- 0.3040
+W: $\log 8 = 3 \log 2$.
+
+Q: $\log_{10} 0.01$ is equal to
+- 2
+* $-2$
+- $-1$
+- 0.1
+W: $0.01 = 10^{-2}$.

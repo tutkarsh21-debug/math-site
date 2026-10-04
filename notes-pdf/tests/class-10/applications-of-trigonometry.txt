@@ -1,0 +1,69 @@
+Q: The angle of elevation is the angle between the horizontal and the line of sight when the object is
+- at the same level as the eye
+* above the level of the eye
+- below the level of the eye
+- behind the observer
+W: When the object is below eye level, the angle is called the angle of depression.
+
+Q: From a point 30 m from the foot of a tower, the angle of elevation of its top is 30°. The height of the tower is
+- 30 m
+- $30\sqrt{3}$ m
+* $10\sqrt{3}$ m
+- 15 m
+W: $h = 30 \tan 30° = \dfrac{30}{\sqrt{3}}$.
+
+Q: A pole 10 m high casts a shadow 10 m long. The angle of elevation of the Sun is
+- 30°
+* 45°
+- 60°
+- 90°
+W: $\tan\theta = \dfrac{10}{10} = 1$.
+
+Q: A kite is flying with a string 60 m long that makes an angle of 60° with the ground. The height of the kite is
+- 30 m
+* $30\sqrt{3}$ m
+- $60\sqrt{3}$ m
+- $20\sqrt{3}$ m
+W: $h = 60 \sin 60°$.
+
+Q: A ladder 15 m long makes an angle of 60° with the wall. The height it reaches on the wall is
+* 7.5 m
+- $7.5\sqrt{3}$ m
+- 15 m
+- 30 m
+W: The height is adjacent to the 60° angle: $15 \cos 60°$.
+
+Q: From the top of a tower 50 m high, the angle of depression of a car on the ground is 45°. The distance of the car from the foot of the tower is
+- 25 m
+* 50 m
+- $50\sqrt{3}$ m
+- 100 m
+W: $\tan 45° = 1$, so the distance equals the height.
+
+Q: The shadow of a tower is $\sqrt{3}$ times its height. The angle of elevation of the Sun is
+* 30°
+- 45°
+- 60°
+- 90°
+W: $\tan\theta = \dfrac{h}{\sqrt{3}h} = \dfrac{1}{\sqrt{3}}$.
+
+Q: The angle of elevation of the top of a tower changes from 30° to 60° as an observer walks 40 m towards it. The height of the tower is
+- 20 m
+* $20\sqrt{3}$ m
+- 40 m
+- $40\sqrt{3}$ m
+W: $h\sqrt{3} - \dfrac{h}{\sqrt{3}} = 40$ gives $\dfrac{2h}{\sqrt{3}} = 40$.
+
+Q: The angle of depression of an object from the top of a building is equal to
+- the angle of elevation of the object from the top
+* the angle of elevation of the top from the object
+- 90° minus the angle of elevation
+- twice the angle of elevation
+W: They are alternate angles between parallel horizontal lines.
+
+Q: A tree breaks in a storm and its top touches the ground 8 m from its foot, making an angle of 30° with the ground. The original height of the tree was
+- 8 m
+- 16 m
+* $8\sqrt{3}$ m
+- $16\sqrt{3}$ m
+W: Standing part $= 8\tan 30° = \dfrac{8}{\sqrt{3}}$ and broken part $= \dfrac{8}{\cos 30°} = \dfrac{16}{\sqrt{3}}$. The total is $\dfrac{24}{\sqrt{3}} = 8\sqrt{3}$.

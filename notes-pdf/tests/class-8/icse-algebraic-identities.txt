@@ -1,0 +1,69 @@
+Q: $(3x + 4y)^2$ is equal to
+- $9x^2 + 16y^2$
+- $9x^2 + 12xy + 16y^2$
+* $9x^2 + 24xy + 16y^2$
+- $3x^2 + 24xy + 4y^2$
+W: The middle term is $2 \times 3x \times 4y = 24xy$.
+
+Q: $\left(x - \dfrac{1}{x}\right)^2$ is equal to
+- $x^2 - \dfrac{1}{x^2}$
+- $x^2 + \dfrac{1}{x^2}$
+* $x^2 - 2 + \dfrac{1}{x^2}$
+- $x^2 + 2 + \dfrac{1}{x^2}$
+W: The middle term is $-2 \times x \times \dfrac{1}{x} = -2$.
+
+Q: If $x + \dfrac{1}{x} = 5$, then $x^2 + \dfrac{1}{x^2}$ is
+- 25
+- 27
+* 23
+- 10
+W: Squaring gives $x^2 + 2 + \dfrac{1}{x^2} = 25$.
+
+Q: Using an identity, $105 \times 95$ is
+- 9925
+* 9975
+- 10025
+- 9995
+W: $(100 + 5)(100 - 5) = 10000 - 25$.
+
+Q: $(a + b + c)^2$ is equal to
+- $a^2 + b^2 + c^2$
+- $a^2 + b^2 + c^2 + ab + bc + ca$
+* $a^2 + b^2 + c^2 + 2ab + 2bc + 2ca$
+- $a^2 + b^2 + c^2 + 2abc$
+W: Every pair of terms gives a product term taken twice.
+
+Q: $(a + b)^3$ is equal to
+- $a^3 + b^3$
+- $a^3 + a^2b + ab^2 + b^3$
+* $a^3 + 3a^2b + 3ab^2 + b^3$
+- $a^3 + 3ab + b^3$
+W: $(a + b)^3 = a^3 + b^3 + 3ab(a + b)$.
+
+Q: If $a - b = 4$ and $ab = 12$, then $a^2 + b^2$ is
+- 16
+- 28
+* 40
+- 64
+W: $a^2 + b^2 = (a - b)^2 + 2ab = 16 + 24$.
+
+Q: The coefficient of $x$ in the expansion of $(x + 7)(x - 3)$ is
+- $-21$
+- 10
+* 4
+- $-4$
+W: $(x + a)(x + b) = x^2 + (a + b)x + ab$, and $7 + (-3) = 4$.
+
+Q: If $a + b = 6$ and $ab = 8$, then $a^3 + b^3$ is
+- 216
+- 168
+* 72
+- 144
+W: $a^3 + b^3 = (a + b)^3 - 3ab(a + b) = 216 - 144$.
+
+Q: An identity is an equality that is true for
+- exactly one value of the variable
+- no value of the variable
+* every value of the variable
+- positive values only
+W: An equation holds for particular values; an identity holds for all.

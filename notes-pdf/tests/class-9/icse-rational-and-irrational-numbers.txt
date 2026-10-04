@@ -1,0 +1,69 @@
+Q: Which of these is an irrational number?
+- $0.\overline{3}$
+- $\sqrt{16}$
+* $0.101001000100001\ldots$
+- $\dfrac{7}{8}$
+W: Its decimal expansion neither ends nor repeats.
+
+Q: The rationalising factor of $\sqrt{5} - \sqrt{2}$ is
+- $\sqrt{5} - \sqrt{2}$
+* $\sqrt{5} + \sqrt{2}$
+- $\sqrt{10}$
+- $\sqrt{3}$
+W: $(\sqrt{5} - \sqrt{2})(\sqrt{5} + \sqrt{2}) = 5 - 2 = 3$, which is rational.
+
+Q: $\dfrac{1}{\sqrt{3} - \sqrt{2}}$ is equal to
+- $\sqrt{3} - \sqrt{2}$
+* $\sqrt{3} + \sqrt{2}$
+- $\dfrac{\sqrt{3} + \sqrt{2}}{5}$
+- 1
+W: Multiply top and bottom by $\sqrt{3} + \sqrt{2}$. The denominator becomes $3 - 2 = 1$.
+
+Q: The decimal form of $\dfrac{7}{8}$ is
+- 0.78
+* 0.875
+- $0.\overline{87}$
+- 0.8
+W: $8 = 2^3$, so the decimal terminates: $7 \div 8 = 0.875$.
+
+Q: $\sqrt{12} \times \sqrt{3}$ is equal to
+- $\sqrt{15}$
+* 6
+- 36
+- $3\sqrt{2}$
+W: $\sqrt{36} = 6$.
+
+Q: $(\sqrt{5} + \sqrt{3})(\sqrt{5} - \sqrt{3})$ is equal to
+- 8
+* 2
+- $2\sqrt{15}$
+- $\sqrt{2}$
+W: $5 - 3 = 2$.
+
+Q: $\sqrt{50}$ in simplest form is
+- $2\sqrt{5}$
+- $10\sqrt{5}$
+* $5\sqrt{2}$
+- $25\sqrt{2}$
+W: $\sqrt{25 \times 2} = 5\sqrt{2}$.
+
+Q: $\dfrac{1}{\sqrt{2}}$ with a rational denominator is
+- $\sqrt{2}$
+* $\dfrac{\sqrt{2}}{2}$
+- $\dfrac{1}{2}$
+- $2\sqrt{2}$
+W: Multiply top and bottom by $\sqrt{2}$.
+
+Q: $\sqrt{18} + \sqrt{8}$ is equal to
+- $\sqrt{26}$
+* $5\sqrt{2}$
+- $6\sqrt{2}$
+- $13\sqrt{2}$
+W: $3\sqrt{2} + 2\sqrt{2} = 5\sqrt{2}$.
+
+Q: $(3 + \sqrt{2})^2$ is equal to
+- 11
+- $9 + 2\sqrt{2}$
+* $11 + 6\sqrt{2}$
+- $11 + 3\sqrt{2}$
+W: $9 + 6\sqrt{2} + 2$.

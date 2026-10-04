@@ -1,0 +1,69 @@
+Q: The circumference of a circle of radius 14 cm is (take $\pi = \dfrac{22}{7}$)
+- 44 cm
+* 88 cm
+- 154 cm
+- 616 cm
+W: $2 \times \dfrac{22}{7} \times 14 = 88$.
+
+Q: An arc of a circle of radius 21 cm subtends an angle of 60° at the centre. Its length is (take $\pi = \dfrac{22}{7}$)
+- 11 cm
+* 22 cm
+- 44 cm
+- 66 cm
+W: $\dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = 22$.
+
+Q: The area of a triangle with sides 13 cm, 14 cm and 15 cm is
+- 42 sq cm
+* 84 sq cm
+- 91 sq cm
+- 105 sq cm
+W: $s = 21$, and $\sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056} = 84$.
+
+Q: For a triangle with sides 7 cm, 8 cm and 9 cm, the semi-perimeter $s$ is
+- 8 cm
+* 12 cm
+- 24 cm
+- 16 cm
+W: $s = \dfrac{7 + 8 + 9}{2} = 12$.
+
+Q: The area of an equilateral triangle of side 4 cm is
+- $2\sqrt{3}$ sq cm
+* $4\sqrt{3}$ sq cm
+- $8\sqrt{3}$ sq cm
+- 8 sq cm
+W: $\dfrac{\sqrt{3}}{4} \times 4^2 = 4\sqrt{3}$.
+
+Q: The area of a sector of radius 6 cm and central angle 60° is
+- $\pi$ sq cm
+- $2\pi$ sq cm
+* $6\pi$ sq cm
+- $12\pi$ sq cm
+W: $\dfrac{60}{360} \times \pi \times 36 = 6\pi$.
+
+Q: Brahmagupta's formula gives the area of
+- any quadrilateral
+* a cyclic quadrilateral
+- a triangle
+- a sector
+W: For a cyclic quadrilateral with sides $a, b, c, d$ and semi-perimeter $s$, the area is $\sqrt{(s-a)(s-b)(s-c)(s-d)}$.
+
+Q: A chord of a circle of radius 14 cm subtends a right angle at the centre. The area of the minor segment is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+- 98 sq cm
+* 56 sq cm
+- 252 sq cm
+W: Sector $= \dfrac{1}{4} \times \dfrac{22}{7} \times 196 = 154$ and triangle $= \dfrac{1}{2} \times 14 \times 14 = 98$. Segment $= 154 - 98$.
+
+Q: A square has the same area as a rectangle 9 cm by 4 cm. The side of the square is
+- 5 cm
+* 6 cm
+- 6.5 cm
+- 13 cm
+W: The area is 36 sq cm, and $\sqrt{36} = 6$.
+
+Q: The area of a circle of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 44 sq cm
+- 49 sq cm
+* 154 sq cm
+- 308 sq cm
+W: $\dfrac{22}{7} \times 49 = 154$.

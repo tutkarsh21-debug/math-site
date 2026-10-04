@@ -1,0 +1,69 @@
+Q: The simple interest on Rs 4000 at 5% per year for 3 years is
+- Rs 200
+- Rs 500
+* Rs 600
+- Rs 630
+W: $\dfrac{4000 \times 5 \times 3}{100} = 600$.
+
+Q: Rs 2500 is lent at 8% per year simple interest for 2 years. The amount is
+- Rs 2700
+* Rs 2900
+- Rs 2916
+- Rs 2540
+W: The interest is Rs 400, and amount = principal + interest.
+
+Q: The simple interest on Rs 3000 for 4 years is Rs 720. The rate per year is
+- 4%
+- 5%
+* 6%
+- 8%
+W: $R = \dfrac{720 \times 100}{3000 \times 4} = 6$.
+
+Q: In how many years will Rs 5000 earn a simple interest of Rs 1500 at 10% per year?
+- 2 years
+* 3 years
+- 5 years
+- 30 years
+W: The interest is Rs 500 a year, and $1500 \div 500 = 3$.
+
+Q: The compound interest on Rs 10,000 at 10% per year for 2 years, compounded yearly, is
+- Rs 2000
+* Rs 2100
+- Rs 2200
+- Rs 12,100
+W: The amount is $10000 \times 1.1^2 = 12100$, so the interest is Rs 2100.
+
+Q: Rs 8000 is invested at 5% per year, compounded yearly. The amount after 2 years is
+- Rs 8400
+- Rs 8800
+* Rs 8820
+- Rs 8840
+W: $8000 \times 1.05^2 = 8000 \times 1.1025 = 8820$.
+
+Q: The difference between the compound interest and the simple interest on Rs 5000 at 10% per year for 2 years is
+- Rs 0
+- Rs 25
+* Rs 50
+- Rs 100
+W: S.I. is Rs 1000 and C.I. is Rs 1050. The difference is the interest on the first year's interest: 10% of Rs 500.
+
+Q: A town has 20,000 people and its population grows by 5% every year. The population after 2 years is
+- 21,000
+- 22,000
+* 22,050
+- 22,500
+W: $20000 \times 1.05^2 = 22050$.
+
+Q: A sum of money doubles itself in 10 years at simple interest. The rate per year is
+- 5%
+* 10%
+- 20%
+- 100%
+W: The interest equals the principal in 10 years, so the rate is $100 \div 10 = 10$ per cent.
+
+Q: A car worth Rs 4,00,000 depreciates by 20% every year. Its value after 2 years is
+- Rs 2,40,000
+* Rs 2,56,000
+- Rs 3,20,000
+- Rs 3,60,000
+W: $400000 \times 0.8^2 = 256000$.

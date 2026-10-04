@@ -1,0 +1,69 @@
+Q: The class size of the class interval 20-30 is
+- 5
+* 10
+- 25
+- 50
+W: Class size = upper limit − lower limit.
+
+Q: The class mark of the class interval 40-50 is
+- 40
+* 45
+- 50
+- 10
+W: The class mark is the midpoint: $\dfrac{40 + 50}{2} = 45$.
+
+Q: The range of the data 12, 7, 25, 18, 9 is
+- 7
+- 13
+* 18
+- 25
+W: Range = largest value − smallest value = $25 - 7$.
+
+Q: In a histogram, the bars are drawn
+- with equal gaps between them
+* without gaps between them
+- as sectors of a circle
+- only for ungrouped data
+W: The class intervals are continuous, so the bars touch.
+
+Q: In a pie chart, an item of 60 out of a total of 240 has a central angle of
+- 60°
+* 90°
+- 120°
+- 25°
+W: $\dfrac{60}{240} \times 360° = 90°$.
+
+Q: With the class intervals 10-20, 20-30, 30-40, the value 20 is counted in
+- 10-20
+* 20-30
+- both 10-20 and 20-30
+- neither class
+W: In continuous classes, the upper limit is excluded from a class and placed in the next one.
+
+Q: The frequency of an observation is
+- its value
+- the largest value in the data
+* the number of times it occurs
+- the difference between the largest and smallest values
+W: Tally marks are used to count frequencies.
+
+Q: In a pie chart, a sector with a central angle of 120° stands for what fraction of the whole?
+- $\dfrac{1}{2}$
+* $\dfrac{1}{3}$
+- $\dfrac{1}{4}$
+- $\dfrac{1}{6}$
+W: $\dfrac{120}{360} = \dfrac{1}{3}$.
+
+Q: Which graph is best for comparing a student's marks in five subjects?
+- Histogram
+* Bar graph
+- Pie chart
+- Tally chart
+W: The subjects are separate categories, so bars with gaps are suitable.
+
+Q: A family spends Rs 18,000 a month. In the pie chart of its spending, food has a central angle of 100°. The amount spent on food is
+- Rs 1800
+- Rs 4500
+* Rs 5000
+- Rs 6000
+W: $\dfrac{100}{360} \times 18000 = 5000$.

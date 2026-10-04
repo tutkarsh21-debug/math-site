@@ -1,0 +1,69 @@
+Q: A chord of length 24 cm is drawn in a circle of radius 13 cm. Its distance from the centre is
+- 11 cm
+* 5 cm
+- 12 cm
+- 7 cm
+W: $\sqrt{13^2 - 12^2} = 5$.
+
+Q: A chord is at a distance of 8 cm from the centre of a circle of radius 17 cm. Its length is
+- 15 cm
+- 25 cm
+* 30 cm
+- 9 cm
+W: Half the chord is $\sqrt{17^2 - 8^2} = 15$ cm.
+
+Q: Chords of a circle that are equal in length are
+- parallel
+* equidistant from the centre
+- perpendicular
+- diameters
+W: Equal chords lie at equal distances from the centre.
+
+Q: Two parallel chords of lengths 6 cm and 8 cm lie on opposite sides of the centre of a circle of radius 5 cm. The distance between them is
+- 1 cm
+- 5 cm
+* 7 cm
+- 14 cm
+W: Their distances from the centre are 4 cm and 3 cm, and they are added.
+
+Q: Two parallel chords of lengths 6 cm and 8 cm lie on the same side of the centre of a circle of radius 5 cm. The distance between them is
+* 1 cm
+- 2 cm
+- 7 cm
+- 5 cm
+W: Their distances from the centre are 4 cm and 3 cm, and they are subtracted.
+
+Q: The line joining the centre of a circle to the mid-point of a chord is
+- parallel to the chord
+* perpendicular to the chord
+- equal to the chord
+- a tangent
+W: This is the converse of the result that the perpendicular from the centre bisects a chord.
+
+Q: Two circles of radii 10 cm and 17 cm intersect, and their common chord is 16 cm long. Their centres lie on opposite sides of the chord. The distance between the centres is
+- 9 cm
+- 15 cm
+* 21 cm
+- 27 cm
+W: The centres are $\sqrt{100 - 64} = 6$ cm and $\sqrt{289 - 64} = 15$ cm from the chord.
+
+Q: Equal chords of a circle subtend at the centre
+- right angles
+* equal angles
+- supplementary angles
+- angles in the ratio 1 : 2
+W: The triangles formed with the centre are congruent by SSS.
+
+Q: The radius of a circle is 6.5 cm. Its longest chord is
+- 6.5 cm
+* 13 cm
+- 19.5 cm
+- 26 cm
+W: The longest chord is the diameter.
+
+Q: Of two chords of a circle, the longer one is
+- farther from the centre
+* nearer to the centre
+- at the same distance from the centre
+- always a diameter
+W: As a chord gets longer, it moves towards the centre.

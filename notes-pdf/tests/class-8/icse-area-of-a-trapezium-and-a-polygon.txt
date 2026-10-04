@@ -1,0 +1,69 @@
+Q: The parallel sides of a trapezium are 12 cm and 8 cm, and the distance between them is 6 cm. Its area is
+- 120 sq cm
+* 60 sq cm
+- 48 sq cm
+- 26 sq cm
+W: $\dfrac{1}{2} \times (12 + 8) \times 6 = 60$.
+
+Q: The area of a trapezium is 105 sq cm and its parallel sides are 9 cm and 12 cm. Its height is
+- 5 cm
+* 10 cm
+- 21 cm
+- 11.67 cm
+W: $\dfrac{1}{2} \times 21 \times h = 105$ gives $h = 10$.
+
+Q: The diagonals of a rhombus are 14 cm and 10 cm. Its area is
+- 140 sq cm
+* 70 sq cm
+- 48 sq cm
+- 24 sq cm
+W: $\dfrac{1}{2} \times 14 \times 10 = 70$.
+
+Q: A diagonal of a quadrilateral is 20 cm, and the perpendiculars on it from the opposite vertices are 6 cm and 9 cm. The area is
+- 300 sq cm
+* 150 sq cm
+- 108 sq cm
+- 35 sq cm
+W: $\dfrac{1}{2} \times 20 \times (6 + 9) = 150$.
+
+Q: The area of a circle of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 44 sq cm
+- 49 sq cm
+* 154 sq cm
+- 616 sq cm
+W: $\dfrac{22}{7} \times 7 \times 7 = 154$.
+
+Q: The circumference of a circle of diameter 14 cm is (take $\pi = \dfrac{22}{7}$)
+- 22 cm
+* 44 cm
+- 88 cm
+- 154 cm
+W: $\pi d = \dfrac{22}{7} \times 14 = 44$.
+
+Q: The area of a parallelogram is 96 sq cm and its base is 12 cm. The corresponding height is
+- 4 cm
+* 8 cm
+- 16 cm
+- 84 cm
+W: Height = area ÷ base.
+
+Q: A square garden of side 10 m has a path 1 m wide running inside it along the boundary. The area of the path is
+- 19 sq m
+* 36 sq m
+- 40 sq m
+- 44 sq m
+W: The inner square has side 8 m: $100 - 64 = 36$.
+
+Q: The area of a triangle with sides 6 cm, 8 cm and 10 cm is
+* 24 sq cm
+- 30 sq cm
+- 40 sq cm
+- 48 sq cm
+W: $6^2 + 8^2 = 10^2$, so it is right-angled with legs 6 cm and 8 cm: $\dfrac{1}{2} \times 6 \times 8$.
+
+Q: The area of a ring with outer radius 14 cm and inner radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+- 308 sq cm
+* 462 sq cm
+- 616 sq cm
+W: $\dfrac{22}{7} \times (14^2 - 7^2) = \dfrac{22}{7} \times 147 = 462$.

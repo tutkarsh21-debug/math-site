@@ -1,0 +1,69 @@
+Q: A map has a scale of 1 : 50,000. Two towns are 4 cm apart on the map. The actual distance is
+- 200 m
+* 2 km
+- 20 km
+- 200 km
+W: $4 \times 50000 = 200000$ cm, which is 2000 m or 2 km.
+
+Q: Rs 600 is divided in the ratio 2 : 3 : 5. The largest share is
+- Rs 120
+- Rs 180
+- Rs 250
+* Rs 300
+W: There are 10 parts of Rs 60 each. The largest share is $5 \times 60 = 300$.
+
+Q: 6 workers can finish a job in 12 days. At the same rate, 8 workers finish it in
+- 16 days
+- 10 days
+* 9 days
+- 8 days
+W: The job needs $6 \times 12 = 72$ worker-days, and $72 \div 8 = 9$.
+
+Q: In a pie chart, a sector that stands for 25% of the whole has a central angle of
+- 25°
+- 45°
+* 90°
+- 100°
+W: 25% of 360° is 90°.
+
+Q: $x$ and $y$ are inversely proportional, and $x = 4$ when $y = 15$. When $x = 10$, $y$ is
+- 37.5
+- 9
+* 6
+- 1.5
+W: The product stays the same: $xy = 60$, so $y = 60 \div 10 = 6$.
+
+Q: A can do a job in 6 days and B can do it in 3 days. Working together they finish it in
+- 9 days
+- 4.5 days
+* 2 days
+- 1 day
+W: In one day they do $\dfrac{1}{6} + \dfrac{1}{3} = \dfrac{1}{2}$ of the job.
+
+Q: The angles of a triangle are in the ratio 1 : 2 : 3. The largest angle is
+- 60°
+* 90°
+- 100°
+- 120°
+W: There are 6 parts of 30° each, so the largest angle is 90°.
+
+Q: A journey takes 4 hours at 60 km/h. At 80 km/h it takes
+- 2 hours
+* 3 hours
+- 3.5 hours
+- 5 hours 20 minutes
+W: The distance is 240 km, and $240 \div 80 = 3$.
+
+Q: A pie chart shows the favourite sports of 500 students. The sector for cricket has an angle of 72°. How many students chose cricket?
+- 72
+* 100
+- 125
+- 144
+W: $\dfrac{72}{360} \times 500 = 100$.
+
+Q: Which pair of quantities is inversely proportional?
+- The number of pens bought and their total cost
+- The side of a square and its perimeter
+* The speed and the time taken for a fixed distance
+- The distance covered and the time taken at a steady speed
+W: When the distance is fixed, doubling the speed halves the time.

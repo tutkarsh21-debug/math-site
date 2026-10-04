@@ -1,0 +1,69 @@
+Q: The area of a sector of radius 6 cm and angle 60° is
+- $2\pi$ sq cm
+* $6\pi$ sq cm
+- $12\pi$ sq cm
+- $36\pi$ sq cm
+W: $\dfrac{60}{360} \times \pi \times 36$.
+
+Q: The length of an arc of a circle of radius 14 cm that subtends 90° at the centre is (take $\pi = \dfrac{22}{7}$)
+- 11 cm
+* 22 cm
+- 44 cm
+- 88 cm
+W: $\dfrac{90}{360} \times 2 \times \dfrac{22}{7} \times 14$.
+
+Q: The area of a quadrant of a circle of radius 14 cm is (take $\pi = \dfrac{22}{7}$)
+- 77 sq cm
+* 154 sq cm
+- 308 sq cm
+- 616 sq cm
+W: $\dfrac{1}{4} \times \dfrac{22}{7} \times 196$.
+
+Q: The minute hand of a clock is 21 cm long. The area it sweeps in 10 minutes is (take $\pi = \dfrac{22}{7}$)
+- 115.5 sq cm
+* 231 sq cm
+- 462 sq cm
+- 1386 sq cm
+W: In 10 minutes it turns 60°: $\dfrac{60}{360} \times \dfrac{22}{7} \times 441$.
+
+Q: The perimeter of a sector of radius 21 cm and angle 60° is (take $\pi = \dfrac{22}{7}$)
+- 22 cm
+- 43 cm
+* 64 cm
+- 85 cm
+W: The arc is 22 cm, and two radii add 42 cm.
+
+Q: A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the minor segment is (take $\pi = 3.14$)
+- 78.5 sq cm
+- 50 sq cm
+* 28.5 sq cm
+- 21.5 sq cm
+W: Sector $= \dfrac{1}{4} \times 3.14 \times 100 = 78.5$, triangle $= \dfrac{1}{2} \times 10 \times 10 = 50$.
+
+Q: The area of a sector is one-sixth of the area of the circle. The angle of the sector is
+- 30°
+- 45°
+* 60°
+- 90°
+W: $\dfrac{\theta}{360°} = \dfrac{1}{6}$.
+
+Q: A circle has area 300 sq cm. A minor sector has angle 120°. The area of the corresponding major sector is
+- 100 sq cm
+- 150 sq cm
+* 200 sq cm
+- 240 sq cm
+W: The major sector has angle 240°, which is two-thirds of the circle.
+
+Q: The circumference of a circle is 88 cm. Its area is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+- 308 sq cm
+* 616 sq cm
+- 1232 sq cm
+W: The radius is 14 cm, and $\dfrac{22}{7} \times 196 = 616$.
+
+Q: The length of an arc of a sector of radius $r$ and angle $\theta$ (in degrees) is
+- $\dfrac{\theta}{360} \times \pi r^2$
+* $\dfrac{\theta}{360} \times 2\pi r$
+- $\dfrac{\theta}{180} \times 2\pi r$
+- $\theta \times \pi r$
+W: The arc is the same fraction of the circumference as the angle is of 360°.

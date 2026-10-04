@@ -1,0 +1,69 @@
+Q: In a right triangle, the hypotenuse is 10 cm and one angle is 30°. The side opposite this angle is
+* 5 cm
+- $5\sqrt{3}$ cm
+- 10 cm
+- 20 cm
+W: Opposite side = hypotenuse × $\sin 30°$.
+
+Q: In a right triangle, one angle is 45° and the side adjacent to it is 7 cm. The side opposite this angle is
+- 3.5 cm
+* 7 cm
+- $7\sqrt{2}$ cm
+- 14 cm
+W: $\tan 45° = 1$, so the two legs are equal.
+
+Q: In a right triangle, one angle is 60° and the side adjacent to it is 5 cm. The side opposite this angle is
+- 5 cm
+- 10 cm
+* $5\sqrt{3}$ cm
+- $\dfrac{5}{\sqrt{3}}$ cm
+W: Opposite side = adjacent side × $\tan 60°$.
+
+Q: In a right triangle, the hypotenuse is 12 cm and one angle is 60°. The side adjacent to this angle is
+* 6 cm
+- $6\sqrt{3}$ cm
+- 12 cm
+- 24 cm
+W: Adjacent side = hypotenuse × $\cos 60°$.
+
+Q: A right triangle has both legs equal to 4 cm. Its acute angles are
+- 30° and 60°
+* 45° and 45°
+- 40° and 50°
+- 60° and 60°
+W: Equal legs mean equal angles, which add up to 90°.
+
+Q: A triangle has sides 1 cm, $\sqrt{3}$ cm and 2 cm. Its angles are
+- 45°, 45°, 90°
+* 30°, 60°, 90°
+- 60°, 60°, 60°
+- 30°, 30°, 120°
+W: $1 + 3 = 4$, so it is right-angled, and the side 1 is half the hypotenuse.
+
+Q: The altitude of an equilateral triangle of side 8 cm is
+- 4 cm
+* $4\sqrt{3}$ cm
+- $8\sqrt{3}$ cm
+- 8 cm
+W: Altitude = side × $\sin 60°$.
+
+Q: In a right triangle, the side opposite an angle of 30° is 6 cm. The hypotenuse is
+- 3 cm
+- $6\sqrt{3}$ cm
+* 12 cm
+- $4\sqrt{3}$ cm
+W: Hypotenuse = opposite side ÷ $\sin 30°$.
+
+Q: A rhombus has side 10 cm and one angle 60°. Its longer diagonal is
+- 10 cm
+* $10\sqrt{3}$ cm
+- 20 cm
+- $5\sqrt{3}$ cm
+W: Half the longer diagonal is $10\cos 30° = 5\sqrt{3}$ cm.
+
+Q: In triangle ABC, $\angle B = 90°$, AB = $5\sqrt{3}$ cm and BC = 5 cm. Then $\angle A$ is
+* 30°
+- 45°
+- 60°
+- 90°
+W: $\tan A = \dfrac{BC}{AB} = \dfrac{1}{\sqrt{3}}$.

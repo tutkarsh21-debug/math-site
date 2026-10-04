@@ -1,0 +1,69 @@
+Q: The value of $(-2)^5$ is
+- 32
+- $-10$
+* $-32$
+- $-16$
+W: An odd power of a negative number is negative, and $2^5 = 32$.
+
+Q: $3^4 \times 3^3$ is equal to
+* $3^7$
+- $3^{12}$
+- $9^7$
+- $9^{12}$
+W: With the same base, add the exponents: $4 + 3 = 7$.
+
+Q: $(5^2)^3$ is equal to
+- $5^5$
+* $5^6$
+- $5^8$
+- $5^9$
+W: A power of a power: multiply the exponents, $2 \times 3 = 6$.
+
+Q: The value of $7^0 + 7^1$ is
+- 0
+- 1
+- 7
+* 8
+W: $7^0 = 1$ and $7^1 = 7$, so the sum is 8.
+
+Q: $2^{-3}$ is equal to
+- $-8$
+- $-6$
+* $\dfrac{1}{8}$
+- $\dfrac{1}{6}$
+W: $2^{-3} = \dfrac{1}{2^3} = \dfrac{1}{8}$.
+
+Q: The value of $6^5 \div 6^2$ is
+- 36
+* 216
+- 1296
+- 7776
+W: Subtract the exponents: $6^{5-2} = 6^3 = 216$.
+
+Q: $2^4 \times 5^4$ is equal to
+- 1000
+- $7^4$
+* 10000
+- $10^8$
+W: With the same exponent, multiply the bases: $(2 \times 5)^4 = 10^4 = 10000$.
+
+Q: In scientific notation, 4,50,000 is written as
+- $45 \times 10^4$
+- $4.5 \times 10^4$
+- $0.45 \times 10^6$
+* $4.5 \times 10^5$
+W: The first factor must be at least 1 and less than 10. The decimal point moves 5 places.
+
+Q: A pile has 1 coin. The number of coins is doubled 10 times. How many coins are there now?
+- 20
+- 100
+- 512
+* 1024
+W: Ten doublings multiply by $2^{10} = 1024$.
+
+Q: Ravi has 3 shirts, 4 trousers and 2 caps. In how many ways can he choose one of each?
+- 9
+- 12
+- 14
+* 24
+W: Multiply the choices: $3 \times 4 \times 2 = 24$.

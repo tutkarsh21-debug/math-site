@@ -1,0 +1,69 @@
+Q: The Roman numeral XLIV stands for
+* 44
+- 46
+- 64
+- 66
+W: XL is 40 (10 before 50) and IV is 4 (1 before 5).
+
+Q: In Roman numerals, 99 is written as
+- IC
+- LXXXXIX
+* XCIX
+- XCVIIII
+W: 90 is XC and 9 is IX. A symbol is not repeated four times, and I is not placed before C.
+
+Q: Which Roman symbol stands for 500?
+- C
+* D
+- L
+- M
+W: L is 50, C is 100, D is 500 and M is 1000.
+
+Q: How many different digit symbols does the Hindu (decimal) number system use?
+- 2
+- 9
+* 10
+- 12
+W: The ten digits 0 to 9 are enough to write every number, because of place value.
+
+Q: The place value of 7 in 4,72,315 is
+- 7
+- 7,000
+* 70,000
+- 7,00,000
+W: The 7 is in the ten-thousands place.
+
+Q: The symbol that lets us tell 52 apart from 502 is
+* 0
+- 1
+- 2
+- 5
+W: Zero holds an empty place, which is what makes a place-value system work.
+
+Q: The base-2 number 1011 is equal to which number in base 10?
+- 7
+- 9
+* 11
+- 13
+W: $1 \times 8 + 0 \times 4 + 1 \times 2 + 1 \times 1 = 11$.
+
+Q: The number 13 written in base 2 is
+- 1011
+* 1101
+- 1110
+- 1001
+W: $13 = 8 + 4 + 1$, so the digits are 1, 1, 0, 1.
+
+Q: In base 5, the numeral 43 stands for which number in base 10?
+- 19
+* 23
+- 35
+- 43
+W: $4 \times 5 + 3 = 23$.
+
+Q: In a base-8 system, the place values are powers of
+- 2
+* 8
+- 10
+- 16
+W: In any base, each place is worth the base times the place to its right: 1, 8, 64, 512 and so on.

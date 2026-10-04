@@ -1,0 +1,69 @@
+Q: Which pair is a solution of $2x + y = 7$?
+- $(1, 3)$
+* $(2, 3)$
+- $(3, 2)$
+- $(0, 5)$
+W: $2 \times 2 + 3 = 7$.
+
+Q: The slope of the line through $(1, 2)$ and $(3, 8)$ is
+- 2
+* 3
+- $\dfrac{1}{3}$
+- 6
+W: $\dfrac{8 - 2}{3 - 1} = 3$.
+
+Q: For the line $y = -2x + 5$, the slope and the $y$-intercept are
+- 2 and 5
+- 5 and $-2$
+* $-2$ and 5
+- $-2$ and $-5$
+W: In $y = mx + c$, $m$ is the slope and $c$ the $y$-intercept.
+
+Q: The solution of $x + y = 10$ and $x - y = 4$ is
+- $x = 6$, $y = 4$
+* $x = 7$, $y = 3$
+- $x = 8$, $y = 2$
+- $x = 3$, $y = 7$
+W: Adding gives $2x = 14$.
+
+Q: The pair $2x + 3y = 5$ and $4x + 6y = 10$ has
+- no solution
+- exactly one solution
+- exactly two solutions
+* infinitely many solutions
+W: The second equation is twice the first, so the two lines coincide.
+
+Q: The pair $x + 2y = 4$ and $2x + 4y = 12$ has
+* no solution
+- exactly one solution
+- exactly two solutions
+- infinitely many solutions
+W: The lines have the same slope but different intercepts, so they are parallel.
+
+Q: Which line is parallel to the $x$-axis?
+- $x = 3$
+* $y = 3$
+- $y = x$
+- $x + y = 3$
+W: On $y = 3$ every point is at height 3.
+
+Q: If $y = 2x$ and $x + y = 12$, then
+- $x = 3$, $y = 6$
+* $x = 4$, $y = 8$
+- $x = 6$, $y = 12$
+- $x = 8$, $y = 4$
+W: Substituting, $x + 2x = 12$.
+
+Q: The line $3x + 2y = 12$ meets the $x$-axis at
+- $(0, 6)$
+- $(6, 0)$
+* $(4, 0)$
+- $(0, 4)$
+W: Put $y = 0$: $3x = 12$.
+
+Q: The sum of two numbers is 25 and their difference is 7. The larger number is
+- 9
+- 14
+* 16
+- 18
+W: $x + y = 25$ and $x - y = 7$ give $2x = 32$.

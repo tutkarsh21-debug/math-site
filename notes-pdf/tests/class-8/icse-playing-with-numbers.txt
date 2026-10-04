@@ -1,0 +1,69 @@
+Q: A three-digit number has digits $a$ (hundreds), $b$ (tens) and $c$ (units). Its generalised form is
+- $a + b + c$
+- $abc$
+* $100a + 10b + c$
+- $100c + 10b + a$
+W: Each digit is multiplied by its place value.
+
+Q: The sum of a two-digit number and the number obtained by reversing its digits is always divisible by
+- 9
+* 11
+- 10
+- 2
+W: $(10a + b) + (10b + a) = 11(a + b)$.
+
+Q: The difference between a three-digit number and the number formed by reversing its digits is always divisible by
+- 11 only
+- 101
+* 99
+- 100
+W: $(100a + 10b + c) - (100c + 10b + a) = 99(a - c)$.
+
+Q: In the addition 3A + 25 = B2, where A and B are digits, the value of A + B is
+- 9
+- 11
+* 13
+- 15
+W: $A + 5$ ends in 2, so A = 7 with 1 carried over. Then $3 + 2 + 1 = 6$, so B = 6.
+
+Q: The smallest digit $x$ for which the number 52x is divisible by 6 is
+- 0
+* 2
+- 4
+- 8
+W: The number must be even and its digit sum $7 + x$ a multiple of 3. $x = 2$ gives 522, with digit sum 9.
+
+Q: Which number is divisible by 11?
+- 34567
+- 20202
+- 71345
+* 61809
+W: For 61809, $6 - 1 + 8 - 0 + 9 = 22$, which is a multiple of 11.
+
+Q: A number is divisible by 8 if
+- its last digit is 8
+- its last two digits are divisible by 8
+* the number formed by its last three digits is divisible by 8
+- the sum of its digits is divisible by 8
+W: 1000 is divisible by 8, so only the last three digits matter.
+
+Q: The number 21y5 is a multiple of 9. The digit y is
+- 0
+* 1
+- 4
+- 7
+W: The digit sum $8 + y$ must be a multiple of 9, so $y = 1$.
+
+Q: A number divisible by both 2 and 5 always ends in
+* 0
+- 2
+- 5
+- 2 or 5
+W: Such a number is divisible by 10.
+
+Q: When the sum of the two-digit numbers $ab$ and $ba$ is divided by $a + b$, the quotient is
+- 9
+- 10
+* 11
+- $a - b$
+W: $ab + ba = 11(a + b)$.

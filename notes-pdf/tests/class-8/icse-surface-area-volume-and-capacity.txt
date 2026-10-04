@@ -1,0 +1,69 @@
+Q: The volume of a cuboid 8 cm by 5 cm by 3 cm is
+- 16 cubic cm
+- 79 cubic cm
+* 120 cubic cm
+- 158 cubic cm
+W: $8 \times 5 \times 3 = 120$.
+
+Q: The total surface area of a cube of edge 5 cm is
+- 25 sq cm
+- 100 sq cm
+- 125 sq cm
+* 150 sq cm
+W: $6 \times 5^2 = 150$.
+
+Q: The volume of a cube is 343 cubic cm. Its edge is
+- 6 cm
+* 7 cm
+- 8 cm
+- 49 cm
+W: $7^3 = 343$.
+
+Q: One cubic metre is equal to
+- 10 litres
+- 100 litres
+* 1000 litres
+- 10,000 litres
+W: 1 cubic metre = 10,00,000 cubic cm, and 1 litre = 1000 cubic cm.
+
+Q: How many bricks, each 20 cm by 10 cm by 5 cm, are needed for a wall 4 m long, 2 m high and 25 cm thick?
+- 200
+- 1000
+* 2000
+- 4000
+W: The wall is $400 \times 200 \times 25 = 20,00,000$ cubic cm and each brick is 1000 cubic cm.
+
+Q: The volume of a cylinder of radius 7 cm and height 10 cm is (take $\pi = \dfrac{22}{7}$)
+- 440 cubic cm
+- 490 cubic cm
+* 1540 cubic cm
+- 3080 cubic cm
+W: $\pi r^2 h = \dfrac{22}{7} \times 49 \times 10 = 1540$.
+
+Q: The curved surface area of a cylinder of radius 7 cm and height 10 cm is (take $\pi = \dfrac{22}{7}$)
+- 220 sq cm
+* 440 sq cm
+- 748 sq cm
+- 1540 sq cm
+W: $2\pi rh = 2 \times \dfrac{22}{7} \times 7 \times 10 = 440$.
+
+Q: A room is 6 m long, 4 m wide and 3 m high. The area of its four walls is
+- 72 sq m
+* 60 sq m
+- 48 sq m
+- 108 sq m
+W: $2(l + b)h = 2 \times 10 \times 3 = 60$.
+
+Q: A metal cube of edge 6 cm is melted and recast into a cuboid 9 cm long and 8 cm wide. The height of the cuboid is
+- 2 cm
+* 3 cm
+- 4 cm
+- 6 cm
+W: The volume stays 216 cubic cm, and $216 \div (9 \times 8) = 3$.
+
+Q: A tank is 2 m long, 1.5 m wide and 1 m deep. Its capacity is
+- 30 litres
+- 300 litres
+* 3000 litres
+- 30,000 litres
+W: The volume is 3 cubic metres, and each cubic metre holds 1000 litres.

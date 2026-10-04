@@ -1,0 +1,69 @@
+Q: $\sin(90° - \theta)$ is equal to
+- $\sin\theta$
+* $\cos\theta$
+- $\tan\theta$
+- $\operatorname{cosec}\theta$
+W: The sine of an angle is the cosine of its complement.
+
+Q: $\dfrac{\sin 35°}{\cos 55°}$ is equal to
+- 0
+* 1
+- $\dfrac{7}{11}$
+- $\tan 35°$
+W: $\cos 55° = \sin 35°$, because $55° + 35° = 90°$.
+
+Q: $\tan 20° \tan 70°$ is equal to
+- 0
+* 1
+- $\tan 90°$
+- $\tan^2 20°$
+W: $\tan 70° = \cot 20°$, and $\tan\theta \cot\theta = 1$.
+
+Q: $\sin^2 40° + \sin^2 50°$ is equal to
+- 0
+* 1
+- 2
+- $\dfrac{1}{2}$
+W: $\sin 50° = \cos 40°$, and $\sin^2\theta + \cos^2\theta = 1$.
+
+Q: $\sec(90° - \theta)$ is equal to
+- $\sec\theta$
+- $\cos\theta$
+* $\operatorname{cosec}\theta$
+- $\cot\theta$
+W: The secant of an angle is the cosecant of its complement.
+
+Q: $\sin 70°$ expressed as a ratio of an angle less than 45° is
+- $\sin 20°$
+* $\cos 20°$
+- $\tan 20°$
+- $\cos 70°$
+W: $70° = 90° - 20°$.
+
+Q: If $\sin 3A = \cos 2A$, where $3A$ and $2A$ are acute, then A is
+- 15°
+* 18°
+- 30°
+- 45°
+W: $3A + 2A = 90°$.
+
+Q: $\cos 48° - \sin 42°$ is equal to
+* 0
+- 1
+- $\cos 6°$
+- $-1$
+W: $\cos 48° = \sin 42°$.
+
+Q: The value of $\tan 1° \tan 2° \tan 3° \cdots \tan 89°$ is
+- 0
+* 1
+- 89
+- not defined
+W: Pair $\tan 1°$ with $\tan 89°$, and so on: each pair has product 1, and $\tan 45° = 1$.
+
+Q: If $\tan\theta = \cot(\theta + 30°)$, where both angles are acute, then $\theta$ is
+- 15°
+* 30°
+- 45°
+- 60°
+W: $\theta + \theta + 30° = 90°$.

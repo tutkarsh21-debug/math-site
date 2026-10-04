@@ -1,0 +1,69 @@
+Q: The sum of the interior angles of a quadrilateral is
+- 180°
+- 270°
+* 360°
+- 540°
+W: A diagonal splits a quadrilateral into two triangles, each with angle sum 180°.
+
+Q: Three angles of a quadrilateral are 80°, 95° and 110°. The fourth angle is
+- 65°
+* 75°
+- 85°
+- 95°
+W: $360° - (80° + 95° + 110°) = 75°$.
+
+Q: One angle of a parallelogram is 70°. The angle adjacent to it is
+- 70°
+- 20°
+- 90°
+* 110°
+W: Adjacent angles of a parallelogram add up to 180°.
+
+Q: In which quadrilateral do the diagonals always bisect each other at right angles?
+- Rectangle
+* Rhombus
+- Trapezium
+- Every parallelogram
+W: The diagonals of a rhombus are perpendicular bisectors of each other.
+
+Q: The diagonals of a rectangle are always
+- perpendicular
+- unequal
+* equal and bisect each other
+- bisectors of the angles
+W: A rectangle is a parallelogram (diagonals bisect each other) with equal diagonals.
+
+Q: The diagonals of a rhombus are 6 cm and 8 cm. Its side is
+* 5 cm
+- 7 cm
+- 10 cm
+- 14 cm
+W: The half-diagonals 3 cm and 4 cm are the legs of a right triangle whose hypotenuse is the side: $\sqrt{9 + 16} = 5$.
+
+Q: A quadrilateral with exactly one pair of parallel sides is a
+- kite
+- rhombus
+- parallelogram
+* trapezium
+W: That is the definition of a trapezium.
+
+Q: A kite has
+- both pairs of opposite sides equal
+* two pairs of equal adjacent sides
+- all angles equal
+- both pairs of opposite sides parallel
+W: In a kite, the equal sides are next to each other, not opposite.
+
+Q: Every square is
+- a rectangle but not a rhombus
+- a rhombus but not a rectangle
+* both a rectangle and a rhombus
+- a trapezium only
+W: A square has four right angles (rectangle) and four equal sides (rhombus).
+
+Q: In parallelogram ABCD, $\angle A = 3x$ and $\angle B = 2x$. The value of $x$ is
+- 30°
+* 36°
+- 45°
+- 60°
+W: Adjacent angles add up to 180°, so $5x = 180°$ and $x = 36°$.

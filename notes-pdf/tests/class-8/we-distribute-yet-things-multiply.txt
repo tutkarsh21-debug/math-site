@@ -1,0 +1,69 @@
+Q: $(x + 3)(x + 5)$ is equal to
+- $x^2 + 15$
+- $x^2 + 8x + 8$
+* $x^2 + 8x + 15$
+- $x^2 + 15x + 8$
+W: $x \cdot x + 5x + 3x + 15 = x^2 + 8x + 15$.
+
+Q: $(a + b)^2$ is equal to
+- $a^2 + b^2$
+* $a^2 + 2ab + b^2$
+- $a^2 + ab + b^2$
+- $2a + 2b$
+W: $(a + b)(a + b) = a^2 + ab + ba + b^2$.
+
+Q: Using an identity, $103^2$ is
+- 10309
+- 10069
+- 10900
+* 10609
+W: $(100 + 3)^2 = 10000 + 600 + 9 = 10609$.
+
+Q: $(2x - 3)^2$ is equal to
+- $4x^2 - 9$
+- $4x^2 - 6x + 9$
+* $4x^2 - 12x + 9$
+- $2x^2 - 12x + 9$
+W: $(2x)^2 - 2(2x)(3) + 3^2 = 4x^2 - 12x + 9$.
+
+Q: $98 \times 102$ is equal to
+* 9996
+- 9998
+- 10004
+- 9896
+W: $(100 - 2)(100 + 2) = 100^2 - 2^2 = 9996$.
+
+Q: $(a - b)(a + b)$ is equal to
+- $a^2 + b^2$
+- $a^2 - 2ab + b^2$
+* $a^2 - b^2$
+- $2a - 2b$
+W: The middle terms $ab$ and $-ab$ cancel.
+
+Q: $3(2x - 4) - 2(x - 5)$ simplifies to
+- $4x - 22$
+* $4x - 2$
+- $8x - 2$
+- $4x + 2$
+W: $6x - 12 - 2x + 10 = 4x - 2$. The minus sign changes $-5$ to $+10$.
+
+Q: If $a + b = 7$ and $ab = 10$, then $a^2 + b^2$ is
+- 39
+- 49
+* 29
+- 69
+W: $a^2 + b^2 = (a + b)^2 - 2ab = 49 - 20 = 29$.
+
+Q: The value of $47^2 - 43^2$ is
+- 16
+- 180
+* 360
+- 400
+W: $(47 - 43)(47 + 43) = 4 \times 90 = 360$.
+
+Q: $(x + y)^2 - (x - y)^2$ is equal to
+- $2xy$
+* $4xy$
+- $2x^2 + 2y^2$
+- 0
+W: The squares cancel and $2xy - (-2xy) = 4xy$.

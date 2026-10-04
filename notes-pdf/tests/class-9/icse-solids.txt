@@ -1,0 +1,69 @@
+Q: The volume of a cuboid 10 cm by 8 cm by 5 cm is
+- 23 cubic cm
+- 340 cubic cm
+* 400 cubic cm
+- 800 cubic cm
+W: $10 \times 8 \times 5$.
+
+Q: The total surface area of a cube of edge 4 cm is
+- 16 sq cm
+- 64 sq cm
+* 96 sq cm
+- 48 sq cm
+W: $6 \times 4^2 = 96$.
+
+Q: The diagonal of a cuboid 3 cm by 4 cm by 12 cm is
+- 12 cm
+* 13 cm
+- 19 cm
+- 15 cm
+W: $\sqrt{9 + 16 + 144} = \sqrt{169}$.
+
+Q: The diagonal of a cube of edge 5 cm is
+- 5 cm
+- $5\sqrt{2}$ cm
+* $5\sqrt{3}$ cm
+- 15 cm
+W: The diagonal of a cube of edge $a$ is $a\sqrt{3}$.
+
+Q: One litre is equal to
+- 10 cubic cm
+- 100 cubic cm
+* 1000 cubic cm
+- 1 cubic m
+W: A cube of edge 10 cm holds one litre.
+
+Q: A closed wooden box measures 20 cm by 16 cm by 12 cm on the outside and the wood is 1 cm thick. Its internal volume is
+- 3840 cubic cm
+* 2520 cubic cm
+- 3135 cubic cm
+- 1320 cubic cm
+W: Each inner dimension is 2 cm less: $18 \times 14 \times 10$.
+
+Q: A metal bar has a uniform cross-section of area 15 sq cm and is 2 m long. Its volume is
+- 30 cubic cm
+- 300 cubic cm
+* 3000 cubic cm
+- 30,000 cubic cm
+W: Volume = area of cross-section × length $= 15 \times 200$.
+
+Q: Water flows through a pipe of cross-section 5 sq cm at 40 cm per second. The volume of water that flows out in one minute is
+- 200 cubic cm
+- 2 litres
+* 12 litres
+- 120 litres
+W: $5 \times 40 = 200$ cubic cm each second, and $200 \times 60 = 12000$ cubic cm.
+
+Q: Three cubes of edge 5 cm are joined end to end. The total surface area of the cuboid formed is
+- 450 sq cm
+* 350 sq cm
+- 375 sq cm
+- 300 sq cm
+W: The cuboid is 15 cm by 5 cm by 5 cm: $2(75 + 25 + 75) = 350$.
+
+Q: The volume of a cube is 512 cubic cm. Its total surface area is
+- 64 sq cm
+- 192 sq cm
+* 384 sq cm
+- 512 sq cm
+W: The edge is 8 cm, and $6 \times 64 = 384$.

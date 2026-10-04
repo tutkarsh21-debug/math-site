@@ -1,0 +1,69 @@
+Q: The legs of a right triangle are 8 cm and 15 cm. The hypotenuse is
+- 16 cm
+* 17 cm
+- 19 cm
+- 23 cm
+W: $\sqrt{64 + 225} = \sqrt{289} = 17$.
+
+Q: Which of these is a Pythagorean triplet?
+- 10, 12, 15
+- 7, 9, 11
+* 20, 21, 29
+- 6, 9, 12
+W: $400 + 441 = 841 = 29^2$.
+
+Q: The altitude of an equilateral triangle of side 6 cm is
+- 3 cm
+* $3\sqrt{3}$ cm
+- $6\sqrt{3}$ cm
+- $2\sqrt{3}$ cm
+W: $\sqrt{6^2 - 3^2} = \sqrt{27} = 3\sqrt{3}$.
+
+Q: The diagonals of a rhombus are 10 cm and 24 cm. Its side is
+- 12 cm
+* 13 cm
+- 17 cm
+- 34 cm
+W: The half-diagonals 5 cm and 12 cm are the legs of a right triangle.
+
+Q: A man walks 9 m east and then 12 m north. His distance from the starting point is
+- 21 m
+* 15 m
+- 3 m
+- 18 m
+W: $\sqrt{81 + 144} = 15$.
+
+Q: An isosceles triangle has sides 13 cm, 13 cm and 10 cm. The altitude to the 10 cm side is
+- 8 cm
+- 10 cm
+* 12 cm
+- 13 cm
+W: The altitude bisects the base: $\sqrt{13^2 - 5^2} = 12$.
+
+Q: In triangle ABC, $\angle B = 90°$. Then
+- $AB^2 = AC^2 + BC^2$
+* $AC^2 = AB^2 + BC^2$
+- $BC^2 = AB^2 + AC^2$
+- $AC = AB + BC$
+W: AC is opposite the right angle, so it is the hypotenuse.
+
+Q: A 25 m ladder reaches a window 24 m above the ground. The distance of its foot from the wall is
+- 1 m
+* 7 m
+- 12 m
+- 49 m
+W: $\sqrt{625 - 576} = 7$.
+
+Q: A triangle has sides 7 cm, 8 cm and 10 cm. It is
+- right-angled
+* acute-angled
+- obtuse-angled
+- isosceles
+W: $7^2 + 8^2 = 113$ is greater than $10^2 = 100$, so the largest angle is less than 90°.
+
+Q: The diagonal of a square is 10 cm. Its side is
+- 5 cm
+* $5\sqrt{2}$ cm
+- $10\sqrt{2}$ cm
+- 20 cm
+W: $2s^2 = 100$, so $s = \sqrt{50} = 5\sqrt{2}$.

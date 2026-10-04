@@ -1,0 +1,69 @@
+Q: The ratio of 45 cm to 1.5 m in simplest form is
+- 30 : 1
+- 3 : 1
+* 3 : 10
+- 9 : 3
+W: Use the same unit: 45 cm to 150 cm, which is 3 : 10.
+
+Q: Which ratio is proportional to 4 : 6?
+- 6 : 8
+- 8 : 10
+* 10 : 15
+- 12 : 16
+W: Both 4 : 6 and 10 : 15 simplify to 2 : 3.
+
+Q: 5 pens cost Rs 60. At the same rate, 8 pens cost
+- Rs 84
+- Rs 90
+* Rs 96
+- Rs 100
+W: One pen costs Rs 12, so 8 pens cost Rs 96.
+
+Q: If $x : 12 = 5 : 4$, then $x$ is
+- 9.6
+- 12
+* 15
+- 20
+W: $4x = 60$, so $x = 15$.
+
+Q: Rs 720 is divided between two people in the ratio 4 : 5. The smaller share is
+- Rs 288
+* Rs 320
+- Rs 360
+- Rs 400
+W: There are 9 parts of Rs 80 each. The smaller share is $4 \times 80 = 320$.
+
+Q: Car A covers 150 km in 3 hours and car B covers 220 km in 4 hours. Which is faster?
+- Car A, at 50 km/h
+* Car B, at 55 km/h
+- Car A, at 55 km/h
+- Both have the same speed
+W: Compare unit rates: A does 50 km in an hour and B does 55 km in an hour.
+
+Q: A 20-litre mixture has milk and water in the ratio 3 : 1. The quantity of milk is
+- 5 litres
+- 12 litres
+* 15 litres
+- 18 litres
+W: Milk is 3 parts out of 4: $\dfrac{3}{4} \times 20 = 15$.
+
+Q: In which situation is it wrong to use the Rule of Three?
+- The cost of 7 notebooks, given the cost of 3
+- The distance covered in 5 hours at a steady speed, given the distance in 2 hours
+* The weight of a child at age 12, given the weight at age 6
+- The wages for 9 days, given the wages for 4 days
+W: Weight does not grow in proportion to age, so the two quantities are not proportional.
+
+Q: 2.5 km is equal to
+- 25 m
+- 250 m
+* 2500 m
+- 25000 m
+W: 1 km = 1000 m, so 2.5 km = 2500 m.
+
+Q: A 12-litre drink has juice and water in the ratio 1 : 2. If 4 litres of juice are added, the new ratio of juice to water is
+* 1 : 1
+- 2 : 1
+- 1 : 3
+- 3 : 2
+W: At first there are 4 litres of juice and 8 of water. After adding, there are 8 litres of each.

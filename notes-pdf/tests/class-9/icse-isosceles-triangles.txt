@@ -1,0 +1,69 @@
+Q: In triangle ABC, AB = AC and $\angle B = 65°$. Then $\angle A$ is
+- 65°
+* 50°
+- 115°
+- 57.5°
+W: $\angle C = 65°$ too, and $180° - 130° = 50°$.
+
+Q: The vertical angle of an isosceles triangle is 40°. Each base angle is
+- 40°
+- 60°
+* 70°
+- 140°
+W: $\dfrac{180° - 40°}{2} = 70°$.
+
+Q: Each angle of an equilateral triangle is
+- 45°
+* 60°
+- 90°
+- 120°
+W: The three equal angles add up to 180°.
+
+Q: In triangle ABC, AB = AC and the exterior angle at C is 110°. Then $\angle A$ is
+- 70°
+* 40°
+- 55°
+- 110°
+W: $\angle C = 70° = \angle B$, so $\angle A = 180° - 140°$.
+
+Q: In an isosceles right-angled triangle, each acute angle is
+- 30°
+* 45°
+- 60°
+- 90°
+W: The two equal angles add up to 90°.
+
+Q: In triangle ABC, $\angle A = \angle B$. Then
+- AB = AC
+* BC = AC
+- AB = BC
+- all three sides are equal
+W: Sides opposite equal angles are equal: BC is opposite A and AC is opposite B.
+
+Q: In an isosceles triangle, the bisector of the vertical angle
+- is parallel to the base
+* bisects the base at right angles
+- is equal to the base
+- passes through a base vertex
+W: The two triangles formed are congruent by SAS.
+
+Q: In triangle ABC, AB = AC and $\angle A = 2\angle B$. Then $\angle A$ is
+- 45°
+- 60°
+* 90°
+- 120°
+W: $\angle B = \angle C$, so $4\angle B = 180°$ and $\angle B = 45°$.
+
+Q: In triangle ABC, AB = AC, AD is perpendicular to BC and BC = 10 cm. Then BD is
+- 10 cm
+* 5 cm
+- 2.5 cm
+- 20 cm
+W: The perpendicular from the vertex of an isosceles triangle bisects the base.
+
+Q: A triangle with angles 50°, 80° and 50° is
+- equilateral
+* isosceles
+- scalene
+- right-angled
+W: Two equal angles mean two equal sides.

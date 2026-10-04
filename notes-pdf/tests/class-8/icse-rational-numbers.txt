@@ -1,0 +1,69 @@
+Q: The standard form of $\dfrac{-18}{24}$ is
+- $\dfrac{-9}{12}$
+* $\dfrac{-3}{4}$
+- $\dfrac{3}{-4}$
+- $\dfrac{-6}{8}$
+W: Divide both by their HCF, 6, and keep the denominator positive.
+
+Q: The additive inverse of $\dfrac{-5}{7}$ is
+- $\dfrac{-7}{5}$
+- $\dfrac{7}{5}$
+* $\dfrac{5}{7}$
+- 0
+W: A number and its additive inverse add up to 0.
+
+Q: The multiplicative inverse of $\dfrac{-3}{8}$ is
+- $\dfrac{3}{8}$
+- $\dfrac{8}{3}$
+* $\dfrac{-8}{3}$
+- 1
+W: The product of a number and its reciprocal is 1, and $\dfrac{-3}{8} \times \dfrac{-8}{3} = 1$.
+
+Q: $\dfrac{2}{3} + \left(\dfrac{-5}{6}\right)$ is equal to
+- $\dfrac{-3}{9}$
+* $\dfrac{-1}{6}$
+- $\dfrac{1}{6}$
+- $\dfrac{-1}{3}$
+W: $\dfrac{4}{6} - \dfrac{5}{6} = \dfrac{-1}{6}$.
+
+Q: $\dfrac{-3}{4} \times \dfrac{8}{9}$ is equal to
+- $\dfrac{2}{3}$
+- $\dfrac{-27}{32}$
+* $\dfrac{-2}{3}$
+- $\dfrac{-5}{13}$
+W: $\dfrac{-24}{36} = \dfrac{-2}{3}$.
+
+Q: $\dfrac{5}{6} \div \left(\dfrac{-10}{3}\right)$ is equal to
+- $\dfrac{-25}{9}$
+- $\dfrac{1}{4}$
+- $-4$
+* $\dfrac{-1}{4}$
+W: Multiply by the reciprocal: $\dfrac{5}{6} \times \dfrac{-3}{10} = \dfrac{-15}{60} = \dfrac{-1}{4}$.
+
+Q: Which of these rational numbers is the greatest?
+- $\dfrac{-2}{3}$
+- $\dfrac{-3}{4}$
+- $\dfrac{-5}{6}$
+* $\dfrac{-7}{12}$
+W: With denominator 12 they are $-8$, $-9$, $-10$ and $-7$ twelfths. The greatest is $\dfrac{-7}{12}$.
+
+Q: Which rational number lies between $\dfrac{1}{4}$ and $\dfrac{1}{2}$?
+- $\dfrac{1}{8}$
+* $\dfrac{3}{8}$
+- $\dfrac{5}{8}$
+- $\dfrac{3}{4}$
+W: $\dfrac{1}{4} = \dfrac{2}{8}$ and $\dfrac{1}{2} = \dfrac{4}{8}$, and $\dfrac{3}{8}$ lies between them.
+
+Q: $a \times (b + c) = a \times b + a \times c$ is called the
+- commutative property
+- associative property
+* distributive property
+- closure property
+W: Multiplication is distributed over addition.
+
+Q: Which rational number has no reciprocal?
+- 1
+- $-1$
+* 0
+- $\dfrac{1}{2}$
+W: Division by zero is not defined, so 0 has no reciprocal.

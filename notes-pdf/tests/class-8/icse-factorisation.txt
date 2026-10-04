@@ -1,0 +1,69 @@
+Q: The factors of $6x^2y - 9xy^2$ are
+- $3x(2xy - 3y^2)$
+* $3xy(2x - 3y)$
+- $xy(6x - 9)$
+- $3xy(2x + 3y)$
+W: The HCF of the two terms is $3xy$.
+
+Q: $ax + ay + bx + by$ is equal to
+- $(a + x)(b + y)$
+* $(a + b)(x + y)$
+- $ab(x + y)$
+- $(a + y)(b + x)$
+W: Group: $a(x + y) + b(x + y)$.
+
+Q: $4x^2 - 25$ is equal to
+- $(2x - 5)^2$
+* $(2x - 5)(2x + 5)$
+- $(4x - 5)(x + 5)$
+- $(4x - 25)(x + 1)$
+W: It is a difference of two squares, $(2x)^2 - 5^2$.
+
+Q: $x^2 + 6x + 9$ is equal to
+- $(x + 9)(x + 1)$
+- $(x - 3)^2$
+* $(x + 3)^2$
+- $(x + 3)(x - 3)$
+W: $x^2 + 2 \times 3 \times x + 3^2$.
+
+Q: $x^2 + 7x + 12$ is equal to
+- $(x + 2)(x + 6)$
+* $(x + 3)(x + 4)$
+- $(x + 1)(x + 12)$
+- $(x - 3)(x - 4)$
+W: Two numbers with sum 7 and product 12 are 3 and 4.
+
+Q: $x^2 - x - 12$ is equal to
+- $(x + 4)(x - 3)$
+* $(x - 4)(x + 3)$
+- $(x - 6)(x + 2)$
+- $(x - 12)(x + 1)$
+W: Two numbers with sum $-1$ and product $-12$ are $-4$ and 3.
+
+Q: $2x^2 + 7x + 3$ is equal to
+- $(2x + 3)(x + 1)$
+* $(2x + 1)(x + 3)$
+- $(x + 1)(x + 3)$
+- $(2x - 1)(x - 3)$
+W: Split $7x$ as $6x + x$: $2x(x + 3) + 1(x + 3)$.
+
+Q: The complete factorisation of $x^4 - 16$ is
+- $(x^2 - 4)(x^2 + 4)$
+- $(x - 2)^4$
+* $(x - 2)(x + 2)(x^2 + 4)$
+- $(x - 4)(x + 4)$
+W: $x^4 - 16 = (x^2 - 4)(x^2 + 4)$, and $x^2 - 4$ factorises again.
+
+Q: $(x^2 - 9) \div (x + 3)$ is equal to
+- $x + 3$
+* $x - 3$
+- $x - 6$
+- $x^2 - 3$
+W: $x^2 - 9 = (x - 3)(x + 3)$, and the factor $x + 3$ cancels.
+
+Q: The complete factorisation of $3x^2 - 12$ is
+- $3(x^2 - 4)$
+- $(3x - 6)(x + 2)$
+* $3(x - 2)(x + 2)$
+- $3(x - 2)^2$
+W: Take out the common factor 3 first, then use the difference of squares.

@@ -1,0 +1,69 @@
+Q: The cube of $-7$ is
+- 343
+- $-49$
+- $-21$
+* $-343$
+W: The cube of a negative number is negative, and $7^3 = 343$.
+
+Q: Which of these is a perfect cube?
+- 121
+- 900
+* 1331
+- 1600
+W: $11^3 = 1331$.
+
+Q: $\sqrt[3]{-512}$ is equal to
+- 8
+* $-8$
+- $-6$
+- not defined
+W: $(-8)^3 = -512$. Negative numbers do have cube roots.
+
+Q: The cube of an odd number is always
+- even
+* odd
+- a multiple of 3
+- a perfect square
+W: Odd × odd × odd is odd.
+
+Q: The smallest number by which 392 must be multiplied to get a perfect cube is
+- 2
+- 3
+* 7
+- 14
+W: $392 = 2^3 \times 7^2$. One more 7 completes the triple.
+
+Q: The smallest number by which 1323 must be divided to get a perfect cube is
+- 3
+- 7
+- 21
+* 49
+W: $1323 = 3^3 \times 7^2$. Removing $7^2 = 49$ leaves $27 = 3^3$.
+
+Q: $\sqrt[3]{0.027}$ is equal to
+- 0.03
+* 0.3
+- 0.9
+- 3
+W: $0.3^3 = 0.027$.
+
+Q: $\sqrt[3]{8 \times 125}$ is equal to
+- 7
+* 10
+- 20
+- 40
+W: $\sqrt[3]{8} \times \sqrt[3]{125} = 2 \times 5 = 10$.
+
+Q: The volume of a cube is 2197 cubic cm. Its edge is
+- 11 cm
+- 12 cm
+* 13 cm
+- 17 cm
+W: $13^3 = 2197$.
+
+Q: By inspection, the cube root of 17576 is
+- 16
+* 26
+- 36
+- 24
+W: The units digit 6 gives a units digit of 6. Ignoring the last three digits leaves 17, and $2^3 = 8 < 17 < 27 = 3^3$, so the tens digit is 2.

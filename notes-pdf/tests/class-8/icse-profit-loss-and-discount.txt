@@ -1,0 +1,69 @@
+Q: An article bought for Rs 250 is sold for Rs 300. The profit per cent is
+- 16.67%
+* 20%
+- 25%
+- 50%
+W: The profit of Rs 50 is compared with the C.P.: $\dfrac{50}{250} \times 100 = 20$.
+
+Q: The C.P. of an article is Rs 600 and it is sold at a loss of 15%. The S.P. is
+- Rs 585
+- Rs 540
+* Rs 510
+- Rs 690
+W: The loss is Rs 90, so the S.P. is Rs 510.
+
+Q: An article is sold for Rs 690 at a profit of 15%. Its C.P. is
+- Rs 586.50
+* Rs 600
+- Rs 675
+- Rs 793.50
+W: S.P. is 115% of C.P., so C.P. $= 690 \times \dfrac{100}{115} = 600$.
+
+Q: 12 pens are bought for Rs 96 and sold at Rs 10 each. The profit per cent is
+- 20%
+* 25%
+- 24%
+- 2%
+W: Each pen costs Rs 8 and gives a profit of Rs 2, which is 25% of Rs 8.
+
+Q: The marked price of a fan is Rs 800 and a discount of 15% is given. The S.P. is
+- Rs 785
+- Rs 720
+* Rs 680
+- Rs 640
+W: The discount is Rs 120, so the S.P. is Rs 680.
+
+Q: An article marked at Rs 500 is sold for Rs 440. The discount per cent is
+- 6%
+- 10%
+* 12%
+- 60%
+W: The discount of Rs 60 is compared with the marked price: 12%.
+
+Q: Two successive discounts of 20% and 10% are equal to a single discount of
+- 30%
+- 15%
+* 28%
+- 25%
+W: $0.8 \times 0.9 = 0.72$, so 72% is paid and the discount is 28%.
+
+Q: A shopkeeper marks his goods 40% above the cost price and gives a discount of 25%. He makes
+- a profit of 15%
+* a profit of 5%
+- a loss of 5%
+- neither profit nor loss
+W: $1.4 \times 0.75 = 1.05$, so the S.P. is 105% of the C.P.
+
+Q: Tax at 12% is charged on a bill of Rs 1500. The amount to be paid is
+- Rs 1512
+- Rs 1620
+* Rs 1680
+- Rs 1800
+W: The tax is Rs 180, so the total is Rs 1680.
+
+Q: By selling an article for Rs 450, a man loses 10%. Its C.P. is
+- Rs 405
+- Rs 460
+- Rs 495
+* Rs 500
+W: S.P. is 90% of C.P., so C.P. $= 450 \times \dfrac{100}{90} = 500$.

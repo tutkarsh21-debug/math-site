@@ -1,0 +1,69 @@
+Q: An algorithm is
+- a very difficult problem
+* a finite list of clear steps for solving a problem
+- a computer
+- a formula that works only once
+W: Each step must be unambiguous, and the steps must come to an end.
+
+Q: The number of divisors of 12 is
+- 4
+- 5
+* 6
+- 12
+W: The divisors are 1, 2, 3, 4, 6 and 12.
+
+Q: The gcd of 48 and 18 is
+- 2
+- 3
+* 6
+- 9
+W: $48 = 2^4 \times 3$ and $18 = 2 \times 3^2$, with common part $2 \times 3$.
+
+Q: Using Euclid's subtraction algorithm on 21 and 15, the first step replaces the pair by
+- 21 and 6
+* 15 and 6
+- 36 and 15
+- 7 and 5
+W: Replace the larger number by the difference: $21 - 15 = 6$, giving the pair 15 and 6.
+
+Q: The division algorithm for the gcd uses the fact that, if $r$ is the remainder when $a$ is divided by $b$, then
+- $\gcd(a, b) = r$
+* $\gcd(a, b) = \gcd(b, r)$
+- $\gcd(a, b) = a - b$
+- $\gcd(a, b) = b$
+W: Any common divisor of $a$ and $b$ also divides $r$, and the other way round.
+
+Q: The remainder when 100 is divided by 7 is
+- 1
+* 2
+- 3
+- 6
+W: $100 = 7 \times 14 + 2$.
+
+Q: The gcd of 17 and 5 is
+* 1
+- 5
+- 17
+- 85
+W: 17 is prime and does not divide 5, so the only common divisor is 1.
+
+Q: To list all the divisors of a number $n$, it is enough to test the numbers up to
+- $n$
+- $\dfrac{n}{2}$
+* $\sqrt{n}$
+- $n^2$
+W: Divisors come in pairs whose product is $n$, and one of each pair is at most $\sqrt{n}$.
+
+Q: The gcd of 56 and 20 is
+- 2
+* 4
+- 8
+- 10
+W: $56 = 2 \times 20 + 16$, $20 = 1 \times 16 + 4$, $16 = 4 \times 4 + 0$. The last non-zero remainder is 4.
+
+Q: Compared with repeated subtraction, the division algorithm for the gcd usually needs
+* fewer steps
+- more steps
+- exactly the same number of steps
+- twice as many steps
+W: One division does the work of many subtractions.

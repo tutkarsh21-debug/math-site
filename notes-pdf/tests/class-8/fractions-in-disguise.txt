@@ -1,0 +1,69 @@
+Q: $\dfrac{3}{8}$ written as a percentage is
+- 26.6%
+- 35%
+* 37.5%
+- 38%
+W: $\dfrac{3}{8} \times 100 = 37.5$.
+
+Q: 15% of 240 is
+- 24
+* 36
+- 48
+- 16
+W: 10% is 24 and 5% is 12, so 15% is 36.
+
+Q: 150% of 80 is
+- 40
+- 95
+* 120
+- 150
+W: 150% means one and a half times: $1.5 \times 80 = 120$.
+
+Q: The price of a bag rises from Rs 400 to Rs 460. The percentage increase is
+- 6%
+- 13%
+* 15%
+- 60%
+W: The increase is Rs 60 on Rs 400: $\dfrac{60}{400} \times 100 = 15$.
+
+Q: A shopkeeper buys a toy for Rs 800 and sells it for Rs 720. The loss percentage is
+- 8%
+* 10%
+- 11.1%
+- 80%
+W: The loss is Rs 80 on a cost price of Rs 800, which is 10%. Loss per cent is always found on the cost price.
+
+Q: A shirt marked at Rs 1200 is sold at a discount of 25%. Its selling price is
+- Rs 300
+- Rs 950
+- Rs 1175
+* Rs 900
+W: The discount is Rs 300, so the selling price is Rs 900.
+
+Q: The simple interest on Rs 5000 at 8% per year for 3 years is
+- Rs 400
+- Rs 800
+* Rs 1200
+- Rs 1500
+W: $\dfrac{5000 \times 8 \times 3}{100} = 1200$.
+
+Q: Rs 2000 is invested at 10% per year, compounded yearly. The amount after 2 years is
+- Rs 2200
+- Rs 2400
+* Rs 2420
+- Rs 2440
+W: After one year it is Rs 2200, and 10% of that is Rs 220, giving Rs 2420.
+
+Q: A price is increased by 20% and the new price is then decreased by 20%. Compared with the original, the final price is
+- the same
+- 4% more
+* 4% less
+- 2% less
+W: $1.2 \times 0.8 = 0.96$, which is 4% less than the original.
+
+Q: A machine worth Rs 50,000 loses 10% of its value every year. Its value after 2 years is
+- Rs 40,000
+* Rs 40,500
+- Rs 41,000
+- Rs 45,000
+W: After one year it is Rs 45,000, and after two years it is $0.9 \times 45000 = 40500$.

@@ -1,0 +1,69 @@
+Q: The legs of a right triangle are 6 cm and 8 cm. The hypotenuse is
+- 9 cm
+* 10 cm
+- 12 cm
+- 14 cm
+W: $\sqrt{6^2 + 8^2} = \sqrt{100} = 10$.
+
+Q: The hypotenuse of a right triangle is 13 cm and one leg is 5 cm. The other leg is
+- 8 cm
+- 10 cm
+* 12 cm
+- 18 cm
+W: $\sqrt{13^2 - 5^2} = \sqrt{144} = 12$.
+
+Q: The diagonal of a square of side 1 unit is
+- 1 unit
+* $\sqrt{2}$ units
+- 2 units
+- $\sqrt{3}$ units
+W: The diagonal is the hypotenuse of a right triangle with legs 1 and 1.
+
+Q: Which of these is a Baudhayana (Pythagorean) triple?
+- 5, 6, 7
+- 8, 10, 12
+* 7, 24, 25
+- 9, 12, 16
+W: $7^2 + 24^2 = 49 + 576 = 625 = 25^2$.
+
+Q: Each leg of an isosceles right triangle is 5 cm. The hypotenuse is
+- 5 cm
+- 10 cm
+- 25 cm
+* $5\sqrt{2}$ cm
+W: $\sqrt{25 + 25} = \sqrt{50} = 5\sqrt{2}$.
+
+Q: A 17 m ladder leans against a wall with its foot 8 m from the wall. How high up the wall does it reach?
+- 9 m
+- 12 m
+* 15 m
+- 25 m
+W: $\sqrt{17^2 - 8^2} = \sqrt{225} = 15$.
+
+Q: A square has side $a$. The side of a square with double its area is
+- $2a$
+* $a\sqrt{2}$
+- $4a$
+- $\dfrac{a}{2}$
+W: The new area is $2a^2$, so the side is $\sqrt{2a^2} = a\sqrt{2}$. This is the diagonal of the first square.
+
+Q: The diagonal of a rectangle 9 cm by 12 cm is
+- 13 cm
+* 15 cm
+- 18 cm
+- 21 cm
+W: $\sqrt{81 + 144} = \sqrt{225} = 15$.
+
+Q: The number $\sqrt{2}$ lies between
+- 1.2 and 1.3
+* 1.4 and 1.5
+- 1.5 and 1.6
+- 1.7 and 1.8
+W: $1.4^2 = 1.96$ and $1.5^2 = 2.25$, and 2 lies between them.
+
+Q: A triangle has sides 9 cm, 40 cm and 41 cm. It is
+* right-angled
+- acute-angled
+- obtuse-angled
+- equilateral
+W: $9^2 + 40^2 = 81 + 1600 = 1681 = 41^2$, so the converse of the theorem applies.

@@ -1,0 +1,69 @@
+Q: The area of a triangle with sides 5 cm, 12 cm and 13 cm is
+- 60 sq cm
+* 30 sq cm
+- 32.5 sq cm
+- 78 sq cm
+W: It is right-angled ($25 + 144 = 169$), so the area is $\dfrac{1}{2} \times 5 \times 12$.
+
+Q: The area of an equilateral triangle of side 6 cm is
+- $6\sqrt{3}$ sq cm
+* $9\sqrt{3}$ sq cm
+- $18\sqrt{3}$ sq cm
+- $36\sqrt{3}$ sq cm
+W: $\dfrac{\sqrt{3}}{4} \times 36 = 9\sqrt{3}$.
+
+Q: The perimeter of a rectangle is 46 cm and its length is 15 cm. Its area is
+- 345 sq cm
+* 120 sq cm
+- 240 sq cm
+- 465 sq cm
+W: The breadth is $23 - 15 = 8$ cm, and $15 \times 8 = 120$.
+
+Q: The area of a rhombus is 120 sq cm and one diagonal is 24 cm. The other diagonal is
+- 5 cm
+* 10 cm
+- 20 cm
+- 96 cm
+W: $\dfrac{1}{2} \times 24 \times d = 120$.
+
+Q: The circumference of a circle is 44 cm. Its radius is (take $\pi = \dfrac{22}{7}$)
+- 3.5 cm
+* 7 cm
+- 14 cm
+- 22 cm
+W: $2 \times \dfrac{22}{7} \times r = 44$.
+
+Q: The area of a circle of diameter 14 cm is (take $\pi = \dfrac{22}{7}$)
+- 44 sq cm
+* 154 sq cm
+- 308 sq cm
+- 616 sq cm
+W: The radius is 7 cm, and $\dfrac{22}{7} \times 49 = 154$.
+
+Q: A rectangular field 30 m by 20 m has a path 5 m wide all around it on the outside. The area of the path is
+- 250 sq m
+- 500 sq m
+* 600 sq m
+- 1200 sq m
+W: The outer rectangle is 40 m by 30 m: $1200 - 600 = 600$.
+
+Q: The parallel sides of a trapezium are 20 cm and 12 cm, and its height is 9 cm. Its area is
+- 288 sq cm
+* 144 sq cm
+- 108 sq cm
+- 72 sq cm
+W: $\dfrac{1}{2} \times 32 \times 9 = 144$.
+
+Q: A wheel has radius 35 cm. The distance it covers in 100 revolutions is (take $\pi = \dfrac{22}{7}$)
+- 110 m
+* 220 m
+- 385 m
+- 2200 m
+W: One revolution covers $2 \times \dfrac{22}{7} \times 35 = 220$ cm, so 100 revolutions cover 22,000 cm.
+
+Q: The area of an isosceles triangle with sides 10 cm, 10 cm and 12 cm is
+- 60 sq cm
+* 48 sq cm
+- 50 sq cm
+- 96 sq cm
+W: The altitude to the 12 cm side is $\sqrt{100 - 36} = 8$ cm, and $\dfrac{1}{2} \times 12 \times 8 = 48$.

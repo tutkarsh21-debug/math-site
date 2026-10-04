@@ -1,0 +1,69 @@
+Q: The distance of the point $(8, 15)$ from the origin is
+- 23 units
+* 17 units
+- 7 units
+- 13 units
+W: $\sqrt{64 + 225} = 17$.
+
+Q: The distance between $(-1, 2)$ and $(2, 6)$ is
+- 3 units
+- 4 units
+* 5 units
+- 7 units
+W: $\sqrt{3^2 + 4^2} = 5$.
+
+Q: The point on the $x$-axis that is equidistant from $(2, 3)$ and $(6, 3)$ is
+- $(3, 0)$
+* $(4, 0)$
+- $(8, 0)$
+- $(0, 4)$
+W: $(x - 2)^2 + 9 = (x - 6)^2 + 9$ gives $x = 4$.
+
+Q: The distance between $(x, 0)$ and $(0, 3)$ is 5 units. The values of $x$ are
+- $\pm 2$
+* $\pm 4$
+- $\pm 5$
+- $\pm 8$
+W: $x^2 + 9 = 25$.
+
+Q: For A$(0, 0)$, B$(3, 4)$ and C$(6, 8)$, AB = 5, BC = 5 and AC = 10. The points
+* are collinear
+- form an isosceles triangle
+- form a right triangle
+- form an equilateral triangle
+W: AB + BC = AC.
+
+Q: The triangle with vertices $(0, 0)$, $(4, 0)$ and $(0, 3)$ is
+* right-angled
+- equilateral
+- isosceles
+- obtuse-angled
+W: Its sides are 4, 3 and 5, and $16 + 9 = 25$.
+
+Q: A circle with centre at the origin passes through $(5, 12)$. Its radius is
+- 7 units
+* 13 units
+- 17 units
+- 60 units
+W: $\sqrt{25 + 144} = 13$.
+
+Q: The points $(1, 1)$, $(4, 1)$, $(4, 4)$ and $(1, 4)$, in order, are the vertices of a
+- rectangle that is not a square
+* square
+- rhombus that is not a square
+- trapezium
+W: All four sides are 3 units and both diagonals are $3\sqrt{2}$ units.
+
+Q: The distance of the point $(-3, -4)$ from the origin is
+- 7 units
+- 1 unit
+* 5 units
+- 25 units
+W: $\sqrt{9 + 16} = 5$.
+
+Q: The triangle with vertices $(0, 0)$, $(2, 0)$ and $(1, \sqrt{3})$ is
+- right-angled
+- isosceles but not equilateral
+* equilateral
+- scalene
+W: Each side is 2 units.

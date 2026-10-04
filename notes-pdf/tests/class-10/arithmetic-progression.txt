@@ -1,0 +1,69 @@
+Q: The 15th term of the AP 4, 9, 14, ... is
+- 70
+* 74
+- 75
+- 79
+W: $a + 14d = 4 + 70$.
+
+Q: The common difference of the AP 7, 3, $-1$, $-5$, ... is
+- 4
+* $-4$
+- 10
+- $-10$
+W: $3 - 7 = -4$.
+
+Q: Which term of the AP 3, 8, 13, ... is 78?
+- 15th
+* 16th
+- 17th
+- 25th
+W: $3 + (n - 1) \times 5 = 78$ gives $n - 1 = 15$.
+
+Q: The sum of the first 20 terms of the AP 2, 5, 8, ... is
+- 590
+* 610
+- 620
+- 1220
+W: $\dfrac{20}{2}[2 \times 2 + 19 \times 3] = 10 \times 61$.
+
+Q: The sum of the first 15 odd natural numbers is
+- 120
+- 210
+* 225
+- 240
+W: The sum of the first $n$ odd numbers is $n^2$.
+
+Q: An AP has first term 5, last term 45 and sum 400. The number of terms is
+- 8
+- 10
+* 16
+- 20
+W: $\dfrac{n}{2}(5 + 45) = 400$.
+
+Q: The 3rd term of an AP is 12 and the 7th term is 28. The first term is
+- 2
+* 4
+- 6
+- 8
+W: $4d = 16$ gives $d = 4$, and $a = 12 - 2 \times 4$.
+
+Q: How many two-digit numbers are divisible by 3?
+- 29
+* 30
+- 31
+- 33
+W: From 12 to 99: $\dfrac{99 - 12}{3} + 1 = 30$.
+
+Q: If $k$, $2k - 1$ and $2k + 1$ are consecutive terms of an AP, then $k$ is
+- 2
+* 3
+- 4
+- 5
+W: $2(2k - 1) = k + (2k + 1)$.
+
+Q: The sum of the first $n$ terms of an AP is $3n^2 + n$. Its second term is
+- 4
+* 10
+- 14
+- 16
+W: $a_2 = S_2 - S_1 = 14 - 4$.

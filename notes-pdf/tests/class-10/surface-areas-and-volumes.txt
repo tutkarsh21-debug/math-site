@@ -1,0 +1,69 @@
+Q: A toy is a cone mounted on a hemisphere of the same radius. Its total surface area is
+- CSA of cone + total surface area of hemisphere
+* CSA of cone + CSA of hemisphere
+- total surface area of cone + CSA of hemisphere
+- CSA of cone + area of the base
+W: The two circular faces are joined together, so neither is on the outside.
+
+Q: The volume of a cone of radius 7 cm and height 24 cm is (take $\pi = \dfrac{22}{7}$)
+- 616 cubic cm
+* 1232 cubic cm
+- 3696 cubic cm
+- 2464 cubic cm
+W: $\dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 24$.
+
+Q: A cube of edge 7 cm has a hemisphere of diameter 7 cm fixed on its top face. The total surface area of the solid is (take $\pi = \dfrac{22}{7}$)
+- 294 sq cm
+* 332.5 sq cm
+- 371 sq cm
+- 255.5 sq cm
+W: $6 \times 49 + 2\pi r^2 - \pi r^2 = 294 + \dfrac{22}{7} \times 3.5^2 = 294 + 38.5$.
+
+Q: The curved surface area of a hemisphere of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+* 308 sq cm
+- 462 sq cm
+- 616 sq cm
+W: $2\pi r^2 = 2 \times \dfrac{22}{7} \times 49$.
+
+Q: A metal sphere of radius 3 cm is melted and recast into a cone of base radius 3 cm. The height of the cone is
+- 4 cm
+- 9 cm
+* 12 cm
+- 36 cm
+W: $\dfrac{4}{3}\pi \times 27 = \dfrac{1}{3}\pi \times 9 \times h$.
+
+Q: A metal sphere of radius 6 cm is melted and recast into small spheres of radius 2 cm. The number of small spheres is
+- 3
+- 9
+* 27
+- 81
+W: The volumes are in the ratio $6^3 : 2^3 = 27 : 1$.
+
+Q: The volume of a cylinder of radius 3.5 cm and height 10 cm is (take $\pi = \dfrac{22}{7}$)
+- 110 cubic cm
+- 220 cubic cm
+* 385 cubic cm
+- 770 cubic cm
+W: $\dfrac{22}{7} \times 12.25 \times 10$.
+
+Q: From a solid cylinder of radius 7 cm and height 6 cm, a cone of the same radius and height is removed. The volume of the remaining solid is (take $\pi = \dfrac{22}{7}$)
+- 308 cubic cm
+* 616 cubic cm
+- 924 cubic cm
+- 462 cubic cm
+W: Cylinder 924 cubic cm minus cone 308 cubic cm.
+
+Q: The total surface area of a solid hemisphere of radius $r$ is
+- $2\pi r^2$
+* $3\pi r^2$
+- $4\pi r^2$
+- $\pi r^2$
+W: Curved surface $2\pi r^2$ plus the flat circular face $\pi r^2$.
+
+Q: A cone has radius 6 cm and height 8 cm. Its curved surface area is
+- $48\pi$ sq cm
+* $60\pi$ sq cm
+- $96\pi$ sq cm
+- $36\pi$ sq cm
+W: $l = \sqrt{36 + 64} = 10$, and $\pi r l = 60\pi$.

@@ -1,0 +1,69 @@
+Q: How many circles can pass through three points that are not on one line?
+- None
+* Exactly one
+- Exactly two
+- Infinitely many
+W: The perpendicular bisectors of the segments joining the points meet at one point, the centre.
+
+Q: The perpendicular from the centre of a circle to a chord
+- is equal to the chord
+* bisects the chord
+- is parallel to the chord
+- passes through an end of the chord
+W: The two right triangles formed are congruent.
+
+Q: A chord of length 16 cm is drawn in a circle of radius 10 cm. Its distance from the centre is
+- 4 cm
+* 6 cm
+- 8 cm
+- 12 cm
+W: Half the chord is 8 cm, and $\sqrt{10^2 - 8^2} = 6$.
+
+Q: An arc subtends an angle of 100° at the centre. The angle it subtends at a point on the remaining part of the circle is
+- 100°
+- 200°
+* 50°
+- 80°
+W: The angle at the centre is double the angle at the circumference.
+
+Q: The angle in a semicircle is
+- 45°
+- 60°
+* 90°
+- 180°
+W: It is half of the angle 180° at the centre.
+
+Q: ABCD is a cyclic quadrilateral with $\angle A = 75°$. Then $\angle C$ is
+- 75°
+- 15°
+* 105°
+- 285°
+W: Opposite angles of a cyclic quadrilateral add up to 180°.
+
+Q: Equal chords of a circle are
+- parallel
+- perpendicular
+* equidistant from the centre
+- diameters
+W: Chords of equal length lie at the same distance from the centre.
+
+Q: Angles in the same segment of a circle are
+- complementary
+- supplementary
+* equal
+- right angles
+W: Each is half of the same angle at the centre.
+
+Q: A chord is at a distance of 5 cm from the centre of a circle of radius 13 cm. Its length is
+- 12 cm
+- 18 cm
+* 24 cm
+- 26 cm
+W: Half the chord is $\sqrt{13^2 - 5^2} = 12$ cm.
+
+Q: The longest chord of a circle is its
+- radius
+* diameter
+- arc
+- tangent
+W: A chord through the centre is the longest.

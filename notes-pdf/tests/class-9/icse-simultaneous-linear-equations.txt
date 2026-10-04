@@ -1,0 +1,69 @@
+Q: The solution of $x + y = 7$ and $x - y = 1$ is
+- $x = 3$, $y = 4$
+* $x = 4$, $y = 3$
+- $x = 5$, $y = 2$
+- $x = 6$, $y = 1$
+W: Adding gives $2x = 8$.
+
+Q: If $2x + 3y = 12$ and $x = 3$, then $y$ is
+- 1
+* 2
+- 3
+- 6
+W: $6 + 3y = 12$.
+
+Q: The solution of $3x + 2y = 11$ and $x - 2y = 1$ is
+- $x = 2$, $y = 2.5$
+* $x = 3$, $y = 1$
+- $x = 1$, $y = 4$
+- $x = 5$, $y = 2$
+W: Adding eliminates $y$: $4x = 12$.
+
+Q: If $\dfrac{1}{x} + \dfrac{1}{y} = 5$ and $\dfrac{1}{x} - \dfrac{1}{y} = 1$, then
+- $x = 3$, $y = 2$
+* $x = \dfrac{1}{3}$, $y = \dfrac{1}{2}$
+- $x = \dfrac{1}{2}$, $y = \dfrac{1}{3}$
+- $x = 2$, $y = 3$
+W: Adding gives $\dfrac{2}{x} = 6$, so $\dfrac{1}{x} = 3$ and $\dfrac{1}{y} = 2$.
+
+Q: The sum of two numbers is 50 and their difference is 12. The numbers are
+- 30 and 20
+* 31 and 19
+- 32 and 18
+- 38 and 12
+W: $2x = 62$ gives $x = 31$.
+
+Q: The sum of the digits of a two-digit number is 9. The number is 27 more than the number obtained by reversing its digits. The number is
+- 36
+- 72
+* 63
+- 54
+W: $9(a - b) = 27$ gives $a - b = 3$; with $a + b = 9$, $a = 6$ and $b = 3$.
+
+Q: 5 pens and 3 pencils cost Rs 34, and 3 pens and 5 pencils cost Rs 30. The cost of one pen is
+- Rs 3
+- Rs 4
+* Rs 5
+- Rs 6
+W: Adding gives $p + c = 8$ and subtracting gives $p - c = 2$.
+
+Q: A father is three times as old as his son. After 12 years he will be twice as old. The father's present age is
+- 24 years
+- 30 years
+* 36 years
+- 48 years
+W: $3x + 12 = 2(x + 12)$ gives $x = 12$.
+
+Q: If $x = 2$, $y = 1$ is a solution of $2x + ky = 7$, then $k$ is
+- 1
+- 2
+* 3
+- 5
+W: $4 + k = 7$.
+
+Q: A fraction becomes $\dfrac{1}{2}$ when 1 is added to its numerator, and $\dfrac{1}{3}$ when 1 is added to its denominator. The fraction is
+- $\dfrac{2}{5}$
+* $\dfrac{3}{8}$
+- $\dfrac{4}{9}$
+- $\dfrac{1}{4}$
+W: $2(n + 1) = d$ and $3n = d + 1$ give $n = 3$, $d = 8$.

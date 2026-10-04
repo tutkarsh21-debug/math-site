@@ -1,0 +1,69 @@
+Q: 8 books cost Rs 240. At the same rate, 15 books cost
+- Rs 360
+- Rs 420
+* Rs 450
+- Rs 480
+W: One book costs Rs 30.
+
+Q: $x$ and $y$ vary directly, and $y = 15$ when $x = 6$. When $x = 10$, $y$ is
+- 9
+- 19
+* 25
+- 4
+W: $\dfrac{y}{x} = \dfrac{15}{6} = 2.5$, so $y = 25$.
+
+Q: 12 men can do a piece of work in 15 days. 20 men can do it in
+- 25 days
+- 12 days
+* 9 days
+- 7 days
+W: The work is $12 \times 15 = 180$ man-days, and $180 \div 20 = 9$.
+
+Q: Two quantities $x$ and $y$ vary inversely when
+- $x + y$ is constant
+- $x - y$ is constant
+- $\dfrac{x}{y}$ is constant
+* $xy$ is constant
+W: In inverse variation, when one quantity is doubled the other is halved, so the product stays the same.
+
+Q: A can do a job in 10 days and B in 15 days. Together they can do it in
+- 25 days
+- 12.5 days
+* 6 days
+- 5 days
+W: In one day they do $\dfrac{1}{10} + \dfrac{1}{15} = \dfrac{1}{6}$ of the job.
+
+Q: A and B together finish a job in 4 days. A alone can finish it in 12 days. B alone can finish it in
+- 8 days
+* 6 days
+- 16 days
+- 3 days
+W: B's one-day work is $\dfrac{1}{4} - \dfrac{1}{12} = \dfrac{1}{6}$.
+
+Q: One pipe fills a tank in 6 hours and another in 12 hours. Together they fill it in
+- 18 hours
+- 9 hours
+* 4 hours
+- 3 hours
+W: In one hour they fill $\dfrac{1}{6} + \dfrac{1}{12} = \dfrac{1}{4}$ of the tank.
+
+Q: A car travelling at 60 km/h takes 5 hours for a journey. To finish it in 4 hours, its speed must be
+- 48 km/h
+- 65 km/h
+- 70 km/h
+* 75 km/h
+W: The distance is 300 km, and $300 \div 4 = 75$.
+
+Q: 6 pumps can empty a tank in 8 hours. 4 pumps of the same kind empty it in
+- 5 hours 20 minutes
+- 10 hours
+* 12 hours
+- 16 hours
+W: $6 \times 8 = 48$ pump-hours, and $48 \div 4 = 12$.
+
+Q: 5 workers earn Rs 3000 in 4 days. At the same rate, 8 workers earn in 6 days
+- Rs 4800
+- Rs 5760
+* Rs 7200
+- Rs 9000
+W: One worker earns Rs 150 a day. $8 \times 6 \times 150 = 7200$.

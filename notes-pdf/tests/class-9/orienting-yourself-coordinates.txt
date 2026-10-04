@@ -1,0 +1,69 @@
+Q: The point $(-3, 5)$ lies in which quadrant?
+- I
+* II
+- III
+- IV
+W: A negative $x$ and a positive $y$ place the point in the second quadrant.
+
+Q: Every point on the $x$-axis has
+- $x$-coordinate 0
+* $y$-coordinate 0
+- equal coordinates
+- both coordinates 0
+W: Points on the $x$-axis are of the form $(a, 0)$.
+
+Q: The distance of the point $(4, -7)$ from the $x$-axis is
+- 4 units
+* 7 units
+- 11 units
+- 3 units
+W: The distance from the $x$-axis is the size of the $y$-coordinate.
+
+Q: The distance between $(2, 3)$ and $(5, 7)$ is
+- 3 units
+- 4 units
+* 5 units
+- 7 units
+W: $\sqrt{3^2 + 4^2} = 5$.
+
+Q: The distance of $(-6, 8)$ from the origin is
+- 2 units
+- 14 units
+* 10 units
+- 100 units
+W: $\sqrt{36 + 64} = 10$.
+
+Q: The reflection of $(3, -4)$ in the $x$-axis is
+- $(-3, -4)$
+* $(3, 4)$
+- $(-3, 4)$
+- $(-4, 3)$
+W: Reflection in the $x$-axis changes the sign of the $y$-coordinate only.
+
+Q: The reflection of $(-2, 5)$ in the $y$-axis is
+* $(2, 5)$
+- $(-2, -5)$
+- $(2, -5)$
+- $(5, -2)$
+W: Reflection in the $y$-axis changes the sign of the $x$-coordinate only.
+
+Q: The distance between $(-3, 2)$ and $(5, 2)$ is
+- 2 units
+* 8 units
+- 4 units
+- 10 units
+W: The points are on a line parallel to the $x$-axis, so the distance is $5 - (-3) = 8$.
+
+Q: The mid-point of the segment joining $(1, 4)$ and $(7, -2)$ is
+- $(3, 3)$
+- $(8, 2)$
+* $(4, 1)$
+- $(6, -6)$
+W: $\left(\dfrac{1 + 7}{2}, \dfrac{4 - 2}{2}\right) = (4, 1)$.
+
+Q: For the points A$(1, 2)$, B$(4, 6)$ and C$(7, 10)$, AB = 5, BC = 5 and AC = 10. The points
+* are collinear
+- form an isosceles triangle
+- form a right triangle
+- form an equilateral triangle
+W: AB + BC = AC, so B lies on the segment AC.

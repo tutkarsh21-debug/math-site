@@ -1,0 +1,69 @@
+Q: In triangle ABC, $\angle A = 70°$, $\angle B = 60°$ and $\angle C = 50°$. The longest side is
+- AB
+* BC
+- CA
+- all are equal
+W: The longest side is opposite the greatest angle, A.
+
+Q: In triangle ABC, AB = 5 cm, BC = 7 cm and CA = 6 cm. The greatest angle is
+* $\angle A$
+- $\angle B$
+- $\angle C$
+- none, as all are equal
+W: The greatest angle is opposite the longest side, BC.
+
+Q: Which set of lengths can be the sides of a triangle?
+- 3 cm, 4 cm, 8 cm
+- 2 cm, 3 cm, 5 cm
+* 5 cm, 7 cm, 11 cm
+- 1 cm, 2 cm, 4 cm
+W: $5 + 7 > 11$. In the others the two smaller lengths do not add up to more than the largest.
+
+Q: Two sides of a triangle are 6 cm and 9 cm. The third side $x$ satisfies
+- $x > 15$
+* $3 < x < 15$
+- $x < 3$
+- $6 < x < 9$
+W: The third side lies between the difference and the sum of the other two.
+
+Q: Of all the segments from a point to a line, the shortest is
+- the longest one drawn
+* the perpendicular
+- the one making 45° with the line
+- the one to the end of the line
+W: In each right triangle formed, the perpendicular is a leg and the other segment is the hypotenuse.
+
+Q: In a right-angled triangle, the longest side is
+- the base
+- the perpendicular
+* the hypotenuse
+- any of the three
+W: It is opposite the greatest angle, 90°.
+
+Q: The sum of any two sides of a triangle is
+- equal to the third side
+- less than the third side
+* greater than the third side
+- twice the third side
+W: This is the triangle inequality.
+
+Q: In triangle PQR, PQ > PR. Then
+- $\angle Q > \angle R$
+* $\angle R > \angle Q$
+- $\angle Q = \angle R$
+- $\angle P > \angle R$
+W: The angle opposite the longer side is greater. PQ is opposite R and PR is opposite Q.
+
+Q: Two sides of a triangle are 4 cm and 7 cm. How many whole-number values (in cm) can the third side take?
+- 5
+- 6
+* 7
+- 8
+W: $3 < x < 11$, so $x$ can be 4, 5, 6, 7, 8, 9 or 10.
+
+Q: In triangle ABC, $\angle A = 100°$ and $\angle B = 50°$. The shortest side is
+* AB
+- BC
+- CA
+- BC and CA together
+W: $\angle C = 30°$ is the smallest angle, and AB is opposite C.

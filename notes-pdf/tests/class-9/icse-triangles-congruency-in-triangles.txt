@@ -1,0 +1,69 @@
+Q: Two angles of a triangle are 50° and 60°. The exterior angle at the third vertex is
+- 70°
+* 110°
+- 120°
+- 130°
+W: An exterior angle equals the sum of the two interior opposite angles.
+
+Q: Which of these is not a condition for congruency of triangles?
+- SSS
+- SAS
+- ASA
+* AAA
+W: Triangles with equal angles have the same shape but can have different sizes.
+
+Q: The RHS condition applies only to
+- equilateral triangles
+- isosceles triangles
+* right-angled triangles
+- obtuse-angled triangles
+W: R stands for right angle, H for hypotenuse and S for side.
+
+Q: $\triangle ABC \cong \triangle PQR$, with AB = 5 cm, BC = 7 cm and $\angle B = 60°$. Then PQ is
+* 5 cm
+- 7 cm
+- 6 cm
+- 12 cm
+W: PQ corresponds to AB, because the order of the letters shows the matching vertices.
+
+Q: C.P.C.T. stands for
+- common parts of congruent triangles
+* corresponding parts of congruent triangles
+- corresponding points of common triangles
+- congruent parts of corresponding triangles
+W: Once two triangles are proved congruent, their matching sides and angles are equal.
+
+Q: The angles of a triangle are in the ratio 2 : 3 : 4. The largest angle is
+- 60°
+* 80°
+- 90°
+- 100°
+W: 9 parts make 180°, so one part is 20°.
+
+Q: In triangles ABC and DEF, AB = DE, $\angle B = \angle E$ and BC = EF. The triangles are congruent by
+- SSS
+* SAS
+- ASA
+- RHS
+W: The equal angle lies between the two pairs of equal sides.
+
+Q: If $\triangle ABC \cong \triangle FED$, then $\angle A$ is equal to
+- $\angle D$
+- $\angle E$
+* $\angle F$
+- $\angle B$
+W: A is the first letter and matches F, the first letter of the other triangle.
+
+Q: Two congruent triangles always have
+- different perimeters
+* equal areas
+- different angles
+- one side in common
+W: Congruent figures coincide exactly, so their areas are equal.
+
+Q: The angles of a triangle are $(x + 10)°$, $(2x - 30)°$ and $x°$. The value of $x$ is
+- 40
+* 50
+- 55
+- 60
+W: $4x - 20 = 180$.

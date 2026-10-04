@@ -1,0 +1,69 @@
+Q: Class A has 20 students with mean marks 60, and class B has 30 students with mean marks 70. The mean for all 50 students is
+- 64
+- 65
+* 66
+- 67
+W: $\dfrac{20 \times 60 + 30 \times 70}{50} = \dfrac{3300}{50} = 66$.
+
+Q: The average of two group averages equals the overall average only when
+- the groups have the same average
+* the groups have the same size
+- the groups are large
+- always
+W: Otherwise the larger group must be given more weight.
+
+Q: 2 kg of rice at Rs 40 per kg is mixed with 3 kg of rice at Rs 50 per kg. The cost of the mixture per kg is
+- Rs 44
+- Rs 45
+* Rs 46
+- Rs 48
+W: $\dfrac{2 \times 40 + 3 \times 50}{5} = \dfrac{230}{5} = 46$.
+
+Q: A test has weight 40% and an exam has weight 60%. A student scores 70 in the test and 80 in the exam. The final score is
+- 74
+- 75
+* 76
+- 78
+W: $0.4 \times 70 + 0.6 \times 80 = 28 + 48$.
+
+Q: The mean of 9 values is 20. A tenth value, 30, is added. The new mean is
+- 20
+* 21
+- 23
+- 25
+W: $\dfrac{180 + 30}{10} = 21$.
+
+Q: The mean of 6 values is 15. One value, 25, is removed. The mean of the remaining values is
+- 10
+- 12
+* 13
+- 14
+W: $\dfrac{90 - 25}{5} = 13$.
+
+Q: In a 100% stacked bar chart, every bar
+- has a different total height
+* has the same total height
+- shows only one category
+- starts at a different level
+W: Each bar is the whole (100%), divided into parts by percentage.
+
+Q: A stacked bar chart shows
+- only the totals
+- only one part of each total
+* each total and the parts that make it up
+- how one quantity changes continuously over time
+W: The segments of a bar are the parts, and the full bar is the total.
+
+Q: A car travels 60 km at 30 km/h and the next 60 km at 60 km/h. Its average speed for the whole journey is
+- 45 km/h
+* 40 km/h
+- 50 km/h
+- 35 km/h
+W: The total time is $2 + 1 = 3$ hours for 120 km. The two speeds are weighted by the time spent, not averaged directly.
+
+Q: The weighted mean of 10 with weight 1 and 20 with weight 3 is
+- 15
+- 16
+* 17.5
+- 18.5
+W: $\dfrac{10 \times 1 + 20 \times 3}{4} = \dfrac{70}{4} = 17.5$.

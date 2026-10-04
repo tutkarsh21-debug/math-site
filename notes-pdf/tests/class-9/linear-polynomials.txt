@@ -1,0 +1,69 @@
+Q: The degree of the polynomial $5x - 7$ is
+- 0
+* 1
+- 5
+- 7
+W: The highest power of $x$ is 1, so it is a linear polynomial.
+
+Q: If $p(x) = 3x - 4$, then $p(2)$ is
+- $-2$
+* 2
+- 6
+- 10
+W: $3 \times 2 - 4 = 2$.
+
+Q: The zero of $p(x) = 2x + 6$ is
+- 3
+- 6
+* $-3$
+- $-6$
+W: $2x + 6 = 0$ gives $x = -3$.
+
+Q: Which of these is not a polynomial?
+- $3x + 1$
+- $x^2 - 5$
+- 7
+* $\sqrt{x} + 2$
+W: In a polynomial, the exponents of the variable are whole numbers. $\sqrt{x} = x^{1/2}$.
+
+Q: The $n$th term of the pattern 5, 8, 11, 14, ... is
+- $n + 4$
+- $5n$
+* $3n + 2$
+- $3n + 5$
+W: The terms go up by 3, and the first term is $3 \times 1 + 2 = 5$.
+
+Q: A plant is 10 cm tall and grows 2 cm every week. Its height after $w$ weeks is
+- $12w$ cm
+- $10w + 2$ cm
+* $10 + 2w$ cm
+- $2w$ cm
+W: Start at 10 and add 2 for each week.
+
+Q: A tank holds 500 litres and leaks 20 litres every hour. It will be empty after
+- 20 hours
+* 25 hours
+- 48 hours
+- 480 hours
+W: $500 - 20t = 0$ gives $t = 25$.
+
+Q: The graph of $y = 2x + 3$ cuts the $y$-axis at
+- $(3, 0)$
+- $(0, 2)$
+* $(0, 3)$
+- $(2, 3)$
+W: On the $y$-axis $x = 0$, so $y = 3$.
+
+Q: The coefficient of $x$ in $7 - 4x$ is
+- 7
+- 4
+* $-4$
+- 3
+W: The sign belongs to the coefficient.
+
+Q: A taxi charges a fixed Rs 50 and Rs 12 per km. The fare for 8 km is
+- Rs 96
+- Rs 136
+* Rs 146
+- Rs 496
+W: $50 + 12 \times 8 = 146$.

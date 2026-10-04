@@ -1,0 +1,69 @@
+Q: The total surface area of a cuboid 5 cm by 4 cm by 3 cm is
+- 47 sq cm
+- 60 sq cm
+* 94 sq cm
+- 120 sq cm
+W: $2(20 + 12 + 15) = 94$.
+
+Q: The curved surface area of a cone of radius 7 cm and slant height 25 cm is (take $\pi = \dfrac{22}{7}$)
+- 275 sq cm
+* 550 sq cm
+- 704 sq cm
+- 1100 sq cm
+W: $\pi r l = \dfrac{22}{7} \times 7 \times 25$.
+
+Q: The volume of a cone of radius 3 cm and height 4 cm is
+- $36\pi$ cubic cm
+* $12\pi$ cubic cm
+- $16\pi$ cubic cm
+- $48\pi$ cubic cm
+W: $\dfrac{1}{3}\pi \times 9 \times 4 = 12\pi$.
+
+Q: A cone has radius 5 cm and height 12 cm. Its slant height is
+- 7 cm
+* 13 cm
+- 17 cm
+- 60 cm
+W: $l = \sqrt{5^2 + 12^2} = 13$.
+
+Q: The surface area of a sphere of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 sq cm
+- 308 sq cm
+* 616 sq cm
+- 1232 sq cm
+W: $4\pi r^2 = 4 \times \dfrac{22}{7} \times 49$.
+
+Q: The volume of a hemisphere of radius 3 cm is
+- $9\pi$ cubic cm
+* $18\pi$ cubic cm
+- $27\pi$ cubic cm
+- $36\pi$ cubic cm
+W: $\dfrac{2}{3}\pi \times 27 = 18\pi$.
+
+Q: If the radius of a sphere is doubled, its volume becomes
+- 2 times
+- 4 times
+- 6 times
+* 8 times
+W: Volume depends on $r^3$, and $2^3 = 8$.
+
+Q: The volume of a cylinder of radius 7 cm and height 5 cm is (take $\pi = \dfrac{22}{7}$)
+- 220 cubic cm
+- 385 cubic cm
+* 770 cubic cm
+- 1540 cubic cm
+W: $\dfrac{22}{7} \times 49 \times 5 = 770$.
+
+Q: A stone is dropped into a cylindrical jar of radius 7 cm and the water level rises by 2 cm. The volume of the stone is (take $\pi = \dfrac{22}{7}$)
+- 88 cubic cm
+- 154 cubic cm
+* 308 cubic cm
+- 616 cubic cm
+W: The stone pushes up a cylinder of water: $\dfrac{22}{7} \times 49 \times 2$.
+
+Q: A pyramid has a square base of side 6 cm and height 4 cm. Its volume is
+- 144 cubic cm
+- 72 cubic cm
+* 48 cubic cm
+- 24 cubic cm
+W: $\dfrac{1}{3} \times 36 \times 4 = 48$.

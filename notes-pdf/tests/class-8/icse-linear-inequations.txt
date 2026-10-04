@@ -1,0 +1,69 @@
+Q: If $x + 3 < 7$ and $x$ is a natural number, the solution set is
+- $\{0, 1, 2, 3\}$
+* $\{1, 2, 3\}$
+- $\{1, 2, 3, 4\}$
+- $\{4, 5, 6, \ldots\}$
+W: $x < 4$, and natural numbers start from 1.
+
+Q: The solution of $-2x > 6$ is
+- $x > -3$
+* $x < -3$
+- $x > 3$
+- $x < 3$
+W: Dividing by a negative number reverses the inequality sign.
+
+Q: If $3x - 5 \le 7$ and $x$ is a whole number, the solution set is
+- $\{1, 2, 3, 4\}$
+- $\{0, 1, 2, 3\}$
+* $\{0, 1, 2, 3, 4\}$
+- $\{4, 5, 6, \ldots\}$
+W: $3x \le 12$, so $x \le 4$, and whole numbers start from 0.
+
+Q: When both sides of an inequation are multiplied by the same negative number, the inequality sign
+- stays the same
+* is reversed
+- becomes an equals sign
+- disappears
+W: For example $2 < 3$ but $-2 > -3$.
+
+Q: The replacement set is $\{-2, -1, 0, 1, 2\}$. The solution set of $2x + 1 > 1$ is
+- $\{0, 1, 2\}$
+* $\{1, 2\}$
+- $\{-2, -1\}$
+- $\{2\}$
+W: $2x > 0$, so $x > 0$. Only 1 and 2 from the replacement set satisfy this.
+
+Q: If $-3 < x \le 2$ and $x$ is an integer, the solution set is
+- $\{-3, -2, -1, 0, 1, 2\}$
+- $\{-2, -1, 0, 1\}$
+* $\{-2, -1, 0, 1, 2\}$
+- $\{-3, -2, -1, 0, 1\}$
+W: $-3$ is not included, but 2 is.
+
+Q: The greatest integer that satisfies $2x + 3 < 12$ is
+- 3
+* 4
+- 5
+- 6
+W: $x < 4.5$, and the greatest integer below 4.5 is 4.
+
+Q: The smallest natural number that satisfies $5x - 3 > 12$ is
+- 2
+- 3
+* 4
+- 5
+W: $x > 3$, so the smallest natural number is 4.
+
+Q: On a number line, $x \ge 2$ (for real $x$) is shown by
+- a hollow circle at 2 and a line to the right
+* a solid dot at 2 and a line to the right
+- a solid dot at 2 and a line to the left
+- a hollow circle at 2 and a line to the left
+W: The solid dot shows that 2 is included, and larger numbers lie to the right.
+
+Q: The solution of $4 - x \ge 1$ is
+- $x \ge 3$
+* $x \le 3$
+- $x \ge -3$
+- $x \le -3$
+W: $-x \ge -3$, and multiplying by $-1$ reverses the sign.

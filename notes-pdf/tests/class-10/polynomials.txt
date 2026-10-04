@@ -1,0 +1,69 @@
+Q: The zeroes of $x^2 - 5x + 6$ are
+- 1 and 6
+* 2 and 3
+- $-2$ and $-3$
+- $-1$ and 6
+W: $x^2 - 5x + 6 = (x - 2)(x - 3)$.
+
+Q: The sum of the zeroes of $2x^2 - 8x + 6$ is
+- $-4$
+- 3
+* 4
+- 8
+W: Sum $= -\dfrac{b}{a} = \dfrac{8}{2}$.
+
+Q: The product of the zeroes of $3x^2 + 5x - 6$ is
+- 2
+* $-2$
+- $-\dfrac{5}{3}$
+- $-6$
+W: Product $= \dfrac{c}{a} = \dfrac{-6}{3}$.
+
+Q: The graph of $y = p(x)$ cuts the $x$-axis at three points. The number of zeroes of $p(x)$ is
+- 1
+- 2
+* 3
+- 4
+W: Each point where the graph meets the $x$-axis gives a zero.
+
+Q: A quadratic polynomial whose zeroes have sum 4 and product $-5$ is
+- $x^2 + 4x - 5$
+* $x^2 - 4x - 5$
+- $x^2 - 4x + 5$
+- $x^2 - 5x + 4$
+W: Use $x^2 - (\text{sum})x + (\text{product})$.
+
+Q: If $\alpha$ and $\beta$ are the zeroes of $x^2 - 6x + 8$, then $\alpha^2 + \beta^2$ is
+- 36
+- 28
+* 20
+- 52
+W: $(\alpha + \beta)^2 - 2\alpha\beta = 36 - 16$.
+
+Q: If $\alpha$ and $\beta$ are the zeroes of $x^2 - 5x + 6$, then $\dfrac{1}{\alpha} + \dfrac{1}{\beta}$ is
+- $\dfrac{6}{5}$
+* $\dfrac{5}{6}$
+- 5
+- $\dfrac{1}{6}$
+W: $\dfrac{\alpha + \beta}{\alpha\beta} = \dfrac{5}{6}$.
+
+Q: One zero of $x^2 + kx - 12$ is 3. The value of $k$ is
+- $-1$
+* 1
+- 4
+- $-4$
+W: $9 + 3k - 12 = 0$.
+
+Q: The sum of the zeroes of the cubic polynomial $x^3 - 6x^2 + 11x - 6$ is
+- $-6$
+* 6
+- 11
+- $-11$
+W: For $ax^3 + bx^2 + cx + d$, the sum of the zeroes is $-\dfrac{b}{a}$.
+
+Q: The zeroes of $x^2 - 7$ are
+- 7 and $-7$
+* $\sqrt{7}$ and $-\sqrt{7}$
+- 0 and 7
+- 49 and $-49$
+W: $x^2 = 7$ gives $x = \pm\sqrt{7}$.
