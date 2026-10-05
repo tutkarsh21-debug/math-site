@@ -1,5 +1,5 @@
 T: Exercise 14.1
-Q: [Q1] Complete the statements: (i) Probability of an event E $+$ probability of the event "not E" $=$ ___. (ii) The probability of an event that cannot happen is ___. Such an event is called ___. (iii) The probability of an event that is certain to happen is ___. Such an event is called ___. (iv) The sum of the probabilities of all the elementary events of an experiment is ___. (v) The probability of an event is greater than or equal to ___ and less than or equal to ___.
+Q: [Q1] Fill in the blanks: (i) $P(E) + P(\text{not } E) =$ ___. (ii) An event that can never happen has probability ___ and is called an ___ event. (iii) An event that is bound to happen has probability ___ and is called a ___ event. (iv) Adding the probabilities of all the elementary events of an experiment always gives ___. (v) The probability of any event lies between ___ and ___, both included.
 S: **Answer: (i) 1 (ii) 0, an impossible event (iii) 1, a sure (certain) event (iv) 1 (v) 0 and 1**
 Q: [Q2] Which experiments have equally likely outcomes? Explain. (i) A driver tries to start a car; it starts or does not start. (ii) A player shoots a basketball; the shot is made or missed. (iii) A true-false question is answered; the answer is right or wrong. (iv) A baby is born; it is a boy or a girl.
 S: Outcomes are equally likely when there is no reason to expect one more than another.
@@ -11,7 +11,7 @@ S: **Answer: (iii) and (iv) have equally likely outcomes**
 Q: [Q3] Why is tossing a coin a fair way to decide which team gets the ball at the start of a football game?
 S: A coin has only two outcomes, head and tail, and they are equally likely. Neither team can predict or control the result.
 S: **Answer: because each team has the same probability, $\dfrac{1}{2}$, of winning the toss**
-Q: [Q4] Which of these cannot be the probability of an event? (A) $\dfrac{2}{3}$ (B) $-1.5$ (C) 15% (D) 0.7
+Q: [Q4] Which of these values is impossible as the probability of an event? (A) $\dfrac{2}{3}$ (B) $-1.5$ (C) 15% (D) 0.7
 S: A probability always lies from 0 to 1. $\dfrac{2}{3}$, $15\% = 0.15$ and $0.7$ are in this range, but $-1.5$ is negative.
 S: **Answer: (B) $-1.5$**
 Q: [Q5] If $P(E) = 0.05$, find the probability of "not E".
@@ -40,10 +40,10 @@ S: **Answer: $\dfrac{5}{13}$**
 Q: [Q12] An arrow is spun and comes to rest pointing at one of the numbers 1 to 8, all equally likely. Find the probability that it points at (i) 8 (ii) an odd number (iii) a number greater than 2 (iv) a number less than 9.
 S: There are 8 outcomes. (i) One outcome: $\dfrac{1}{8}$. (ii) 1, 3, 5, 7: $\dfrac{4}{8} = \dfrac{1}{2}$. (iii) 3, 4, 5, 6, 7, 8: $\dfrac{6}{8} = \dfrac{3}{4}$. (iv) All 8 numbers: $\dfrac{8}{8} = 1$.
 S: **Answer: (i) $\dfrac{1}{8}$ (ii) $\dfrac{1}{2}$ (iii) $\dfrac{3}{4}$ (iv) 1**
-Q: [Q13] A die is thrown once. Find the probability of getting (i) a prime number (ii) a number lying between 2 and 6 (iii) an odd number.
+Q: [Q13] A die is rolled once. What is the probability that the number shown is (i) prime (ii) strictly between 2 and 6 (iii) odd?
 S: There are 6 outcomes. (i) 2, 3, 5: $\dfrac{3}{6} = \dfrac{1}{2}$. (ii) 3, 4, 5: $\dfrac{3}{6} = \dfrac{1}{2}$. (iii) 1, 3, 5: $\dfrac{3}{6} = \dfrac{1}{2}$.
 S: **Answer: $\dfrac{1}{2}$ in each case**
-Q: [Q14] One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting (i) a king of red colour (ii) a face card (iii) a red face card (iv) the jack of hearts (v) a spade (vi) the queen of diamonds.
+Q: [Q14] A card is picked at random from a well-shuffled pack of 52. Find the probability that it is (i) a red king (ii) a face card (iii) a red face card (iv) the jack of hearts (v) a spade (vi) the queen of diamonds.
 S: (i) There are 2 red kings: $\dfrac{2}{52} = \dfrac{1}{26}$.
 S: (ii) There are 12 face cards (jack, queen, king in 4 suits): $\dfrac{12}{52} = \dfrac{3}{13}$.
 S: (iii) There are 6 red face cards: $\dfrac{6}{52} = \dfrac{3}{26}$.

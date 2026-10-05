@@ -23,12 +23,12 @@ S: **Answer: (b) 4**
 Q: [1 mark] The roots of $2x^2 - 5x + 3 = 0$ are: (a) real and equal  (b) real and distinct  (c) not real  (d) both negative
 S: $D = b^2 - 4ac = 25 - 24 = 1 > 0$, so the roots are real and distinct (they are $1$ and $\dfrac{3}{2}$).
 S: **Answer: (b) real and distinct**
-Q: [1 mark] The 15th term of the AP $7, 13, 19, \dots$ is: (a) 85  (b) 91  (c) 97  (d) 105
-S: $a = 7$, $d = 6$: $a_{15} = 7 + 14 \times 6 = 91$.
-S: **Answer: (b) 91**
-Q: [1 mark] The sum of the first 10 terms of the AP $2, 5, 8, \dots$ is: (a) 145  (b) 150  (c) 155  (d) 165
-S: $S_{10} = \dfrac{10}{2}\,[2 \times 2 + 9 \times 3] = 5 \times 31 = 155$.
-S: **Answer: (c) 155**
+Q: [1 mark] What is the 15th term of the AP $8, 14, 20, \dots$? (a) 86  (b) 92  (c) 98  (d) 104
+S: $a = 8$, $d = 6$: $a_{15} = 8 + 14 \times 6 = 92$.
+S: **Answer: (b) 92**
+Q: [1 mark] Find the sum of the first 10 terms of the AP $3, 7, 11, \dots$: (a) 190  (b) 200  (c) 210  (d) 220
+S: $S_{10} = \dfrac{10}{2}\,[2 \times 3 + 9 \times 4] = 5 \times 42 = 210$.
+S: **Answer: (c) 210**
 Q: [1 mark] The distance between the points $(-3, 4)$ and $(5, -2)$ is: (a) 6 units  (b) 8 units  (c) 10 units  (d) 14 units
 S: Distance $= \sqrt{(5 + 3)^2 + (-2 - 4)^2} = \sqrt{64 + 36} = 10$ units.
 S: **Answer: (c) 10 units**
@@ -106,7 +106,7 @@ S: Sum of zeroes $= -\dfrac{1}{3} + \dfrac{3}{2} = \dfrac{7}{6} = -\dfrac{b}{a}$
 S: **OR:** Let the tens digit be $x$ and the units digit be $y$. Then $x + y = 9$, and $(10y + x) - (10x + y) = 27$ gives $y - x = 3$.
 S: Adding the two equations, $2y = 12$, so $y = 6$ and $x = 3$.
 S: **Answer: zeroes $-\dfrac{1}{3}$ and $\dfrac{3}{2}$; or the number is 36**
-Q: [3 marks] Prove that the lengths of the two tangents drawn from an external point to a circle are equal.
+Q: [3 marks] Show that the two tangent segments drawn to a circle from a point outside it are equal in length.
 S: Let $PA$ and $PB$ be the tangents from an external point $P$ to a circle with centre $O$. Join $OA$, $OB$ and $OP$.
 !fig w=320 h=220; P O 110 110 l; P P 260 110 r; P A 134 55 t; P B 134 165 b; C O 60; L P A; L P B; D O A; D O B; D O P; R O A P; R O B P
 S: In $\triangle OAP$ and $\triangle OBP$: $\angle OAP = \angle OBP = 90°$ (a radius is perpendicular to the tangent at the point of contact), $OA = OB$ (radii) and $OP = OP$ (common).
@@ -117,7 +117,7 @@ S: LHS $= \dfrac{\sin^2\theta + (1 + \cos\theta)^2}{\sin\theta\,(1 + \cos\theta)
 S: $= \dfrac{2 + 2\cos\theta}{\sin\theta\,(1 + \cos\theta)}$, using $\sin^2\theta + \cos^2\theta = 1$
 S: $= \dfrac{2(1 + \cos\theta)}{\sin\theta\,(1 + \cos\theta)} = \dfrac{2}{\sin\theta}$
 S: **$= 2\,\text{cosec}\,\theta =$ RHS. Proved.**
-Q: [3 marks] A chord of a circle of radius 14 cm subtends a right angle at the centre. Find the area of the minor segment. **OR** The minute hand of a clock is 10.5 cm long. Find the area it sweeps in 20 minutes.
+Q: [3 marks] In a circle of radius 14 cm, a chord subtends a right angle at the centre. Find the area of the minor segment it cuts off. **OR** The minute hand of a clock is 10.5 cm long. Find the area it sweeps in 20 minutes.
 S: Area of the sector $= \dfrac{90}{360} \times \dfrac{22}{7} \times 14 \times 14 = 154$ cm$^2$.
 S: Area of the right triangle formed by the two radii $= \dfrac{1}{2} \times 14 \times 14 = 98$ cm$^2$.
 S: Area of the minor segment $= 154 - 98 = 56$ cm$^2$.

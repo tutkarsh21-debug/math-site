@@ -11,7 +11,7 @@ Q: [Q3] A toy is a cone of radius 3.5 cm mounted on a hemisphere of the same rad
 S: Height of the cone $= 15.5 - 3.5 = 12$ cm, so its slant height is $l = \sqrt{3.5^2 + 12^2} = \sqrt{156.25} = 12.5$ cm.
 S: Total surface area $= \pi r l + 2\pi r^2 = \pi r(l + 2r) = \dfrac{22}{7} \times 3.5 \times (12.5 + 7) = 11 \times 19.5 = 214.5$.
 S: **Answer: 214.5 cm$^2$**
-Q: [Q4] A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.
+Q: [Q4] A cube of side 7 cm has a hemisphere placed on top of it. What is the largest possible diameter of the hemisphere? Find the total surface area of the combined solid.
 S: The hemisphere must fit on one face of the cube, so its greatest diameter is 7 cm and $r = 3.5$ cm.
 S: Surface area $=$ surface of the cube $-$ area of the circle covered $+$ curved surface of the hemisphere $= 6 \times 49 - \pi r^2 + 2\pi r^2 = 294 + \pi r^2$.
 S: $= 294 + \dfrac{22}{7} \times 3.5 \times 3.5 = 294 + 38.5 = 332.5$.
@@ -29,7 +29,7 @@ S: $r = 2$ m. Canvas area $=$ curved surface of the cylinder $+$ curved surface 
 S: $= \dfrac{22}{7} \times 2 \times (4.2 + 2.8) = 44$ m$^2$.
 S: Cost $= 44 \times 500 =$ ₹22,000.
 S: **Answer: 44 m$^2$ and ₹22,000**
-Q: [Q8] From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm$^2$.
+Q: [Q8] A solid cylinder of height 2.4 cm and diameter 1.4 cm has a cone of the same height and diameter carved out of it. Find the total surface area of what is left, to the nearest cm$^2$.
 S: $r = 0.7$ cm, $h = 2.4$ cm, and the slant height of the cone is $l = \sqrt{0.7^2 + 2.4^2} = \sqrt{6.25} = 2.5$ cm.
 S: Total surface area $=$ curved surface of the cylinder $+$ one circular base $+$ curved surface of the cone $= 2\pi r h + \pi r^2 + \pi r l = \pi r(2h + r + l)$.
 S: $= \dfrac{22}{7} \times 0.7 \times (4.8 + 0.7 + 2.5) = 2.2 \times 8 = 17.6$ cm$^2$.

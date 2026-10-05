@@ -1,5 +1,5 @@
 T: Exercise 6.1
-Q: [Q1] Fill in the blanks with the correct word from the brackets: (i) All circles are ___. (congruent, similar) (ii) All squares are ___. (similar, congruent) (iii) All ___ triangles are similar. (isosceles, equilateral) (iv) Two polygons with the same number of sides are similar if (a) their corresponding angles are ___ and (b) their corresponding sides are ___. (equal, proportional)
+Q: [Q1] Choose the right word: (i) Any two circles are ___. (congruent, similar) (ii) Any two squares are ___. (similar, congruent) (iii) Any two ___ triangles are similar. (isosceles, equilateral) (iv) Two polygons with equal numbers of sides are similar when (a) their matching angles are ___ and (b) their matching sides are ___. (equal, proportional)
 S: Similar figures have the same shape but not always the same size. Circles and squares can differ in size, so they are similar, not always congruent.
 S: **Answer: (i) similar (ii) similar (iii) equilateral (iv) (a) equal (b) proportional**
 Q: [Q2] Give two different examples of a pair of (i) similar figures (ii) non-similar figures.
@@ -46,7 +46,7 @@ S: In $\triangle OPQ$, $AB \parallel PQ$, so $\dfrac{OA}{AP} = \dfrac{OB}{BQ}$.
 S: In $\triangle OPR$, $AC \parallel PR$, so $\dfrac{OA}{AP} = \dfrac{OC}{CR}$.
 S: So $\dfrac{OB}{BQ} = \dfrac{OC}{CR}$ in $\triangle OQR$.
 S: **By the converse of the Basic Proportionality Theorem, $BC \parallel QR$.**
-Q: [Q7] Using the Basic Proportionality Theorem, prove that a line through the mid-point of one side of a triangle, parallel to another side, bisects the third side.
+Q: [Q7] Use the Basic Proportionality Theorem to prove that a line parallel to one side of a triangle and passing through the mid-point of a second side also bisects the third side.
 S: In $\triangle ABC$, let $D$ be the mid-point of $AB$ and let the line through $D$ parallel to $BC$ meet $AC$ at $E$.
 S: Since $DE \parallel BC$, $\dfrac{AD}{DB} = \dfrac{AE}{EC}$. But $AD = DB$, so $\dfrac{AE}{EC} = 1$.
 S: **Hence $AE = EC$, so $E$ is the mid-point of $AC$.**
@@ -149,7 +149,7 @@ S: In $\triangle ABD$ and $\triangle ECD$: $AD = ED$, $BD = CD$ and $\angle ADB 
 S: Given $\dfrac{AB}{PQ} = \dfrac{AC}{PR} = \dfrac{AD}{PM}$. So $\dfrac{CE}{RN} = \dfrac{AC}{PR} = \dfrac{2AD}{2PM} = \dfrac{AE}{PN}$, and $\triangle ACE \sim \triangle PRN$ (SSS). Hence $\angle CAD = \angle RPM$.
 S: Joining $BE$ and $QN$ and repeating the argument gives $\angle BAD = \angle QPM$. Adding, $\angle BAC = \angle QPR$.
 S: **With $\dfrac{AB}{PQ} = \dfrac{AC}{PR}$ and $\angle A = \angle P$, $\triangle ABC \sim \triangle PQR$ (SAS).**
-Q: [Q15] A vertical pole 6 m high casts a shadow 4 m long. At the same time a tower casts a shadow 28 m long. Find the height of the tower.
+Q: [Q15] A 6 m tall pole throws a 4 m long shadow. At that moment a tower throws a shadow 28 m long. How tall is the tower?
 S: At the same time the sun's rays make the same angle with the ground, so the right triangles formed by the pole and the tower with their shadows are similar (AA).
 S: $\dfrac{\text{height of tower}}{28} = \dfrac{6}{4}$, so the height is $\dfrac{6 \times 28}{4} = 42$ m.
 S: **Answer: 42 m**

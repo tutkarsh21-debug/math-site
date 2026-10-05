@@ -61,11 +61,11 @@ S: From the first equation, $2x = 11 - 3y$. Substituting in the second: $11 - 3y
 S: Then $2x = 11 - 15 = -4$, so $x = -2$.
 S: In $y = mx + 3$: $5 = -2m + 3$, so $m = -1$.
 S: **Answer: $x = -2$, $y = 5$ and $m = -1$**
-Q: [Q3 (i)] The difference between two numbers is 26, and one number is three times the other. Find them.
+Q: [Q3 (i)] Two numbers differ by 26, and one of them is three times the other. What are the numbers?
 S: Let the numbers be $x$ and $y$ with $x > y$. Then $x - y = 26$ and $x = 3y$.
 S: Substituting, $3y - y = 26$, so $y = 13$ and $x = 39$.
 S: **Answer: 39 and 13**
-Q: [Q3 (ii)] The larger of two supplementary angles exceeds the smaller by $18°$. Find them.
+Q: [Q3 (ii)] Two angles are supplementary, and the bigger one is $18°$ more than the smaller one. Find both angles.
 S: Let the angles be $x°$ and $y°$ with $x > y$. Then $x + y = 180$ and $x = y + 18$.
 S: Substituting, $2y + 18 = 180$, so $y = 81$ and $x = 99$.
 S: **Answer: $99°$ and $81°$**

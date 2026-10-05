@@ -39,7 +39,7 @@ Q: [Q4] Find two consecutive positive integers the sum of whose squares is 365.
 S: Let the integers be $x$ and $x + 1$. Then $x^2 + (x + 1)^2 = 365$, so $2x^2 + 2x - 364 = 0$, that is $x^2 + x - 182 = 0$.
 S: $(x + 14)(x - 13) = 0$. Since $x$ is positive, $x = 13$.
 S: **Answer: 13 and 14**
-Q: [Q5] The altitude of a right triangle is 7 cm less than its base, and the hypotenuse is 13 cm. Find the other two sides.
+Q: [Q5] A right triangle has hypotenuse 13 cm, and its height is 7 cm shorter than its base. Find the base and the height.
 S: Let the base be $x$ cm, so the altitude is $(x - 7)$ cm. By the Pythagoras theorem, $x^2 + (x - 7)^2 = 13^2$.
 S: $2x^2 - 14x + 49 = 169$ gives $x^2 - 7x - 60 = 0$, so $(x - 12)(x + 5) = 0$.
 S: A length cannot be negative, so $x = 12$. The altitude is $12 - 7 = 5$ cm.
@@ -66,7 +66,7 @@ Q: [Q3] Can a rectangular mango grove be designed with its length twice its brea
 S: Let the breadth be $x$ m, so the length is $2x$ m. Then $2x^2 = 800$, that is $x^2 - 400 = 0$.
 S: $D = 0 + 1600 > 0$, so real roots exist: $x = \pm 20$. The breadth is positive, so $x = 20$.
 S: **Answer: yes, with breadth 20 m and length 40 m**
-Q: [Q4] The sum of the ages of two friends is 20 years. Four years ago the product of their ages was 48. Is this possible? If so, find their present ages.
+Q: [Q4] Two friends' ages add up to 20 years, and four years ago their ages multiplied to 48. Can this happen? If it can, find their present ages.
 S: Let one friend be $x$ years old, so the other is $20 - x$. Four years ago: $(x - 4)(16 - x) = 48$.
 S: $-x^2 + 20x - 64 = 48$ gives $x^2 - 20x + 112 = 0$.
 S: $D = 400 - 448 = -48 < 0$, so there is no real value of $x$.

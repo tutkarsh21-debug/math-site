@@ -2,7 +2,7 @@ T: Exercise 11.1
 Q: [Q1] Find the area of a sector of a circle of radius 6 cm with sector angle $60°$. (Use $\pi = \dfrac{22}{7}$ unless told otherwise.)
 S: Area of a sector $= \dfrac{\theta}{360} \times \pi r^2 = \dfrac{60}{360} \times \dfrac{22}{7} \times 6 \times 6 = \dfrac{132}{7}$.
 S: **Answer: $\dfrac{132}{7}$ cm$^2$ (about 18.86 cm$^2$)**
-Q: [Q2] Find the area of a quadrant of a circle whose circumference is 22 cm.
+Q: [Q2] A circle has a circumference of 22 cm. What is the area of one quadrant of it?
 S: $2\pi r = 22$ gives $r = \dfrac{22 \times 7}{2 \times 22} = \dfrac{7}{2}$ cm.
 S: Area of a quadrant $= \dfrac{1}{4}\pi r^2 = \dfrac{1}{4} \times \dfrac{22}{7} \times \dfrac{7}{2} \times \dfrac{7}{2} = \dfrac{77}{8}$.
 S: **Answer: $\dfrac{77}{8}$ cm$^2$**
@@ -10,22 +10,22 @@ Q: [Q3] The minute hand of a clock is 14 cm long. Find the area it sweeps in 5 m
 S: In 60 minutes the hand turns through $360°$, so in 5 minutes it turns through $30°$.
 S: Area $= \dfrac{30}{360} \times \dfrac{22}{7} \times 14 \times 14 = \dfrac{154}{3}$.
 S: **Answer: $\dfrac{154}{3}$ cm$^2$ (about 51.33 cm$^2$)**
-Q: [Q4] A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of (i) the minor segment (ii) the major sector. (Use $\pi = 3.14$.)
+Q: [Q4] In a circle of radius 10 cm, a chord makes a right angle at the centre. Calculate (i) the area of the minor segment cut off by the chord (ii) the area of the major sector. (Use $\pi = 3.14$.)
 S: Area of the minor sector $= \dfrac{90}{360} \times 3.14 \times 100 = 78.5$ cm$^2$. Area of the right triangle formed by the radii $= \dfrac{1}{2} \times 10 \times 10 = 50$ cm$^2$.
 S: (i) Minor segment $= 78.5 - 50 = 28.5$ cm$^2$.
 S: (ii) Major sector $=$ area of the circle $-$ minor sector $= 314 - 78.5 = 235.5$ cm$^2$.
 S: **Answer: (i) 28.5 cm$^2$ (ii) 235.5 cm$^2$**
-Q: [Q5] In a circle of radius 21 cm, an arc subtends an angle of $60°$ at the centre. Find (i) the length of the arc (ii) the area of the sector (iii) the area of the segment formed by the corresponding chord.
+Q: [Q5] An arc of a circle of radius 21 cm makes an angle of $60°$ at the centre. Find (i) the length of the arc (ii) the area of the sector (iii) the area of the segment cut off by the chord joining the ends of the arc.
 S: (i) Arc length $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = 22$ cm.
 S: (ii) Area of the sector $= \dfrac{60}{360} \times \dfrac{22}{7} \times 21 \times 21 = 231$ cm$^2$.
 S: (iii) The triangle formed by the two radii and the chord is equilateral (two equal sides with an angle of $60°$ between them). Its area is $\dfrac{\sqrt{3}}{4} \times 21^2 = \dfrac{441\sqrt{3}}{4}$ cm$^2$. Segment $= 231 - \dfrac{441\sqrt{3}}{4}$ cm$^2$.
 S: **Answer: (i) 22 cm (ii) 231 cm$^2$ (iii) $\left(231 - \dfrac{441\sqrt{3}}{4}\right)$ cm$^2$**
-Q: [Q6] A chord of a circle of radius 15 cm subtends an angle of $60°$ at the centre. Find the areas of the minor and major segments. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
+Q: [Q6] A chord of a circle of radius 15 cm makes an angle of $60°$ at the centre. Calculate the areas of the minor segment and of the major segment. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
 S: Area of the sector $= \dfrac{60}{360} \times 3.14 \times 225 = 117.75$ cm$^2$.
 S: The triangle is equilateral with side 15 cm: area $= \dfrac{\sqrt{3}}{4} \times 225 = 1.73 \times 56.25 = 97.3125$ cm$^2$.
 S: Minor segment $= 117.75 - 97.3125 = 20.4375$ cm$^2$. Major segment $= 3.14 \times 225 - 20.4375 = 706.5 - 20.4375 = 686.0625$ cm$^2$.
 S: **Answer: minor segment 20.4375 cm$^2$, major segment 686.0625 cm$^2$**
-Q: [Q7] A chord of a circle of radius 12 cm subtends an angle of $120°$ at the centre. Find the area of the corresponding segment. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
+Q: [Q7] In a circle of radius 12 cm, a chord makes an angle of $120°$ at the centre. Find the area of the minor segment it cuts off. (Use $\pi = 3.14$ and $\sqrt{3} = 1.73$.)
 S: Area of the sector $= \dfrac{120}{360} \times 3.14 \times 144 = 150.72$ cm$^2$.
 S: Draw the perpendicular from the centre to the chord. It makes two right triangles with angles of $60°$ at the centre: the height is $12\cos 60° = 6$ cm and half the chord is $12\sin 60° = 6\sqrt{3}$ cm.
 S: Area of the triangle $= \dfrac{1}{2} \times 12\sqrt{3} \times 6 = 36\sqrt{3} = 62.28$ cm$^2$.
@@ -47,7 +47,7 @@ Q: [Q11] A car has two wipers that do not overlap. Each blade is 25 cm long and 
 S: Area swept by one blade $= \dfrac{115}{360} \times \dfrac{22}{7} \times 25 \times 25$.
 S: Total for two blades $= 2 \times \dfrac{115}{360} \times \dfrac{22}{7} \times 625 = \dfrac{158125}{126}$.
 S: **Answer: $\dfrac{158125}{126}$ cm$^2$ (about 1254.96 cm$^2$)**
-Q: [Q12] A lighthouse spreads a red light over a sector of angle $80°$ to a distance of 16.5 km. Find the area of the sea over which ships are warned. (Use $\pi = 3.14$.)
+Q: [Q12] A lighthouse sends out a red beam that covers a sector of $80°$ and reaches 16.5 km. How much sea area is covered by the warning beam? (Use $\pi = 3.14$.)
 S: Area $= \dfrac{80}{360} \times 3.14 \times 16.5 \times 16.5 = \dfrac{2}{9} \times 3.14 \times 272.25 = 189.97$.
 S: **Answer: about 189.97 km$^2$**
 Q: [Q13] A round table cover of radius 28 cm has six equal designs, each the segment between a side of a regular hexagon drawn in the circle and the arc above it. Find the cost of making the designs at ₹0.35 per cm$^2$. (Use $\sqrt{3} = 1.7$.)

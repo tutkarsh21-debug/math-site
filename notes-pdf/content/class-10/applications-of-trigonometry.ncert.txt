@@ -13,7 +13,7 @@ Q: [Q3] Two slides are planned in a park: one whose top is 1.5 m high and inclin
 S: In each case the slide is the hypotenuse and the height is the side opposite the angle, so length $= \dfrac{\text{height}}{\sin\theta}$.
 S: First slide: $\dfrac{1.5}{\sin 30°} = \dfrac{1.5}{1/2} = 3$ m. Second slide: $\dfrac{3}{\sin 60°} = \dfrac{3 \times 2}{\sqrt{3}} = 2\sqrt{3}$ m.
 S: **Answer: 3 m and $2\sqrt{3}$ m**
-Q: [Q4] The angle of elevation of the top of a tower from a point on the ground 30 m from its foot is $30°$. Find the height of the tower.
+Q: [Q4] From a spot on level ground 30 m away from the base of a tower, the top of the tower is seen at an elevation of $30°$. How tall is the tower?
 S: $\tan 30° = \dfrac{h}{30}$, so $h = \dfrac{30}{\sqrt{3}} = 10\sqrt{3}$ m.
 S: **Answer: $10\sqrt{3}$ m**
 Q: [Q5] A kite flies 60 m above the ground. Its string is tied to a point on the ground and makes an angle of $60°$ with the ground. Find the length of the string, assuming it is straight.
@@ -24,15 +24,15 @@ S: The top of the building is $30 - 1.5 = 28.5$ m above his eye level.
 S: At $30°$ his distance from the building is $\dfrac{28.5}{\tan 30°} = 28.5\sqrt{3}$ m. At $60°$ it is $\dfrac{28.5}{\tan 60°} = \dfrac{28.5}{\sqrt{3}}$ m.
 S: Distance walked $= 28.5\sqrt{3} - \dfrac{28.5}{\sqrt{3}} = \dfrac{28.5 \times 2}{\sqrt{3}} = \dfrac{57}{\sqrt{3}} = 19\sqrt{3}$ m.
 S: **Answer: $19\sqrt{3}$ m**
-Q: [Q7] From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed on a 20 m high building are $45°$ and $60°$. Find the height of the tower.
+Q: [Q7] A transmission tower stands on top of a 20 m tall building. From one point on the ground, the bottom of the tower is seen at an elevation of $45°$ and its top at $60°$. Work out the height of the tower.
 S: Let the point be $d$ m from the building and the tower be $h$ m high.
 S: $\tan 45° = \dfrac{20}{d}$ gives $d = 20$. $\tan 60° = \dfrac{20 + h}{d}$ gives $20 + h = 20\sqrt{3}$.
 S: **Answer: $h = 20(\sqrt{3} - 1)$ m (about 14.64 m)**
-Q: [Q8] A statue 1.6 m tall stands on a pedestal. From a point on the ground the angle of elevation of the top of the statue is $60°$ and that of the top of the pedestal is $45°$. Find the height of the pedestal.
+Q: [Q8] A 1.6 m tall statue is mounted on a pedestal. An observer on the ground sees the top of the statue at an elevation of $60°$ and the top of the pedestal at $45°$. How high is the pedestal?
 S: Let the pedestal be $h$ m high and the point be $d$ m away. $\tan 45° = \dfrac{h}{d}$ gives $d = h$.
 S: $\tan 60° = \dfrac{h + 1.6}{h}$ gives $h\sqrt{3} = h + 1.6$, so $h = \dfrac{1.6}{\sqrt{3} - 1} = \dfrac{1.6(\sqrt{3} + 1)}{2} = 0.8(\sqrt{3} + 1)$.
 S: **Answer: $0.8(\sqrt{3} + 1)$ m (about 2.19 m)**
-Q: [Q9] The angle of elevation of the top of a building from the foot of a tower is $30°$, and the angle of elevation of the top of the tower from the foot of the building is $60°$. The tower is 50 m high. Find the height of the building.
+Q: [Q9] Standing at the foot of a tower, you see the top of a building at an elevation of $30°$. Standing at the foot of the building, you see the top of the tower at $60°$. If the tower is 50 m tall, how tall is the building?
 S: Let the distance between them be $d$ m and the building be $h$ m high.
 S: $\tan 60° = \dfrac{50}{d}$ gives $d = \dfrac{50}{\sqrt{3}}$. $\tan 30° = \dfrac{h}{d}$ gives $h = \dfrac{d}{\sqrt{3}} = \dfrac{50}{3}$.
 S: **Answer: $16\dfrac{2}{3}$ m**
@@ -47,7 +47,7 @@ S: Let $AB = h$ be the tower and $BC = x$ the width of the canal, with $CD = 20$
 S: In $\triangle ABC$: $\tan 60° = \dfrac{h}{x}$, so $h = \sqrt{3}\,x$. In $\triangle ABD$: $\tan 30° = \dfrac{h}{x + 20}$, so $x + 20 = \sqrt{3}\,h = 3x$.
 S: So $x = 10$ and $h = 10\sqrt{3}$.
 S: **Answer: the tower is $10\sqrt{3}$ m high and the canal is 10 m wide**
-Q: [Q12] From the top of a 7 m high building, the angle of elevation of the top of a cable tower is $60°$ and the angle of depression of its foot is $45°$. Find the height of the tower.
+Q: [Q12] A building is 7 m tall. From its roof, the top of a cable tower is seen at an elevation of $60°$ and the base of the tower at a depression of $45°$. Find the height of the cable tower.
 S: Let the horizontal distance be $d$ m. The angle of depression of the foot is $45°$, so $\tan 45° = \dfrac{7}{d}$ and $d = 7$.
 S: The part of the tower above the level of the building top is $d\tan 60° = 7\sqrt{3}$ m.
 S: **Answer: $7 + 7\sqrt{3} = 7(\sqrt{3} + 1)$ m (about 19.12 m)**

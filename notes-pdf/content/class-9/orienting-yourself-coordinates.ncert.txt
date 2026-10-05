@@ -75,7 +75,7 @@ Q: [Q7*] Use the same method to check whether $R(-5, -1)$, $B(-2, -5)$ and $C(4,
 S: $RB = \sqrt{3^2 + 4^2} = 5$, $BC = \sqrt{6^2 + 7^2} = \sqrt{85} \approx 9.22$ and $RC = \sqrt{9^2 + 11^2} = \sqrt{202} \approx 14.21$.
 S: $RB + BC \approx 14.22$, which is close to $RC$ but not equal to it. To be sure: if $5 + \sqrt{85} = \sqrt{202}$, squaring gives $110 + 10\sqrt{85} = 202$, so $\sqrt{85} = 9.2$ and $85 = 84.64$, which is false.
 S: **Answer: no. The points are nearly, but not exactly, in a line, which a plotted graph may not show clearly.**
-Q: [Q8*] With the origin as one vertex, plot the vertices of (i) a right-angled isosceles triangle (ii) an isosceles triangle with one vertex in Quadrant III and another in Quadrant IV.
+Q: [Q8*] Take the origin as one vertex and give the vertices of (i) a right-angled isosceles triangle (ii) an isosceles triangle whose other two vertices lie in Quadrant III and Quadrant IV.
 S: (i) One possible answer: $O(0, 0)$, $(4, 0)$ and $(0, 4)$. The two sides along the axes are 4 units each and meet at a right angle at $O$.
 S: (ii) One possible answer: $O(0, 0)$, $(-3, -4)$ and $(3, -4)$. Each of the first two sides is $\sqrt{3^2 + 4^2} = 5$ units, so the triangle is isosceles.
 S: **Answer: (i) $(0, 0)$, $(4, 0)$, $(0, 4)$ (ii) $(0, 0)$, $(-3, -4)$, $(3, -4)$. Other answers are possible.**

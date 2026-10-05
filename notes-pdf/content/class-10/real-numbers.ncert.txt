@@ -1,5 +1,5 @@
 T: Exercise 1.1
-Q: [Q1] Write each number as a product of its prime factors: (i) 140 (ii) 156 (iii) 3825 (iv) 5005 (v) 7429.
+Q: [Q1] Break each number into prime factors: (i) 140 (ii) 156 (iii) 3825 (iv) 5005 (v) 7429.
 S: Keep dividing by the smallest prime that divides the number.
 S: (i) $140 = 2 \times 70 = 2 \times 2 \times 35 = 2^2 \times 5 \times 7$
 S: (ii) $156 = 2 \times 78 = 2 \times 2 \times 39 = 2^2 \times 3 \times 13$
@@ -7,7 +7,7 @@ S: (iii) $3825 = 3 \times 1275 = 3 \times 3 \times 425 = 3^2 \times 5 \times 85 
 S: (iv) $5005 = 5 \times 1001 = 5 \times 7 \times 143 = 5 \times 7 \times 11 \times 13$
 S: (v) $7429 = 17 \times 437 = 17 \times 19 \times 23$
 S: **Answer: (i) $2^2 \times 5 \times 7$ (ii) $2^2 \times 3 \times 13$ (iii) $3^2 \times 5^2 \times 17$ (iv) $5 \times 7 \times 11 \times 13$ (v) $17 \times 19 \times 23$**
-Q: [Q2] Find the LCM and HCF of each pair and verify that LCM $\times$ HCF $=$ product of the two numbers: (i) 26 and 91 (ii) 510 and 92 (iii) 336 and 54.
+Q: [Q2] For each pair, find the HCF and LCM, and check that HCF $\times$ LCM equals the product of the pair: (i) 26 and 91 (ii) 510 and 92 (iii) 336 and 54.
 S: HCF is the product of the smallest powers of the common primes. LCM is the product of the greatest powers of all the primes.
 S: (i) $26 = 2 \times 13$ and $91 = 7 \times 13$. HCF $= 13$ and LCM $= 2 \times 7 \times 13 = 182$.
 S: Check: $13 \times 182 = 2366$ and $26 \times 91 = 2366$.
@@ -25,7 +25,7 @@ Q: [Q4] Given that HCF $(306, 657) = 9$, find LCM $(306, 657)$.
 S: For two numbers, HCF $\times$ LCM $=$ product of the numbers.
 S: LCM $= \dfrac{306 \times 657}{9} = 34 \times 657 = 22338$.
 S: **Answer: 22338**
-Q: [Q5] Can $6^n$ end with the digit 0 for any natural number $n$?
+Q: [Q5] Is it possible for $6^n$ to end in the digit 0 for some natural number $n$?
 S: A number that ends in 0 is divisible by 10, so its prime factorisation must contain both 2 and 5.
 S: $6^n = (2 \times 3)^n = 2^n \times 3^n$. Its only prime factors are 2 and 3.
 S: By the Fundamental Theorem of Arithmetic this factorisation is unique, so 5 can never be a factor of $6^n$.

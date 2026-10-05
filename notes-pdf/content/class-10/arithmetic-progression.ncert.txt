@@ -9,7 +9,7 @@ S: **Answer: (i) and (iii) form APs. (ii) and (iv) do not.**
 Q: [Q2] Write the first four terms of the AP when (i) $a = 10$, $d = 10$ (ii) $a = -2$, $d = 0$ (iii) $a = 4$, $d = -3$ (iv) $a = -1$, $d = \dfrac{1}{2}$ (v) $a = -1.25$, $d = -0.25$.
 S: Start with $a$ and keep adding $d$.
 S: **Answer: (i) $10, 20, 30, 40$ (ii) $-2, -2, -2, -2$ (iii) $4, 1, -2, -5$ (iv) $-1, -\dfrac{1}{2}, 0, \dfrac{1}{2}$ (v) $-1.25, -1.50, -1.75, -2.00$**
-Q: [Q3] Write the first term and the common difference: (i) $3, 1, -1, -3, \dots$ (ii) $-5, -1, 3, 7, \dots$ (iii) $\dfrac{1}{3}, \dfrac{5}{3}, \dfrac{9}{3}, \dfrac{13}{3}, \dots$ (iv) $0.6, 1.7, 2.8, 3.9, \dots$
+Q: [Q3] Identify the first term $a$ and the common difference $d$ of each progression: (i) $3, 1, -1, -3, \dots$ (ii) $-5, -1, 3, 7, \dots$ (iii) $\dfrac{1}{3}, \dfrac{5}{3}, \dfrac{9}{3}, \dfrac{13}{3}, \dots$ (iv) $0.6, 1.7, 2.8, 3.9, \dots$
 S: The common difference is the second term minus the first.
 S: **Answer: (i) $a = 3$, $d = -2$ (ii) $a = -5$, $d = 4$ (iii) $a = \dfrac{1}{3}$, $d = \dfrac{4}{3}$ (iv) $a = 0.6$, $d = 1.1$**
 Q: [Q4] Which of the following are APs? For each AP, find $d$ and write three more terms. (i) $2, 4, 8, 16, \dots$ (ii) $2, \dfrac{5}{2}, 3, \dfrac{7}{2}, \dots$ (iii) $-1.2, -3.2, -5.2, -7.2, \dots$ (iv) $-10, -6, -2, 2, \dots$ (v) $3, 3 + \sqrt{2}, 3 + 2\sqrt{2}, 3 + 3\sqrt{2}, \dots$ (vi) $0.2, 0.22, 0.222, 0.2222, \dots$ (vii) $0, -4, -8, -12, \dots$ (viii) $-\dfrac{1}{2}, -\dfrac{1}{2}, -\dfrac{1}{2}, -\dfrac{1}{2}, \dots$ (ix) $1, 3, 9, 27, \dots$ (x) $a, 2a, 3a, 4a, \dots$ (xi) $a, a^2, a^3, a^4, \dots$ (xii) $\sqrt{2}, \sqrt{8}, \sqrt{18}, \sqrt{32}, \dots$ (xiii) $\sqrt{3}, \sqrt{6}, \sqrt{9}, \sqrt{12}, \dots$ (xiv) $1^2, 3^2, 5^2, 7^2, \dots$ (xv) $1^2, 5^2, 7^2, 73, \dots$
@@ -68,7 +68,7 @@ S: **Answer: (i) 34 (ii) 27**
 Q: [Q6] Is $-150$ a term of the AP $11, 8, 5, 2, \dots$?
 S: $a = 11$, $d = -3$: $11 - 3(n - 1) = -150$ gives $n - 1 = \dfrac{161}{3}$, which is not a whole number.
 S: **Answer: no, $-150$ is not a term of this AP**
-Q: [Q7] Find the 31st term of an AP whose 11th term is 38 and 16th term is 73.
+Q: [Q7] An AP has 38 as its 11th term and 73 as its 16th term. What is its 31st term?
 S: $a + 10d = 38$ and $a + 15d = 73$. Subtracting, $5d = 35$, so $d = 7$ and $a = -32$.
 S: $a_{31} = -32 + 30 \times 7 = 178$.
 S: **Answer: 178**
@@ -80,7 +80,7 @@ Q: [Q9] The 3rd and 9th terms of an AP are 4 and $-8$. Which term is zero?
 S: $a + 2d = 4$ and $a + 8d = -8$. Subtracting, $6d = -12$, so $d = -2$ and $a = 8$.
 S: $8 - 2(n - 1) = 0$ gives $n = 5$.
 S: **Answer: the 5th term**
-Q: [Q10] The 17th term of an AP exceeds its 10th term by 7. Find the common difference.
+Q: [Q10] In an AP, the 17th term is 7 more than the 10th term. What is the common difference?
 S: $(a + 16d) - (a + 9d) = 7$ gives $7d = 7$.
 S: **Answer: $d = 1$**
 Q: [Q11] Which term of the AP $3, 15, 27, 39, \dots$ is 132 more than its 54th term?
@@ -90,11 +90,11 @@ Q: [Q12] Two APs have the same common difference. Their 100th terms differ by 10
 S: Let the first terms be $a$ and $b$ and the common difference be $d$. The difference of the $n$th terms is $[a + (n - 1)d] - [b + (n - 1)d] = a - b$, which does not depend on $n$.
 S: So $a - b = 100$ for every pair of matching terms.
 S: **Answer: 100**
-Q: [Q13] How many three-digit numbers are divisible by 7?
+Q: [Q13] Count the three-digit numbers that are multiples of 7.
 S: They are $105, 112, \dots, 994$, an AP with $d = 7$.
 S: $105 + (n - 1) \times 7 = 994$ gives $n - 1 = 127$.
 S: **Answer: 128**
-Q: [Q14] How many multiples of 4 lie between 10 and 250?
+Q: [Q14] Count the multiples of 4 that lie strictly between 10 and 250.
 S: They are $12, 16, \dots, 248$: $12 + (n - 1) \times 4 = 248$ gives $n - 1 = 59$.
 S: **Answer: 60**
 Q: [Q15] For what value of $n$ are the $n$th terms of the APs $63, 65, 67, \dots$ and $3, 10, 17, \dots$ equal?
@@ -103,15 +103,15 @@ S: **Answer: $n = 13$**
 Q: [Q16] Find the AP whose third term is 16 and whose 7th term exceeds the 5th term by 12.
 S: $a_7 - a_5 = 2d = 12$, so $d = 6$. Then $a + 2d = 16$ gives $a = 4$.
 S: **Answer: $4, 10, 16, 22, \dots$**
-Q: [Q17] Find the 20th term from the last term of the AP $3, 8, 13, \dots, 253$.
+Q: [Q17] Counting backwards from the last term, find the 20th term of the AP $3, 8, 13, \dots, 253$.
 S: Read the AP backwards: $253, 248, 243, \dots$ with first term 253 and common difference $-5$.
 S: Its 20th term is $253 + 19 \times (-5) = 158$.
 S: **Answer: 158**
-Q: [Q18] The sum of the 4th and 8th terms of an AP is 24 and the sum of the 6th and 10th terms is 44. Find the first three terms.
+Q: [Q18] In an AP, the 4th and 8th terms add up to 24, and the 6th and 10th terms add up to 44. Write down the first three terms.
 S: $(a + 3d) + (a + 7d) = 24$ gives $a + 5d = 12$. $(a + 5d) + (a + 9d) = 44$ gives $a + 7d = 22$.
 S: Subtracting, $2d = 10$, so $d = 5$ and $a = -13$.
 S: **Answer: $-13, -8, -3$**
-Q: [Q19] A person started work in 1995 at an annual salary of ₹5000 and received an increment of ₹200 each year. In which year did the salary reach ₹7000?
+Q: [Q19] A worker joined in 1995 on a yearly pay of ₹5000, with a rise of ₹200 every year. In which year did the pay reach ₹7000?
 S: The salaries form an AP with $a = 5000$ and $d = 200$: $5000 + (n - 1) \times 200 = 7000$ gives $n = 11$.
 S: The 11th year of work is $1995 + 10 = 2005$.
 S: **Answer: in 2005 (the 11th year)**
@@ -145,27 +145,27 @@ S: (viii) $a = 4 - 2(n - 1) = 6 - 2n$. $\dfrac{n}{2}(6 - 2n + 4) = -14$ gives $n
 S: (ix) $\dfrac{8}{2}(6 + 7d) = 192$ gives $6 + 7d = 48$, so $d = 6$.
 S: (x) $\dfrac{9}{2}(a + 28) = 144$ gives $a + 28 = 32$, so $a = 4$.
 S: **Answer: (i) $n = 16$, $S_n = 440$ (ii) $d = \dfrac{7}{3}$, $S_{13} = 273$ (iii) $a = 4$, $S_{12} = 246$ (iv) $d = -1$, $a_{10} = 8$ (v) $a = -\dfrac{35}{3}$, $a_9 = \dfrac{85}{3}$ (vi) $n = 5$, $a_n = 34$ (vii) $n = 6$, $d = \dfrac{54}{5}$ (viii) $n = 7$, $a = -8$ (ix) $d = 6$ (x) $a = 4$**
-Q: [Q4] How many terms of the AP $9, 17, 25, \dots$ must be taken to give a sum of 636?
+Q: [Q4] How many terms of the AP $9, 17, 25, \dots$ have to be added to get 636?
 S: $\dfrac{n}{2}[18 + 8(n - 1)] = 636$ gives $4n^2 + 5n - 636 = 0$.
 S: $D = 25 + 10176 = 10201 = 101^2$, so $n = \dfrac{-5 + 101}{8} = 12$ (the other root is negative).
 S: **Answer: 12 terms**
-Q: [Q5] The first term of an AP is 5, the last term is 45 and the sum is 400. Find the number of terms and the common difference.
+Q: [Q5] An AP begins with 5 and ends with 45, and its terms add up to 400. Find how many terms it has and its common difference.
 S: $\dfrac{n}{2}(5 + 45) = 400$ gives $n = 16$.
 S: $5 + 15d = 45$ gives $d = \dfrac{8}{3}$.
 S: **Answer: 16 terms, $d = \dfrac{8}{3}$**
-Q: [Q6] The first and last terms of an AP are 17 and 350, and the common difference is 9. How many terms are there, and what is their sum?
+Q: [Q6] An AP has first term 17, last term 350 and common difference 9. Find the number of terms and their sum.
 S: $17 + 9(n - 1) = 350$ gives $n - 1 = 37$, so $n = 38$.
 S: $S = \dfrac{38}{2}(17 + 350) = 19 \times 367 = 6973$.
 S: **Answer: 38 terms, sum 6973**
-Q: [Q7] Find the sum of the first 22 terms of an AP in which $d = 7$ and the 22nd term is 149.
+Q: [Q7] The common difference of an AP is $7$ and its 22nd term is 149. Find the sum of its first 22 terms.
 S: $a + 21 \times 7 = 149$ gives $a = 2$.
 S: $S_{22} = \dfrac{22}{2}(2 + 149) = 1661$.
 S: **Answer: 1661**
-Q: [Q8] Find the sum of the first 51 terms of an AP whose second and third terms are 14 and 18.
+Q: [Q8] The second and third terms of an AP are 14 and 18. Find the sum of its first 51 terms.
 S: $d = 18 - 14 = 4$ and $a = 14 - 4 = 10$.
 S: $S_{51} = \dfrac{51}{2}[20 + 50 \times 4] = \dfrac{51}{2} \times 220 = 5610$.
 S: **Answer: 5610**
-Q: [Q9] The sum of the first 7 terms of an AP is 49 and the sum of the first 17 terms is 289. Find the sum of the first $n$ terms.
+Q: [Q9] The first 7 terms of an AP add up to 49 and the first 17 terms add up to 289. Find the sum of the first $n$ terms.
 S: $\dfrac{7}{2}(2a + 6d) = 49$ gives $a + 3d = 7$. $\dfrac{17}{2}(2a + 16d) = 289$ gives $a + 8d = 17$.
 S: Subtracting, $5d = 10$, so $d = 2$ and $a = 1$.
 S: $S_n = \dfrac{n}{2}[2 + 2(n - 1)] = n^2$.
@@ -180,13 +180,13 @@ S: $S_3 = 12 - 9 = 3$, so $a_3 = S_3 - S_2 = -1$.
 S: $a_{10} = S_{10} - S_9 = (40 - 100) - (36 - 81) = -15$.
 S: $a_n = S_n - S_{n-1} = (4n - n^2) - [4(n - 1) - (n - 1)^2] = 5 - 2n$.
 S: **Answer: $a_1 = 3$, $S_2 = 4$, $a_2 = 1$, $a_3 = -1$, $a_{10} = -15$, $a_n = 5 - 2n$**
-Q: [Q12] Find the sum of the first 40 positive integers divisible by 6.
+Q: [Q12] What is the total of the first 40 positive multiples of 6?
 S: They are $6, 12, 18, \dots$ with $a = 6$, $d = 6$: $S_{40} = \dfrac{40}{2}[12 + 39 \times 6] = 20 \times 246 = 4920$.
 S: **Answer: 4920**
-Q: [Q13] Find the sum of the first 15 multiples of 8.
+Q: [Q13] What is the total of the first 15 multiples of 8?
 S: $8 + 16 + \dots + 120 = \dfrac{15}{2}(8 + 120) = 960$.
 S: **Answer: 960**
-Q: [Q14] Find the sum of the odd numbers between 0 and 50.
+Q: [Q14] Add up all the odd numbers from 1 to 49.
 S: They are $1, 3, 5, \dots, 49$, which is 25 terms. $S = \dfrac{25}{2}(1 + 49) = 625$.
 S: **Answer: 625**
 Q: [Q15] A contract fixes a penalty for delay: ₹200 for the first day, ₹250 for the second, ₹300 for the third, and so on, each day ₹50 more than the day before. What is the penalty for a delay of 30 days?
@@ -215,11 +215,11 @@ S: $S_{10} = \dfrac{10}{2}[20 + 9 \times 6] = 5 \times 74 = 370$.
 S: **Answer: 370 m**
 
 T: Exercise 5.4 (Optional)
-Q: [Q1] Which term of the AP $121, 117, 113, \dots$ is its first negative term?
+Q: [Q1] In the AP $121, 117, 113, \dots$, which is the first term to be negative?
 S: $a_n = 121 - 4(n - 1) < 0$ gives $n - 1 > 30.25$, so $n > 31.25$.
 S: The smallest such whole number is 32. Check: $a_{31} = 1$ and $a_{32} = -3$.
 S: **Answer: the 32nd term**
-Q: [Q2] The sum of the third and seventh terms of an AP is 6 and their product is 8. Find the sum of the first sixteen terms.
+Q: [Q2] In an AP, the 3rd and 7th terms add up to 6 and multiply to 8. Find the sum of its first sixteen terms.
 S: $(a + 2d) + (a + 6d) = 6$ gives $a + 4d = 3$. So $a_3 = 3 - 2d$ and $a_7 = 3 + 2d$.
 S: $(3 - 2d)(3 + 2d) = 8$ gives $9 - 4d^2 = 8$, so $d = \pm\dfrac{1}{2}$.
 S: If $d = \dfrac{1}{2}$, then $a = 1$ and $S_{16} = 8\,[2 + 15 \times \tfrac{1}{2}] = 76$. If $d = -\dfrac{1}{2}$, then $a = 5$ and $S_{16} = 8\,[10 - 15 \times \tfrac{1}{2}] = 20$.
