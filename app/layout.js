@@ -2,6 +2,7 @@ import './globals.css';
 import Link from 'next/link';
 import { Poppins } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
+import InstallApp from '@/components/InstallApp';
 import JsonLd from '@/components/JsonLd';
 import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
 
@@ -15,7 +16,12 @@ export const metadata = {
   alternates: { canonical: './' },
   openGraph: { siteName: SITE.name, type: 'website', locale: 'en_IN', images: [{ url: '/og.png', width: 1200, height: 630, alt: `${SITE.name}: Class 8, 9 and 10 Maths` }] },
   twitter: { card: 'summary_large_image', images: ['/og.png'] },
+  // For the installed app on iPhones, which do not read everything from the manifest.
+  appleWebApp: { capable: true, title: SITE.name, statusBarStyle: 'default' },
+  icons: { apple: '/icons/icon-180.png' },
 };
+// The colour of the phone's status bar around the site and the installed app.
+export const viewport = { themeColor: [{ media: '(prefers-color-scheme: light)', color: '#1557d6' }, { media: '(prefers-color-scheme: dark)', color: '#0d1220' }] };
 
 // Who runs the site, for search engines.
 const ORG = {
@@ -43,6 +49,7 @@ export default function RootLayout({ children }) {
         </div></header>
         <main>{children}</main>
         <JsonLd data={ORG} />
+        <InstallApp />
         <footer className="site-footer">
           <div className="wrap foot-grid">
             <div>
@@ -63,6 +70,7 @@ export default function RootLayout({ children }) {
             <div><h3>Connect</h3>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
+              <Link href="/app">Get the App</Link>
               <Link href="/enquiry">Enquiry</Link>
               <Link href="/login">Login / Register</Link>
               <Link href="/about">About {SITE.name}</Link>
