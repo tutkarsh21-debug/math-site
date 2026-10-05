@@ -39,7 +39,7 @@ const contentDir = path.join(here, 'content');
 const outDir = path.join(here, '..', 'public', 'pdf');
 const manifest = path.join(here, '..', 'lib', 'pdfs.json');
 const tmpDir = path.join(here, '.tmp');
-const SITE = 'math-site.tutkarsh21.workers.dev', TELEGRAM = 't.me/MathSetu';
+const SITE = 'mathsetu.in', TELEGRAM = 't.me/MathSetu';
 
 const chrome = [process.env.CHROME_PATH,
   'C:/Program Files/Google/Chrome/Application/chrome.exe',
