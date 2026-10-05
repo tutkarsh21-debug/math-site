@@ -67,6 +67,7 @@ export default function RootLayout({ children }) {
               <Link href="/login">Login / Register</Link>
               <Link href="/about">About {SITE.name}</Link>
               <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/copyright">Copyright and Disclaimer</Link>
             </div>
           </div>
           <div className="wrap copy">© {new Date().getFullYear()} {SITE.name}. An independent study resource, not affiliated with or endorsed by CBSE, CISCE, NCERT or any publisher. Board and book names are used only to identify the syllabus.</div>

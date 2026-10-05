@@ -83,7 +83,7 @@ export default function Doubts({ chapters }) {
         <label>Your doubt<textarea name="question" rows={5} required minLength={10} maxLength={1000} placeholder="Write the question and tell us where you are stuck." /></label>
         <label>Photo of the question (optional)<input type="file" accept="image/*" onChange={pick} /></label>
         {photo && <img className="doubt-photo" src={`data:image/jpeg;base64,${photo}`} alt="The photo you chose" />}
-        <p className="muted small">Only you and your teacher can see your doubts. Do not put faces or personal details in the photo. See the <Link href="/privacy">privacy policy</Link>.</p>
+        <p className="muted small">Only you and your teacher can see your doubts. Do not put faces or personal details in the photo, and send only your own question, not whole pages of a book. See the <Link href="/privacy">privacy policy</Link> and the <Link href="/copyright">copyright note</Link>.</p>
         {error && <p className="error" role="alert">{error}</p>}
         {sent && <p className="muted" role="status">Your doubt has been sent. The answer will appear below once your teacher has replied.</p>}
         <button className="btn" disabled={busy}>{busy ? 'Please wait…' : 'Send doubt'}</button>
