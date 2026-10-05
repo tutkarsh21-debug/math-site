@@ -10,6 +10,12 @@ export async function generateMetadata({ params }) {
   return p ? { title: p.title, description: p.summary, openGraph: { type: 'article', title: p.title, description: p.summary, publishedTime: p.date, images: ['/og.png'] } } : {};
 }
 
+// Text may contain links to pages of this site, written [link text](/path).
+const rich = text => text.split(/(\[[^\]]+\]\(\/[^)\s]*\))/).map((part, i) => {
+  const m = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
+  return m ? <Link key={i} href={m[2]}>{m[1]}</Link> : part;
+});
+
 export default async function Post({ params }) {
   const { slug } = await params, p = POSTS.find(x => x.slug === slug);
   if (!p) notFound();
@@ -24,9 +30,9 @@ export default async function Post({ params }) {
       <p>{new Date(p.date + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
     </div></div>
     <div className="wrap prose">
-      {p.body.map((b, i) => typeof b === 'string' ? <p key={i}>{b}</p>
+      {p.body.map((b, i) => typeof b === 'string' ? <p key={i}>{rich(b)}</p>
         : b.h ? <h2 key={i}>{b.h}</h2>
-        : <ul key={i}>{b.list.map(x => <li key={x}>{x}</li>)}</ul>)}
+        : <ul key={i}>{b.list.map(x => <li key={x}>{rich(x)}</li>)}</ul>)}
       {p.source && <p>Official notice: <a href={p.source} target="_blank" rel="noopener">{p.source}</a></p>}
       <h2>Read next</h2>
       <ul>{others.map(o => <li key={o.slug}><Link href={`/blog/${o.slug}`}>{o.title}</Link></li>)}</ul>
