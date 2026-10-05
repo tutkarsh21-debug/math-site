@@ -1,6 +1,7 @@
 // Service worker for the installed app. It is deliberately small: every page is always fetched fresh from the
 // network, so students never see an old copy. Its only job is to show a friendly page when there is no internet.
-const CACHE = 'mathsetu-offline-v1', OFFLINE = '/offline.html';
+// The address has no ".html": the host serves the file there and redirects the longer address to it.
+const CACHE = 'mathsetu-offline-v2', OFFLINE = '/offline';
 
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.add(OFFLINE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {
