@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import ChapterSearch from '@/components/ChapterSearch';
+import { Continue } from '@/components/Progress';
 import JsonLd from '@/components/JsonLd';
 import { BOARDS, CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
@@ -67,8 +69,7 @@ export default function Home() {
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
   // The first chapter of every class in each board.
   const featured = BOARDS.flatMap(b => classes.map(([k]) => all.find(ch => ch.cls === k && ch.boards[0] === b))).filter(Boolean);
-  // Every fourth chapter, for the moving strip of chapter names.
-  const strip = all.filter((ch, i) => i % 4 === 0);
+  const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   const pdfs = Object.values(PDFS).reduce((n, kinds) => n + kinds.length, 0);
   const stats = [
     { n: all.length, t: 'Chapters covered' },
@@ -76,8 +77,6 @@ export default function Home() {
     { n: classes.length, t: 'Classes: 8, 9 and 10' },
     { n: BOARDS.length, t: 'Boards: CBSE and ICSE' },
   ];
-  const chips = (hidden) => strip.map(ch => (
-    <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="chip" tabIndex={hidden ? -1 : undefined}>{ch.title}</Link>));
   return (<>
     <section className="hero"><div className="wrap hero-grid">
       <div>
@@ -93,8 +92,6 @@ export default function Home() {
         </ul>
       </div>
       <div className="hero-art">
-        <span className="fx fx1" aria-hidden="true">a² + b² = c²</span>
-        <span className="fx fx2" aria-hidden="true">sin²θ + cos²θ = 1</span>
         <div className="bridge">
           <p className="bridge-from">“I can’t do maths.”</p>
           <ol>
@@ -109,9 +106,7 @@ export default function Home() {
       {stats.map(s => <div key={s.t} className="stat"><b>{s.n}</b><span>{s.t}</span></div>)}
     </div></div>
 
-    <div className="marquee"><div>
-      {chips(false)}<span aria-hidden="true" style={{display:'contents'}}>{chips(true)}</span>
-    </div></div>
+    <Continue />
 
     <section className="section"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Maths fear</span><h2>Why maths feels hard, and what we do about it</h2><p>If any of these sounds like you, you are not alone, and it can be fixed.</p></div>
@@ -128,6 +123,7 @@ export default function Home() {
 
     <section className="section soft" id="classes"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Which class are you in?</h2><p>Pick your class to see everything for it: chapters, tests, live classes and help with doubts.</p></div>
+      <ChapterSearch chapters={finder} />
       <div className="grid">
         {classes.map(([k, c]) => (
           <Link key={k} href={`/${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>

@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
+import { DoneTick } from '@/components/Progress';
 import { notFound } from 'next/navigation';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import { BOARDS, CLASSES } from '@/lib/data';
@@ -66,7 +67,7 @@ export default async function ClassPage({ params }) {
           <div className="grid">{g.items.map((ch, i) => (
             <Link key={ch.slug} href={`/${cls}/${ch.slug}`} className="card chapter-card">
               <span className="num">{ch.no || i + 1}</span>
-              <span><strong>{ch.title}</strong>
+              <span><strong>{ch.title}<DoneTick id={`${cls}/${ch.slug}`} /></strong>
                 {PDFS[`${cls}/${ch.slug}`] && <span className="tag ready">Notes · Formulas · DPP</span>}</span>
             </Link>))}
           </div>

@@ -22,7 +22,7 @@ export default function About() {
 
       <h2>How we teach</h2>
       <ul>
-        <li><strong>Taught in Hinglish.</strong> Video lessons are explained in simple Hinglish, and the terms are kept in
+        <li><strong>Taught in Hinglish.</strong> Live classes and video lessons are taught in simple Hinglish, and the terms are kept in
           English exactly as they appear in the exam. Notes, examples and practice questions are written in English.</li>
         <li><strong>Concept first.</strong> Every chapter starts with why a method works, before the formula.</li>
         <li><strong>Exam-style practice.</strong> Solved examples are written the way answers are expected in
@@ -31,9 +31,10 @@ export default function About() {
       </ul>
 
       <h2>What you will find here</h2>
-      <p>Each chapter has its own page with the video lesson, key formulas, the concept explained, solved
-        examples, common mistakes, practice questions and FAQs. Chapters are being added one at a time, so
-        some pages are still being prepared.</p>
+      <p>Each chapter has its own page with short notes and solved examples, a one-page formula bank, a DPP
+        sheet with answers and an online test. Class 10 chapters also have previous year questions, and NCERT
+        solutions are being added chapter by chapter for the CBSE books. Video lessons will be added to the
+        chapter pages as they are recorded.</p>
 
       <h2>Understand once, score full marks</h2>
       <p>Understand a chapter properly once, and the marks follow. That is the idea behind everything on this site.</p>

@@ -12,38 +12,40 @@ export default function RecordedLectures() {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Recorded Lectures</div>
       <h1>Recorded Video Lectures (Class 8-10)</h1>
-      <p>One lecture per chapter, taught in Hinglish. {uploaded
-        ? `${uploaded} of ${all.length} chapters have a video so far; the rest are being recorded.`
-        : 'Videos are being recorded and will appear here chapter by chapter.'} New uploads are announced on YouTube and Telegram.</p>
+      <p>{uploaded
+        ? `One lecture per chapter, taught in Hinglish. ${uploaded} of ${all.length} chapters have a video so far.`
+        : 'Chapter-wise video lectures in Hinglish are being recorded. The first lectures will be announced here, on YouTube and on Telegram.'}</p>
       <div className="cta-row" style={{marginTop:'1rem'}}>
         <a className="btn" href={SITE.youtube}>Open YouTube channel</a>
         <a className="btn btn-outline" href={SITE.telegram}>Join Telegram</a>
       </div>
     </div></div>
 
-    <section className="section"><div className="wrap">
-      {classes.map(([k, c]) => (<div key={k} id={k} className="part">
-        <h2>{c.label}</h2>
-        {BOARDS.map(b => {
-          const list = c.chapters.filter(ch => ch.boards.includes(b));
-          if (!list.length) return null;
-          const done = list.filter(ch => ch.youtube).length;
-          return (<details key={b}>
-            <summary>{c.label} {b} <span className="muted">· {done} of {list.length} videos</span></summary>
+    {uploaded > 0 && <section className="section"><div className="wrap">
+      {classes.map(([k, c]) => {
+        const boards = BOARDS.map(b => ({ b, list: c.chapters.filter(ch => ch.boards.includes(b) && ch.youtube) })).filter(x => x.list.length);
+        if (!boards.length) return null;
+        return (<div key={k} id={k} className="part">
+          <h2>{c.label}</h2>
+          {boards.map(({ b, list }) => (<details key={b} open>
+            <summary>{c.label} {b} <span className="muted">· {list.length} videos</span></summary>
             <ol className="lectures">{list.map(ch => (
               <li key={ch.slug}>
                 <Link href={`/${k}/${ch.slug}#video`}>{ch.title}</Link>
-                {ch.youtube ? <span className="badge rec">WATCH</span> : <span className="badge soon">Coming soon</span>}
+                <span className="badge rec">WATCH</span>
               </li>))}
             </ol>
-          </details>);
-        })}
-      </div>))}
-    </div></section>
+          </details>))}
+        </div>);
+      })}
+    </div></section>}
 
     <section className="section soft"><div className="wrap">
-      <div className="section-head"><h2>While a video is not ready</h2><p>Every chapter already has short notes, a formula bank and a DPP sheet.</p></div>
-      <Link className="btn" href="/self-study">Go to Self Study</Link>
+      <div className="section-head"><h2>Start studying today</h2><p>Every chapter already has short notes, a formula bank, a DPP sheet and an online test.</p></div>
+      <div className="cta-row">
+        <Link className="btn" href="/self-study">Go to Self Study</Link>
+        <Link className="btn btn-outline" href="/tests">Take a chapter test</Link>
+      </div>
     </div></section>
   </>);
 }

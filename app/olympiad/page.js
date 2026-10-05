@@ -46,7 +46,6 @@ export default function Olympiad() {
           <p><strong>What to practise</strong></p>
           <ul>{s.topics.map(t => <li key={t}>{t}</li>)}</ul>
           <p><strong>Tip:</strong> {s.tip}</p>
-          <p className="muted">Practice sets for this section are being prepared.</p>
         </div>))}
       </div>
 

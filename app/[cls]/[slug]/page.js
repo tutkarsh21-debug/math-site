@@ -6,6 +6,10 @@ import { CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 import TOPICS from '@/lib/topics.json';
+import { DoneButton } from '@/components/Progress';
+
+// Search results show about 155 characters, so longer descriptions are cut at a word.
+const short = (s, n = 155) => s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:.\s]+$/, '') + '…';
 
 export const generateStaticParams = () =>
   Object.entries(CLASSES).flatMap(([cls, c]) => c.chapters.map(ch => ({ cls, slug: ch.slug })));
@@ -36,7 +40,7 @@ export async function generateMetadata({ params }) {
   const { c, ch } = find(p); if (!ch) return {};
   const what = `Free PDF notes, formula sheet, DPP${p.cls === 'class-10' ? ', previous year questions' : ''} and an online test`;
   return { title: `${ch.title} ${c.label} ${ch.boards.join(' & ')} Notes, Formulas, DPP and Test`,
-    description: `${c.label} ${ch.boards.join(' and ')} Maths, ${ch.title}: ${ch.summary ? ch.summary + ' ' : ''}${what}.`.slice(0, 300),
+    description: short(`${c.label} ${ch.boards.join(' and ')} Maths, ${ch.title}: ${ch.summary ? ch.summary + ' ' : ''}${what}.`),
     alternates: { canonical: `/${p.cls}/${p.slug}` } };
 }
 
@@ -62,9 +66,7 @@ export default async function Chapter({ params }) {
     </div></div>
     <div className="wrap chapter">
       <article>
-        <div id="video">{ch.youtube
-          ? <iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" />
-          : <div className="video ph">Video coming soon</div>}</div>
+        {ch.youtube && <div id="video"><iframe className="video" src={`https://www.youtube.com/embed/${ch.youtube}`} title={ch.title} allowFullScreen loading="lazy" /></div>}
         <div className="tabs" id="material">
           {tabs.map((t, n) => (<Fragment key={t.kind}>
             <input type="radio" name="material" id={`tab-${t.kind}`} defaultChecked={n === 0} />
@@ -84,6 +86,7 @@ export default async function Chapter({ params }) {
                       <a className="btn btn-sm btn-outline" href={pdf} download={`MathSetu-${p.cls}-${p.slug}-${file}.pdf`}>Download</a>
                     </span>
                   </div>
+                  <p className="pdf-note muted small">On a phone, tap Open PDF to read it full screen.</p>
                   <iframe className="pdf" src={`${pdf}#navpanes=0&view=FitH`} title={`${ch.title}: ${name}`} loading="lazy" />
                 </div>);
               })}
@@ -99,7 +102,7 @@ export default async function Chapter({ params }) {
           <div><h2>Chapter test</h2><p>{test.qs.length} questions · {test.minutes} minutes · instant score with explanations</p></div>
           <Link className="btn btn-sun" href={`/tests/${p.cls}/${p.slug}`}>Start test</Link>
         </div>}
-        <p style={{marginTop:'2rem'}}><a className="btn" href={SITE.telegram}>Join Telegram for daily problems</a></p>
+        <p className="cta-row" style={{marginTop:'2rem'}}><DoneButton id={`${p.cls}/${p.slug}`} title={`${ch.title} (${c.label})`} /><a className="btn btn-outline btn-sm" href={SITE.telegram}>Join Telegram for daily problems</a></p>
         <p className="prevnext">
           {prev ? <Link href={`/${p.cls}/${prev.slug}`}>← {prev.title}</Link> : <span />}
           {next && <Link href={`/${p.cls}/${next.slug}`}>{next.title} →</Link>}

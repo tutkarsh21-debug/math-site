@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import ChapterSearch from '@/components/ChapterSearch';
 import { BOARDS, CLASSES } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 
@@ -22,6 +23,7 @@ const STEPS = [
 
 export default function SelfStudy() {
   const classes = Object.entries(CLASSES);
+  const finder = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ cls: k, label: c.label, boards: ch.boards, title: ch.title, slug: ch.slug })));
   return (<>
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Self Study</div>
@@ -30,7 +32,9 @@ export default function SelfStudy() {
     </div></div>
 
     <section className="section"><div className="wrap">
-      <div className="section-head"><h2>Choose your class and board</h2></div>
+      <div className="section-head"><h2>Find a chapter</h2></div>
+      <ChapterSearch chapters={finder} />
+      <div className="section-head" style={{marginTop:'2rem'}}><h2>Or choose your class and board</h2></div>
       <div className="grid">
         {classes.flatMap(([k, c]) => BOARDS.map(b => {
           const list = c.chapters.filter(ch => ch.boards.includes(b));

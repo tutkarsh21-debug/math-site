@@ -11,7 +11,7 @@ const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500
 export const metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.name} | Class 8, 9, 10 Maths Notes, Tests and Classes for CBSE & ICSE`, template: `%s | ${SITE.name}` },
-  description: 'Free Maths notes, formula sheets, DPP, previous year questions and online chapter tests for Class 8, 9 and 10 (CBSE and ICSE), with live classes and lessons in Hinglish.',
+  description: 'Free Maths notes, formula sheets, DPP and online tests for Class 8, 9 and 10 (CBSE and ICSE), with previous year questions, NCERT solutions and doubt help.',
   // Each page names its own address as the one to index, so copies on other addresses are not counted separately.
   alternates: { canonical: './' },
   openGraph: { siteName: SITE.name, type: 'website', locale: 'en_IN', images: [{ url: '/og.png', width: 1200, height: 630, alt: `${SITE.name}: Class 8, 9 and 10 Maths` }] },
@@ -36,13 +36,15 @@ const Brand = () => (<Link className="brand" href="/"><img className="logo" src=
 
 export default function RootLayout({ children }) {
   const classes = Object.entries(CLASSES);
+  // The Recorded Lectures link appears in the header only once the first video is uploaded.
+  const videos = classes.some(([, c]) => c.chapters.some(ch => ch.youtube));
   return (
     <html lang="en" className={poppins.variable}>
       <body>
         <header className="site-header"><div className="wrap bar">
           <Brand />
           <nav className="nav">
-            {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+            {MODES.filter(m => m.kind !== 'rec' || videos).map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
             {MORE.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
           </nav>
           <AccountButton />
@@ -76,6 +78,7 @@ export default function RootLayout({ children }) {
               <Link href="/about">About {SITE.name}</Link>
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/copyright">Copyright and Disclaimer</Link>
+              {SITE.email && <a href={`mailto:${SITE.email}`}>Email us</a>}
             </div>
           </div>
           <div className="wrap copy">© {new Date().getFullYear()} {SITE.name}. An independent study resource, not affiliated with or endorsed by CBSE, CISCE, NCERT or any publisher. Board and book names are used only to identify the syllabus.</div>

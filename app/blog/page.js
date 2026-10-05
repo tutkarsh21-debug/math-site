@@ -5,7 +5,7 @@ import { OFFICIAL, POSTS } from '@/lib/posts';
 export const metadata = { title: 'Blog and Exam News', description: 'Study advice for Class 8-10 Maths, and exam news for CBSE, ICSE and Olympiads with links to the official notices.' };
 
 const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
-const TABS = ['Blog', 'Exam News'];
+const TABS = ['Blog', 'Exam News'].filter(t => POSTS.some(p => p.category === t));
 
 export default function Blog() {
   return (<>

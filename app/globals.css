@@ -317,3 +317,24 @@ details p{margin:.6rem 0 0;color:var(--muted)}
   .nav{order:3;width:100%;overflow-x:auto;scrollbar-width:none;gap:1.2rem}
   .section{padding:2.5rem 0}
 }
+
+/* chapter search, test navigator, progress marks, phone PDF note */
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.finder{padding:1rem;max-width:760px;margin:0 auto 1.5rem}
+.finder-box{display:block}
+.finder-box input{width:100%;font:inherit;padding:.8rem 1rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
+.finder-box input:focus,.finder-filters select:focus{outline:2px solid var(--brand);outline-offset:1px}
+.finder-filters{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.6rem}
+.finder-filters select{flex:1;min-width:9rem;font:inherit;padding:.6rem .8rem;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.finder-list{list-style:none;margin:.5rem 0 0;padding:0}
+.finder-list li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.3rem .8rem;padding:.6rem 0;border-top:1px solid var(--line)}
+.finder-list a{font-weight:600;color:var(--fg)}
+.qnav{display:flex;flex-wrap:wrap;gap:.4rem;margin:.8rem 0 0}
+.qnav a{display:grid;place-items:center;width:2.1rem;height:2.1rem;border:1px solid var(--line);border-radius:8px;font-size:.88rem;font-weight:600;color:var(--fg);background:var(--card)}
+.qnav a.on{background:var(--t1);border-color:var(--brand);color:var(--brand)}
+.qnav a:hover{text-decoration:none;border-color:var(--brand)}
+.quiz>li{scroll-margin-top:8.5rem}
+.tick{display:inline-grid;place-items:center;width:1.3rem;height:1.3rem;border-radius:50%;background:#2e9e62;color:#fff;font-size:.75rem;margin-left:.4rem;vertical-align:middle}
+.continue{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;margin-top:1.5rem;padding:.8rem 1.1rem;background:var(--t3);border-radius:14px;font-weight:600}
+.pdf-note{display:none;margin:0 0 .6rem}
+@media(max-width:700px){.pdf{display:none}.pdf-note{display:block}}
