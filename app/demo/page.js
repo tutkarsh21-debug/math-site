@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { KidStudy } from '@/components/Art';
 import DemoForm from '@/components/DemoForm';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import { BOARDS, CLASSES, JOIN, SITE } from '@/lib/data';
@@ -29,6 +30,7 @@ export default function Demo() {
     <section className="section"><div className="wrap try-grid" style={{alignItems:'start'}}>
       <DemoForm classes={Object.entries(CLASSES).map(([k, c]) => [k, c.label])} boards={BOARDS} />
       <div>
+        <KidStudy className="demo-kid" />
         <span className="kicker">How it works</span>
         <h2>Join in three easy steps</h2>
         <div className="steps" style={{display:'grid',gap:'1.4rem',marginTop:'1.2rem'}}>

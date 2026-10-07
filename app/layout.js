@@ -1,12 +1,13 @@
 import './globals.css';
 import Link from 'next/link';
-import { Poppins } from 'next/font/google';
+import { Quicksand } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
 import InstallApp from '@/components/InstallApp';
 import JsonLd from '@/components/JsonLd';
 import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
 
-const poppins = Poppins({ subsets: ['latin', 'devanagari'], weight: ['400', '500', '600', '700'], variable: '--font', display: 'swap' });
+// A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
+const poppins = Quicksand({ subsets: ['latin'], weight: ['500', '600', '700'], variable: '--font', display: 'swap' });
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
@@ -21,7 +22,7 @@ export const metadata = {
   icons: { apple: '/icons/icon-180.png' },
 };
 // The colour of the phone's status bar around the site and the installed app.
-export const viewport = { themeColor: [{ media: '(prefers-color-scheme: light)', color: '#1557d6' }, { media: '(prefers-color-scheme: dark)', color: '#0d1220' }] };
+export const viewport = { themeColor: [{ media: '(prefers-color-scheme: light)', color: '#f15d22' }, { media: '(prefers-color-scheme: dark)', color: '#1c1917' }] };
 
 // Who runs the site, for search engines.
 const ORG = {

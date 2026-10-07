@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import { ApproachIcon, Journey, KidStudy, Peek, PlanIcon, Sky, StepArt, Trophy, Worry } from '@/components/Art';
 import ChapterSearch from '@/components/ChapterSearch';
+import CountUp from '@/components/CountUp';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import JsonLd from '@/components/JsonLd';
@@ -80,7 +82,7 @@ export default function Home() {
     { n: BOARDS.length, t: 'Boards: CBSE and ICSE' },
   ];
   return (<>
-    <section className="hero"><div className="wrap hero-grid">
+    <section className="hero"><Sky /><div className="wrap hero-grid">
       <div>
         <span className="eyebrow">Class 8 · 9 · 10 &nbsp;|&nbsp; CBSE · ICSE · Olympiad</span>
         <h1>Maths fear ends where <em>understanding</em> begins</h1>
@@ -94,12 +96,13 @@ export default function Home() {
         </ul>
       </div>
       <div className="hero-art">
+        <Peek />
         <DemoForm id="demo" classes={classes.map(([k, c]) => [k, c.label])} boards={BOARDS} />
       </div>
     </div></section>
 
     <div className="wrap"><div className="stats">
-      {stats.map(s => <div key={s.t} className="stat"><b>{s.n}</b><span>{s.t}</span></div>)}
+      {stats.map(s => <div key={s.t} className="stat"><CountUp n={s.n} /><span>{s.t}</span></div>)}
     </div></div>
 
     <Continue />
@@ -108,12 +111,13 @@ export default function Home() {
       <div className="section-head center reveal"><span className="kicker">How we teach</span><h2>The {SITE.name} approach</h2><p>Six habits that take a child from “I can’t do maths” to “I can do this”.</p></div>
       <div className="grid">
         {APPROACH.map((a, i) => (
-          <div key={a.title} className={`card approach f${i % 4 + 1} reveal`}><b className="no" aria-hidden="true">{i + 1}</b><h3>{a.title}</h3><p>{a.text}</p></div>))}
+          <div key={a.title} className={`card approach f${i % 4 + 1} reveal`}><ApproachIcon i={i} /><h3>{a.title}</h3><p>{a.text}</p></div>))}
       </div>
     </div></section>
 
     <section className="section soft"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">The journey</span><h2>From fear to confidence, one step at a time</h2></div>
+      <Journey />
       <ol className="road reveal">
         <li className="from">“I can’t do maths.”</li>
         {PATH.map(s => <li key={s.title}><b>{s.title}</b><span>{s.text}</span></li>)}
@@ -124,8 +128,9 @@ export default function Home() {
     <section className="section" id="programmes"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Programmes</span><h2>Choose how your child learns</h2><p>Start free. Move to classes with a teacher when you are ready.</p></div>
       <div className="grid plans">
-        {PROGRAMMES.map(p => (
+        {PROGRAMMES.map((p, i) => (
           <div key={p.name} className={`card plan reveal${p.hot ? ' hot' : ''}`}>
+            <PlanIcon i={i} />
             <span className={`badge ${p.hot ? 'live' : 'self'}`}>{p.tag}</span>
             <h3>{p.name}</h3>
             <p>{p.line}</p>
@@ -138,7 +143,7 @@ export default function Home() {
     <section className="section soft"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Getting started</span><h2>Join in three easy steps</h2></div>
       <div className="grid steps">
-        {JOIN.map(s => <div key={s.title} className="step reveal"><h3>{s.title}</h3><p>{s.text}</p></div>)}
+        {JOIN.map((s, i) => <div key={s.title} className="step reveal"><StepArt i={i} /><h3>{s.title}</h3><p>{s.text}</p></div>)}
       </div>
       <p className="center" style={{marginTop:'1.8rem'}}><Link className="btn btn-sun" href="/demo">Book a free demo class</Link></p>
     </div></section>
@@ -166,7 +171,7 @@ export default function Home() {
       <div className="grid">
         {FEARS.map((f, i) => (
           <Link key={f.title} href={f.href} className={`card fear f${i % 4 + 1} reveal`}>
-            <q>{f.worry}</q>
+            <Worry /><q>{f.worry}</q>
             <h3>{f.title}</h3>
             <p>{f.text}</p>
             <span className="go">{f.go} →</span>
@@ -203,6 +208,7 @@ export default function Home() {
           <Link className="btn btn-outline" href="/sample-papers">Sample Papers</Link>
         </div>
         <p className="muted small" style={{marginTop:'1rem'}}>{Object.keys(TESTS).length} chapter tests are ready, one for every chapter of Class 8, 9 and 10.</p>
+        <KidStudy className="try-kid" />
       </div>
       <form className="card try reveal">
         <span className="tag">Class 10 · Real Numbers</span>
@@ -234,7 +240,8 @@ export default function Home() {
 
     <section className="section"><div className="wrap">
       <div className="banner reveal">
-        <div><h2>Preparing for SOF IMO?</h2><p>See how to prepare alongside your school syllabus.</p></div>
+        <Trophy />
+        <div style={{flex:1}}><h2>Preparing for SOF IMO?</h2><p>See how to prepare alongside your school syllabus.</p></div>
         <Link className="btn btn-sun" href="/olympiad">Olympiad preparation</Link>
       </div>
     </div></section>

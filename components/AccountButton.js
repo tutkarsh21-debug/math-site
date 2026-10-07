@@ -14,5 +14,5 @@ export default function AccountButton() {
   }, []);
   return user
     ? <Link className="btn btn-sm btn-outline" href="/account">{user.name.split(' ')[0]}</Link>
-    : <Link className="btn btn-sm" href="/login">Login</Link>;
+    : <Link className="btn btn-sm btn-outline" href="/login">Login</Link>;
 }
