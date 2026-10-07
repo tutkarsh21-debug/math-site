@@ -31,7 +31,7 @@ export default function LiveCourses() {
         <h2 style={{marginTop:'.6rem'}}>Live batches are being planned</h2>
         <p>The first batches for Class 8, 9 and 10 will be announced on Telegram. Send an enquiry with your class and board, and we will message you when registrations open.</p>
         <ul>{INCLUDES.map(t => <li key={t}>{t}</li>)}</ul>
-        <div className="cta-row"><Link className="btn btn-sun" href="/demo">Book a free demo class</Link><Link className="btn btn-outline" href="/enquiry">Tell me when a batch opens</Link><a className="btn btn-outline" href={SITE.telegram}>Join Telegram</a></div>
+        <div className="cta-row"><Link className="btn" href="/enquiry">Tell me when a batch opens</Link><a className="btn btn-outline" href={SITE.telegram}>Join Telegram</a></div>
       </div>) : <div className="grid">
         {open.map(([k, c]) => {
           const b = LIVE[k] || {};

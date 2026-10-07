@@ -47,13 +47,10 @@ export default function RootLayout({ children }) {
             {MODES.filter(m => m.kind !== 'rec' || videos).map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
             {MORE.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
           </nav>
-          <Link className="btn btn-sm btn-sun head-demo" href="/demo">Book a Free Demo</Link>
           <AccountButton />
         </div></header>
         <main>{children}</main>
         <JsonLd data={ORG} />
-        {/* On phones, the demo button stays at the bottom of the screen. Pages with the form itself hide it. */}
-        <Link className="demo-bar" href="/demo">Book a free demo class</Link>
         <InstallApp />
         <footer className="site-footer">
           <div className="wrap foot-grid">
@@ -75,7 +72,6 @@ export default function RootLayout({ children }) {
             <div><h3>Connect</h3>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
-              <Link href="/demo">Book a Free Demo</Link>
               <Link href="/app">Get the App</Link>
               <Link href="/enquiry">Enquiry</Link>
               <Link href="/login">Login / Register</Link>

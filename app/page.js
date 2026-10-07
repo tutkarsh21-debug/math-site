@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import ChapterSearch from '@/components/ChapterSearch';
-import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, BOARDS, CLASSES, JOIN, PROGRAMMES, SITE, TEACHER, TESTIMONIALS } from '@/lib/data';
+import { BOARDS, CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 
@@ -51,7 +50,6 @@ const STEPS = [
 ];
 
 const FAQ = [
-  { q: 'How do I book a free demo class?', a: 'Fill in the short form on this page or on the Free Demo page with your child\'s class and board. We call you to fix a time. There is nothing to pay for the demo.' },
   { q: 'Which classes and boards are covered?', a: 'Class 8, 9 and 10 Maths for both CBSE and ICSE. Each board has its own chapter list, so you only see the chapters of your syllabus.' },
   { q: 'Is the study material free?', a: 'Yes. The notes, formula banks, DPP sheets, previous year questions and online tests are free and can be used without an account. A free account is needed only to save your test scores.' },
   { q: 'What do I get on a chapter page?', a: 'Short notes, a formula bank and a DPP sheet as PDFs. Class 10 chapters also have previous year questions with solutions. Every chapter has a timed online test of 10 questions. Video lectures are being added chapter by chapter.' },
@@ -76,7 +74,7 @@ export default function Home() {
   const stats = [
     { n: all.length, t: 'Chapters covered' },
     { n: pdfs, t: 'Free PDFs' },
-    { n: Object.values(TESTS).reduce((n, t) => n + t.qs.length, 0), t: 'Practice test questions' },
+    { n: classes.length, t: 'Classes: 8, 9 and 10' },
     { n: BOARDS.length, t: 'Boards: CBSE and ICSE' },
   ];
   return (<>
@@ -84,17 +82,23 @@ export default function Home() {
       <div>
         <span className="eyebrow">Class 8 · 9 · 10 &nbsp;|&nbsp; CBSE · ICSE · Olympiad</span>
         <h1>Maths fear ends where <em>understanding</em> begins</h1>
-        <p>Online Maths classes for Class 8, 9 and 10, taught from the basics in simple Hinglish. Most children who fear maths are not weak at it: they missed one idea somewhere. {SITE.name} goes back to that idea and builds up from there.</p>
+        <p>Most students who fear maths are not weak at it. They missed one idea somewhere, and every chapter after that felt harder. {SITE.name} takes you back to that idea and builds up from there, one small step at a time.</p>
         <div className="cta-row">
-          <Link className="btn btn-sun" href="#demo">Book a free demo class</Link>
-          <Link className="btn btn-ghost" href="#classes">I am a student</Link>
+          <Link className="btn btn-sun" href="#classes">Find my class</Link>
+          <Link className="btn btn-ghost" href="/self-study">Start free self study</Link>
         </div>
         <ul className="ticks">
-          <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li>
+          <li>Free PDF notes</li><li>CBSE and ICSE</li><li>No login needed to study</li>
         </ul>
       </div>
       <div className="hero-art">
-        <DemoForm id="demo" classes={classes.map(([k, c]) => [k, c.label])} boards={BOARDS} />
+        <div className="bridge">
+          <p className="bridge-from">“I can’t do maths.”</p>
+          <ol>
+            {PATH.map(s => <li key={s.title}><b>{s.title}</b><span>{s.text}</span></li>)}
+          </ol>
+          <p className="bridge-to">“I can do this.”</p>
+        </div>
       </div>
     </div></section>
 
@@ -103,63 +107,6 @@ export default function Home() {
     </div></div>
 
     <Continue />
-
-    <section className="section"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">How we teach</span><h2>The {SITE.name} approach</h2><p>Six habits that take a child from “I can’t do maths” to “I can do this”.</p></div>
-      <div className="grid">
-        {APPROACH.map((a, i) => (
-          <div key={a.title} className={`card approach f${i % 4 + 1} reveal`}><b className="no" aria-hidden="true">{i + 1}</b><h3>{a.title}</h3><p>{a.text}</p></div>))}
-      </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">The journey</span><h2>From fear to confidence, one step at a time</h2></div>
-      <ol className="road reveal">
-        <li className="from">“I can’t do maths.”</li>
-        {PATH.map(s => <li key={s.title}><b>{s.title}</b><span>{s.text}</span></li>)}
-        <li className="to">“I can do this.”</li>
-      </ol>
-    </div></section>
-
-    <section className="section" id="programmes"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Programmes</span><h2>Choose how your child learns</h2><p>Start free. Move to classes with a teacher when you are ready.</p></div>
-      <div className="grid plans">
-        {PROGRAMMES.map(p => (
-          <div key={p.name} className={`card plan reveal${p.hot ? ' hot' : ''}`}>
-            <span className={`badge ${p.hot ? 'live' : 'self'}`}>{p.tag}</span>
-            <h3>{p.name}</h3>
-            <p>{p.line}</p>
-            <ul>{p.gets.map(g => <li key={g}>{g}</li>)}</ul>
-            <Link className={`btn ${p.hot ? 'btn-sun' : 'btn-outline'}`} href={p.href}>{p.go}</Link>
-          </div>))}
-      </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Getting started</span><h2>Join in three easy steps</h2></div>
-      <div className="grid steps">
-        {JOIN.map(s => <div key={s.title} className="step reveal"><h3>{s.title}</h3><p>{s.text}</p></div>)}
-      </div>
-      <p className="center" style={{marginTop:'1.8rem'}}><Link className="btn btn-sun" href="/demo">Book a free demo class</Link></p>
-    </div></section>
-
-    {TEACHER.name && <section className="section"><div className="wrap teacher reveal">
-      {TEACHER.photo && <img src={TEACHER.photo} alt={TEACHER.name} width="220" height="220" />}
-      <div>
-        <span className="kicker">Your teacher</span>
-        <h2>{TEACHER.name}</h2>
-        {TEACHER.title && <p className="muted">{TEACHER.title}</p>}
-        {TEACHER.about && <p>{TEACHER.about}</p>}
-        {TEACHER.points.length > 0 && <div className="chips">{TEACHER.points.map(p => <span key={p} className="chip">{p}</span>)}</div>}
-      </div>
-    </div></section>}
-
-    {TESTIMONIALS.length > 0 && <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">In their words</span><h2>What parents and students say</h2></div>
-      <div className="grid">
-        {TESTIMONIALS.map(t => <figure key={t.words} className="card quote reveal"><blockquote>{t.words}</blockquote><figcaption>{t.by}</figcaption></figure>)}
-      </div>
-    </div></section>}
 
     <section className="section"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">Maths fear</span><h2>Why maths feels hard, and what we do about it</h2><p>If any of these sounds like you, you are not alone, and it can be fixed.</p></div>
@@ -252,7 +199,7 @@ export default function Home() {
         <div className="cta-row">
           <a className="btn btn-sun" href={SITE.telegram}>Join Telegram</a>
           <a className="btn btn-ghost" href={SITE.youtube}>Watch on YouTube</a>
-          <Link className="btn btn-ghost" href="/demo">Book a free demo class</Link>
+          <Link className="btn btn-ghost" href="/enquiry">Enquire about live classes</Link>
         </div>
       </div>
     </div></section>

@@ -26,7 +26,7 @@ export default function Enquiries({ classLabels }) {
         <td><a href={`tel:${e.mobile}`}>{e.mobile}</a></td>
         <td>{classLabels[e.cls] || e.cls}</td>
         <td>{e.board}</td>
-        <td>{e.message === 'FREE DEMO CLASS REQUEST' ? <span className="badge live">DEMO REQUEST</span> : e.message}</td>
+        <td>{e.message}</td>
       </tr>))}
     </tbody></table></div>
   </>);
