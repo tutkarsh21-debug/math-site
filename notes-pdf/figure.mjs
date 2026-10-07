@@ -15,7 +15,7 @@
 //   M a b text           a label beside the middle of segment ab (N a b text puts it on the other side)
 //   T x y text           free text
 //   cap text             the caption under the drawing
-const INK = '#10182b', BLUE = '#1557d6', SOFT = 'rgba(21,87,214,.14)', SUN = 'rgba(255,197,51,.5)';
+const INK = '#413930', BLUE = '#dc4f14', SOFT = 'rgba(241,93,34,.13)', SUN = 'rgba(255,197,51,.5)';
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const r1 = n => Math.round(n * 10) / 10;
 const OFFSET = { t: [0, -8, 'middle'], b: [0, 17, 'middle'], l: [-9, 5, 'end'], r: [9, 5, 'start'],

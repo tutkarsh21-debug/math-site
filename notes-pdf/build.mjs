@@ -200,7 +200,7 @@ function page(meta, label, subtitle, body) {
   const heading = meta.paper ? meta.title : `Chapter ${meta.chapter}: ${meta.title}`;
   const where = `${meta.class} · ${meta.board} · ${heading} · ${label}`;
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(meta.title)} ${esc(label)} | ${esc(meta.class)} ${esc(meta.board)} | MathSetu</title>
-${[400, 500, 600, 700].map(w => `<link rel="stylesheet" href="${cssUrl(`@fontsource/poppins/${w}.css`)}">`).join('')}
+${[500, 600, 700].map(w => `<link rel="stylesheet" href="${cssUrl(`@fontsource/quicksand/${w}.css`)}">`).join('')}
 <link rel="stylesheet" href="${cssUrl('katex/dist/katex.min.css')}">
 <link rel="stylesheet" href="${pathToFileURL(path.join(here, 'style.css')).href}">
 <style>@page{@bottom-left{content:"MathSetu  ·  ${SITE}"}@bottom-center{content:"Telegram: ${TELEGRAM}"}@bottom-right{content:"Page " counter(page) " of " counter(pages)}}</style>
