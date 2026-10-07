@@ -14,6 +14,7 @@ export default function Tests() {
       <h1>Online Test Series (Class 8-10)</h1>
       <p>Timed chapter tests you take on this site. You get your score, the right answers and an explanation for every question as soon as you submit. There are {count} chapter tests, each with 10 questions.</p>
       <p style={{marginTop:'.6rem'}}><Link href="/login">Log in</Link> before a test to save your score in My tests.</p>
+      <p style={{marginTop:'.6rem'}}><Link href="/practice"><b>New:</b> make your own practice test</Link>, with the chapters and difficulty you choose.</p>
     </div></div>
     <section className="section"><div className="wrap">
       {classes.map(([k, c]) => (<div key={k} id={k} className="part">

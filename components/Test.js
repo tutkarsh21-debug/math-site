@@ -18,18 +18,22 @@ const clock = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 // A test in progress is kept in the browser, so a refresh or a dropped connection does not lose the answers.
 const keep = id => `ms-test-${id}`;
 const load = id => { try { const d = JSON.parse(localStorage.getItem(keep(id))); return d && d.endsAt > Date.now() ? d : null; } catch { return null; } };
-const store = (id, d) => { try { d ? localStorage.setItem(keep(id), JSON.stringify(d)) : localStorage.removeItem(keep(id)); } catch {} };
+const keepStore = (id, d) => { try { d ? localStorage.setItem(keep(id), JSON.stringify(d)) : localStorage.removeItem(keep(id)); } catch {} };
 
 // One online test. id: 'class-10/real-numbers'. test: { minutes, qs: [{ q, o: [options], a: index of the answer, w: why }] }.
-export default function Test({ id, title, test, back }) {
-  const [stage, setStage] = useState('intro');       // intro, running, done
+// practice: for a test made on the practice page: { onFinish(results), onNew(), onBack() }. It starts at once, is never resumed or saved to My tests,
+// and a test with minutes 0 has no timer.
+export default function Test({ id, title, test, back, practice }) {
+  const untimed = test.minutes === 0;
+  const [stage, setStage] = useState(practice ? 'running' : 'intro');       // intro, running, done
   const [only, setOnly] = useState(null);            // null for the whole test, or the numbers of the questions being retried
   const [picked, setPicked] = useState({});          // by position in the questions shown
-  const [endsAt, setEndsAt] = useState(0);
+  const [endsAt, setEndsAt] = useState(() => (practice ? Date.now() + (untimed ? 2592000000 : test.minutes * 60000) : 0));
   const [left, setLeft] = useState(test.minutes * 60);
   const [saved, setSaved] = useState('');
   const [resume, setResume] = useState(null);
   const top = useRef(null), pickedRef = useRef({}), finished = useRef(false);
+  const store = (i, d) => { if (!practice) keepStore(i, d); };
 
   const idx = only || test.qs.map((_, i) => i);      // numbers of the questions shown
   const qs = idx.map(i => test.qs[i]);
@@ -37,7 +41,7 @@ export default function Test({ id, title, test, back }) {
   const score = qs.filter((q, i) => picked[i] === q.a).length;
   const answered = Object.keys(picked).length;
 
-  useEffect(() => { setResume(load(id)); }, [id]);
+  useEffect(() => { if (!practice) setResume(load(id)); }, [id]);
 
   useEffect(() => {
     if (stage !== 'running') return;
@@ -54,7 +58,7 @@ export default function Test({ id, title, test, back }) {
     if (!subset) store(id, { picked: answers, endsAt: end });
   }
   function start(subset = null) {
-    const mins = subset ? Math.max(3, Math.ceil(subset.length * 1.5)) : test.minutes;
+    const mins = untimed ? 43200 : subset ? Math.max(3, Math.ceil(subset.length * 1.5)) : test.minutes;
     begin(subset, {}, Date.now() + mins * 60000);
   }
   function resumeTest() { begin(null, resume.picked, resume.endsAt); setResume(null); }
@@ -74,6 +78,10 @@ export default function Test({ id, title, test, back }) {
     store(id, null);
     setStage('done');
     top.current?.scrollIntoView();
+    if (practice) {
+      if (!only) practice.onFinish(test.qs.map((q, i) => ({ ch: q.ch, label: q.label, lv: q.lv, ok: pickedRef.current[i] === q.a })));
+      setSaved('practice'); return;
+    }
     if (only) { setSaved('retry'); return; }                  // only the whole test is saved to My tests
     const s = test.qs.filter((q, i) => pickedRef.current[i] === q.a).length;
     try {
@@ -105,16 +113,20 @@ export default function Test({ id, title, test, back }) {
           <p className="muted">{score === total ? 'Full marks. Well done!' : score >= total * 0.7 ? 'Good work. Check the questions you missed below.' : 'Go through the explanations below, revise the notes, and try again.'}</p>
           {saved === 'yes' && <p className="muted small">Saved to <Link href="/account">My tests</Link>.</p>}
           {saved === 'login' && <p className="muted small"><Link href="/login">Log in</Link> before the next test to keep your scores.</p>}
+          {saved === 'practice' && <p className="muted small">Saved to your practice history on this device.</p>}
           {saved === 'retry' && <p className="muted small">This was a practice round, so it is not saved to My tests.</p>}
           <div className="cta-row">
             {wrong.length > 0 && <button className="btn" onClick={() => start(wrong)}>Retry the {wrong.length} I missed</button>}
             <button className={wrong.length > 0 ? 'btn btn-outline' : 'btn'} onClick={() => start()}>{only ? 'Take the full test' : 'Try the full test again'}</button>
-            <Link className="btn btn-outline" href={back}>Back to the chapter</Link>
-            <Link className="btn btn-outline" href="/tests">All tests</Link>
+            {practice
+              ? <><button className="btn btn-outline" onClick={practice.onNew}>New test, same settings</button>
+                  <button className="btn btn-outline" onClick={practice.onBack}>Change settings</button></>
+              : <><Link className="btn btn-outline" href={back}>Back to the chapter</Link>
+                  <Link className="btn btn-outline" href="/tests">All tests</Link></>}
           </div>
         </div>
       : <>
-          <div className="timer" aria-live="off"><span>Answered {answered} of {total}</span><b className={left < 60 ? 'low' : ''}>{clock(left)}</b></div>
+          <div className="timer" aria-live="off"><span>Answered {answered} of {total}</span>{untimed ? <b>No timer</b> : <b className={left < 60 ? 'low' : ''}>{clock(left)}</b>}</div>
           <nav className="qnav" aria-label="Jump to a question">
             {qs.map((_, i) => <a key={i} href={`#q${i}`} className={picked[i] !== undefined ? 'on' : ''}>{i + 1}</a>)}
           </nav>

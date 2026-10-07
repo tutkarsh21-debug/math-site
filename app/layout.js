@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
           <Brand />
           <nav className="nav">
             {MODES.filter(m => m.kind !== 'rec' || videos).map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
-            {MORE.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+            {MORE.map(m => <Link key={m.href} href={m.href} className={m.hot ? 'nav-hot' : undefined}>{m.label}{m.hot && <span className="nav-new">NEW</span>}</Link>)}
           </nav>
           <Link className="btn btn-sm btn-sun head-demo" href="/demo">Book a Free Demo</Link>
           <AccountButton />
@@ -68,6 +68,7 @@ export default function RootLayout({ children }) {
             </div>
             <div><h3>Learn</h3>
               {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+              <Link href="/practice">Practice Test Generator</Link>
               <Link href="/tests">Test Series</Link>
               <Link href="/sample-papers">Sample Papers</Link>
               <Link href="/doubts">Ask a Doubt</Link>

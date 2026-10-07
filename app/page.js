@@ -4,6 +4,7 @@ import ChapterSearch from '@/components/ChapterSearch';
 import CountUp from '@/components/CountUp';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
+import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
 import { APPROACH, BOARDS, CLASSES, JOIN, PROGRAMMES, SITE, TEACHER, TESTIMONIALS } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
@@ -92,7 +93,7 @@ export default function Home() {
           <Link className="btn btn-ghost" href="#classes">I am a student</Link>
         </div>
         <ul className="ticks">
-          <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li>
+          <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li><li>Unlimited practice tests</li>
         </ul>
       </div>
       <div className="hero-art">
@@ -106,6 +107,8 @@ export default function Home() {
     </div></div>
 
     <Continue />
+
+    <PracticeSpotlight />
 
     <section className="section"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">How we teach</span><h2>The {SITE.name} approach</h2><p>Six habits that take a child from “I can’t do maths” to “I can do this”.</p></div>
