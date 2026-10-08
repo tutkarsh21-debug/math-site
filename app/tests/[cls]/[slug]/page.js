@@ -28,7 +28,7 @@ export default async function TestPage({ params }) {
       <p><span className="tag">{c.label}</span>{ch.boards.map(b => <span key={b} className="tag">{b}</span>)}</p>
     </div></div>
     <section className="section"><div className="wrap narrow">
-      <Test id={`${p.cls}/${p.slug}`} title={`${ch.title} (${c.label} ${ch.boards[0]})`} test={test} back={`/${p.cls}/${p.slug}`} />
+      <Test id={`${p.cls}/${p.slug}`} title={`${ch.title} (${c.label} ${ch.boards[0]})`} test={test} back={`/${p.cls}/${p.slug}`} cls={p.cls} topic={{ ch: p.slug, label: ch.title }} />
     </div></section>
   </>);
 }

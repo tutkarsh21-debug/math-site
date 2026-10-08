@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import AiReport from '@/components/AiReport';
 
 // The picture of one student, used by all three dashboards. data comes from lib/dashboard.js (studentOverview).
 // mode: 'student' (the student's own, with links to act), 'parent' (read only) or 'admin' (the owner looking at one student).
@@ -37,6 +38,13 @@ export default function DashboardView({ data, mode = 'student' }) {
   const who = mode === 'student' ? 'You have' : `${data.user.name.split(' ')[0]} has`;
   const peak = Math.max(1, ...days.map(d => d.n));
   const weak = topics.filter(t => t.n >= ENOUGH && t.pct < 50);
+  // For the AI report on everything so far: the practice topics, and each chapter test's chapter as a topic of its own.
+  const aiTopics = (() => {
+    const by = {};
+    topics.forEach(t => { by[t.label] = { label: t.label, n: t.n, c: t.c }; });
+    chapterTests.forEach(r => { const e = by[r.title] || (by[r.title] = { label: r.title, n: 0, c: 0 }); e.n += r.total; e.c += r.score; });
+    return Object.values(by).filter(t => t.n > 0).sort((a, b) => a.c / a.n - b.c / b.n).slice(0, 30);
+  })();
 
   return (<div className="dash">
     <Cards items={[
@@ -68,6 +76,8 @@ export default function DashboardView({ data, mode = 'student' }) {
           <Bars rows={topics} link={mode === 'student' ? r => `/practice?cls=${r.cls}&ch=${r.ch}` : null} />
         </>}
     </section>
+
+    {mode === 'student' && s.questions > 0 && aiTopics.length > 0 && <AiReport title="AI report on all my tests" payload={{ cls: data.user.cls, kind: 'overall', title: 'All tests so far', total: s.questions, score: s.right, skipped: 0, minutes: 0, secs: 0, topics: aiTopics, levels: [], missed: [] }} />}
 
     <section className="dash-sec">
       <h2>Chapter tests</h2>

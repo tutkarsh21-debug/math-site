@@ -1,18 +1,10 @@
 'use client';
-import 'katex/dist/katex.min.css';
-import katex from 'katex';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
+import Analysis from '@/components/Analysis';
+import { Tex } from '@/components/Tex';
 
-// Text with $maths$ and **bold**, as in the notes.
-export function Tex({ text }) {
-  let bold = false;
-  const html = text.split(/(\$[^$]+\$)/).map(part =>
-    part.startsWith('$') && part.endsWith('$') && part.length > 2
-      ? katex.renderToString(part.slice(1, -1).replace(/°/g, '^\\circ'), { throwOnError: false, strict: 'ignore' })
-      : part.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*\*/g, () => (bold = !bold) ? '<strong>' : '</strong>')).join('');
-  return <span dangerouslySetInnerHTML={{ __html: html }} />;
-}
+export { Tex };
 
 const clock = s => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
 // A test in progress is kept in the browser, so a refresh or a dropped connection does not lose the answers.
@@ -23,7 +15,7 @@ const keepStore = (id, d) => { try { d ? localStorage.setItem(keep(id), JSON.str
 // One online test. id: 'class-10/real-numbers'. test: { minutes, qs: [{ q, o: [options], a: index of the answer, w: why }] }.
 // practice: for a test made on the practice page: { onFinish(results), onNew(), onBack() }. It starts at once, is never resumed or saved to My tests,
 // and a test with minutes 0 has no timer.
-export default function Test({ id, title, test, back, practice }) {
+export default function Test({ id, title, test, back, practice, topic, cls }) {
   const untimed = test.minutes === 0;
   const [stage, setStage] = useState(practice ? 'running' : 'intro');       // intro, running, done
   const [only, setOnly] = useState(null);            // null for the whole test, or the numbers of the questions being retried
@@ -31,6 +23,7 @@ export default function Test({ id, title, test, back, practice }) {
   const [endsAt, setEndsAt] = useState(() => (practice ? Date.now() + (untimed ? 2592000000 : test.minutes * 60000) : 0));
   const [left, setLeft] = useState(test.minutes * 60);
   const [saved, setSaved] = useState('');
+  const [used, setUsed] = useState(0);              // seconds taken, when the test is over
   const [resume, setResume] = useState(null);
   const top = useRef(null), pickedRef = useRef({}), finished = useRef(false), startedAt = useRef(Date.now());
   const store = (i, d) => { if (!practice) keepStore(i, d); };
@@ -52,7 +45,9 @@ export default function Test({ id, title, test, back, practice }) {
   }, [stage, endsAt]);
 
   function begin(subset, answers, end) {
-    finished.current = false; startedAt.current = Date.now();
+    finished.current = false;
+    // The start is worked out from the end time, so a test that was resumed after a refresh still counts the time already used.
+    startedAt.current = !untimed && !subset ? end - test.minutes * 60000 : Date.now();
     setOnly(subset); setPicked(answers); pickedRef.current = answers;
     setEndsAt(end); setLeft(Math.ceil((end - Date.now()) / 1000)); setSaved(''); setStage('running');
     if (!subset) store(id, { picked: answers, endsAt: end });
@@ -75,6 +70,7 @@ export default function Test({ id, title, test, back, practice }) {
   async function finish() {
     if (finished.current) return;
     finished.current = true;
+    setUsed(Math.min(Math.round((Date.now() - startedAt.current) / 1000), test.minutes ? test.minutes * 60 : 86400));
     store(id, null);
     setStage('done');
     top.current?.scrollIntoView();
@@ -109,7 +105,7 @@ export default function Test({ id, title, test, back, practice }) {
   const wrong = idx.filter((n, i) => picked[i] !== test.qs[n].a);
   return (<div ref={top}>
     {done
-      ? <div className="card auth result">
+      ? <><div className="card auth result">
           <h2>Your score: {score} / {total}</h2>
           <p className="muted">{score === total ? 'Full marks. Well done!' : score >= total * 0.7 ? 'Good work. Check the questions you missed below.' : 'Go through the explanations below, revise the notes, and try again.'}</p>
           {saved === 'yes' && <p className="muted small">Saved to <Link href="/account">My tests</Link>.</p>}
@@ -126,6 +122,9 @@ export default function Test({ id, title, test, back, practice }) {
                   <Link className="btn btn-outline" href="/tests">All tests</Link></>}
           </div>
         </div>
+        {!only && <Analysis items={test.qs.map((q, i) => ({ ch: q.ch || topic?.ch || 'test', label: q.label || topic?.label || title, lv: q.lv, ok: picked[i] === q.a, skipped: picked[i] === undefined,
+            q: q.q, yours: picked[i] === undefined ? '' : q.o[picked[i]], right: q.o[q.a] }))}
+          meta={{ cls: cls || '', kind: practice ? 'practice' : 'chapter', title, minutes: test.minutes, secs: used }} chapterHref={back} />}</>
       : <>
           <div className="timer" aria-live="off"><span>Answered {answered} of {total}</span>{untimed ? <b>No timer</b> : <b className={left < 60 ? 'low' : ''}>{clock(left)}</b>}</div>
           <nav className="qnav" aria-label="Jump to a question">
