@@ -39,7 +39,7 @@ const contentDir = path.join(here, 'content');
 const outDir = path.join(here, '..', 'public', 'pdf');
 const manifest = path.join(here, '..', 'lib', 'pdfs.json');
 const tmpDir = path.join(here, '.tmp');
-const SITE = 'mathsetu.in', TELEGRAM = 't.me/MathSetu';
+const SITE = 'mathsetu.in', TELEGRAM = 't.me/MathSetu', EMAIL = 'contact@mathsetu.in';
 
 const chrome = [process.env.CHROME_PATH,
   'C:/Program Files/Google/Chrome/Application/chrome.exe',
@@ -203,7 +203,7 @@ function page(meta, label, subtitle, body) {
 ${[500, 600, 700].map(w => `<link rel="stylesheet" href="${cssUrl(`@fontsource/quicksand/${w}.css`)}">`).join('')}
 <link rel="stylesheet" href="${cssUrl('katex/dist/katex.min.css')}">
 <link rel="stylesheet" href="${pathToFileURL(path.join(here, 'style.css')).href}">
-<style>@page{@bottom-left{content:"MathSetu  ·  ${SITE}"}@bottom-center{content:"Telegram: ${TELEGRAM}"}@bottom-right{content:"Page " counter(page) " of " counter(pages)}}</style>
+<style>@page{@bottom-left{content:"MathSetu  ·  ${SITE}"}@bottom-center{content:"Telegram: ${TELEGRAM}  ·  ${EMAIL}"}@bottom-right{content:"Page " counter(page) " of " counter(pages)}}</style>
 </head><body>
 <div class="wm">MathSetu</div>
 <div class="hdr"><span class="brand">${LOGO}MathSetu</span><span>${esc(where)}</span></div>
