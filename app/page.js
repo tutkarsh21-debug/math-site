@@ -1,12 +1,11 @@
 import Link from 'next/link';
-import { ApproachIcon, Journey, KidStudy, Peek, PlanIcon, Sky, StepArt, Trophy, Worry } from '@/components/Art';
+import { ApproachIcon, Journey, Peek, PlanIcon, Sky, StepArt, Trophy, Worry } from '@/components/Art';
 import ChapterSearch from '@/components/ChapterSearch';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
 import { APPROACH, BOARDS, CLASSES, JOIN, PROGRAMMES, SITE, TEACHER, TESTIMONIALS } from '@/lib/data';
-import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 
 // Icons are drawn as line paths on a 24 x 24 grid.
@@ -61,18 +60,9 @@ const FAQ = [
   { q: 'Do you help with Olympiad preparation?', a: 'Yes. The Olympiad page explains how to prepare for SOF IMO alongside your school syllabus.' },
 ];
 
-// A sample question for the "Try a question" block. It works without JavaScript: the chosen option is coloured by CSS.
-const SAMPLE = {
-  q: 'Two bells ring every 18 minutes and every 24 minutes. If they ring together at 9:00 am, when do they next ring together?',
-  o: ['9:42 am', '10:00 am', '10:12 am', '10:48 am'], a: 2,
-  w: 'The LCM of 18 and 24 is 72 minutes, that is 1 hour 12 minutes after 9:00 am.',
-};
-
 export default function Home() {
   const classes = Object.entries(CLASSES);
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
-  // The first chapter of every class in each board.
-  const featured = BOARDS.flatMap(b => classes.map(([k]) => all.find(ch => ch.cls === k && ch.boards[0] === b))).filter(Boolean);
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   return (<>
     <section className="hero"><Sky /><div className="wrap hero-grid">
@@ -186,38 +176,6 @@ export default function Home() {
       <div className="grid">
         {FEATURES.map((f, i) => (
           <div key={f.title} className={`card feat f${i % 4 + 1} reveal`}><div className="icon"><Icon name={f.icon} /></div><h3>{f.title}</h3><p>{f.text}</p></div>))}
-      </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap try-grid">
-      <div className="reveal">
-        <span className="kicker">Test Series</span>
-        <h2>Try a question right now</h2>
-        <p className="muted">Chapter tests are timed, and you get your score with an explanation for every question as soon as you submit. Pick an answer to see how it works.</p>
-        <div className="cta-row">
-          <Link className="btn" href="/tests">Open Test Series</Link>
-          <Link className="btn btn-outline" href="/sample-papers">Sample Papers</Link>
-        </div>
-        <KidStudy className="try-kid" />
-      </div>
-      <form className="card try reveal">
-        <span className="tag">Class 10 · Real Numbers</span>
-        <p className="qtext">{SAMPLE.q}</p>
-        {SAMPLE.o.map((o, i) => (
-          <label key={o} className={`opt ${i === SAMPLE.a ? 'ok' : 'no'}`}><input type="radio" name="sample" />{o}</label>))}
-        <p className="why"><b>Answer: {SAMPLE.o[SAMPLE.a]}.</b> {SAMPLE.w}</p>
-      </form>
-    </div></section>
-
-    <section className="section"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Begin with these chapters</h2><p>Open any chapter and start today.</p></div>
-      <div className="grid">
-        {featured.map(ch => (
-          <Link key={`${ch.cls}/${ch.slug}`} href={`/${ch.cls}/${ch.slug}`} className="card reveal">
-            <span className="tag">{ch.label} {ch.boards[0]}</span>{PDFS[`${ch.cls}/${ch.slug}`] && <span className="tag ready">PDF notes</span>}
-            <h3 style={{marginTop:'.6rem'}}>{ch.title}</h3>
-            <span className="go">Open chapter →</span>
-          </Link>))}
       </div>
     </div></section>
 
