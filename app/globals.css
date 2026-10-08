@@ -635,3 +635,12 @@ body{font-weight:500}
 .pr-num input{font:inherit;padding:.55rem .8rem;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);width:8rem}
 .pr-num input[aria-invalid=true]{border-color:#d9534f}
 @media(max-width:560px){.analysis{padding:1.1rem}.analysis .pr-bar{grid-template-columns:1fr 5rem}.analysis .pr-track{grid-column:1/-1;order:3}}
+
+/* ---- Start here page ---- */
+.plan-steps{list-style:none;margin:1.2rem 0 0;padding:0;display:grid;gap:.9rem;counter-reset:ps}
+.plan-steps li{display:flex;gap:1rem;align-items:flex-start;padding:1.1rem 1.3rem}
+.plan-steps h3{margin:0 0 .2rem}
+.plan-steps p{margin:0;color:var(--muted)}
+.plan-no{flex:none;display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:50%;background:var(--sun);color:#fff;font-size:1.05rem}
+
+.nav{gap:.95rem}

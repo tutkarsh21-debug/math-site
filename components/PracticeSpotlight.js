@@ -12,13 +12,13 @@ export default function PracticeSpotlight() {
         <p className="spot-usp">Most practice runs out. This one never does. Choose your class, chapters and difficulty, and {`MathSetu`} writes a brand-new exam-style paper in a second, with a clear explanation for every answer and a tracker that shows which chapter needs you next.</p>
         <ul className="spot-points">
           <li><b>Never the same paper twice.</b> Every question is generated fresh, so practice cannot be memorised.</li>
-          <li><b>Yours to shape.</b> Any mix of chapters, Easy, Medium, Hard or Mixed, 5 to 30 questions, timed or relaxed.</li>
+          <li><b>Yours to shape.</b> Any mix of chapters, Easy, Medium, Hard or Mixed, any number of questions up to 50, and the time you choose. The test submits itself when time is up.</li>
           <li><b>Learn from every mistake.</b> Step-by-step explanation after each answer, and one tap to retry only what you missed.</li>
-          <li><b>Know your weak spots.</b> Your scores build a chapter-by-chapter progress chart, private on your own device.</li>
+          <li><b>Know your weak spots.</b> After every test you see which topics are strong and which are weak, what to read next, and, if you log in, an AI report.</li>
         </ul>
         <div className="cta-row">
           <Link className="btn btn-sun spot-btn" href="/practice">Make my test <span aria-hidden="true">→</span></Link>
-          <span className="muted small" style={{ alignSelf: 'center' }}>Free. For Class 8, 9 and 10.</span>
+          <span className="muted small" style={{ alignSelf: 'center' }}>Free. Class 8, 9, 10 and the Olympiad.</span>
         </div>
       </div>
       <div className="spot-demo" aria-hidden="true">

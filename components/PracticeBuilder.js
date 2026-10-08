@@ -37,6 +37,12 @@ export default function PracticeBuilder() {
     if (c && PRACTICE_CLASSES.some(x => x.key === c)) {
       setCls(c);
       if (ch && chaptersOf(c).some(x => x.slug === ch)) setPicked([ch]);
+      // From the Start here page: the level check for this class begins at once.
+      if (q.get('check') === '1') {
+        const all = chaptersOf(c);
+        setPicked(all.map(x => x.slug)); setLevel('0'); setCountText('20');
+        generate({ chapters: all, level: '0', count: 20, minutes: 30, name: 'Level check' });
+      }
     }
   }, []);
 

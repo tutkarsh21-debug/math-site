@@ -82,7 +82,7 @@ export default function Home() {
         <p>Online Maths classes for Class 8, 9 and 10, taught from the basics in simple Hinglish. Most children who fear maths are not weak at it: they missed one idea somewhere. {SITE.name} goes back to that idea and builds up from there.</p>
         <div className="cta-row">
           <Link className="btn btn-sun" href="#demo">Book a free demo class</Link>
-          <Link className="btn btn-ghost" href="#classes">I am a student</Link>
+          <Link className="btn btn-ghost" href="/start">I am weak in maths</Link>
         </div>
         <ul className="ticks">
           <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li><li>Unlimited practice tests</li>

@@ -38,18 +38,16 @@ const Brand = () => (<Link className="brand" href="/"><img className="logo" src=
 
 export default function RootLayout({ children }) {
   const classes = Object.entries(CLASSES);
-  // The Recorded Lectures link appears in the header only once the first video is uploaded.
-  const videos = classes.some(([, c]) => c.chapters.some(ch => ch.youtube));
   return (
     <html lang="en" className={poppins.variable}>
       <body>
         <header className="site-header"><div className="wrap bar">
           <Brand />
           <nav className="nav">
-            {MODES.filter(m => m.kind !== 'rec' || videos).map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+            {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
             {MORE.map(m => <Link key={m.href} href={m.href} className={m.hot ? 'nav-hot' : undefined}>{m.label}{m.hot && <span className="nav-new">NEW</span>}</Link>)}
           </nav>
-          <Link className="btn btn-sm btn-sun head-demo" href="/demo">Book a Free Demo</Link>
+          <Link className="btn btn-sm btn-sun head-demo" href="/demo">Free Demo</Link>
           <AccountButton />
         </div></header>
         <main>{children}</main>
@@ -70,6 +68,7 @@ export default function RootLayout({ children }) {
             </div>
             <div><h3>Learn</h3>
               {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
+              <Link href="/start">Start here (weak in maths?)</Link>
               <Link href="/practice">Practice Test Generator</Link>
               <Link href="/tests">Test Series</Link>
               <Link href="/sample-papers">Sample Papers</Link>
