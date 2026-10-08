@@ -18,7 +18,7 @@ export default function PracticeSpotlight() {
         </ul>
         <div className="cta-row">
           <Link className="btn btn-sun spot-btn" href="/practice">Make my test <span aria-hidden="true">→</span></Link>
-          <span className="muted small" style={{ alignSelf: 'center' }}>Free. Class 10 is live now; Classes 9 and 8 are coming.</span>
+          <span className="muted small" style={{ alignSelf: 'center' }}>Free. For Class 8, 9 and 10.</span>
         </div>
       </div>
       <div className="spot-demo" aria-hidden="true">
