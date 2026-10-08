@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { ApproachIcon, Journey, KidStudy, Peek, PlanIcon, Sky, StepArt, Trophy, Worry } from '@/components/Art';
 import ChapterSearch from '@/components/ChapterSearch';
-import CountUp from '@/components/CountUp';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
@@ -75,13 +74,6 @@ export default function Home() {
   // The first chapter of every class in each board.
   const featured = BOARDS.flatMap(b => classes.map(([k]) => all.find(ch => ch.cls === k && ch.boards[0] === b))).filter(Boolean);
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
-  const pdfs = Object.values(PDFS).reduce((n, kinds) => n + kinds.length, 0);
-  const stats = [
-    { n: all.length, t: 'Chapters covered' },
-    { n: pdfs, t: 'Free PDFs' },
-    { n: Object.values(TESTS).reduce((n, t) => n + t.qs.length, 0), t: 'Practice test questions' },
-    { n: BOARDS.length, t: 'Boards: CBSE and ICSE' },
-  ];
   return (<>
     <section className="hero"><Sky /><div className="wrap hero-grid">
       <div>
@@ -101,10 +93,6 @@ export default function Home() {
         <DemoForm id="demo" classes={classes.map(([k, c]) => [k, c.label])} boards={BOARDS} />
       </div>
     </div></section>
-
-    <div className="wrap"><div className="stats">
-      {stats.map(s => <div key={s.t} className="stat"><CountUp n={s.n} /><span>{s.t}</span></div>)}
-    </div></div>
 
     <Continue />
 
@@ -210,7 +198,6 @@ export default function Home() {
           <Link className="btn" href="/tests">Open Test Series</Link>
           <Link className="btn btn-outline" href="/sample-papers">Sample Papers</Link>
         </div>
-        <p className="muted small" style={{marginTop:'1rem'}}>{Object.keys(TESTS).length} chapter tests are ready, one for every chapter of Class 8, 9 and 10.</p>
         <KidStudy className="try-kid" />
       </div>
       <form className="card try reveal">

@@ -38,11 +38,11 @@ ul,ol{padding-left:1.2rem}
 
 /* header */
 .site-header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
-.bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.5rem;padding-top:.7rem;padding-bottom:.7rem}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;padding-top:.7rem;padding-bottom:.7rem}
 .brand{display:flex;align-items:center;gap:.55rem;font-weight:700;font-size:1.25rem;color:var(--fg);margin-right:auto}
 .brand:hover{text-decoration:none}
 .logo{display:block;width:2.1rem;height:2.1rem}
-.nav{display:flex;gap:1.4rem;font-weight:500}
+.nav{display:flex;gap:1.05rem;font-weight:500;font-size:.96rem}
 .nav a{color:var(--fg);white-space:nowrap}
 .nav a:hover{color:var(--brand);text-decoration:none}
 
@@ -554,3 +554,47 @@ body{font-weight:500}
   .sd-c1,.sd-c2,.sd-c3,.sd-lv{background:var(--brand);color:#fff;border-color:var(--brand)}
   .sd-go{background:var(--sun);color:#fff}.sd-ok{border-color:#2e9e62;background:var(--t3)}
 }
+
+/* ---- Dashboards (student, parent and owner) ---- */
+.dash{display:grid;gap:0}
+.dash-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-bottom:1.2rem}
+.dash-head h2{margin:0}
+.dash-head p{margin:.2rem 0 0}
+.dash-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(10.5rem,1fr));gap:.9rem}
+.dash-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.1rem;box-shadow:var(--shadow)}
+.dash-card b{font-size:1.8rem;line-height:1.15;color:var(--brand)}
+.dash-card span{font-weight:600;font-size:.92rem}
+.dash-card small{color:var(--muted);font-size:.78rem;line-height:1.35}
+.dash-sec{margin-top:2rem}
+.dash-sec h2{font-size:1.25rem;margin-bottom:.6rem}
+.dash-chart{display:flex;align-items:flex-end;gap:.35rem;height:8rem;padding:.4rem 0 0}
+.dash-chart.tall{height:9rem;gap:.2rem}
+.dash-col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;gap:.25rem;min-width:0}
+.dash-bar{display:block;width:100%;max-width:2rem;border-radius:6px 6px 2px 2px;background:linear-gradient(var(--sun),var(--brand));min-height:3px;transform-origin:bottom;animation:barUp .7s ease-out both}
+.dash-col small{font-size:.66rem;color:var(--muted)}
+@keyframes barUp{from{transform:scaleY(0)}}
+.dash-note{background:var(--t4);border-left:4px solid var(--brand);border-radius:10px;padding:.6rem .9rem;margin:.6rem 0}
+.dash .pr-bars{margin-top:.6rem}
+.dash .pr-bars li{display:grid;gap:0}
+.dash a.pr-bar{color:var(--fg);text-decoration:none}
+.dash .pr-bar{display:grid;grid-template-columns:minmax(7rem,14rem) 1fr 5.5rem;gap:.8rem;align-items:center;padding:.4rem .6rem;border-radius:10px}
+.dash a.pr-bar:hover{background:var(--soft)}
+.dash-tag{margin:0 0 .3rem .6rem;line-height:1.2}
+.tag.weak{border-color:#d9534f;color:#d9534f}
+.pill{display:inline-block;font-weight:700;font-size:.85rem;border-radius:99px;padding:.1rem .65rem}
+.pill.good{background:var(--t3);color:#1c8a55}.pill.mid{background:var(--t2);color:#a86a00}.pill.low{background:var(--t4);color:#c2376a}
+.dash-recent{list-style:none;margin:.4rem 0 0;padding:0;display:grid;gap:.15rem}
+.dash-recent li{display:flex;flex-wrap:wrap;align-items:center;gap:.2rem .7rem;padding:.45rem 0;border-bottom:1px dashed var(--line)}
+.dash-recent li a,.dash-recent li>span:not(.badge){font-weight:600;color:var(--fg)}
+.dash-recent small{margin-left:auto}
+.dash-filter{display:flex;flex-wrap:wrap;gap:.6rem;margin:.6rem 0}
+.dash-filter input,.dash-filter select{font:inherit;padding:.55rem .8rem;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.dash-filter input{flex:1;min-width:13rem}
+.parent-box{max-width:none;padding:1.5rem}
+.parent-code{background:var(--t2);border:2px dashed var(--brand);border-radius:14px;padding:1rem 1.2rem;margin:1rem 0;text-align:center}
+.parent-code b{display:block;font-size:2rem;letter-spacing:.15em;color:var(--brand);margin:.3rem 0}
+@media(max-width:560px){.dash .pr-bar{grid-template-columns:1fr 5rem}.dash .pr-track{grid-column:1/-1;order:3}}
+@media(prefers-reduced-motion:reduce){.dash-bar{animation:none}}
+
+/* the header may be wider than the page text, so the menu and the buttons stay on one row */
+.site-header .wrap{max-width:1360px}

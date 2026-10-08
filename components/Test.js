@@ -32,7 +32,7 @@ export default function Test({ id, title, test, back, practice }) {
   const [left, setLeft] = useState(test.minutes * 60);
   const [saved, setSaved] = useState('');
   const [resume, setResume] = useState(null);
-  const top = useRef(null), pickedRef = useRef({}), finished = useRef(false);
+  const top = useRef(null), pickedRef = useRef({}), finished = useRef(false), startedAt = useRef(Date.now());
   const store = (i, d) => { if (!practice) keepStore(i, d); };
 
   const idx = only || test.qs.map((_, i) => i);      // numbers of the questions shown
@@ -52,7 +52,7 @@ export default function Test({ id, title, test, back, practice }) {
   }, [stage, endsAt]);
 
   function begin(subset, answers, end) {
-    finished.current = false;
+    finished.current = false; startedAt.current = Date.now();
     setOnly(subset); setPicked(answers); pickedRef.current = answers;
     setEndsAt(end); setLeft(Math.ceil((end - Date.now()) / 1000)); setSaved(''); setStage('running');
     if (!subset) store(id, { picked: answers, endsAt: end });
@@ -79,7 +79,8 @@ export default function Test({ id, title, test, back, practice }) {
     setStage('done');
     top.current?.scrollIntoView();
     if (practice) {
-      if (!only) practice.onFinish(test.qs.map((q, i) => ({ ch: q.ch, label: q.label, lv: q.lv, ok: pickedRef.current[i] === q.a })));
+      if (!only) practice.onFinish(test.qs.map((q, i) => ({ ch: q.ch, label: q.label, lv: q.lv, ok: pickedRef.current[i] === q.a })),
+        { secs: Math.round((Date.now() - startedAt.current) / 1000), skipped: test.qs.filter((_, i) => pickedRef.current[i] === undefined).length, minutes: test.minutes });
       setSaved('practice'); return;
     }
     if (only) { setSaved('retry'); return; }                  // only the whole test is saved to My tests

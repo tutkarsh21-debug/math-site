@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Quicksand } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
 import InstallApp from '@/components/InstallApp';
+import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
 import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
 
@@ -56,6 +57,7 @@ export default function RootLayout({ children }) {
         {/* On phones, the demo button stays at the bottom of the screen. Pages with the form itself hide it. */}
         <Link className="demo-bar" href="/demo">Book a free demo class</Link>
         <InstallApp />
+        <Tracker />
         <footer className="site-footer">
           <div className="wrap foot-grid">
             <div>
@@ -81,6 +83,7 @@ export default function RootLayout({ children }) {
               <Link href="/app">Get the App</Link>
               <Link href="/enquiry">Enquiry</Link>
               <Link href="/login">Login / Register</Link>
+              <Link href="/parent">Parent Dashboard</Link>
               <Link href="/about">About {SITE.name}</Link>
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/copyright">Copyright and Disclaimer</Link>

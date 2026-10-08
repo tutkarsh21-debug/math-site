@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import PdfLink from '@/components/PdfLink';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
 import { CLASSES, SITE } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
@@ -82,8 +83,8 @@ export default async function Chapter({ params }) {
                   <div className="pdf-bar">
                     <span>{t.files.length > 1 ? <strong>{name}</strong> : t.about}</span>
                     <span className="cta-row">
-                      <a className="btn btn-sm" href={pdf} target="_blank" rel="noopener">Open PDF</a>
-                      <a className="btn btn-sm btn-outline" href={pdf} download={`MathSetu-${p.cls}-${p.slug}-${file}.pdf`}>Download</a>
+                      <PdfLink className="btn btn-sm" href={pdf} target="_blank" rel="noopener">Open PDF</PdfLink>
+                      <PdfLink className="btn btn-sm btn-outline" href={pdf} download={`MathSetu-${p.cls}-${p.slug}-${file}.pdf`}>Download</PdfLink>
                     </span>
                   </div>
                   <p className="pdf-note muted small">On a phone, tap Open PDF to read it full screen.</p>

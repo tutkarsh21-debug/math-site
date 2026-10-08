@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 export default function AccountButton() {
   const [user, setUser] = useState(null);
   useEffect(() => {
-    const load = () => fetch('/api/me').then(r => r.json()).then(d => setUser(d.user)).catch(() => {});
+    const load = () => fetch('/api/me').then(r => r.json()).then(d => { setUser(d.user); window.__msUser = !!d.user; window.dispatchEvent(new CustomEvent('ms-user', { detail: d.user })); }).catch(() => {});
     load();
     // The login and account pages announce a change so the header updates without a reload.
     window.addEventListener('ms-auth', load);

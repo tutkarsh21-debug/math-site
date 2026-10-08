@@ -38,12 +38,14 @@ export default function PracticeBuilder() {
     window.scrollTo({ top: 0 });
   }
 
-  function onFinish(results) {
+  function onFinish(results, meta = {}) {
     const byCh = {};
     results.forEach(r => { const e = byCh[r.ch] || (byCh[r.ch] = { ch: r.ch, label: r.label, n: 0, c: 0 }); e.n++; if (r.ok) e.c++; });
     const entry = { t: Date.now(), cls, level, score: results.filter(r => r.ok).length, total: results.length, items: Object.values(byCh) };
     const next = [...readHistory(), entry];
     writeHistory(next); setHistory(next);
+    // A logged-in student's test is also saved on the server, for the dashboards. Anyone else keeps it on this device only.
+    if (window.__msUser) fetch('/api/practice', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ cls, level, minutes: meta.minutes || 0, secs: meta.secs || 0, skipped: meta.skipped || 0, items: Object.values(byCh).map(({ ch, label, n, c }) => ({ ch, label, n, c })) }), keepalive: true }).catch(() => {});
   }
 
   if (run) return (<>

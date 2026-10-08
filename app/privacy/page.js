@@ -15,10 +15,19 @@ export default function Privacy() {
       <ul>
         <li>Your name, mobile number, class and board.</li>
         <li>A scrambled (hashed) form of your password. The password itself is never stored and cannot be read by anyone.</li>
-        <li>The scores of the tests you finish while logged in.</li>
+        <li>The scores of the tests you finish while logged in, including the practice tests you make and how each topic went.</li>
+        <li>Which pages and PDFs you open while you are logged in, and when. This is not recorded if you are not logged in.</li>
       </ul>
       <h2>Why we store it</h2>
-      <p>Only to let you log in and to show your scores on your account page. We do not sell or share these details.</p>
+      <p>To let you log in, to show your progress on your own dashboard, to let the teacher see how each student is doing and which content is used, and to improve the lessons. We do not sell these details or share them with advertisers.</p>
+      <h2>Who can see it</h2>
+      <ul>
+        <li><b>You</b>, on your dashboard.</li>
+        <li><b>A parent or guardian</b>, only if you make a parent code on your dashboard and give it to them. They can look but cannot change anything, and you can switch their access off at any time.</li>
+        <li><b>The site owner and teacher</b>, on a private owner dashboard.</li>
+      </ul>
+      <h2>AI reports</h2>
+      <p>If you press the button for an AI report on a test, the topic-wise result of that test (which topics were right or wrong, and the text of the questions you missed) is sent to an AI service (Claude, by Anthropic) so that it can write the report. Your name, mobile number and password are not sent.</p>
       <h2>Cookies</h2>
       <p>One cookie is set when you log in, to keep you logged in on that device. It is removed when you log out.</p>
       <h2>Students under 18</h2>
