@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
               {SITE.email && <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>}
             </div>
             <div><h3>Classes</h3>
-              {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label} Maths</Link>)}
+              {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label}</Link>)}
               <Link href="/olympiad">Olympiad (SOF IMO)</Link>
             </div>
             <div><h3>Learn and practise</h3>

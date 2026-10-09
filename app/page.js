@@ -6,11 +6,8 @@ import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import CountUp from '@/components/CountUp';
 import { APPROACH, BOARDS, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
-import PDFS from '@/lib/pdfs.json';
-import TESTS from '@/lib/tests.json';
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
 const FEARS = [
@@ -33,8 +30,6 @@ const FAQ = [
 export default function Home() {
   const classes = Object.entries(CLASSES);
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
-  const pdfCount = Object.values(PDFS).reduce((n, k) => n + k.length, 0);
-  const testQs = Object.values(TESTS).reduce((n, t) => n + t.qs.length, 0);
   const latest = POSTS.filter(p => p.category === 'Blog').slice(0, 3);
   const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
@@ -83,15 +78,6 @@ export default function Home() {
         <DemoForm id="demo" classes={classes.map(([k, c]) => [k, c.label])} boards={BOARDS} />
       </div>
     </div></section>
-
-    <section className="wrap">
-      <div className="stats reveal">
-        <div className="stat"><CountUp n={all.length} /><span>chapters, Class 8 to 10</span></div>
-        <div className="stat"><CountUp n={pdfCount} /><span>free PDFs: notes, formulas, DPP</span></div>
-        <div className="stat"><CountUp n={testQs} /><span>test questions with explanations</span></div>
-        <div className="stat"><CountUp n={2} /><span>boards: CBSE and ICSE</span></div>
-      </div>
-    </section>
 
     <Continue />
 

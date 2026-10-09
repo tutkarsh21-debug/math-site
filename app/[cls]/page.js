@@ -39,8 +39,8 @@ export default async function ClassPage({ params }) {
     <JsonLd data={breadcrumbs([[`${c.label} Maths`, `/${cls}`]])} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>{c.label}</div>
-      <h1>{c.label} Maths</h1>
-      <p>Everything for {c.label} Maths in one place: {boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')} to study, tests to check yourself, and help when you are stuck.</p>
+      <h1>{c.label}</h1>
+      <p>Everything for {c.label} in one place: {boards.map(x => `${x.list.length} ${x.b} chapters`).join(' and ')} to study, tests to check yourself, and help when you are stuck.</p>
     </div></div>
     <section className="section"><div className="wrap">
       <div className="section-head"><h2>What would you like to do?</h2></div>

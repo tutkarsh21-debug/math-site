@@ -38,7 +38,7 @@ export default function LiveCourses() {
           const boards = BOARDS.filter(x => c.chapters.some(ch => ch.boards.includes(x)));
           return (<div key={k} id={k} className="card course">
             <span className="badge live">LIVE</span>
-            <h2>{c.label} Maths</h2>
+            <h2>{c.label}</h2>
             <p>{boards.join(' and ')} · full syllabus</p>
             <ul>{INCLUDES.map(t => <li key={t}>{t}</li>)}</ul>
             <dl>
