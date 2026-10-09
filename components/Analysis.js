@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useMemo } from 'react';
 import AiReport from '@/components/AiReport';
+import { AI_REPORTS } from '@/lib/features';
 import { analyse, reportPayload } from '@/lib/analysis';
 import { notesFor } from '@/lib/practice/links';
 
@@ -58,6 +59,6 @@ export default function Analysis({ items, meta, chapterHref }) {
       })}</ul>
     </>}
 
-    <AiReport payload={payload} title="AI report on this test" />
+    {AI_REPORTS && <AiReport payload={payload} title="AI report on this test" />}
   </section>);
 }

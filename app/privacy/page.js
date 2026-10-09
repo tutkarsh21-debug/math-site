@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { SITE } from '@/lib/data';
+import { AI_REPORTS } from '@/lib/features';
 
 export const metadata = { title: 'Privacy Policy', description: `What ${SITE.name} stores about students who register, and why.` };
 
@@ -26,8 +27,10 @@ export default function Privacy() {
         <li><b>A parent or guardian</b>, only if you make a parent code on your dashboard and give it to them. They can look but cannot change anything, and you can switch their access off at any time.</li>
         <li><b>The site owner and teacher</b>, on a private owner dashboard.</li>
       </ul>
-      <h2>AI reports</h2>
-      <p>If you press the button for an AI report on a test, the topic-wise result of that test (which topics were right or wrong, and the text of the questions you missed) is sent to an AI service (Claude, by Anthropic) so that it can write the report. Your name, mobile number and password are not sent.</p>
+      {AI_REPORTS && <>
+        <h2>AI reports</h2>
+        <p>If you press the button for an AI report on a test, the topic-wise result of that test (which topics were right or wrong, and the text of the questions you missed) is sent to an AI service (Claude, by Anthropic) so that it can write the report. Your name, mobile number and password are not sent.</p>
+      </>}
       <h2>Cookies</h2>
       <p>One cookie is set when you log in, to keep you logged in on that device. It is removed when you log out.</p>
       <h2>Students under 18</h2>

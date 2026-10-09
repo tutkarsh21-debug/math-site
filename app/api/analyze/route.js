@@ -1,5 +1,6 @@
 import { currentUser, db, json, now, sameOrigin } from '@/lib/auth';
 import { writeReport } from '@/lib/analyze';
+import { AI_REPORTS } from '@/lib/features';
 import { PER_DAY, validatePayload } from '@/lib/report';
 
 export const dynamic = 'force-dynamic';
@@ -7,6 +8,7 @@ export const dynamic = 'force-dynamic';
 // The AI report on a test, for a logged-in student. Each report costs money, so it needs a login and is limited to PER_DAY a day.
 // Body: the figures of the test (see lib/report.js validatePayload) and lang: 'en' or 'hinglish'.
 export async function POST(request) {
+  if (!AI_REPORTS) return json({ error: 'The AI report is switched off for now.', off: true }, 503);
   if (!sameOrigin(request)) return json({ error: 'Request not allowed.' }, 403);
   const u = await currentUser();
   if (!u) return json({ error: 'Please log in to get an AI report.', login: true }, 401);

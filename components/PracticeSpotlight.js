@@ -14,7 +14,7 @@ export default function PracticeSpotlight() {
           <li><b>Never the same paper twice.</b> Every question is generated fresh, so practice cannot be memorised.</li>
           <li><b>Yours to shape.</b> Any mix of chapters, Easy, Medium, Hard or Mixed, any number of questions up to 50, and the time you choose. The test submits itself when time is up.</li>
           <li><b>Learn from every mistake.</b> Step-by-step explanation after each answer, and one tap to retry only what you missed.</li>
-          <li><b>Know your weak spots.</b> After every test you see which topics are strong and which are weak, what to read next, and, if you log in, an AI report.</li>
+          <li><b>Know your weak spots.</b> After every test you see which topics are strong and which are weak, and what to read next.</li>
         </ul>
         <div className="cta-row">
           <Link className="btn btn-sun spot-btn" href="/practice">Make my test <span aria-hidden="true">→</span></Link>

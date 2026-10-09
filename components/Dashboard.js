@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import AiReport from '@/components/AiReport';
+import { AI_REPORTS } from '@/lib/features';
 
 // The picture of one student, used by all three dashboards. data comes from lib/dashboard.js (studentOverview).
 // mode: 'student' (the student's own, with links to act), 'parent' (read only) or 'admin' (the owner looking at one student).
@@ -77,7 +78,7 @@ export default function DashboardView({ data, mode = 'student' }) {
         </>}
     </section>
 
-    {mode === 'student' && s.questions > 0 && aiTopics.length > 0 && <AiReport title="AI report on all my tests" payload={{ cls: data.user.cls, kind: 'overall', title: 'All tests so far', total: s.questions, score: s.right, skipped: 0, minutes: 0, secs: 0, topics: aiTopics, levels: [], missed: [] }} />}
+    {AI_REPORTS && mode === 'student' && s.questions > 0 && aiTopics.length > 0 && <AiReport title="AI report on all my tests" payload={{ cls: data.user.cls, kind: 'overall', title: 'All tests so far', total: s.questions, score: s.right, skipped: 0, minutes: 0, secs: 0, topics: aiTopics, levels: [], missed: [] }} />}
 
     <section className="dash-sec">
       <h2>Chapter tests</h2>
