@@ -1,33 +1,14 @@
 import Link from 'next/link';
-import { ApproachIcon, Journey, Peek, PlanIcon, Sky, StepArt, Trophy, Worry } from '@/components/Art';
+import { ApproachIcon, Peek, PlanIcon, Sky, Trophy, Worry } from '@/components/Art';
 import ChapterSearch from '@/components/ChapterSearch';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, BOARDS, CLASSES, JOIN, PROGRAMMES, SITE, TEACHER, TESTIMONIALS } from '@/lib/data';
+import CountUp from '@/components/CountUp';
+import { APPROACH, BOARDS, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
-
-// Icons are drawn as line paths on a 24 x 24 grid.
-const ICONS = {
-  notes: 'M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h5',
-  formulas: 'M17 5H7l6 7-6 7h10',
-  dpp: 'M4 20l1-4L16 5l3 3L8 19zM14 7l3 3',
-  pyq: 'M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z',
-  test: 'M12 7v5l3 2M12 21a9 9 0 100-18 9 9 0 000 18z',
-  video: 'M4 6h12v12H4zM16 10l5-3v10l-5-3z',
-};
-const Icon = ({ name }) => (<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.8"
-  strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={ICONS[name]} /></svg>);
-
-const FEATURES = [
-  { icon: 'notes', title: 'Short Notes', text: 'Topic-wise notes with solved examples for every chapter, as a PDF you can read or download.' },
-  { icon: 'formulas', title: 'Formula Bank', text: 'All the formulas of a chapter on one page, for quick revision before a test.' },
-  { icon: 'dpp', title: 'DPP Sheets', text: 'A daily practice sheet for each chapter, with the answer key at the end.' },
-  { icon: 'pyq', title: 'PYQ for Class 10', text: 'Previous year board questions arranged topic-wise, with step-by-step solutions.' },
-  { icon: 'test', title: 'Chapter Tests', text: 'Timed online tests with your score and an explanation for every question.' },
-  { icon: 'video', title: 'Video Lectures', text: 'Lessons in simple Hinglish, being added chapter by chapter.' },
-];
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
 const FEARS = [
@@ -37,19 +18,6 @@ const FEARS = [
   { worry: 'I feel shy to ask my doubt in class.', title: 'Ask in private', text: 'Send your doubt with a photo and get a step-by-step answer from your teacher. Only you can see it.', href: '/doubts', go: 'Ask a doubt' },
 ];
 
-// The path shown in the hero, from fear to confidence.
-const PATH = [
-  { title: 'Understand', text: 'Notes that start from the basics' },
-  { title: 'Practise', text: 'A few questions a day, with answers' },
-  { title: 'Check', text: 'A short test for every chapter' },
-  { title: 'Ask', text: 'Your doubt, answered step by step' },
-];
-
-const STEPS = [
-  { title: 'Pick your class', text: 'Choose Class 8, 9 or 10 and your board, then open the chapter you are studying in school.' },
-  { title: 'Read and revise', text: 'Go through the short notes and solved examples, then learn the formula bank.' },
-  { title: 'Practise and test', text: 'Solve the DPP sheet, take the chapter test and join Telegram for a new problem every day.' },
-];
 
 const FAQ = [
   { q: 'How do I book a free demo class?', a: 'Fill in the short form on this page or on the Free Demo page with your child\'s class and board. We call you to fix a time. There is nothing to pay for the demo.' },
@@ -63,6 +31,8 @@ const FAQ = [
 export default function Home() {
   const classes = Object.entries(CLASSES);
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
+  const pdfCount = Object.values(PDFS).reduce((n, k) => n + k.length, 0);
+  const testQs = Object.values(TESTS).reduce((n, t) => n + t.qs.length, 0);
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   return (<>
     <section className="hero"><Sky /><div className="wrap hero-grid">
@@ -84,25 +54,33 @@ export default function Home() {
       </div>
     </div></section>
 
+    <section className="wrap">
+      <div className="stats reveal">
+        <div className="stat"><CountUp n={all.length} /><span>chapters, Class 8 to 10</span></div>
+        <div className="stat"><CountUp n={pdfCount} /><span>free PDFs: notes, formulas, DPP</span></div>
+        <div className="stat"><CountUp n={testQs} /><span>test questions with explanations</span></div>
+        <div className="stat"><CountUp n={2} /><span>boards: CBSE and ICSE</span></div>
+      </div>
+    </section>
+
     <Continue />
 
-    <PracticeSpotlight />
-
-    <section className="section"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">How we teach</span><h2>The {SITE.name} approach</h2><p>Six habits that take a child from “I can’t do maths” to “I can do this”.</p></div>
+    <section className="section" id="classes"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Which class are you in?</h2><p>Pick your class to see everything for it: chapters, tests, live classes and help with doubts.</p></div>
+      <ChapterSearch chapters={finder} />
       <div className="grid">
-        {APPROACH.map((a, i) => (
-          <div key={a.title} className={`card approach f${i % 4 + 1} reveal`}><ApproachIcon i={i} /><h3>{a.title}</h3><p>{a.text}</p></div>))}
+        {classes.map(([k, c]) => (
+          <Link key={k} href={`/${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>
+            <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">Open {c.label} →</span></Link>))}
+        <Link href="/olympiad" className="tile big" data-no="★"><h3>Olympiad</h3><span>SOF IMO preparation</span><span className="go">Open Olympiad →</span></Link>
       </div>
     </div></section>
 
     <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">The journey</span><h2>From fear to confidence, one step at a time</h2></div>
-      <Journey />
-      <ol className="road reveal">
-        <li className="from">“I can’t do maths.”</li>
-        {PATH.map(s => <li key={s.title}><b>{s.title}</b><span>{s.text}</span></li>)}
-        <li className="to">“I can do this.”</li>
+      <div className="section-head center reveal"><span className="kicker">Your path</span><h2>From “I can’t do maths” to “I can do this”</h2><p>Four stages, and a free tool for each one.</p></div>
+      <ol className="roadmap">
+        {ROADMAP.map(r => (
+          <li key={r.stage} className="reveal"><Link href={r.href} className="rm"><span className="st">{r.stage}</span><h3>{r.title}</h3><p>{r.text}</p><span className="go">{r.go} →</span></Link></li>))}
       </ol>
     </div></section>
 
@@ -121,12 +99,25 @@ export default function Home() {
       </div>
     </div></section>
 
-    <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Getting started</span><h2>Join in three easy steps</h2></div>
-      <div className="grid steps">
-        {JOIN.map((s, i) => <div key={s.title} className="step reveal"><StepArt i={i} /><h3>{s.title}</h3><p>{s.text}</p></div>)}
+    <PracticeSpotlight />
+
+    <section className="section"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Stay on track</span><h2>Tools for the student and the parent</h2><p>Everything is free to try. A free account saves your scores.</p></div>
+      <div className="grid">
+        {TOOLS.map((t, i) => (
+          <div key={t.title} className={`card tool f${i % 4 + 1} reveal`}>
+            <h3>{t.title}</h3><p>{t.text}</p>
+            {t.href === 'TELEGRAM' ? <a className="go" href={SITE.telegram}>{t.go} →</a> : <Link className="go" href={t.href}>{t.go} →</Link>}
+          </div>))}
       </div>
-      <p className="center" style={{marginTop:'1.8rem'}}><Link className="btn btn-sun" href="/demo">Book a free demo class</Link></p>
+    </div></section>
+
+    <section className="section soft"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">How we teach</span><h2>The {SITE.name} approach</h2><p>Six habits that take a child from “I can’t do maths” to “I can do this”.</p></div>
+      <div className="grid">
+        {APPROACH.map((a, i) => (
+          <div key={a.title} className={`card approach f${i % 4 + 1} reveal`}><ApproachIcon i={i} /><h3>{a.title}</h3><p>{a.text}</p></div>))}
+      </div>
     </div></section>
 
     {TEACHER.name && <section className="section"><div className="wrap teacher reveal">
@@ -160,32 +151,6 @@ export default function Home() {
       </div>
     </div></section>
 
-    <section className="section soft" id="classes"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Which class are you in?</h2><p>Pick your class to see everything for it: chapters, tests, live classes and help with doubts.</p></div>
-      <ChapterSearch chapters={finder} />
-      <div className="grid">
-        {classes.map(([k, c]) => (
-          <Link key={k} href={`/${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>
-            <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">Open {c.label} →</span></Link>))}
-        <Link href="/olympiad" className="tile big" data-no="★"><h3>Olympiad</h3><span>SOF IMO preparation</span><span className="go">Open Olympiad →</span></Link>
-      </div>
-    </div></section>
-
-    <section className="section"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Inside every chapter</span><h2>Everything you need, in one place</h2><p>Built for school exams and board exams.</p></div>
-      <div className="grid">
-        {FEATURES.map((f, i) => (
-          <div key={f.title} className={`card feat f${i % 4 + 1} reveal`}><div className="icon"><Icon name={f.icon} /></div><h3>{f.title}</h3><p>{f.text}</p></div>))}
-      </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">How it works</span><h2>Three steps for every chapter</h2></div>
-      <div className="grid steps">
-        {STEPS.map(s => <div key={s.title} className="step reveal"><h3>{s.title}</h3><p>{s.text}</p></div>)}
-      </div>
-    </div></section>
-
     <section className="section"><div className="wrap">
       <div className="banner reveal">
         <Trophy />
@@ -203,11 +168,11 @@ export default function Home() {
 
     <section className="section"><div className="wrap">
       <div className="banner reveal">
-        <div><h2>A new problem every day</h2><p>Daily problems are posted on Telegram. Video lessons are on YouTube.</p></div>
+        <div><h2>Not sure where to begin?</h2><p>Book a free demo class and we will help you choose. Daily problems are on Telegram and video lessons on YouTube.</p></div>
         <div className="cta-row">
-          <a className="btn btn-sun" href={SITE.telegram}>Join Telegram</a>
+          <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>
+          <a className="btn btn-ghost" href={SITE.telegram}>Join Telegram</a>
           <a className="btn btn-ghost" href={SITE.youtube}>Watch on YouTube</a>
-          <Link className="btn btn-ghost" href="/demo">Book a free demo class</Link>
         </div>
       </div>
     </div></section>

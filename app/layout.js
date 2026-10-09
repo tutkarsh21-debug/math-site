@@ -5,7 +5,8 @@ import AccountButton from '@/components/AccountButton';
 import InstallApp from '@/components/InstallApp';
 import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
-import { CLASSES, MODES, MORE, SITE } from '@/lib/data';
+import NavMenu from '@/components/NavMenu';
+import { CLASSES, NAV, SITE } from '@/lib/data';
 
 // A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
 const poppins = Quicksand({ subsets: ['latin'], weight: ['500', '600', '700'], variable: '--font', display: 'swap' });
@@ -43,17 +44,12 @@ export default function RootLayout({ children }) {
       <body>
         <header className="site-header"><div className="wrap bar">
           <Brand />
-          <nav className="nav">
-            {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
-            {MORE.map(m => <Link key={m.href} href={m.href} className={m.hot ? 'nav-hot' : undefined}>{m.label}{m.hot && <span className="nav-new">NEW</span>}</Link>)}
-          </nav>
+          <NavMenu items={NAV} />
           <Link className="btn btn-sm btn-sun head-demo" href="/demo">Free Demo</Link>
           <AccountButton />
         </div></header>
         <main>{children}</main>
         <JsonLd data={ORG} />
-        {/* On phones, the demo button stays at the bottom of the screen. Pages with the form itself hide it. */}
-        <Link className="demo-bar" href="/demo">Book a free demo class</Link>
         <InstallApp />
         <Tracker />
         <footer className="site-footer">
@@ -61,32 +57,31 @@ export default function RootLayout({ children }) {
             <div>
               <Brand />
               <p>Class 8-10 Maths for CBSE and ICSE, taught in Hinglish, from basics to Olympiad.</p>
+              {SITE.email && <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>}
             </div>
             <div><h3>Classes</h3>
               {classes.map(([k, c]) => <Link key={k} href={`/${k}`}>{c.label} Maths</Link>)}
               <Link href="/olympiad">Olympiad (SOF IMO)</Link>
             </div>
-            <div><h3>Learn</h3>
-              {MODES.map(m => <Link key={m.href} href={m.href}>{m.label}</Link>)}
-              <Link href="/start">Start here (weak in maths?)</Link>
-              <Link href="/practice">Practice Test Generator</Link>
+            <div><h3>Learn and practise</h3>
+              <Link href="/self-study">Self Study</Link>
+              <Link href="/recorded-lectures">Recorded Lectures</Link>
+              <Link href="/live-courses">Live Courses</Link>
+              <Link href="/practice">Practice Generator</Link>
               <Link href="/tests">Test Series</Link>
               <Link href="/sample-papers">Sample Papers</Link>
               <Link href="/doubts">Ask a Doubt</Link>
-              <Link href="/blog">Blog and Exam News</Link>
             </div>
-            <div><h3>Connect</h3>
+            <div><h3>MathSetu</h3>
+              <Link href="/about">About {SITE.name}</Link>
+              <Link href="/blog">Blog and Exam News</Link>
+              <Link href="/app">Get the App</Link>
+              <Link href="/parent">Parent Dashboard</Link>
+              <Link href="/enquiry">Contact and enquiry</Link>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
-              <Link href="/demo">Book a Free Demo</Link>
-              <Link href="/app">Get the App</Link>
-              <Link href="/enquiry">Enquiry</Link>
-              <Link href="/login">Login / Register</Link>
-              <Link href="/parent">Parent Dashboard</Link>
-              <Link href="/about">About {SITE.name}</Link>
               <Link href="/privacy">Privacy Policy</Link>
               <Link href="/copyright">Copyright and Disclaimer</Link>
-              {SITE.email && <a href={`mailto:${SITE.email}`}>Email us</a>}
             </div>
           </div>
           <div className="wrap copy">© {new Date().getFullYear()} {SITE.name}. An independent study resource, not affiliated with or endorsed by CBSE, CISCE, NCERT or any publisher. Board and book names are used only to identify the syllabus.</div>
