@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ApproachIcon, Peek, PlanIcon, Sky, Trophy, Worry } from '@/components/Art';
+import { HeroKid, Laurel } from '@/components/HeroArt';
 import ChapterSearch from '@/components/ChapterSearch';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
@@ -7,6 +8,7 @@ import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
 import CountUp from '@/components/CountUp';
 import { APPROACH, BOARDS, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import { POSTS } from '@/lib/posts';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 
@@ -33,17 +35,45 @@ export default function Home() {
   const all = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ ...ch, cls: k, label: c.label })));
   const pdfCount = Object.values(PDFS).reduce((n, k) => n + k.length, 0);
   const testQs = Object.values(TESTS).reduce((n, t) => n + t.qs.length, 0);
+  const latest = POSTS.filter(p => p.category === 'Blog').slice(0, 3);
+  const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   return (<>
-    <section className="hero"><Sky /><div className="wrap hero-grid">
-      <div>
-        <span className="eyebrow">Class 8 · 9 · 10 &nbsp;|&nbsp; CBSE · ICSE · Olympiad</span>
-        <h1>Maths fear ends where <em>understanding</em> begins</h1>
-        <p>Online Maths classes for Class 8, 9 and 10, taught from the basics in simple Hinglish. Most children who fear maths are not weak at it: they missed one idea somewhere. {SITE.name} goes back to that idea and builds up from there.</p>
-        <div className="cta-row">
+    <section className="hero2"><Sky />
+      <div className="hero2-in">
+        <h1><span className="hl">Maths Made Simple</span><br />Online Maths for Class 8, 9 &amp; 10</h1>
+        <p className="hero2-sub">Free notes, practice and tests, and live classes with a free demo. From the basics to the Olympiad.</p>
+        <div className="cta-row center-row">
           <Link className="btn btn-sun" href="#demo">Book a free demo class</Link>
-          <Link className="btn btn-ghost" href="/start">I am weak in maths</Link>
+          <Link className="btn btn-outline" href="/start">I am weak in maths</Link>
         </div>
+        <div className="hero2-stage">
+          <Laurel className="l-left" top="Study material" big="FREE" bottom="Notes · DPP · Tests" />
+          <HeroKid />
+          <Laurel className="l-right" top="Made for" big="8 · 9 · 10" bottom="CBSE & ICSE" />
+        </div>
+      </div>
+    </section>
+
+    {latest.length > 0 && <section className="section blog-strip" id="blog"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">From the blog</span><h2>Study tips and exam help</h2><p>Short, practical articles for Class 8, 9 and 10 students and their parents.</p></div>
+      <div className="grid">
+        {latest.map(p => (
+          <Link key={p.slug} href={`/blog/${p.slug}`} className="card reveal">
+            <span className="muted small">{day(p.date)}</span>
+            <h3 style={{ marginTop: '.3rem' }}>{p.title}</h3>
+            <p>{p.summary}</p>
+            <span className="go">Read the article →</span>
+          </Link>))}
+      </div>
+      <p className="center" style={{ marginTop: '1.4rem' }}><Link className="btn btn-outline" href="/blog">See all articles</Link></p>
+    </div></section>}
+
+    <section className="section" id="demo-sec"><div className="wrap try-grid" style={{ alignItems: 'center' }}>
+      <div className="reveal">
+        <span className="kicker">Free demo class</span>
+        <h2>Maths fear ends where <span className="hl">understanding</span> begins</h2>
+        <p className="muted">Most children who fear maths are not weak at it: they missed one idea somewhere. {SITE.name} goes back to that idea and builds up from there, in simple Hinglish, one small step at a time.</p>
         <ul className="ticks">
           <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li><li>Unlimited practice tests</li>
         </ul>

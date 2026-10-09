@@ -670,3 +670,34 @@ body{font-weight:500}
 @media(max-width:560px){.roadmap{grid-template-columns:1fr}}
 .tool{display:flex;flex-direction:column;gap:.15rem}
 .tool p{color:var(--muted);margin:.2rem 0 .6rem;flex:1}
+
+/* ---- Centered home page hero: headline, buttons and a big child between two laurel badges ---- */
+.hl{color:var(--sun)}
+.hero2{position:relative;overflow:hidden;max-width:1240px;margin:.8rem auto 0;border-radius:36px;background:var(--t1)}
+.hero2::before{content:'';position:absolute;inset:0;background-image:repeating-radial-gradient(circle at 50% 108%,transparent 0 118px,rgba(94,145,255,.2) 119px 121px);-webkit-mask-image:linear-gradient(#000 40%,transparent);mask-image:linear-gradient(#000 40%,transparent);pointer-events:none}
+.hero2-in{position:relative;text-align:center;padding:3rem 1.2rem 0}
+.hero2 h1{font-size:clamp(1.9rem,4.6vw,3.3rem);line-height:1.15;letter-spacing:-.01em;margin:0 auto .9rem;max-width:26ch;text-wrap:balance}
+.hero2-sub{font-size:1.15rem;font-weight:600;color:var(--muted);max-width:40rem;margin:0 auto 1.5rem}
+.center-row{justify-content:center}
+.hero2-stage{position:relative;max-width:1000px;margin:1.2rem auto 0}
+.hero-kid{display:block;width:min(100%,520px);margin:0 auto;overflow:visible}
+.hero-kid-bob{animation:kidBob 5s ease-in-out infinite;transform-origin:220px 470px}
+@keyframes kidBob{50%{transform:translateY(-7px)}}
+.laurel{position:absolute;top:30%;width:215px;aspect-ratio:230/220;animation:hover 6s ease-in-out infinite}
+.laurel svg{position:absolute;inset:0;width:100%;height:100%}
+.l-left{left:2%}.l-right{right:2%;animation-delay:-3s}
+.lt{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;line-height:1.2;padding:0 3.4rem}
+.lt small{font-size:.74rem;font-weight:600;color:var(--muted)}
+.lt b{font-size:1.7rem;color:var(--sun);line-height:1.1;margin:.1rem 0}
+.lt span{font-size:.68rem;font-weight:700;color:var(--fg)}
+.blog-strip{padding-bottom:1rem}
+.blog-strip .card h3{font-size:1.05rem}
+@media(max-width:860px){
+  .hero2{margin:.5rem .5rem 0;border-radius:26px}
+  .hero2-in{padding-top:2.2rem}
+  .hero2-stage{display:flex;flex-wrap:wrap;justify-content:center;gap:.2rem .4rem}
+  .hero-kid{order:0;flex-basis:100%;width:min(86%,340px)}
+  .laurel{position:relative;top:auto;left:auto;right:auto;order:1;width:146px;margin-bottom:.6rem;animation:none}
+  .lt b{font-size:1.35rem}.lt{padding:0 2.6rem}.lt small,.lt span{font-size:.62rem}
+}
+@media(prefers-reduced-motion:reduce){.hero-kid-bob,.laurel{animation:none}}
