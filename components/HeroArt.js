@@ -1,15 +1,44 @@
-// Pictures for the top of the home page. Drawn for MathSetu as inline SVG: not photographs, and not of any real child.
+// The picture at the top of the home page: a child standing at a bridge. "Setu" means bridge, and the arch of the bridge is the arch in the
+// MathSetu logo. Drawn for MathSetu as inline SVG: not a photograph, and not of any real child.
 const O = '#f15d22', B = '#5e91ff', P = '#9795f0', G = '#3fbf7f', SKIN = '#f6c9a3', HAIR = '#3a2a22';
+const sky = { focusable: 'false', 'aria-hidden': 'true' };
+
+// The arch and the two river banks, behind the child. The scene is 1000 wide and 520 high; the bridge deck is at height 430.
+export function BridgeBack() {
+  const ARCH = { x0: 215, x1: 785, y: 432, c: -340 };                          // a quadratic arch: both ends on the deck, the control point far above
+  const yAt = x => { const t = (x - ARCH.x0) / (ARCH.x1 - ARCH.x0); return (1 - t) * (1 - t) * ARCH.y + 2 * t * (1 - t) * ARCH.c + t * t * ARCH.y; };
+  const hangers = [];
+  for (let x = 265; x <= 735; x += 45) if (Math.abs(x - 500) > 20) hangers.push(<line key={x} x1={x} y1={yAt(x) + 4} x2={x} y2={ARCH.y} />);
+  return (<svg viewBox="0 0 1000 520" preserveAspectRatio="xMidYMax slice" className="bridge-back" {...sky}>
+    <path d="M0 520V396Q70 372 150 384Q205 392 225 424V520Z" fill="#cfe8d5" />
+    <path d="M1000 520V396Q930 372 850 384Q795 392 775 424V520Z" fill="#cfe8d5" />
+    <path d="M0 424Q70 400 150 412Q205 420 225 448V520H0Z" fill="#b6dcc0" />
+    <path d="M1000 424Q930 400 850 412Q795 420 775 448V520H1000Z" fill="#b6dcc0" />
+    <g fill="none" stroke="#7aa7ff" strokeWidth="4" strokeLinecap="round" opacity=".55" className="waves">
+      <path d="M250 470q20-10 40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0" />
+      <path d="M270 495q20-10 40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0t40 0" />
+    </g>
+    <path d={`M${ARCH.x0} ${ARCH.y}Q500 ${ARCH.c} ${ARCH.x1} ${ARCH.y}`} fill="none" stroke="#f0a21b" strokeWidth="11" strokeLinecap="round" />
+    <path d={`M${ARCH.x0} ${ARCH.y}Q500 ${ARCH.c + 22} ${ARCH.x1} ${ARCH.y}`} fill="none" stroke="#ffd98a" strokeWidth="4" strokeLinecap="round" opacity=".9" />
+    <g stroke="#f0a21b" strokeWidth="3.5" strokeLinecap="round">{hangers}</g>
+    <path d="M205 432H795" stroke="#d98a12" strokeWidth="12" strokeLinecap="round" />
+  </svg>);
+}
+
+// The wall of the bridge in front of the child, so that the child seems to stand behind it.
+export function BridgeFront() {
+  const posts = [];
+  for (let x = 222; x < 790; x += 36) posts.push(<rect key={x} x={x} y="448" width="7" height="72" rx="3" fill="#e8873a" />);
+  return (<svg viewBox="0 0 1000 520" preserveAspectRatio="xMidYMax slice" className="bridge-front" {...sky}>
+    <rect x="205" y="436" width="590" height="84" fill="#f8bd7a" />
+    <rect x="198" y="430" width="604" height="14" rx="7" fill={O} />
+    {posts}
+  </svg>);
+}
 
 // A big, friendly child looking up with a wide smile.
-export const HeroKid = () => (<svg viewBox="0 0 440 470" className="hero-kid" aria-hidden="true" focusable="false">
+export const HeroKid = () => (<svg viewBox="0 0 440 470" className="hero-kid" {...sky}>
   <defs><clipPath id="hk-mouth"><path d="M186 286 Q222 340 258 286 Q222 276 186 286Z" /></clipPath></defs>
-  <circle cx="220" cy="470" r="215" fill={B} />
-  <circle cx="220" cy="470" r="150" fill="#7aa7ff" opacity=".55" />
-  <text x="46" y="150" fontSize="42" fontWeight="700" fill={B} className="float-a">+</text>
-  <text x="372" y="118" fontSize="44" fontWeight="700" fill={P} className="float-b">π</text>
-  <text x="38" y="330" fontSize="38" fontWeight="700" fill={O} className="float-b">√</text>
-  <text x="378" y="300" fontSize="34" fontWeight="700" fill={G} className="float-a">%</text>
   <g className="hero-kid-bob">
     <rect x="196" y="312" width="48" height="56" rx="22" fill="#e6b088" />
     <path d="M62 470 C62 400 104 360 168 350 L272 350 C336 360 378 400 378 470 Z" fill={O} />
@@ -39,26 +68,16 @@ export const HeroKid = () => (<svg viewBox="0 0 440 470" className="hero-kid" ar
   </g>
 </svg>);
 
-// A gold laurel wreath with three lines of text inside: a badge such as "FREE" or "8 · 9 · 10".
-// Two branches rise from the bottom, one on each side, and stop short of meeting at the top.
-export function Laurel({ top, big, bottom, className = '' }) {
-  const N = 8, R = 84, leaves = [];
-  for (let i = 0; i < N; i++) {
-    const t = i / (N - 1), deg = 112 + t * 128;                       // from the bottom up the left side, to near the top
-    const th = (deg * Math.PI) / 180, x = 115 + R * Math.cos(th), y = 108 + R * Math.sin(th);
-    const along = deg + 90 + 8;                                          // the direction of travel up the branch
-    const size = 1 - t * 0.28;                                           // leaves get smaller towards the tip
-    // one leaf on the outside and one on the inside of the stem, both leaning in the direction of travel
-    [[-34, 1], [34, -1]].forEach(([lean, side]) => {
-      const cx = x + side * 5 * Math.cos(th), cy = y + side * 5 * Math.sin(th);
-      leaves.push(<ellipse key={`${i}${lean}`} cx={cx} cy={cy} rx={15 * size} ry={6 * size} transform={`rotate(${along + lean} ${cx} ${cy})`} />);
-    });
-  }
-  const p = d => [115 + R * Math.cos((d * Math.PI) / 180), 108 + R * Math.sin((d * Math.PI) / 180)];
-  const [x0, y0] = p(112), [x1, y1] = p(240);
-  const branch = (<g fill="#f0a21b"><path d={`M${x0} ${y0}A${R} ${R} 0 0 1 ${x1} ${y1}`} fill="none" stroke="#d98a12" strokeWidth="3" strokeLinecap="round" />{leaves}</g>);
-  return (<div className={`laurel ${className}`}>
-    <svg viewBox="0 0 230 220" aria-hidden="true" focusable="false">{branch}<g transform="translate(230 0) scale(-1 1)">{branch}</g></svg>
-    <div className="lt"><small>{top}</small><b>{big}</b><span>{bottom}</span></div>
+// A small paper note on one river bank: the child before the bridge (worried) or after it (happy).
+export function HeroNote({ happy = false, children, label, className = '' }) {
+  return (<div className={`note ${happy ? 'note-after' : 'note-before'} ${className}`}>
+    <svg viewBox="0 0 40 40" width="38" height="38" {...sky}>
+      <circle cx="20" cy="20" r="18" fill="#ffc533" />
+      <circle cx="13.5" cy="17" r="2.4" fill="#413930" /><circle cx="26.5" cy="17" r="2.4" fill="#413930" />
+      {happy ? <path d="M12 24q8 9 16 0" fill="none" stroke="#413930" strokeWidth="2.6" strokeLinecap="round" />
+        : <><path d="M12 11l5 2M28 11l-5 2" stroke="#413930" strokeWidth="2" strokeLinecap="round" /><path d="M13 29q7-7 14 0" fill="none" stroke="#413930" strokeWidth="2.6" strokeLinecap="round" /></>}
+    </svg>
+    <small>{label}</small>
+    <p>{children}</p>
   </div>);
 }

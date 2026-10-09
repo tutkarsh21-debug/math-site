@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import { ApproachIcon, Peek, PlanIcon, Sky, Trophy, Worry } from '@/components/Art';
-import { HeroKid, Laurel } from '@/components/HeroArt';
+import { BridgeBack, BridgeFront, HeroKid, HeroNote } from '@/components/HeroArt';
 import ChapterSearch from '@/components/ChapterSearch';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, BOARDS, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import { APPROACH, BOARDS, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
@@ -36,16 +36,20 @@ export default function Home() {
   return (<>
     <section className="hero2"><Sky />
       <div className="hero2-in">
-        <h1><span className="hl">Maths Made Simple</span><br />Online Maths for Class 8, 9 &amp; 10</h1>
-        <p className="hero2-sub">Free notes, practice and tests, and live classes with a free demo. From the basics to the Olympiad.</p>
+        <h1><span className="hl">Build your bridge to maths</span><br />Online Maths for Class 8, 9 &amp; 10</h1>
+        <p className="hero2-sub">From &ldquo;I can&rsquo;t do maths&rdquo; to &ldquo;I can do this&rdquo;. Free notes, practice and tests, and live classes with a free demo.</p>
         <div className="cta-row center-row">
           <Link className="btn btn-sun" href="#demo">Book a free demo class</Link>
           <Link className="btn btn-outline" href="/start">I am weak in maths</Link>
         </div>
         <div className="hero2-stage">
-          <Laurel className="l-left" top="Study material" big="FREE" bottom="Notes · DPP · Tests" />
-          <HeroKid />
-          <Laurel className="l-right" top="Made for" big="8 · 9 · 10" bottom="CBSE & ICSE" />
+          <div className="scene">
+            <BridgeBack />
+            <HeroKid />
+            <BridgeFront />
+          </div>
+          <HeroNote label="Before" className="n-left">&ldquo;I can&rsquo;t do maths.&rdquo;</HeroNote>
+          <HeroNote label="After" happy className="n-right">&ldquo;I can do this.&rdquo;</HeroNote>
         </div>
       </div>
     </section>
@@ -63,6 +67,31 @@ export default function Home() {
       </div>
       <p className="center" style={{ marginTop: '1.4rem' }}><Link className="btn btn-outline" href="/blog">See all articles</Link></p>
     </div></section>}
+
+    <section className="section story" id="why"><div className="wrap">
+      <div className="story-top reveal">
+        <span className="kicker">Why {SITE.name}</span>
+        <h2>Setu means bridge.<br />Every child can cross it.</h2>
+        <p className="story-lead">On one bank stands a child who says, &ldquo;I can&rsquo;t do maths.&rdquo; On the other bank stands the same child, saying, &ldquo;Oh, now I get it.&rdquo;</p>
+        <p>Between the two there is rarely a lack of talent. There is usually one missing idea from an earlier class, an explanation that went too fast, or a doubt that was never asked. {SITE.name} is the bridge. We find the missing idea, and we rebuild from there, one plank at a time.</p>
+      </div>
+      <div className="grid changes">
+        {CHANGES.map((c, i) => (<div key={c.title} className={`card change f${i % 4 + 1} reveal`}><b className="chg-no" aria-hidden="true">{i + 1}</b><h3>{c.title}</h3><p>{c.text}</p></div>))}
+      </div>
+      <p className="story-note center">That is what we work towards in every class. We do not promise ranks. We promise to look for the missing idea, and to explain it until it makes sense.</p>
+      <p className="center"><Link className="btn btn-sun" href="/demo">See it in a free demo class</Link></p>
+    </div></section>
+
+    <section className="section soft quotes"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Words worth keeping</span><h2>Why maths is worth loving</h2></div>
+      <div className="quote-grid">
+        {QUOTES.map((q, i) => (<figure key={q.text} className={`qcard q${i % 4 + 1} reveal`}>
+          <span className="qmark" aria-hidden="true">&ldquo;</span>
+          <blockquote>{q.text}</blockquote>
+          <figcaption><b>{q.by}</b>{q.note && <small>{q.note}</small>}</figcaption>
+        </figure>))}
+      </div>
+    </div></section>
 
     <section className="section" id="demo-sec"><div className="wrap try-grid" style={{ alignItems: 'center' }}>
       <div className="reveal">
