@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { ApproachIcon, Peek, PlanIcon, Sky, Trophy, Worry } from '@/components/Art';
-import { BridgeBack, BridgeFront, HeroKid, HeroNote } from '@/components/HeroArt';
+import { ApproachIcon, Peek, PlanIcon, Trophy, Worry } from '@/components/Art';
+import { HeroGraph, HeroShowcase } from '@/components/HeroShowcase';
 import ChapterSearch from '@/components/ChapterSearch';
 import DemoForm from '@/components/DemoForm';
 import { Continue } from '@/components/Progress';
@@ -34,22 +34,24 @@ export default function Home() {
   const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   return (<>
-    <section className="hero2"><Sky />
-      <div className="hero2-in">
-        <h1><span className="hl">Build your bridge to maths</span><br />Online Maths for Class 8, 9 &amp; 10</h1>
-        <p className="hero2-sub">From &ldquo;I can&rsquo;t do maths&rdquo; to &ldquo;I can do this&rdquo;. Free notes, practice and tests, and live classes with a free demo.</p>
-        <div className="cta-row center-row">
-          <Link className="btn btn-sun" href="#demo">Book a free demo class</Link>
-          <Link className="btn btn-outline" href="/start">I am weak in maths</Link>
-        </div>
-        <div className="hero2-stage">
-          <div className="scene">
-            <BridgeBack />
-            <HeroKid />
-            <BridgeFront />
+    <section className="hero3">
+      <HeroGraph />
+      <div className="hero3-grid">
+        <div className="hero3-copy">
+          <span className="h3-eyebrow">Online Maths for Class 8, 9 &amp; 10 &nbsp;·&nbsp; CBSE &nbsp;·&nbsp; ICSE &nbsp;·&nbsp; Olympiad</span>
+          <h1>Maths that finally <span className="h3-grad">makes sense</span></h1>
+          <p className="h3-sub">Short notes, a test for every chapter and unlimited practice, all free. Live classes when you want a teacher, and a free demo to try first.</p>
+          <div className="cta-row">
+            <Link className="btn btn-sun h3-cta" href="#demo">Book a free demo class</Link>
+            <Link className="btn h3-ghost" href="/start">I am weak in maths</Link>
           </div>
-          <HeroNote label="Before" className="n-left">&ldquo;I can&rsquo;t do maths.&rdquo;</HeroNote>
-          <HeroNote label="After" happy className="n-right">&ldquo;I can do this.&rdquo;</HeroNote>
+          <ul className="h3-points">
+            <li>Free notes, formulas and DPP</li><li>Timed tests with explanations</li><li>A practice test whenever you want one</li>
+          </ul>
+        </div>
+        <div className="hero3-art">
+          <HeroShowcase />
+          <p className="h3-cap">Sample screens from the MathSetu tools</p>
         </div>
       </div>
     </section>
