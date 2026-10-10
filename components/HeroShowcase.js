@@ -14,7 +14,7 @@ export function HeroGraph() {
   for (let j = 0; j <= 6; j++) lines.push(<line key={`h${j}`} x1="20" y1={40 + j * 70} x2="590" y2={40 + j * 70} />);
   return (<svg viewBox="0 0 600 460" preserveAspectRatio="xMaxYMid meet" className="hero-graph" aria-hidden="true" focusable="false">
     <defs>
-      <linearGradient id="hg-line" x1="0" x2="1"><stop offset="0" stopColor="#ff8a3d" /><stop offset="1" stopColor="#ffd25a" /></linearGradient>
+      <linearGradient id="hg-line" x1="0" x2="1"><stop offset="0" stopColor="#faac00" /><stop offset="1" stopColor="#f8cc6b" /></linearGradient>
       <filter id="hg-glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
     </defs>
     <g stroke="#ffffff" strokeOpacity=".07" strokeWidth="1">{lines}</g>
@@ -22,11 +22,11 @@ export function HeroGraph() {
     <g fill="#ffffff" fillOpacity=".5" fontSize="13" fontWeight="600"><text x="578" y="350">x</text><text x="130" y="30">y</text></g>
     <path d={CURVE} fill="none" stroke="url(#hg-line)" strokeWidth="5" strokeLinecap="round" filter="url(#hg-glow)" className="hg-curve" pathLength="1" />
     <g className="hg-roots">
-      <circle cx={X(2)} cy={Y(0)} r="7" fill="#ffd25a" /><circle cx={X(3)} cy={Y(0)} r="7" fill="#ffd25a" />
-      <circle cx={X(2)} cy={Y(0)} r="14" fill="none" stroke="#ffd25a" strokeOpacity=".6" className="hg-ring" />
-      <circle cx={X(3)} cy={Y(0)} r="14" fill="none" stroke="#ffd25a" strokeOpacity=".6" className="hg-ring r2" />
-      <text x={X(2) - 22} y={Y(0) + 30} fill="#ffe4a8" fontSize="14" fontWeight="700">x = 2</text>
-      <text x={X(3) - 4} y={Y(0) + 30} fill="#ffe4a8" fontSize="14" fontWeight="700">x = 3</text>
+      <circle cx={X(2)} cy={Y(0)} r="7" fill="#f8cc6b" /><circle cx={X(3)} cy={Y(0)} r="7" fill="#f8cc6b" />
+      <circle cx={X(2)} cy={Y(0)} r="14" fill="none" stroke="#f8cc6b" strokeOpacity=".6" className="hg-ring" />
+      <circle cx={X(3)} cy={Y(0)} r="14" fill="none" stroke="#f8cc6b" strokeOpacity=".6" className="hg-ring r2" />
+      <text x={X(2) - 22} y={Y(0) + 30} fill="#fff3c7" fontSize="14" fontWeight="700">x = 2</text>
+      <text x={X(3) - 4} y={Y(0) + 30} fill="#fff3c7" fontSize="14" fontWeight="700">x = 3</text>
     </g>
     <circle r="7" fill="#fff" filter="url(#hg-glow)" className="hg-dot"><animateMotion dur="7s" repeatCount="indefinite" path={CURVE} /></circle>
   </svg>);

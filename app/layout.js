@@ -1,6 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
-import { Quicksand } from 'next/font/google';
+import { Inter, Manrope } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
 import { WhatsAppFloat } from '@/components/TalkToUs';
 import InstallApp from '@/components/InstallApp';
@@ -10,7 +10,8 @@ import NavMenu from '@/components/NavMenu';
 import { CLASSES, NAV, PARENT_LOGIN, SITE } from '@/lib/data';
 
 // A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
-const poppins = Quicksand({ subsets: ['latin'], weight: ['500', '600', '700'], variable: '--font', display: 'swap' });
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font', display: 'swap' });
+const manrope = Manrope({ subsets: ['latin'], weight: ['600', '700', '800'], variable: '--font-head', display: 'swap' });
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
@@ -25,7 +26,7 @@ export const metadata = {
   icons: { apple: '/icons/icon-180.png' },
 };
 // The colour of the phone's status bar around the site and the installed app.
-export const viewport = { themeColor: [{ media: '(prefers-color-scheme: light)', color: '#f15d22' }, { media: '(prefers-color-scheme: dark)', color: '#1c1917' }] };
+export const viewport = { themeColor: [{ media: '(prefers-color-scheme: light)', color: '#faac00' }, { media: '(prefers-color-scheme: dark)', color: '#12151c' }] };
 
 // Who runs the site, for search engines.
 const ORG = {
@@ -41,7 +42,7 @@ const Brand = () => (<Link className="brand" href="/"><img className="logo" src=
 export default function RootLayout({ children }) {
   const classes = Object.entries(CLASSES);
   return (
-    <html lang="en" className={poppins.variable}>
+    <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
       <body>
         <header className="site-header"><div className="wrap bar">
           <Brand />

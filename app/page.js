@@ -2,12 +2,13 @@ import Link from 'next/link';
 import { ApproachIcon, PlanIcon, Trophy, Worry } from '@/components/Art';
 import { HeroGraph, HeroShowcase } from '@/components/HeroShowcase';
 import ChapterSearch from '@/components/ChapterSearch';
-import OneToOneSection from '@/components/OneToOneSection';
+import FeatureStack from '@/components/FeatureStack';
+import WhiteboardStory from '@/components/WhiteboardStory';
 import TalkToUs from '@/components/TalkToUs';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import { APPROACH, BOARDS, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
@@ -36,27 +37,44 @@ export default function Home() {
   const day = d => new Date(d + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
   const finder = all.map(ch => ({ cls: ch.cls, label: ch.label, boards: ch.boards, title: ch.title, slug: ch.slug }));
   return (<>
-    <section className="hero3">
-      <HeroGraph />
-      <div className="hero3-grid">
-        <div className="hero3-copy">
-          <span className="h3-eyebrow">Online Maths · Class 8, 9 &amp; 10</span>
-          <h1>Maths that finally <span className="h3-grad">makes sense</span></h1>
-          <p className="h3-sub">Free notes, chapter tests and unlimited practice, and 1-to-1 live classes when your child needs a teacher of their own.</p>
+    <section className="hero4">
+      <div className="hero4-grid">
+        <div className="hero4-copy">
+          <h1>Maths that finally <span className="h4-grad">makes sense</span></h1>
+          <p className="h4-sub">Free notes, chapter tests and unlimited practice, plus <mark>1-to-1 live classes</mark> with a teacher who follows <mark>your child's pace</mark>.</p>
+          <ul className="h4-chips" aria-label="Classes and boards"><li>Class 8</li><li>Class 9</li><li>Class 10</li><li>CBSE</li><li>ICSE</li><li>Olympiad</li></ul>
           <div className="cta-row">
-            <Link className="btn btn-sun h3-cta" href="/one-to-one">Explore 1-to-1 tuition</Link>
-            <Link className="btn h3-ghost" href="/practice">Try a free practice test</Link>
+            <Link className="btn btn-sun h4-cta" href="/one-to-one">Explore 1-to-1 tuition <span aria-hidden="true">→</span></Link>
+            <Link className="btn h4-soft" href="/practice">Try a free practice test</Link>
           </div>
-          <ul className="h3-chips" aria-label="Classes and boards"><li>Class 8</li><li>Class 9</li><li>Class 10</li><li>CBSE</li><li>ICSE</li><li>Olympiad</li></ul>
         </div>
-        <div className="hero3-art">
-          <HeroShowcase />
-          <p className="h3-cap">Sample screens from the MathSetu tools</p>
+        <div className="hero4-art">
+          <div className="h4-card"><HeroGraph /><HeroShowcase /></div>
+          <span className="h4-float f1"><i /> LIVE 1:1 with your teacher</span>
+          <span className="h4-float f2"><b>✓</b> Doubt solved on the whiteboard</span>
+          <span className="h4-float f3">A new practice test <b>↻</b></span>
         </div>
       </div>
     </section>
 
-    <OneToOneSection />
+    <section className="section fs-sec" id="one-to-one"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">1-to-1 Tuition</span><h2>1-to-1 tuition, built around <span className="hl">how students really learn</span></h2><p>One student and one teacher in a live online class, backed by practice, doubts and a progress record between classes.</p></div>
+      <FeatureStack />
+    </div></section>
+
+    <section className="section soft wbs-sec" id="whiteboard"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Doubts, solved properly</span><h2>Stuck? <span className="hl">Watch your teacher solve it</span></h2><p>No more &ldquo;I understood in class but not at home&rdquo;. The solution is written out on a whiteboard, recorded, and waiting for you.</p></div>
+      <WhiteboardStory />
+    </div></section>
+
+    <section className="section" id="journey"><div className="wrap">
+      <div className="section-head center reveal"><span className="kicker">Your path</span><h2>A learning journey that <span className="hl">builds step by step</span></h2><p>Four stages, and a free tool for each one.</p></div>
+      <ol className="journey">
+        {ROADMAP.map((r, i) => (
+          <li key={r.stage} className={`reveal j${i % 4 + 1}`}><span className="j-node">{i + 1}</span>
+            <Link href={r.href} className="j-card"><span className="j-stage">{r.stage}</span><h3>{r.title}</h3><p>{r.text}</p><span className="go">{r.go} →</span></Link></li>))}
+      </ol>
+    </div></section>
 
     {latest.length > 0 && <section className="section blog-strip" id="blog"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">From the blog</span><h2>Study tips and exam help</h2><p>Short, practical articles for Class 8, 9 and 10 students and their parents.</p></div>
@@ -99,22 +117,27 @@ export default function Home() {
     <Continue />
 
     <section className="section" id="classes"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Which class are you in?</h2><p>Pick your class to see everything for it: chapters, tests, live classes and help with doubts.</p></div>
+      <div className="section-head center reveal"><span className="kicker">Start here</span><h2>Choose your <span className="hl">class and board</span></h2><p>Pick your class to see everything for it: chapters, tests, 1-to-1 classes and help with doubts.</p></div>
       <ChapterSearch chapters={finder} />
-      <div className="grid">
-        {classes.map(([k, c]) => (
-          <Link key={k} href={`/${k}`} className="tile big" data-no={c.label.replace(/\D/g, '')}><h3>{c.label}</h3>
-            <span>CBSE and ICSE · {c.chapters.length} chapters</span><span className="go">Open {c.label} →</span></Link>))}
-        <Link href="/olympiad" className="tile big" data-no="★"><h3>Olympiad</h3><span>SOF IMO preparation</span><span className="go">Open Olympiad →</span></Link>
+      <div className="track-grid">
+        {classes.map(([k, c], i) => {
+          const boards = BOARDS.filter(b => c.chapters.some(ch => ch.boards.includes(b)));
+          return (<Link key={k} href={`/${k}`} className={`track-card t${i % 4 + 1} reveal`}>
+            <span className="track-tag">{boards.join(' · ')}</span>
+            <h3>{c.label} Maths</h3>
+            <p>{c.chapters.length} chapters with notes, formula banks, tests and a practice generator.</p>
+            <span className="go">Know more →</span>
+            <b className="track-art" aria-hidden="true">{c.label.replace(/\D/g, '')}</b>
+          </Link>);
+        })}
+        <Link href="/olympiad" className="track-card t4 reveal">
+          <span className="track-tag">SOF IMO</span>
+          <h3>Olympiad</h3>
+          <p>How to prepare for the Olympiad alongside the school syllabus.</p>
+          <span className="go">Know more →</span>
+          <b className="track-art" aria-hidden="true">★</b>
+        </Link>
       </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Your path</span><h2>From “I can’t do maths” to “I can do this”</h2><p>Four stages, and a free tool for each one.</p></div>
-      <ol className="roadmap">
-        {ROADMAP.map(r => (
-          <li key={r.stage} className="reveal"><Link href={r.href} className="rm"><span className="st">{r.stage}</span><h3>{r.title}</h3><p>{r.text}</p><span className="go">{r.go} →</span></Link></li>))}
-      </ol>
     </div></section>
 
     <section className="section" id="programmes"><div className="wrap">

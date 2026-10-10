@@ -1,6 +1,6 @@
 // Illustrations drawn for MathSetu as inline SVG, so they are sharp at any size and need no image files.
 // They are decoration: each is hidden from screen readers. Movement is added in globals.css (see "art and motion").
-const O = '#f15d22', B = '#5e91ff', P = '#9795f0', Y = '#ffc533', G = '#3fbf7f', INK = '#413930', SKIN = '#f6c9a3', HAIR = '#3a2a22';
+const O = '#faac00', B = '#5e91ff', P = '#9795f0', Y = '#f8cc6b', G = '#3fbf7f', INK = '#413930', SKIN = '#f6c9a3', HAIR = '#3a2a22';
 const Svg = ({ box, className, children }) => <svg viewBox={box} className={className} aria-hidden="true" focusable="false">{children}</svg>;
 
 // A child's face: used by the larger pictures. (cx, cy) is the centre of the head and r its radius.
@@ -75,7 +75,7 @@ export function PlanIcon({ i }) {
   const pics = [
     <g key="0"><path d="M32 16c-8-6-18-6-26-3v36c8-3 18-3 26 3 8-6 18-6 26-3V13c-8-3-18-3-26 3z" fill="#fff" stroke={INK} strokeWidth="3" strokeLinejoin="round" /><path d="M32 16v36" stroke={INK} strokeWidth="3" /><path d="M12 24h12M12 32h12M12 40h9M40 24h12M40 32h12M40 40h9" stroke={O} strokeWidth="3" strokeLinecap="round" /></g>,
     <g key="1"><rect x="6" y="12" width="52" height="36" rx="7" fill={INK} /><rect x="10" y="16" width="44" height="28" rx="4" fill="#eef4ff" /><path d="M27 22l14 8-14 8z" fill={O} /><rect x="22" y="52" width="20" height="5" rx="2.5" fill={INK} /></g>,
-    <g key="2"><rect x="6" y="12" width="52" height="36" rx="7" fill={INK} /><rect x="10" y="16" width="44" height="28" rx="4" fill="#fef1d8" /><circle cx="32" cy="27" r="6.5" fill={SKIN} /><path d="M20 44c0-7 5-10 12-10s12 3 12 10z" fill={O} /><circle className="pulse" cx="49" cy="21" r="3.6" fill="#e5322d" /><rect x="22" y="52" width="20" height="5" rx="2.5" fill={INK} /></g>,
+    <g key="2"><rect x="6" y="12" width="52" height="36" rx="7" fill={INK} /><rect x="10" y="16" width="44" height="28" rx="4" fill="#fff3c7" /><circle cx="32" cy="27" r="6.5" fill={SKIN} /><path d="M20 44c0-7 5-10 12-10s12 3 12 10z" fill={O} /><circle className="pulse" cx="49" cy="21" r="3.6" fill="#e5322d" /><rect x="22" y="52" width="20" height="5" rx="2.5" fill={INK} /></g>,
   ];
   return <Svg box="0 0 64 64" className="art pic">{pics[i % pics.length]}</Svg>;
 }
