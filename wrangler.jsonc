@@ -6,5 +6,7 @@
   "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
   // Student accounts and saved test scores. Tables are in schema.sql.
   "d1_databases": [{ "binding": "DB", "database_name": "mathsetu", "database_id": "7b5683a6-9f7a-4ce6-aae4-5f09a58d990c" }],
+  // Remembers pages that were built ahead of time, so the server does not render them again on every visit (see open-next.config.ts).
+  "kv_namespaces": [{ "binding": "NEXT_INC_CACHE_KV", "id": "6018098fe2c44f5a8c4195eb8b89aa00" }],
   "observability": { "enabled": true }
 }
