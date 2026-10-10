@@ -1,3 +1,4 @@
+import { PARENT_LOGIN } from '@/lib/data';
 import { db, json, now, parentCodeHash, same, sameOrigin, startParentSession } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
@@ -5,6 +6,7 @@ const WRONG = 'Wrong mobile number or parent code.', MAX_FAILS = 5, LOCK_MINUTES
 
 // A parent opens the dashboard with the student's mobile number and the parent code the student made.
 export async function POST(request) {
+  if (!PARENT_LOGIN) return json({ error: 'Not found.' }, 404);   // parent login is switched off: see lib/data.js
   if (!sameOrigin(request)) return json({ error: 'Request not allowed.' }, 403);
   const { mobile, code } = await request.json().catch(() => ({}));
   if (!/^[6-9]\d{9}$/.test(mobile || '') || typeof code !== 'string' || code.length > 20) return json({ error: WRONG }, 401);

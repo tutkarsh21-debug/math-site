@@ -149,7 +149,7 @@ export default function Home() {
     <PracticeSpotlight />
 
     <section className="section"><div className="wrap">
-      <div className="section-head center reveal"><span className="kicker">Stay on track</span><h2>Tools for the student and the parent</h2><p>Everything is free to try. A free account saves your scores.</p></div>
+      <div className="section-head center reveal"><span className="kicker">Stay on track</span><h2>Tools that keep you on track</h2><p>Everything is free to try. A free account saves your scores.</p></div>
       <div className="grid">
         {TOOLS.map((t, i) => (
           <div key={t.title} className={`card tool f${i % 4 + 1} reveal`}>

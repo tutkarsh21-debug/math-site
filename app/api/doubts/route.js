@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 export async function GET() {
   const u = await currentUser();
   if (!u) return json({ error: 'Please log in.' }, 401);
-  const { results } = await db().prepare('SELECT id, chapter, question, has_photo, answer, created_at, answered_at FROM doubts WHERE user_id = ? ORDER BY created_at DESC LIMIT 100').bind(u.id).all();
+  const { results } = await db().prepare('SELECT id, chapter, question, has_photo, answer, created_at, answered_at, seen_at, EXISTS(SELECT 1 FROM solutions s WHERE s.doubt_id = doubts.id) AS has_solution FROM doubts WHERE user_id = ? ORDER BY created_at DESC LIMIT 100').bind(u.id).all();
   return json({ doubts: results });
 }
 

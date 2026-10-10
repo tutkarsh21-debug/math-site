@@ -6,7 +6,7 @@ import InstallApp from '@/components/InstallApp';
 import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
 import NavMenu from '@/components/NavMenu';
-import { CLASSES, NAV, SITE } from '@/lib/data';
+import { CLASSES, NAV, PARENT_LOGIN, SITE } from '@/lib/data';
 
 // A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
 const poppins = Quicksand({ subsets: ['latin'], weight: ['500', '600', '700'], variable: '--font', display: 'swap' });
@@ -76,7 +76,7 @@ export default function RootLayout({ children }) {
               <Link href="/about">About {SITE.name}</Link>
               <Link href="/blog">Blog and Exam News</Link>
               <Link href="/app">Get the App</Link>
-              <Link href="/parent">Parent Dashboard</Link>
+              {PARENT_LOGIN && <Link href="/parent">Parent Dashboard</Link>}
               <Link href="/enquiry">Contact and enquiry</Link>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>

@@ -1,3 +1,4 @@
+import { PARENT_LOGIN } from '@/lib/data';
 import { currentUser, db, json, newParentCode, now, parentCodeHash, sameOrigin } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
@@ -6,6 +7,7 @@ export const dynamic = 'force-dynamic';
 // { action: 'make' } returns the new code once; only its hash is stored, so it can never be shown again.
 // Making a new code or switching off also ends every parent session that was open.
 export async function POST(request) {
+  if (!PARENT_LOGIN) return json({ error: 'Not found.' }, 404);   // parent login is switched off: see lib/data.js
   if (!sameOrigin(request)) return json({ error: 'Request not allowed.' }, 403);
   const u = await currentUser();
   if (!u) return json({ error: 'Please log in.' }, 401);

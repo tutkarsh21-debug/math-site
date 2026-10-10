@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import DashboardView from '@/components/Dashboard';
+import { PARENT_LOGIN } from '@/lib/flags';
 
 const post = (url, body) => fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
 
@@ -70,11 +71,12 @@ export default function Account() {
         <Link className="btn btn-outline" href="/tests">Chapter tests</Link>
         <Link className="btn btn-outline" href={`/${data.user.cls}`}>My class chapters</Link>
         <Link className="btn btn-outline" href="/doubts">Ask a doubt</Link>
+        {(me.teacher || me.admin) && <Link className="btn btn-sun" href="/teacher">Teacher desk</Link>}
         {me.admin && <Link className="btn btn-sun" href="/admin">Owner dashboard</Link>}
         <button className="btn btn-outline" onClick={logout}>Logout</button>
       </div>
     </div>
     <DashboardView data={data} mode="student" />
-    <ParentAccess has={data.user.hasParentCode} since={data.user.parentCodeAt} onChange={on => setState(s => ({ data: { ...s.data, user: { ...s.data.user, hasParentCode: on, parentCodeAt: on ? Math.floor(Date.now() / 1000) : 0 } } }))} />
+    {PARENT_LOGIN && <ParentAccess has={data.user.hasParentCode} since={data.user.parentCodeAt} onChange={on => setState(s => ({ data: { ...s.data, user: { ...s.data.user, hasParentCode: on, parentCodeAt: on ? Math.floor(Date.now() / 1000) : 0 } } }))} />}
   </>);
 }

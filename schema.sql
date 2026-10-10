@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS users (
   id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, mobile TEXT NOT NULL UNIQUE, cls TEXT NOT NULL, board TEXT NOT NULL,
   pass_hash TEXT NOT NULL, salt TEXT NOT NULL, fails INTEGER NOT NULL DEFAULT 0, locked_until INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL,
   is_admin INTEGER NOT NULL DEFAULT 0,  -- 1 for the site owner, who can open /admin
+  is_teacher INTEGER NOT NULL DEFAULT 0,  -- 1 for a teacher, who can open /teacher and solve doubts
   -- Parent access: a code the student makes and gives to a parent (only its hash is kept), and the wrong-code lockout.
   parent_code_hash TEXT NOT NULL DEFAULT '', parent_code_at INTEGER NOT NULL DEFAULT 0, parent_fails INTEGER NOT NULL DEFAULT 0, parent_locked_until INTEGER NOT NULL DEFAULT 0);
 CREATE TABLE IF NOT EXISTS sessions (token_hash TEXT PRIMARY KEY, user_id INTEGER NOT NULL, expires_at INTEGER NOT NULL);
@@ -13,7 +14,9 @@ CREATE INDEX IF NOT EXISTS results_user ON results(user_id, taken_at);
 -- Doubts asked by logged-in students on the Ask a Doubt page. "draft" is the AI's suggested answer, seen only by the owner
 -- at /admin/doubts; "answer" is what the student sees, and answered_at is 0 until the owner sends it.
 CREATE TABLE IF NOT EXISTS doubts (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL, chapter TEXT NOT NULL DEFAULT '', question TEXT NOT NULL,
-  has_photo INTEGER NOT NULL DEFAULT 0, draft TEXT NOT NULL DEFAULT '', answer TEXT NOT NULL DEFAULT '', created_at INTEGER NOT NULL, answered_at INTEGER NOT NULL DEFAULT 0);
+  has_photo INTEGER NOT NULL DEFAULT 0, draft TEXT NOT NULL DEFAULT '', answer TEXT NOT NULL DEFAULT '', created_at INTEGER NOT NULL, answered_at INTEGER NOT NULL DEFAULT 0,
+  seen_at INTEGER NOT NULL DEFAULT 0,   -- when the student saw the answer (0 = not yet: shows as a notification)
+  solved_by INTEGER NOT NULL DEFAULT 0);   -- the teacher who answered, if a teacher did
 CREATE INDEX IF NOT EXISTS doubts_user ON doubts(user_id, created_at);
 CREATE INDEX IF NOT EXISTS doubts_open ON doubts(answered_at, created_at);
 -- The photo of a doubt, a small JPEG stored as base64 text. Kept in its own table so that lists of doubts stay light.
@@ -36,3 +39,8 @@ CREATE TABLE IF NOT EXISTS parent_sessions (token_hash TEXT PRIMARY KEY, user_id
 -- One row for each AI report, to keep the number per student per day limited.
 CREATE TABLE IF NOT EXISTS ai_reports (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL, created_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS ai_reports_user ON ai_reports(user_id, created_at);
+-- A doubt solved on the teacher's whiteboard: pen strokes with times (JSON) and, optionally, the voice in chunks of base64 text.
+CREATE TABLE IF NOT EXISTS solutions (doubt_id INTEGER PRIMARY KEY, teacher_id INTEGER NOT NULL, strokes TEXT NOT NULL, duration_ms INTEGER NOT NULL DEFAULT 0,
+  audio_mime TEXT NOT NULL DEFAULT '', created_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS solution_audio (doubt_id INTEGER NOT NULL, seq INTEGER NOT NULL, data TEXT NOT NULL, PRIMARY KEY (doubt_id, seq));
+CREATE INDEX IF NOT EXISTS doubts_unseen ON doubts(user_id, answered_at, seen_at);

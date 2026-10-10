@@ -36,7 +36,7 @@ export async function POST(request) {
     const text = typeof answer === 'string' ? answer.trim() : '';
     if (!text) return json({ error: 'Please write the answer first.' }, 400);
     if (text.length > MAX_ANSWER) return json({ error: `Please keep the answer under ${MAX_ANSWER} characters.` }, 400);
-    await db().prepare('UPDATE doubts SET answer = ?, answered_at = ? WHERE id = ?').bind(text, now(), id).run();
+    await db().prepare('UPDATE doubts SET answer = ?, answered_at = ?, seen_at = 0 WHERE id = ?').bind(text, now(), id).run();
     return json({ ok: true });
   }
   return json({ error: 'Unknown action.' }, 400);

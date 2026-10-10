@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SITE } from '@/lib/data';
+import { PARENT_LOGIN, SITE } from '@/lib/data';
 import { AI_REPORTS } from '@/lib/features';
 
 export const metadata = { title: 'Privacy Policy', description: `What ${SITE.name} stores about students who register, and why.` };
@@ -24,7 +24,7 @@ export default function Privacy() {
       <h2>Who can see it</h2>
       <ul>
         <li><b>You</b>, on your dashboard.</li>
-        <li><b>A parent or guardian</b>, only if you make a parent code on your dashboard and give it to them. They can look but cannot change anything, and you can switch their access off at any time.</li>
+        {PARENT_LOGIN && <li><b>A parent or guardian</b>, only if you make a parent code on your dashboard and give it to them. They can look but cannot change anything, and you can switch their access off at any time.</li>}
         <li><b>The site owner and teacher</b>, on a private owner dashboard.</li>
       </ul>
       {AI_REPORTS && <>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
-import { CLASSES } from '@/lib/data';
+import { CLASSES, PARENT_LOGIN } from '@/lib/data';
 
 export const metadata = {
   title: 'Weak in Maths? Start from the Basics | Class 8, 9, 10',
@@ -63,7 +63,7 @@ export default function Start() {
           <Link className="btn btn-ghost" href="/doubts">Ask a doubt</Link>
         </div>
       </div>
-      <p className="muted small" style={{ marginTop: '1rem' }}>Parents: your child can make a parent code on their dashboard, and you can then follow their tests and progress on the <Link href="/parent">Parent Dashboard</Link>.</p>
+      {PARENT_LOGIN && <p className="muted small" style={{ marginTop: '1rem' }}>Parents: your child can make a parent code on their dashboard, and you can then follow their tests and progress on the <Link href="/parent">Parent Dashboard</Link>.</p>}
     </div></section>
   </>);
 }

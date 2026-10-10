@@ -819,3 +819,41 @@ body{font-weight:500}
 .rl-wait{display:flex;flex-wrap:wrap;gap:1.2rem 2rem;align-items:center;justify-content:space-between;background:var(--t1);border-radius:26px;padding:2rem}
 .rl-wait h2{margin:0 0 .4rem}.rl-wait p{margin:0;color:var(--muted);max-width:34rem}
 @media(max-width:900px){.lv-three{grid-template-columns:1fr}}
+
+/* ---- Teacher desk, whiteboard and solution player ---- */
+.wb{display:grid;gap:1rem}
+.wb-q{padding:1rem 1.2rem}
+.wb-q p{margin:.2rem 0}
+.wb-tools{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem;align-items:center}
+.wb-group{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center}
+.wb-tools .chip,.wb-tools .chip:disabled{cursor:pointer;font:inherit;font-weight:600;font-size:.88rem;color:var(--fg)}
+.wb-tools .chip.on{color:#fff}
+.wb-tools .chip:disabled{opacity:.45;cursor:not-allowed}
+.wb-swatch{width:1.9rem;height:1.9rem;border-radius:50%;border:3px solid var(--card);box-shadow:0 0 0 1px var(--line);cursor:pointer;padding:0}
+.wb-swatch.on{box-shadow:0 0 0 3px var(--brand)}
+.wb-status{display:flex;flex-wrap:wrap;gap:.5rem 1.4rem;align-items:center;font-size:.92rem}
+.wb-rec{display:inline-flex;align-items:center;gap:.5rem;font-weight:600;color:var(--muted)}
+.wb-rec i{width:.7rem;height:.7rem;border-radius:50%;background:var(--line)}
+.wb-rec.live{color:#c62828}
+.wb-rec.live i{background:#c62828;animation:newGlow 1.4s ease-in-out infinite}
+.wb-board{position:relative;width:100%;max-width:1000px;aspect-ratio:10/7;background:#fff;border:2px solid var(--line);border-radius:14px;overflow:hidden;
+  background-image:linear-gradient(#f1ebe3 1px,transparent 1px);background-size:100% 10%}
+.wb-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.wb-canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}
+.wb-play{display:grid;gap:.6rem;margin:.8rem 0}
+.wb-play .wb-canvas{cursor:default;touch-action:auto}
+.wb-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem;max-width:1000px}
+.wb-controls input[type=range]{flex:1 1 10rem;accent-color:var(--brand)}
+.wb-controls select{font:inherit;padding:.3rem .5rem;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+.wb-time{font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---- "Doubt resolved" ---- */
+.bell{position:relative;display:inline-grid;place-items:center;width:2.3rem;height:2.3rem;margin-right:.5rem;border-radius:50%;background:var(--t2);color:var(--brand);animation:bellRing 3s ease-in-out infinite;transform-origin:50% 12%}
+.bell:hover{text-decoration:none;background:var(--sun);color:#fff}
+.bell b{position:absolute;top:-.25rem;right:-.25rem;min-width:1.15rem;height:1.15rem;padding:0 .25rem;border-radius:99px;background:#c62828;color:#fff;font-size:.7rem;display:grid;place-items:center;line-height:1}
+@keyframes bellRing{0%,70%,100%{transform:rotate(0)}74%{transform:rotate(14deg)}78%{transform:rotate(-12deg)}82%{transform:rotate(9deg)}86%{transform:rotate(-6deg)}90%{transform:rotate(0)}}
+.doubt.fresh{border:2px solid #2e9e62;background:var(--t3);animation:freshIn .7s ease-out}
+@keyframes freshIn{from{transform:translateY(10px) scale(.98);opacity:0}}
+.doubt.fresh .new-pill{margin:0 0 0 .6rem}
+.watch-btn{font-size:1.05rem}
+@media(prefers-reduced-motion:reduce){.bell,.doubt.fresh,.wb-rec.live i{animation:none}}

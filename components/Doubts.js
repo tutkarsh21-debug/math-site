@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import SolutionPlayer from '@/components/SolutionPlayer';
 import { Tex } from '@/components/Test';
 
 const MAX_PHOTO = 800000;   // the same limit as in lib/doubts.js (base64 characters)
@@ -32,12 +33,20 @@ export default function Doubts({ chapters }) {
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const [sent, setSent] = useState(false);
+  const [fresh, setFresh] = useState([]);      // answered doubts the student had not seen when the page opened
+  const [watch, setWatch] = useState({});      // solutions opened, by doubt id
 
   async function load() {
     const { user } = await fetch('/api/me').then(r => r.json()).catch(() => ({}));
     if (!user) { setState({}); return; }
     const { doubts = [] } = await fetch('/api/doubts').then(r => r.json()).catch(() => ({}));
     setState({ user, doubts });
+    const unseen = doubts.filter(d => d.answered_at && !d.seen_at).map(d => d.id);
+    if (unseen.length) {
+      setFresh(f => [...new Set([...f, ...unseen])]);
+      // They count as seen once they have been on screen for a moment; the bell in the header then goes away.
+      setTimeout(() => fetch('/api/notifications', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ all: true }) }).then(() => window.dispatchEvent(new Event('ms-notif'))).catch(() => {}), 2500);
+    }
   }
   useEffect(() => { load(); }, []);
 
@@ -92,11 +101,14 @@ export default function Doubts({ chapters }) {
     <h2 style={{marginTop:'2rem'}}>My doubts</h2>
     {doubts.length === 0
       ? <p className="muted">You have not asked a doubt yet.</p>
-      : doubts.map(d => (<div key={d.id} className="card doubt">
-          <p className="muted small">{when(d.created_at)}{titles[d.chapter] ? ` · ${titles[d.chapter]}` : ''} · <span className={`tag${d.answered_at ? ' ready' : ''}`}>{d.answered_at ? 'Answered' : 'Waiting for an answer'}</span></p>
+      : doubts.map(d => (<div key={d.id} className={`card doubt${fresh.includes(d.id) ? ' fresh' : ''}`}>
+          <p className="muted small">{when(d.created_at)}{titles[d.chapter] ? ` · ${titles[d.chapter]}` : ''} · <span className={`tag${d.answered_at ? ' ready' : ''}`}>{d.answered_at ? 'Doubt resolved' : 'Waiting for an answer'}</span>{fresh.includes(d.id) && <span className="new-pill">NEW</span>}</p>
           <div className="doubt-q"><Lines text={d.question} /></div>
           {!!d.has_photo && <img className="doubt-photo" src={`/api/doubts/photo?id=${d.id}`} alt="Photo attached to the doubt" loading="lazy" />}
-          {!!d.answered_at && <div className="why"><b>Answer</b><Lines text={d.answer} /></div>}
+          {!!d.has_solution && (watch[d.id]
+            ? <SolutionPlayer doubtId={d.id} photo={d.has_photo ? `/api/doubts/photo?id=${d.id}` : ''} />
+            : <p><button type="button" className="btn btn-sun watch-btn" onClick={() => setWatch(w => ({ ...w, [d.id]: true }))}>▶ Watch your teacher's solution</button></p>)}
+          {!!d.answered_at && <div className="why"><b>{d.has_solution ? 'Note from your teacher' : 'Answer'}</b><Lines text={d.answer} /></div>}
         </div>))}
   </>);
 }
