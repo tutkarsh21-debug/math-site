@@ -25,7 +25,7 @@ export default async function Post({ params }) {
     <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: p.title, description: p.summary, datePublished: p.date, dateModified: p.date,
       mainEntityOfPage: `${SITE.url}/blog/${slug}`, image: `${SITE.url}/og.png`, author: { '@id': `${SITE.url}/#org` }, publisher: { '@id': `${SITE.url}/#org` } }} />
     <div className="page-head"><div className="wrap">
-      <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/blog">Blog</Link><span>/</span>{p.category}</div>
+      <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/blog">Blog</Link>{p.category !== 'Blog' && <><span>/</span>{p.category}</>}</div>
       <h1>{p.title}</h1>
       <p>{new Date(p.date + 'T00:00:00').toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
     </div></div>
