@@ -1183,3 +1183,4 @@ button.wk-card:hover{border-color:var(--sun)}
 .wb-mic{display:inline-flex;align-items:center;gap:.5rem}
 .wb-meter{display:inline-block;width:90px;height:8px;border-radius:99px;background:var(--line,#e6dfcf);overflow:hidden}
 .wb-meter i{display:block;height:100%;background:#2e7d32;transition:width .1s}
+.wb-pick select{max-width:260px;margin-left:.3rem}

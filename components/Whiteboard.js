@@ -25,6 +25,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
   const [voice, setVoice] = useState(true), [mic, setMic] = useState('idle'), [micTry, setMicTry] = useState(0);   // mic: idle, ready, blocked, none
   const [started, setStarted] = useState(false), [elapsed, setElapsed] = useState(0), [alive, setAlive] = useState(0);
   const [review, setReview] = useState(null), [sendVoice, setSendVoice] = useState(true);
+  const [devices, setDevices] = useState([]), [deviceId, setDeviceId] = useState(() => { try { return localStorage.getItem('ms-mic') || ''; } catch { return ''; } });
   const [level, setLevel] = useState(0), peak = useRef(0), meter = useRef(null);   // how loud the microphone hears, 0 to 1
   const [note, setNote] = useState(''), [error, setError] = useState(''), [busy, setBusy] = useState(false);
   const photo = doubt.has_photo ? `/api/doubts/photo?id=${doubt.id}` : '';
@@ -47,7 +48,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
         requestAnimationFrame(tick);
       };
       tick();
-      meter.current = { stop() { on = false; try { src.disconnect(); ac.close(); } catch {} } };
+      meter.current = { resume() { try { ac.resume(); } catch {} }, stop() { on = false; try { src.disconnect(); ac.close(); } catch {} } };
     } catch {}
   }
   useEffect(() => () => { stopStream(); clearInterval(timer.current); if (rec.current && rec.current.state !== 'inactive') try { rec.current.stop(); } catch {} }, []);
@@ -58,15 +59,16 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     if (!voice) { stopStream(); setMic('idle'); return; }
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) { setMic('none'); return; }
     let dead = false;
-    navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } })
+    navigator.mediaDevices.getUserMedia({ audio: { ...(deviceId ? { deviceId: { exact: deviceId } } : {}), echoCancellation: true, noiseSuppression: true } })
       .then(s => {
         if (dead) { s.getTracks().forEach(t => t.stop()); return; }
         stream.current = s; setMic('ready'); startMeter(s);
+        navigator.mediaDevices.enumerateDevices().then(l => { if (!dead) setDevices(l.filter(x => x.kind === 'audioinput')); }).catch(() => {});
         s.getAudioTracks().forEach(t => { t.onended = () => { if (stream.current === s) { stopStream(); setMic('blocked'); } }; });
       })
-      .catch(() => { if (!dead) setMic('blocked'); });
+      .catch(() => { if (!dead) { if (deviceId) { setDeviceId(''); try { localStorage.removeItem('ms-mic'); } catch {} } else setMic('blocked'); } });
     return () => { dead = true; };
-  }, [voice, micTry, phase]);
+  }, [voice, micTry, phase, deviceId]);
 
   // The board is drawn again if the window changes size.
   useEffect(() => {
@@ -109,6 +111,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     e.preventDefault();
     const cv = canvas.current;
     try { cv.setPointerCapture(e.pointerId); } catch {}     // keeps the stroke going if the pen leaves the board
+    meter.current?.resume();
     startRecording();
     const eraser = tool === 'eraser' || (e.buttons & 32) !== 0;    // the eraser end of a pen sets button 32
     const r = cv.getBoundingClientRect();
@@ -224,6 +227,8 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
       <span className={`wb-rec${started ? ' live' : ''}`}><i />{started ? `Recording ${clock(elapsed)} / ${clock(MAX_MS)}` : 'Ready. Recording starts when you first touch the board with the pen.'}</span>
       <label className="pr-check" style={{ margin: 0 }}><input type="checkbox" checked={voice} disabled={started} onChange={e => setVoice(e.target.checked)} /> Record my voice</label>
       {voice && mic === 'ready' && <span className="muted small wb-mic">Microphone ready <span className="wb-meter" aria-hidden="true"><i style={{ width: `${Math.round(level * 100)}%` }} /></span></span>}
+      {voice && mic === 'ready' && devices.length > 0 && !started && (<label className="small wb-pick">Microphone <select value={deviceId || devices.find(d => d.deviceId === 'default')?.deviceId || devices[0].deviceId} onChange={e => { setDeviceId(e.target.value); try { localStorage.setItem('ms-mic', e.target.value); } catch {} }}>{devices.map((d, i) => <option key={d.deviceId || i} value={d.deviceId}>{d.label || `Microphone ${i + 1}`}</option>)}</select></label>)}
+      {voice && mic === 'ready' && !started && <span className="muted small">Speak now. If the bar stays flat, choose another microphone from the list.</span>}
       {voice && mic === 'idle' && <span className="muted small">Starting the microphone. Please allow it if the browser asks.</span>}
       {voice && mic === 'blocked' && <span className="small error">Microphone blocked. Allow it in the browser address bar, then <button type="button" className="pr-link" onClick={() => setMicTry(n => n + 1)}>try again</button>. You can also send the writing without voice.</span>}
       {voice && mic === 'none' && <span className="muted small">This browser cannot record voice. The writing will be recorded.</span>}
