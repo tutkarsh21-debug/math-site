@@ -1,12 +1,13 @@
 import Link from 'next/link';
-import { ApproachIcon, Peek, PlanIcon, Trophy, Worry } from '@/components/Art';
+import { ApproachIcon, PlanIcon, Trophy, Worry } from '@/components/Art';
 import { HeroGraph, HeroShowcase } from '@/components/HeroShowcase';
 import ChapterSearch from '@/components/ChapterSearch';
-import DemoForm from '@/components/DemoForm';
+import OneToOneSection from '@/components/OneToOneSection';
+import TalkToUs from '@/components/TalkToUs';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, BOARDS, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import { APPROACH, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
@@ -19,7 +20,8 @@ const FEARS = [
 
 
 const FAQ = [
-  { q: 'How do I book a free demo class?', a: 'Fill in the short form on this page or on the Free Demo page with your child\'s class and board. We call you to fix a time. There is nothing to pay for the demo.' },
+  { q: 'How do I book a free demo class?', a: "Use the Free Demo button at the top of any page and fill in the short form with your child's class and board. We call you to fix a time. There is nothing to pay for the demo." },
+  { q: 'What is 1-to-1 tuition?', a: "A live online class with one student and one teacher, that follows your child's syllabus, speed and gaps. The fee and timings are shared on a call. See the 1-to-1 Tuition page." },
   { q: 'Which classes and boards are covered?', a: 'Class 8, 9 and 10 Maths for both CBSE and ICSE. Each board has its own chapter list, so you only see the chapters of your syllabus.' },
   { q: 'Is the study material free?', a: 'Yes. The notes, formula banks, DPP sheets, previous year questions and online tests are free and can be used without an account. A free account is needed only to save your test scores.' },
   { q: 'What do I get on a chapter page?', a: 'Short notes, a formula bank and a DPP sheet as PDFs. Class 10 chapters also have previous year questions with solutions. Every chapter has a timed online test of 10 questions. Video lectures are being added chapter by chapter.' },
@@ -38,16 +40,14 @@ export default function Home() {
       <HeroGraph />
       <div className="hero3-grid">
         <div className="hero3-copy">
-          <span className="h3-eyebrow">Online Maths for Class 8, 9 &amp; 10 &nbsp;·&nbsp; CBSE &nbsp;·&nbsp; ICSE &nbsp;·&nbsp; Olympiad</span>
+          <span className="h3-eyebrow">Online Maths · Class 8, 9 &amp; 10</span>
           <h1>Maths that finally <span className="h3-grad">makes sense</span></h1>
-          <p className="h3-sub">Short notes, a test for every chapter and unlimited practice, all free. Live classes when you want a teacher, and a free demo to try first.</p>
+          <p className="h3-sub">Free notes, chapter tests and unlimited practice, and 1-to-1 live classes when your child needs a teacher of their own.</p>
           <div className="cta-row">
-            <Link className="btn btn-sun h3-cta" href="#demo">Book a free demo class</Link>
-            <Link className="btn h3-ghost" href="/start">I am weak in maths</Link>
+            <Link className="btn btn-sun h3-cta" href="/one-to-one">Explore 1-to-1 tuition</Link>
+            <Link className="btn h3-ghost" href="/practice">Try a free practice test</Link>
           </div>
-          <ul className="h3-points">
-            <li>Free notes, formulas and DPP</li><li>Timed tests with explanations</li><li>A practice test whenever you want one</li>
-          </ul>
+          <ul className="h3-chips" aria-label="Classes and boards"><li>Class 8</li><li>Class 9</li><li>Class 10</li><li>CBSE</li><li>ICSE</li><li>Olympiad</li></ul>
         </div>
         <div className="hero3-art">
           <HeroShowcase />
@@ -55,6 +55,8 @@ export default function Home() {
         </div>
       </div>
     </section>
+
+    <OneToOneSection />
 
     {latest.length > 0 && <section className="section blog-strip" id="blog"><div className="wrap">
       <div className="section-head center reveal"><span className="kicker">From the blog</span><h2>Study tips and exam help</h2><p>Short, practical articles for Class 8, 9 and 10 students and their parents.</p></div>
@@ -81,7 +83,6 @@ export default function Home() {
         {CHANGES.map((c, i) => (<div key={c.title} className={`card change f${i % 4 + 1} reveal`}><b className="chg-no" aria-hidden="true">{i + 1}</b><h3>{c.title}</h3><p>{c.text}</p></div>))}
       </div>
       <p className="story-note center">That is what we work towards in every class. We do not promise ranks. We promise to look for the missing idea, and to explain it until it makes sense.</p>
-      <p className="center"><Link className="btn btn-sun" href="/demo">See it in a free demo class</Link></p>
     </div></section>
 
     <section className="section soft quotes"><div className="wrap">
@@ -92,21 +93,6 @@ export default function Home() {
           <blockquote>{q.text}</blockquote>
           <figcaption><b>{q.by}</b>{q.note && <small>{q.note}</small>}</figcaption>
         </figure>))}
-      </div>
-    </div></section>
-
-    <section className="section" id="demo-sec"><div className="wrap try-grid" style={{ alignItems: 'center' }}>
-      <div className="reveal">
-        <span className="kicker">Free demo class</span>
-        <h2>Maths fear ends where <span className="hl">understanding</span> begins</h2>
-        <p className="muted">Most children who fear maths are not weak at it: they missed one idea somewhere. {SITE.name} goes back to that idea and builds up from there, in simple Hinglish, one small step at a time.</p>
-        <ul className="ticks">
-          <li>Free demo class</li><li>CBSE and ICSE</li><li>Free notes and tests</li><li>Unlimited practice tests</li>
-        </ul>
-      </div>
-      <div className="hero-art">
-        <Peek />
-        <DemoForm id="demo" classes={classes.map(([k, c]) => [k, c.label])} boards={BOARDS} />
       </div>
     </div></section>
 
@@ -215,9 +201,9 @@ export default function Home() {
 
     <section className="section"><div className="wrap">
       <div className="banner reveal">
-        <div><h2>Not sure where to begin?</h2><p>Book a free demo class and we will help you choose. Daily problems are on Telegram and video lessons on YouTube.</p></div>
+        <div><h2>Not sure where to begin?</h2><p>Message us with your child's class and board and we will help you choose. Daily problems are on Telegram and video lessons on YouTube.</p></div>
         <div className="cta-row">
-          <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>
+          <TalkToUs>Talk to us</TalkToUs>
           <a className="btn btn-ghost" href={SITE.telegram}>Join Telegram</a>
           <a className="btn btn-ghost" href={SITE.youtube}>Watch on YouTube</a>
         </div>

@@ -2,6 +2,7 @@ import './globals.css';
 import Link from 'next/link';
 import { Quicksand } from 'next/font/google';
 import AccountButton from '@/components/AccountButton';
+import { WhatsAppFloat } from '@/components/TalkToUs';
 import InstallApp from '@/components/InstallApp';
 import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <JsonLd data={ORG} />
         <InstallApp />
+        <WhatsAppFloat />
         <Tracker />
         <footer className="site-footer">
           <div className="wrap foot-grid">
@@ -66,6 +68,7 @@ export default function RootLayout({ children }) {
             <div><h3>Learn and practise</h3>
               <Link href="/self-study">Self Study</Link>
               <Link href="/recorded-lectures">Recorded Lectures</Link>
+              <Link href="/one-to-one">1-to-1 Tuition</Link>
               <Link href="/live-courses">Live Courses</Link>
               <Link href="/practice">Practice Generator</Link>
               <Link href="/tests">Test Series</Link>

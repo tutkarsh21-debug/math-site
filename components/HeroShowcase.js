@@ -56,7 +56,7 @@ export function HeroShowcase() {
       <small>Formula bank</small>
       <div className="mk-f">x = <span className="frac"><span>−b ± √(b² − 4ac)</span><span>2a</span></span></div>
     </div>
-    <div className="mk mk-live"><i /> Live classes · free demo</div>
+    <div className="mk mk-live"><i /> 1-to-1 live classes</div>
     <span className="mk-orb o1">π</span><span className="mk-orb o2">∑</span>
   </div>);
 }

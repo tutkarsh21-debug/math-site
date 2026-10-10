@@ -36,7 +36,7 @@ export default function NavMenu({ items }) {
               {g.items.map(it => (
                 <Link key={it.href} href={it.href}><b>{it.label}{it.hot && <span className="nav-new">NEW</span>}</b>{it.note && <small>{it.note}</small>}</Link>))}
             </div>
-          </div>) : <Link key={g.href} href={g.href} className="nav-link">{g.label}</Link>)}
+          </div>) : <Link key={g.href} href={g.href} className="nav-link">{g.label}{g.hot && <span className="nav-new">NEW</span>}</Link>)}
       </nav>
     </div>);
 }
