@@ -36,8 +36,24 @@ export default function Doubts({ chapters }) {
   const [fresh, setFresh] = useState([]);      // answered doubts the student had not seen when the page opened
   const [watch, setWatch] = useState({});      // solutions opened, by doubt id
 
+  // Asks the server who is logged in. A failed request is retried once, and is not mistaken for "not logged in".
+  async function who() {
+    let status = 0;
+    for (let k = 0; k < 2; k++) {
+      try {
+        const r = await fetch('/api/me', { cache: 'no-store', credentials: 'same-origin' });
+        status = r.status;
+        if (r.ok) return { user: (await r.json()).user || null };
+      } catch { status = 0; }
+      await new Promise(res => setTimeout(res, 700));
+    }
+    return { failed: status };
+  }
+
   async function load() {
-    const { user } = await fetch('/api/me').then(r => r.json()).catch(() => ({}));
+    const me = await who();
+    if (me.failed !== undefined) { setState({ failed: me.failed }); return; }
+    const user = me.user;
     if (!user) { setState({}); return; }
     const { doubts = [] } = await fetch('/api/doubts').then(r => r.json()).catch(() => ({}));
     setState({ user, doubts });
@@ -72,6 +88,11 @@ export default function Doubts({ chapters }) {
   }
 
   if (state.loading) return <p className="muted">Loading…</p>;
+  if (state.failed !== undefined) return (<div className="card auth" role="alert">
+    <h2>We could not check your login</h2>
+    <p className="muted">This is a connection or server problem, not a problem with your account{state.failed ? ` (error ${state.failed})` : ''}. Please try again.</p>
+    <div className="cta-row" style={{marginTop:'1rem'}}><button className="btn" onClick={() => { setState({ loading: true }); load(); }}>Try again</button><Link className="btn btn-outline" href="/account">Open my account</Link></div>
+  </div>);
   const { user, doubts } = state;
   if (!user) return (<div className="card auth">
     <h2>Log in to ask a doubt</h2>
