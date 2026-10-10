@@ -10,9 +10,10 @@ export async function GET(request) {
   const u = await currentUser();
   if (!u) return json({ error: 'Please log in.' }, 401);
   const id = Number(new URL(request.url).searchParams.get('id'));
-  const row = Number.isInteger(id) && id > 0 ? await db().prepare("SELECT id, title, starts_at, minutes, room, link, student_id FROM timetable WHERE id = ? AND kind = 'one'").bind(id).first() : null;
+  const row = Number.isInteger(id) && id > 0 ? await db().prepare("SELECT id, title, starts_at, minutes, room, link, student_id, status, reason FROM timetable WHERE id = ? AND kind = 'one'").bind(id).first() : null;
   if (!row || !row.room || (!u.is_admin && row.student_id !== u.id)) return json({ error: 'Class not found.' }, 404);
   const t = now();
+  if (row.status === 'cancelled') return json({ error: `This class has been cancelled${row.reason ? `: ${row.reason}` : '.'}` }, 403);
   if (!u.is_admin && !roomOpen(row, t)) {
     const early = row.starts_at - EARLY - t;
     return json({ error: early > 0 ? 'The room opens 15 minutes before the class.' : `This class ended more than ${LATE / 60} minutes ago.`, opensAt: row.starts_at - EARLY }, 403);

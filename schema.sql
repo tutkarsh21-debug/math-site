@@ -57,7 +57,11 @@ CREATE TABLE IF NOT EXISTS timetable (
   link TEXT NOT NULL DEFAULT '',            -- live: the YouTube video id of this stream; one: an optional meeting link (Meet, Zoom)
   notes TEXT NOT NULL DEFAULT '',
   room TEXT NOT NULL DEFAULT '',            -- one: the secret name of the video room
-  created_at INTEGER NOT NULL
+  created_at INTEGER NOT NULL,
+  series TEXT NOT NULL DEFAULT '',          -- classes made together with "repeat every week" share this
+  status TEXT NOT NULL DEFAULT '',          -- '' or 'cancelled'
+  reason TEXT NOT NULL DEFAULT '',          -- why a class was cancelled (shown to students)
+  moved INTEGER NOT NULL DEFAULT 0          -- 1 if the class was moved to another time
 );
 CREATE INDEX IF NOT EXISTS timetable_time ON timetable(starts_at);
 CREATE INDEX IF NOT EXISTS timetable_student ON timetable(student_id, starts_at);
@@ -68,3 +72,4 @@ CREATE TABLE IF NOT EXISTS studio_playlists (
   playlist TEXT NOT NULL,                   -- the YouTube playlist id
   created_at INTEGER NOT NULL
 );
+CREATE INDEX IF NOT EXISTS timetable_series ON timetable(series, starts_at);

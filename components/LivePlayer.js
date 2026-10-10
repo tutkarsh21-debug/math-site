@@ -13,7 +13,7 @@ export default function LivePlayer() {
     const t = setInterval(load, 60000);
     return () => clearInterval(t);
   }, []);
-  const current = items?.find(i => i.link && now >= i.starts_at - 900 && now <= i.starts_at + i.minutes * 60 + 900);
+  const current = items?.find(i => i.status !== 'cancelled' && i.link && now >= i.starts_at - 900 && now <= i.starts_at + i.minutes * 60 + 900);
   const src = current ? `https://www.youtube.com/embed/${current.link}?rel=0` : `https://www.youtube.com/embed/live_stream?channel=${YT_CHANNEL_ID}&rel=0`;
   return (<div className="player-wrap">
     <div className="player"><iframe key={src} src={src} title="MathSetu live class" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowFullScreen loading="lazy" /></div>

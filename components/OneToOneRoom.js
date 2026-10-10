@@ -83,8 +83,9 @@ export default function OneToOneRoom() {
       <h3>{picked.title}</h3>
       <p className="muted">{when(picked.starts_at)} · {picked.minutes} minutes{picked.student ? ` · with ${picked.student}` : ''}</p>
       {picked.notes && <p>{picked.notes}</p>}
+      {picked.status === 'cancelled' && <p className="error" role="alert">This class has been cancelled{picked.reason ? `: ${picked.reason}` : '.'} Your teacher will tell you the new time.</p>}
       <div className="cta-row">
-        <button type="button" className="btn" disabled={busy} onClick={() => join(picked.id)}>{busy ? 'Opening the room…' : 'Join class'}</button>
+        {picked.status !== 'cancelled' && <button type="button" className="btn" disabled={busy} onClick={() => join(picked.id)}>{busy ? 'Opening the room…' : 'Join class'}</button>}
         {picked.link && <a className="btn btn-outline" href={picked.link} target="_blank" rel="noopener">Open meeting link</a>}
       </div>
       <p className="muted small" style={{ marginTop: '.8rem' }}>The room opens 15 minutes before the class starts.</p>

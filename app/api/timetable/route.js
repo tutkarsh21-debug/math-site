@@ -2,28 +2,31 @@ import { currentUser, db, json, now } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
-// The timetable that a visitor or a student may see.
-//   /api/timetable?scope=live   the coming live classes, for everyone (no student details)
-//   /api/timetable?scope=mine   for a logged-in student: the live classes of their class and board, and their own 1-to-1 classes.
-//                               For the owner: every coming class, with the student's name on 1-to-1 classes.
-// Classes that ended more than half an hour ago are left out.
+// The timetable that a visitor or a student may see, for a stretch of time (the week on screen).
+//   /api/timetable?scope=live&from=...&to=...   the live classes, for everyone (no student details)
+//   /api/timetable?scope=mine&from=...&to=...   for a logged-in student: the live classes of their class and board, and their own 1-to-1 classes.
+//                                               For the owner: every class, with the student's name on 1-to-1 classes.
+// from and to are unix seconds. Without them: from half an hour ago for 60 days. A range is at most 62 days.
+// Cancelled classes are included, marked, so that students can see that a class will not happen.
 export async function GET(request) {
-  const scope = new URL(request.url).searchParams.get('scope');
-  const t = now(), from = t - 1800;
-  const COLS = 'id, kind, title, cls, board, starts_at, minutes, link, notes';
+  const q = new URL(request.url).searchParams, scope = q.get('scope');
+  const t = now();
+  let from = Number(q.get('from')) || t - 1800, to = Number(q.get('to')) || from + 60 * 86400;
+  to = Math.min(to, from + 62 * 86400);
+  const COLS = 't.id, t.kind, t.title, t.cls, t.board, t.starts_at, t.minutes, t.link, t.notes, t.status, t.reason, t.moved';
   if (scope !== 'mine') {
-    const { results } = await db().prepare(`SELECT ${COLS} FROM timetable WHERE kind = 'live' AND starts_at + minutes * 60 > ? ORDER BY starts_at LIMIT 60`).bind(from).all();
-    return json({ now: t, items: results.map(r => ({ ...r, link: r.link })) });
+    const { results } = await db().prepare(`SELECT ${COLS} FROM timetable t WHERE t.kind = 'live' AND t.starts_at < ? AND t.starts_at + t.minutes * 60 > ? ORDER BY t.starts_at LIMIT 300`).bind(to, from).all();
+    return json({ now: t, from, to, items: results });
   }
   const u = await currentUser();
   if (!u) return json({ error: 'Please log in.' }, 401);
   if (u.is_admin) {
-    const { results } = await db().prepare(`SELECT t.${COLS.split(', ').join(', t.')}, t.student_id, u.name AS student FROM timetable t LEFT JOIN users u ON u.id = t.student_id WHERE t.starts_at + t.minutes * 60 > ? ORDER BY t.starts_at LIMIT 200`).bind(from).all();
-    return json({ now: t, items: results, owner: true });
+    const { results } = await db().prepare(`SELECT ${COLS}, t.student_id, u.name AS student FROM timetable t LEFT JOIN users u ON u.id = t.student_id WHERE t.starts_at < ? AND t.starts_at + t.minutes * 60 > ? ORDER BY t.starts_at LIMIT 300`).bind(to, from).all();
+    return json({ now: t, from, to, items: results, owner: true });
   }
-  const { results } = await db().prepare(`SELECT ${COLS} FROM timetable
-    WHERE starts_at + minutes * 60 > ? AND ((kind = 'live' AND (cls = '' OR cls = ?) AND (board = '' OR board = ?)) OR (kind = 'one' AND student_id = ?))
-    ORDER BY starts_at LIMIT 100`).bind(from, u.cls, u.board, u.id).all();
-  // The meeting link of a 1-to-1 class belongs to that student only; a live class has none to show.
-  return json({ now: t, items: results.map(r => (r.kind === 'one' ? r : { ...r })) });
+  const { results } = await db().prepare(`SELECT ${COLS} FROM timetable t
+    WHERE t.starts_at < ? AND t.starts_at + t.minutes * 60 > ?
+      AND ((t.kind = 'live' AND (t.cls = '' OR t.cls = ?) AND (t.board = '' OR t.board = ?)) OR (t.kind = 'one' AND t.student_id = ?))
+    ORDER BY t.starts_at LIMIT 300`).bind(to, from, u.cls, u.board, u.id).all();
+  return json({ now: t, from, to, items: results });
 }
