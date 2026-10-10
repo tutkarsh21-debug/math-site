@@ -10,6 +10,15 @@ const MAX_MS = 6 * 60 * 1000, MAX_POINTS = 55000, MAX_VOICE = 1900000;
 const clock = ms => { const s = Math.floor(ms / 1000); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
 const pickMime = () => ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg;codecs=opus'].find(m => window.MediaRecorder && MediaRecorder.isTypeSupported(m)) || '';
 const toBase64 = blob => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(',')[1] || ''); r.onerror = rej; r.readAsDataURL(blob); });
+// How loud the recorded voice really is (0 to 1), found by decoding the recording; -1 if the browser cannot decode it.
+const loudness = async blob => {
+  try {
+    const Ctx = window.AudioContext || window.webkitAudioContext, ac = new Ctx();
+    const buf = await ac.decodeAudioData(await blob.arrayBuffer()); ac.close();
+    let m = 0; for (let c = 0; c < buf.numberOfChannels; c++) { const d = buf.getChannelData(c); for (let i = 0; i < d.length; i += 4) m = Math.max(m, Math.abs(d[i])); }
+    return m;
+  } catch { return -1; }
+};
 const pressure = e => (e.pointerType === 'mouse' ? 0.5 : e.pressure > 0 ? e.pressure : 0.5);
 
 // The teacher's whiteboard for one doubt. The student's question (and photo) are shown; the teacher writes the solution with a pen
@@ -159,9 +168,10 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     const r = rec.current;
     if (r && r.state !== 'inactive') blob = await new Promise(res => { r.onstop = () => res(chunks.current.length ? new Blob(chunks.current, { type: r.mimeType || mime.current || 'audio/webm' }) : null); r.stop(); });
     stopStream();
+    const heard = blob ? await loudness(blob) : 0;
     const audio = blob ? await toBase64(blob).catch(() => '') : '';
     setSendVoice(!!audio && audio.length <= MAX_VOICE);
-    setReview({ voiceWanted: voice, quiet: !!audio && peak.current < 0.03, events: events.current.slice(), duration, audio, mime: blob?.type || '', audioUrl: blob ? URL.createObjectURL(blob) : '' });
+    setReview({ voiceWanted: voice, quiet: !!audio && (heard >= 0 ? heard < 0.02 : peak.current < 0.03), heard, events: events.current.slice(), duration, audio, mime: blob?.type || '', audioUrl: blob ? URL.createObjectURL(blob) : '' });
     setPhase('review');
   }
 
@@ -194,6 +204,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
         <textarea rows={3} maxLength={4000} value={note} onChange={e => setNote(e.target.value)} /></label>
       {tooBig && <p className="muted small">The voice recording is too large to send, so only the writing will be sent. Next time, keep the explanation shorter.</p>}
       {review.voiceWanted && !review.audio && <p className="error" role="alert">No voice was recorded for this solution. Check that the microphone is allowed and shows a moving level bar while you speak, then choose Record again.</p>}
+      {review.audio && !review.quiet && review.heard >= 0 && <p className="muted small">Your voice was recorded (loudness {Math.round(review.heard * 100)}%). If you cannot hear it when you press Play, check the laptop volume, that the browser tab is not muted, and the sound output device in Windows.</p>}
       {review.quiet && <p className="error" role="alert">The microphone barely heard any sound. Play the preview to check your voice. If it is silent, choose Record again and speak closer to the microphone.</p>}
       {review.audio && !tooBig && <label className="pr-check"><input type="checkbox" checked={sendVoice} onChange={e => setSendVoice(e.target.checked)} /> Send my voice with the solution</label>}
       {error && <p className="error" role="alert">{error}</p>}
