@@ -8,7 +8,7 @@ const nextConfig = {
       { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
       { key: 'Content-Security-Policy', value: "frame-ancestors 'self'" },
       { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-      { key: 'Permissions-Policy', value: 'camera=(), microphone=(self), geolocation=(), payment=()' },
+      { key: 'Permissions-Policy', value: 'camera=(self "https://meet.jit.si"), microphone=(self "https://meet.jit.si"), display-capture=(self "https://meet.jit.si"), geolocation=(), payment=()' },
     ] }];
   },
   // www.mathsetu.in is sent to mathsetu.in, so there is one address for logins and for search engines.

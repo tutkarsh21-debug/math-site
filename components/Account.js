@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import DashboardView from '@/components/Dashboard';
+import Timetable from '@/components/Timetable';
 import { PARENT_LOGIN } from '@/lib/flags';
 
 const post = (url, body) => fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
@@ -78,6 +79,7 @@ export default function Account() {
       </div>
     </div>
     <DashboardView data={data} mode="student" />
+    <div style={{ margin: '1rem 0' }}><Timetable scope="mine" title="My timetable" empty="No classes are scheduled for you yet. New live classes and 1-to-1 classes appear here, with the time and a Join button." /></div>
     {PARENT_LOGIN && <ParentAccess has={data.user.hasParentCode} since={data.user.parentCodeAt} onChange={on => setState(s => ({ data: { ...s.data, user: { ...s.data.user, hasParentCode: on, parentCodeAt: on ? Math.floor(Date.now() / 1000) : 0 } } }))} />}
   </>);
 }

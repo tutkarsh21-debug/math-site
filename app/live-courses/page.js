@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Timetable from '@/components/Timetable';
 import { BOARDS, CLASSES, FREE_DEMO, LIVE, SITE } from '@/lib/data';
 
 export const metadata = { title: 'Live Maths Courses for Class 8, 9, 10 | CBSE & ICSE',
@@ -41,6 +42,11 @@ export default function LiveCourses() {
         {FREE_DEMO && <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>}
         <Link className={FREE_DEMO ? 'btn h3-ghost' : 'btn btn-sun'} href="/enquiry">Tell me when a batch opens</Link>
       </div>
+    </div></section>
+
+    <section className="section"><div className="wrap narrow">
+      <Timetable scope="live" title="Live class timetable" empty="No live classes are scheduled yet. Follow us on Telegram to hear first when a class is added." />
+      <p className="center" style={{ marginTop: '1rem' }}><Link className="btn btn-sun" href="/studio/live">Watch in the live studio</Link></p>
     </div></section>
 
     <section className="section"><div className="wrap">

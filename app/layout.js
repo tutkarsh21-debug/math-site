@@ -69,6 +69,7 @@ export default function RootLayout({ children }) {
             <div><h3>Learn and practise</h3>
               <Link href="/self-study">Self Study</Link>
               <Link href="/recorded-lectures">Recorded Lectures</Link>
+              <Link href="/studio">Studio</Link>
               <Link href="/one-to-one">1-to-1 Tuition</Link>
               <Link href="/live-courses">Live Courses</Link>
               <Link href="/practice">Practice Generator</Link>
