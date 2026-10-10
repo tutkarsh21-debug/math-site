@@ -888,3 +888,14 @@ body{font-weight:500}
 /* ---- WhatsApp button (shown once SITE.whatsapp is set) ---- */
 .wa-float{position:fixed;right:1rem;bottom:1rem;z-index:60;display:grid;place-items:center;width:3.4rem;height:3.4rem;border-radius:50%;background:#25d366;color:#fff;box-shadow:0 10px 26px -8px rgba(0,0,0,.45);transition:transform .2s}
 .wa-float:hover{transform:scale(1.1);text-decoration:none}
+
+/* ---- Class pages ---- */
+.board-cards{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.board-card{display:flex;flex-direction:column;gap:.2rem;padding:1.5rem;border-radius:24px;color:var(--fg)}
+.board-card h3{margin:.7rem 0 .5rem;font-size:1.3rem}
+.board-card ul{list-style:none;margin:0 0 1rem;padding:0;display:grid;gap:.35rem;flex:1}
+.board-card li{position:relative;padding-left:1.4rem;color:var(--muted);font-size:.95rem}
+.board-card li::before{content:'✓';position:absolute;left:0;color:var(--sun);font-weight:800}
+.board-card:hover{transform:translateY(-3px)}
+.card.tool{align-items:flex-start}
+.board-card .badge{align-self:flex-start}
