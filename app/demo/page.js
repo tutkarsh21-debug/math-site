@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { KidStudy } from '@/components/Art';
 import DemoForm from '@/components/DemoForm';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
-import { BOARDS, CLASSES, JOIN, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, FREE_DEMO, JOIN, SITE } from '@/lib/data';
 
 export const metadata = { title: 'Book a Free Demo Maths Class | Class 8, 9, 10 CBSE & ICSE',
   description: `Book a free demo Maths class with ${SITE.name} for your child in Class 8, 9 or 10 (CBSE or ICSE). It takes less than a minute, and there is nothing to pay.` };
@@ -20,6 +21,7 @@ const FAQ = [
 ];
 
 export default function Demo() {
+  if (!FREE_DEMO) notFound();   // hidden for now: see FREE_DEMO in lib/flags.js
   return (<div className="no-demo-bar">
     <JsonLd data={breadcrumbs([['Book a free demo', '/demo']])} />
     <div className="page-head"><div className="wrap">

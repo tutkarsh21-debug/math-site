@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
-import { CLASSES, PARENT_LOGIN } from '@/lib/data';
+import TalkToUs from '@/components/TalkToUs';
+import { CLASSES, FREE_DEMO, PARENT_LOGIN } from '@/lib/data';
 
 export const metadata = {
   title: 'Weak in Maths? Start from the Basics | Class 8, 9, 10',
@@ -57,9 +58,9 @@ export default function Start() {
 
     <section className="section"><div className="wrap">
       <div className="banner">
-        <div><h2>Would you like a teacher with you?</h2><p>Book a free demo class. A teacher takes one topic from your class and explains it from the basics. There is nothing to pay.</p></div>
+        <div><h2>Would you like a teacher with you?</h2><p>{FREE_DEMO ? 'Book a free demo class. A teacher takes one topic from your class and explains it from the basics. There is nothing to pay.' : '1-to-1 live classes follow your pace and start from the basics, with practice and doubts between classes.'}</p></div>
         <div className="cta-row">
-          <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>
+          {FREE_DEMO ? <Link className="btn btn-sun" href="/demo">Book a free demo class</Link> : <TalkToUs>Ask about 1-to-1 classes</TalkToUs>}
           <Link className="btn btn-ghost" href="/doubts">Ask a doubt</Link>
         </div>
       </div>

@@ -8,7 +8,7 @@ import TalkToUs from '@/components/TalkToUs';
 import { Continue } from '@/components/Progress';
 import PracticeSpotlight from '@/components/PracticeSpotlight';
 import JsonLd from '@/components/JsonLd';
-import { APPROACH, BOARDS, CHANGES, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
+import { APPROACH, BOARDS, CHANGES, FREE_DEMO, QUOTES, CLASSES, PROGRAMMES, ROADMAP, SITE, TEACHER, TESTIMONIALS, TOOLS } from '@/lib/data';
 import { POSTS } from '@/lib/posts';
 
 // Common worries about maths, each with what the site does about it. These are general worries, not quotes from students.
@@ -29,6 +29,8 @@ const FAQ = [
   { q: 'Which language are the lessons in?', a: 'Video lessons are taught in Hinglish, a mix of Hindi and English. The notes and practice sheets are written in English, as questions appear in the exam.' },
   { q: 'Do you help with Olympiad preparation?', a: 'Yes. The Olympiad page explains how to prepare for SOF IMO alongside your school syllabus.' },
 ];
+
+const FAQ_SHOWN = FAQ.filter(f => FREE_DEMO || !/free demo/i.test(f.q));
 
 export default function Home() {
   const classes = Object.entries(CLASSES);
@@ -217,9 +219,9 @@ export default function Home() {
 
     <section className="section soft"><div className="wrap narrow">
       <div className="section-head center reveal"><span className="kicker">FAQ</span><h2>Frequently asked questions</h2></div>
-      {FAQ.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
+      {FAQ_SHOWN.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
       <JsonLd data={{ '@context': 'https://schema.org', '@type': 'FAQPage',
-        mainEntity: FAQ.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }} />
+        mainEntity: FAQ_SHOWN.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }} />
     </div></section>
 
     <section className="section"><div className="wrap">

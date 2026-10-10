@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BOARDS, CLASSES, LIVE, SITE } from '@/lib/data';
+import { BOARDS, CLASSES, FREE_DEMO, LIVE, SITE } from '@/lib/data';
 
 export const metadata = { title: 'Live Maths Courses for Class 8, 9, 10 | CBSE & ICSE',
   description: 'Live online Maths batches for Class 8, 9 and 10 (CBSE and ICSE), taught in Hinglish with doubt solving, notes and DPP.',
@@ -38,8 +38,8 @@ export default function LiveCourses() {
       <h1>A real teacher, <span className="h3-grad">a fixed time, a steady routine</span></h1>
       <p>Online live Maths classes for CBSE and ICSE, with doubts solved in class. Batch dates and fees are announced on Telegram.</p>
       <div className="cta-row" style={{ marginTop: '1.4rem' }}>
-        <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>
-        <Link className="btn h3-ghost" href="/enquiry">Tell me when a batch opens</Link>
+        {FREE_DEMO && <Link className="btn btn-sun" href="/demo">Book a free demo class</Link>}
+        <Link className={FREE_DEMO ? 'btn h3-ghost' : 'btn btn-sun'} href="/enquiry">Tell me when a batch opens</Link>
       </div>
     </div></section>
 
@@ -83,7 +83,7 @@ export default function LiveCourses() {
     <section className="section"><div className="wrap">
       <div className="section-head center"><span className="kicker">How to join</span><h2>Three simple steps</h2></div>
       <div className="sp-steps lv-three">
-        {STEPS.map((s, i) => (<div key={s.t} className="sp-step"><b>{i + 1}</b><h3>{s.t}</h3><p>{s.d}</p></div>))}
+        {STEPS.filter(s => FREE_DEMO || !/free demo/i.test(s.t)).map((s, i) => (<div key={s.t} className="sp-step"><b>{i + 1}</b><h3>{s.t}</h3><p>{s.d}</p></div>))}
       </div>
       <p className="center sp-more">Not ready for a batch yet? The free material is enough to begin.</p>
       <p className="center"><Link className="btn btn-sun" href="/self-study">Self study PDFs</Link> <Link className="btn btn-outline" href="/tests">Chapter tests</Link></p>

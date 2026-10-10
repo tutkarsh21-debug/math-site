@@ -7,7 +7,7 @@ import InstallApp from '@/components/InstallApp';
 import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
 import NavMenu from '@/components/NavMenu';
-import { CLASSES, NAV, PARENT_LOGIN, SITE } from '@/lib/data';
+import { CLASSES, FREE_DEMO, NAV, PARENT_LOGIN, SITE } from '@/lib/data';
 
 // A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font', display: 'swap' });
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <header className="site-header"><div className="wrap bar">
           <Brand />
           <NavMenu items={NAV} />
-          <Link className="btn btn-sm btn-sun head-demo" href="/demo">Free Demo</Link>
+          {FREE_DEMO && <Link className="btn btn-sm btn-sun head-demo" href="/demo">Free Demo</Link>}
           <AccountButton />
         </div></header>
         <main>{children}</main>
