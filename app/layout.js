@@ -82,6 +82,7 @@ export default function RootLayout({ children }) {
               <Link href="/app">Get the App</Link>
               {PARENT_LOGIN && <Link href="/parent">Parent Dashboard</Link>}
               <Link href="/enquiry">Contact and enquiry</Link>
+              <Link href="/login#teacher">Teach with {SITE.name}</Link>
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
               <Link href="/privacy">Privacy Policy</Link>

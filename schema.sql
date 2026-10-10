@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS users (
   pass_hash TEXT NOT NULL, salt TEXT NOT NULL, fails INTEGER NOT NULL DEFAULT 0, locked_until INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL,
   is_admin INTEGER NOT NULL DEFAULT 0,  -- 1 for the site owner, who can open /admin
   is_teacher INTEGER NOT NULL DEFAULT 0,  -- 1 for a teacher, who can open /teacher and solve doubts
+  teacher_request INTEGER NOT NULL DEFAULT 0,  -- 1 while a teacher's request waits for the owner to approve it
   -- Parent access: a code the student makes and gives to a parent (only its hash is kept), and the wrong-code lockout.
   parent_code_hash TEXT NOT NULL DEFAULT '', parent_code_at INTEGER NOT NULL DEFAULT 0, parent_fails INTEGER NOT NULL DEFAULT 0, parent_locked_until INTEGER NOT NULL DEFAULT 0);
 CREATE TABLE IF NOT EXISTS sessions (token_hash TEXT PRIMARY KEY, user_id INTEGER NOT NULL, expires_at INTEGER NOT NULL);

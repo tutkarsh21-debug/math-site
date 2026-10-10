@@ -9,7 +9,7 @@ export default function Login() {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Login</div>
       <h1>Login or Register</h1>
-      <p>A free student account saves your test scores. Notes, PDFs and tests can be used without an account.</p>
+      <p>A free student account saves your test scores. Notes, PDFs and tests can be used without an account. Teachers: choose &ldquo;I am a teacher&rdquo; below.</p>
     </div></div>
     <section className="section"><div className="wrap">
       <AuthForm classes={Object.entries(CLASSES).map(([k, c]) => [k, c.label])} boards={BOARDS} />

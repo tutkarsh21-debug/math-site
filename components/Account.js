@@ -61,10 +61,11 @@ export default function Account() {
   if (state.error) return <p className="error">Could not load your dashboard. Please refresh the page.</p>;
   const { data } = state;
   return (<>
+    {me.teacherRequest && !me.teacher && <div className="card auth" style={{ maxWidth: 'none', marginBottom: '1rem', borderColor: 'var(--sun)' }} role="status"><b>Your teacher request is waiting for approval.</b><p className="muted small" style={{ margin: '.3rem 0 0' }}>The site owner will approve it soon. Once approved, a Teacher desk button appears here, and you will see the doubts students have sent.</p></div>}
     <div className="card auth dash-head" style={{ maxWidth: 'none' }}>
       <div>
         <h2>Hello, {data.user.name.split(' ')[0]}</h2>
-        <p className="muted">{data.user.clsLabel} · {data.user.board} · {me.mobile}</p>
+        <p className="muted">{me.teacher ? 'Teacher account' : me.teacherRequest ? 'Teacher request pending' : `${data.user.clsLabel} · ${data.user.board}`} · {me.mobile}</p>
       </div>
       <div className="cta-row">
         <Link className="btn" href="/practice">Make a practice test</Link>

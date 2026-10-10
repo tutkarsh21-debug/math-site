@@ -18,7 +18,7 @@ export default function TeacherDesk({ classLabels, titles }) {
   async function load() {
     const r = await fetch('/api/teacher/doubts').catch(() => null);
     if (r?.status === 401) { window.location.href = '/login'; return; }
-    if (!r?.ok) { setState({ error: r?.status === 403 ? 'This page is only for teachers. Ask the site owner to add your mobile number as a teacher.' : 'Could not load the doubts. Please try again.' }); return; }
+    if (!r?.ok) { setState({ error: r?.status === 403 ? 'This page is only for approved teachers. Register with "I am a teacher" on the Login page and wait for the owner to approve you.' : 'Could not load the doubts. Please try again.' }); return; }
     setState({ doubts: (await r.json()).doubts });
   }
   useEffect(() => { load(); const t = setInterval(() => { if (!document.hidden && !solving) load(); }, 60000); return () => clearInterval(t); }, [solving]);
