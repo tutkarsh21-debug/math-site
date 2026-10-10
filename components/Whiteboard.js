@@ -25,10 +25,31 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
   const [voice, setVoice] = useState(true), [mic, setMic] = useState('idle'), [micTry, setMicTry] = useState(0);   // mic: idle, ready, blocked, none
   const [started, setStarted] = useState(false), [elapsed, setElapsed] = useState(0), [alive, setAlive] = useState(0);
   const [review, setReview] = useState(null), [sendVoice, setSendVoice] = useState(true);
+  const [level, setLevel] = useState(0), peak = useRef(0), meter = useRef(null);   // how loud the microphone hears, 0 to 1
   const [note, setNote] = useState(''), [error, setError] = useState(''), [busy, setBusy] = useState(false);
   const photo = doubt.has_photo ? `/api/doubts/photo?id=${doubt.id}` : '';
 
-  const stopStream = () => { stream.current?.getTracks().forEach(t => t.stop()); stream.current = null; };
+  const stopMeter = () => { try { meter.current?.stop(); } catch {} meter.current = null; setLevel(0); };
+  const stopStream = () => { stopMeter(); stream.current?.getTracks().forEach(t => t.stop()); stream.current = null; };
+  // A small level bar, so the teacher can see that the microphone is really hearing the voice.
+  function startMeter(s) {
+    try {
+      const Ctx = window.AudioContext || window.webkitAudioContext, ac = new Ctx(), an = ac.createAnalyser(), src = ac.createMediaStreamSource(s), buf = new Uint8Array(512);
+      an.fftSize = 512; src.connect(an); ac.resume?.();
+      let on = true, last = 0;
+      const tick = () => {
+        if (!on) return;
+        an.getByteTimeDomainData(buf);
+        let m = 0; for (const v of buf) m = Math.max(m, Math.abs(v - 128));
+        const l = Math.min(1, m / 64);
+        if (l > peak.current) peak.current = l;
+        const t = performance.now(); if (t - last > 120) { last = t; setLevel(l); }
+        requestAnimationFrame(tick);
+      };
+      tick();
+      meter.current = { stop() { on = false; try { src.disconnect(); ac.close(); } catch {} } };
+    } catch {}
+  }
   useEffect(() => () => { stopStream(); clearInterval(timer.current); if (rec.current && rec.current.state !== 'inactive') try { rec.current.stop(); } catch {} }, []);
 
   // The microphone is asked for as soon as the board opens, so the browser's permission question does not come in the middle of writing.
@@ -38,7 +59,11 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) { setMic('none'); return; }
     let dead = false;
     navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } })
-      .then(s => { if (dead) { s.getTracks().forEach(t => t.stop()); return; } stream.current = s; setMic('ready'); })
+      .then(s => {
+        if (dead) { s.getTracks().forEach(t => t.stop()); return; }
+        stream.current = s; setMic('ready'); startMeter(s);
+        s.getAudioTracks().forEach(t => { t.onended = () => { if (stream.current === s) { stopStream(); setMic('blocked'); } }; });
+      })
       .catch(() => { if (!dead) setMic('blocked'); });
     return () => { dead = true; };
   }, [voice, micTry, phase]);
@@ -62,7 +87,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
         mime.current = pickMime();
         const r = new MediaRecorder(stream.current, { ...(mime.current ? { mimeType: mime.current } : {}), audioBitsPerSecond: 24000 });
         chunks.current = []; r.ondataavailable = e => { if (e.data && e.data.size) chunks.current.push(e.data); };
-        r.start(); rec.current = r;
+        r.start(1000); rec.current = r; peak.current = 0;
       } catch { rec.current = null; }
     }
     timer.current = setInterval(() => { const ms = now(); setElapsed(ms); if (ms >= MAX_MS) finish(); }, 250);
@@ -79,6 +104,8 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     if (penOnly && e.pointerType === 'touch') return;          // a resting hand is ignored
     if (e.pointerType === 'mouse' && e.button !== 0) return;
     if (points.current >= MAX_POINTS || events.current.length >= 3900) { setError('The board is full. Please finish and send this solution.'); return; }
+    if (!t0.current && voice && !stream.current && (mic === 'idle' || mic === 'asking')) { setError('The microphone is still starting. Allow it if the browser asks, wait a moment, then start writing.'); return; }
+    setError('');
     e.preventDefault();
     const cv = canvas.current;
     try { cv.setPointerCapture(e.pointerId); } catch {}     // keeps the stroke going if the pen leaves the board
@@ -131,7 +158,7 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     stopStream();
     const audio = blob ? await toBase64(blob).catch(() => '') : '';
     setSendVoice(!!audio && audio.length <= MAX_VOICE);
-    setReview({ events: events.current.slice(), duration, audio, mime: blob?.type || '', audioUrl: blob ? URL.createObjectURL(blob) : '' });
+    setReview({ voiceWanted: voice, quiet: !!audio && peak.current < 0.03, events: events.current.slice(), duration, audio, mime: blob?.type || '', audioUrl: blob ? URL.createObjectURL(blob) : '' });
     setPhase('review');
   }
 
@@ -163,6 +190,8 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
       <label className="doubt-edit">A short written note for the student (optional; maths between $ signs)
         <textarea rows={3} maxLength={4000} value={note} onChange={e => setNote(e.target.value)} /></label>
       {tooBig && <p className="muted small">The voice recording is too large to send, so only the writing will be sent. Next time, keep the explanation shorter.</p>}
+      {review.voiceWanted && !review.audio && <p className="error" role="alert">No voice was recorded for this solution. Check that the microphone is allowed and shows a moving level bar while you speak, then choose Record again.</p>}
+      {review.quiet && <p className="error" role="alert">The microphone barely heard any sound. Play the preview to check your voice. If it is silent, choose Record again and speak closer to the microphone.</p>}
       {review.audio && !tooBig && <label className="pr-check"><input type="checkbox" checked={sendVoice} onChange={e => setSendVoice(e.target.checked)} /> Send my voice with the solution</label>}
       {error && <p className="error" role="alert">{error}</p>}
       <div className="cta-row">
@@ -194,7 +223,8 @@ export default function Whiteboard({ doubt, onSent, onCancel }) {
     <div className="wb-status">
       <span className={`wb-rec${started ? ' live' : ''}`}><i />{started ? `Recording ${clock(elapsed)} / ${clock(MAX_MS)}` : 'Ready. Recording starts when you first touch the board with the pen.'}</span>
       <label className="pr-check" style={{ margin: 0 }}><input type="checkbox" checked={voice} disabled={started} onChange={e => setVoice(e.target.checked)} /> Record my voice</label>
-      {voice && mic === 'ready' && <span className="muted small">Microphone ready</span>}
+      {voice && mic === 'ready' && <span className="muted small wb-mic">Microphone ready <span className="wb-meter" aria-hidden="true"><i style={{ width: `${Math.round(level * 100)}%` }} /></span></span>}
+      {voice && mic === 'idle' && <span className="muted small">Starting the microphone. Please allow it if the browser asks.</span>}
       {voice && mic === 'blocked' && <span className="small error">Microphone blocked. Allow it in the browser address bar, then <button type="button" className="pr-link" onClick={() => setMicTry(n => n + 1)}>try again</button>. You can also send the writing without voice.</span>}
       {voice && mic === 'none' && <span className="muted small">This browser cannot record voice. The writing will be recorded.</span>}
       <label className="pr-check" style={{ margin: 0 }}><input type="checkbox" checked={penOnly} onChange={e => setPenOnly(e.target.checked)} /> Ignore finger touches (pen and mouse only)</label>

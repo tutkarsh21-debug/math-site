@@ -1178,3 +1178,8 @@ button.wk-card:hover{border-color:var(--sun)}
 .wk-edit{margin-top:1rem;border-color:var(--sun)}
 .wk-danger{margin-top:.8rem;padding-top:.8rem;border-top:1px dashed var(--line)}
 @media(prefers-color-scheme:dark){.wk-reason{color:#ff8a85}.wk-card.off .wk-title{color:var(--muted)}}
+
+/* Microphone level */
+.wb-mic{display:inline-flex;align-items:center;gap:.5rem}
+.wb-meter{display:inline-block;width:90px;height:8px;border-radius:99px;background:var(--line,#e6dfcf);overflow:hidden}
+.wb-meter i{display:block;height:100%;background:#2e7d32;transition:width .1s}
