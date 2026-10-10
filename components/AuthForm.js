@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { TEACHER_SIGNUP } from '@/lib/flags';
 
 // Login and registration in one card. classes: [[key, label]], boards: ['CBSE', 'ICSE'].
 export default function AuthForm({ classes, boards }) {
@@ -9,7 +10,7 @@ export default function AuthForm({ classes, boards }) {
   const [busy, setBusy] = useState(false);
   const teacher = mode === 'teacher';
   const register = mode === 'register' || teacher;
-  useEffect(() => { if (window.location.hash === '#teacher') setMode('teacher'); }, []);
+  useEffect(() => { if (TEACHER_SIGNUP && window.location.hash === '#teacher') setMode('teacher'); }, []);
 
   async function submit(e) {
     e.preventDefault();
@@ -30,7 +31,7 @@ export default function AuthForm({ classes, boards }) {
     <div className="chips">
       <button type="button" className={`chip${mode === 'login' ? ' on' : ''}`} onClick={() => { setMode('login'); setError(''); }}>Login</button>
       <button type="button" className={`chip${mode === 'register' ? ' on' : ''}`} onClick={() => { setMode('register'); setError(''); }}>Register</button>
-      <button type="button" className={`chip${teacher ? ' on' : ''}`} onClick={() => { setMode('teacher'); setError(''); }}>I am a teacher</button>
+      {TEACHER_SIGNUP && <button type="button" className={`chip${teacher ? ' on' : ''}`} onClick={() => { setMode('teacher'); setError(''); }}>I am a teacher</button>}
     </div>
     <form onSubmit={submit}>
       {register && <label>Full name<input name="name" required minLength={2} maxLength={60} autoComplete="name" /></label>}

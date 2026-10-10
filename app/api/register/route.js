@@ -1,3 +1,4 @@
+import { TEACHER_SIGNUP } from '@/lib/flags';
 import { checkSignup, db, hashPassword, json, now, randomHex, sameOrigin, startSession } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
@@ -6,6 +7,7 @@ export async function POST(request) {
   if (!sameOrigin(request)) return json({ error: 'Request not allowed.' }, 403);
   const body = await request.json().catch(() => ({}));
   const asTeacher = body.role === 'teacher';
+  if (asTeacher && !TEACHER_SIGNUP) return json({ error: 'Teacher registration is closed.' }, 403);
   // A teacher gives only a name, a mobile number and a password. The class and board are placeholders, and the account
   // has no teacher powers until the owner approves it at /admin/teachers.
   const data = asTeacher ? { ...body, cls: 'class-10', board: 'CBSE' } : body;

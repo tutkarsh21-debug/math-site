@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { TEACHER_SIGNUP } from '@/lib/flags';
 import { useEffect, useMemo, useState } from 'react';
 import DashboardView, { Cards, band, dateOnly, when } from '@/components/Dashboard';
 
@@ -68,7 +69,7 @@ export default function AdminDashboard() {
     <div className="cta-row" style={{ margin: '1rem 0' }}>
       <Link className="btn btn-outline btn-sm" href="/admin/enquiries">Enquiries and demo requests</Link>
       <Link className="btn btn-outline btn-sm" href="/admin/doubts">Doubts</Link>
-      <Link className="btn btn-outline btn-sm" href="/admin/teachers">Teachers</Link>
+      {TEACHER_SIGNUP && <Link className="btn btn-outline btn-sm" href="/admin/teachers">Teachers</Link>}
     </div>
     <p className="muted small">"Registered" means a student account was created. Only pages opened while logged in are counted here. For visitors who did not log in, see Web Analytics in your Cloudflare dashboard.</p>
 

@@ -7,7 +7,7 @@ import InstallApp from '@/components/InstallApp';
 import Tracker from '@/components/Tracker';
 import JsonLd from '@/components/JsonLd';
 import NavMenu from '@/components/NavMenu';
-import { CLASSES, FREE_DEMO, NAV, PARENT_LOGIN, SITE } from '@/lib/data';
+import { CLASSES, FREE_DEMO, NAV, PARENT_LOGIN, SITE, TEACHER_SIGNUP } from '@/lib/data';
 
 // A rounded, friendly typeface. The site has no Hindi-script text, so only the Latin letters are loaded.
 const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font', display: 'swap' });
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
               <Link href="/app">Get the App</Link>
               {PARENT_LOGIN && <Link href="/parent">Parent Dashboard</Link>}
               <Link href="/enquiry">Contact and enquiry</Link>
-              <Link href="/login#teacher">Teach with {SITE.name}</Link>
+              {TEACHER_SIGNUP && <Link href="/login#teacher">Teach with {SITE.name}</Link>}
               <a href={SITE.telegram}>Telegram</a>
               <a href={SITE.youtube}>YouTube</a>
               <Link href="/privacy">Privacy Policy</Link>
