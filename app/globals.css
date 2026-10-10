@@ -1184,3 +1184,24 @@ button.wk-card:hover{border-color:var(--sun)}
 .wb-meter{display:inline-block;width:90px;height:8px;border-radius:99px;background:var(--line,#e6dfcf);overflow:hidden}
 .wb-meter i{display:block;height:100%;background:#2e7d32;transition:width .1s}
 .wb-pick select{max-width:260px;margin-left:.3rem}
+
+/* Home page, the cleaner hero */
+.hero5{position:relative;margin-top:-5.4rem;padding:8.4rem clamp(1rem,4vw,3rem) 4rem;overflow:hidden;background:radial-gradient(50rem 30rem at 0% 0%,rgba(250,172,0,.16),transparent 65%),radial-gradient(44rem 28rem at 100% 20%,rgba(120,190,160,.16),transparent 65%),var(--bg)}
+.hero5-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.4rem;align-items:center;max-width:1240px;margin:0 auto}
+.hero5 h1{font-size:clamp(3.2rem,8vw,6.2rem);line-height:.98;letter-spacing:-.04em;font-weight:800;margin:0 0 1.4rem}
+.hero5 h1 .h4-grad{display:block}
+.h5-sub{font-size:1.2rem;line-height:1.6;color:var(--muted);max-width:32rem;margin:0 0 1.5rem}
+.h5-sub mark{background:linear-gradient(transparent 62%,rgba(250,172,0,.5) 62%);color:var(--fg);font-weight:700;padding:0 .1em}
+.hero5-art{position:relative;min-height:380px;display:grid;place-items:center}
+.h5-rays{position:absolute;inset:0;width:100%;height:100%;border-radius:36px;background:linear-gradient(160deg,#fff5dc,#fdf0cf 60%,#f6ead0);box-shadow:0 30px 60px -34px rgba(30,36,48,.35)}
+.h5-board{position:relative;background:#fff;color:#1e2430;border-radius:22px;padding:1.4rem 1.7rem;min-width:min(78%,330px);box-shadow:0 22px 44px -22px rgba(30,36,48,.45);margin-top:3.4rem}
+.h5-tag{display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#8f5500}
+.h5-board p{margin:.55rem 0 0;font-family:var(--font-manrope,inherit);font-weight:800}
+.h5-eq{font-size:1.7rem}.h5-step{font-size:1.25rem;color:#4a5160}.h5-ans{font-size:1.25rem;color:#1c8a55}.h5-ans b{margin-left:.3rem}
+.h5-pill{position:absolute;display:inline-flex;align-items:center;gap:.5rem;background:#fff;color:#1e2430;border-radius:99px;padding:.5rem 1rem;font-weight:700;font-size:.8rem;box-shadow:0 14px 28px -14px rgba(30,36,48,.45);animation:h4Float 5.5s ease-in-out infinite}
+.h5-pill i{width:.6rem;height:.6rem;border-radius:50%;background:#e5322d;animation:livePulse 1.8s infinite}
+.h5-pill.p1{top:7%;left:-.4rem}.h5-pill.p2{right:-.3rem;bottom:14%;animation-delay:-2s}.h5-pill.p3{left:6%;bottom:-.6rem;animation-delay:-3.5s}
+.head-login{font-weight:600;color:var(--fg);padding:.4rem .7rem}.head-login:hover{text-decoration:none;color:var(--brand-text)}
+@media(max-width:900px){.hero5{padding-top:7rem}.hero5-grid{grid-template-columns:1fr;gap:1.8rem}.hero5-copy{text-align:center}.h5-sub{margin-left:auto;margin-right:auto}.hero5 .h4-chips,.hero5 .cta-row{justify-content:center}.hero5-art{min-height:320px}.h5-pill{font-size:.72rem;padding:.4rem .75rem}.head-login{display:none}}
+@media(prefers-color-scheme:dark){.h5-rays{background:linear-gradient(160deg,#2b2a22,#2a2820 60%,#25241d)}}
+@media(prefers-reduced-motion:reduce){.h5-pill,.h5-pill i{animation:none}}

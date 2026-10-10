@@ -31,5 +31,5 @@ export default function AccountButton() {
         </Link>}
         <Link className="btn btn-sm btn-outline" href="/account">{user.name.split(' ')[0]}</Link>
       </>)
-    : <Link className="btn btn-sm btn-outline" href="/login">Login</Link>;
+    : (<><Link className="head-login" href="/login">Login</Link><Link className="btn btn-sm btn-sun head-reg" href="/login">Register</Link></>);
 }
