@@ -66,20 +66,25 @@ export default function Account() {
     <div className="card auth dash-head" style={{ maxWidth: 'none' }}>
       <div>
         <h2>Hello, {data.user.name.split(' ')[0]}</h2>
-        <p className="muted">{me.teacher ? 'Teacher account' : me.teacherRequest ? 'Teacher request pending' : `${data.user.clsLabel} · ${data.user.board}`} · {me.mobile}</p>
+        <p className="muted">{me.admin ? 'Owner account' : me.teacher ? 'Teacher account' : me.teacherRequest ? 'Teacher request pending' : `${data.user.clsLabel} · ${data.user.board}`} · {me.mobile}</p>
       </div>
       <div className="cta-row">
-        <Link className="btn" href="/practice">Make a practice test</Link>
-        <Link className="btn btn-outline" href="/tests">Chapter tests</Link>
-        <Link className="btn btn-outline" href={`/${data.user.cls}`}>My class chapters</Link>
-        <Link className="btn btn-outline" href="/doubts">Ask a doubt</Link>
-        {(me.teacher || me.admin) && <Link className="btn btn-sun" href="/teacher">Teacher desk</Link>}
-        {me.admin && <Link className="btn btn-sun" href="/admin">Owner dashboard</Link>}
+        {me.admin ? (<>
+          <Link className="btn btn-sun" href="/admin">Owner dashboard</Link>
+          <Link className="btn btn-sun" href="/teacher">Teacher desk</Link>
+          <Link className="btn btn-outline" href="/admin/studio">Studio manager</Link>
+        </>) : (<>
+          <Link className="btn" href="/practice">Make a practice test</Link>
+          <Link className="btn btn-outline" href="/tests">Chapter tests</Link>
+          <Link className="btn btn-outline" href={`/${data.user.cls}`}>My class chapters</Link>
+          <Link className="btn btn-outline" href="/doubts">Ask a doubt</Link>
+          {me.teacher && <Link className="btn btn-sun" href="/teacher">Teacher desk</Link>}
+        </>)}
         <button className="btn btn-outline" onClick={logout}>Logout</button>
       </div>
     </div>
-    <DashboardView data={data} mode="student" />
-    <div style={{ margin: '1rem 0' }}><Timetable scope="mine" title="My timetable" empty="No classes are scheduled for you yet. New live classes and 1-to-1 classes appear here, with the time and a Join button." /></div>
+    {!me.admin && <DashboardView data={data} mode="student" />}
+    {!me.admin && <div style={{ margin: '1rem 0' }}><Timetable scope="mine" title="My timetable" empty="No classes are scheduled for you yet. New live classes and 1-to-1 classes appear here, with the time and a Join button." /></div>}
     {PARENT_LOGIN && <ParentAccess has={data.user.hasParentCode} since={data.user.parentCodeAt} onChange={on => setState(s => ({ data: { ...s.data, user: { ...s.data.user, hasParentCode: on, parentCodeAt: on ? Math.floor(Date.now() / 1000) : 0 } } }))} />}
   </>);
 }
