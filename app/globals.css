@@ -1205,3 +1205,74 @@ button.wk-card:hover{border-color:var(--sun)}
 @media(max-width:900px){.hero5{padding-top:7rem}.hero5-grid{grid-template-columns:1fr;gap:1.8rem}.hero5-copy{text-align:center}.h5-sub{margin-left:auto;margin-right:auto}.hero5 .h4-chips,.hero5 .cta-row{justify-content:center}.hero5-art{min-height:320px}.h5-pill{font-size:.72rem;padding:.4rem .75rem}.head-login{display:none}}
 @media(prefers-color-scheme:dark){.h5-rays{background:linear-gradient(160deg,#2b2a22,#2a2820 60%,#25241d)}}
 @media(prefers-reduced-motion:reduce){.h5-pill,.h5-pill i{animation:none}}
+
+/* Hero cards that take turns */
+.hero5-art{min-height:430px;display:block}
+.h5-back{position:absolute;inset:0;border-radius:38px;background:linear-gradient(160deg,#fff7e2,#fdf1d4 55%,#f5ecd9);box-shadow:0 30px 60px -34px rgba(30,36,48,.35)}
+.h5-scene{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s}
+.h5-scene.on{opacity:1;visibility:visible}
+.h5-lab{position:absolute;top:1.1rem;left:1.1rem;display:inline-flex;align-items:center;gap:.5rem;background:#fff;color:#1e2430;border-radius:99px;padding:.45rem .95rem;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;box-shadow:0 12px 24px -14px rgba(30,36,48,.4)}
+.h5-lab i{width:.55rem;height:.55rem;border-radius:50%;background:#f4a600}
+.h5-chip{position:absolute;top:1.1rem;right:1.1rem;display:flex;flex-direction:column;align-items:flex-end;background:#fff;color:#1e2430;border-radius:20px;padding:.5rem 1rem;box-shadow:0 12px 24px -14px rgba(30,36,48,.4)}
+.h5-chip b{font-family:var(--font-manrope,inherit);font-size:1.35rem;line-height:1.1;color:#f4a600;font-weight:800}
+.h5-chip small{font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#4a5160}
+.h5-ill{position:absolute;left:5%;right:5%;top:15%;bottom:20%;display:grid;place-items:center}
+.h5-svg{width:100%;height:100%;max-height:100%;filter:drop-shadow(0 18px 22px rgba(30,36,48,.16))}
+.h5-cap{position:absolute;left:50%;bottom:2.1rem;transform:translateX(-50%);display:inline-flex;align-items:center;gap:.9rem;white-space:nowrap;background:#fff;color:#1e2430;border-radius:99px;padding:.7rem .8rem .7rem 1.4rem;font-weight:700;font-size:.98rem;box-shadow:0 18px 34px -18px rgba(30,36,48,.5)}
+.h5-cap:hover{text-decoration:none;transform:translateX(-50%) translateY(-2px)}
+.h5-cap span{display:grid;place-items:center;width:2rem;height:2rem;border-radius:50%;background:#f7f1e3;transition:transform .2s}
+.h5-cap:hover span{transform:translateX(3px)}
+.h5-dots{position:absolute;left:0;right:0;bottom:.7rem;display:flex;justify-content:center;gap:.45rem}
+.h5-dots button{width:.55rem;height:.55rem;padding:0;border:0;border-radius:99px;background:rgba(30,36,48,.22);cursor:pointer;transition:width .25s,background .25s}
+.h5-dots button.on{width:1.5rem;background:#f4a600}
+@media(max-width:900px){.hero5-art{min-height:390px}.h5-cap{font-size:.88rem;padding:.55rem .6rem .55rem 1.1rem}.h5-chip b{font-size:1.15rem}}
+@media(prefers-reduced-motion:reduce){.h5-scene{transition:none}}
+
+/* Hero cards: the motion. Each drawing is mounted only while its card is showing, so every card starts its animation from the beginning. */
+.h5-svg *{transform-box:fill-box}
+.a-bob{animation:h5bob 2.4s ease-in-out infinite;transform-origin:50% 100%}
+@keyframes h5bob{50%{transform:translateY(-3px)}}
+.a-blink{animation:h5blink 3.2s infinite;transform-origin:50% 50%}
+@keyframes h5blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.a-talk{animation:h5talk .5s ease-in-out infinite alternate;transform-origin:50% 0}
+@keyframes h5talk{from{transform:scaleY(.6)}to{transform:scaleY(1.5)}}
+.a-nod{animation:h5nod 3s ease-in-out infinite;transform-origin:50% 100%}
+@keyframes h5nod{0%,60%,100%{transform:translateY(0)}70%{transform:translateY(3px)}80%{transform:translateY(0)}}
+.a-pulse{animation:h5pulse 2.1s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes h5pulse{0%,100%{transform:scale(1)}40%{transform:scale(1.22)}}
+.a-grow{animation:h5grow 2.4s ease-in-out infinite;transform-origin:0 50%}
+@keyframes h5grow{0%{transform:scaleX(.15)}60%,100%{transform:scaleX(1)}}
+.a-beat{animation:h5beat 1.6s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes h5beat{50%{transform:scale(1.1)}}
+.a-pop{animation:h5popbubble 3.4s ease-in-out infinite;transform-origin:0 100%}
+@keyframes h5popbubble{0%,12%{transform:scale(0);opacity:0}22%,70%{transform:scale(1);opacity:1}82%,100%{transform:scale(0);opacity:0}}
+.a-dot{animation:h5dot 1s infinite}.a-dot.d2{animation-delay:.18s}.a-dot.d3{animation-delay:.36s}
+@keyframes h5dot{0%,100%{opacity:.3}50%{opacity:1}}
+/* the whiteboard: three lines written one after another, with the pen following */
+.h5-wipe{width:0}
+.h5-wipe.w0{animation:h5w 1.2s .3s ease-out forwards}.h5-wipe.w1{animation:h5w 1.2s 1.7s ease-out forwards}.h5-wipe.w2{animation:h5w 1.2s 3.1s ease-out forwards}
+@keyframes h5w{to{width:290px}}
+.h5-pen{animation:h5pen 4.6s linear forwards;transform:translate(54px,52px)}
+@keyframes h5pen{0%{transform:translate(52px,54px)}26%{transform:translate(230px,54px)}30%{transform:translate(52px,96px)}56%{transform:translate(230px,96px)}60%{transform:translate(52px,138px)}86%{transform:translate(260px,138px)}100%{transform:translate(300px,158px)}}
+.a-wave{animation:h5wave 1s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes h5wave{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1.5)}}
+/* practice: the options are tried, then the right one is ticked */
+.a-opt.o0{animation:h5try 4.4s 0s infinite}.a-opt.o1{animation:h5try 4.4s .5s infinite}.a-opt.o3{animation:h5try 4.4s 1.5s infinite}.a-opt.o2{animation:h5right 4.4s infinite}
+@keyframes h5try{0%,18%,100%{fill:#f6f1e4;stroke:#e6dcc2}6%,12%{fill:#fde1dc;stroke:#d94a3a}}
+@keyframes h5right{0%,45%{fill:#f6f1e4;stroke:#e6dcc2}55%,90%,100%{fill:#d6f2e0;stroke:#1c8a55}}
+.a-check{stroke-dasharray:1;stroke-dashoffset:1;animation:h5tick 4.4s infinite}
+@keyframes h5tick{0%,50%{stroke-dashoffset:1}62%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.a-sway{animation:h5sway 4s ease-in-out infinite;transform-origin:50% 50%}.a-sway.b{animation-delay:-2s}
+@keyframes h5sway{50%{translate:0 -4px}}
+.a-spin{animation:h5spin 6s linear infinite;transform-origin:50% 50%}
+@keyframes h5spin{to{transform:rotate(360deg)}}
+/* progress: the bars rise, the line is drawn, the arrow lands */
+.a-barg{transform-origin:50% 100%;animation:h5rise 5.4s ease-out infinite}
+@keyframes h5rise{0%{transform:scaleY(0)}18%,86%{transform:scaleY(1)}100%{transform:scaleY(1)}}
+.a-draw{stroke-dasharray:1;stroke-dashoffset:1;animation:h5line 5.4s ease-in-out infinite}
+@keyframes h5line{0%,10%{stroke-dashoffset:1}60%,92%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.a-late{transform-origin:50% 50%;animation:h5land 5.4s infinite}
+@keyframes h5land{0%,55%{transform:scale(0)}65%{transform:scale(1.3)}72%,100%{transform:scale(1)}}
+.a-twinkle{animation:h5tw 1.8s ease-in-out infinite;transform-origin:50% 50%}
+@keyframes h5tw{50%{transform:scale(1.3) rotate(12deg);opacity:.6}}
+@media(prefers-reduced-motion:reduce){.h5-svg *{animation:none!important}.h5-wipe{width:290px}.h5-pen{display:none}.a-check{stroke-dashoffset:0}.a-draw{stroke-dashoffset:0}.a-opt.o2{fill:#d6f2e0;stroke:#1c8a55}}
