@@ -1,17 +1,17 @@
 /* Print styles for the chapter notes PDFs (A4). */
-:root{--brand:#dc4f14;--brand-strong:#b23c0a;--ink:#413930;--muted:#746558;--line:#efe6dc;--soft:#fef7e9;--sun:#f15d22;--sun-soft:#fef1d8}
+:root{--brand:#faac00;--brand-strong:#8f5500;--brand-text:#8f5500;--ink:#1e2430;--muted:#596273;--line:#ece7dc;--soft:#fbf8f1;--sun:#faac00;--sun-soft:#fff3c7}
 /* The bottom margin holds the footer text and page number (set in the page's own <style>). */
 @page{size:A4;margin:0 0 13mm 0;
-  @bottom-left{font:500 8pt Quicksand,sans-serif;color:#746558;padding-left:15mm;white-space:nowrap;vertical-align:middle;border-top:.3mm solid #efe6dc}
-  @bottom-center{font:600 8pt Quicksand,sans-serif;color:#746558;vertical-align:middle;border-top:.3mm solid #efe6dc}
-  @bottom-right{font:700 8pt Quicksand,sans-serif;color:#dc4f14;padding-right:15mm;vertical-align:middle;border-top:.3mm solid #efe6dc}}
+  @bottom-left{font:500 8pt Quicksand,sans-serif;color:#596273;padding-left:15mm;white-space:nowrap;vertical-align:middle;border-top:.3mm solid #ece7dc}
+  @bottom-center{font:600 8pt Quicksand,sans-serif;color:#596273;vertical-align:middle;border-top:.3mm solid #ece7dc}
+  @bottom-right{font:700 8pt Quicksand,sans-serif;color:#8f5500;padding-right:15mm;vertical-align:middle;border-top:.3mm solid #ece7dc}}
 *{box-sizing:border-box}
 html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 body{margin:0;color:var(--ink);font:500 10.5pt/1.55 Quicksand,'Segoe UI',sans-serif}
 .katex{font-size:1.08em}
 
 /* watermark and header repeat on every page because they are position:fixed */
-.wm{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-35deg);font-size:92pt;font-weight:700;letter-spacing:.02em;color:rgba(241,93,34,.07);white-space:nowrap;z-index:0;pointer-events:none}
+.wm{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) rotate(-35deg);font-size:92pt;font-weight:700;letter-spacing:.02em;color:rgba(250,172,0,.12);white-space:nowrap;z-index:0;pointer-events:none}
 .hdr{position:fixed;top:0;left:0;right:0;height:15mm;padding:0 15mm;display:flex;align-items:center;justify-content:space-between;border-bottom:.3mm solid var(--line);font-size:8.5pt;font-weight:500;color:var(--muted);background:#fff}
 .hdr .brand{display:flex;align-items:center;gap:2mm;font-size:12pt;font-weight:700;color:var(--ink)}
 .logo{width:7mm;height:7mm}
@@ -19,24 +19,24 @@ body{margin:0;color:var(--ink);font:500 10.5pt/1.55 Quicksand,'Segoe UI',sans-se
 .sheet{width:100%;border-collapse:collapse;position:relative;z-index:1}
 .sheet>tbody>tr>td{padding:0 15mm 4mm}
 
-.title{background:linear-gradient(120deg,#f15d22,#ff8a3d);color:#fff;border-radius:5mm;padding:7mm 8mm;margin-bottom:5mm}
-.title .kicker{font-size:9pt;font-weight:500;opacity:.9;letter-spacing:.03em;text-transform:uppercase}
+.title{background:#1e2430;color:#fff;border-radius:5mm;border-bottom:1.6mm solid #faac00;padding:7mm 8mm;margin-bottom:5mm}
+.title .kicker{font-size:9pt;font-weight:600;color:#faac00;letter-spacing:.03em;text-transform:uppercase}
 .title h1{margin:1.5mm 0 1mm;font-size:21pt;line-height:1.2}
 .title p{margin:0;font-size:9.5pt;opacity:.92}
 .summary{color:var(--muted);margin:0 0 4mm}
 
 .topic{margin-bottom:5mm}
 h2{display:flex;align-items:center;gap:3mm;font-size:13.5pt;margin:0 0 2.5mm;color:var(--brand-strong);break-after:avoid;break-inside:avoid}
-h2 .no{flex:none;display:grid;place-items:center;width:7.5mm;height:7.5mm;border-radius:2mm;background:var(--brand);color:#fff;font-size:10.5pt}
+h2 .no{flex:none;display:grid;place-items:center;width:7.5mm;height:7.5mm;border-radius:2mm;background:var(--brand);color:var(--ink);font-size:10.5pt}
 ul{margin:0 0 2.5mm;padding-left:6mm}
 li{margin:1mm 0}
-li::marker{color:var(--brand)}
+li::marker{color:var(--brand-text)}
 .display{margin:2mm 0 3mm;text-align:center}
 .tip{break-inside:avoid;margin:2.5mm 0;padding:2.5mm 4mm;border-left:1.2mm solid var(--sun);background:var(--sun-soft);border-radius:0 2mm 2mm 0}
-.tip b{display:block;font-size:8pt;text-transform:uppercase;letter-spacing:.06em;color:#b23c0a}
+.tip b{display:block;font-size:8pt;text-transform:uppercase;letter-spacing:.06em;color:#8f5500}
 .eg{break-inside:avoid;margin:3mm 0;border:.3mm solid var(--line);border-radius:2.5mm;overflow:hidden}
 .eg .q{padding:2.5mm 4mm;background:var(--soft);font-weight:500}
-.eg .q b{display:inline-block;margin-right:2.5mm;color:var(--brand)}
+.eg .q b{display:inline-block;margin-right:2.5mm;color:var(--brand-text)}
 .eg .sol{padding:2.5mm 4mm}
 .eg .sol i{display:block;font-style:normal;font-size:8pt;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:1mm}
 .step{margin:.8mm 0}
@@ -47,13 +47,13 @@ li::marker{color:var(--brand)}
 .formulas tr{break-inside:avoid}
 .formulas td{padding:2.6mm 3mm;border-bottom:.3mm solid var(--line);vertical-align:middle}
 .formulas tr:nth-child(odd) td{background:var(--soft)}
-.formulas .n{width:9mm;font-weight:700;color:var(--brand);text-align:center}
+.formulas .n{width:9mm;font-weight:700;color:var(--brand-text);text-align:center}
 .formulas .name{width:36%;font-weight:600}
 
 /* DPP sheet */
 .dpp{margin:0;padding-left:8mm}
 .dpp li{margin:0 0 5.5mm;padding-left:1.5mm;break-inside:avoid}
-.dpp li::marker,.answers li::marker{font-weight:700;color:var(--brand)}
+.dpp li::marker,.answers li::marker{font-weight:700;color:var(--brand-text)}
 .key{break-before:page}
 .key-title{font-size:15pt;padding-bottom:2mm;margin-bottom:4mm;border-bottom:.8mm solid var(--sun)}
 .answers{margin:0;padding-left:8mm;columns:2;column-gap:10mm}
@@ -68,16 +68,16 @@ li::marker{color:var(--brand)}
 /* diagrams */
 .fig{margin:2.5mm auto;text-align:center;break-inside:avoid}
 .fig svg{max-width:100%;height:auto}
-.fig text{font-family:Quicksand,sans-serif;font-weight:600;font-size:11px;fill:#413930}
+.fig text{font-family:Quicksand,sans-serif;font-weight:600;font-size:11px;fill:#1e2430}
 .fig text.pt{font-family:KaTeX_Math,'Times New Roman',serif;font-style:italic;font-size:14px}
-.fig text.ang{font-size:10.5px;fill:#dc4f14;font-weight:700}
+.fig text.ang{font-size:10.5px;fill:#8f5500;font-weight:700}
 .fig figcaption{font-size:8.5pt;color:var(--muted);margin-top:.5mm}
 .eg .q .fig{font-weight:400}
 
 /* previous year questions */
 .pyq{break-inside:avoid;margin:2.5mm 0}
 .pyq .q{display:flex;gap:2.5mm}
-.pyq .q>b{flex:none;min-width:6mm;color:var(--brand)}
+.pyq .q>b{flex:none;min-width:6mm;color:var(--brand-text)}
 .pyq .src{font-style:normal;font-size:8pt;font-weight:600;color:var(--brand-strong);background:var(--soft);border-radius:1.5mm;padding:.3mm 1.8mm;white-space:nowrap}
 .pyq.solved{border:.3mm solid var(--line);border-radius:2.5mm;padding:2.5mm 4mm}
 .pyq.solved .q{color:var(--muted);font-size:9.5pt}
@@ -88,6 +88,6 @@ li::marker{color:var(--brand)}
 /* warm theme extras */
 h1,h2,strong,b,.ans{font-weight:700}
 .formulas tr:nth-child(odd) td{background:var(--soft)}
-.title{box-shadow:0 2mm 6mm rgba(241,93,34,.18)}
+.title{box-shadow:0 2mm 6mm rgba(30,36,48,.20)}
 .eg{border-radius:3.5mm}
 .tip{border-radius:0 3mm 3mm 0}

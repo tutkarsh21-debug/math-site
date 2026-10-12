@@ -1,0 +1,70 @@
+@minutes 12
+Q: What is the mirror image of the time 2:30?
+- 10:30
+* 9:30
+- 3:30
+- 8:30
+W: $12{:}00 - 2{:}30 = 9{:}30$.
+
+Q: What is the mirror image of the time 5:10?
+- 7:10
+- 6:10
+* 6:50
+- 7:50
+W: $12{:}00 - 5{:}10 = 6{:}50$.
+
+Q: What is the mirror image of the time 8:25?
+- 3:25
+* 3:35
+- 4:35
+- 4:25
+W: $12{:}00 - 8{:}25 = 3{:}35$.
+
+Q: What is the mirror image of the time 12:20?
+- 12:40
+* 11:40
+- 10:40
+- 11:20
+W: Treat 12:20 as 0:20. Then $12{:}00 - 0{:}20 = 11{:}40$.
+
+Q: Which letter looks the same in a mirror placed at its side?
+* A
+- B
+- C
+- D
+W: Only A is symmetrical about a vertical line. B, C and D are symmetrical about a horizontal line.
+
+Q: Which letter looks the same in a water image?
+- A
+- M
+- T
+* C
+W: C is symmetrical about a horizontal line, so it looks the same upside down. A, M and T are not.
+
+Q: Which word looks the same in a mirror placed at its side?
+* TOT
+- TIP
+- PAT
+- CAT
+W: T and O are symmetrical about a vertical line, and TOT reads the same backwards.
+
+Q: Which word looks the same in a water image?
+* DICE
+- MAN
+- TAP
+- WIN
+W: D, I, C and E are all symmetrical about a horizontal line.
+
+Q: A girl raises her right hand in front of a mirror. Which hand does her image seem to raise?
+- Right hand
+* Left hand
+- Both hands
+- Neither hand
+W: A mirror turns left and right, so the image seems to raise its left hand.
+
+Q: A mirror is placed on the right of the word STAR. Which letter appears at the extreme left of the image?
+- S
+- T
+- A
+* R
+W: The last letter R is nearest to the mirror, so it appears first from the left.

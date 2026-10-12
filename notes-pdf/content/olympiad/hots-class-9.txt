@@ -1,0 +1,120 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 20
+@title HOTS Questions for Class 9
+@summary Higher order thinking questions for Class 9 on number systems, polynomials, linear equations, lines and angles, triangles, quadrilaterals, circles, mensuration and data, each with a full solution.
+
+# How to use these questions
+- A HOTS question joins two ideas or hides its first step. Read it twice and ask: "What is really being asked?"
+- Try each question for five minutes before reading the solution. Then compare your method, not only your answer.
+- If you get stuck, write what is **given**, what is **needed**, and one fact that connects them.
+
+# Number systems
+?eg If $x = 3 + 2\sqrt{2}$, find $x + \dfrac{1}{x}$ and $x^2 + \dfrac{1}{x^2}$.
+= $\dfrac{1}{x} = \dfrac{1}{3 + 2\sqrt{2}} \times \dfrac{3 - 2\sqrt{2}}{3 - 2\sqrt{2}} = \dfrac{3 - 2\sqrt{2}}{9 - 8} = 3 - 2\sqrt{2}$.
+= $x + \dfrac{1}{x} = (3 + 2\sqrt{2}) + (3 - 2\sqrt{2}) = 6$.
+= $x^2 + \dfrac{1}{x^2} = \left(x + \dfrac{1}{x}\right)^2 - 2 = 36 - 2 = 34$.
+=> 6 and 34
+?eg Simplify $\sqrt{7 + 4\sqrt{3}}$.
+= Look for $a + b\sqrt{3}$ with $(a + b\sqrt{3})^2 = a^2 + 3b^2 + 2ab\sqrt{3}$.
+= We need $2ab = 4$ and $a^2 + 3b^2 = 7$. Try $a = 2$ and $b = 1$: $4 + 3 = 7$ and $2 \times 2 \times 1 = 4$.
+= So $7 + 4\sqrt{3} = (2 + \sqrt{3})^2$.
+=> $2 + \sqrt{3}$
+
+# Polynomials
+?eg If $x + \dfrac{1}{x} = 4$, find $x^3 + \dfrac{1}{x^3}$.
+= Cube both sides: $x^3 + 3x + \dfrac{3}{x} + \dfrac{1}{x^3} = 64$.
+= So $x^3 + \dfrac{1}{x^3} + 3\left(x + \dfrac{1}{x}\right) = 64$, which gives $x^3 + \dfrac{1}{x^3} = 64 - 12$.
+=> 52
+?eg Factorise $x^3 - 6x^2 + 11x - 6$.
+= Try $x = 1$: $1 - 6 + 11 - 6 = 0$, so $(x - 1)$ is a factor.
+= Dividing gives $x^2 - 5x + 6 = (x - 2)(x - 3)$.
+=> $(x - 1)(x - 2)(x - 3)$
+?eg The polynomial $p(x) = x^3 + ax^2 + bx + 6$ is divisible by both $(x - 1)$ and $(x - 2)$. Find $a$ and $b$.
+= $p(1) = 0$: $1 + a + b + 6 = 0$, so $a + b = -7$.
+= $p(2) = 0$: $8 + 4a + 2b + 6 = 0$, so $2a + b = -7$.
+= Subtracting the first equation from the second gives $a = 0$, and then $b = -7$.
+= Check: $x^3 - 7x + 6 = (x - 1)(x - 2)(x + 3)$.
+=> $a = 0$ and $b = -7$
+
+# Linear equations
+?eg The sum of a two-digit number and the number formed by reversing its digits is 99. The difference of the digits is 3 and the tens digit is larger. Find the number.
+= Let the digits be $a$ (tens) and $b$ (units). The number plus its reverse is $11(a + b) = 99$, so $a + b = 9$.
+= $a - b = 3$. Adding: $2a = 12$, so $a = 6$ and $b = 3$.
+=> 63
+
+# Lines, angles and triangles
+?eg In triangle ABC, the bisectors of angle B and angle C meet at O. If angle A is $70^\circ$, find angle BOC.
+= $\angle B + \angle C = 180^\circ - 70^\circ = 110^\circ$.
+= In triangle BOC: $\angle OBC + \angle OCB = \dfrac{1}{2}(110^\circ) = 55^\circ$.
+= $\angle BOC = 180^\circ - 55^\circ = 125^\circ$. (In general $\angle BOC = 90^\circ + \dfrac{1}{2}\angle A$.)
+=> $125^\circ$
+?eg In a right-angled triangle the hypotenuse is 25 cm and one leg is 7 cm. Find the length of the median drawn to the hypotenuse.
+= The midpoint of the hypotenuse is the centre of the circle through all three vertices, so it is equally far from all of them.
+= The median is half the hypotenuse.
+=> 12.5 cm
+
+# Quadrilaterals
+?eg In a parallelogram ABCD, angle A is $(2x + 10)^\circ$ and angle B is $(3x - 20)^\circ$. Find angle A.
+= Adjacent angles of a parallelogram add up to $180^\circ$: $2x + 10 + 3x - 20 = 180$.
+= $5x - 10 = 180$, so $x = 38$.
+= $\angle A = 2 \times 38 + 10 = 86$.
+=> $86^\circ$
+?eg The perimeter of triangle ABC is 48 cm. D, E and F are the midpoints of its sides. Find the perimeter of triangle DEF.
+= By the midpoint theorem each side of triangle DEF is half of the opposite side of triangle ABC.
+= So the perimeter of DEF is half of 48.
+=> 24 cm
+
+# Circles and mensuration
+?eg A chord of length 16 cm is drawn in a circle of radius 10 cm. Find its distance from the centre.
+= The perpendicular from the centre bisects the chord, so a half-chord is 8 cm.
+= $d = \sqrt{10^2 - 8^2} = \sqrt{36}$.
+=> 6 cm
+?eg The sides of a triangle are 13 cm, 14 cm and 15 cm. Find the height on the side of length 14 cm.
+= $s = \dfrac{13 + 14 + 15}{2} = 21$.
+= Area $= \sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056} = 84$.
+= $\dfrac{1}{2} \times 14 \times h = 84$, so $h = 12$.
+=> 12 cm
+?eg The radius of a cone is 7 cm and its height is 24 cm. Find its curved surface area (take $\pi = \dfrac{22}{7}$).
+= Slant height $l = \sqrt{7^2 + 24^2} = \sqrt{625} = 25$ cm.
+= Curved surface area $= \pi r l = \dfrac{22}{7} \times 7 \times 25$.
+=> 550 square cm
+
+# Statistics
+?eg The mean of 10 numbers is 20. If one number, 25, is replaced by 45, find the new mean.
+= Old sum $= 200$. New sum $= 200 - 25 + 45 = 220$.
+= New mean $= \dfrac{220}{10}$.
+=> 22
+!tip Many HOTS questions are two simple facts in a row. Find the first fact (the hidden step), and the second one is usually routine.
+
+@@dpp
+Q: If $x = 2 + \sqrt{3}$, find $x + \dfrac{1}{x}$.
+A: 4 (since $\dfrac{1}{x} = 2 - \sqrt{3}$).
+
+Q: If $x + \dfrac{1}{x} = 5$, find $x^2 + \dfrac{1}{x^2}$.
+A: 23.
+
+Q: If $x + \dfrac{1}{x} = 3$, find $x^3 + \dfrac{1}{x^3}$.
+A: 18.
+
+Q: Factorise $x^3 - 3x^2 - 4x + 12$.
+A: $(x - 3)(x - 2)(x + 2)$.
+
+Q: In triangle ABC, angle A is $50^\circ$. The bisectors of angles B and C meet at O. Find angle BOC.
+A: $115^\circ$.
+
+Q: In a parallelogram ABCD, angle A is $(3x + 5)^\circ$ and angle B is $(2x + 15)^\circ$. Find angle A.
+A: $101^\circ$ ($x = 32$).
+
+Q: A chord of length 24 cm is drawn in a circle of radius 13 cm. Find its distance from the centre.
+A: 5 cm.
+
+Q: The sides of a triangle are 13 cm, 14 cm and 15 cm. Find the height on the side of length 15 cm.
+A: 11.2 cm (the area is 84 square cm).
+
+Q: A cone has radius 6 cm and slant height 10 cm. Find its volume in terms of $\pi$.
+A: $96\pi$ cubic cm (the height is 8 cm).
+
+Q: The mean of 8 numbers is 15. One number, 9, is replaced by 25. Find the new mean.
+A: 17.

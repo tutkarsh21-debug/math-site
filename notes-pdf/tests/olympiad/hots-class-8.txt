@@ -1,0 +1,70 @@
+@minutes 15
+Q: Find the smallest number by which 245 must be multiplied to get a perfect square.
+- 3
+- 7
+* 5
+- 35
+W: $245 = 5 \times 7^2$. Only the prime 5 has an odd power, so multiply by 5 to get $1225 = 35^2$.
+
+Q: Find the smallest number by which 1372 must be divided to give a perfect cube.
+- 2
+* 4
+- 7
+- 14
+W: $1372 = 2^2 \times 7^3$. Remove $2^2 = 4$ and the quotient is $343 = 7^3$.
+
+Q: The sum of the digits of a two-digit number is 7. If 9 is added to the number, its digits are reversed. Find the number.
+- 25
+- 16
+* 34
+- 43
+W: Let the digits be $a$ and $b$. $a + b = 7$ and $10a + b + 9 = 10b + a$ gives $b - a = 1$. So $a = 3$ and $b = 4$.
+
+Q: The denominator of a fraction is 3 more than its numerator. If 1 is added to both, the fraction becomes $\dfrac{2}{3}$. Find the fraction.
+- $\dfrac{4}{7}$
+* $\dfrac{5}{8}$
+- $\dfrac{6}{9}$
+- $\dfrac{3}{6}$
+W: $\dfrac{n + 1}{n + 4} = \dfrac{2}{3}$ gives $3n + 3 = 2n + 8$, so $n = 5$ and the fraction is $\dfrac{5}{8}$.
+
+Q: If $a + \dfrac{1}{a} = 4$, then $a^2 + \dfrac{1}{a^2} =$
+- 8
+- 12
+* 14
+- 16
+W: Squaring gives $a^2 + 2 + \dfrac{1}{a^2} = 16$, so $a^2 + \dfrac{1}{a^2} = 14$.
+
+Q: Which is the complete factorisation of $x^4 - 16$?
+- $(x^2 - 4)(x^2 + 4)$
+* $(x - 2)(x + 2)(x^2 + 4)$
+- $(x - 4)(x + 4)(x^2 + 1)$
+- $(x - 2)^2 (x + 2)^2$
+W: $x^4 - 16 = (x^2 - 4)(x^2 + 4)$ and $x^2 - 4 = (x - 2)(x + 2)$. The factor $x^2 + 4$ cannot be factorised further.
+
+Q: A shopkeeper sells two articles for Rs 1200 each, one at a 20% gain and the other at a 20% loss. What is his overall result?
+- No gain, no loss
+- A gain of 4%
+* A loss of 4%
+- A loss of 2%
+W: The costs are Rs 1000 and Rs 1500, so the total cost is Rs 2500 against Rs 2400 received. Loss $= \dfrac{100}{2500} \times 100 = 4\%$.
+
+Q: Each exterior angle of a regular polygon is $36^\circ$. How many sides does it have?
+- 8
+- 9
+* 10
+- 12
+W: The exterior angles add up to $360^\circ$, so the number of sides is $\dfrac{360}{36} = 10$.
+
+Q: The mean of 4 numbers is 15. Each number is multiplied by 2 and then 1 is added. What is the new mean?
+- 30
+* 31
+- 32
+- 16
+W: Doubling gives a mean of 30, and adding 1 gives 31.
+
+Q: A bag has 3 red, 5 blue and 2 green balls. A ball is picked at random. What is the probability that it is not blue?
+- $\dfrac{3}{10}$
+* $\dfrac{1}{2}$
+- $\dfrac{2}{5}$
+- $\dfrac{7}{10}$
+W: There are $3 + 2 = 5$ balls that are not blue out of 10, so the probability is $\dfrac{5}{10} = \dfrac{1}{2}$.

@@ -1,0 +1,70 @@
+@minutes 12
+Q: Kiran is 7th from the top and 15th from the bottom. How many students are in the class?
+- 20
+* 21
+- 22
+- 23
+W: $7 + 15 - 1 = 21$.
+
+Q: Dev is 12th from the left and 9th from the right in a row. How many people are in the row?
+- 19
+* 20
+- 21
+- 22
+W: $12 + 9 - 1 = 20$.
+
+Q: How many people are between the 5th and the 14th person from the front?
+- 7
+* 8
+- 9
+- 10
+W: $14 - 5 - 1 = 8$.
+
+Q: A class has 40 students. Sonu's rank from the top is 12. What is his rank from the bottom?
+- 27
+- 28
+* 29
+- 30
+W: $40 + 1 - 12 = 29$.
+
+Q: A is taller than B. B is taller than C. Who is the shortest?
+- A
+- B
+* C
+- Cannot be found
+W: $A > B > C$, so C is the shortest.
+
+Q: In a row of 30 boys, P is 9th from the left and Q is 7th from the right. If they exchange places, what is P's position from the left?
+- 22nd
+- 23rd
+* 24th
+- 25th
+W: Q's position from the left is $30 + 1 - 7 = 24$, and P takes it.
+
+Q: In a queue of 50 people, Gita is 18th from the front. What is her position from the back?
+- 31st
+- 32nd
+* 33rd
+- 34th
+W: $50 + 1 - 18 = 33$.
+
+Q: Arrange in dictionary order: Mango, Apple, Guava, Banana. Which word comes second?
+- Apple
+* Banana
+- Guava
+- Mango
+W: The order is Apple, Banana, Guava, Mango.
+
+Q: A is heavier than B. C is lighter than B. D is heavier than A. E is lighter than C. Who is the second heaviest?
+- B
+- D
+* A
+- C
+W: $D > A > B > C > E$, so A is the second heaviest.
+
+Q: In a queue, Rani is 4th from the front and 4th from the back. How many people are in the queue?
+- 6
+* 7
+- 8
+- 9
+W: $4 + 4 - 1 = 7$.

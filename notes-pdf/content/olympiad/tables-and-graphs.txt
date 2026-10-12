@@ -1,0 +1,79 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 18
+@title Reading Tables and Graphs
+@summary How to read a table, a bar graph, a line graph and a pie chart, and how to turn what you read into a total, an average, a percentage or an angle.
+
+# Reading a table
+- A **table** lists data in rows and columns. Read the title and the column headings first, and note the **unit** (rupees, kilograms, thousands).
+- Most questions ask for a **total**, an **average**, the **highest** or **lowest** value, a **difference**, or a **percentage change**.
+- Percentage change $= \dfrac{\text{change}}{\text{old value}} \times 100$. The old value is the earlier one.
+?eg The table shows the number of books sold by a shop from Monday to Friday. Find the total, the average, the best day, and the percentage increase from Monday to Tuesday.
+| Day | Mon | Tue | Wed | Thu | Fri |
+| Books sold | 40 | 50 | 30 | 60 | 40 |
+= Total $= 40 + 50 + 30 + 60 + 40 = 220$.
+= Average $= \dfrac{220}{5} = 44$.
+= The highest number is 60, on Thursday.
+= Mon to Tue: change $= 10$, and $\dfrac{10}{40} \times 100 = 25$.
+=> Total 220, average 44, best day Thursday, increase 25%
+
+# Bar graphs and line graphs
+- In a **bar graph** the height of each bar shows the value. Read the scale on the vertical axis carefully: one square may not be one unit.
+- A **line graph** joins points. It is best for showing how something **changes over time**, like temperature or the height of a plant.
+- A line going up means an increase, going down means a decrease, and flat means no change. The steeper the line, the faster the change.
+?eg A line graph of the temperature at 6 am, 9 am, 12 noon and 3 pm gives 24, 27, 30 and 28 degrees Celsius. By how much did the temperature rise from 6 am to noon, and when did it fall?
+= Rise $= 30 - 24 = 6$ degrees.
+= It fell after noon, because 28 is less than 30.
+=> It rose by 6 degrees. It fell between noon and 3 pm.
+
+# Pie charts
+- A **pie chart** is a circle divided into sectors. The whole circle is $360^\circ$ and stands for the total.
+- The angle of a sector $= \dfrac{\text{value}}{\text{total}} \times 360^\circ$.
+- The value of a sector $= \dfrac{\text{angle}}{360^\circ} \times \text{total}$.
+- The angles of all sectors add up to $360^\circ$. The percentages add up to 100%, and $1\% = 3.6^\circ$.
+?eg A family spends its monthly income of Rs 36 000 as follows: Food $120^\circ$, Rent $90^\circ$, Education $60^\circ$, Savings $54^\circ$, Others $36^\circ$. Find the amount spent on food and on rent. Check the angles.
+= The angles add up to $120 + 90 + 60 + 54 + 36 = 360$, so they are correct.
+= Food $= \dfrac{120}{360} \times 36\,000 = 12\,000$.
+= Rent $= \dfrac{90}{360} \times 36\,000 = 9000$.
+=> Food Rs 12 000 and rent Rs 9000
+!tip Check that the angles add to $360^\circ$ and the percentages to 100% before you use a pie chart. It catches reading mistakes.
+
+@@formulas
+Average | $\dfrac{\text{sum}}{\text{number of values}}$
+Percentage change | $\dfrac{\text{change}}{\text{old value}} \times 100$
+Angle of a sector | $\dfrac{\text{value}}{\text{total}} \times 360^\circ$
+Value of a sector | $\dfrac{\text{angle}}{360^\circ} \times \text{total}$
+Angle for $1\%$ | $3.6^\circ$
+Best graph for change over time | line graph
+
+@@dpp
+Q: Books sold from Monday to Friday were 40, 50, 30, 60 and 40. Find the total.
+A: 220.
+
+Q: For the same data, find the average number of books sold per day.
+A: 44.
+
+Q: For the same data, on which day were the most books sold?
+A: Thursday (60 books).
+
+Q: For the same data, find the percentage increase in sales from Monday to Tuesday.
+A: 25%.
+
+Q: What angle in a pie chart stands for 25% of the data?
+A: $90^\circ$.
+
+Q: In a pie chart of an income of Rs 36 000, rent is Rs 9000. Find the angle for rent.
+A: $90^\circ$.
+
+Q: In a pie chart of an income of Rs 36 000, food has an angle of $120^\circ$. How much is spent on food?
+A: Rs 12 000.
+
+Q: For the same data, find the difference between the highest and the lowest daily sales.
+A: 30 (that is, $60 - 30$).
+
+Q: For the same data, the sales on Thursday are what percentage of the sales on Monday?
+A: 150%.
+
+Q: A line graph shows the temperature at four times as 24, 27, 30 and 28 degrees. By how much did the temperature rise from the first reading to the third?
+A: 6 degrees.

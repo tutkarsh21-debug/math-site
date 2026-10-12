@@ -1,0 +1,70 @@
+@minutes 15
+Q: A can finish a job in 12 days. What part of the job does A do in one day?
+- $\dfrac{1}{6}$
+* $\dfrac{1}{12}$
+- $\dfrac{1}{24}$
+- 12
+W: In one day A does $\dfrac{1}{12}$ of the job.
+
+Q: A can do a job in 20 days and B in 30 days. How many days will they take together?
+- 10
+* 12
+- 15
+- 25
+W: One day: $\dfrac{1}{20} + \dfrac{1}{30} = \dfrac{5}{60} = \dfrac{1}{12}$.
+
+Q: A and B together do a job in 8 days. A alone does it in 12 days. How many days will B take alone?
+- 16
+- 20
+* 24
+- 30
+W: B's one day $= \dfrac{1}{8} - \dfrac{1}{12} = \dfrac{1}{24}$.
+
+Q: 10 men can finish a job in 12 days. How many days will 15 men take?
+- 6
+* 8
+- 9
+- 10
+W: Work $= 120$ man-days, and $\dfrac{120}{15} = 8$.
+
+Q: A can do a job in 15 days and B in 10 days. They work together for 3 days and then A leaves. In how many more days will B finish the rest?
+- 3
+- 4
+* 5
+- 6
+W: Together they do $\dfrac{1}{15} + \dfrac{1}{10} = \dfrac{1}{6}$ per day, so in 3 days they do $\dfrac{1}{2}$. B does the other half in $5$ days.
+
+Q: A pipe fills a tank in 4 hours and another pipe empties the full tank in 8 hours. If both are open, how long does it take to fill the tank?
+- 4 hours
+- 6 hours
+* 8 hours
+- 12 hours
+W: Net in one hour $= \dfrac{1}{4} - \dfrac{1}{8} = \dfrac{1}{8}$.
+
+Q: A can do a job in 4 days and B can do it in 12 days. They are paid Rs 800 for working together. What is A's share?
+- Rs 400
+* Rs 600
+- Rs 650
+- Rs 700
+W: The ratio of their one-day work is $\dfrac{1}{4} : \dfrac{1}{12} = 3 : 1$, so A gets $\dfrac{3}{4} \times 800 = 600$.
+
+Q: A can do a job in 24 days. B is twice as fast as A. How long will they take together?
+- 6 days
+* 8 days
+- 12 days
+- 16 days
+W: B takes 12 days. One day: $\dfrac{1}{24} + \dfrac{1}{12} = \dfrac{3}{24} = \dfrac{1}{8}$.
+
+Q: One pipe fills a tank in 6 hours and another fills it in 3 hours. How long will they take together?
+- 1 hour
+* 2 hours
+- 3 hours
+- 4.5 hours
+W: One hour: $\dfrac{1}{6} + \dfrac{1}{3} = \dfrac{1}{2}$.
+
+Q: A does $\dfrac{1}{3}$ of a job in 5 days. How long will A take for the whole job?
+- 10 days
+* 15 days
+- 18 days
+- 20 days
+W: The whole job takes $3 \times 5 = 15$ days.

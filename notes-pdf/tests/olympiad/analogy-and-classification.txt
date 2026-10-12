@@ -1,0 +1,70 @@
+@minutes 12
+Q: Eye : See :: Ear : ?
+- Sound
+- Listen
+* Hear
+- Nose
+W: The eye is used to see. The ear is used to hear.
+
+Q: Calf : Cow :: Kitten : ?
+- Dog
+* Cat
+- Lion
+- Puppy
+W: A calf is the young one of a cow. A kitten is the young one of a cat.
+
+Q: 5 : 25 :: 12 : ?
+- 24
+- 60
+* 144
+- 121
+W: The second number is the square of the first. $12^2 = 144$.
+
+Q: 2 : 9 :: 3 : ?
+- 12
+- 27
+* 28
+- 36
+W: The rule is cube plus 1: $2^3 + 1 = 9$, so $3^3 + 1 = 28$.
+
+Q: Which number is the odd one out? 9, 16, 25, 30, 36
+- 9
+- 16
+* 30
+- 36
+W: 9, 16, 25 and 36 are perfect squares. 30 is not.
+
+Q: Which is the odd one out? Delhi, Mumbai, Paris, Chennai
+- Delhi
+- Mumbai
+* Paris
+- Chennai
+W: Delhi, Mumbai and Chennai are cities in India. Paris is in France.
+
+Q: Which letter pair is the odd one out? BD, CE, DF, EH
+- BD
+- CE
+- DF
+* EH
+W: In BD, CE and DF the second letter is two places after the first. In EH it is three places after.
+
+Q: LAMP : MBNQ :: DESK : ?
+- EFSL
+* EFTL
+- FGTM
+- DFTL
+W: Every letter moves forward by one: D to E, E to F, S to T, K to L.
+
+Q: Page : Book :: Wheel : ?
+- Road
+* Car
+- Petrol
+- Driver
+W: A page is a part of a book. A wheel is a part of a car.
+
+Q: 3 : 27 :: 4 : ?
+- 16
+- 48
+* 64
+- 81
+W: The second number is the cube of the first. $4^3 = 64$.

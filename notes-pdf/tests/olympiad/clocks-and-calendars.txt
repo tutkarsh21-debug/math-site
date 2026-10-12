@@ -1,0 +1,70 @@
+@minutes 12
+Q: What is the angle between the hands of a clock at 3:00?
+- 60 degrees
+* 90 degrees
+- 120 degrees
+- 180 degrees
+W: The hour hand is at 3 and the minute hand is at 12, which are 3 hour marks apart: $3 \times 30 = 90$ degrees.
+
+Q: What is the angle between the hands at 4:30?
+- 30 degrees
+* 45 degrees
+- 60 degrees
+- 75 degrees
+W: $\lvert 30 \times 4 - 5.5 \times 30 \rvert = \lvert 120 - 165 \rvert = 45$.
+
+Q: What is the angle between the hands at 7:20?
+- 80 degrees
+* 100 degrees
+- 110 degrees
+- 130 degrees
+W: $\lvert 210 - 110 \rvert = 100$.
+
+Q: What is the angle between the hands at 12:30?
+- 150 degrees
+* 165 degrees
+- 175 degrees
+- 180 degrees
+W: $\lvert 0 - 165 \rvert = 165$.
+
+Q: How many times do the hands of a clock coincide in 12 hours?
+- 10
+* 11
+- 12
+- 13
+W: In 12 hours the hands coincide 11 times, because the meeting at 12 o'clock is counted once.
+
+Q: At what time between 4 and 5 do the hands of a clock coincide?
+- 4:20
+- 4:22
+* 21 and 9/11 minutes past 4
+- 4:25
+W: The hands coincide $\dfrac{60 \times 4}{11} = 21\dfrac{9}{11}$ minutes past 4.
+
+Q: How many odd days are there in a leap year?
+- 0
+- 1
+* 2
+- 3
+W: $366 = 52 \times 7 + 2$, so there are 2 odd days.
+
+Q: 5 March of a year is a Wednesday. What day is 26 March of the same year?
+- Tuesday
+* Wednesday
+- Thursday
+- Sunday
+W: The gap is 21 days, which is exactly 3 weeks, so the day is the same.
+
+Q: Which of these is a leap year?
+- 1900
+- 2100
+* 2024
+- 2023
+W: 2024 is divisible by 4. 1900 and 2100 are century years not divisible by 400, and 2023 is not divisible by 4.
+
+Q: Today is Friday. What day will it be after 45 days?
+- Sunday
+* Monday
+- Tuesday
+- Wednesday
+W: $45 = 6 \times 7 + 3$. Three days after Friday is Monday.

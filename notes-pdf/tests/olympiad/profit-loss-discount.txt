@@ -1,0 +1,70 @@
+@minutes 15
+Q: An article bought for Rs 120 is sold for Rs 150. Find the profit percent.
+- 20%
+* 25%
+- 30%
+- 35%
+W: Profit $= 30$, and $\dfrac{30}{120} \times 100 = 25$.
+
+Q: An article bought for Rs 500 is sold for Rs 450. Find the loss percent.
+- 5%
+* 10%
+- 12%
+- 15%
+W: Loss $= 50$, and $\dfrac{50}{500} \times 100 = 10$.
+
+Q: A bag marked at Rs 600 is sold at a discount of 25%. Find the selling price.
+- Rs 400
+- Rs 425
+* Rs 450
+- Rs 475
+W: $600 \times 0.75 = 450$.
+
+Q: Find the selling price needed to gain 15% on a cost price of Rs 800.
+- Rs 900
+* Rs 920
+- Rs 940
+- Rs 960
+W: $800 \times 1.15 = 920$.
+
+Q: An article is sold at a 10% gain for Rs 1155. Find its cost price.
+- Rs 1000
+* Rs 1050
+- Rs 1100
+- Rs 1045
+W: $1155 \div 1.1 = 1050$.
+
+Q: An article is sold at a 20% loss for Rs 640. Find its cost price.
+- Rs 750
+* Rs 800
+- Rs 850
+- Rs 768
+W: $640 \div 0.8 = 800$.
+
+Q: Find the single discount equal to successive discounts of 10% and 10%.
+- 20%
+- 18%
+* 19%
+- 21%
+W: $0.9 \times 0.9 = 0.81$, so the single discount is $19\%$.
+
+Q: A shopkeeper marks an article 25% above its cost and then gives a 20% discount. What is the result?
+- 5% profit
+- 5% loss
+* No profit and no loss
+- 10% profit
+W: $1.25 \times 0.8 = 1$, so the selling price equals the cost price.
+
+Q: An article is marked at Rs 750 and sold at a 20% discount. Find the selling price.
+- Rs 550
+- Rs 580
+* Rs 600
+- Rs 650
+W: $750 \times 0.8 = 600$.
+
+Q: The cost price of 10 articles equals the selling price of 8 articles. Find the profit percent.
+- 20%
+* 25%
+- 30%
+- 40%
+W: Let each article cost Rs 1, so the cost of 10 is Rs 10. Eight articles sell for Rs 10, so each sells for $1.25$. Profit is $25\%$.

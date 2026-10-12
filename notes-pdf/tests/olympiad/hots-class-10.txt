@@ -1,0 +1,70 @@
+@minutes 15
+Q: The HCF of two numbers is 9 and their LCM is 360. If one number is 72, the other number is
+- 40
+* 45
+- 54
+- 90
+W: The product of the two numbers $= 9 \times 360 = 3240$, and $\dfrac{3240}{72} = 45$.
+
+Q: The largest number that divides 245 and 1029 leaving remainder 5 in each case is
+- 8
+- 12
+* 16
+- 20
+W: The number is the HCF of $240$ and $1024$, which is 16.
+
+Q: The equation $x^2 + kx + 16 = 0$ has equal roots. The values of $k$ are
+- 4 only
+- $-8$ only
+* $8$ or $-8$
+- 16 or $-16$
+W: $D = k^2 - 64 = 0$, so $k = \pm 8$.
+
+Q: The sum of the squares of two consecutive positive odd numbers is 290. The larger number is
+- 9
+- 11
+* 13
+- 15
+W: The numbers are 11 and 13, because $121 + 169 = 290$.
+
+Q: The sum of the first $n$ terms of an AP is $3n^2 + 5n$. Its 20th term is
+- 118
+- 120
+* 122
+- 125
+W: The $n$th term is $S_n - S_{n-1} = 6n + 2$, so $a_{20} = 122$.
+
+Q: In triangle ABC, DE is parallel to BC, AD = 3 cm and DB = 5 cm. If the area of triangle ADE is 18 square cm, the area of triangle ABC is
+- 48 square cm
+- 96 square cm
+* 128 square cm
+- 144 square cm
+W: Area ratio $= \left(\dfrac{3}{8}\right)^2 = \dfrac{9}{64}$, so the area is $18 \times \dfrac{64}{9} = 128$.
+
+Q: The x-axis divides the line segment joining $(2, -3)$ and $(5, 6)$ in the ratio
+- $2 : 1$
+* $1 : 2$
+- $1 : 3$
+- $3 : 1$
+W: With ratio $k : 1$, the y-coordinate $\dfrac{6k - 3}{k + 1} = 0$ gives $k = \dfrac{1}{2}$.
+
+Q: If $\tan\theta = \dfrac{3}{4}$, then $\sin\theta \cos\theta =$
+- $\dfrac{3}{20}$
+- $\dfrac{7}{25}$
+* $\dfrac{12}{25}$
+- $\dfrac{24}{25}$
+W: $\sin\theta = \dfrac{3}{5}$ and $\cos\theta = \dfrac{4}{5}$, so the product is $\dfrac{12}{25}$.
+
+Q: From the top of a building 60 m high the angles of depression of the top and the bottom of a tower are $30^\circ$ and $60^\circ$. The height of the tower is
+- 20 m
+- 30 m
+* 40 m
+- 50 m
+W: The tower is $20\sqrt{3}$ m away, and the top is $20$ m below the observer. The height is $60 - 20 = 40$ m.
+
+Q: Two dice are thrown together. The probability that the sum is a prime number is
+- $\dfrac{1}{3}$
+- $\dfrac{7}{18}$
+* $\dfrac{5}{12}$
+- $\dfrac{1}{2}$
+W: There are $1 + 2 + 4 + 6 + 2 = 15$ favourable outcomes out of 36, so the probability is $\dfrac{15}{36} = \dfrac{5}{12}$.

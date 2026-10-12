@@ -1,0 +1,79 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 3
+@title Coding and Decoding
+@summary How words and numbers are changed by a fixed rule, how to find the rule, and how to decode a message.
+
+# Letter coding by a fixed step
+- In **coding**, a word is changed into a secret word by a rule. In **decoding** you reverse the rule to read the message.
+- The most common rule moves every letter **forward** or **backward** by the same number of places.
+- Write the positions: A = 1, B = 2, ..., Z = 26. Compare one letter of the word with the matching letter of the code to find the step.
+- If the step is forward ($+k$), decode by going backward ($-k$).
+?eg In a code, MATH is written as NBUI. How is DOG written?
+= M to N, A to B, T to U, H to I: every letter moves forward by 1.
+= D to E, O to P, G to H.
+=> EPH
+?eg In a code, every letter moves forward by 3 places. Decode KHOOR.
+= Move every letter back by 3: K to H, H to E, O to L, O to L, R to O.
+=> HELLO
+
+# Reverse alphabet and position coding
+- **Reverse alphabet**: A becomes Z, B becomes Y, C becomes X, and so on. A letter at position $n$ becomes the letter at position $27 - n$.
+- **Position coding**: each letter is replaced by its position number. A word can be written as a string of digits or as the **sum** of the positions.
+?eg Write DOG in the reverse alphabet.
+= D (4) becomes the letter at position $27 - 4 = 23$, which is W.
+= O (15) becomes position 12, which is L. G (7) becomes position 20, which is T.
+=> WLT
+?eg If a word is coded as the sum of the positions of its letters, find the code for ACE.
+= A = 1, C = 3, E = 5.
+=> 9
+
+# Word codes (substitution)
+- Here whole words are replaced by code words. A word that appears in **two** sentences must have the code word that appears in both.
+- Compare the sentences in pairs. Find the common word and the common code word, then the rest follows.
+?eg In a code, "sky is blue" is "ta ro ki", "blue sea" is "ki pa" and "sea is deep" is "pa ro na". Find the code for "deep".
+= "blue" is in the first two sentences, and "ki" is in the first two codes, so blue = ki.
+= "is" is in the first and third sentences, and "ro" is in both those codes, so is = ro.
+= "sea" is in the second and third sentences, and "pa" is in both those codes, so sea = pa.
+= In the third sentence "sea is deep" = "pa ro na", so deep = na.
+=> na
+!tip Always test your rule on the second and third letters of the word, not only the first. Some codes move different letters by different steps.
+
+@@formulas
+Forward shift | new position = old position $+ k$
+Backward shift | new position = old position $- k$
+Reverse alphabet | position $n$ becomes $27 - n$
+Sum of positions | A = 1, B = 2, ..., Z = 26; add the positions
+Decoding | do the opposite of the coding step
+
+@@dpp
+Q: In a code, HOME is written as IPNF. How is SAFE written in the same code?
+A: TBGF (every letter moves forward by one).
+
+Q: In a code, every letter moves forward by 2 places. How is BELT written?
+A: DGNV (B to D, E to G, L to N, T to V).
+
+Q: Write DOG in the reverse alphabet (A = Z, B = Y, ...).
+A: WLT.
+
+Q: If every letter is replaced by its position number, how is FACE written as one string of digits?
+A: 6135 (F = 6, A = 1, C = 3, E = 5).
+
+Q: Find the sum of the positions of the letters of DAY.
+A: 30 ($4 + 1 + 25$).
+
+Q: In a code, GATE is written as FZSD. How is MILK written?
+A: LHKJ (every letter moves back by one).
+
+Q: In a code, "red apple" is "ka mo", "red rose" is "ka ti" and "sweet apple" is "na mo". How is "sweet rose" written?
+A: na ti (sweet = na, rose = ti).
+
+Q: If the code of CAT is 24 (the sum of its positions), what is the code of DOG?
+A: 26 ($4 + 15 + 7$).
+
+Q: Write ZEBRA in the reverse alphabet.
+A: AVYIZ.
+
+Q: In a code every letter has moved forward by 3 places. Decode KHOOR.
+A: HELLO.

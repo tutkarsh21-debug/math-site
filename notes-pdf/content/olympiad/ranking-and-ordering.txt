@@ -1,0 +1,81 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 6
+@title Ranking and Ordering
+@summary Positions in a row, the total from two ranks, the number of people between two positions, and how to arrange people by height, age or weight.
+
+# Positions in a row
+- A person's **position from the left** and **position from the right** are counted from opposite ends. The person is counted in both.
+- So the two positions add up to **one more** than the total number of people:
+$$\text{total} = (\text{position from left}) + (\text{position from right}) - 1$$
+- The same rule works for rank from the top and rank from the bottom in a class, and for places in a queue.
+- If you know the total and one position, the other position is $\text{total} + 1 - \text{known position}$.
+?eg In a queue, Meera is 8th from the front and 12th from the back. How many people are in the queue?
+= $\text{total} = 8 + 12 - 1$.
+=> 19
+?eg Arun is 12th from the top in a class of 40. What is his position from the bottom?
+= $\text{from the bottom} = 40 + 1 - 12$.
+=> 29th
+
+# People between two positions
+- If two people are at positions $p$ and $q$ counted from the **same** end, the number of people **between** them is $\lvert q - p \rvert - 1$.
+- If the positions come from **opposite** ends, first change one of them to the same end, then use the rule above.
+?eg Rahul is 6th from the left and Sunil is 17th from the left. How many people stand between them?
+= $17 - 6 - 1$.
+=> 10
+?eg In a row of 40, Anu is 10th from the left and Bala is 15th from the right. How many people are between them?
+= Bala's position from the left is $40 + 1 - 15 = 26$.
+= Between them: $26 - 10 - 1$.
+=> 15
+
+# Exchanging places and arranging in order
+- When two people **exchange** places, each one takes the other's position. The number of people between them does not change.
+- To arrange people by height, age or weight, write each statement as an arrow: $A > B$ means "A is taller than B". Join the arrows into one line.
+?eg In a row of 30 boys, P is 9th from the left and Q is 7th from the right. They exchange places. What is P's new position from the left?
+= Q's old position from the left is $30 + 1 - 7 = 24$.
+= P takes that position.
+=> 24th from the left
+?eg A is taller than B. C is taller than A. D is shorter than B. E is taller than C. Arrange them from tallest to shortest.
+= $C > A$, $A > B$, $B > D$, and $E > C$.
+= Joining them: $E > C > A > B > D$.
+=> E, C, A, B, D (E is the tallest and D is the shortest)
+!tip Draw a number line or a row of boxes and write the names in the boxes. Most position mistakes come from counting someone twice.
+
+@@formulas
+Total in a row | (position from left) + (position from right) $- 1$
+Other position | total $+ 1 -$ (known position)
+Between two positions at the same end | $\lvert q - p \rvert - 1$
+Between two positions at opposite ends | convert to the same end first
+Exchange of places | the number of people between them stays the same
+
+@@dpp
+Q: Ravi is 5th from the top and 16th from the bottom in a class. How many students are in the class?
+A: 20 ($5 + 16 - 1$).
+
+Q: Sita is 8th from the left in a row of 25 girls. What is her position from the right?
+A: 18th ($25 + 1 - 8$).
+
+Q: How many people stand between the 4th and the 13th person from the front?
+A: 8 ($13 - 4 - 1$).
+
+Q: Neha is 9th from the top in a class of 35. What is her rank from the bottom?
+A: 27th.
+
+Q: In a row of 25, Aman is 7th from the left and Bina is 12th from the right. How many people are between them?
+A: 6 (Bina is $25 + 1 - 12 = 14$th from the left, and $14 - 7 - 1 = 6$).
+
+Q: P is taller than Q. R is taller than P. S is shorter than Q. Who is the tallest and who is the shortest?
+A: R is the tallest and S is the shortest ($R > P > Q > S$).
+
+Q: Tara is 3rd from the front and 14th from the back in a queue. How many people are in the queue?
+A: 16.
+
+Q: Uma is older than Ravi. Ravi is older than Sam. Tina is younger than Sam. Vik is younger than Tina. Who is in the middle when they are arranged by age?
+A: Sam ($Uma > Ravi > Sam > Tina > Vik$).
+
+Q: In a row of 40, Anu is 10th from the left and Bala is 15th from the right. How many people are between them?
+A: 15.
+
+Q: Mira is 15th from the top and 15th from the bottom. How many students are in the class?
+A: 29.

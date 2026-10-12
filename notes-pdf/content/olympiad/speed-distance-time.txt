@@ -1,0 +1,90 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 15
+@title Speed, Distance and Time
+@summary The speed formula, changing units, average speed, relative speed, trains and boats in streams.
+
+# Speed, distance and time
+- $\text{speed} = \dfrac{\text{distance}}{\text{time}}$, so $\text{distance} = \text{speed} \times \text{time}$ and $\text{time} = \dfrac{\text{distance}}{\text{speed}}$.
+- Keep the units matching: km with hours gives km/h, and metres with seconds gives m/s.
+- To change km/h to m/s, multiply by $\dfrac{5}{18}$. To change m/s to km/h, multiply by $\dfrac{18}{5}$.
+?eg Change 72 km/h to m/s.
+= $72 \times \dfrac{5}{18} = 20$.
+=> 20 m/s
+?eg How long does a car take to cover 150 km at 50 km/h?
+= $\text{time} = \dfrac{150}{50}$.
+=> 3 hours
+
+# Average speed
+- **Average speed** $= \dfrac{\text{total distance}}{\text{total time}}$. It is **not** the average of the two speeds unless the times are equal.
+- If the **same distance** is covered at speeds $x$ and $y$, the average speed is $\dfrac{2xy}{x + y}$.
+?eg A car travels at 60 km/h for 2 hours and at 40 km/h for 3 hours. Find the average speed.
+= Distance $= 120 + 120 = 240$ km. Time $= 5$ hours. Speed $= \dfrac{240}{5}$.
+=> 48 km/h
+?eg A person goes to a place at 40 km/h and returns by the same road at 60 km/h. Find the average speed for the whole journey.
+= The distances are equal, so the average speed is $\dfrac{2 \times 40 \times 60}{40 + 60} = \dfrac{4800}{100}$.
+=> 48 km/h
+
+# Relative speed
+- Two objects moving **towards each other** (or in opposite directions) have relative speed $= $ the **sum** of the speeds.
+- Two objects moving in the **same direction** have relative speed $= $ the **difference** of the speeds.
+- The time to meet or to catch up is $\dfrac{\text{gap}}{\text{relative speed}}$.
+?eg Two cars start 300 km apart and move towards each other at 50 km/h and 70 km/h. When do they meet?
+= Relative speed $= 50 + 70 = 120$ km/h. Time $= \dfrac{300}{120}$.
+=> 2.5 hours
+
+# Trains and boats
+- A train of length $L$ crossing a **pole** or a person must cover its own length $L$. Crossing a **platform** or bridge of length $P$ it must cover $L + P$.
+- A boat with speed $u$ in still water in a stream of speed $v$ goes **downstream** at $u + v$ and **upstream** at $u - v$.
+?eg A train 150 m long runs at 54 km/h. How long does it take to cross a pole, and to cross a platform 350 m long?
+= Speed $= 54 \times \dfrac{5}{18} = 15$ m/s.
+= Pole: $\dfrac{150}{15} = 10$ s. Platform: $\dfrac{150 + 350}{15} = 33\dfrac{1}{3}$ s.
+=> 10 s and $33\dfrac{1}{3}$ s
+?eg A boat has a speed of 10 km/h in still water and the stream flows at 2 km/h. How long does it take to go 24 km downstream?
+= Downstream speed $= 10 + 2 = 12$ km/h. Time $= \dfrac{24}{12}$.
+=> 2 hours
+!tip Change every speed to one unit first, either km/h or m/s, before you divide.
+
+@@formulas
+Speed | $\dfrac{\text{distance}}{\text{time}}$
+km/h to m/s | multiply by $\dfrac{5}{18}$
+m/s to km/h | multiply by $\dfrac{18}{5}$
+Average speed | $\dfrac{\text{total distance}}{\text{total time}}$
+Same distance at speeds $x$ and $y$ | $\dfrac{2xy}{x + y}$
+Opposite directions | relative speed $= x + y$
+Same direction | relative speed $= x - y$
+Train crossing a pole | distance $= L$
+Train crossing a platform | distance $= L + P$
+Downstream and upstream | $u + v$ and $u - v$
+
+@@dpp
+Q: Change 72 km/h to m/s.
+A: 20 m/s.
+
+Q: Change 15 m/s to km/h.
+A: 54 km/h.
+
+Q: How long does a car take to cover 150 km at 50 km/h?
+A: 3 hours.
+
+Q: A car goes at 60 km/h for 2 hours and 40 km/h for 3 hours. Find the average speed.
+A: 48 km/h.
+
+Q: A person goes at 40 km/h and returns by the same road at 60 km/h. Find the average speed.
+A: 48 km/h.
+
+Q: A train 150 m long runs at 54 km/h. How long does it take to cross a pole?
+A: 10 seconds.
+
+Q: The same train crosses a platform 350 m long. How long does it take?
+A: $33\dfrac{1}{3}$ seconds.
+
+Q: Two cars start 300 km apart and move towards each other at 50 km/h and 70 km/h. When do they meet?
+A: After 2.5 hours.
+
+Q: A boat goes 10 km/h in still water and the stream flows at 2 km/h. How long does it take to go 24 km downstream?
+A: 2 hours.
+
+Q: A walks at 5 km/h. B starts 1 hour later from the same place at 8 km/h in the same direction. How long after B starts does B catch up with A?
+A: $1\dfrac{2}{3}$ hours, which is 1 hour 40 minutes.

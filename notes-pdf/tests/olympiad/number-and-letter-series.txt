@@ -1,0 +1,70 @@
+@minutes 12
+Q: What comes next? 6, 11, 16, 21, ?
+- 24
+* 26
+- 27
+- 31
+W: The difference is 5 each time, so the next term is $21 + 5 = 26$.
+
+Q: What comes next? 3, 12, 48, 192, ?
+- 384
+- 576
+* 768
+- 960
+W: Each term is 4 times the one before. $192 \times 4 = 768$.
+
+Q: What comes next? 2, 5, 10, 17, 26, 37, ?
+- 48
+* 50
+- 52
+- 63
+W: The terms are $n^2 + 1$. The next is $7^2 + 1 = 50$.
+
+Q: Find the missing term: 5, 6, 8, 11, 15, ?, 26
+- 18
+- 19
+* 20
+- 21
+W: The differences are 1, 2, 3, 4, 5 and then 6. So the missing term is $15 + 5 = 20$, and $20 + 6 = 26$ confirms it.
+
+Q: Find the next term: 4, 6, 9, 13, 18, ?
+- 22
+* 24
+- 25
+- 27
+W: The differences are 2, 3, 4, 5, so the next difference is 6 and the term is $18 + 6 = 24$.
+
+Q: Find the next term: 1, 8, 27, 64, ?
+- 100
+- 121
+- 128
+* 125
+W: These are the cubes of 1, 2, 3, 4. The next is $5^3 = 125$.
+
+Q: Find the next term: 7, 14, 12, 24, 22, 44, ?
+- 46
+- 88
+* 42
+- 66
+W: The rule alternates: multiply by 2, then subtract 2. So $44 - 2 = 42$.
+
+Q: Find the next term: C, F, I, L, ?
+- M
+- N
+* O
+- P
+W: The positions are 3, 6, 9, 12, so the next is 15, which is O.
+
+Q: Find the next term: AB, DE, GH, JK, ?
+- LM
+* MN
+- NO
+- MO
+W: Each pair moves forward by 3 letters: JK becomes MN.
+
+Q: One number in this series is wrong: 2, 4, 8, 16, 30, 64. Which one should be replaced?
+- 16
+* 30
+- 8
+- 64
+W: Each term is double the one before. The term after 16 should be 32, so 30 is wrong.

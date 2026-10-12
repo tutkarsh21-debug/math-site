@@ -1,0 +1,93 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 8
+@title Venn Diagrams
+@summary How circles show the relation between groups, how to pick the right diagram, and how to count with two and three groups.
+
+# Circles show groups
+- In a **Venn diagram** each group is drawn as a circle. A thing **inside** the circle belongs to the group.
+- Two circles that **overlap** have some members in common. Two circles that are **apart** have no member in common.
+- A circle **inside** another circle means every member of the small group is also in the big group.
+| What the words say | The circles |
+| All A are B | circle A inside circle B |
+| Some A are B | circles A and B overlap |
+| No A is B | circles A and B are separate |
+| A and B are both kinds of C | A and B separate, both inside C |
+- The same thing can belong to more than one group, so look at the real world: some doctors are women, but not all.
+!fig w=300 h=200; Q o 150 100; Q p 150 122; Q q 150 142; C o 90; C p 62; C q 36; T 150 26 Animals; T 150 80 Mammals; T 150 148 Dogs; cap Dogs are mammals, and mammals are animals
+?eg Which diagram shows Pen, Pencil and Stationery?
+= A pen is stationery, and a pencil is stationery. A pen is not a pencil.
+= So there is one big circle for Stationery, with two separate small circles inside it.
+=> Two separate circles inside a larger circle
+?eg Which diagram shows Rose, Flower and Plant?
+= Every rose is a flower, and every flower is a plant.
+=> Three circles, each inside the next
+
+# Counting with two groups
+- For two groups $A$ and $B$, the number in at least one of them is $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.
+- The overlap $A \cap B$ is counted twice when you add $n(A)$ and $n(B)$, so it is subtracted once.
+- The number that belong to $A$ only is $n(A) - n(A \cap B)$.
+- Begin by filling the **overlap**, then the other regions, then the outside.
+?eg In a class of 40, 25 like tea, 20 like coffee and 5 like neither. How many like both?
+= The number who like at least one is $40 - 5 = 35$.
+= $35 = 25 + 20 - n(\text{both})$, so $n(\text{both}) = 45 - 35$.
+=> 10
+?eg Of 100 people, 60 read paper A, 50 read paper B and 20 read both. How many read exactly one paper?
+= Only A: $60 - 20 = 40$. Only B: $50 - 20 = 30$.
+=> 70
+
+# Counting with three groups
+- Three circles overlap in a pattern that gives seven regions. Start from the centre (all three) and work outwards.
+!fig w=300 h=210; Q a 115 100; Q b 185 100; Q c 150 150; C a 62; C b 62; C c 62; T 90 78 A; T 210 78 B; T 150 190 C; cap Three overlapping groups: seven regions
+?eg In a survey of 100 students, 40 like maths and 35 like science. 10 like both and 35 like neither. Check that these numbers fit, and find how many like only maths.
+= At least one: $40 + 35 - 10 = 65$, and $100 - 35 = 65$, so the numbers fit.
+= Only maths: $40 - 10$.
+=> 30
+
+# Statements and circles
+- Draw the circles for the statements only. A conclusion is true only if it is true in **every** possible drawing.
+?eg All A are B. All B are C. Does it follow that all A are C?
+= The circle for A is inside the circle for B, and B is inside C, so A is inside C.
+=> Yes
+?eg All roses are flowers. Some flowers are red. Does it follow that some roses are red?
+= The red flowers may all be other flowers, so the roses may not touch the red part.
+=> No, it does not follow
+!tip Draw the least overlap that the statements allow. A conclusion that is not true in that drawing does not follow.
+
+@@formulas
+At least one of two groups | $n(A \cup B) = n(A) + n(B) - n(A \cap B)$
+Only $A$ | $n(A) - n(A \cap B)$
+Exactly one of two groups | $n(A) + n(B) - 2\,n(A \cap B)$
+Neither | total $- n(A \cup B)$
+
+@@dpp
+Q: Which diagram shows Rose, Flower and Plant?
+A: Three circles, each inside the next (every rose is a flower, every flower is a plant).
+
+Q: Which diagram shows Pen, Pencil and Stationery?
+A: Two separate small circles inside a larger circle.
+
+Q: In a class of 50, 30 play cricket and 25 play football. 10 play both. How many play neither?
+A: 5 ($30 + 25 - 10 = 45$ play at least one, and $50 - 45 = 5$).
+
+Q: Of 60 students, 35 like maths, 28 like science and 13 like both. How many like only maths?
+A: 22.
+
+Q: $n(A) = 45$, $n(B) = 30$ and $n(A \cap B) = 12$. Find $n(A \cup B)$.
+A: 63.
+
+Q: Of 70 people who drink tea or coffee (everyone drinks at least one), 40 drink tea and 45 drink coffee. How many drink both?
+A: 15 ($40 + 45 - 70$).
+
+Q: All squares are rectangles. All rectangles are quadrilaterals. How are the three circles drawn?
+A: The circle of squares is inside the circle of rectangles, which is inside the circle of quadrilaterals.
+
+Q: All A are B. All B are C. Does it follow that all A are C?
+A: Yes.
+
+Q: In a Venn diagram of two circles, the left-only region has 14 members, the overlap has 6, the right-only region has 9, and 3 members are outside both circles. How many members are there in all?
+A: 32.
+
+Q: Of 100 people, 60 read paper A, 50 read paper B and 20 read both. How many read exactly one paper?
+A: 70.

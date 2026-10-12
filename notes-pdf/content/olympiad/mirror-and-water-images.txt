@@ -1,0 +1,79 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 7
+@title Mirror and Water Images
+@summary What a mirror image and a water image are, which letters and words stay the same, and how to find the mirror image of a clock time.
+
+# Mirror image and water image
+- A **mirror image** is what you see when a mirror is placed **beside** an object, on its left or right side. It turns the object **left to right**: the left side becomes the right side.
+- A **water image** is what you see in water **below** an object, or when the mirror lies **under** it. It turns the object **upside down**: the top becomes the bottom, and the left stays on the left.
+- In a mirror at the **right** side of a word, the **order of the letters is reversed** and each letter is turned around. The last letter of the word is nearest to the mirror, so it appears at the **left** of the image.
+?eg A mirror is placed on the right of the word STAR. Which letter appears at the extreme left of the image?
+= The letter nearest to the mirror is R, the last letter of STAR. It appears first in the image.
+=> R
+- A person raising the right hand sees the image raising the **left** hand.
+
+# Letters and words that do not change
+- A letter looks the **same** in a mirror (placed at the side) if it is symmetrical about a **vertical** line: **A, H, I, M, O, T, U, V, W, X, Y**.
+- A letter looks the **same** in a water image if it is symmetrical about a **horizontal** line: **B, C, D, E, H, I, K, O, X**.
+- A word looks the same in a mirror if all its letters are in the vertical list **and** the word reads the same forwards and backwards. Examples: MOM, WOW, TOT, MUM, AHA, OTTO.
+- A word looks the same in a water image if all its letters are in the horizontal list. Examples: BOX, DICE, ECHO, CHECK, HIDE, BIKE.
+?eg Which of these words looks the same in a water image: DICE, MAN, TAP, WIN?
+= D, I, C and E are all symmetrical about a horizontal line. M, A, N, T, P, W are not all so.
+=> DICE
+?eg Which of these letters looks the same in a mirror: B, D, M, R?
+= Only M is symmetrical about a vertical line.
+=> M
+
+# Mirror image of a clock
+- In the mirror image of a clock, the hour hand and the minute hand both swap sides. The reading is found by subtracting the time from 12:00.
+$$\text{mirror image} = 12{:}00 - \text{time}$$
+- On a clock face 12:20 is the same position as 0:20, so a time between 12:00 and 1:00 is treated as 0 hours and some minutes.
+- You can also subtract the hours from 11 and the minutes from 60: the mirror image of 3:40 is $11 - 3 = 8$ hours and $60 - 40 = 20$ minutes.
+?eg Find the mirror image of the time 3:40.
+= $12{:}00 - 3{:}40 = 8{:}20$.
+=> 8:20
+?eg Find the mirror image of the time 12:20.
+= Treat 12:20 as 0:20 on the dial.
+= $12{:}00 - 0{:}20 = 11{:}40$.
+=> 11:40
+!tip A mirror image of 3:00 is 9:00, and of 6:00 is 6:00. If your answer to a clock question is far from these, check your subtraction.
+
+@@formulas
+Mirror at the side | left and right swap, and the order of letters reverses
+Water image | top and bottom swap, and the order of letters stays
+Letters same in a mirror | A, H, I, M, O, T, U, V, W, X, Y
+Letters same in a water image | B, C, D, E, H, I, K, O, X
+Mirror image of a clock | $12{:}00 -$ the time
+
+@@dpp
+Q: Find the mirror image of the time 3:40.
+A: 8:20 ($12{:}00 - 3{:}40$).
+
+Q: Find the mirror image of the time 7:15.
+A: 4:45.
+
+Q: Find the mirror image of the time 10:50.
+A: 1:10.
+
+Q: A clock shows 6:30. What time does its mirror image show?
+A: 5:30.
+
+Q: Which of these letters looks the same in a mirror: B, D, M, R?
+A: M.
+
+Q: Which of these letters looks the same in a water image: A, B, M, T?
+A: B.
+
+Q: Which of these words looks the same in a mirror: MOM, DAD, BOB, CAT?
+A: MOM (all its letters are symmetrical about a vertical line and the word is the same backwards).
+
+Q: A mirror is placed on the right of the word MATH. In what order are the letters seen in the image, from the left?
+A: H, T, A, M.
+
+Q: Which of these words looks the same in a water image: DICE, MOM, TOP, WAY?
+A: DICE.
+
+Q: Which of these numbers looks the same in a mirror: 808, 828, 345, 267?
+A: 808 (the digits 8 and 0 are symmetrical, and the number is the same backwards).

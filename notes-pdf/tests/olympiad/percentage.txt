@@ -1,0 +1,70 @@
+@minutes 15
+Q: Find 30% of 250.
+- 65
+* 75
+- 80
+- 85
+W: $\dfrac{30}{100} \times 250 = 75$.
+
+Q: Express $\dfrac{3}{8}$ as a percentage.
+- 33.3%
+- 35%
+* 37.5%
+- 38.5%
+W: $\dfrac{3}{8} \times 100 = 37.5$.
+
+Q: 40 is what percentage of 160?
+- 20%
+* 25%
+- 30%
+- 40%
+W: $\dfrac{40}{160} \times 100 = 25$.
+
+Q: A quantity increases from 50 to 65. Find the percentage increase.
+- 15%
+- 25%
+* 30%
+- 35%
+W: Change $= 15$, and $\dfrac{15}{50} \times 100 = 30$.
+
+Q: After a 20% decrease the price of a bag is Rs 400. What was the original price?
+- Rs 420
+- Rs 450
+- Rs 480
+* Rs 500
+W: The price is $0.8$ of the original, so the original is $400 \div 0.8 = 500$.
+
+Q: A price is increased by 25% and then decreased by 20%. What is the net change?
+- 5% increase
+- 5% decrease
+* No change
+- 2% increase
+W: $1.25 \times 0.8 = 1$, so the price is the same.
+
+Q: Find 12.5% of 640.
+- 64
+* 80
+- 90
+- 100
+W: $12.5\% = \dfrac{1}{8}$ and $640 \div 8 = 80$.
+
+Q: A class has 40 students and 55% of them are girls. How many boys are there?
+- 16
+* 18
+- 20
+- 22
+W: Boys are $45\%$ of 40, which is $18$.
+
+Q: 15% of a number is 45. Find the number.
+- 250
+* 300
+- 350
+- 400
+W: Number $= 45 \div 0.15 = 300$.
+
+Q: A price of Rs 200 rises by 10% and then rises by 10% again. What is the final price?
+- Rs 240
+* Rs 242
+- Rs 244
+- Rs 220
+W: $200 \times 1.1 \times 1.1 = 242$.

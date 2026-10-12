@@ -1,0 +1,70 @@
+@minutes 15
+Q: Find the simple interest on Rs 6000 at 5% per year for 4 years.
+- Rs 1000
+* Rs 1200
+- Rs 1500
+- Rs 1800
+W: $\dfrac{6000 \times 5 \times 4}{100} = 1200$.
+
+Q: Find the simple interest on Rs 2000 at 10% per year for $1\dfrac{1}{2}$ years.
+- Rs 200
+- Rs 250
+* Rs 300
+- Rs 350
+W: $\dfrac{2000 \times 10 \times 1.5}{100} = 300$.
+
+Q: Rs 2000 earns a simple interest of Rs 600 in 3 years. Find the rate per year.
+- 5%
+- 8%
+* 10%
+- 12%
+W: $R = \dfrac{600 \times 100}{2000 \times 3} = 10$.
+
+Q: Rs 1000 becomes Rs 1300 at 10% simple interest per year. Find the time.
+- 2 years
+* 3 years
+- 4 years
+- 5 years
+W: Interest $= 300 = \dfrac{1000 \times 10 \times T}{100}$, so $T = 3$.
+
+Q: A sum earns Rs 450 simple interest in 3 years at 5% per year. Find the sum.
+- Rs 2500
+* Rs 3000
+- Rs 3500
+- Rs 4000
+W: $450 = \dfrac{P \times 5 \times 3}{100}$, so $P = 3000$.
+
+Q: Find the compound interest on Rs 5000 at 20% per year for 2 years.
+- Rs 2000
+* Rs 2200
+- Rs 2400
+- Rs 2500
+W: $A = 5000 \times 1.2 \times 1.2 = 7200$, and $\text{CI} = 7200 - 5000 = 2200$.
+
+Q: Find the amount of Rs 4000 at 10% compound interest per year for 2 years.
+- Rs 4800
+* Rs 4840
+- Rs 4400
+- Rs 4880
+W: $4000 \times 1.1 \times 1.1 = 4840$.
+
+Q: Find the difference between CI and SI on Rs 10 000 at 5% per year for 2 years.
+- Rs 20
+* Rs 25
+- Rs 30
+- Rs 50
+W: $10\,000 \times \left(\dfrac{5}{100}\right)^2 = 10\,000 \times 0.0025 = 25$.
+
+Q: The population of a town is 20 000 and it grows by 5% every year. What is it after 2 years?
+- 22 000
+* 22 050
+- 22 100
+- 22 500
+W: $20\,000 \times 1.05 \times 1.05 = 22\,050$.
+
+Q: For the first year, compound interest on a sum compared with simple interest at the same rate is
+- greater
+- smaller
+* equal
+- double
+W: In the first year interest is worked out on the same principal, so both are equal.

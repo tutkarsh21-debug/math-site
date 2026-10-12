@@ -1,0 +1,70 @@
+@minutes 15
+Q: Change 36 km/h to m/s.
+- 5 m/s
+* 10 m/s
+- 12 m/s
+- 18 m/s
+W: $36 \times \dfrac{5}{18} = 10$.
+
+Q: Change 25 m/s to km/h.
+- 70 km/h
+- 80 km/h
+* 90 km/h
+- 100 km/h
+W: $25 \times \dfrac{18}{5} = 90$.
+
+Q: A car moves at 45 km/h for 4 hours. How far does it go?
+- 160 km
+* 180 km
+- 200 km
+- 225 km
+W: Distance $= 45 \times 4 = 180$ km.
+
+Q: A person walks 30 km at 10 km/h and then 30 km at 15 km/h. Find the average speed for the whole journey.
+- 12.5 km/h
+* 12 km/h
+- 13 km/h
+- 11.5 km/h
+W: Total distance $= 60$ km, total time $= 3 + 2 = 5$ hours, and $\dfrac{60}{5} = 12$.
+
+Q: A train 200 m long runs at 72 km/h. How long does it take to pass a pole?
+- 5 s
+* 10 s
+- 12 s
+- 14.4 s
+W: Speed $= 20$ m/s and time $= \dfrac{200}{20} = 10$ s.
+
+Q: A train 100 m long runs at 20 m/s. How long does it take to cross a bridge 400 m long?
+- 20 s
+* 25 s
+- 30 s
+- 5 s
+W: Distance $= 100 + 400 = 500$ m, and $\dfrac{500}{20} = 25$ s.
+
+Q: Two people start 120 km apart and walk towards each other at 30 km/h and 50 km/h. After how long do they meet?
+- 1 hour
+* 1.5 hours
+- 2 hours
+- 2.5 hours
+W: Relative speed $= 80$ km/h, and $\dfrac{120}{80} = 1.5$ hours.
+
+Q: Two cyclists are 20 km apart, going in the same direction at 12 km/h and 8 km/h, the faster one behind. After how long does the faster one catch up?
+- 2 hours
+- 4 hours
+* 5 hours
+- 10 hours
+W: Relative speed $= 12 - 8 = 4$ km/h, and $\dfrac{20}{4} = 5$ hours.
+
+Q: A boat moves at 15 km/h in still water and the stream flows at 3 km/h. What is its speed upstream?
+- 18 km/h
+* 12 km/h
+- 15 km/h
+- 10 km/h
+W: Upstream speed $= 15 - 3 = 12$ km/h.
+
+Q: An athlete runs 400 m in 80 seconds. What is the speed in m/s?
+- 4 m/s
+* 5 m/s
+- 6 m/s
+- 8 m/s
+W: $\dfrac{400}{80} = 5$ m/s.

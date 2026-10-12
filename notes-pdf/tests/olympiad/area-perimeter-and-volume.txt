@@ -1,0 +1,70 @@
+@minutes 15
+Q: Find the area of a rectangle 12 m long and 7 m wide.
+- 38 square metres
+* 84 square metres
+- 76 square metres
+- 96 square metres
+W: Area $= 12 \times 7 = 84$.
+
+Q: Find the perimeter of a square of side 9 m.
+- 18 m
+- 27 m
+* 36 m
+- 81 m
+W: Perimeter $= 4 \times 9 = 36$ m.
+
+Q: Find the area of a triangle with base 10 cm and height 6 cm.
+- 16 square cm
+* 30 square cm
+- 60 square cm
+- 36 square cm
+W: Area $= \dfrac{1}{2} \times 10 \times 6 = 30$.
+
+Q: Find the circumference of a circle of radius 7 cm (take $\pi = \dfrac{22}{7}$).
+- 22 cm
+* 44 cm
+- 154 cm
+- 88 cm
+W: $2 \times \dfrac{22}{7} \times 7 = 44$.
+
+Q: A field is 30 m by 20 m. Find the cost of fencing it at Rs 15 per metre.
+- Rs 750
+- Rs 1200
+* Rs 1500
+- Rs 9000
+W: Perimeter $= 2(30 + 20) = 100$ m, and $100 \times 15 = 1500$.
+
+Q: A floor 3.6 m by 2.4 m is covered with square tiles of side 30 cm. How many tiles are needed?
+- 64
+- 80
+* 96
+- 120
+W: Floor $= 3.6 \times 2.4 = 8.64$ square metres and a tile is $0.09$ square metres. $\dfrac{8.64}{0.09} = 96$.
+
+Q: Find the volume of a cuboid 5 cm by 4 cm by 3 cm.
+- 12 cubic cm
+- 47 cubic cm
+* 60 cubic cm
+- 94 cubic cm
+W: Volume $= 5 \times 4 \times 3 = 60$.
+
+Q: A tank holds 4000 litres. What is its volume in cubic metres?
+- 0.4
+- 40
+* 4
+- 400
+W: $1\ \text{m}^3 = 1000$ litres, so 4000 litres is 4 cubic metres.
+
+Q: A path 1 m wide runs around the outside of a garden 12 m by 8 m. Find the area of the path.
+- 40 square metres
+* 44 square metres
+- 48 square metres
+- 52 square metres
+W: Outer rectangle $= 14 \times 10 = 140$ and the garden is $96$, so the path is $44$.
+
+Q: Find the total surface area of a cube of side 5 cm.
+- 100 square cm
+- 125 square cm
+* 150 square cm
+- 200 square cm
+W: Surface area $= 6 \times 5^2 = 150$.

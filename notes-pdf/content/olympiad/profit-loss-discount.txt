@@ -1,0 +1,90 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 11
+@title Profit, Loss and Discount
+@summary Cost price, selling price, profit and loss percentages, marked price and discount, with the shortcuts for successive discounts.
+
+# Cost price, selling price and profit
+- **Cost price (CP)** is what the seller pays. **Selling price (SP)** is what the buyer pays.
+- If $\text{SP} > \text{CP}$ there is a **profit**: $\text{profit} = \text{SP} - \text{CP}$.
+- If $\text{SP} < \text{CP}$ there is a **loss**: $\text{loss} = \text{CP} - \text{SP}$.
+- **Profit percent and loss percent are always calculated on the cost price.**
+$$\text{profit}\% = \dfrac{\text{profit}}{\text{CP}} \times 100 \qquad \text{loss}\% = \dfrac{\text{loss}}{\text{CP}} \times 100$$
+- To find SP from CP: $\text{SP} = \text{CP} \times \left(1 + \dfrac{\text{profit}\%}{100}\right)$ for a profit, or $\text{CP} \times \left(1 - \dfrac{\text{loss}\%}{100}\right)$ for a loss.
+?eg A shopkeeper buys a watch for Rs 250 and sells it for Rs 300. Find the profit percent.
+= Profit $= 300 - 250 = 50$. Profit percent $= \dfrac{50}{250} \times 100$.
+=> 20%
+?eg A bicycle bought for Rs 400 is sold for Rs 340. Find the loss percent.
+= Loss $= 400 - 340 = 60$. Loss percent $= \dfrac{60}{400} \times 100$.
+=> 15%
+?eg Find the selling price needed to gain 20% on an article that costs Rs 450.
+= $\text{SP} = 450 \times 1.2$.
+=> Rs 540
+
+# Finding the cost price from the selling price
+- If you know the SP and the profit or loss percent, divide: $\text{CP} = \dfrac{\text{SP}}{1 \pm \text{percent}/100}$.
+?eg An article is sold at a 10% profit for Rs 1320. Find its cost price.
+= $\text{CP} = \dfrac{1320}{1.1}$.
+=> Rs 1200
+?eg An article is sold at a 20% loss for Rs 720. Find its cost price.
+= $\text{CP} = \dfrac{720}{0.8}$.
+=> Rs 900
+
+# Marked price and discount
+- The **marked price (MP)** is the price written on the article. A **discount** is a reduction in the marked price.
+- $\text{discount} = \text{MP} - \text{SP}$, and $\text{discount}\% = \dfrac{\text{discount}}{\text{MP}} \times 100$. **Discount is calculated on the marked price.**
+- Two discounts of $a\%$ and $b\%$ given one after the other are equal to **one** discount of $\left(a + b - \dfrac{ab}{100}\right)\%$.
+?eg A table marked at Rs 800 is sold at a discount of 15%. Find the selling price.
+= Discount $= 0.15 \times 800 = 120$.
+=> Rs 680
+?eg Find the single discount equal to two successive discounts of 20% and 10%.
+= Factors: $0.8 \times 0.9 = 0.72$. So the buyer pays $72\%$ of the marked price.
+=> 28%
+?eg An article costs Rs 500. The shopkeeper marks it 40% above the cost and gives a 10% discount. Find the profit percent.
+= $\text{MP} = 500 \times 1.4 = 700$. $\text{SP} = 700 \times 0.9 = 630$.
+= Profit $= 130$, and $\dfrac{130}{500} \times 100 = 26$.
+=> 26%
+!tip Profit and loss use the cost price as the base. Discount uses the marked price as the base. Mixing them up is the most common mistake.
+
+@@formulas
+Profit | $\text{SP} - \text{CP}$
+Loss | $\text{CP} - \text{SP}$
+Profit percent | $\dfrac{\text{profit}}{\text{CP}} \times 100$
+Loss percent | $\dfrac{\text{loss}}{\text{CP}} \times 100$
+SP when there is a profit of $p\%$ | $\text{CP} \left(1 + \dfrac{p}{100}\right)$
+SP when there is a loss of $p\%$ | $\text{CP} \left(1 - \dfrac{p}{100}\right)$
+Discount | $\text{MP} - \text{SP}$
+Discount percent | $\dfrac{\text{discount}}{\text{MP}} \times 100$
+Two discounts $a\%$ and $b\%$ | $a + b - \dfrac{ab}{100}$
+
+@@dpp
+Q: An article bought for Rs 250 is sold for Rs 300. Find the profit percent.
+A: 20%.
+
+Q: An article bought for Rs 400 is sold for Rs 340. Find the loss percent.
+A: 15%.
+
+Q: A shirt marked at Rs 800 is sold at a discount of 15%. Find the selling price.
+A: Rs 680.
+
+Q: Find the selling price to gain 20% on a cost price of Rs 450.
+A: Rs 540.
+
+Q: Find the single discount equal to successive discounts of 20% and 10%.
+A: 28%.
+
+Q: An article sold at a 10% profit for Rs 1320. Find the cost price.
+A: Rs 1200.
+
+Q: An article sold at a 20% loss for Rs 720. Find the cost price.
+A: Rs 900.
+
+Q: A shopkeeper buys pens at 12 for Rs 60 and sells them at Rs 6 each. Find the profit percent.
+A: 20% (each costs Rs 5 and sells for Rs 6).
+
+Q: An article marked at Rs 500 is sold for Rs 400. Find the discount percent.
+A: 20%.
+
+Q: An article costs Rs 500. It is marked 40% above its cost and sold at a 10% discount. Find the profit percent.
+A: 26%.

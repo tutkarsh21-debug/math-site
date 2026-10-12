@@ -1,0 +1,70 @@
+@minutes 15
+Q: The number of pencils sold in 5 weeks was 12, 18, 15, 21 and 9. Find the total number sold.
+- 65
+- 70
+* 75
+- 80
+W: $12 + 18 + 15 + 21 + 9 = 75$.
+
+Q: For the data 12, 18, 15, 21 and 9, find the average number sold per week.
+- 12
+- 14
+* 15
+- 16
+W: $\dfrac{75}{5} = 15$.
+
+Q: For the data 12, 18, 15, 21 and 9 (weeks 1 to 5), in which week were the most pencils sold?
+- Week 2
+- Week 3
+* Week 4
+- Week 5
+W: The largest value, 21, is in week 4.
+
+Q: For the same data, find the percentage increase from week 1 to week 2.
+- 33%
+* 50%
+- 60%
+- 75%
+W: Change $= 6$, and $\dfrac{6}{12} \times 100 = 50$.
+
+Q: What angle of a pie chart stands for 20% of the data?
+- $36^\circ$
+- $60^\circ$
+* $72^\circ$
+- $90^\circ$
+W: $20\% \times 360^\circ = 72^\circ$.
+
+Q: What angle of a pie chart stands for 15% of the data?
+- $45^\circ$
+* $54^\circ$
+- $60^\circ$
+- $72^\circ$
+W: $1\% = 3.6^\circ$, so $15\% = 54^\circ$.
+
+Q: In a pie chart of total expenses of Rs 50 000, one sector has an angle of $144^\circ$. How much is this sector worth?
+- Rs 15 000
+* Rs 20 000
+- Rs 25 000
+- Rs 30 000
+W: $\dfrac{144}{360} \times 50\,000 = 20\,000$.
+
+Q: In a bar graph, the bar for A is 20 units high and the bar for B is 30 units high. What is the ratio $A : B$?
+- $3 : 2$
+* $2 : 3$
+- $1 : 2$
+- $4 : 5$
+W: $20 : 30 = 2 : 3$.
+
+Q: For the data 12, 18, 15, 21 and 9, what is the difference between the sales in week 2 and in week 4?
+- 2
+* 3
+- 6
+- 9
+W: $21 - 18 = 3$.
+
+Q: Which kind of graph is best for showing how a plant's height changes over several weeks?
+- Pie chart
+- Bar graph with one bar
+* Line graph
+- Table with one row
+W: A line graph joins the points and shows how a value changes over time.

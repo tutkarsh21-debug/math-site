@@ -1,0 +1,116 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 19
+@title HOTS Questions for Class 8
+@summary Higher order thinking questions for Class 8 on numbers, algebra, money, geometry, mensuration and data, each with a full solution.
+
+# How to use these questions
+- A HOTS question joins two ideas or hides its first step. Read it twice and ask: "What is really being asked?"
+- Try each question for five minutes before reading the solution. Then compare your method, not only your answer.
+- If you get stuck, write what is **given**, what is **needed**, and one fact that connects them.
+
+# Numbers and patterns
+?eg Find the smallest number by which 1620 must be multiplied so that the product is a perfect square. Find the square root of the product.
+= Prime factorisation: $1620 = 2^2 \times 3^4 \times 5$.
+= In a perfect square every prime has an even power. Only the 5 has an odd power, so multiply by 5.
+= The product is $8100 = 2^2 \times 3^4 \times 5^2$, and its square root is $2 \times 9 \times 5 = 90$.
+=> Multiply by 5; the square root is 90
+?eg Find the smallest number by which 392 must be divided so that the quotient is a perfect cube.
+= $392 = 2^3 \times 7^2$.
+= In a perfect cube every power must be a multiple of 3. The power of 7 is 2, so remove $7^2 = 49$.
+= The quotient is $2^3 = 8$, which is a cube.
+=> 49
+?eg The sum of the digits of a two-digit number is 9. If 27 is added to the number, the digits are reversed. Find the number.
+= Let the tens digit be $a$ and the units digit $b$. Then $a + b = 9$.
+= $10a + b + 27 = 10b + a$, so $9a - 9b = -27$ and $a - b = -3$.
+= Adding $a + b = 9$ and $a - b = -3$ gives $2a = 6$, so $a = 3$ and $b = 6$.
+= Check: $36 + 27 = 63$, which is 36 reversed.
+=> 36
+
+# Algebra
+?eg The denominator of a fraction is 4 more than its numerator. When 3 is added to both, the fraction becomes $\dfrac{3}{4}$. Find the fraction.
+= Let the numerator be $n$. The fraction is $\dfrac{n}{n + 4}$.
+= $\dfrac{n + 3}{n + 7} = \dfrac{3}{4}$, so $4n + 12 = 3n + 21$ and $n = 9$.
+= The fraction is $\dfrac{9}{13}$. Check: $\dfrac{12}{16} = \dfrac{3}{4}$.
+=> $\dfrac{9}{13}$
+?eg Factorise $x^4 - 81$ completely.
+= $x^4 - 81 = (x^2)^2 - 9^2 = (x^2 - 9)(x^2 + 9)$.
+= Also $x^2 - 9 = (x - 3)(x + 3)$. The factor $x^2 + 9$ cannot be broken further.
+=> $(x - 3)(x + 3)(x^2 + 9)$
+?eg If $a + \dfrac{1}{a} = 5$, find $a^2 + \dfrac{1}{a^2}$.
+= Square both sides: $a^2 + 2 + \dfrac{1}{a^2} = 25$.
+= So $a^2 + \dfrac{1}{a^2} = 25 - 2$.
+=> 23
+
+# Money and percentage
+?eg A shopkeeper sells two articles for Rs 1200 each. On one he gains 20% and on the other he loses 20%. Find the overall gain or loss.
+= The article sold at a gain has cost price $\dfrac{1200}{1.2} = 1000$.
+= The article sold at a loss has cost price $\dfrac{1200}{0.8} = 1500$.
+= Total cost $= 2500$ and total selling price $= 2400$, so there is a loss of Rs 100.
+= Loss percent $= \dfrac{100}{2500} \times 100 = 4$.
+=> A loss of Rs 100, which is 4%
+?eg A number is increased by 20% and then the result is decreased by 20%. The final value is 960. Find the original number.
+= Factor $= 1.2 \times 0.8 = 0.96$.
+= $0.96 \times \text{original} = 960$, so the original is $\dfrac{960}{0.96}$.
+=> 1000
+?eg The population of a town is 50 000. It grows by 10% in the first year and by 20% in the second year. Find the population after two years.
+= $50\,000 \times 1.1 \times 1.2 = 66\,000$.
+=> 66 000
+
+# Geometry and mensuration
+?eg Each interior angle of a regular polygon is $140^\circ$. Find the number of sides.
+= The exterior angle is $180^\circ - 140^\circ = 40^\circ$.
+= The exterior angles of any polygon add up to $360^\circ$, so the number of sides is $\dfrac{360}{40}$.
+=> 9
+?eg The perimeter of a rectangle is 60 m and its length is 6 m more than its breadth. Find its area.
+= $l + b = 30$ and $l = b + 6$, so $2b + 6 = 30$ and $b = 12$, $l = 18$.
+= Area $= 18 \times 12$.
+=> 216 square metres
+?eg The sides of a cuboid are in the ratio $1 : 2 : 3$ and its volume is 48 cubic cm. Find its total surface area.
+= Let the sides be $x$, $2x$ and $3x$. Volume $= 6x^3 = 48$, so $x^3 = 8$ and $x = 2$.
+= The sides are 2, 4 and 6 cm.
+= Surface area $= 2(2 \times 4 + 4 \times 6 + 2 \times 6) = 2(8 + 24 + 12) = 88$.
+=> 88 square cm
+
+# Data and chance
+?eg The mean of 5 numbers is 12. Each number is multiplied by 3 and then 2 is added. Find the new mean.
+= Multiplying every number by 3 multiplies the mean by 3: $36$.
+= Adding 2 to every number adds 2 to the mean: $38$.
+=> 38
+?eg A bag has 3 red, 5 blue and 2 green balls. One ball is picked at random. Find the probability that it is not blue.
+= Total balls $= 10$. Balls that are not blue $= 3 + 2 = 5$.
+= Probability $= \dfrac{5}{10}$.
+=> $\dfrac{1}{2}$
+!tip Many HOTS questions become easy once you write what you know as an equation. Name the unknown in the first line.
+
+@@dpp
+Q: Find the smallest number by which 1470 must be multiplied to give a perfect square.
+A: 30 ($1470 = 2 \times 3 \times 5 \times 7^2$, and the product is $44\,100 = 210^2$).
+
+Q: Find the smallest number by which 3087 must be divided to give a perfect cube.
+A: 9 ($3087 = 3^2 \times 7^3$, and the quotient is $343 = 7^3$).
+
+Q: The sum of the digits of a two-digit number is 11. If 45 is subtracted from the number, the digits are reversed. Find the number.
+A: 83 ($83 - 45 = 38$).
+
+Q: The denominator of a fraction is 5 more than its numerator. When 2 is added to both, the fraction becomes $\dfrac{2}{3}$. Find the fraction.
+A: $\dfrac{8}{13}$.
+
+Q: If $x + \dfrac{1}{x} = 3$, find $x^2 + \dfrac{1}{x^2}$.
+A: 7.
+
+Q: A shopkeeper sells two articles for Rs 900 each, one at a gain of 25% and the other at a loss of 25%. Find his overall loss in rupees.
+A: Rs 120 (cost prices are Rs 720 and Rs 1200; total cost 1920 against 1800).
+
+Q: A price is increased by 10% and the new price is then decreased by 10%. The final price is Rs 990. Find the original price.
+A: Rs 1000.
+
+Q: Each interior angle of a regular polygon is $150^\circ$. Find the number of sides.
+A: 12.
+
+Q: The perimeter of a rectangle is 80 m and its length is 10 m more than its breadth. Find its area.
+A: 375 square metres.
+
+Q: A bag has 4 red and 6 blue balls. How many more red balls must be added so that the probability of drawing a red ball is $\dfrac{1}{2}$?
+A: 2.

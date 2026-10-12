@@ -1,26 +1,10 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { SITE } from '@/lib/data';
+import { OLY_GROUPS } from '@/lib/olympiad';
+import TESTS from '@/lib/tests.json';
 export const metadata = { title: 'SOF IMO Olympiad Preparation for Class 8, 9, 10',
-  description: 'SOF IMO preparation for Class 8-10: mental ability, everyday mathematics and HOTS questions, with how to prepare.' };
-
-const SECTIONS = [
-  { id: 'mental-ability', tab: 'Mental Ability', title: 'Mental Ability',
-    intro: 'Reasoning questions that need no formula, only careful thinking. They are quick marks once the common patterns are familiar.',
-    topics: ['Number and letter series', 'Analogy and classification (odd one out)', 'Coding and decoding', 'Direction sense',
-      'Blood relations', 'Ranking and ordering', 'Mirror and water images', 'Venn diagrams', 'Clocks and calendars'],
-    tip: 'Practise a few every day and time yourself. Speed here leaves more time for the harder sections.' },
-  { id: 'everyday-mathematics', tab: 'Everyday Mathematics', title: 'Everyday Mathematics',
-    intro: 'Word problems from daily life. The maths is from your school syllabus; the skill is turning the story into an equation.',
-    topics: ['Percentage', 'Profit, loss and discount', 'Simple and compound interest', 'Ratio and proportion',
-      'Time and work', 'Speed, distance and time', 'Averages', 'Area, perimeter and volume in real situations', 'Reading tables and graphs'],
-    tip: 'Underline what is given and what is asked before you calculate. Most mistakes are in reading, not in arithmetic.' },
-  { id: 'hots', tab: 'HOTS', title: 'HOTS (Higher Order Thinking Skills) Questions',
-    intro: 'Questions that join two or more ideas, or ask a familiar idea in an unfamiliar way. They carry more marks and decide the top ranks.',
-    topics: ['Problems that combine two chapters', 'Multi-step problems with a hidden first step', 'Statement-based questions (which statements are true)',
-      'Match the column questions', 'Finding the error in a given solution', 'Non-routine geometry and number problems'],
-    tip: 'Finish the chapter properly first. Then try each question for a few minutes before looking at the solution.' },
-];
+  description: 'SOF IMO preparation for Class 8-10: short notes, DPP and a test for every mental ability and everyday mathematics topic, and HOTS questions class-wise.' };
 
 export default function Olympiad() {
   return (<>
@@ -35,21 +19,25 @@ export default function Olympiad() {
         <li>Solve past-style questions under a timer.</li></ul>
 
       <h2>Practice by question type</h2>
+      <p>Every topic has short notes, a quick-rules sheet, a DPP with answers and a timed subject test. The HOTS section has solved questions class-wise.</p>
       <div className="tabs">
-        {SECTIONS.map((s, i) => (<Fragment key={s.id}>
+        {OLY_GROUPS.map((s, i) => (<Fragment key={s.id}>
           <input type="radio" name="olympiad" id={s.id} defaultChecked={i === 0} />
           <label htmlFor={s.id}>{s.tab}</label>
         </Fragment>))}
-        {SECTIONS.map(s => (<div key={s.id} className="tab-panel">
+        {OLY_GROUPS.map(s => (<div key={s.id} className="tab-panel">
           <h3>{s.title}</h3>
           <p>{s.intro}</p>
-          <p><strong>What to practise</strong></p>
-          <ul>{s.topics.map(t => <li key={t}>{t}</li>)}</ul>
+          <ol className="lectures">{s.topics.map(t => (<li key={t.slug}>
+            <Link href={`/olympiad/${t.slug}`}>{t.title}</Link>
+            {TESTS[`olympiad/${t.slug}`] && <span className="badge rec">{TESTS[`olympiad/${t.slug}`].qs.length} Q TEST</span>}
+            <span className="muted small" style={{display:'block'}}>{t.summary}</span>
+          </li>))}</ol>
           <p><strong>Tip:</strong> {s.tip}</p>
         </div>))}
       </div>
 
-      <h2>Practice</h2><p>Daily problems and mock tests are posted on <a href={SITE.telegram}>Telegram</a>.</p>
+      <h2>Practice</h2><p>Daily problems and mock tests are posted on <a href={SITE.telegram}>Telegram</a>. You can also <Link href="/practice">make your own practice test</Link>.</p>
       <p><a className="btn" href={SITE.telegram}>Join Telegram</a></p>
     </div>
   </>);

@@ -1,0 +1,89 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 5
+@title Blood Relations
+@summary The names of family relations, how to read a relation puzzle step by step, and how to draw a simple family tree.
+
+# Know the relations
+| Person | Relation to you |
+| Father's or mother's father | Grandfather |
+| Father's or mother's mother | Grandmother |
+| Father's or mother's brother | Uncle |
+| Father's or mother's sister | Aunt |
+| Uncle's or aunt's son or daughter | Cousin |
+| Brother's or sister's son | Nephew |
+| Brother's or sister's daughter | Niece |
+| Spouse's father | Father-in-law |
+| Spouse's mother | Mother-in-law |
+| Spouse's brother or sister's husband | Brother-in-law |
+| Same parents as you, male | Brother |
+| Same parents as you, female | Sister |
+- A **generation** is one step up or down the family: grandparents, parents, you, your children.
+- **Siblings** are brothers and sisters. They are in the same generation.
+- If a name does not say whether the person is male or female, do not assume. Many puzzles can be solved without it.
+
+# Solving a relation puzzle
+- Work **backwards** through the sentence, one small piece at a time, and replace each piece by a simple relation.
+- "My father's only son" is **me** (if I am a boy) or **my brother**. "My mother's only daughter" is me (if I am a girl) or my sister.
+- Draw dots for the people. Join husband and wife with a horizontal line and draw children below them.
+?eg Pointing to a boy, Anil says, "He is the son of my father's only son." How is the boy related to Anil?
+= "My father's only son" is Anil himself (Anil is a boy because he is the only son).
+= The boy is the son of Anil.
+=> Son
+?eg Pointing to a woman, Ravi says, "She is the daughter of my father's mother's only son." How is the woman related to Ravi?
+= My father's mother's only son is Ravi's father.
+= So the woman is the daughter of Ravi's father.
+=> Sister
+?eg A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?
+= C is B's mother, and A and B are brother and sister, so C is the mother of A too.
+= D is C's father, so D is the grandfather of A.
+=> A is the granddaughter of D.
+
+# Counting members
+- Add up each distinct person once. Husband and wife are two persons; each child is one person.
+?eg A family has a grandfather, a grandmother, a father, a mother, two sons and one daughter. How many members are there?
+= $2 + 2 + 3 = 7$.
+=> 7 members
+!tip After each step, write the relation you have found on the page. Never carry two unfinished relations in your head at the same time.
+
+@@formulas
+Parent's brother | uncle
+Parent's sister | aunt
+Brother's or sister's child | nephew or niece
+Uncle's or aunt's child | cousin
+Spouse's parent | father-in-law or mother-in-law
+Spouse's sibling | brother-in-law or sister-in-law
+My father's only son | me (if I am a boy) or my brother
+My mother's only daughter | me (if I am a girl) or my sister
+
+@@dpp
+Q: What is your father's brother called?
+A: Uncle.
+
+Q: What is your mother's father called?
+A: Grandfather.
+
+Q: Pointing to a lady, Seema says, "She is the mother of my mother's only son." How is the lady related to Seema?
+A: Mother (Seema's mother's only son is Seema's brother, and his mother is Seema's mother).
+
+Q: A is the brother of B. B is the sister of C. C is the father of D. How is A related to D?
+A: Uncle (A is the brother of C, who is D's father).
+
+Q: Pointing to a man, Kiran, a boy, says, "His mother is the only daughter of my mother." How is the man related to Kiran?
+A: Nephew (the man's mother is Kiran's sister, so the man is Kiran's sister's son).
+
+Q: A family has a grandfather, a grandmother, a father, a mother, two sons and one daughter. How many members does the family have?
+A: 7.
+
+Q: P is the mother of Q. Q is the brother of R. How is P related to R?
+A: Mother.
+
+Q: Rohit's father's only brother has a daughter named Neha. How is Neha related to Rohit?
+A: Cousin.
+
+Q: My mother's mother's only daughter is my ...?
+A: Mother.
+
+Q: Ram is Shyam's brother. Shyam's father is Mohan. Mohan's mother is Leela. How is Leela related to Ram?
+A: Grandmother (Leela is Ram's father's mother).

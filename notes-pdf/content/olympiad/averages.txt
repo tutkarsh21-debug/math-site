@@ -1,0 +1,81 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 16
+@title Averages
+@summary The mean of a set of numbers, how the average changes when numbers are added or removed, and the weighted average of two groups.
+
+# The average
+- The **average** (mean) of $n$ numbers is $\dfrac{\text{sum of the numbers}}{n}$.
+- So $\text{sum} = \text{average} \times n$. This is the most useful form: from an average you can always recover the **sum**.
+- The average always lies between the smallest and the largest number.
+- For equally spaced numbers (like 3, 5, 7, 9, 11) the average is the **middle** number, or the mean of the first and last.
+?eg Find the average of 12, 15, 18, 21 and 24.
+= The numbers are equally spaced, so the average is the middle number. Check: $\dfrac{12 + 15 + 18 + 21 + 24}{5} = \dfrac{90}{5}$.
+=> 18
+?eg Find the average of the first 20 natural numbers.
+= The sum is $\dfrac{20 \times 21}{2} = 210$. The average is $\dfrac{210}{20}$.
+=> 10.5
+
+# When a number is added, removed or replaced
+- Work with **sums**. Find the old sum and the new sum, then take the difference.
+?eg The average of 5 numbers is 20. A sixth number is added and the average becomes 22. Find the sixth number.
+= Old sum $= 5 \times 20 = 100$. New sum $= 6 \times 22 = 132$.
+= The sixth number is $132 - 100$.
+=> 32
+?eg The average age of 8 people is 40 years. A person aged 32 leaves and a new person joins, and the average becomes 41. Find the age of the new person.
+= Old sum $= 320$. New sum $= 8 \times 41 = 328$. The sum has gone up by 8.
+= New person $= 32 + 8$.
+=> 40 years
+?eg A student scored 70, 75, 80 and 85 in four tests. What must the student score in the fifth test to have an average of 80?
+= Needed total $= 5 \times 80 = 400$. Present total $= 310$.
+=> 90
+
+# Average of two groups
+- If group A has $a$ members with average $m_A$ and group B has $b$ members with average $m_B$, the combined average is
+$$\dfrac{a\,m_A + b\,m_B}{a + b}$$
+- This is a **weighted average**. It lies closer to the average of the **larger** group.
+?eg A class of 30 students has an average mark of 60 and another class of 20 students has an average mark of 70. Find the average of all 50 students.
+= Total marks $= 30 \times 60 + 20 \times 70 = 1800 + 1400 = 3200$.
+= Average $= \dfrac{3200}{50}$.
+=> 64
+!tip Never average two averages directly when the groups are of different sizes. Convert each to a total first.
+
+@@formulas
+Average | $\dfrac{\text{sum}}{n}$
+Sum | average $\times\ n$
+Average of the first $n$ natural numbers | $\dfrac{n + 1}{2}$
+Average of equally spaced numbers | the middle number
+Two groups combined | $\dfrac{a\,m_A + b\,m_B}{a + b}$
+Number added or removed | find the change in the sum
+
+@@dpp
+Q: Find the average of 12, 15, 18, 21 and 24.
+A: 18.
+
+Q: The average of 5 numbers is 20. A sixth number is added and the average becomes 22. Find the sixth number.
+A: 32.
+
+Q: A class of 30 students has average 60 marks and another class of 20 students has average 70. Find the average of all 50 students.
+A: 64.
+
+Q: Find the average of the first 20 natural numbers.
+A: 10.5.
+
+Q: The average age of 8 people is 40. A person aged 32 leaves and a new person joins. The average becomes 41. Find the age of the new person.
+A: 40 years.
+
+Q: A student scored 70, 75, 80 and 85 in four tests. What is needed in the fifth test for an average of 80?
+A: 90.
+
+Q: The average of six numbers is 15. The average of four of them is 12. Find the average of the other two.
+A: 21 ($90 - 48 = 42$, and $42 \div 2 = 21$).
+
+Q: Find the average of 7 consecutive numbers beginning with 10.
+A: 13.
+
+Q: The average age of 3 friends is 14 years. A fourth friend joins and the average becomes 15 years. Find the age of the fourth friend.
+A: 18 years.
+
+Q: The average temperature on Monday, Tuesday and Wednesday was $30^\circ$C and on Tuesday, Wednesday and Thursday was $32^\circ$C. If Thursday was $33^\circ$C, find the temperature on Monday.
+A: $27^\circ$C (the sums are 90 and 96, so Thursday $-$ Monday $= 6$).

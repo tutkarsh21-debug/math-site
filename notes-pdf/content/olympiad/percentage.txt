@@ -1,0 +1,80 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 10
+@title Percentage
+@summary Percent as a fraction of 100, finding a percentage of a quantity, percentage increase and decrease, and successive changes.
+
+# Percent as a fraction
+- **Percent** means "out of 100". $25\%$ means $\dfrac{25}{100}$.
+- To change a fraction to a percent, multiply by 100: $\dfrac{3}{8} \times 100 = 37.5\%$.
+- To change a percent to a fraction or decimal, divide by 100: $40\% = \dfrac{40}{100} = 0.4$.
+- To find $p\%$ of a quantity, multiply: $p\%$ of $N = \dfrac{p}{100} \times N$.
+| Fraction | $\dfrac{1}{2}$ | $\dfrac{1}{3}$ | $\dfrac{1}{4}$ | $\dfrac{1}{5}$ | $\dfrac{1}{6}$ | $\dfrac{1}{8}$ | $\dfrac{1}{10}$ |
+| Percent | 50% | $33\dfrac{1}{3}$% | 25% | 20% | $16\dfrac{2}{3}$% | 12.5% | 10% |
+?eg Find 15% of 240.
+= $\dfrac{15}{100} \times 240 = 36$.
+=> 36
+?eg A student scores 360 marks out of 450. What is the percentage?
+= $\dfrac{360}{450} \times 100 = 80$.
+=> 80%
+
+# Increase and decrease
+- **Percentage change** $= \dfrac{\text{change}}{\text{original value}} \times 100$. Always divide by the **original** value.
+- After an increase of $p\%$, the new value is $\left(1 + \dfrac{p}{100}\right)$ times the old value. After a decrease of $p\%$, it is $\left(1 - \dfrac{p}{100}\right)$ times.
+?eg The price of a book rises from Rs 50 to Rs 65. Find the percentage increase.
+= Change $= 65 - 50 = 15$. Percentage $= \dfrac{15}{50} \times 100$.
+=> 30%
+?eg After a 20% decrease, a price is Rs 400. What was the original price?
+= The new price is $0.8$ times the original. Original $= \dfrac{400}{0.8}$.
+=> Rs 500
+
+# Successive changes
+- A change of $a\%$ followed by a change of $b\%$ is **not** $(a + b)\%$. Multiply the factors instead.
+- The net change is $\left(a + b + \dfrac{ab}{100}\right)\%$, using a minus sign for a decrease.
+?eg A price is increased by 25% and then decreased by 20%. Find the net change.
+= The factors are $1.25$ and $0.8$, and $1.25 \times 0.8 = 1$.
+=> No change at all
+?eg A population of 20 000 grows by 10% each year. Find the population after 2 years.
+= $20\,000 \times 1.1 \times 1.1 = 24\,200$.
+=> 24 200
+!tip A 10% increase and then a 10% decrease does not return to the start. $1.1 \times 0.9 = 0.99$, a 1% fall.
+
+@@formulas
+$p\%$ of $N$ | $\dfrac{p}{100} \times N$
+Percentage change | $\dfrac{\text{change}}{\text{original}} \times 100$
+After an increase of $p\%$ | $N \left(1 + \dfrac{p}{100}\right)$
+After a decrease of $p\%$ | $N \left(1 - \dfrac{p}{100}\right)$
+Successive changes | $a + b + \dfrac{ab}{100}$
+$x\%$ of $y$ and $y\%$ of $x$ | are equal
+
+@@dpp
+Q: Find 25% of 480.
+A: 120.
+
+Q: Express $\dfrac{18}{25}$ as a percentage.
+A: 72%.
+
+Q: A number is increased by 20% and becomes 150. Find the number.
+A: 125.
+
+Q: A salary of Rs 12 000 is raised by 15%. Find the new salary.
+A: Rs 13 800.
+
+Q: A price falls from Rs 80 to Rs 68. Find the percentage decrease.
+A: 15%.
+
+Q: 40% of a number is 72. Find the number.
+A: 180.
+
+Q: Two successive increases of 10% and 20% are made. Find the net increase.
+A: 32%.
+
+Q: In an examination 65% of the students passed and 350 failed. How many students took the examination?
+A: 1000.
+
+Q: A population of 5000 increases by 10% and then decreases by 10%. Find the final population.
+A: 4950.
+
+Q: What percentage of 2 hours is 30 minutes?
+A: 25%.

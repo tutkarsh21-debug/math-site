@@ -1,0 +1,85 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 4
+@title Direction Sense
+@summary Directions, left and right turns, the shadow rule and distance from the starting point using the Pythagoras theorem.
+
+# The directions
+- The four main directions are **North (N)**, **East (E)**, **South (S)** and **West (W)**. Going **clockwise** from north they come in the order N, E, S, W.
+- Between them are North-East (NE), South-East (SE), South-West (SW) and North-West (NW).
+- A **right turn** is a clockwise turn. A **left turn** is an anticlockwise turn.
+- Draw a small cross with N at the top, E on the right, S at the bottom and W on the left. Move on it with your pencil.
+| You are facing | After a right turn of 90° | After a left turn of 90° | After a turn of 180° |
+| North | East | West | South |
+| East | South | North | West |
+| South | West | East | North |
+| West | North | South | East |
+?eg A boy faces east. He turns left, and then turns left again. Which direction is he facing now?
+= Facing east, a left turn gives north. Facing north, a left turn gives west.
+=> West
+?eg A girl faces north-west and turns through 90° clockwise. Which direction does she face?
+= Clockwise from north-west (NW) is north (N), then north-east (NE). A turn of 90° is two steps of 45°.
+=> North-east
+
+# The shadow rule
+- In the **morning** the sun is in the **east**, so a shadow falls towards the **west**.
+- In the **evening** the sun is in the **west**, so a shadow falls towards the **east**.
+- At noon the sun is overhead, so the shadow is very short. Questions usually say "morning" or "evening".
+?eg In the morning a boy stands with his back to the sun. In which direction does his shadow fall, and which direction is his right hand?
+= The sun is in the east. His back is to the east, so he faces west.
+= His shadow falls towards the west. Facing west, his right hand points to the north.
+=> The shadow falls to the west and his right hand points north.
+
+# Distance from the starting point
+- Draw the path on paper and label each part. Join the start and the end.
+- If the path has two legs at a right angle, the straight-line distance is the hypotenuse: $d = \sqrt{a^2 + b^2}$.
+- Opposite legs cancel: 5 km east followed by 5 km west brings you back to the same line.
+?eg Rohan walks 5 km north, turns right and walks 12 km. How far is he from the start, and in which direction?
+= After 5 km north, a right turn means east. So he walks 12 km east.
+= Distance $= \sqrt{5^2 + 12^2} = \sqrt{169} = 13$ km.
+=> 13 km, towards the north-east
+?eg Sana walks 4 km east, then 3 km north, then 4 km west. How far is she from the start?
+= The 4 km east and 4 km west cancel. She is 3 km north of where she began.
+=> 3 km, towards the north
+!tip Do not try to hold the path in your head. Draw it, and write the distance on every line.
+
+@@formulas
+Right turn | clockwise: N to E to S to W to N
+Left turn | anticlockwise: N to W to S to E to N
+Turn of 180° | gives the opposite direction
+Morning shadow | falls towards the west
+Evening shadow | falls towards the east
+Distance after two legs at right angles | $\sqrt{a^2 + b^2}$
+Common Pythagorean triples | 3, 4, 5 and 5, 12, 13 and 8, 15, 17 and 7, 24, 25
+
+@@dpp
+Q: A man faces north and turns right. Which direction does he face?
+A: East.
+
+Q: A woman faces west and turns left. Which direction does she face?
+A: South.
+
+Q: Meena walks 3 km south and then 4 km west. How far is she from the start?
+A: 5 km ($\sqrt{3^2 + 4^2} = 5$).
+
+Q: Arun walks 8 km east and then 15 km north. How far is he from the start?
+A: 17 km ($\sqrt{8^2 + 15^2} = 17$).
+
+Q: A boy faces east, turns right and then right again. Which direction does he face?
+A: West.
+
+Q: In the morning a boy faces the sun. In which direction is his right hand?
+A: South (he faces east).
+
+Q: In the evening a man stands so that his shadow is in front of him. Which direction is his left hand?
+A: North (the shadow falls to the east, so he faces east, and his left hand points north).
+
+Q: Priya walks 5 km north, then 3 km east, then 5 km south. How far and in which direction is she from the start?
+A: 3 km, towards the east.
+
+Q: A person faces north-east and turns 90° clockwise. Which direction does he face?
+A: South-east.
+
+Q: A person faces south-west and turns through 180°. Which direction does he face?
+A: North-east.

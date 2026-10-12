@@ -1,0 +1,89 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 2
+@title Analogy and Classification (Odd One Out)
+@summary How to find the relation in an analogy and the common property in a classification question, for words, numbers and letters.
+
+# What is an analogy?
+- An analogy has the form **A : B :: C : D**, read "A is to B as C is to D". The relation between A and B is the same as the relation between C and D.
+- Say the relation of the first pair in a full sentence, then apply the same sentence to the second pair.
+- For example, "Pen is the tool used to write", so "Knife is the tool used to cut".
+| Relation | Example |
+| Object and its group | Mango : Fruit :: Rose : Flower |
+| Part and whole | Petal : Flower :: Page : Book |
+| Tool and its work | Pen : Write :: Knife : Cut |
+| Worker and place of work | Doctor : Hospital :: Teacher : School |
+| Animal and its young one | Cow : Calf :: Dog : Puppy |
+| Number and its square or cube | 4 : 16 :: 5 : 25 |
+| Letters moved by a fixed step | CAT : DBU (every letter moves forward by one) |
+?eg Choose the word that completes the analogy. Bird : Nest :: Bee : ?
+= A bird lives in a nest. A bee lives in a hive.
+=> Hive
+?eg Find the missing number. 6 : 36 :: 9 : ?
+= The second number is the square of the first.
+=> 81
+
+# Number and letter analogies
+- Try the square, the cube, the square plus or minus one, and the double. Test the rule on the **first** pair, then on the second pair.
+- For letters, write the position of each letter (A = 1, ..., Z = 26) and find the step.
+?eg Find the missing number. 5 : 124 :: 6 : ?
+= $5^3 - 1 = 124$, so the rule is "cube minus 1".
+= For 6: $6^3 - 1 = 216 - 1$.
+=> 215
+?eg BOAT is to CPBU as DOOR is to what?
+= Every letter moves forward by one: D to E, O to P, O to P, R to S.
+=> EPPS
+
+# Classification (odd one out)
+- In a group of four or five items, all but one share a property. Name the property that most of them have; the one that does not is the answer.
+- For words, look at the group, the use, the shape or the place. For numbers, look at primes, squares, cubes, even or odd, and multiples.
+- Check that the property you chose really separates **one** item from the rest. If two items are left out, choose another property.
+?eg Odd one out: 11, 13, 17, 21
+= 11, 13 and 17 are prime numbers. 21 = 3 x 7 is not.
+=> 21
+?eg Odd one out: Triangle, Square, Circle, Pentagon
+= Triangle, square and pentagon are made of straight sides. A circle is not.
+=> Circle
+?eg Odd one out: BD, FH, JL, MN
+= In BD, FH and JL a letter is skipped between the two letters. In MN no letter is skipped.
+=> MN
+!tip For odd-one-out questions with numbers, test "prime", "perfect square" and "cube" first. They explain most of the questions.
+
+@@formulas
+Squares | 1, 4, 9, 16, 25, 36, 49, 64, 81, 100
+Cubes | 1, 8, 27, 64, 125, 216
+Primes up to 30 | 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
+Letter positions | A = 1, B = 2, ..., M = 13, N = 14, ..., Z = 26
+Opposite letters | the letter at position $n$ and the letter at position $27 - n$
+
+@@dpp
+Q: Pen : Write :: Knife : ?
+A: Cut (a pen is used to write; a knife is used to cut).
+
+Q: Doctor : Patient :: Teacher : ?
+A: Student.
+
+Q: 7 : 49 :: 8 : ?
+A: 64 (the square of the first number).
+
+Q: 3 : 26 :: 4 : ?
+A: 63 (the rule is cube minus 1: $3^3 - 1 = 26$ and $4^3 - 1 = 63$).
+
+Q: BOOK : CPPL :: DOOR : ?
+A: EPPS (every letter moves forward by one).
+
+Q: Odd one out: Rose, Lily, Lotus, Mango.
+A: Mango (the others are flowers).
+
+Q: Odd one out: 2, 3, 5, 9, 11.
+A: 9 (the others are prime).
+
+Q: Odd one out: 8, 27, 64, 100, 125.
+A: 100 (the others are cubes).
+
+Q: Odd one out: AC, EG, IK, MP.
+A: MP (in the others the two letters are two places apart; M and P are three places apart).
+
+Q: Odd one out: Hour, Minute, Second, Metre.
+A: Metre (the others measure time).

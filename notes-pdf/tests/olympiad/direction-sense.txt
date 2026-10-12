@@ -1,0 +1,70 @@
+@minutes 12
+Q: A boy faces south and turns left. Which direction does he face?
+- West
+* East
+- North
+- South-east
+W: Facing south, the left hand points east, so a left turn gives east.
+
+Q: A girl faces north and turns left. Which direction does she face?
+* West
+- East
+- South
+- North-west
+W: A left turn is anticlockwise, and from north that gives west.
+
+Q: A man walks 12 km north and then 5 km east. How far is he from the start?
+- 7 km
+- 15 km
+* 13 km
+- 17 km
+W: $\sqrt{12^2 + 5^2} = \sqrt{169} = 13$ km.
+
+Q: Ria walks 6 km west and then 8 km north. How far is she from the start?
+- 8 km
+- 12 km
+- 14 km
+* 10 km
+W: $\sqrt{6^2 + 8^2} = \sqrt{100} = 10$ km.
+
+Q: A boy faces east. He turns left and then left again. Which direction does he face?
+- North
+* West
+- South
+- East
+W: East to north to west with two left turns.
+
+Q: At sunset the shadow of a tall pillar falls towards which direction?
+- West
+- North
+* East
+- South
+W: At sunset the sun is in the west, so the shadow falls towards the east.
+
+Q: Sam walks 7 km east, then 3 km north, then 7 km west. Where is he from the start?
+- 3 km south
+* 3 km north
+- 7 km north
+- 17 km north-east
+W: The 7 km east and 7 km west cancel. He is 3 km north of the start.
+
+Q: A girl faces north-west and turns 90° anticlockwise. Which direction does she face?
+- North-east
+- South-east
+* South-west
+- West
+W: Anticlockwise from north-west goes to west and then to south-west.
+
+Q: A boy faces north. He turns right, then left, then left. Which direction does he face?
+- North
+- East
+- South
+* West
+W: North to east (right), east to north (left), north to west (left).
+
+Q: A man walks 9 m south and then 12 m east. How far is he from the start?
+- 3 m
+- 21 m
+- 14 m
+* 15 m
+W: $\sqrt{9^2 + 12^2} = \sqrt{225} = 15$ m.

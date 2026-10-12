@@ -1,0 +1,93 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 17
+@title Area, Perimeter and Volume in Real Situations
+@summary Fencing, tiling, painting, paths and tanks: using area, perimeter and volume formulas for everyday problems.
+
+# Which formula to use
+| Shape | Perimeter | Area |
+| Rectangle, length $l$ and breadth $b$ | $2(l + b)$ | $l \times b$ |
+| Square of side $a$ | $4a$ | $a^2$ |
+| Triangle | sum of sides | $\dfrac{1}{2} \times \text{base} \times \text{height}$ |
+| Circle of radius $r$ | $2\pi r$ | $\pi r^2$ |
+| Trapezium | sum of sides | $\dfrac{1}{2}(a + b) \times h$ |
+- **Perimeter** is a length. Use it for **fencing**, a border, a rope or a wire.
+- **Area** is the surface. Use it for **tiling**, carpets, painting, grass and a path.
+- **Volume** is the space inside. Use it for tanks, boxes and filling with water.
+- Take $\pi = \dfrac{22}{7}$ when the radius is a multiple of 7.
+- Change all lengths to one unit first. Remember $1\ \text{m} = 100\ \text{cm}$.
+?eg A rectangular field is 40 m long and 25 m wide. Find the cost of fencing it at Rs 12 per metre.
+= Perimeter $= 2(40 + 25) = 130$ m.
+= Cost $= 130 \times 12$.
+=> Rs 1560
+?eg A circular park has radius 14 m. Find its circumference and its area.
+= Circumference $= 2 \times \dfrac{22}{7} \times 14 = 88$ m.
+= Area $= \dfrac{22}{7} \times 14 \times 14 = 616$ square metres.
+=> 88 m and 616 square metres
+
+# Tiles, carpets and walls
+- Number of tiles $= \dfrac{\text{area of the floor}}{\text{area of one tile}}$. Use the same units for both.
+- Cost $=$ area $\times$ rate per unit area.
+- The four walls of a room of length $l$, breadth $b$ and height $h$ have area $2h(l + b)$. Subtract doors and windows when they are not painted.
+?eg A room 6 m by 4 m is covered with square tiles of side 50 cm. How many tiles are needed?
+= Floor $= 6 \times 4 = 24$ square metres. Tile $= 0.5 \times 0.5 = 0.25$ square metres.
+= Tiles $= \dfrac{24}{0.25}$.
+=> 96 tiles
+?eg A room is 5 m long, 4 m wide and 3 m high. Find the area of the four walls.
+= $2 \times 3 \times (5 + 4) = 54$.
+=> 54 square metres
+
+# Paths and tanks
+- To find the area of a **path** of width $w$ around a rectangle, find the area of the bigger rectangle (outside) and subtract the area of the smaller one.
+- The volume of a **cuboid** is $l \times b \times h$. A cube of side $a$ has volume $a^3$.
+- $1\ \text{m}^3 = 1000$ litres and $1000\ \text{cm}^3 = 1$ litre.
+?eg A path 2 m wide runs around the outside of a garden 20 m by 15 m. Find the area of the path.
+= Outer rectangle $= (20 + 4) \times (15 + 4) = 24 \times 19 = 456$.
+= Garden $= 20 \times 15 = 300$.
+=> 156 square metres
+?eg A tank is 2 m long, 1.5 m wide and 1 m deep. How many litres of water can it hold?
+= Volume $= 2 \times 1.5 \times 1 = 3$ cubic metres.
+=> 3000 litres
+!tip Draw the shape and write the lengths on it. The most common mistake is to use area when the question needs perimeter, or the other way round.
+
+@@formulas
+Rectangle | perimeter $2(l + b)$, area $lb$
+Square | perimeter $4a$, area $a^2$
+Triangle | area $\dfrac{1}{2} b h$
+Circle | circumference $2\pi r$, area $\pi r^2$
+Four walls of a room | $2h(l + b)$
+Cuboid | volume $lbh$
+Cube | volume $a^3$, surface area $6a^2$
+Litres | $1\ \text{m}^3 = 1000$ litres
+
+@@dpp
+Q: A room 6 m by 4 m is covered with square tiles of side 50 cm. How many tiles are needed?
+A: 96.
+
+Q: Find the cost of fencing a rectangular field 40 m by 25 m at Rs 12 per metre.
+A: Rs 1560.
+
+Q: A circular park has radius 14 m. Find its circumference and its area (take $\pi = \dfrac{22}{7}$).
+A: 88 m and 616 square metres.
+
+Q: A path 2 m wide runs around the outside of a garden 20 m by 15 m. Find the area of the path.
+A: 156 square metres.
+
+Q: A tank is 2 m long, 1.5 m wide and 1 m deep. How many litres does it hold?
+A: 3000 litres.
+
+Q: Find the area of the four walls of a room 5 m long, 4 m wide and 3 m high.
+A: 54 square metres.
+
+Q: Find the cost of carpeting a floor 8 m by 5 m at Rs 150 per square metre.
+A: Rs 6000.
+
+Q: A wire 44 cm long is bent into a circle. Find the radius (take $\pi = \dfrac{22}{7}$).
+A: 7 cm.
+
+Q: How many cubes of side 2 cm can be packed in a box 10 cm by 8 cm by 6 cm?
+A: 60.
+
+Q: A cistern is 3 m long, 2 m wide and 1.5 m deep. It is filled at 300 litres per minute. How long does it take to fill?
+A: 30 minutes (the volume is 9 cubic metres, which is 9000 litres).

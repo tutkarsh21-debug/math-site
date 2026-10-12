@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BOARDS, CLASSES } from '@/lib/data';
+import { OLY_GROUPS } from '@/lib/olympiad';
 import TESTS from '@/lib/tests.json';
 
 export const metadata = { title: 'Online Maths Test Series: Chapter Tests for Class 8, 9, 10',
@@ -7,7 +8,7 @@ export const metadata = { title: 'Online Maths Test Series: Chapter Tests for Cl
 
 export default function Tests() {
   const classes = Object.entries(CLASSES);
-  const count = Object.keys(TESTS).length;
+  const count = Object.keys(TESTS).filter(id => !id.startsWith('olympiad/')).length;
   return (<>
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Test Series</div>
@@ -35,6 +36,19 @@ export default function Tests() {
           </details>);
         })}
       </div>))}
+      <div id="olympiad" className="part">
+        <h2>Olympiad</h2>
+        {OLY_GROUPS.map(g => (<details key={g.id}>
+          <summary>{g.tab} <span className="muted">· {g.topics.filter(t => TESTS[`olympiad/${t.slug}`]).length} of {g.topics.length} tests</span></summary>
+          <ol className="lectures">{g.topics.map(t => {
+            const x = TESTS[`olympiad/${t.slug}`];
+            return (<li key={t.slug}>
+              {x ? <Link href={`/tests/olympiad/${t.slug}`}>{t.title}</Link> : <span style={{marginRight:'.6rem'}}>{t.title}</span>}
+              {x ? <span className="badge rec">{x.qs.length} Q · {x.minutes} MIN</span> : <span className="badge soon">Coming soon</span>}
+            </li>);
+          })}</ol>
+        </details>))}
+      </div>
     </div></section>
   </>);
 }

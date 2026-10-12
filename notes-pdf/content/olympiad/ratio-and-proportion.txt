@@ -1,0 +1,82 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 13
+@title Ratio and Proportion
+@summary Comparing quantities by ratio, sharing in a ratio, proportion, and direct and inverse variation in everyday problems.
+
+# Ratio
+- The **ratio** $a : b$ compares two quantities of the same kind. It is the fraction $\dfrac{a}{b}$ and has no units.
+- A ratio is simplified by dividing both terms by their common factor: $45 : 60 = 3 : 4$.
+- To **share** a quantity in the ratio $a : b : c$, add the parts $a + b + c$. One part is the quantity divided by this sum; then multiply by $a$, $b$ and $c$.
+- If $a : b$ and $b : c$ are given, make the value of $b$ the same in both, then join them to get $a : b : c$.
+?eg Divide Rs 360 in the ratio $2 : 3 : 4$.
+= Total parts $= 2 + 3 + 4 = 9$. One part $= \dfrac{360}{9} = 40$.
+= Shares: $2 \times 40,\ 3 \times 40,\ 4 \times 40$.
+=> Rs 80, Rs 120 and Rs 160
+?eg If $a : b = 2 : 3$ and $b : c = 4 : 5$, find $a : b : c$.
+= Make $b$ equal in both: $a : b = 8 : 12$ and $b : c = 12 : 15$.
+=> $8 : 12 : 15$
+?eg The ages of two people are in the ratio $3 : 5$ and their sum is 40 years. Find the ages.
+= One part $= \dfrac{40}{8} = 5$.
+=> 15 years and 25 years
+
+# Proportion
+- Four numbers $a, b, c, d$ are in **proportion** if $a : b = c : d$. Then $a \times d = b \times c$ (product of extremes = product of means).
+- The **fourth proportional** to $a, b, c$ is $d = \dfrac{bc}{a}$. The **mean proportional** between $a$ and $b$ is $\sqrt{ab}$.
+?eg Find $x$ if $4 : 7 = 12 : x$.
+= $4x = 7 \times 12 = 84$.
+=> $x = 21$
+?eg Find the mean proportional between 4 and 9.
+= $\sqrt{4 \times 9} = \sqrt{36}$.
+=> 6
+
+# Direct and inverse proportion
+- If two quantities increase together at the same rate (cost and number of articles), they are in **direct proportion**: their ratio stays the same.
+- If one quantity increases when the other decreases so that the **product** stays the same (workers and days), they are in **inverse proportion**.
+?eg The cost of 5 pens is Rs 40. Find the cost of 12 pens.
+= Cost of one pen $= 8$, so 12 pens cost $12 \times 8$.
+=> Rs 96
+?eg 6 workers can finish a job in 12 days. How many days will 9 workers take?
+= The work is $6 \times 12 = 72$ worker-days. Days $= \dfrac{72}{9}$.
+=> 8 days
+!tip Before you calculate, decide in words: "more workers, fewer days" means inverse. "More pens, more cost" means direct.
+
+@@formulas
+Sharing in $a : b : c$ | one part $= \dfrac{\text{total}}{a + b + c}$
+Proportion | $a : b = c : d \iff ad = bc$
+Fourth proportional to $a, b, c$ | $\dfrac{bc}{a}$
+Mean proportional between $a$ and $b$ | $\sqrt{ab}$
+Direct proportion | $\dfrac{x_1}{y_1} = \dfrac{x_2}{y_2}$
+Inverse proportion | $x_1 y_1 = x_2 y_2$
+
+@@dpp
+Q: Simplify the ratio $45 : 60$.
+A: $3 : 4$.
+
+Q: Divide Rs 360 in the ratio $2 : 3 : 4$.
+A: Rs 80, Rs 120 and Rs 160.
+
+Q: Find $x$ if $3 : x = 12 : 20$.
+A: 5.
+
+Q: If $a : b = 2 : 3$ and $b : c = 4 : 5$, find $a : b : c$.
+A: $8 : 12 : 15$.
+
+Q: The cost of 5 pens is Rs 40. Find the cost of 12 pens.
+A: Rs 96.
+
+Q: 6 workers finish a job in 12 days. In how many days will 9 workers finish it?
+A: 8 days.
+
+Q: The ages of two people are in the ratio $3 : 5$ and their sum is 40. Find the ages.
+A: 15 and 25.
+
+Q: Find the mean proportional between 4 and 9.
+A: 6.
+
+Q: Rs 2400 is divided between A and B in the ratio $3 : 5$. Find B's share.
+A: Rs 1500.
+
+Q: A car goes 150 km in 3 hours. How far does it go in 5 hours at the same speed?
+A: 250 km.

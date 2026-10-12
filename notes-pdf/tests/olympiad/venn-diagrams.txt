@@ -1,0 +1,70 @@
+@minutes 12
+Q: Which diagram best shows Mango, Fruit and Food?
+- Three separate circles
+- Two overlapping circles and a third apart
+* Three circles, each inside the next
+- Three circles that all overlap in one region
+W: Every mango is a fruit and every fruit is food, so each circle lies inside the next.
+
+Q: In a class of 40, 25 like tea, 20 like coffee and 5 like neither. How many like both?
+- 5
+- 8
+* 10
+- 15
+W: At least one: $40 - 5 = 35$. Both $= 25 + 20 - 35 = 10$.
+
+Q: Of 30 students, 18 play cricket, 15 play football and 5 play neither. How many play both?
+- 6
+* 8
+- 10
+- 12
+W: At least one: $30 - 5 = 25$. Both $= 18 + 15 - 25 = 8$.
+
+Q: $n(A) = 35$, $n(B) = 25$ and $n(A \cap B) = 10$. Find $n(A \cup B)$.
+- 60
+- 45
+* 50
+- 70
+W: $35 + 25 - 10 = 50$.
+
+Q: $n(A) = 42$ and $n(A \cap B) = 17$. How many belong to $A$ only?
+- 17
+- 59
+- 35
+* 25
+W: Only $A$: $42 - 17 = 25$.
+
+Q: Which diagram shows Dog, Cat and Animal?
+- Three circles, each inside the next
+- Three circles that overlap
+* Two separate circles inside a bigger circle
+- Three separate circles
+W: A dog and a cat are different animals, so there are two separate circles inside the circle of animals.
+
+Q: All roses are flowers. Some flowers are red. Which conclusion follows?
+- Some roses are red
+- All roses are red
+- No rose is red
+* None of these follows
+W: The red flowers may be flowers other than roses, so we cannot say anything about red roses.
+
+Q: In two overlapping circles, the part of A only has 18 members, the part of B only has 22, the overlap has 7, and 3 are outside both. How many belong to exactly one of A and B?
+- 29
+- 47
+* 40
+- 43
+W: $18 + 22 = 40$.
+
+Q: Of 120 people, 70 like tea, 60 like coffee and 20 like neither. How many like both?
+- 10
+- 20
+* 30
+- 40
+W: At least one: $120 - 20 = 100$. Both $= 70 + 60 - 100 = 30$.
+
+Q: The circle of Doctors lies completely inside the circle of Graduates. Which statement is true?
+- All graduates are doctors
+* All doctors are graduates
+- No doctor is a graduate
+- Some graduates are not doctors, but no doctor is a graduate
+W: A circle inside another circle means all of the first group belong to the second group.

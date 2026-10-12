@@ -1,0 +1,70 @@
+@minutes 12
+Q: Your father's sister's husband is your
+- Grandfather
+- Cousin
+* Uncle
+- Nephew
+W: The husband of your father's sister is your uncle.
+
+Q: Your brother's daughter is your
+- Cousin
+* Niece
+- Sister
+- Aunt
+W: A brother's daughter is your niece.
+
+Q: Pointing to a man, a woman says, "He is the son of my mother's only son." How is the man related to the woman?
+- Brother
+- Son
+- Cousin
+* Nephew
+W: Her mother's only son is her brother. The man is her brother's son, which is her nephew.
+
+Q: A is the brother of B, and B is the mother of C. How is A related to C?
+- Father
+* Uncle
+- Grandfather
+- Cousin
+W: A is the brother of C's mother, so A is C's maternal uncle.
+
+Q: Ram is the father of Sita's father. How is Ram related to Sita?
+- Father
+- Uncle
+* Grandfather
+- Brother
+W: Ram is the father of her father, so he is her grandfather.
+
+Q: Pointing to a girl, Raj says, "She is my mother's brother's daughter." How is the girl related to Raj?
+- Sister
+- Niece
+- Aunt
+* Cousin
+W: His mother's brother is his uncle. The uncle's daughter is Raj's cousin.
+
+Q: P's mother is the sister of Q's father. How is Q related to P?
+- Brother
+- Uncle
+* Cousin
+- Nephew
+W: Q's father is P's maternal uncle, so Q, the child of that uncle, is P's cousin.
+
+Q: Amit's wife's mother's husband is Amit's
+* Father-in-law
+- Brother-in-law
+- Uncle
+- Son-in-law
+W: His wife's mother's husband is his wife's father, which is his father-in-law.
+
+Q: My father's father's only son's wife is my
+- Aunt
+- Grandmother
+* Mother
+- Sister
+W: My father's father's only son is my father, and his wife is my mother.
+
+Q: A is B's sister. C is B's father. D is C's mother. E is D's father. How is A related to E?
+- Granddaughter
+* Great-granddaughter
+- Daughter
+- Niece
+W: E is D's father, D is C's mother, C is B's father. So E is the great-grandfather of B and of B's sister A.

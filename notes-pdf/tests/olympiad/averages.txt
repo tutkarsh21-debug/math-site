@@ -1,0 +1,70 @@
+@minutes 15
+Q: Find the average of 10, 20, 30 and 40.
+- 20
+* 25
+- 30
+- 35
+W: $\dfrac{10 + 20 + 30 + 40}{4} = \dfrac{100}{4} = 25$.
+
+Q: The average of 12 numbers is 15. What is their sum?
+- 150
+- 170
+* 180
+- 190
+W: Sum $= 12 \times 15 = 180$.
+
+Q: Find the average of the first 10 odd numbers.
+- 5
+- 9
+* 10
+- 11
+W: The sum of the first 10 odd numbers is $10^2 = 100$, so the average is 10.
+
+Q: The average of 6 numbers is 25. The average of 5 of them is 23. Find the sixth number.
+- 30
+* 35
+- 40
+- 45
+W: Total $= 150$, and the five add up to $115$. The sixth number is $150 - 115 = 35$.
+
+Q: 25 boys have an average mark of 40 and 15 girls have an average mark of 60. Find the average of all 40 children.
+- 46
+* 47.5
+- 50
+- 52.5
+W: Total $= 1000 + 900 = 1900$, and $\dfrac{1900}{40} = 47.5$.
+
+Q: A batsman has an average of 40 after 10 innings. He scores 106 in the next innings. What is his new average?
+- 44
+- 45
+* 46
+- 47
+W: Total after 11 innings $= 400 + 106 = 506$, and $\dfrac{506}{11} = 46$.
+
+Q: Find the average of 6, 8, 10, 12 and 14.
+- 8
+* 10
+- 11
+- 12
+W: The numbers are equally spaced, so the average is the middle number, 10.
+
+Q: The average of three numbers is 12. Two of them are 10 and 14. Find the third.
+- 10
+* 12
+- 14
+- 16
+W: Sum $= 36$, and $36 - 24 = 12$.
+
+Q: The average age of 20 students is 15 years. When the teacher's age is included, the average becomes 16 years. Find the teacher's age.
+- 32 years
+- 34 years
+* 36 years
+- 38 years
+W: New total $= 21 \times 16 = 336$ and old total $= 300$. The teacher is $36$.
+
+Q: The average of 60, 70, 80 and $x$ is 70. Find $x$.
+- 60
+* 70
+- 80
+- 90
+W: Total $= 4 \times 70 = 280$, and $280 - 210 = 70$.

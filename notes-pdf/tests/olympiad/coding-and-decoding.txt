@@ -1,0 +1,70 @@
+@minutes 12
+Q: In a code, PEN is written as QFO. How is INK written?
+- JNL
+* JOL
+- IOL
+- JOK
+W: Every letter moves forward by one: I to J, N to O, K to L.
+
+Q: In a code, every letter moves forward by 2 places. How is CAT written?
+- DBU
+* ECV
+- EDV
+- CEV
+W: C to E, A to C, T to V.
+
+Q: How is MAN written in the reverse alphabet (A = Z, B = Y, ...)?
+- NAM
+- MZN
+* NZM
+- LZM
+W: M (13) becomes N (14), A becomes Z, N (14) becomes M (13).
+
+Q: If every letter is replaced by its position number, how is BED written?
+- 245
+* 254
+- 524
+- 2 5 14
+W: B = 2, E = 5, D = 4, so BED is 254.
+
+Q: If a word is coded as the sum of the positions of its letters, what is the code for FAN?
+- 20
+* 21
+- 22
+- 23
+W: $6 + 1 + 14 = 21$.
+
+Q: In a code, every letter has moved forward by one. What does EPH stand for?
+- DOF
+* DOG
+- FQI
+- COG
+W: Move every letter back by one: E to D, P to O, H to G.
+
+Q: In a code, "book is red" is "pa ni ru", "red car" is "ru lo" and "car is big" is "lo ni ze". What is the code for "is"?
+- pa
+- ru
+- lo
+* ni
+W: "is" is in the first and third sentences. The code "ni" is in both of those codes.
+
+Q: In a certain code language, "sun" is called "moon", "moon" is called "star" and "star" is called "sky". What is the thing that shines at night in real life called in this language?
+- sun
+- moon
+* star
+- sky
+W: The moon shines at night. In this language the moon is called "star".
+
+Q: If 1 = A, 2 = B, 3 = C and so on, which word is 9 14 4 9 1?
+* INDIA
+- IDNIA
+- INDAI
+- INDOA
+W: 9 = I, 14 = N, 4 = D, 9 = I, 1 = A. The word is INDIA.
+
+Q: In a code, DELHI is written as EFMIJ. How is AGRA written in the same code?
+- BHRB
+- AHSB
+* BHSB
+- BGSB
+W: Every letter moves forward by one: A to B, G to H, R to S, A to B.

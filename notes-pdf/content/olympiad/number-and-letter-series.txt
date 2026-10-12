@@ -1,0 +1,96 @@
+@class Olympiad
+@board Mental Ability
+@book Olympiad Preparation
+@chapter 1
+@title Number and Letter Series
+@summary How to find the rule behind a number or letter series, with the common patterns, worked examples and practice.
+
+# Reading a number series
+- A **series** is a list of numbers that follows one rule. Find the rule from the first few terms, then use it to find the missing term.
+- First write the **differences** between neighbouring terms. If they are equal, the series is arithmetic.
+- If the differences are not equal, try the **ratios**, then the differences of the differences.
+- Always check the rule on **every** term you were given, not only the first two.
+?eg Find the next term: 4, 9, 14, 19, ?
+= The differences are $5, 5, 5$.
+=> 24
+
+# Common patterns
+| Pattern | Example | Rule |
+| Constant difference | 7, 11, 15, 19 | add 4 each time |
+| Constant ratio | 3, 6, 12, 24 | multiply by 2 |
+| Squares | 1, 4, 9, 16, 25 | $n^2$ |
+| Cubes | 1, 8, 27, 64 | $n^3$ |
+| Square plus or minus one | 2, 5, 10, 17, 26 | $n^2 + 1$ |
+| Growing differences | 1, 2, 4, 7, 11 | add 1, then 2, then 3, then 4 |
+| Sum of the last two | 1, 1, 2, 3, 5, 8 | each term is the sum of the two before it |
+| Primes | 2, 3, 5, 7, 11, 13 | the prime numbers in order |
+?eg Find the next term: 2, 5, 10, 17, 26, ?
+= The terms are $1^2 + 1,\ 2^2 + 1,\ 3^2 + 1,\ 4^2 + 1,\ 5^2 + 1$.
+= The next is $6^2 + 1$.
+=> 37
+?eg Find the next term: 3, 4, 6, 9, 13, ?
+= The differences are $1, 2, 3, 4$, so the next difference is 5.
+=> 18
+
+# Two series mixed together
+- If the terms look unrelated, read the **odd places** and the **even places** as two separate series.
+- Another trick: two operations used one after the other, such as "multiply by 2, then add 1".
+?eg Find the next term: 2, 5, 4, 10, 8, 15, ?
+= The terms in odd places are $2, 4, 8$ and are doubled each time, so the next is 16.
+= The terms in even places are $5, 10, 15$.
+=> 16
+?eg Find the missing term: 1, 3, 7, 15, 31, ?
+= Each term is double the one before it, plus 1.
+=> 63
+
+# Letter series
+- Give every letter its **position**: A = 1, B = 2, ..., Z = 26. Then treat the series as a number series.
+- The letter at position $n$ from the front is the letter at position $27 - n$ from the back: A and Z, B and Y, C and X, and so on.
+- Letter groups usually follow one rule for the first letters, and another rule for the next letters.
+?eg Find the next term: B, E, H, K, ?
+= The positions are $2, 5, 8, 11$, so each step is $+3$. The next position is 14.
+=> N
+?eg Find the next term: AZ, BY, CX, ?
+= The first letters move forward $A, B, C, D$. The second letters move backward $Z, Y, X, W$.
+=> DW
+!tip Write the position numbers under the letters before you look for the rule. It turns every letter series into a number series.
+
+@@formulas
+Arithmetic series | $a,\ a + d,\ a + 2d,\ \ldots$
+Geometric series | $a,\ ar,\ ar^2,\ \ldots$
+Sum of first $n$ natural numbers | $\dfrac{n(n+1)}{2}$
+Sum of first $n$ odd numbers | $n^2$
+Squares to remember | 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144
+Cubes to remember | 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000
+Opposite letter of the one at position $n$ | position $27 - n$
+
+@@dpp
+Q: Find the next term: 5, 8, 11, 14, ?
+A: 17 (add 3 each time).
+
+Q: Find the next term: 2, 6, 18, 54, ?
+A: 162 (multiply by 3 each time).
+
+Q: Find the next term: 1, 4, 9, 16, 25, ?
+A: 36 (the squares of 1, 2, 3, ...).
+
+Q: Find the next term: 0, 3, 8, 15, 24, ?
+A: 35 (the terms are $n^2 - 1$ for $n = 1, 2, 3, \ldots$; the next is $6^2 - 1$).
+
+Q: Find the next term: 1, 2, 4, 7, 11, 16, ?
+A: 22 (the differences are 1, 2, 3, 4, 5, so the next difference is 6).
+
+Q: Find the missing term: 2, 3, 5, 7, 11, ?, 17
+A: 13 (the prime numbers in order).
+
+Q: Find the next term: 1, 1, 2, 3, 5, 8, 13, ?
+A: 21 (each term is the sum of the two before it).
+
+Q: Find the next term: A, C, F, J, ?
+A: O (the positions are 1, 3, 6, 10, 15, with growing steps of 2, 3, 4, 5).
+
+Q: Find the next term: ZA, YB, XC, ?
+A: WD (the first letters go backward and the second letters go forward).
+
+Q: Find the next term: 3, 10, 5, 20, 7, 40, ?
+A: 9 (the odd places are 3, 5, 7, 9 and the even places are 10, 20, 40).

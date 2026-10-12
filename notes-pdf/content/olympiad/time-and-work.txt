@@ -1,0 +1,78 @@
+@class Olympiad
+@board Everyday Mathematics
+@book Olympiad Preparation
+@chapter 14
+@title Time and Work
+@summary One day's work as a fraction, working together, working in turns, sharing wages, and tanks filled or emptied by pipes.
+
+# One day's work
+- Take the whole job as **1**. If a person finishes it in $n$ days, then in **one day** that person does $\dfrac{1}{n}$ of the job.
+- If a person does $\dfrac{1}{n}$ of the job in a day, the whole job takes $n$ days.
+- When people work **together**, add their one-day work. If $A$ takes $a$ days and $B$ takes $b$ days, together they take $\dfrac{ab}{a + b}$ days.
+?eg A can do a piece of work in 10 days and B can do it in 15 days. In how many days will they finish it together?
+= One day: $\dfrac{1}{10} + \dfrac{1}{15} = \dfrac{3 + 2}{30} = \dfrac{1}{6}$.
+=> 6 days
+?eg A and B together can do a job in 12 days. A alone can do it in 20 days. How long will B take alone?
+= B's one day $= \dfrac{1}{12} - \dfrac{1}{20} = \dfrac{5 - 3}{60} = \dfrac{1}{30}$.
+=> 30 days
+
+# Working in turns and sharing wages
+- If someone works for some days and then leaves, subtract what has been done from 1 and give the rest to the others.
+- **Wages** are shared in the ratio of the **work done** by each person.
+?eg A can do a job in 12 days. A works for 4 days and then leaves. B finishes the rest in 8 days. How long would B take to do the whole job?
+= A did $\dfrac{4}{12} = \dfrac{1}{3}$ of the job. The rest is $\dfrac{2}{3}$.
+= B does $\dfrac{2}{3}$ in 8 days, so the whole job takes $8 \times \dfrac{3}{2}$.
+=> 12 days
+?eg A can finish a job in 6 days and B in 12 days. They are paid Rs 900 in all for working together. How much does each get?
+= A does $\dfrac{1}{6}$ and B does $\dfrac{1}{12}$ per day. The ratio is $2 : 1$.
+=> A gets Rs 600 and B gets Rs 300
+
+# Men, days and pipes
+- If the amount of work stays the same, **men $\times$ days** is fixed. More men means fewer days.
+- A pipe that fills a tank in $a$ hours adds $\dfrac{1}{a}$ of the tank in an hour. A pipe that **empties** it takes away $\dfrac{1}{b}$ of the tank in an hour. Treat the outlet as negative work.
+?eg 12 men can build a wall in 10 days. How many days will 8 men take?
+= Work $= 12 \times 10 = 120$ man-days. Days $= \dfrac{120}{8}$.
+=> 15 days
+?eg A pipe fills a tank in 6 hours and another pipe empties it in 12 hours. How long will the tank take to fill if both are open?
+= Net in one hour $= \dfrac{1}{6} - \dfrac{1}{12} = \dfrac{1}{12}$.
+=> 12 hours
+!tip Write the one-day work of each person as a fraction with a common denominator. Then every question becomes addition or subtraction of fractions.
+
+@@formulas
+One day's work | $\dfrac{1}{\text{days taken}}$
+Together | $\dfrac{ab}{a + b}$ days
+Three people | $\dfrac{1}{a} + \dfrac{1}{b} + \dfrac{1}{c}$ per day
+Men and days | $M_1 D_1 = M_2 D_2$
+Wages | in the ratio of work done
+Outlet pipe | counts as negative work
+
+@@dpp
+Q: A can finish a job in 10 days and B in 15 days. In how many days can they finish it together?
+A: 6 days.
+
+Q: A and B together finish a job in 12 days and A alone takes 20 days. How many days will B take alone?
+A: 30 days.
+
+Q: 12 men can build a wall in 10 days. In how many days can 8 men build it?
+A: 15 days.
+
+Q: A can do a job in 12 days. A works for 4 days and B finishes the rest in 8 days. How many days will B take for the whole job?
+A: 12 days.
+
+Q: One pipe fills a tank in 6 hours and another fills it in 12 hours. How long will they take together?
+A: 4 hours.
+
+Q: A pipe fills a tank in 6 hours and an outlet empties it in 12 hours. How long does it take to fill the tank if both are open?
+A: 12 hours.
+
+Q: A can do a job in 6 days and B in 12 days. They are paid Rs 900 for the job together. Find A's share.
+A: Rs 600.
+
+Q: A, B and C can finish a job in 10, 15 and 30 days respectively. In how many days will all three finish it together?
+A: 5 days.
+
+Q: 15 people can complete a task in 8 days. How many people are needed to complete it in 5 days?
+A: 24 people.
+
+Q: A completes $\dfrac{1}{4}$ of a job in 5 days. How long will A take for the whole job?
+A: 20 days.

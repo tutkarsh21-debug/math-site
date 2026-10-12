@@ -1,0 +1,70 @@
+@minutes 15
+Q: Write the ratio $18 : 24$ in its simplest form.
+- $2 : 3$
+* $3 : 4$
+- $4 : 5$
+- $6 : 8$
+W: Dividing both terms by 6 gives $3 : 4$.
+
+Q: Find $x$ if $4 : 7 = 12 : x$.
+- 18
+- 20
+* 21
+- 28
+W: $4x = 7 \times 12 = 84$, so $x = 21$.
+
+Q: Rs 1200 is divided in the ratio $1 : 2 : 3$. What is the largest share?
+- Rs 400
+- Rs 500
+* Rs 600
+- Rs 700
+W: One part is $\dfrac{1200}{6} = 200$. The largest share is $3 \times 200 = 600$.
+
+Q: If $a : b = 3 : 4$ and $b : c = 2 : 5$, what is $a : c$?
+- $3 : 5$
+- $3 : 8$
+* $3 : 10$
+- $6 : 5$
+W: $a : b = 6 : 8$ and $b : c = 8 : 20$, so $a : b : c = 6 : 8 : 20$, and $a : c = 3 : 10$.
+
+Q: 8 men build a wall in 15 days. How many days will 10 men take?
+- 10 days
+* 12 days
+- 14 days
+- 18 days
+W: Work $= 8 \times 15 = 120$ man-days, and $\dfrac{120}{10} = 12$.
+
+Q: 12 notebooks cost Rs 96. What is the cost of 20 notebooks?
+- Rs 144
+- Rs 150
+* Rs 160
+- Rs 180
+W: One notebook costs Rs 8, so 20 cost Rs 160.
+
+Q: Find the fourth proportional to 2, 3 and 8.
+- 10
+* 12
+- 16
+- 24
+W: $d = \dfrac{3 \times 8}{2} = 12$.
+
+Q: The ages of a father and his son are in the ratio $7 : 2$ and their sum is 63 years. What is the son's age?
+- 12 years
+* 14 years
+- 16 years
+- 18 years
+W: One part is $\dfrac{63}{9} = 7$, and the son is $2 \times 7 = 14$.
+
+Q: In 20 litres of a mixture, milk and water are in the ratio $3 : 2$. How much water is there?
+- 6 litres
+* 8 litres
+- 10 litres
+- 12 litres
+W: One part is $\dfrac{20}{5} = 4$ litres, so water is $2 \times 4 = 8$ litres.
+
+Q: Which four numbers are in proportion?
+* 2, 3, 4, 6
+- 2, 3, 4, 5
+- 3, 4, 5, 6
+- 1, 2, 3, 5
+W: $2 : 3 = 4 : 6$ because $2 \times 6 = 3 \times 4 = 12$.

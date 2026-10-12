@@ -203,7 +203,7 @@ function page(meta, label, subtitle, body) {
 ${[500, 600, 700].map(w => `<link rel="stylesheet" href="${cssUrl(`@fontsource/quicksand/${w}.css`)}">`).join('')}
 <link rel="stylesheet" href="${cssUrl('katex/dist/katex.min.css')}">
 <link rel="stylesheet" href="${pathToFileURL(path.join(here, 'style.css')).href}">
-<style>@page{@bottom-left{content:"MathSetu  ·  ${SITE}"}@bottom-center{content:"Telegram: ${TELEGRAM}  ·  ${EMAIL}"}@bottom-right{content:"Page " counter(page) " of " counter(pages)}}</style>
+<style>@page{@bottom-left{content:"MathSetu  ·  ${SITE}"}@bottom-center{content:"Free maths notes, tests and doubts at ${SITE}"}@bottom-right{content:"Page " counter(page) " of " counter(pages)}}</style>
 </head><body>
 <div class="wm">MathSetu</div>
 <div class="hdr"><span class="brand">${LOGO}MathSetu</span><span>${esc(where)}</span></div>
