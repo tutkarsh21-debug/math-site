@@ -13,6 +13,24 @@ export default function Olympiad() {
       <h1>SOF IMO Preparation (Class 8-10)</h1>
       <p>Exam dates and pattern change every year. Always confirm them on the official SOF website.</p>
     </div></div>
+    <section className="oly-all"><div className="wrap">
+      <h2>All Olympiad topics at a glance</h2>
+      <p className="oly-lead">Tap any topic for its short notes, quick rules, DPP and a timed test.</p>
+      {OLY_GROUPS.map((g, i) => (<div key={g.id} className={`oly-grp g${i + 1}`}>
+        <h3>{g.title} <span className="muted small">· {g.topics.length} topics</span></h3>
+        {g.id === 'hots' ? (<>
+          <p className="oly-sub">A set for every chapter, with a class-wise mixed set first.</p>
+          {['Class 8', 'Class 9', 'Class 10'].map(c => (<Fragment key={c}>
+            <h4>{c}</h4>
+            <div className="chips">{g.topics.filter(t => t.cls === c).map(t => (
+              <Link key={t.slug} href={`/olympiad/${t.slug}`}>{t.mixed ? 'Mixed set' : t.title.replace(/^HOTS: /, '').replace(/ \(Class \d+\)$/, '')}</Link>))}</div>
+          </Fragment>))}
+        </>) : (<>
+          <p className="oly-sub">{g.intro}</p>
+          <div className="chips">{g.topics.map(t => <Link key={t.slug} href={`/olympiad/${t.slug}`}>{t.title}</Link>)}</div>
+        </>)}
+      </div>))}
+    </div></section>
     <div className="wrap prose">
       <h2 style={{marginTop:0}}>How to prepare</h2>
       <ul><li>Finish the school syllabus first.</li><li>Practise logical reasoning and number patterns daily.</li>

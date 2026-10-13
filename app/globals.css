@@ -1276,3 +1276,16 @@ button.wk-card:hover{border-color:var(--sun)}
 .a-twinkle{animation:h5tw 1.8s ease-in-out infinite;transform-origin:50% 50%}
 @keyframes h5tw{50%{transform:scale(1.3) rotate(12deg);opacity:.6}}
 @media(prefers-reduced-motion:reduce){.h5-svg *{animation:none!important}.h5-wipe{width:290px}.h5-pen{display:none}.a-check{stroke-dashoffset:0}.a-draw{stroke-dashoffset:0}.a-opt.o2{fill:#d6f2e0;stroke:#1c8a55}}
+
+/* Olympiad: every topic at a glance */
+.oly-all{background:var(--soft);border-bottom:1px solid var(--line);padding:1.8rem 0 2rem}
+.oly-all h2{margin:0 0 .3rem}
+.oly-all .oly-lead{color:var(--muted);margin:0 0 1.2rem;max-width:46rem}
+.oly-grp{border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem 1.1rem;margin-bottom:1rem;background:var(--card)}
+.oly-grp.g1{background:var(--t1)}.oly-grp.g2{background:var(--t2)}.oly-grp.g3{background:var(--t3)}
+.oly-grp h3{margin:0 0 .15rem;font-size:1.05rem}
+.oly-grp h4{margin:.9rem 0 .4rem;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brand-text)}
+.oly-grp .oly-sub{margin:0 0 .6rem;color:var(--muted);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chips a{display:inline-block;background:var(--card);color:var(--fg);border:1.5px solid var(--brand);border-radius:99px;padding:.3rem .8rem;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .15s,transform .15s}
+.chips a:hover{background:var(--brand);color:var(--on-brand);transform:translateY(-1px)}
