@@ -1,0 +1,56 @@
+@minutes 12
+Q: The angle of elevation of the top of a tower from a point 20 m from its foot is $45^\circ$. The height of the tower is
+- 10 m
+* 20 m
+- $20\sqrt{3}$ m
+- $\dfrac{20}{\sqrt{3}}$ m
+W: $h = 20 \tan 45^\circ = 20$ m.
+
+Q: The shadow of a pole is equal to its height. The angle of elevation of the sun is
+- $30^\circ$
+* $45^\circ$
+- $60^\circ$
+- $90^\circ$
+W: $\tan\theta = \dfrac{h}{h} = 1$, so $\theta = 45^\circ$.
+
+Q: A ladder 10 m long reaches a window 5 m above the ground. The angle that the ladder makes with the ground is
+* $30^\circ$
+- $45^\circ$
+- $60^\circ$
+- $75^\circ$
+W: $\sin\theta = \dfrac{5}{10} = \dfrac{1}{2}$, so $\theta = 30^\circ$.
+
+Q: From the top of a 30 m high tower the angle of depression of a car on the ground is $60^\circ$. The distance of the car from the foot of the tower is
+- 30 m
+- $30\sqrt{3}$ m
+* $10\sqrt{3}$ m
+- 60 m
+W: The distance is $\dfrac{30}{\tan 60^\circ} = \dfrac{30}{\sqrt{3}} = 10\sqrt{3}$ m.
+
+Q: The angle of elevation of the top of a tower is $30^\circ$. After walking 20 m towards it the angle is $60^\circ$. The height of the tower is
+- 10 m
+* $10\sqrt{3}$ m
+- $20\sqrt{3}$ m
+- 20 m
+W: With $x$ the new distance, $h = \sqrt{3}\,x$ and $\sqrt{3}\,h = x + 20$, so $3x = x + 20$, $x = 10$ and $h = 10\sqrt{3}$.
+
+Q: A kite flies at a height of 60 m with its string making an angle of $30^\circ$ with the ground. The length of the string, if straight, is
+- 30 m
+- $60\sqrt{3}$ m
+* 120 m
+- 90 m
+W: $\sin 30^\circ = \dfrac{60}{L}$, so $L = 120$ m.
+
+Q: A man on a 75 m high lighthouse sees a ship due west at an angle of depression of $45^\circ$. The ship is at a distance from the foot of the lighthouse of
+- $\dfrac{75}{\sqrt{3}}$ m
+* 75 m
+- $75\sqrt{3}$ m
+- 150 m
+W: Distance $= \dfrac{75}{\tan 45^\circ} = 75$ m.
+
+Q: Two poles of equal height stand on either side of a road 80 m wide. At a point on the road the angles of elevation of the tops are $60^\circ$ and $30^\circ$. The point is nearer to the pole of elevation $60^\circ$ and its distance from it is
+* 20 m
+- 30 m
+- 40 m
+- 60 m
+W: $\sqrt{3}\,x = \dfrac{80 - x}{\sqrt{3}}$ gives $3x = 80 - x$, so $x = 20$ m.

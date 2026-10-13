@@ -1,0 +1,58 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 5
+@title HOTS: Arithmetic Progressions (Class 10)
+@summary Higher order thinking questions on arithmetic progressions for Class 10: sums of multiples, relations between terms, finding an AP from two sums and three numbers in AP, each with a full solution.
+
+# Solved HOTS questions
+- For an AP with first term $a$ and common difference $d$: $a_n = a + (n - 1)d$ and $S_n = \dfrac{n}{2}\,[2a + (n - 1)d] = \dfrac{n}{2}(a + l)$. A condition on terms usually gives one equation in $a$ and $d$.
+?eg Find the sum of all two-digit numbers which are divisible by 7.
+= The numbers are $14, 21, 28, \ldots, 98$, an AP with $a = 14$, $d = 7$ and $l = 98$.
+= $98 = 14 + (n - 1) \times 7$, so $n = 13$.
+= $S_{13} = \dfrac{13}{2}(14 + 98) = \dfrac{13 \times 112}{2}$.
+=> 728
+?eg The 4th term of an AP is 0. Show that its 25th term is three times its 11th term.
+= $a_4 = a + 3d = 0$, so $a = -3d$.
+= $a_{25} = a + 24d = 21d$ and $a_{11} = a + 10d = 7d$.
+= $21d = 3 \times 7d$.
+=> $a_{25} = 3\,a_{11}$
+?eg The sum of the first 7 terms of an AP is 49 and the sum of the first 17 terms is 289. Find the sum of the first $n$ terms.
+= $S_7 = \dfrac{7}{2}(2a + 6d) = 49$, so $a + 3d = 7$.
+= $S_{17} = \dfrac{17}{2}(2a + 16d) = 289$, so $a + 8d = 17$.
+= Subtracting: $5d = 10$, so $d = 2$ and $a = 1$.
+= $S_n = \dfrac{n}{2}[2 + (n - 1) \times 2] = n^2$.
+=> $S_n = n^2$
+?eg Three numbers are in AP. Their sum is 21 and their product is 315. Find the numbers.
+= Take the numbers as $a - d$, $a$ and $a + d$. The sum is $3a = 21$, so $a = 7$.
+= The product is $7(49 - d^2) = 315$, so $49 - d^2 = 45$ and $d = \pm 2$.
+=> 5, 7, 9 (or 9, 7, 5)
+?eg Ramkali saves Rs 5 in the first week, and then increases her weekly saving by Rs 1.75. In which week will she save Rs 20.75?
+= The savings form an AP with $a = 5$ and $d = 1.75$.
+= $20.75 = 5 + (n - 1) \times 1.75$, so $n - 1 = \dfrac{15.75}{1.75} = 9$.
+=> The 10th week
+
+@@dpp
+Q: Find the sum of all three-digit numbers divisible by 9.
+A: 55 350 (the numbers are $108, 117, \ldots, 999$, which are 100 numbers).
+
+Q: The 9th term of an AP is 0. Show that its 29th term is twice its 19th term.
+A: $a = -8d$, so $a_{29} = 20d$ and $a_{19} = 10d$.
+
+Q: The sum of the first 5 terms of an AP is 40 and the sum of the first 12 terms is 222. Find the AP.
+A: $a = 2$ and $d = 3$, so the AP is $2, 5, 8, 11, \ldots$
+
+Q: Three numbers are in AP with sum 27 and product 693. Find them.
+A: 7, 9, 11 (or 11, 9, 7).
+
+Q: Find the sum of all multiples of 6 between 100 and 200.
+A: 2550 (17 terms from 102 to 198).
+
+Q: Which term of the AP $21, 42, 63, \ldots$ is 420?
+A: The 20th term.
+
+Q: A sum of Rs 700 is to be used to give seven cash prizes, each prize Rs 20 less than the one before. Find the value of the first prize.
+A: Rs 160.
+
+Q: A person starts a job at Rs 8000 a month and the salary rises by Rs 500 each year. What is the monthly salary in the 6th year?
+A: Rs 10 500.

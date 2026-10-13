@@ -1,0 +1,56 @@
+@minutes 12
+Q: Three bells ring at intervals of 10, 15 and 25 minutes. After how many minutes do they ring together again?
+- 50
+- 75
+* 150
+- 300
+W: The LCM of 10, 15 and 25 is $2 \times 3 \times 5^2 = 150$.
+
+Q: The HCF of 135 and 225 is
+- 15
+- 25
+* 45
+- 75
+W: $135 = 3^3 \times 5$ and $225 = 3^2 \times 5^2$, so $\text{HCF} = 3^2 \times 5 = 45$.
+
+Q: The smallest number which leaves remainder 7 when divided by 9, 15 and 21 is
+- 315
+* 322
+- 630
+- 637
+W: $\text{LCM}(9, 15, 21) = 315$, so the number is $315 + 7 = 322$.
+
+Q: Which of these fractions has a terminating decimal expansion?
+- $\dfrac{13}{30}$
+- $\dfrac{17}{12}$
+* $\dfrac{13}{3125}$
+- $\dfrac{11}{21}$
+W: $3125 = 5^5$, so the denominator has only the prime factor 5. The others have 3 or 7 in the denominator.
+
+Q: The HCF of two numbers is 6 and their LCM is 84. If one number is 42, the other is
+- 6
+* 12
+- 14
+- 24
+W: Product $= 6 \times 84 = 504$, and $\dfrac{504}{42} = 12$.
+
+Q: Which of these is irrational?
+- $7 + \sqrt{16}$
+- $\dfrac{22}{7}$
+* $7 + \sqrt{3}$
+- $\sqrt{49}$
+W: $7 + \sqrt{3}$ is a rational number plus an irrational number, so it is irrational. The others are rational.
+
+Q: The largest number that divides 1251, 9377 and 15628 leaving remainders 1, 2 and 3 respectively is
+- 125
+- 250
+* 625
+- 1250
+W: It is the HCF of $1250$, $9375$ and $15625$, which is 625.
+
+Q: For which natural numbers $n$ does $6^n$ end with the digit 0?
+- All $n$
+- Even $n$ only
+- Only $n = 5$
+* No natural number $n$
+W: $6^n = 2^n \times 3^n$ has no factor 5, so it can never end in 0.

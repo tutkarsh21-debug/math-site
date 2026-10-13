@@ -1,0 +1,56 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 11
+@title HOTS: Areas Related to Circles (Class 10)
+@summary Higher order thinking questions on areas related to circles for Class 10: sectors, arcs, segments, rings, clock hands and combined figures, each with a full solution.
+
+# Solved HOTS questions
+- Formulas: circumference $2\pi r$, area $\pi r^2$. For a sector of angle $\theta$: arc length $= \dfrac{\theta}{360} \times 2\pi r$ and area $= \dfrac{\theta}{360} \times \pi r^2$. Area of a segment $=$ area of the sector $-$ area of the triangle. Take $\pi = \dfrac{22}{7}$ unless told otherwise.
+?eg A circle is drawn inside a square of side 14 cm so that it touches all four sides. Find the area of the part of the square outside the circle.
+= The radius of the circle is 7 cm, so its area is $\dfrac{22}{7} \times 49 = 154$ square cm.
+= The area of the square is $14 \times 14 = 196$.
+= The area outside the circle is $196 - 154$.
+=> 42 square cm
+?eg The minute hand of a clock is 14 cm long. Find the area swept by it in 5 minutes.
+= In 5 minutes the minute hand turns through $\dfrac{5}{60} \times 360^\circ = 30^\circ$.
+= The area is $\dfrac{30}{360} \times \dfrac{22}{7} \times 14 \times 14 = \dfrac{1}{12} \times 616$.
+=> $\dfrac{154}{3}$ square cm, about 51.3 square cm
+?eg A sector of a circle of radius 21 cm has an angle of $60^\circ$. Find the length of its arc and its area.
+= Arc length $= \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132 = 22$ cm.
+= Area $= \dfrac{1}{6} \times \dfrac{22}{7} \times 21 \times 21 = \dfrac{1}{6} \times 1386 = 231$ square cm.
+=> Arc 22 cm and area 231 square cm
+?eg A circular track is a ring. The circumference of the inner edge is 352 m and that of the outer edge is 396 m. Find the width of the track.
+= Let the radii be $r$ and $R$. $2\pi r = 352$ and $2\pi R = 396$, so $2\pi(R - r) = 44$.
+= $2\pi = \dfrac{44}{7}$, so $R - r = 44 \div \dfrac{44}{7} = 7$.
+=> 7 m
+?eg A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the minor segment (use $\pi = 3.14$).
+= Area of the sector $= \dfrac{90}{360} \times 3.14 \times 100 = 78.5$ square cm.
+= The triangle formed by the radii and the chord has area $\dfrac{1}{2} \times 10 \times 10 = 50$ square cm.
+= The segment is the sector minus the triangle: $78.5 - 50$.
+=> 28.5 square cm
+
+@@dpp
+Q: A circle is drawn inside a square of side 28 cm touching all four sides. Find the area of the part of the square outside the circle.
+A: 168 square cm.
+
+Q: The minute hand of a clock is 21 cm long. Find the area swept by it in 10 minutes.
+A: 231 square cm.
+
+Q: Find the length of the arc and the area of a sector of angle $90^\circ$ in a circle of radius 7 cm.
+A: Arc 11 cm and area 38.5 square cm.
+
+Q: The circumference of the inner edge of a circular track is 308 m and that of the outer edge is 330 m. Find the width of the track.
+A: 3.5 m.
+
+Q: A chord of a circle of radius 6 cm subtends an angle of $60^\circ$ at the centre. Find the area of the minor segment (use $\pi = 3.14$ and $\sqrt{3} = 1.73$).
+A: 3.27 square cm approximately.
+
+Q: Find the perimeter and the area of a semicircle of diameter 14 cm.
+A: Perimeter 36 cm and area 77 square cm.
+
+Q: Find the radius of the circle whose area is equal to the sum of the areas of two circles of radii 6 cm and 8 cm.
+A: 10 cm.
+
+Q: The wheel of a cycle has radius 35 cm. How far does it travel in 100 revolutions?
+A: 220 m.

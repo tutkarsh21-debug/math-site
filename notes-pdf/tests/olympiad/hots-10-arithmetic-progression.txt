@@ -1,0 +1,56 @@
+@minutes 12
+Q: How many two-digit numbers are divisible by 3?
+- 29
+* 30
+- 31
+- 33
+W: The numbers $12, 15, \ldots, 99$ form an AP with $99 = 12 + (n - 1) \times 3$, so $n = 30$.
+
+Q: The 4th term of an AP is 0. The ratio of its 25th term to its 11th term is
+- 2
+* 3
+- 4
+- 5
+W: $a = -3d$, so $a_{25} = 21d$ and $a_{11} = 7d$, and the ratio is 3.
+
+Q: The sum of the first $n$ terms of an AP is $2n^2 + 3n$. Its 10th term is
+- 37
+* 41
+- 43
+- 50
+W: $a_n = S_n - S_{n-1} = 4n + 1$, so $a_{10} = 41$.
+
+Q: Three numbers in AP have sum 15 and product 105. The largest number is
+- 5
+- 6
+* 7
+- 9
+W: The numbers are $5 - d$, 5, $5 + d$ with $25 - d^2 = 21$, so $d = \pm 2$. The numbers are 3, 5, 7.
+
+Q: The sum of the first 20 terms of the AP $5, 8, 11, \ldots$ is
+- 590
+- 640
+* 670
+- 710
+W: $S_{20} = \dfrac{20}{2}[10 + 19 \times 3] = 10 \times 67 = 670$.
+
+Q: The 30th term of the AP $10, 7, 4, \ldots$ is
+- $-67$
+- $-74$
+* $-77$
+- $-80$
+W: $a_{30} = 10 + 29 \times (-3) = -77$.
+
+Q: If $2k$, $k + 10$ and $3k + 2$ are three consecutive terms of an AP, then $k =$
+- 4
+* 6
+- 8
+- 10
+W: In an AP, twice the middle term equals the sum of the other two: $2(k + 10) = 2k + (3k + 2)$, so $2k + 20 = 5k + 2$ and $k = 6$.
+
+Q: The sum of the first 15 multiples of 8 is
+- 840
+- 900
+* 960
+- 1080
+W: $8 + 16 + \cdots + 120 = 8 \times \dfrac{15 \times 16}{2} = 960$.

@@ -1,0 +1,56 @@
+@minutes 12
+Q: If $\tan\theta = \dfrac{3}{4}$, then $\sin\theta + \cos\theta =$
+- $\dfrac{3}{5}$
+- $\dfrac{4}{5}$
+* $\dfrac{7}{5}$
+- $\dfrac{12}{5}$
+W: The sides are 3, 4 and 5, so $\sin\theta = \dfrac{3}{5}$, $\cos\theta = \dfrac{4}{5}$ and the sum is $\dfrac{7}{5}$.
+
+Q: If $\sin\theta = \dfrac{5}{13}$, then $\tan\theta =$
+- $\dfrac{5}{13}$
+* $\dfrac{5}{12}$
+- $\dfrac{12}{5}$
+- $\dfrac{13}{12}$
+W: The sides are 5, 12 and 13, so $\tan\theta = \dfrac{5}{12}$.
+
+Q: If $\sec\theta = \dfrac{5}{3}$, then $\tan\theta =$
+- $\dfrac{3}{4}$
+* $\dfrac{4}{3}$
+- $\dfrac{3}{5}$
+- $\dfrac{5}{4}$
+W: $\tan^2\theta = \sec^2\theta - 1 = \dfrac{25}{9} - 1 = \dfrac{16}{9}$, so $\tan\theta = \dfrac{4}{3}$.
+
+Q: The value of $(1 + \tan^2\theta)\cos^2\theta$ is
+- 0
+* 1
+- $\sin^2\theta$
+- $\tan^2\theta$
+W: $1 + \tan^2\theta = \sec^2\theta$, and $\sec^2\theta \cos^2\theta = 1$.
+
+Q: The value of $\sin 45^\circ \cos 45^\circ$ is
+- 1
+- $\dfrac{1}{\sqrt{2}}$
+* $\dfrac{1}{2}$
+- $\dfrac{\sqrt{3}}{2}$
+W: $\dfrac{1}{\sqrt{2}} \times \dfrac{1}{\sqrt{2}} = \dfrac{1}{2}$.
+
+Q: The value of $\dfrac{\sin 20^\circ}{\cos 70^\circ}$ is
+- 0
+* 1
+- $\dfrac{1}{2}$
+- 2
+W: $\cos 70^\circ = \sin 20^\circ$ because $20^\circ + 70^\circ = 90^\circ$.
+
+Q: If $\sin A = \cos A$ for an acute angle $A$, then $\sec^2 A =$
+- 1
+* 2
+- 3
+- 4
+W: $A = 45^\circ$, and $\sec^2 45^\circ = (\sqrt{2})^2 = 2$.
+
+Q: If $\sin\theta + \cos\theta = \sqrt{2}$, then $\tan\theta + \cot\theta =$
+- 1
+* 2
+- $\sqrt{2}$
+- 4
+W: Squaring gives $1 + 2\sin\theta\cos\theta = 2$, so $\sin\theta\cos\theta = \dfrac{1}{2}$. Then $\tan\theta + \cot\theta = \dfrac{1}{\sin\theta\cos\theta} = 2$.

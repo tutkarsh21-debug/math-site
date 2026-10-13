@@ -1,0 +1,56 @@
+@minutes 12
+Q: The point on the x-axis equidistant from $(3, 2)$ and $(-5, -2)$ is
+- $(-2, 0)$
+- $(-3, 0)$
+* $(-1, 0)$
+- $(3, 0)$
+W: Let the point be $(x, 0)$. $(x - 3)^2 + 4 = (x + 5)^2 + 4$ gives $-6x + 9 = 10x + 25$, so $x = -1$.
+
+Q: The point which divides the segment joining $(1, 3)$ and $(4, 6)$ in the ratio $2 : 1$ is
+- $(2, 4)$
+* $(3, 5)$
+- $(2.5, 4.5)$
+- $(3, 4)$
+W: $\left(\dfrac{2 \times 4 + 1 \times 1}{3},\ \dfrac{2 \times 6 + 1 \times 3}{3}\right) = (3, 5)$.
+
+Q: The points $(1, 1)$, $(3, k)$ and $(5, 5)$ are collinear. Then $k =$
+- 2
+* 3
+- 4
+- 5
+W: The points $(1, 1)$ and $(5, 5)$ lie on the line $y = x$, so $k = 3$.
+
+Q: The midpoint of the segment joining $(2a, 4)$ and $(-2, 2b)$ is $(1, 2a + 1)$. Then $a + b =$
+- 1
+- 3
+- 4
+* 5
+W: From the x-coordinates $\dfrac{2a - 2}{2} = 1$, so $a = 2$. From the y-coordinates $\dfrac{4 + 2b}{2} = 2a + 1 = 5$, so $b = 3$. Hence $a + b = 5$.
+
+Q: The area of the triangle with vertices $(0, 0)$, $(6, 0)$ and $(0, 8)$ is
+- 14 square units
+- 36 square units
+* 24 square units
+- 48 square units
+W: It is a right triangle with legs 6 and 8, so the area is $\dfrac{1}{2} \times 6 \times 8 = 24$.
+
+Q: The distance of the point $(5, 12)$ from the origin is
+- 7
+- 12
+* 13
+- 17
+W: $\sqrt{25 + 144} = 13$.
+
+Q: The ratio in which the y-axis divides the segment joining $(-4, 5)$ and $(6, -3)$ is
+- $3 : 2$
+* $2 : 3$
+- $1 : 2$
+- $4 : 6$
+W: With ratio $k : 1$ the x-coordinate is $\dfrac{6k - 4}{k + 1} = 0$, so $k = \dfrac{2}{3}$ and the ratio is $2 : 3$.
+
+Q: A point $(x, y)$ is equidistant from $(0, 0)$ and $(4, 0)$. Then
+- $x = 0$
+- $y = 2$
+* $x = 2$
+- $x + y = 4$
+W: $x^2 + y^2 = (x - 4)^2 + y^2$ gives $8x = 16$, so $x = 2$.

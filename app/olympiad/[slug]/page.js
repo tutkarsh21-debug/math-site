@@ -29,7 +29,7 @@ export default async function OlympiadTopic({ params }) {
   const { slug } = await params, t = findOlyTopic(slug); if (!t) notFound();
   const ready = PDFS[`olympiad/${slug}`] || [], test = TESTS[`olympiad/${slug}`];
   const tabs = TABS.filter(x => ready.includes(x.file));
-  const same = t.group.topics, i = same.findIndex(x => x.slug === slug), prev = same[i - 1], next = same[i + 1];
+  const same = t.cls ? t.group.topics.filter(x => x.cls === t.cls) : t.group.topics, i = same.findIndex(x => x.slug === slug), prev = same[i - 1], next = same[i + 1];
   return (<>
     <JsonLd data={breadcrumbs([['Olympiad', '/olympiad'], [t.title, `/olympiad/${slug}`]])} />
     <JsonLd data={{ '@context': 'https://schema.org', '@type': 'LearningResource', name: `${t.title}: ${t.group.title}`, url: `${SITE.url}/olympiad/${slug}`,
@@ -37,7 +37,7 @@ export default async function OlympiadTopic({ params }) {
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/olympiad">Olympiad</Link><span>/</span>{t.title}</div>
       <h1>{t.title}</h1>
-      <p><span className="tag">{t.group.tab}</span></p>
+      <p><span className="tag">{t.group.tab}</span>{t.cls && <span className="tag">{t.cls}</span>}</p>
       <p style={{marginTop:'.6rem'}}>{t.summary}</p>
     </div></div>
     <div className="wrap chapter">
@@ -73,7 +73,7 @@ export default async function OlympiadTopic({ params }) {
         </p>
       </article>
       <aside className="side">
-        <div className="card"><h3>{t.group.title}</h3>
+        <div className="card"><h3>{t.cls ? `HOTS ${t.cls}` : t.group.title}</h3>
           {same.map(x => <Link key={x.slug} href={`/olympiad/${x.slug}`} aria-current={x.slug === slug ? 'page' : undefined}>{x.title}</Link>)}</div>
       </aside>
     </div>

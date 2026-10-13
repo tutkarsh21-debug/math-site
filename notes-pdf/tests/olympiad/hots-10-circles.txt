@@ -1,0 +1,56 @@
+@minutes 12
+Q: PA and PB are tangents from P to a circle with centre O and $\angle APB = 80^\circ$. Then $\angle AOB =$
+- $80^\circ$
+- $90^\circ$
+* $100^\circ$
+- $110^\circ$
+W: In quadrilateral OAPB the angles at A and B are $90^\circ$, so $\angle AOB = 360^\circ - 180^\circ - 80^\circ = 100^\circ$.
+
+Q: A point P is 13 cm from the centre of a circle of radius 5 cm. The length of the tangent from P is
+- 8 cm
+- 10 cm
+* 12 cm
+- 18 cm
+W: $\sqrt{13^2 - 5^2} = 12$ cm.
+
+Q: A quadrilateral ABCD is drawn around a circle. If $AB = 7$, $BC = 9$ and $CD = 5$, then $AD =$
+- 2
+* 3
+- 4
+- 21
+W: $AB + CD = BC + AD$ gives $12 = 9 + AD$, so $AD = 3$.
+
+Q: Two concentric circles have radii 5 cm and 3 cm. A chord of the larger circle touches the smaller. Its length is
+- 4 cm
+- 6 cm
+* 8 cm
+- 10 cm
+W: Half the chord is $\sqrt{25 - 9} = 4$ cm, so the chord is 8 cm.
+
+Q: The tangent from a point 25 cm from the centre is 24 cm long. The radius of the circle is
+- 5 cm
+* 7 cm
+- 9 cm
+- 12 cm
+W: $r = \sqrt{25^2 - 24^2} = 7$ cm.
+
+Q: The angle between a tangent to a circle and the radius at the point of contact is
+- $0^\circ$
+- $45^\circ$
+* $90^\circ$
+- $180^\circ$
+W: A tangent is perpendicular to the radius at the point of contact.
+
+Q: From an outside point, the number of tangents that can be drawn to a circle is
+- 1
+* 2
+- 3
+- Infinite
+W: Exactly two tangents can be drawn from a point outside a circle.
+
+Q: PA and PB are tangents from P and $PA = 7$ cm. Then $PB =$
+- 3.5 cm
+* 7 cm
+- 14 cm
+- 49 cm
+W: Tangents from an outside point are equal in length.

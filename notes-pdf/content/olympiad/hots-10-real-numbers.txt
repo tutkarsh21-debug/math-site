@@ -1,0 +1,59 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 1
+@title HOTS: Real Numbers (Class 10)
+@summary Higher order thinking questions on real numbers for Class 10: HCF and LCM in real situations, Euclid's algorithm, irrational numbers and decimal expansions, each with a full solution.
+
+# Solved HOTS questions
+- Try each question for five minutes before reading the solution. The hidden first step is usually "turn the story into an HCF or an LCM".
+?eg Three bells ring at intervals of 12, 15 and 20 minutes. They ring together at 8:00 am. When will they next ring together?
+= They ring together again after a time that is a multiple of 12, 15 and 20 minutes, so after the LCM.
+= $12 = 2^2 \times 3$, $15 = 3 \times 5$, $20 = 2^2 \times 5$, so $\text{LCM} = 2^2 \times 3 \times 5 = 60$ minutes.
+=> At 9:00 am
+?eg Show that $5 - 2\sqrt{3}$ is irrational.
+= Suppose $5 - 2\sqrt{3} = r$ is rational.
+= Then $\sqrt{3} = \dfrac{5 - r}{2}$, which is rational, because $r$ is rational.
+= But $\sqrt{3}$ is irrational. This contradiction shows that the assumption was wrong.
+=> $5 - 2\sqrt{3}$ is irrational
+?eg Use Euclid's algorithm to find the HCF of 1260 and 7344.
+= $7344 = 5 \times 1260 + 1044$.
+= $1260 = 1 \times 1044 + 216$.
+= $1044 = 4 \times 216 + 180$.
+= $216 = 1 \times 180 + 36$.
+= $180 = 5 \times 36 + 0$.
+=> 36
+?eg Find the smallest number which leaves remainder 5 when divided by 12, 15 and 18.
+= The number minus 5 must be a multiple of 12, 15 and 18, so find their LCM.
+= $12 = 2^2 \times 3$, $15 = 3 \times 5$, $18 = 2 \times 3^2$, so $\text{LCM} = 2^2 \times 3^2 \times 5 = 180$.
+= The smallest such number is $180 + 5$.
+=> 185
+?eg Without long division, say whether $\dfrac{129}{2^2 \times 5^7 \times 7^5}$ has a terminating decimal expansion.
+= A fraction in lowest terms terminates only if its denominator has no prime factors other than 2 and 5.
+= The denominator contains $7^5$, and 129 $= 3 \times 43$ has no factor 7 to cancel it.
+=> It does not terminate. It is a non-terminating repeating decimal.
+
+@@dpp
+Q: Three bells ring at intervals of 8, 12 and 18 minutes. After how many minutes do they ring together again?
+A: 72 minutes.
+
+Q: Is $3\sqrt{2} + 5$ rational or irrational?
+A: Irrational (if it were rational, $\sqrt{2}$ would be rational).
+
+Q: Find the smallest number which leaves remainder 3 when divided by 8, 12 and 20.
+A: 123 ($\text{LCM} = 120$).
+
+Q: Use Euclid's algorithm to find the HCF of 867 and 255.
+A: 51.
+
+Q: Write the decimal expansion of $\dfrac{13}{200}$ without long division by first making the denominator a power of 10.
+A: 0.065.
+
+Q: If $a = 2^3 \times 3^2$ and $b = 2^2 \times 3^3 \times 5$, find $\text{HCF}(a, b)$ and $\text{LCM}(a, b)$.
+A: HCF = 36 and LCM = 1080.
+
+Q: Find the largest number which divides 70 and 125 leaving remainders 5 and 8 respectively.
+A: 13 (the HCF of 65 and 117).
+
+Q: The product of two numbers is 2160 and their HCF is 12. Find their LCM.
+A: 180.

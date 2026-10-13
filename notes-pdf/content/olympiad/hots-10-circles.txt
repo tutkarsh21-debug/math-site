@@ -1,0 +1,52 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 10
+@title HOTS: Circles (Class 10)
+@summary Higher order thinking questions on tangents to a circle for Class 10: angles between tangents, lengths of tangents, quadrilaterals around a circle and concentric circles, each with a full solution.
+
+# Solved HOTS questions
+- Facts: a tangent is perpendicular to the radius at the point of contact; the two tangents from an outside point are equal in length; and a quadrilateral drawn around a circle has $AB + CD = BC + DA$. Join the centre to the points of contact and you get right triangles.
+?eg Two tangents PA and PB are drawn from an outside point P to a circle with centre O. If $\angle APB = 80^\circ$, find $\angle POA$.
+= $\angle OAP = \angle OBP = 90^\circ$, so in quadrilateral OAPB: $\angle AOB = 360^\circ - 90^\circ - 90^\circ - 80^\circ = 100^\circ$.
+= OP bisects $\angle AOB$, so $\angle POA = 50^\circ$.
+=> $50^\circ$
+?eg A point P is 13 cm from the centre of a circle of radius 5 cm. Find the length of a tangent from P to the circle.
+= The radius to the point of contact is perpendicular to the tangent, so $PT^2 = OP^2 - r^2 = 169 - 25 = 144$.
+=> 12 cm
+?eg A quadrilateral ABCD is drawn around a circle. If $AB = 6$ cm, $BC = 7$ cm and $CD = 4$ cm, find $AD$.
+= For a quadrilateral around a circle, $AB + CD = BC + AD$.
+= $6 + 4 = 7 + AD$.
+=> 3 cm
+?eg Two concentric circles have radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle.
+= The chord touches the smaller circle, so the radius of the smaller circle to the point of contact is perpendicular to the chord and bisects it.
+= Half the chord is $\sqrt{5^2 - 3^2} = 4$.
+=> 8 cm
+?eg The tangent from a point Q at a distance of 25 cm from the centre of a circle is 24 cm long. Find the radius of the circle.
+= $r^2 = OQ^2 - PQ^2 = 625 - 576 = 49$.
+=> 7 cm
+
+@@dpp
+Q: Two tangents PA and PB are drawn from an outside point P. If $\angle APB = 70^\circ$, find $\angle POA$ where O is the centre.
+A: $55^\circ$.
+
+Q: A point P is 17 cm from the centre of a circle of radius 8 cm. Find the length of the tangent from P.
+A: 15 cm.
+
+Q: A quadrilateral ABCD is drawn around a circle with $AB = 9$ cm, $BC = 8$ cm and $CD = 5$ cm. Find $AD$.
+A: 6 cm.
+
+Q: Two concentric circles have radii 13 cm and 5 cm. Find the length of the chord of the larger circle which touches the smaller circle.
+A: 24 cm.
+
+Q: A point Q is 10 cm from the centre of a circle and the tangent from Q is 8 cm long. Find the radius.
+A: 6 cm.
+
+Q: Two tangents drawn from an outside point P to a circle of radius 3 cm are perpendicular to each other. Find the distance of P from the centre.
+A: $3\sqrt{2}$ cm.
+
+Q: Tangents PA and PB are drawn from P and $\angle APB = 60^\circ$. If $PA = 5$ cm, find $AB$.
+A: 5 cm (triangle PAB has $PA = PB$ and an apex angle of $60^\circ$, so it is equilateral).
+
+Q: The radius of a circle is 4 cm and a tangent from a point P is 3 cm long. Find the distance of P from the centre.
+A: 5 cm.

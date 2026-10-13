@@ -1,0 +1,56 @@
+@minutes 12
+Q: The volume of a sphere of radius 3 cm is
+- $12\pi$ cubic cm
+- $27\pi$ cubic cm
+* $36\pi$ cubic cm
+- $108\pi$ cubic cm
+W: $\dfrac{4}{3}\pi \times 27 = 36\pi$.
+
+Q: The curved surface area of a cylinder of radius 7 cm and height 10 cm is (take $\pi = \dfrac{22}{7}$)
+- 220 square cm
+* 440 square cm
+- 1540 square cm
+- 154 square cm
+W: $2\pi r h = 2 \times \dfrac{22}{7} \times 7 \times 10 = 440$.
+
+Q: The slant height of a cone of radius 6 cm and height 8 cm is
+- 7 cm
+- 9 cm
+* 10 cm
+- 14 cm
+W: $\sqrt{36 + 64} = 10$ cm.
+
+Q: The volume of a cone of radius 7 cm and height 6 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 cubic cm
+* 308 cubic cm
+- 462 cubic cm
+- 924 cubic cm
+W: $\dfrac{1}{3} \times \dfrac{22}{7} \times 49 \times 6 = 308$.
+
+Q: If the radius of a sphere is doubled, its volume becomes
+- 2 times
+- 4 times
+* 8 times
+- 16 times
+W: Volume is proportional to $r^3$, and $2^3 = 8$.
+
+Q: A cube of side 6 cm is melted and recast into small cubes of side 2 cm. The number of small cubes is
+- 3
+- 9
+* 27
+- 36
+W: $\dfrac{6^3}{2^3} = \dfrac{216}{8} = 27$.
+
+Q: The total surface area of a solid hemisphere of radius 7 cm is (take $\pi = \dfrac{22}{7}$)
+- 154 square cm
+- 308 square cm
+* 462 square cm
+- 616 square cm
+W: $3\pi r^2 = 3 \times \dfrac{22}{7} \times 49 = 462$.
+
+Q: The volume of a cylinder of radius 7 cm and height 10 cm is (take $\pi = \dfrac{22}{7}$)
+- 440 cubic cm
+- 770 cubic cm
+* 1540 cubic cm
+- 3080 cubic cm
+W: $\dfrac{22}{7} \times 49 \times 10 = 1540$.

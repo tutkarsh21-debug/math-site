@@ -1,0 +1,56 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 6
+@title HOTS: Triangles (Class 10)
+@summary Higher order thinking questions on similar triangles for Class 10: area ratios, the basic proportionality theorem, altitudes in right triangles and ladders and shadows, each with a full solution.
+
+# Solved HOTS questions
+- Key facts: in similar triangles the sides are in the same ratio, and the **areas** are in the ratio of the **squares** of the sides. A line parallel to one side of a triangle divides the other two sides in the same ratio. In a right triangle with the right angle at $B$, the altitude $BD$ on $AC$ satisfies $BD = \dfrac{AB \times BC}{AC}$.
+?eg Triangle ABC is similar to triangle DEF. Their areas are 64 square cm and 121 square cm. If $EF = 15.4$ cm, find $BC$.
+= $\dfrac{\text{area ABC}}{\text{area DEF}} = \left(\dfrac{BC}{EF}\right)^2 = \dfrac{64}{121}$.
+= $\dfrac{BC}{EF} = \dfrac{8}{11}$, so $BC = \dfrac{8}{11} \times 15.4$.
+=> 11.2 cm
+?eg In triangle ABC the angle at B is $90^\circ$, $AB = 6$ cm and $BC = 8$ cm. BD is perpendicular to AC. Find BD.
+= $AC = \sqrt{36 + 64} = 10$ cm.
+= The area is $\dfrac{1}{2} \times 6 \times 8 = 24$ and also $\dfrac{1}{2} \times 10 \times BD$.
+= $BD = \dfrac{48}{10}$.
+=> 4.8 cm
+?eg A 15 m ladder leans against a wall and reaches a height of 12 m. The top of the ladder slips down 3 m. How far does the foot of the ladder move away from the wall?
+= Originally the foot is $\sqrt{15^2 - 12^2} = 9$ m from the wall.
+= After slipping, the height is $12 - 3 = 9$ m, so the foot is $\sqrt{15^2 - 9^2} = 12$ m from the wall.
+= The foot moves $12 - 9$.
+=> 3 m
+?eg The diagonals of a trapezium ABCD, with AB parallel to DC, meet at O. If $AB = 6$ cm and $CD = 10$ cm, find the ratio of the areas of triangles AOB and COD.
+= Triangles AOB and COD are similar (alternate angles are equal and the vertical angles at O are equal).
+= The ratio of areas is the square of the ratio of corresponding sides: $\left(\dfrac{6}{10}\right)^2 = \dfrac{36}{100}$.
+=> $9 : 25$
+?eg In triangle ABC, DE is parallel to BC with D on AB and E on AC. If $\dfrac{AD}{DB} = \dfrac{3}{5}$ and $AC = 5.6$ cm, find $AE$.
+= By the basic proportionality theorem $\dfrac{AE}{EC} = \dfrac{3}{5}$.
+= So $AE = \dfrac{3}{8} \times AC = \dfrac{3}{8} \times 5.6$.
+=> 2.1 cm
+
+@@dpp
+Q: Two similar triangles have areas 49 square cm and 81 square cm. A side of the larger one is 18.9 cm. Find the corresponding side of the smaller one.
+A: 14.7 cm.
+
+Q: In a right triangle ABC with the right angle at B, $AB = 5$ cm and $BC = 12$ cm. Find the length of the altitude from B to AC.
+A: $\dfrac{60}{13}$ cm.
+
+Q: A 25 m ladder reaches a height of 24 m on a wall. Its top slips down 4 m. How far does its foot move away from the wall?
+A: 8 m.
+
+Q: The diagonals of a trapezium ABCD (AB parallel to DC) meet at O. If $AB = 8$ cm and $CD = 12$ cm, find the ratio of the areas of triangles AOB and COD.
+A: $4 : 9$.
+
+Q: In triangle ABC, DE is parallel to BC, $AD = 4$ cm, $DB = 6$ cm and $AC = 15$ cm. Find $AE$.
+A: 6 cm.
+
+Q: D, E and F are the midpoints of the sides of triangle ABC and its area is 48 square cm. Find the area of triangle DEF.
+A: 12 square cm.
+
+Q: The perimeters of two similar triangles are 30 cm and 20 cm. If one side of the first is 12 cm, find the corresponding side of the second.
+A: 8 cm.
+
+Q: A tower 12 m high casts a shadow 8 m long. At the same time a pole casts a shadow 6 m long. Find the height of the pole.
+A: 9 m.

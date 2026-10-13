@@ -1,0 +1,61 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 13
+@title HOTS: Statistics (Class 10)
+@summary Higher order thinking questions on statistics for Class 10: finding a missing frequency from a given mean, the mode and median of grouped data and the relation between the three averages, each with a full solution.
+
+# Solved HOTS questions
+- Formulas for grouped data: mean $= \dfrac{\sum f x}{\sum f}$ where $x$ is the class mark; mode $= l + \dfrac{f_1 - f_0}{2f_1 - f_0 - f_2} \times h$; median $= l + \dfrac{\frac{n}{2} - cf}{f} \times h$; and $3\,\text{median} = \text{mode} + 2\,\text{mean}$ (the empirical relation).
+?eg The mean of the following data is 18. Find the missing frequency $p$.
+| Class | 11 - 13 | 13 - 15 | 15 - 17 | 17 - 19 | 19 - 21 | 21 - 23 | 23 - 25 |
+| Frequency | 7 | 6 | 9 | 13 | $p$ | 5 | 4 |
+= The class marks are 12, 14, 16, 18, 20, 22, 24. $\sum f = 44 + p$.
+= $\sum fx = 84 + 84 + 144 + 234 + 20p + 110 + 96 = 752 + 20p$.
+= The mean is 18, so $752 + 20p = 18(44 + p) = 792 + 18p$, which gives $2p = 40$.
+=> $p = 20$
+?eg Find the mode of the following distribution.
+| Marks | 0 - 10 | 10 - 20 | 20 - 30 | 30 - 40 | 40 - 50 |
+| Students | 5 | 8 | 15 | 9 | 3 |
+= The modal class is the one with the highest frequency, 20 - 30, so $l = 20$, $h = 10$, $f_1 = 15$, $f_0 = 8$ and $f_2 = 9$.
+= Mode $= 20 + \dfrac{15 - 8}{30 - 8 - 9} \times 10 = 20 + \dfrac{70}{13}$.
+=> About 25.38
+?eg The median of the following data is 46. Find the missing frequencies $x$ and $y$ if the total frequency is 230.
+| Class | 10 - 20 | 20 - 30 | 30 - 40 | 40 - 50 | 50 - 60 | 60 - 70 | 70 - 80 |
+| Frequency | 12 | 30 | $x$ | 65 | $y$ | 25 | 18 |
+= $12 + 30 + x + 65 + y + 25 + 18 = 230$, so $x + y = 80$.
+= The median 46 lies in the class 40 - 50, so $l = 40$, $f = 65$, $h = 10$ and $\dfrac{n}{2} = 115$. The cumulative frequency before this class is $12 + 30 + x = 42 + x$.
+= $46 = 40 + \dfrac{115 - (42 + x)}{65} \times 10$, so $\dfrac{73 - x}{65} \times 10 = 6$ and $73 - x = 39$, giving $x = 34$.
+= Then $y = 80 - 34 = 46$.
+=> $x = 34$ and $y = 46$
+?eg For a data set the mode is 65 and the mean is 62. Find the median using the empirical relation.
+= $3\,\text{median} = \text{mode} + 2\,\text{mean} = 65 + 124 = 189$.
+=> Median $= 63$
+?eg The mean of 10 observations is 12. If each observation is multiplied by 3 and then 2 is subtracted, find the new mean.
+= Multiplying by 3 gives mean 36, and subtracting 2 gives 34.
+=> 34
+
+@@dpp
+Q: The mean of the data below is 8. Find $p$ (the first row lists the values $x$ and the second row their frequencies $f$: 3, 5, 7, 9, 11, 13 with frequencies 6, 8, 15, $p$, 8, 4).
+A: $p = 25$ (here $\sum fx = 303 + 9p$ and $\sum f = 41 + p$, so $303 + 9p = 8(41 + p)$).
+
+Q: Find the mode of the data in which the classes 0 - 20, 20 - 40, 40 - 60, 60 - 80 and 80 - 100 have frequencies 7, 12, 20, 14 and 6.
+A: $40 + \dfrac{20 - 12}{40 - 12 - 14} \times 20 = 40 + \dfrac{160}{14} \approx 51.43$.
+
+Q: The mode of a data set is 20 and its mean is 17. Find the median.
+A: $\dfrac{54}{3} = 18$ (from $3\,\text{median} = 20 + 34 = 54$).
+
+Q: The mean of 20 observations is 15. One observation, 25, is replaced by 5. Find the new mean.
+A: 14.
+
+Q: The mean of 12 numbers is 9. Each is multiplied by 2 and then 3 is added. Find the new mean.
+A: 21.
+
+Q: In a grouped data the median class is 20 - 30, with cumulative frequency 15 before it, class frequency 12 and $n = 50$. Find the median.
+A: $20 + \dfrac{25 - 15}{12} \times 10 \approx 28.33$.
+
+Q: The sum of the deviations of 10 observations from 5 is 30. Find the mean.
+A: 8.
+
+Q: Two data sets have 10 and 20 observations with means 12 and 18. Find the mean of all 30 observations.
+A: 16.

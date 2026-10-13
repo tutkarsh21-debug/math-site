@@ -1,0 +1,56 @@
+@minutes 12
+Q: A die is thrown once. The probability of getting a prime number is
+- $\dfrac{1}{6}$
+- $\dfrac{1}{3}$
+* $\dfrac{1}{2}$
+- $\dfrac{2}{3}$
+W: The primes are 2, 3 and 5, so $\dfrac{3}{6} = \dfrac{1}{2}$.
+
+Q: Two coins are tossed together. The probability of getting at least one head is
+- $\dfrac{1}{4}$
+- $\dfrac{1}{2}$
+* $\dfrac{3}{4}$
+- 1
+W: The outcomes are HH, HT, TH and TT. Only TT has no head, so $\dfrac{3}{4}$.
+
+Q: Two dice are thrown together. The probability that the sum is 7 is
+- $\dfrac{1}{12}$
+* $\dfrac{1}{6}$
+- $\dfrac{1}{9}$
+- $\dfrac{7}{36}$
+W: The pairs (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) give 6 outcomes out of 36.
+
+Q: A card is drawn from a pack of 52. The probability that it is a red king is
+- $\dfrac{1}{13}$
+* $\dfrac{1}{26}$
+- $\dfrac{1}{52}$
+- $\dfrac{2}{13}$
+W: There are two red kings, so $\dfrac{2}{52} = \dfrac{1}{26}$.
+
+Q: A bag has 3 red and 5 blue balls. The probability of drawing a red ball is
+- $\dfrac{1}{3}$
+* $\dfrac{3}{8}$
+- $\dfrac{5}{8}$
+- $\dfrac{3}{5}$
+W: $\dfrac{3}{3 + 5} = \dfrac{3}{8}$.
+
+Q: A bag has 6 red balls and some blue balls. The probability of drawing a blue ball is double that of drawing a red ball. The number of blue balls is
+- 6
+- 10
+* 12
+- 18
+W: $\dfrac{x}{6 + x} = 2 \times \dfrac{6}{6 + x}$ gives $x = 12$.
+
+Q: Three coins are tossed together. The probability of getting no tail is
+- $\dfrac{1}{4}$
+* $\dfrac{1}{8}$
+- $\dfrac{3}{8}$
+- $\dfrac{1}{2}$
+W: Only HHH has no tail, so $\dfrac{1}{8}$.
+
+Q: If the probability of winning a game is 0.4, the probability of losing it is
+- 0.4
+- 0.5
+* 0.6
+- 1.4
+W: $1 - 0.4 = 0.6$.

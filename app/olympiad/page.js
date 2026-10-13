@@ -28,11 +28,18 @@ export default function Olympiad() {
         {OLY_GROUPS.map(s => (<div key={s.id} className="tab-panel">
           <h3>{s.title}</h3>
           <p>{s.intro}</p>
-          <ol className="lectures">{s.topics.map(t => (<li key={t.slug}>
-            <Link href={`/olympiad/${t.slug}`}>{t.title}</Link>
-            {TESTS[`olympiad/${t.slug}`] && <span className="badge rec">{TESTS[`olympiad/${t.slug}`].qs.length} Q TEST</span>}
-            <span className="muted small" style={{display:'block'}}>{t.summary}</span>
-          </li>))}</ol>
+          {(s.id === 'hots' ? ['Class 8', 'Class 9', 'Class 10'] : [null]).map(c => {
+            const list = c ? s.topics.filter(t => t.cls === c) : s.topics;
+            if (!list.length) return null;
+            return (<Fragment key={c || 'all'}>
+              {c && <h4 style={{marginTop:'1.2rem'}}>{c}</h4>}
+              <ol className="lectures">{list.map(t => (<li key={t.slug}>
+                <Link href={`/olympiad/${t.slug}`}>{t.title}</Link>
+                {TESTS[`olympiad/${t.slug}`] && <span className="badge rec">{TESTS[`olympiad/${t.slug}`].qs.length} Q TEST</span>}
+                <span className="muted small" style={{display:'block'}}>{t.summary}</span>
+              </li>))}</ol>
+            </Fragment>);
+          })}
           <p><strong>Tip:</strong> {s.tip}</p>
         </div>))}
       </div>

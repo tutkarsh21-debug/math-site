@@ -1,0 +1,57 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 9
+@title HOTS: Applications of Trigonometry (Class 10)
+@summary Higher order thinking questions on heights and distances for Class 10: two angles of elevation or depression, towers and buildings, and objects on opposite sides, each with a full solution.
+
+# Solved HOTS questions
+- Draw a clear figure first and mark the horizontal line. The angle of elevation or depression is measured from the horizontal. Useful values: $\tan 30^\circ = \dfrac{1}{\sqrt{3}}$, $\tan 45^\circ = 1$, $\tan 60^\circ = \sqrt{3}$.
+?eg From the top of a building 60 m high, the angles of depression of the top and the bottom of a tower are $30^\circ$ and $60^\circ$. Find the height of the tower.
+= Horizontal distance $d = \dfrac{60}{\tan 60^\circ} = \dfrac{60}{\sqrt{3}} = 20\sqrt{3}$ m.
+= The top of the tower is $d \tan 30^\circ = 20\sqrt{3} \times \dfrac{1}{\sqrt{3}} = 20$ m below the observer.
+= Height of the tower $= 60 - 20$.
+=> 40 m
+?eg From a point on the ground the angles of elevation of the bottom and the top of a tower fixed at the top of a 30 m high building are $45^\circ$ and $60^\circ$. Find the height of the tower.
+= The distance from the point to the building is $\dfrac{30}{\tan 45^\circ} = 30$ m.
+= The top of the tower is at height $30 \tan 60^\circ = 30\sqrt{3}$ m.
+= Height of the tower $= 30\sqrt{3} - 30 = 30(\sqrt{3} - 1)$.
+=> $30(\sqrt{3} - 1)$ m, about 22 m
+?eg The angle of elevation of the top of a tower from a point on the ground is $30^\circ$. After walking 20 m towards the tower the angle of elevation becomes $60^\circ$. Find the height of the tower.
+= Let the height be $h$ and the new distance from the foot be $x$. Then $\dfrac{h}{x} = \tan 60^\circ = \sqrt{3}$ and $\dfrac{h}{x + 20} = \tan 30^\circ = \dfrac{1}{\sqrt{3}}$.
+= $h = \sqrt{3}\,x$ and $\sqrt{3}\,h = x + 20$. Substituting: $3x = x + 20$, so $x = 10$.
+= $h = 10\sqrt{3}$.
+=> $10\sqrt{3}$ m, about 17.3 m
+?eg Two poles of equal height stand on either side of a road 80 m wide. At a point on the road between them the angles of elevation of the tops are $60^\circ$ and $30^\circ$. Find the height of the poles and the distances of the point from the poles.
+= Let the distances be $x$ and $80 - x$ and the common height $h$. $h = x\tan 60^\circ = \sqrt{3}\,x$ and $h = (80 - x)\tan 30^\circ = \dfrac{80 - x}{\sqrt{3}}$.
+= $3x = 80 - x$, so $x = 20$ and $h = 20\sqrt{3}$.
+=> Height $20\sqrt{3}$ m (about 34.6 m); distances 20 m and 60 m
+?eg A man on the top of a 75 m high lighthouse sees two ships in the same direction due west, with angles of depression $30^\circ$ and $45^\circ$. Find the distance between the ships.
+= The nearer ship is $\dfrac{75}{\tan 45^\circ} = 75$ m from the foot. The farther ship is $\dfrac{75}{\tan 30^\circ} = 75\sqrt{3}$ m from the foot.
+= The distance between them is $75\sqrt{3} - 75 = 75(\sqrt{3} - 1)$.
+=> $75(\sqrt{3} - 1)$ m, about 55 m
+
+@@dpp
+Q: The angle of elevation of the top of a tower from a point 30 m from its foot on level ground is $60^\circ$. Find the height of the tower.
+A: $30\sqrt{3}$ m, about 52 m.
+
+Q: From the top of a 50 m high building the angle of depression of the foot of a tower is $45^\circ$ and the angle of elevation of the top of the tower is $30^\circ$. Find the height of the tower.
+A: $50 + \dfrac{50}{\sqrt{3}}$ m, about 78.9 m.
+
+Q: The angle of elevation of the top of a tower is $30^\circ$. After walking 30 m towards it the angle becomes $60^\circ$. Find the height of the tower.
+A: $15\sqrt{3}$ m, about 26 m.
+
+Q: Two poles of equal height stand on either side of a road 60 m wide. At a point on the road the angles of elevation of their tops are $60^\circ$ and $30^\circ$. Find the height and the distances of the point from the poles.
+A: Height $15\sqrt{3}$ m, distances 15 m and 45 m.
+
+Q: From the top of a 100 m high hill the angles of depression of two boats in the same direction are $30^\circ$ and $60^\circ$. Find the distance between the boats.
+A: $\dfrac{200}{\sqrt{3}}$ m, about 115.5 m.
+
+Q: A kite is flying at a height of 60 m and the string makes an angle of $60^\circ$ with the ground. Find the length of the string, assuming it is straight.
+A: $40\sqrt{3}$ m, about 69.3 m.
+
+Q: The shadow of a tower on level ground is $\sqrt{3}$ times its height. Find the angle of elevation of the sun.
+A: $30^\circ$.
+
+Q: A ladder 10 m long leans against a wall and makes an angle of $60^\circ$ with the ground. How high up the wall does it reach?
+A: $5\sqrt{3}$ m, about 8.66 m.

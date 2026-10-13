@@ -1,0 +1,56 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 12
+@title HOTS: Surface Areas and Volumes (Class 10)
+@summary Higher order thinking questions on surface areas and volumes for Class 10: combined solids, melting and recasting, conical heaps, frustums and flowing water, each with a full solution.
+
+# Solved HOTS questions
+- Key idea: when a solid is melted and recast, its **volume** stays the same, so equate the volumes. For combined solids, add the volumes, but for the surface area count only the surfaces that are visible. Take $\pi = \dfrac{22}{7}$.
+?eg A toy is a cone of base radius 6 cm and height 8 cm with a hemisphere of the same radius fixed on its flat face, so that the curved surface of the hemisphere is outside. Find the total surface area of the toy in terms of $\pi$.
+= Slant height of the cone $l = \sqrt{6^2 + 8^2} = 10$ cm.
+= Curved surface of the cone $= \pi r l = 60\pi$. Curved surface of the hemisphere $= 2\pi r^2 = 72\pi$.
+= The flat face is hidden, so the total is $60\pi + 72\pi$.
+=> $132\pi$ square cm
+?eg A metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm. Find the height of the cylinder.
+= Volume of the sphere $= \dfrac{4}{3}\pi (4.2)^3$, and volume of the cylinder $= \pi (6)^2 h$.
+= $h = \dfrac{4 \times 4.2^3}{3 \times 36} = \dfrac{4 \times 74.088}{108} = 2.744$.
+=> 2.744 cm
+?eg A cylindrical bucket 32 cm high with radius 18 cm is filled with sand and emptied on the ground to form a conical heap of height 24 cm. Find the radius and the slant height of the heap.
+= $\pi \times 18^2 \times 32 = \dfrac{1}{3}\pi r^2 \times 24$, so $r^2 = \dfrac{324 \times 32 \times 3}{24} = 1296$ and $r = 36$ cm.
+= Slant height $= \sqrt{36^2 + 24^2} = \sqrt{1872} = 12\sqrt{13}$.
+=> Radius 36 cm and slant height $12\sqrt{13}$ cm, about 43.3 cm
+?eg A metal cuboid 44 cm by 21 cm by 12 cm is melted and recast into a cylinder of radius 14 cm. Find the height of the cylinder.
+= Volume of the cuboid $= 44 \times 21 \times 12 = 11\,088$ cubic cm.
+= Base area of the cylinder $= \dfrac{22}{7} \times 14 \times 14 = 616$ square cm.
+= Height $= \dfrac{11\,088}{616}$.
+=> 18 cm
+?eg A bucket is in the shape of a frustum of a cone. Its top and bottom radii are 28 cm and 21 cm and its height is 15 cm. Find its capacity.
+= Volume $= \dfrac{\pi h}{3}\,(R^2 + r^2 + Rr) = \dfrac{\pi \times 15}{3}\,(784 + 441 + 588) = 5\pi \times 1813$.
+= With $\pi = \dfrac{22}{7}$: $5 \times 22 \times 259 = 28\,490$.
+=> 28 490 cubic cm, about 28.5 litres
+
+@@dpp
+Q: A toy is a cone of base radius 3 cm and height 4 cm with a hemisphere of the same radius on its flat face. Find the total surface area in terms of $\pi$.
+A: $33\pi$ square cm.
+
+Q: A metallic sphere of radius 6 cm is melted and drawn into a wire of circular cross-section of radius 0.5 cm. Find the length of the wire.
+A: 1152 cm, which is 11.52 m.
+
+Q: A cylindrical bucket of radius 12 cm and height 18 cm is emptied to make a conical heap of height 24 cm. Find the radius and the slant height of the heap.
+A: Radius 18 cm and slant height 30 cm.
+
+Q: A cuboid of dimensions 11 cm by 7 cm by 8 cm is melted and recast into a cylinder of radius 7 cm. Find the height of the cylinder.
+A: 4 cm.
+
+Q: A frustum has radii 14 cm and 7 cm and height 12 cm. Find its volume.
+A: 4312 cubic cm.
+
+Q: Find the total surface area of a solid hemisphere of radius 7 cm.
+A: 462 square cm.
+
+Q: The volume of a cone is 1232 cubic cm and its base radius is 14 cm. Find its height.
+A: 6 cm.
+
+Q: Water flows through a pipe of diameter 20 cm at 3 km/h into a cylindrical tank of radius 10 m. By how much does the water level rise in 30 minutes?
+A: 15 cm.

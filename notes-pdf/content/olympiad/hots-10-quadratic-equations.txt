@@ -1,0 +1,58 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 4
+@title HOTS: Quadratic Equations (Class 10)
+@summary Higher order thinking questions on quadratic equations for Class 10: equations with fractions, conditions on the roots, and word problems on speed, tanks and numbers, each with a full solution.
+
+# Solved HOTS questions
+- A quadratic $ax^2 + bx + c = 0$ has equal roots when $D = b^2 - 4ac = 0$, two different real roots when $D > 0$, and no real roots when $D < 0$. In word problems always check that each root makes sense (a length or a speed cannot be negative).
+?eg Solve $\dfrac{x - 1}{x - 2} + \dfrac{x - 3}{x - 4} = \dfrac{10}{3}$, where $x \ne 2, 4$.
+= Multiply by $3(x - 2)(x - 4)$: $3[(x - 1)(x - 4) + (x - 3)(x - 2)] = 10(x - 2)(x - 4)$.
+= $3(2x^2 - 10x + 10) = 10x^2 - 60x + 80$, so $4x^2 - 30x + 50 = 0$, that is $2x^2 - 15x + 25 = 0$.
+= $(2x - 5)(x - 5) = 0$.
+=> $x = 5$ or $x = \dfrac{5}{2}$
+?eg Find the values of $k$ for which $(k + 1)x^2 - 2(k - 1)x + 1 = 0$ has equal roots.
+= $D = 4(k - 1)^2 - 4(k + 1) = 4(k^2 - 3k)$.
+= $D = 0$ gives $k = 0$ or $k = 3$. Both keep $k + 1 \ne 0$.
+=> $k = 0$ or $k = 3$
+?eg A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the speed.
+= Let the speed be $x$ km/h. $\dfrac{360}{x} - \dfrac{360}{x + 5} = 1$.
+= $360 \times 5 = x(x + 5)$, so $x^2 + 5x - 1800 = 0$ and $(x + 45)(x - 40) = 0$.
+= A speed cannot be negative, so $x = 40$.
+=> 40 km/h
+?eg Two taps running together fill a tank in $9\dfrac{3}{8}$ hours. The tap with the larger diameter takes 10 hours less than the other to fill the tank alone. Find the time each takes.
+= $9\dfrac{3}{8} = \dfrac{75}{8}$. Let the larger tap take $x$ hours and the smaller $x + 10$ hours. $\dfrac{1}{x} + \dfrac{1}{x + 10} = \dfrac{8}{75}$.
+= $75(2x + 10) = 8x(x + 10)$, so $8x^2 - 70x - 750 = 0$, that is $4x^2 - 35x - 375 = 0$.
+= $D = 1225 + 6000 = 7225 = 85^2$, so $x = \dfrac{35 + 85}{8} = 15$ (the negative root is rejected).
+=> 15 hours and 25 hours
+?eg The sum of the squares of two consecutive multiples of 7 is 637. Find the multiples.
+= Let them be $7n$ and $7n + 7$. $49n^2 + 49(n + 1)^2 = 637$, so $n^2 + (n + 1)^2 = 13$.
+= $2n^2 + 2n - 12 = 0$, so $n^2 + n - 6 = 0$ and $(n + 3)(n - 2) = 0$.
+= Taking the positive multiples, $n = 2$.
+=> 14 and 21
+
+@@dpp
+Q: Solve $\dfrac{1}{x} - \dfrac{1}{x - 2} = 3$, where $x \ne 0, 2$. Give the answer in surd form.
+A: $x = 1 \pm \dfrac{\sqrt{3}}{3}$, that is $x = \dfrac{3 \pm \sqrt{3}}{3}$.
+
+Q: Find $k$ if $(k - 12)x^2 + 2(k - 12)x + 2 = 0$ has equal roots.
+A: $k = 14$ (the value $k = 12$ is rejected because then the equation is not quadratic).
+
+Q: A train travels 480 km at a uniform speed. If the speed had been 8 km/h more, the journey would have taken 3 hours less. Find the speed.
+A: 32 km/h.
+
+Q: Two pipes together fill a tank in 12 hours. One pipe alone takes 10 hours less than the other. Find the time each takes alone.
+A: 20 hours and 30 hours.
+
+Q: The sum of the squares of two consecutive positive odd numbers is 394. Find the numbers.
+A: 13 and 15.
+
+Q: If $-5$ is a root of $2x^2 + px - 15 = 0$ and the equation $p(x^2 + x) + k = 0$ has equal roots, find $k$.
+A: $k = \dfrac{7}{4}$ (here $p = 7$).
+
+Q: The base of a triangle is 4 cm more than its height and its area is 48 square cm. Find the base and the height.
+A: Base 12 cm and height 8 cm.
+
+Q: Does $2x^2 - 4x + 3 = 0$ have real roots?
+A: No ($D = 16 - 24 = -8 < 0$).

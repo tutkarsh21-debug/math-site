@@ -1,0 +1,54 @@
+@class Class 10
+@board HOTS
+@book Olympiad Preparation
+@chapter 14
+@title HOTS: Probability (Class 10)
+@summary Higher order thinking questions on probability for Class 10: cards, dice, coins, bags of balls and finding an unknown number from a given probability, each with a full solution.
+
+# Solved HOTS questions
+- $P(E) = \dfrac{\text{number of favourable outcomes}}{\text{total number of outcomes}}$, and $P(E) + P(\text{not } E) = 1$. List the sample space carefully: 36 outcomes for two dice, 4 for two coins, 52 cards in a pack (26 red, 26 black, 12 face cards, 4 aces).
+?eg Two dice are thrown together. Find the probability that the sum of the numbers is a prime number.
+= Prime sums are 2, 3, 5, 7 and 11. Number of ways: 1, 2, 4, 6 and 2, which total 15.
+= There are 36 equally likely outcomes.
+=> $\dfrac{15}{36} = \dfrac{5}{12}$
+?eg A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability that it is neither a king nor a red card.
+= There are 4 kings and 26 red cards, and 2 cards are both a king and red. So the cards that are a king or red number $4 + 26 - 2 = 28$.
+= Cards that are neither: $52 - 28 = 24$.
+=> $\dfrac{24}{52} = \dfrac{6}{13}$
+?eg A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is double the probability of drawing a red ball, find the number of blue balls.
+= Let the number of blue balls be $x$. $P(\text{red}) = \dfrac{5}{5 + x}$ and $P(\text{blue}) = \dfrac{x}{5 + x}$.
+= $\dfrac{x}{5 + x} = 2 \times \dfrac{5}{5 + x}$, so $x = 10$.
+=> 10
+?eg A game consists of tossing a coin 3 times and noting the outcome. Hanif wins if all the tosses give the same result (three heads or three tails), and loses otherwise. Find the probability that Hanif loses.
+= The 8 outcomes are HHH, HHT, HTH, HTT, THH, THT, TTH, TTT.
+= Hanif wins with HHH and TTT, which is 2 outcomes, so he loses with the other 6.
+=> $\dfrac{6}{8} = \dfrac{3}{4}$
+?eg A box contains cards numbered 1 to 20. One card is drawn at random. Find the probability that the number is a multiple of 3 or of 5.
+= Multiples of 3: 3, 6, 9, 12, 15, 18 (6 cards). Multiples of 5: 5, 10, 15, 20 (4 cards). The card 15 is in both.
+= Cards that are a multiple of 3 or 5: $6 + 4 - 1 = 9$.
+=> $\dfrac{9}{20}$
+
+@@dpp
+Q: Two dice are thrown together. Find the probability that the product of the numbers is 12.
+A: $\dfrac{4}{36} = \dfrac{1}{9}$ (the outcomes are (2, 6), (6, 2), (3, 4) and (4, 3)).
+
+Q: A card is drawn from a pack of 52 cards. Find the probability that it is a face card or an ace.
+A: $\dfrac{16}{52} = \dfrac{4}{13}$.
+
+Q: A bag has 4 white balls and some black balls. The probability of a black ball is three times that of a white ball. Find the number of black balls.
+A: 12.
+
+Q: Three coins are tossed together. Find the probability of getting exactly two heads.
+A: $\dfrac{3}{8}$.
+
+Q: A box contains cards numbered 1 to 30. A card is drawn at random. Find the probability that the number is a multiple of 4 or of 6.
+A: $\dfrac{10}{30} = \dfrac{1}{3}$ (7 multiples of 4, 5 multiples of 6, and 2 of both: 12 and 24, so $7 + 5 - 2 = 10$).
+
+Q: Two dice are thrown together. Find the probability that the sum is at least 10.
+A: $\dfrac{6}{36} = \dfrac{1}{6}$.
+
+Q: A die is thrown once. Find the probability of getting a number which is a perfect square.
+A: $\dfrac{2}{6} = \dfrac{1}{3}$ (the numbers are 1 and 4).
+
+Q: The probability that it rains tomorrow is 0.35. Find the probability that it does not rain.
+A: 0.65.
