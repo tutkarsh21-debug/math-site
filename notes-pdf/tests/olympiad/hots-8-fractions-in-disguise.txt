@@ -1,0 +1,56 @@
+@minutes 12
+Q: Find 15% of 200.
+- 20
+* 30
+- 35
+- 40
+W: $0.15 \times 200 = 30$.
+
+Q: The fraction $\dfrac{3}{5}$ written as a percentage is
+- 30%
+- 35%
+* 60%
+- 65%
+W: $\dfrac{3}{5} \times 100 = 60$.
+
+Q: 20 is what percent of 80?
+- 20%
+* 25%
+- 30%
+- 40%
+W: $\dfrac{20}{80} \times 100 = 25$.
+
+Q: An article bought for Rs 200 is sold for Rs 250. The profit percent is
+- 20%
+* 25%
+- 30%
+- 50%
+W: Profit $= 50$, and $\dfrac{50}{200} \times 100 = 25$.
+
+Q: An article marked at Rs 500 is sold at a discount of 20%. The selling price is
+- Rs 300
+* Rs 400
+- Rs 450
+- Rs 480
+W: $500 \times 0.8 = 400$.
+
+Q: A price of Rs 1000 increases by 10%. The new price is
+- Rs 1010
+* Rs 1100
+- Rs 1110
+- Rs 1200
+W: $1000 \times 1.1 = 1100$.
+
+Q: Rs 5000 grows at 10% per year, compounded yearly. The amount after 2 years is
+- Rs 5500
+- Rs 6000
+* Rs 6050
+- Rs 6500
+W: $5000 \times 1.1 \times 1.1 = 6050$.
+
+Q: After a discount of 20% an article costs Rs 960. Its marked price was
+- Rs 1000
+- Rs 1100
+* Rs 1200
+- Rs 1250
+W: $\text{marked price} \times 0.8 = 960$, so the marked price is $\dfrac{960}{0.8} = 1200$.

@@ -1,0 +1,56 @@
+@minutes 12
+Q: The area of a triangle with sides 5 cm, 12 cm and 13 cm is
+- 15 square cm
+* 30 square cm
+- 60 square cm
+- 65 square cm
+W: $s = 15$ and the area is $\sqrt{15 \times 10 \times 3 \times 2} = 30$. (The triangle is right-angled, so also $\dfrac{1}{2} \times 5 \times 12 = 30$.)
+
+Q: The area of an equilateral triangle of side 6 cm is
+- $6\sqrt{3}$ square cm
+* $9\sqrt{3}$ square cm
+- $12\sqrt{3}$ square cm
+- $36\sqrt{3}$ square cm
+W: $\dfrac{\sqrt{3}}{4} \times 36 = 9\sqrt{3}$.
+
+Q: The circumference of a circle is 44 cm. Its area is (take $\pi = \dfrac{22}{7}$)
+- 77 square cm
+* 154 square cm
+- 308 square cm
+- 616 square cm
+W: $2\pi r = 44$ gives $r = 7$, and the area is $\dfrac{22}{7} \times 49 = 154$.
+
+Q: A rhombus has diagonals of 10 cm and 24 cm. Its side is
+- 12 cm
+* 13 cm
+- 14 cm
+- 17 cm
+W: The half diagonals are 5 and 12, so the side is $\sqrt{25 + 144} = 13$ cm.
+
+Q: A square has a diagonal of 8 cm. Its area is
+- 16 square cm
+* 32 square cm
+- 64 square cm
+- 8 square cm
+W: Area $= \dfrac{d^2}{2} = \dfrac{64}{2} = 32$.
+
+Q: A parallelogram has base 15 cm and height 8 cm. Its area is
+- 23 square cm
+- 60 square cm
+* 120 square cm
+- 240 square cm
+W: $15 \times 8 = 120$.
+
+Q: A wire of length 88 cm is bent into a circle. Its radius is (take $\pi = \dfrac{22}{7}$)
+- 7 cm
+* 14 cm
+- 21 cm
+- 28 cm
+W: $2\pi r = 88$ gives $r = 14$.
+
+Q: The area of a right triangle with legs 9 cm and 12 cm is
+- 21 square cm
+* 54 square cm
+- 108 square cm
+- 45 square cm
+W: Area $= \dfrac{1}{2} \times 9 \times 12 = 54$.

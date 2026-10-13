@@ -1,0 +1,53 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 5
+@title HOTS: Up and Down, Round and Round, Circles (Class 9)
+@summary Higher order thinking questions on circles for Class 9: chords and their distance from the centre, angles at the centre and the circumference, the angle in a semicircle and cyclic quadrilaterals, each with a full solution.
+
+# Solved HOTS questions
+- Facts: the perpendicular from the centre to a chord bisects it; equal chords are equally far from the centre; the angle at the centre is twice the angle at the circumference on the same arc; the angle in a semicircle is $90^\circ$; opposite angles of a cyclic quadrilateral add up to $180^\circ$.
+?eg A chord of length 10 cm is at a distance of 12 cm from the centre of a circle. Find the radius.
+= The perpendicular from the centre bisects the chord, so half the chord is 5 cm.
+= $r = \sqrt{5^2 + 12^2} = \sqrt{169}$.
+=> 13 cm
+?eg An arc AB of a circle subtends an angle of $100^\circ$ at the centre. Find the angle it subtends at a point C on the major arc.
+= The angle at the circumference is half the angle at the centre.
+=> $50^\circ$
+?eg In a cyclic quadrilateral ABCD, $\angle A = 85^\circ$ and $\angle B = 70^\circ$. Find $\angle C$ and $\angle D$.
+= Opposite angles add up to $180^\circ$: $\angle C = 180^\circ - 85^\circ = 95^\circ$ and $\angle D = 180^\circ - 70^\circ = 110^\circ$.
+= Check: $85 + 70 + 95 + 110 = 360$.
+=> $\angle C = 95^\circ$ and $\angle D = 110^\circ$
+?eg Two equal chords of length 8 cm are drawn in a circle of radius 5 cm. Find the distance of each from the centre.
+= Half the chord is 4 cm. Distance $= \sqrt{5^2 - 4^2} = 3$ cm.
+= Equal chords are the same distance from the centre.
+=> 3 cm for each
+?eg AB is a diameter of a circle and C is a point on the circle. If $\angle CAB = 35^\circ$, find $\angle ABC$.
+= The angle in a semicircle is a right angle, so $\angle ACB = 90^\circ$.
+= In triangle ABC: $\angle ABC = 180^\circ - 90^\circ - 35^\circ$.
+=> $55^\circ$
+
+@@dpp
+Q: A chord of length 24 cm is 5 cm from the centre of a circle. Find the radius.
+A: 13 cm.
+
+Q: An arc subtends an angle of $130^\circ$ at the centre. Find the angle it subtends at a point on the remaining part of the circle.
+A: $65^\circ$.
+
+Q: In a cyclic quadrilateral ABCD, $\angle A = 100^\circ$ and $\angle B = 80^\circ$. Find $\angle C$ and $\angle D$.
+A: $\angle C = 80^\circ$ and $\angle D = 100^\circ$.
+
+Q: Two equal chords of length 6 cm are drawn in a circle of radius 5 cm. Find the distance of each from the centre.
+A: 4 cm.
+
+Q: AB is a diameter and C is a point on the circle with $\angle CAB = 40^\circ$. Find $\angle ABC$.
+A: $50^\circ$.
+
+Q: Two parallel chords of lengths 6 cm and 8 cm are drawn in a circle of radius 5 cm on opposite sides of the centre. Find the distance between them.
+A: 7 cm (the distances from the centre are 4 cm and 3 cm).
+
+Q: An arc subtends $60^\circ$ at the centre. What angle does it subtend at a point on the alternate (major) arc?
+A: $30^\circ$.
+
+Q: How many circles can be drawn through two given points? And through three points that are not on a line?
+A: Infinitely many through two points, and exactly one through three non-collinear points.

@@ -1,0 +1,53 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 8
+@title HOTS: Algebra Play (Class 8)
+@summary Higher order thinking questions on algebra for Class 8: explaining number tricks, consecutive numbers, calendar grids, largest products and age problems with equations, each with a full solution.
+
+# Solved HOTS questions
+- Algebra explains why a trick always works: call the number you think of $n$, follow the steps, and the $n$ cancels. For word problems, name the unknown, write an equation from the story, solve it, and check the answer in the story.
+?eg Think of a number, add 5, double the result, subtract 4, halve it and subtract the number you started with. The answer is always 3. Explain why.
+= Let the number be $n$. Adding 5: $n + 5$. Doubling: $2n + 10$. Subtracting 4: $2n + 6$.
+= Halving: $n + 3$. Subtracting the starting number: $n + 3 - n$.
+=> 3, for every starting number
+?eg The sum of three consecutive numbers is 78. Find them.
+= Let the numbers be $n$, $n + 1$ and $n + 2$. $3n + 3 = 78$, so $n = 25$.
+=> 25, 26 and 27
+?eg In a calendar, a $3 \times 3$ square of dates has the middle date $c$. Show that the sum of the nine dates is $9c$.
+= The dates around $c$ are $c - 8$, $c - 7$, $c - 6$ (top row), $c - 1$, $c$, $c + 1$ (middle row) and $c + 6$, $c + 7$, $c + 8$ (bottom row).
+= Each pair that sits opposite the centre adds up to $2c$, so the sum is $c + 4 \times 2c = 9c$.
+=> The sum is $9c$
+?eg Two numbers add up to 20. What is the largest possible value of their product?
+= Let the numbers be $10 - d$ and $10 + d$. The product is $100 - d^2$.
+= This is largest when $d = 0$.
+=> 100 (when both numbers are 10)
+?eg A father is three times as old as his son. In 10 years he will be twice as old as his son. Find their ages now.
+= Let the son be $s$ and the father $3s$. Then $3s + 10 = 2(s + 10)$.
+= $3s + 10 = 2s + 20$, so $s = 10$.
+=> The son is 10 and the father is 30
+
+@@dpp
+Q: Think of a number, multiply by 3, add 12, divide by 3 and subtract the number you started with. Show that the answer is always 4.
+A: $\dfrac{3n + 12}{3} - n = n + 4 - n = 4$.
+
+Q: The sum of four consecutive numbers is 106. Find them.
+A: 25, 26, 27 and 28.
+
+Q: In a calendar, the middle date of a $3 \times 3$ square is 15. Find the sum of the nine dates.
+A: 135.
+
+Q: Two numbers add up to 30. What is the largest possible product?
+A: 225 (both numbers 15).
+
+Q: A father is four times as old as his son. In 5 years he will be three times as old. Find their ages now.
+A: The son is 10 and the father is 40.
+
+Q: Solve $3x - 7 = 2x + 5$.
+A: $x = 12$.
+
+Q: One number is 5 more than three times another number, and their sum is 37. Find the numbers.
+A: 8 and 29.
+
+Q: In a number pyramid the bottom row is 2, 5, 3 and each number above is the sum of the two below it. Find the top number.
+A: 15 (the middle row is 7 and 8).

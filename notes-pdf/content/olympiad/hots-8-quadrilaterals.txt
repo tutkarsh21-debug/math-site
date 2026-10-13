@@ -1,0 +1,51 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 10
+@title HOTS: Quadrilaterals (Class 8)
+@summary Higher order thinking questions on quadrilaterals for Class 8: angles in a quadrilateral, parallelograms, rhombuses, rectangles, kites and their diagonals, each with a full solution.
+
+# Solved HOTS questions
+- The angles of a quadrilateral add up to $360^\circ$. In a parallelogram opposite angles are equal and adjacent angles add up to $180^\circ$. The diagonals of a rectangle are equal; those of a rhombus bisect each other at right angles; the area of a rhombus or a kite is $\dfrac{1}{2} d_1 d_2$.
+?eg The angles of a quadrilateral are in the ratio $3 : 4 : 5 : 6$. Find them.
+= Let the angles be $3x$, $4x$, $5x$ and $6x$. $18x = 360^\circ$, so $x = 20^\circ$.
+=> $60^\circ$, $80^\circ$, $100^\circ$ and $120^\circ$
+?eg Two adjacent angles of a parallelogram are in the ratio $2 : 3$. Find all its angles.
+= Adjacent angles add up to $180^\circ$, so $5x = 180^\circ$ and $x = 36^\circ$.
+= The angles are $72^\circ$ and $108^\circ$, and the opposite angles repeat these.
+=> $72^\circ$, $108^\circ$, $72^\circ$, $108^\circ$
+?eg The diagonals of a rhombus are 10 cm and 24 cm. Find its side and area.
+= The diagonals bisect each other at right angles, so a side is $\sqrt{5^2 + 12^2} = 13$ cm.
+= Area $= \dfrac{1}{2} \times 10 \times 24 = 120$.
+=> Side 13 cm and area 120 square cm
+?eg The sides of a rectangle are 8 cm and 15 cm. Find the length of its diagonal.
+= $\sqrt{8^2 + 15^2} = \sqrt{289}$.
+=> 17 cm
+?eg The diagonals of a kite are 12 cm and 16 cm. Find its area.
+= Area $= \dfrac{1}{2} \times 12 \times 16$.
+=> 96 square cm
+
+@@dpp
+Q: The angles of a quadrilateral are in the ratio $2 : 3 : 4 : 6$. Find them.
+A: $48^\circ$, $72^\circ$, $96^\circ$ and $144^\circ$.
+
+Q: Two adjacent angles of a parallelogram are in the ratio $1 : 4$. Find all the angles.
+A: $36^\circ$, $144^\circ$, $36^\circ$ and $144^\circ$.
+
+Q: The diagonals of a rhombus are 16 cm and 30 cm. Find its side and area.
+A: Side 17 cm and area 240 square cm.
+
+Q: The sides of a rectangle are 9 cm and 12 cm. Find its diagonal.
+A: 15 cm.
+
+Q: The diagonals of a kite are 10 cm and 18 cm. Find its area.
+A: 90 square cm.
+
+Q: The diagonal of a square is 10 cm. Find its area.
+A: 50 square cm.
+
+Q: One angle of a parallelogram is $75^\circ$. Find the other three angles.
+A: $105^\circ$, $75^\circ$ and $105^\circ$.
+
+Q: Find the sum of the interior angles of a pentagon.
+A: $540^\circ$.

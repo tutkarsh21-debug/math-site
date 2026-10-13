@@ -1,0 +1,56 @@
+@minutes 12
+Q: The legs of a right triangle are 6 cm and 8 cm. The hypotenuse is
+- 7 cm
+- 9 cm
+* 10 cm
+- 14 cm
+W: $\sqrt{36 + 64} = 10$.
+
+Q: Which of these is a Pythagorean triple?
+- 4, 5, 6
+- 5, 11, 13
+* 5, 12, 13
+- 6, 7, 9
+W: $25 + 144 = 169 = 13^2$.
+
+Q: A ladder 10 m long has its foot 6 m from a wall. It reaches a height of
+- 4 m
+- 6 m
+* 8 m
+- 12 m
+W: $\sqrt{100 - 36} = 8$.
+
+Q: The diagonal of a rectangle of sides 3 cm and 4 cm is
+* 5 cm
+- 6 cm
+- 7 cm
+- 12 cm
+W: $\sqrt{9 + 16} = 5$.
+
+Q: The diagonal of a square of side 5 cm is
+- 5 cm
+- 10 cm
+* $5\sqrt{2}$ cm
+- $25\sqrt{2}$ cm
+W: $\sqrt{25 + 25} = 5\sqrt{2}$.
+
+Q: Two poles 4 m and 9 m tall stand 12 m apart. The distance between their tops is
+- 12 m
+* 13 m
+- 14 m
+- 15 m
+W: The difference in height is 5 m, so the distance is $\sqrt{12^2 + 5^2} = 13$ m.
+
+Q: The hypotenuse of a right triangle is 5 cm and one leg is 3 cm. The other leg is
+- 2 cm
+* 4 cm
+- 6 cm
+- 8 cm
+W: $\sqrt{25 - 9} = 4$.
+
+Q: A triangle has sides 7 cm, 8 cm and 11 cm. It is
+- right-angled
+* not right-angled
+- equilateral
+- impossible to draw
+W: $7^2 + 8^2 = 113$, which is not equal to $11^2 = 121$.

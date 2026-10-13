@@ -1,0 +1,54 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 1
+@title HOTS: A Square and a Cube (Class 8)
+@summary Higher order thinking questions on squares and cubes for Class 8: making a perfect square or cube by multiplying or dividing, square and cube roots by prime factors, and patterns of odd numbers, each with a full solution.
+
+# Solved HOTS questions
+- In a perfect square every prime factor has an **even** power; in a perfect cube every prime factor has a power that is a **multiple of 3**. The sum of the first $n$ odd numbers is $n^2$. Between $n^2$ and $(n + 1)^2$ there are exactly $2n$ numbers.
+?eg Find the square root of 7056 by prime factorisation.
+= $7056 = 2^4 \times 3^2 \times 7^2$.
+= Take half of each power: $2^2 \times 3 \times 7 = 4 \times 21$.
+=> 84
+?eg Find the smallest number by which 108 must be multiplied to get a perfect cube. Find the cube root of the product.
+= $108 = 2^2 \times 3^3$. The power of 2 is 2, so one more factor 2 is needed.
+= The product is $216 = 2^3 \times 3^3$, and its cube root is $2 \times 3 = 6$.
+=> Multiply by 2; the cube root is 6
+?eg Find the sum of the first 15 odd numbers without adding them one by one.
+= The sum of the first $n$ odd numbers is $n^2$.
+=> $15^2 = 225$
+?eg Find the cube root of 17 576 using the units digit.
+= The units digit of 17 576 is 6, so the cube root ends in 6.
+= Ignore the last three digits: 17 lies between $2^3 = 8$ and $3^3 = 27$, so the tens digit is 2.
+= Check: $26^3 = 17\,576$.
+=> 26
+?eg How many numbers lie between $12^2$ and $13^2$? How many of these are perfect squares?
+= There are $2 \times 12 = 24$ numbers between $12^2$ and $13^2$.
+= None of them is a perfect square, because the next square after $12^2$ is $13^2$.
+=> 24 numbers, none of them a perfect square
+
+@@dpp
+Q: Find the square root of 5929 by prime factorisation.
+A: 77 ($5929 = 7^2 \times 11^2$).
+
+Q: Find the smallest number by which 72 must be multiplied to get a perfect cube.
+A: 3 (the product is $216 = 6^3$).
+
+Q: Find the smallest number by which 1944 must be divided to get a perfect cube.
+A: 9 ($1944 = 2^3 \times 3^5$, and the quotient is $216$).
+
+Q: Find the cube root of 13 824.
+A: 24.
+
+Q: Find the sum of the first 20 odd numbers.
+A: 400.
+
+Q: How many numbers lie between $25^2$ and $26^2$?
+A: 50.
+
+Q: Write a Pythagorean triplet whose smallest member is 10.
+A: 10, 24, 26 (using $2m$, $m^2 - 1$ and $m^2 + 1$ with $m = 5$).
+
+Q: Is 1234 a perfect square? Give a reason.
+A: No. $35^2 = 1225$ and $36^2 = 1296$, and 1234 lies between them.

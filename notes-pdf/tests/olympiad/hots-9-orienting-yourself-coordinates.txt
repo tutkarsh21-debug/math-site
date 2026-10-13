@@ -1,0 +1,56 @@
+@minutes 12
+Q: The distance between $(1, 2)$ and $(4, 6)$ is
+- 3
+- 4
+* 5
+- 7
+W: $\sqrt{9 + 16} = 5$.
+
+Q: The point on the x-axis equidistant from $(1, 2)$ and $(5, 2)$ is
+- $(2, 0)$
+* $(3, 0)$
+- $(4, 0)$
+- $(0, 3)$
+W: $(x - 1)^2 = (x - 5)^2$ gives $-2x + 1 = -10x + 25$, so $x = 3$.
+
+Q: The triangle with vertices $(0, 0)$, $(3, 4)$ and $(-3, 4)$ is
+- equilateral
+* isosceles
+- right-angled
+- scalene
+W: The sides are 5, 5 and 6, so two sides are equal.
+
+Q: The point $(a, a + 1)$ is 5 units from the origin and $a > 0$. Then $a =$
+- 2
+* 3
+- 4
+- 5
+W: $a^2 + (a + 1)^2 = 25$ gives $a^2 + a - 12 = 0$, so $a = 3$ (or $-4$).
+
+Q: The perimeter of the triangle with vertices $(0, 0)$, $(4, 0)$ and $(4, 3)$ is
+- 7
+- 10
+* 12
+- 14
+W: The sides are 4, 3 and 5.
+
+Q: The distance between $(-2, -3)$ and $(2, 0)$ is
+- 3
+- 4
+* 5
+- 7
+W: $\sqrt{16 + 9} = 5$.
+
+Q: Which point is at distance 5 from the origin?
+- $(2, 3)$
+* $(3, -4)$
+- $(4, 4)$
+- $(1, 5)$
+W: $3^2 + 4^2 = 25$.
+
+Q: The points $(0, 0)$, $(2, 2)$ and $(4, 4)$ are
+- the vertices of an equilateral triangle
+- the vertices of a right triangle
+* collinear
+- the vertices of a square
+W: They all lie on the line $y = x$, and $\sqrt{8} + \sqrt{8} = \sqrt{32}$.

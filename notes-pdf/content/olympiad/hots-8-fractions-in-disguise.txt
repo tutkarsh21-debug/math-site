@@ -1,0 +1,54 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 5
+@title HOTS: Fractions in Disguise, Percentages (Class 8)
+@summary Higher order thinking questions on percentages for Class 8: percentage of a quantity, successive changes, profit and loss, discount with tax and compound growth, each with a full solution.
+
+# Solved HOTS questions
+- $p\%$ of $N$ is $\dfrac{p}{100} \times N$. A rise of $p\%$ multiplies by $\left(1 + \dfrac{p}{100}\right)$ and a fall of $p\%$ multiplies by $\left(1 - \dfrac{p}{100}\right)$. Profit, loss and percentage change are worked out on the **original** value; a discount is worked out on the **marked price**.
+?eg Find 35% of 240.
+= $\dfrac{35}{100} \times 240 = 0.35 \times 240$.
+=> 84
+?eg A price of Rs 800 is raised by 25% and then lowered by 20%. Find the final price.
+= After the rise: $800 \times 1.25 = 1000$.
+= After the fall: $1000 \times 0.8 = 800$.
+=> Rs 800 (the two changes cancel exactly)
+?eg A shopkeeper buys an article for Rs 750 and sells it for Rs 900. Find his profit percent.
+= Profit $= 900 - 750 = 150$.
+= Profit percent $= \dfrac{150}{750} \times 100$.
+=> 20%
+?eg An article is marked at Rs 1200. A discount of 15% is given, and then tax of 5% is charged on the discounted price. Find the amount to be paid.
+= Discount $= 0.15 \times 1200 = 180$, so the discounted price is Rs 1020.
+= Tax $= 0.05 \times 1020 = 51$.
+= Amount $= 1020 + 51$.
+=> Rs 1071
+?eg Rs 10 000 grows at 10% per year, compounded yearly. Find the amount after 2 years.
+= After year 1: $10\,000 \times 1.1 = 11\,000$.
+= After year 2: $11\,000 \times 1.1 = 12\,100$.
+=> Rs 12 100
+
+@@dpp
+Q: Find 45% of 360.
+A: 162.
+
+Q: A price of Rs 500 is raised by 20% and then lowered by 10%. Find the final price.
+A: Rs 540.
+
+Q: An article bought for Rs 400 is sold for Rs 340. Find the loss percent.
+A: 15%.
+
+Q: An article is marked at Rs 2000. A discount of 10% is given and then tax of 18% is charged on the discounted price. Find the amount to be paid.
+A: Rs 2124.
+
+Q: Rs 8000 grows at 5% per year, compounded yearly. Find the amount after 2 years.
+A: Rs 8820.
+
+Q: A quantity increases from 40 to 52. Find the percentage increase.
+A: 30%.
+
+Q: Find 12.5% of 640.
+A: 80.
+
+Q: Find the selling price needed to make a profit of 25% on an article costing Rs 640.
+A: Rs 800.

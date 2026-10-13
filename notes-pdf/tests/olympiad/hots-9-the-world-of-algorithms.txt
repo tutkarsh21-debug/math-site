@@ -1,0 +1,56 @@
+@minutes 12
+Q: Using Euclid's algorithm, the GCD of 48 and 18 is
+- 3
+* 6
+- 9
+- 12
+W: $48 = 2 \times 18 + 12$, $18 = 1 \times 12 + 6$, $12 = 2 \times 6 + 0$.
+
+Q: The GCD of 252 and 105 is
+- 7
+- 14
+* 21
+- 42
+W: $252 = 2 \times 105 + 42$, $105 = 2 \times 42 + 21$, $42 = 2 \times 21 + 0$.
+
+Q: The GCD of 91 and 35 is
+- 5
+* 7
+- 13
+- 35
+W: $91 = 2 \times 35 + 21$, $35 = 1 \times 21 + 14$, $21 = 1 \times 14 + 7$, $14 = 2 \times 7 + 0$.
+
+Q: An algorithm subtracts the smaller number from the larger until the two numbers are equal. Starting with 36 and 24, the final number is
+- 6
+* 12
+- 24
+- 36
+W: $(36, 24) \to (12, 24) \to (12, 12)$.
+
+Q: The output of the algorithm "$s = 0$; for $n = 1$ to 4 add $n$ to $s$; output $s$" is
+- 4
+- 6
+* 10
+- 24
+W: $1 + 2 + 3 + 4 = 10$.
+
+Q: The remainder step of Euclid's algorithm for 100 and 4 gives remainder
+* 0
+- 1
+- 4
+- 25
+W: $100 = 25 \times 4 + 0$, so the GCD is 4 after one step.
+
+Q: Which property must every algorithm have?
+- It must use only numbers
+* It must end after a finite number of steps
+- It must have exactly 10 steps
+- It must use a computer
+W: An algorithm has to give an answer, so it has to stop.
+
+Q: When 8 and 7 are added in the units place of a long addition, the digit written and the carry are
+- 5 and 0
+- 1 and 5
+* 5 and 1
+- 15 and 0
+W: $8 + 7 = 15$, so write 5 and carry 1.

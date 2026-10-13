@@ -1,0 +1,56 @@
+@minutes 12
+Q: Think of a number, add 7, double it, subtract 10, halve it and subtract the number you started with. The answer is always
+- 1
+* 2
+- 4
+- 7
+W: $\dfrac{2(n + 7) - 10}{2} - n = n + 2 - n = 2$.
+
+Q: The sum of three consecutive numbers is 51. The smallest number is
+- 15
+* 16
+- 17
+- 18
+W: $3n + 3 = 51$ gives $n = 16$.
+
+Q: In a calendar, the middle date of a $3 \times 3$ square is 10. The sum of the nine dates is
+- 80
+- 81
+* 90
+- 100
+W: The sum is $9 \times 10 = 90$.
+
+Q: Two numbers add up to 16. The largest possible product is
+- 48
+- 60
+* 64
+- 72
+W: The product is largest when both numbers are 8.
+
+Q: A father is three times as old as his son and the sum of their ages is 48 years. The son is
+- 10 years
+* 12 years
+- 14 years
+- 16 years
+W: $s + 3s = 48$ gives $s = 12$.
+
+Q: Solve $4x + 3 = 19$.
+- $x = 3$
+* $x = 4$
+- $x = 5$
+- $x = 6$
+W: $4x = 16$, so $x = 4$.
+
+Q: In a number pyramid the bottom row is 1, 2, 3 and each number above is the sum of the two below it. The top number is
+- 6
+- 7
+* 8
+- 9
+W: The middle row is 3 and 5, so the top is 8.
+
+Q: The sum of three consecutive even numbers is 54. The largest is
+- 16
+- 18
+* 20
+- 22
+W: The numbers are 16, 18 and 20.

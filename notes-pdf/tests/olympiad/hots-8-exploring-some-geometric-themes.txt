@@ -1,0 +1,56 @@
+@minutes 12
+Q: The number of vertices of a cube is
+- 6
+* 8
+- 10
+- 12
+W: A cube has 8 corners.
+
+Q: A square pyramid has 5 vertices and 5 faces. The number of edges is
+- 6
+- 7
+* 8
+- 10
+W: $5 - E + 5 = 2$ gives $E = 8$.
+
+Q: The number of triangles left in a Sierpinski triangle after 2 steps is
+- 4
+- 6
+* 9
+- 16
+W: Each step multiplies the number by 3: $3 \times 3 = 9$.
+
+Q: The top view of a cone standing on its circular base is
+- a triangle
+- a rectangle
+* a circle
+- a square
+W: Looking from above you see the circular base with the tip at the centre.
+
+Q: The number of faces of a triangular prism is
+- 3
+- 4
+* 5
+- 6
+W: Two triangles and three rectangles make 5 faces.
+
+Q: A segment of length 1 goes through one Koch step. Its new length is
+- $\dfrac{1}{3}$
+- 1
+* $\dfrac{4}{3}$
+- $\dfrac{16}{9}$
+W: It is replaced by 4 pieces of length $\dfrac{1}{3}$ each.
+
+Q: The number of squares in the net of a cube is
+- 4
+- 5
+* 6
+- 8
+W: A cube has 6 square faces.
+
+Q: For any convex solid, $V - E + F$ equals
+- 0
+- 1
+* 2
+- 3
+W: This is Euler's relation.

@@ -1,0 +1,54 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 1
+@title HOTS: Orienting Yourself, the Coordinate Plane (Class 9)
+@summary Higher order thinking questions on the coordinate plane and the distance formula for Class 9: equidistant points, classifying triangles and quadrilaterals from their vertices, and unknown coordinates, each with a full solution.
+
+# Solved HOTS questions
+- The distance between $(x_1, y_1)$ and $(x_2, y_2)$ is $\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. A point on the x-axis has $y = 0$ and a point on the y-axis has $x = 0$. To classify a shape, find all the side lengths (and the diagonals).
+?eg Find the distance between $(2, 3)$ and $(-4, -5)$.
+= $\sqrt{(-4 - 2)^2 + (-5 - 3)^2} = \sqrt{36 + 64} = \sqrt{100}$.
+=> 10 units
+?eg Find the point on the y-axis which is equidistant from $(3, 2)$ and $(-3, 4)$.
+= Let the point be $(0, y)$. $9 + (y - 2)^2 = 9 + (y - 4)^2$.
+= $(y - 2)^2 = (y - 4)^2$ gives $-4y + 4 = -8y + 16$, so $4y = 12$ and $y = 3$.
+= Check: both distances are $\sqrt{9 + 1}$.
+=> $(0, 3)$
+?eg Show that the triangle with vertices $A(0, 3)$, $B(4, 0)$ and $C(-4, 0)$ is isosceles, and find its perimeter.
+= $AB = \sqrt{16 + 9} = 5$, $AC = \sqrt{16 + 9} = 5$ and $BC = 8$.
+= Two sides are equal, so the triangle is isosceles.
+=> Isosceles with perimeter $5 + 5 + 8 = 18$ units
+?eg The point $(a, a + 1)$ is 5 units from the origin. Find $a$ and the points.
+= $a^2 + (a + 1)^2 = 25$, so $2a^2 + 2a - 24 = 0$ and $a^2 + a - 12 = 0$.
+= $(a + 4)(a - 3) = 0$, so $a = 3$ or $a = -4$.
+=> $a = 3$ gives $(3, 4)$ and $a = -4$ gives $(-4, -3)$
+?eg Show that $(0, 0)$, $(3, 4)$, $(8, 4)$ and $(5, 0)$ are the vertices of a rhombus.
+= $(0,0)$ to $(3,4)$: $\sqrt{9 + 16} = 5$. $(3,4)$ to $(8,4)$: 5. $(8,4)$ to $(5,0)$: $\sqrt{9 + 16} = 5$. $(5,0)$ to $(0,0)$: 5.
+= All four sides are equal, so it is a rhombus. The diagonals are $\sqrt{64 + 16}$ and $\sqrt{4 + 16}$, which are not equal, so it is not a square.
+=> A rhombus (not a square)
+
+@@dpp
+Q: Find the distance between $(-1, 7)$ and $(4, -5)$.
+A: 13 units.
+
+Q: Find the point on the x-axis which is equidistant from $(2, 3)$ and $(4, -1)$.
+A: $(1, 0)$.
+
+Q: Show that the triangle with vertices $(1, 1)$, $(4, 1)$ and $(4, 5)$ is right-angled.
+A: The sides are 3, 4 and 5, and $3^2 + 4^2 = 5^2$.
+
+Q: The point $(a, a - 1)$ is 5 units from the origin. Find the possible values of $a$.
+A: $a = 4$ or $a = -3$.
+
+Q: Find the perimeter of the triangle with vertices $(0, 0)$, $(8, 0)$ and $(4, 3)$.
+A: 18 units.
+
+Q: Find the distance of the point $(-6, 8)$ from the origin.
+A: 10 units.
+
+Q: Find the values of $x$ for which the distance between $(x, 3)$ and $(1, -1)$ is 5.
+A: $x = 4$ or $x = -2$.
+
+Q: Are the points $(1, 1)$, $(2, 3)$ and $(3, 5)$ the vertices of a triangle?
+A: No. $\sqrt{5} + \sqrt{5} = \sqrt{20}$, so the three points lie on one straight line.

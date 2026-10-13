@@ -1,0 +1,56 @@
+@minutes 12
+Q: The zero of the polynomial $4x - 12$ is
+- $-3$
+- 0
+* 3
+- 12
+W: $4x - 12 = 0$ gives $x = 3$.
+
+Q: The polynomial $2x + k$ has the zero $x = 5$. Then $k =$
+* $-10$
+- $-5$
+- 5
+- 10
+W: $10 + k = 0$ gives $k = -10$.
+
+Q: The line $y = 3x - 6$ cuts the x-axis at
+- $(0, -6)$
+- $(-2, 0)$
+* $(2, 0)$
+- $(6, 0)$
+W: $3x - 6 = 0$ gives $x = 2$.
+
+Q: The cost of $n$ notebooks is given by $20 + 5n$ rupees. The cost for 10 notebooks is
+- Rs 50
+- Rs 60
+* Rs 70
+- Rs 250
+W: $20 + 50 = 70$.
+
+Q: A row of $n$ triangles needs $2n + 1$ matchsticks. The number of sticks needed for 30 triangles is
+- 60
+* 61
+- 62
+- 90
+W: $2 \times 30 + 1 = 61$.
+
+Q: The zero of the polynomial $5x + 15$ is
+* $-3$
+- $-\dfrac{1}{3}$
+- 3
+- 15
+W: $x = -\dfrac{15}{5} = -3$.
+
+Q: Which of these lines passes through the origin?
+- $y = 4x + 1$
+- $y = x - 4$
+* $y = 4x$
+- $y = 4$
+W: A line $y = ax + b$ passes through the origin when $b = 0$.
+
+Q: Plan A costs $40 + 2m$ rupees and plan B costs $4m$ rupees for $m$ minutes. The costs are equal when $m =$
+- 10
+* 20
+- 30
+- 40
+W: $40 + 2m = 4m$ gives $m = 20$.

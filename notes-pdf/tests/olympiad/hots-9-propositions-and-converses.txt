@@ -1,0 +1,56 @@
+@minutes 12
+Q: Which of these is a proposition?
+- Close the door
+- What is your name?
+* 5 is greater than 3
+- $x + 1 = 4$
+W: A proposition is a statement that is true or false. "5 is greater than 3" is true.
+
+Q: The converse of "If a figure is a square, then it is a rectangle" is
+- If a figure is not a square, then it is not a rectangle
+* If a figure is a rectangle, then it is a square
+- If a figure is a rectangle, then it is not a square
+- A square is always a rectangle
+W: The converse swaps the two parts of the "if ... then" statement.
+
+Q: A counterexample to "All prime numbers are odd" is
+- 3
+- 9
+- 15
+* 2
+W: 2 is a prime number and it is even.
+
+Q: Which statement is the converse of "If $x > 0$, then $x^2 > 0$", and is it true?
+- "If $x^2 > 0$, then $x > 0$"; true
+* "If $x^2 > 0$, then $x > 0$"; false
+- "If $x \le 0$, then $x^2 \le 0$"; true
+- "If $x > 0$, then $x^2 > 0$"; false
+W: The converse is false: $x = -2$ gives $x^2 = 4 > 0$ but $x$ is not greater than 0.
+
+Q: "The sum of two even numbers is even" is
+* true, because $2a + 2b = 2(a + b)$
+- false, because $2 + 4 = 6$
+- true, only for small numbers
+- not a proposition
+W: The sum of any two even numbers is a multiple of 2.
+
+Q: "If a number is a multiple of 4, then it is even" is true. Its converse is
+- true
+* false, because 6 is even but not a multiple of 4
+- false, because 8 is even
+- not a proposition
+W: The converse is "If a number is even, then it is a multiple of 4", and 6 is a counterexample.
+
+Q: To show that a statement is false, it is enough to give
+* one counterexample
+- five examples
+- an example where it is true
+- a long explanation
+W: A single case where the statement fails shows that it is not always true.
+
+Q: "If a number is divisible by 9, then it is divisible by 3" is
+* true
+- false, because 3 is smaller than 9
+- false, because 12 is divisible by 3
+- not a proposition
+W: If a number is a multiple of 9 it is also a multiple of 3.

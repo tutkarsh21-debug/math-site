@@ -1,0 +1,54 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 4
+@title HOTS: Algebraic Identities (Class 9)
+@summary Higher order thinking questions on algebraic identities for Class 9: values of expressions from a sum and a product, quick cubes, factorising sums and differences of cubes and symmetric expressions, each with a full solution.
+
+# Solved HOTS questions
+- Identities to use: $(a + b)^2 = a^2 + 2ab + b^2$; $a^2 - b^2 = (a - b)(a + b)$; $(a + b)^3 = a^3 + b^3 + 3ab(a + b)$; $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$; $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$; $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$. When a sum and a product are given, express the target using only those.
+?eg If $a + b = 10$ and $ab = 21$, find $a^2 + b^2$ and $a^3 + b^3$.
+= $a^2 + b^2 = (a + b)^2 - 2ab = 100 - 42 = 58$.
+= $a^3 + b^3 = (a + b)^3 - 3ab(a + b) = 1000 - 3 \times 21 \times 10 = 1000 - 630 = 370$.
+=> 58 and 370
+?eg Using an identity, find the value of $103^3$.
+= $103^3 = (100 + 3)^3 = 100^3 + 3 \times 100^2 \times 3 + 3 \times 100 \times 3^2 + 3^3$.
+= $1\,000\,000 + 90\,000 + 2700 + 27$.
+=> 1 092 727
+?eg Factorise $8x^3 + 27y^3$.
+= $8x^3 + 27y^3 = (2x)^3 + (3y)^3$.
+= Using $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$ with $a = 2x$ and $b = 3y$.
+=> $(2x + 3y)(4x^2 - 6xy + 9y^2)$
+?eg If $x + \dfrac{1}{x} = 5$, find $x^3 + \dfrac{1}{x^3}$.
+= $\left(x + \dfrac{1}{x}\right)^3 = x^3 + \dfrac{1}{x^3} + 3\left(x + \dfrac{1}{x}\right)$.
+= $125 = x^3 + \dfrac{1}{x^3} + 15$.
+=> 110
+?eg If $a + b + c = 9$ and $ab + bc + ca = 23$, find $a^2 + b^2 + c^2$.
+= $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.
+= $81 = a^2 + b^2 + c^2 + 46$.
+=> 35
+
+@@dpp
+Q: If $a + b = 8$ and $ab = 15$, find $a^2 + b^2$ and $a^3 + b^3$.
+A: 34 and 152.
+
+Q: Using an identity, find the value of $98^3$.
+A: 941 192.
+
+Q: Factorise $27a^3 - 8b^3$.
+A: $(3a - 2b)(9a^2 + 6ab + 4b^2)$.
+
+Q: If $x - \dfrac{1}{x} = 2$, find $x^2 + \dfrac{1}{x^2}$ and $x^3 - \dfrac{1}{x^3}$.
+A: 6 and 14.
+
+Q: If $a + b + c = 10$ and $ab + bc + ca = 31$, find $a^2 + b^2 + c^2$.
+A: 38.
+
+Q: Verify that $a^3 + b^3 + c^3 = 3abc$ for $a = 2$, $b = 3$, $c = -5$.
+A: $a + b + c = 0$, and both sides equal $-90$.
+
+Q: Evaluate $104 \times 96$ using an identity.
+A: 9984.
+
+Q: Expand $(2x - 3y)^2$.
+A: $4x^2 - 12xy + 9y^2$.

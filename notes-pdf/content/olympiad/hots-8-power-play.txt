@@ -1,0 +1,51 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 4
+@title HOTS: Power Play (Class 8)
+@summary Higher order thinking questions on exponents for Class 8: the laws of exponents, negative exponents, finding an unknown power and scientific notation, each with a full solution.
+
+# Solved HOTS questions
+- Laws: $a^m \times a^n = a^{m+n}$, $\dfrac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{mn}$, $a^0 = 1$ and $a^{-n} = \dfrac{1}{a^n}$. To compare or combine powers, first write every base as a power of the same prime.
+?eg Simplify $\dfrac{2^3 \times 2^5}{2^4}$.
+= $2^{3 + 5 - 4} = 2^4$.
+=> 16
+?eg Find the value of $\left(\dfrac{3}{4}\right)^{-2}$.
+= A negative exponent turns the fraction upside down: $\left(\dfrac{4}{3}\right)^2$.
+=> $\dfrac{16}{9}$
+?eg Simplify $4^3 \times 2^{-6}$.
+= $4^3 = (2^2)^3 = 2^6$.
+= $2^6 \times 2^{-6} = 2^0$.
+=> 1
+?eg Find $x$ if $3^{x - 1} = 81$.
+= $81 = 3^4$, so $x - 1 = 4$.
+=> $x = 5$
+?eg Write 0.00045 and 7 300 000 in scientific notation.
+= $0.00045 = 4.5 \times 10^{-4}$ (the decimal point moves 4 places to the right).
+= $7\,300\,000 = 7.3 \times 10^6$ (the decimal point moves 6 places to the left).
+=> $4.5 \times 10^{-4}$ and $7.3 \times 10^6$
+
+@@dpp
+Q: Simplify $\dfrac{3^2 \times 3^4}{3^3}$.
+A: 27.
+
+Q: Find the value of $\left(\dfrac{2}{3}\right)^{-3}$.
+A: $\dfrac{27}{8}$.
+
+Q: Write 0.00032 in scientific notation.
+A: $3.2 \times 10^{-4}$.
+
+Q: Find $x$ if $2^{x + 1} = 32$.
+A: $x = 4$.
+
+Q: Simplify $9^2 \times 3^{-4}$.
+A: 1.
+
+Q: Find $(-2)^5$ and $(-2)^{-3}$.
+A: $-32$ and $-\dfrac{1}{8}$.
+
+Q: Write 6 400 000 in scientific notation.
+A: $6.4 \times 10^6$.
+
+Q: Simplify $10^{-2} \times 10^5$.
+A: $10^3 = 1000$.

@@ -1,0 +1,56 @@
+@minutes 12
+Q: The area of a rectangle 9 m by 7 m is
+- 16 square m
+- 32 square m
+* 63 square m
+- 72 square m
+W: $9 \times 7 = 63$.
+
+Q: The area of a triangle with base 10 cm and height 8 cm is
+- 18 square cm
+* 40 square cm
+- 80 square cm
+- 36 square cm
+W: $\dfrac{1}{2} \times 10 \times 8 = 40$.
+
+Q: The area of a parallelogram with base 15 cm and height 6 cm is
+- 45 square cm
+* 90 square cm
+- 21 square cm
+- 180 square cm
+W: $15 \times 6 = 90$.
+
+Q: The area of a trapezium with parallel sides 6 cm and 10 cm and height 5 cm is
+- 30 square cm
+* 40 square cm
+- 50 square cm
+- 80 square cm
+W: $\dfrac{1}{2}(6 + 10) \times 5 = 40$.
+
+Q: The area of a rhombus with diagonals 8 cm and 6 cm is
+- 14 square cm
+* 24 square cm
+- 48 square cm
+- 28 square cm
+W: $\dfrac{1}{2} \times 8 \times 6 = 24$.
+
+Q: A path 1 m wide runs around the outside of a garden 10 m by 8 m. The area of the path is
+- 36 square m
+* 40 square m
+- 44 square m
+- 80 square m
+W: The outer rectangle is $12 \times 10 = 120$ and the garden is 80, so the path is 40.
+
+Q: One hectare is equal to
+- 100 square m
+- 1000 square m
+* 10 000 square m
+- 100 000 square m
+W: A hectare is the area of a square of side 100 m.
+
+Q: The perimeter of a square is 36 cm. Its area is
+- 36 square cm
+- 72 square cm
+* 81 square cm
+- 144 square cm
+W: The side is 9 cm, so the area is 81.

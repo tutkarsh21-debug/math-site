@@ -1,0 +1,56 @@
+@minutes 12
+Q: The square root of 1764 is
+- 32
+- 38
+* 42
+- 44
+W: $1764 = 2^2 \times 3^2 \times 7^2$, so the root is $2 \times 3 \times 7 = 42$.
+
+Q: The cube root of 2744 is
+- 12
+* 14
+- 16
+- 18
+W: $14^3 = 2744$.
+
+Q: The smallest number by which 50 must be multiplied to get a perfect square is
+* 2
+- 5
+- 10
+- 25
+W: $50 = 2 \times 5^2$, so multiplying by 2 gives $100 = 10^2$.
+
+Q: Which of these cannot be a perfect square?
+- 1521
+- 2025
+* 2042
+- 1296
+W: A perfect square never ends in 2.
+
+Q: The sum of the first 12 odd numbers is
+- 24
+- 78
+* 144
+- 156
+W: $12^2 = 144$.
+
+Q: The number of integers between $9^2$ and $10^2$ is
+- 9
+- 10
+* 18
+- 19
+W: There are $2 \times 9 = 18$ numbers between $n^2$ and $(n + 1)^2$.
+
+Q: The cube root of 0.027 is
+- 0.03
+* 0.3
+- 0.9
+- 3
+W: $0.3^3 = 0.027$.
+
+Q: The value of $15^2$ is
+- 215
+- 220
+* 225
+- 235
+W: $15^2 = 225$.

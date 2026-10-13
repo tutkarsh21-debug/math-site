@@ -1,0 +1,52 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 9
+@title HOTS: We Distribute, Yet Things Multiply (Class 8)
+@summary Higher order thinking questions on algebraic expressions and identities for Class 8: multiplying brackets, the identities for squares, quick calculations and factorising, each with a full solution.
+
+# Solved HOTS questions
+- Identities: $(a + b)^2 = a^2 + 2ab + b^2$, $(a - b)^2 = a^2 - 2ab + b^2$ and $a^2 - b^2 = (a - b)(a + b)$. Multiply two brackets by distributing every term of the first over every term of the second. Use identities to calculate squares and products quickly.
+?eg Expand $(3x + 2)(x - 5)$.
+= $3x \times x + 3x \times (-5) + 2 \times x + 2 \times (-5) = 3x^2 - 15x + 2x - 10$.
+=> $3x^2 - 13x - 10$
+?eg Expand $(2a + 3b)^2$.
+= $(2a)^2 + 2 \times 2a \times 3b + (3b)^2$.
+=> $4a^2 + 12ab + 9b^2$
+?eg Use an identity to find $103^2$ and $98 \times 102$.
+= $103^2 = (100 + 3)^2 = 10\,000 + 600 + 9 = 10\,609$.
+= $98 \times 102 = (100 - 2)(100 + 2) = 100^2 - 2^2 = 10\,000 - 4$.
+=> 10 609 and 9996
+?eg If $a + b = 7$ and $ab = 10$, find $a^2 + b^2$ and $(a - b)^2$.
+= $a^2 + b^2 = (a + b)^2 - 2ab = 49 - 20 = 29$.
+= $(a - b)^2 = a^2 + b^2 - 2ab = 29 - 20 = 9$.
+=> 29 and 9
+?eg Factorise $x^2 - 14x + 49$ and $25y^2 - 16$.
+= $x^2 - 14x + 49 = x^2 - 2 \times 7 \times x + 7^2 = (x - 7)^2$.
+= $25y^2 - 16 = (5y)^2 - 4^2 = (5y - 4)(5y + 4)$.
+=> $(x - 7)^2$ and $(5y - 4)(5y + 4)$
+
+@@dpp
+Q: Expand $(2x - 1)(x + 4)$.
+A: $2x^2 + 7x - 4$.
+
+Q: Expand $(5x - 2y)^2$.
+A: $25x^2 - 20xy + 4y^2$.
+
+Q: Find $97^2$ using an identity.
+A: 9409.
+
+Q: Find $49 \times 51$ using an identity.
+A: 2499.
+
+Q: If $a + b = 9$ and $ab = 18$, find $a^2 + b^2$.
+A: 45.
+
+Q: Factorise $49x^2 - 36$.
+A: $(7x - 6)(7x + 6)$.
+
+Q: Factorise $9a^2 + 12ab + 4b^2$.
+A: $(3a + 2b)^2$.
+
+Q: Simplify $(x + 3)^2 - (x - 3)^2$.
+A: $12x$.

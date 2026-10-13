@@ -1,0 +1,56 @@
+@minutes 12
+Q: On a map 1 cm stands for 5 km. Two towns are 3.2 cm apart on the map. Their real distance is
+- 12 km
+- 15 km
+* 16 km
+- 32 km
+W: $3.2 \times 5 = 16$ km.
+
+Q: Rs 600 is divided in the ratio $1 : 2 : 3$. The largest share is
+- Rs 100
+- Rs 200
+* Rs 300
+- Rs 360
+W: One part is Rs 100, so the largest share is $3 \times 100 = 300$.
+
+Q: In a pie chart of 450 people a sector has a central angle of $120^\circ$. It represents
+- 100 people
+* 150 people
+- 180 people
+- 225 people
+W: $\dfrac{120}{360} = \dfrac{1}{3}$, and $\dfrac{450}{3} = 150$.
+
+Q: 5 men can finish a job in 24 days. 8 men will take
+- 12 days
+* 15 days
+- 18 days
+- 20 days
+W: Work $= 120$ man-days, and $\dfrac{120}{8} = 15$.
+
+Q: A can do a job in 20 days and B in 30 days. Together they take
+- 10 days
+* 12 days
+- 15 days
+- 25 days
+W: One day: $\dfrac{1}{20} + \dfrac{1}{30} = \dfrac{1}{12}$.
+
+Q: A sector of a pie chart has a central angle of $36^\circ$. It represents what percentage of the whole?
+- 5%
+* 10%
+- 12%
+- 15%
+W: $\dfrac{36}{360} = \dfrac{1}{10}$.
+
+Q: 12 men can finish a job in 10 days. 15 men will finish it in
+- 6 days
+- 7 days
+* 8 days
+- 9 days
+W: $\dfrac{120}{15} = 8$.
+
+Q: A tap fills a tank in 4 hours and a drain empties the full tank in 12 hours. With both open the tank fills in
+- 3 hours
+- 4 hours
+* 6 hours
+- 8 hours
+W: Net rate $= \dfrac{1}{4} - \dfrac{1}{12} = \dfrac{1}{6}$ per hour.

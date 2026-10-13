@@ -1,0 +1,55 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 12
+@title HOTS: Quadrilaterals (Class 9)
+@summary Higher order thinking questions on quadrilaterals for Class 9: angles and diagonals of parallelograms, rectangles and rhombuses, the midpoint theorem and the quadrilateral formed by joining midpoints, each with a full solution.
+
+# Solved HOTS questions
+- Facts: in a parallelogram opposite sides and opposite angles are equal, adjacent angles add up to $180^\circ$, and the diagonals bisect each other. A rectangle has equal diagonals. A rhombus has diagonals that bisect each other at right angles. The midpoint theorem: the segment joining the midpoints of two sides of a triangle is parallel to the third side and half as long.
+?eg In a parallelogram ABCD, $\angle A = 70^\circ$. Find the other three angles.
+= Opposite angles are equal: $\angle C = 70^\circ$.
+= Adjacent angles add up to $180^\circ$: $\angle B = \angle D = 110^\circ$.
+=> $\angle B = 110^\circ$, $\angle C = 70^\circ$, $\angle D = 110^\circ$
+?eg The diagonals of a parallelogram ABCD meet at O. If $OA = 3x - 1$ and $OC = x + 5$, find $AC$.
+= The diagonals bisect each other, so $OA = OC$: $3x - 1 = x + 5$ and $x = 3$.
+= $OA = 8$, so $AC = 2 \times 8$.
+=> 16
+?eg D, E and F are the midpoints of the sides BC, CA and AB of triangle ABC with $AB = 10$ cm, $BC = 12$ cm and $CA = 16$ cm. Find the perimeter of triangle DEF.
+= By the midpoint theorem each side of DEF is half of the opposite side of ABC.
+= The perimeter of DEF is half of $10 + 12 + 16 = 38$.
+=> 19 cm
+?eg The diagonal of a rectangle is 13 cm and one side is 5 cm. Find the other side and the area.
+= The other side $= \sqrt{13^2 - 5^2} = \sqrt{144} = 12$ cm.
+= Area $= 5 \times 12$.
+=> 12 cm and 60 square cm
+?eg The diagonals of a quadrilateral PQRS are 6 cm and 8 cm and they are perpendicular. The midpoints of its sides are joined to form a quadrilateral. What is this quadrilateral and what is its area?
+= The midpoint quadrilateral is a parallelogram, with sides parallel to the diagonals and half as long: 3 cm and 4 cm.
+= The diagonals are perpendicular, so the angles of this parallelogram are $90^\circ$ and it is a rectangle.
+= Area $= 3 \times 4$.
+=> A rectangle of area 12 square cm
+
+@@dpp
+Q: In a parallelogram ABCD, $\angle A = 2x$ and $\angle B = 3x$. Find $\angle A$.
+A: $72^\circ$ (here $5x = 180^\circ$ and $x = 36^\circ$).
+
+Q: The diagonals of a parallelogram meet at O, with $OA = 2x + 3$ and $OC = 3x - 2$. Find $AC$.
+A: 26 ($x = 5$ and $OA = 13$).
+
+Q: D and E are the midpoints of AB and AC in triangle ABC, and $DE = 9$ cm. Find $BC$.
+A: 18 cm.
+
+Q: The diagonal of a rectangle is 17 cm and one side is 8 cm. Find the other side and the area.
+A: 15 cm and 120 square cm.
+
+Q: A rhombus has a side of 10 cm and one diagonal of 16 cm. Find the other diagonal and the area.
+A: 12 cm and 96 square cm.
+
+Q: The diagonal of a square is $6\sqrt{2}$ cm. Find its side and area.
+A: 6 cm and 36 square cm.
+
+Q: The sides of a triangle are 6 cm, 8 cm and 10 cm. Find the perimeter of the triangle formed by joining the midpoints of its sides.
+A: 12 cm.
+
+Q: A quadrilateral has equal diagonals. Is it necessarily a rectangle?
+A: No. An isosceles trapezium also has equal diagonals.

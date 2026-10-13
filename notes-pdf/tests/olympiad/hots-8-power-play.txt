@@ -1,0 +1,56 @@
+@minutes 12
+Q: The value of $\dfrac{2^5}{2^2}$ is
+- 2
+- 6
+* 8
+- 16
+W: $2^{5 - 2} = 2^3 = 8$.
+
+Q: The value of $\left(\dfrac{1}{2}\right)^{-3}$ is
+- $\dfrac{1}{8}$
+- 6
+* 8
+- $-8$
+W: Turning the fraction over gives $2^3 = 8$.
+
+Q: The value of $5^0 + 5^{-1}$ is
+- 1
+* $\dfrac{6}{5}$
+- 5
+- $\dfrac{1}{5}$
+W: $1 + \dfrac{1}{5} = \dfrac{6}{5}$.
+
+Q: The number $4.5 \times 10^3$ equals
+- 450
+* 4500
+- 45 000
+- 0.0045
+W: Moving the decimal point 3 places to the right gives 4500.
+
+Q: If $3^x = 243$, then $x =$
+- 4
+* 5
+- 6
+- 7
+W: $243 = 3^5$.
+
+Q: The number $8 \times 10^{-3}$ equals
+- 8000
+- 0.08
+* 0.008
+- 0.0008
+W: $10^{-3} = 0.001$, so the value is 0.008.
+
+Q: The value of $(2^3)^2$ is
+- 32
+* 64
+- 16
+- 128
+W: $(2^3)^2 = 2^6 = 64$.
+
+Q: The value of $2^{-2}$ is
+- $-4$
+- $-\dfrac{1}{4}$
+* $\dfrac{1}{4}$
+- 4
+W: $2^{-2} = \dfrac{1}{2^2} = \dfrac{1}{4}$.

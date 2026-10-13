@@ -1,0 +1,56 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 3
+@title HOTS: Number Play (Class 8)
+@summary Higher order thinking questions on number play for Class 8: sums of consecutive numbers, divisibility tests for 3, 9 and 11, remainders and digital roots, each with a full solution.
+
+# Solved HOTS questions
+- Divisibility tests: a number is divisible by 3 (or 9) when its digit sum is; it is divisible by 11 when the difference between the sum of the digits in the odd places and the sum of those in the even places is 0 or a multiple of 11. A number leaves the same remainder as its digit sum when divided by 9.
+?eg Show that the sum of three consecutive whole numbers is always a multiple of 3.
+= Let the numbers be $n - 1$, $n$ and $n + 1$.
+= Their sum is $3n$, which is a multiple of 3.
+=> The sum is always $3n$
+?eg Find the digit $*$ so that the number $34{*}5$ is divisible by 3. List all the possible digits.
+= The digit sum is $3 + 4 + * + 5 = 12 + *$. It must be a multiple of 3.
+= So $*$ can be 0, 3, 6 or 9.
+=> 0, 3, 6 or 9
+?eg Find the digit $a$ so that the number $3a85$ is divisible by 11.
+= The digits in the odd places (from the left) are 3 and 8, with sum 11. The digits in the even places are $a$ and 5, with sum $a + 5$.
+= The difference $11 - (a + 5) = 6 - a$ must be 0 or a multiple of 11, so $a = 6$.
+= Check: $3685 = 11 \times 335$.
+=> $a = 6$
+?eg Find the remainder when 347 is divided by 9, without dividing.
+= The digit sum is $3 + 4 + 7 = 14$, and $1 + 4 = 5$.
+= $347 = 9 \times 38 + 5$.
+=> 5
+?eg Show that the difference between a two-digit number and the number formed by reversing its digits is always a multiple of 9.
+= Let the number be $10a + b$. The reversed number is $10b + a$.
+= The difference is $(10a + b) - (10b + a) = 9a - 9b = 9(a - b)$.
+= Example: $83 - 38 = 45 = 9 \times 5$.
+=> The difference is $9(a - b)$
+
+@@dpp
+Q: Find the sum of 11, 13 and 15 and show that it is a multiple of 3.
+A: $39 = 3 \times 13$ (three consecutive odd numbers $n - 2$, $n$ and $n + 2$ add up to $3n$).
+
+Q: Find the digit $*$ so that $52{*}4$ is divisible by 9.
+A: $* = 7$ (the digit sum $11 + *$ must be 18).
+
+Q: Find the digit $a$ so that $5a49$ is divisible by 11.
+A: $a = 0$ (the number is $5049 = 11 \times 459$).
+
+Q: Find the remainder when 2345 is divided by 9.
+A: 5 (the digit sum is 14, and $1 + 4 = 5$).
+
+Q: Find the digital root of 5678.
+A: 8 ($5 + 6 + 7 + 8 = 26$ and $2 + 6 = 8$).
+
+Q: Find the smallest four-digit number divisible by 11.
+A: 1001.
+
+Q: Is $73{*}8$ divisible by 3 when $* = 1$?
+A: No. The digit sum is $7 + 3 + 1 + 8 = 19$, which is not a multiple of 3.
+
+Q: Show that $83 - 38$ is a multiple of 9.
+A: $83 - 38 = 45 = 9 \times 5$.

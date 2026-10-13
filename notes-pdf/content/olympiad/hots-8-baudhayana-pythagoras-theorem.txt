@@ -1,0 +1,51 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 11
+@title HOTS: Baudhayana-Pythagoras Theorem (Class 8)
+@summary Higher order thinking questions on the Baudhayana-Pythagoras theorem for Class 8: finding sides of right triangles, testing a triple, ladders and poles, and doubling a square, each with a full solution.
+
+# Solved HOTS questions
+- In a right-angled triangle the square of the hypotenuse equals the sum of the squares of the other two sides: $c^2 = a^2 + b^2$. If $a^2 + b^2 = c^2$ for the three sides of a triangle, the triangle is right-angled (the converse). The square on the diagonal of a square has twice the area of the square.
+?eg The legs of a right triangle are 9 cm and 12 cm. Find the hypotenuse.
+= $\sqrt{81 + 144} = \sqrt{225}$.
+=> 15 cm
+?eg Is $(7, 24, 25)$ a Pythagorean triple?
+= $7^2 + 24^2 = 49 + 576 = 625 = 25^2$.
+=> Yes
+?eg A ladder 13 m long has its foot 5 m from a wall. How high up the wall does it reach?
+= Height $= \sqrt{13^2 - 5^2} = \sqrt{144}$.
+=> 12 m
+?eg A rectangle has a diagonal of 25 cm and a length of 24 cm. Find its breadth and its area.
+= Breadth $= \sqrt{25^2 - 24^2} = \sqrt{49} = 7$ cm.
+= Area $= 24 \times 7$.
+=> 7 cm and 168 square cm
+?eg A square has side 5 cm. Find the side of a square whose area is double that of the first.
+= The area of the first square is 25 square cm, so the new area is 50 square cm.
+= The side of the new square is $\sqrt{50} = 5\sqrt{2}$ cm, which is the diagonal of the first square.
+=> $5\sqrt{2}$ cm, about 7.07 cm
+
+@@dpp
+Q: The legs of a right triangle are 8 cm and 15 cm. Find the hypotenuse.
+A: 17 cm.
+
+Q: Is $(9, 40, 41)$ a Pythagorean triple?
+A: Yes, since $81 + 1600 = 1681 = 41^2$.
+
+Q: A ladder 25 m long has its foot 7 m from a wall. How high does it reach?
+A: 24 m.
+
+Q: A rectangle has a diagonal of 13 cm and a length of 12 cm. Find its breadth.
+A: 5 cm.
+
+Q: Find the diagonal of a square of side 7 cm.
+A: $7\sqrt{2}$ cm.
+
+Q: Find the height of an equilateral triangle of side 10 cm.
+A: $5\sqrt{3}$ cm, about 8.66 cm.
+
+Q: Write a Pythagorean triple whose members are all multiples of 10.
+A: 30, 40, 50 (ten times 3, 4, 5).
+
+Q: Two poles 6 m and 11 m tall stand 12 m apart. Find the distance between their tops.
+A: 13 m.

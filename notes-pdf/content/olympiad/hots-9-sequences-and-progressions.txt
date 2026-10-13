@@ -1,0 +1,54 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 8
+@title HOTS: Sequences and Progressions (Class 9)
+@summary Higher order thinking questions on sequences, arithmetic progressions and geometric progressions for Class 9: finding terms and sums, counting terms and spotting the type of a sequence, each with a full solution.
+
+# Solved HOTS questions
+- Arithmetic progression (AP): add the same number $d$ each time; $a_n = a + (n - 1)d$ and $S_n = \dfrac{n}{2}[2a + (n - 1)d]$. Geometric progression (GP): multiply by the same number $r$ each time; $a_n = ar^{n-1}$ and $S_n = \dfrac{a(r^n - 1)}{r - 1}$ for $r \ne 1$. Check the differences first, then the ratios.
+?eg The $n$th term of a sequence is $3n + 2$. Write the first three terms, find the 20th term and say what kind of sequence it is.
+= The first three terms: $5$, $8$, $11$.
+= The 20th term is $3 \times 20 + 2 = 62$.
+= The difference is always 3, so it is an AP.
+=> 5, 8, 11; the 20th term is 62; an AP with $d = 3$
+?eg Find the sum of the first 10 terms of the AP with first term 5 and common difference 3.
+= $S_{10} = \dfrac{10}{2}[2 \times 5 + 9 \times 3] = 5 \times 37$.
+=> 185
+?eg Find the 5th and the 8th terms of the GP $2, 6, 18, \ldots$
+= $a = 2$ and $r = 3$. The 5th term $= 2 \times 3^4 = 162$.
+= The 8th term $= 2 \times 3^7 = 2 \times 2187$.
+=> 162 and 4374
+?eg The sum of the first three terms of a GP is 39 and the common ratio is 3. Find the first term.
+= $a + 3a + 9a = 13a = 39$.
+=> $a = 3$ (the terms are 3, 9, 27)
+?eg Say whether the sequence $1, 4, 9, 16, \ldots$ is an AP, a GP, or neither, and find the next term.
+= The differences are 3, 5, 7, which are not equal, so it is not an AP.
+= The ratios are 4, 2.25, 1.78, which are not equal, so it is not a GP.
+= The terms are the squares $1^2, 2^2, 3^2, 4^2$, so the next term is $5^2$.
+=> Neither; the next term is 25
+
+@@dpp
+Q: The $n$th term of a sequence is $4n - 1$. Find the 25th term.
+A: 99.
+
+Q: Find the sum of the first 12 terms of the AP with first term 2 and common difference 5.
+A: 354.
+
+Q: Find the 7th term of the GP $3, 6, 12, \ldots$
+A: 192.
+
+Q: The sum of the first three terms of a GP is 21 and the common ratio is 2. Find the first term.
+A: 3 (the terms are 3, 6, 12).
+
+Q: Find the next term of the sequence $1, 2, 4, 7, 11, \ldots$
+A: 16 (the differences are 1, 2, 3, 4, 5).
+
+Q: How many terms are there in the AP $7, 11, 15, \ldots, 95$?
+A: 23.
+
+Q: Find the next term of the GP $2, -4, 8, \ldots$
+A: $-16$ (the common ratio is $-2$).
+
+Q: Find the sum of the first 20 natural numbers.
+A: 210.

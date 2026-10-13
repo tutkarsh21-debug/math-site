@@ -1,0 +1,58 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 2
+@title HOTS: Linear Polynomials (Class 9)
+@summary Higher order thinking questions on linear polynomials for Class 9: finding a polynomial from two values, zeroes, comparing two plans, straight-line graphs and matchstick patterns, each with a full solution.
+
+# Solved HOTS questions
+- A linear polynomial $p(x) = ax + b$ has a graph that is a straight line with slope $a$ and cuts the y-axis at $b$. Its zero is $x = -\dfrac{b}{a}$. Patterns that grow by a fixed amount are described by linear polynomials.
+?eg A linear polynomial $p(x)$ has $p(2) = 7$ and $p(5) = 16$. Find $p(x)$.
+= Let $p(x) = ax + b$. Then $2a + b = 7$ and $5a + b = 16$.
+= Subtracting: $3a = 9$, so $a = 3$ and $b = 1$.
+= Check: $p(2) = 7$ and $p(5) = 16$.
+=> $p(x) = 3x + 1$
+?eg Find $k$ if $x = 2$ is a zero of $5x + k$. Hence find the zero of $kx + 20$.
+= $5(2) + k = 0$, so $k = -10$.
+= The second polynomial is $-10x + 20$, and its zero is $x = \dfrac{20}{10}$.
+=> $k = -10$ and the zero is $2$
+?eg A phone plan A has a fixed charge of Rs 150 and Rs 2 per minute. Plan B has no fixed charge and Rs 5 per minute. For how many minutes do the two plans cost the same?
+= Plan A: $150 + 2m$. Plan B: $5m$.
+= $150 + 2m = 5m$, so $3m = 150$ and $m = 50$.
+= Check: A costs $150 + 100 = 250$ and B costs 250.
+=> 50 minutes (and for more than 50 minutes plan A is cheaper)
+?eg The graph of $y = ax + b$ passes through $(1, 5)$ and $(3, 11)$. Find the equation of the line and the points where it cuts the axes.
+= $a + b = 5$ and $3a + b = 11$. Subtracting: $2a = 6$, so $a = 3$ and $b = 2$.
+= The line is $y = 3x + 2$. It cuts the y-axis at $(0, 2)$.
+= It cuts the x-axis where $3x + 2 = 0$, that is $x = -\dfrac{2}{3}$.
+=> $y = 3x + 2$; points $(0, 2)$ and $\left(-\dfrac{2}{3}, 0\right)$
+?eg A row of triangles is made with matchsticks. One triangle needs 3 sticks, two triangles in a row need 5, three need 7. How many sticks are needed for 25 triangles, and how many triangles can be made with 101 sticks?
+= The pattern adds 2 sticks for each new triangle: $p(n) = 2n + 1$.
+= For 25 triangles: $2 \times 25 + 1 = 51$.
+= For 101 sticks: $2n + 1 = 101$, so $n = 50$.
+=> 51 sticks, and 50 triangles
+
+@@dpp
+Q: A linear polynomial $p(x)$ has $p(2) = 1$ and $p(6) = 9$. Find $p(x)$.
+A: $p(x) = 2x - 3$.
+
+Q: Find $k$ if $x = -3$ is a zero of $4x + k$.
+A: $k = 12$.
+
+Q: Plan A has a fixed charge of Rs 120 and Rs 4 per minute. Plan B has no fixed charge and Rs 6 per minute. For how many minutes are the costs equal?
+A: 60 minutes.
+
+Q: The line $y = ax + b$ passes through $(0, -3)$ and $(2, 5)$. Find $a$, $b$ and the point where it cuts the x-axis.
+A: $a = 4$, $b = -3$, and the line cuts the x-axis at $\left(\dfrac{3}{4}, 0\right)$.
+
+Q: A row of squares is made with matchsticks, so one square needs 4 sticks, two squares in a row need 7 and three need 10. How many sticks are needed for 20 squares, and how many squares can be made with 100 sticks?
+A: 61 sticks, and 33 squares (the pattern is $3n + 1$).
+
+Q: A taxi charges a fixed Rs 30 plus Rs 12 per km. Find the fare for 8 km, and the distance for which the fare is Rs 198.
+A: Rs 126 and 14 km.
+
+Q: For what value of $x$ does $5x - 7$ have the same value as $3x + 9$?
+A: $x = 8$.
+
+Q: The $n$th term of a sequence is $4n + 3$. Which term of the sequence is 83?
+A: The 20th term.

@@ -1,0 +1,56 @@
+@minutes 12
+Q: Rs 600 is divided between A and B in the ratio $2 : 3$. B's share is
+- Rs 200
+- Rs 240
+* Rs 360
+- Rs 400
+W: One part is $\dfrac{600}{5} = 120$, so B gets $3 \times 120 = 360$.
+
+Q: If 6 pens cost Rs 48, then 15 pens cost
+- Rs 90
+- Rs 100
+* Rs 120
+- Rs 144
+W: One pen costs Rs 8, so 15 pens cost Rs 120.
+
+Q: If $3 : 7 = 15 : x$, then $x =$
+- 21
+* 35
+- 45
+- 105
+W: $3x = 7 \times 15 = 105$, so $x = 35$.
+
+Q: The ratio of 30 minutes to 2 hours in simplest form is
+- $1 : 2$
+- $1 : 3$
+* $1 : 4$
+- $3 : 4$
+W: 2 hours is 120 minutes, and $30 : 120 = 1 : 4$.
+
+Q: The ratio of the ages of two brothers is $5 : 3$ and their sum is 48 years. The elder is
+- 18 years
+- 24 years
+* 30 years
+- 32 years
+W: One part is $\dfrac{48}{8} = 6$, so the elder is $5 \times 6 = 30$.
+
+Q: A car uses 8 litres of petrol to go 120 km. How far does it go on 20 litres?
+- 240 km
+- 280 km
+* 300 km
+- 360 km
+W: It goes 15 km per litre, so on 20 litres it goes 300 km.
+
+Q: The sides of a rectangle are in the ratio $3 : 2$ and its perimeter is 50 cm. The longer side is
+- 10 cm
+- 12 cm
+* 15 cm
+- 25 cm
+W: Perimeter $= 2 \times 5$ parts $= 10$ parts $= 50$, so one part is 5 cm and the longer side is 15 cm.
+
+Q: A recipe for 4 people uses 300 g of flour. For 6 people it needs
+- 400 g
+- 425 g
+* 450 g
+- 600 g
+W: 75 g per person, so $6 \times 75 = 450$ g.

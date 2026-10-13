@@ -1,0 +1,56 @@
+@minutes 12
+Q: An arc subtends an angle of $80^\circ$ at the centre. The angle it subtends at a point on the major arc is
+- $20^\circ$
+* $40^\circ$
+- $80^\circ$
+- $160^\circ$
+W: The angle at the circumference is half of the angle at the centre.
+
+Q: A chord of length 30 cm is drawn in a circle of radius 17 cm. Its distance from the centre is
+- 6 cm
+* 8 cm
+- 10 cm
+- 15 cm
+W: Half the chord is 15 cm, so the distance is $\sqrt{17^2 - 15^2} = 8$ cm.
+
+Q: In a cyclic quadrilateral ABCD, $\angle A = 70^\circ$. Then $\angle C =$
+- $70^\circ$
+- $90^\circ$
+* $110^\circ$
+- $140^\circ$
+W: Opposite angles add up to $180^\circ$.
+
+Q: The angle in a semicircle is
+- $45^\circ$
+- $60^\circ$
+* $90^\circ$
+- $180^\circ$
+W: A diameter subtends a right angle at any point on the circle.
+
+Q: Two equal chords of a circle are
+* the same distance from the centre
+- different distances from the centre
+- always parallel
+- always diameters
+W: Equal chords are equally distant from the centre.
+
+Q: AB is a diameter and C lies on the circle. If $\angle CAB = 25^\circ$, then $\angle ABC =$
+- $25^\circ$
+- $55^\circ$
+* $65^\circ$
+- $75^\circ$
+W: $\angle ACB = 90^\circ$, so $\angle ABC = 180^\circ - 90^\circ - 25^\circ = 65^\circ$.
+
+Q: The exterior angle of a cyclic quadrilateral is equal to
+- the adjacent interior angle
+* the interior opposite angle
+- twice the interior angle
+- $90^\circ$
+W: A side is extended, so the exterior angle and its adjacent interior angle add to $180^\circ$; the interior opposite angle also adds with it to $180^\circ$.
+
+Q: The number of circles that can be drawn through three non-collinear points is
+- 0
+* 1
+- 2
+- Infinite
+W: Exactly one circle passes through three points that are not on a line.

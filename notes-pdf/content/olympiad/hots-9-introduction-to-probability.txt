@@ -1,0 +1,55 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 7
+@title HOTS: Introduction to Probability (Class 9)
+@summary Higher order thinking questions on probability for Class 9: sample spaces of coins and dice, counting favourable outcomes, experimental and theoretical probability, each with a full solution.
+
+# Solved HOTS questions
+- $P(E) = \dfrac{\text{favourable outcomes}}{\text{all possible outcomes}}$, always between 0 and 1. List the sample space in an organised way (a table or a tree diagram) so that no outcome is missed. Experimental probability uses the results of real trials: $\dfrac{\text{number of times the event happened}}{\text{number of trials}}$.
+?eg A coin is tossed three times. Write the sample space and find the probability of getting exactly two heads.
+= The outcomes are HHH, HHT, HTH, HTT, THH, THT, TTH and TTT: 8 in all.
+= Exactly two heads: HHT, HTH and THH, which is 3 outcomes.
+=> $\dfrac{3}{8}$
+?eg Two dice are thrown together. Find the probability that the sum of the numbers is less than 5.
+= The sums less than 5 are: 2 from (1,1); 3 from (1,2) and (2,1); 4 from (1,3), (3,1) and (2,2). That is 6 outcomes.
+= There are 36 outcomes in all.
+=> $\dfrac{6}{36} = \dfrac{1}{6}$
+?eg A bag has 4 red, 5 green and 6 blue balls. A ball is drawn at random. Find the probability that it is not green.
+= Total balls $= 15$. Balls that are not green $= 4 + 6 = 10$.
+= (Or $1 - P(\text{green}) = 1 - \dfrac{5}{15}$.)
+=> $\dfrac{2}{3}$
+?eg A die is thrown 50 times and the number 6 comes up 9 times. Find the experimental probability of getting a 6 and compare it with the theoretical probability.
+= Experimental probability $= \dfrac{9}{50} = 0.18$.
+= Theoretical probability $= \dfrac{1}{6} \approx 0.167$.
+= The two are close. With more throws the experimental value usually comes closer to the theoretical one.
+=> $0.18$, which is close to $\dfrac{1}{6}$
+?eg A letter is chosen at random from the word MATHEMATICS. Find the probability that it is a vowel, and that it is the letter M.
+= The word has 11 letters: M, A, T, H, E, M, A, T, I, C, S.
+= The vowels are A, E, A, I, which is 4 letters. The letter M appears 2 times.
+=> $\dfrac{4}{11}$ for a vowel and $\dfrac{2}{11}$ for M
+
+@@dpp
+Q: A coin is tossed three times. Find the probability of getting at least two heads.
+A: $\dfrac{4}{8} = \dfrac{1}{2}$.
+
+Q: Two dice are thrown together. Find the probability that the sum is 8.
+A: $\dfrac{5}{36}$.
+
+Q: A bag has 3 red, 5 green and 2 white balls. Find the probability of drawing a red or a white ball.
+A: $\dfrac{5}{10} = \dfrac{1}{2}$.
+
+Q: A letter is chosen at random from the word PROBABILITY. Find the probability that it is the letter B, and the probability that it is a vowel.
+A: $\dfrac{2}{11}$ and $\dfrac{4}{11}$.
+
+Q: What is the probability of an impossible event? Of a certain event?
+A: 0 and 1.
+
+Q: A card is drawn from ten cards numbered 1 to 10. Find the probability that it is even or greater than 7.
+A: $\dfrac{6}{10} = \dfrac{3}{5}$ (the cards are 2, 4, 6, 8, 10 and 9).
+
+Q: Out of 40 seeds, 34 germinate. Find the experimental probability that a seed germinates.
+A: $\dfrac{17}{20}$.
+
+Q: A die is thrown once. Find the probability of getting a number that is a factor of 6.
+A: $\dfrac{4}{6} = \dfrac{2}{3}$.

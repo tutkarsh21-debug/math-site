@@ -1,0 +1,52 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 14
+@title HOTS: Tales by Dots and Lines (Class 8)
+@summary Higher order thinking questions on data for Class 8: the mean and the median, changes in the mean when data change, data given with frequencies and reading line graphs, each with a full solution.
+
+# Solved HOTS questions
+- The **mean** is $\dfrac{\text{sum of values}}{\text{number of values}}$. The **median** is the middle value of the ordered data (the mean of the two middle values when the count is even). With frequencies, the mean is $\dfrac{\sum (\text{value} \times \text{frequency})}{\sum \text{frequency}}$. When a value is added, removed or changed, work with the **sum**.
+?eg Find the mean of 4, 8, 12, 16 and 20.
+= The sum is 60 and there are 5 values.
+=> 12
+?eg The mean of 5 numbers is 20. One number, 30, is removed. Find the mean of the remaining numbers.
+= Old sum $= 100$. New sum $= 100 - 30 = 70$ for 4 numbers.
+= New mean $= \dfrac{70}{4}$.
+=> 17.5
+?eg Find the median of 7, 3, 9, 5, 11 and 4.
+= Arranged in order: 3, 4, 5, 7, 9, 11.
+= There are 6 values, so the median is the mean of the 3rd and 4th: $\dfrac{5 + 7}{2}$.
+=> 6
+?eg The values 1, 2 and 3 occur 2, 3 and 5 times respectively. Find the mean.
+= $\dfrac{1 \times 2 + 2 \times 3 + 3 \times 5}{2 + 3 + 5} = \dfrac{2 + 6 + 15}{10}$.
+=> 2.3
+?eg A line graph shows the temperature as 20 degrees at 6 am, 24 degrees at 9 am, 29 degrees at 12 noon and 27 degrees at 3 pm. By how much did the temperature rise from 6 am to noon, and when did it start to fall?
+= Rise $= 29 - 20 = 9$ degrees.
+= The line goes down after noon, because 27 is less than 29.
+=> A rise of 9 degrees; it started to fall after 12 noon
+
+@@dpp
+Q: Find the mean of 3, 6, 9 and 12.
+A: 7.5.
+
+Q: The mean of 9 numbers is 20. A tenth number, 30, is added. Find the new mean.
+A: 21.
+
+Q: Find the median of 2, 8, 4, 6, 10 and 12.
+A: 7.
+
+Q: The values 10, 20 and 30 occur 2, 3 and 5 times respectively. Find the mean.
+A: 23.
+
+Q: The mean of 5 numbers is 12. One of the numbers changes from 8 to 18. Find the new mean.
+A: 14.
+
+Q: Find the median of 5, 1, 9, 3 and 7.
+A: 5.
+
+Q: A line graph shows the values 3, 5, 4 and 8 at four times. Between which two consecutive times is the rise the greatest?
+A: Between the third and the fourth time (a rise of 4).
+
+Q: Find the mean of the first five even numbers.
+A: 6.

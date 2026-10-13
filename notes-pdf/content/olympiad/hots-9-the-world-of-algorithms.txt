@@ -1,0 +1,57 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 11
+@title HOTS: The World of Algorithms (Class 9)
+@summary Higher order thinking questions on algorithms for Class 9: following a procedure step by step, the greatest common divisor by repeated subtraction and division, counting the number of steps and improving a method, each with a full solution.
+
+# Solved HOTS questions
+- An **algorithm** is a precise list of steps that always ends with the right answer. To trace one, write the values after every step in a small table. Euclid's algorithm for the greatest common divisor: replace the larger number by the remainder on dividing it by the smaller, and repeat until the remainder is 0; the last non-zero number is the GCD.
+?eg Follow the algorithm: "Start with $a = 48$ and $b = 18$. While $b \ne 0$, replace $(a, b)$ by $(b, a \bmod b)$. Output $a$." What is the output?
+= $(48, 18) \to (18, 12)$ since $48 \bmod 18 = 12$.
+= $(18, 12) \to (12, 6)$ since $18 \bmod 12 = 6$.
+= $(12, 6) \to (6, 0)$ since $12 \bmod 6 = 0$.
+= Now $b = 0$, so the output is $a = 6$.
+=> 6 (the GCD of 48 and 18)
+?eg Find the GCD of 252 and 105 using Euclid's algorithm and count the steps.
+= $252 = 2 \times 105 + 42$.
+= $105 = 2 \times 42 + 21$.
+= $42 = 2 \times 21 + 0$.
+=> GCD 21, in 3 division steps
+?eg An algorithm subtracts the smaller number from the larger again and again until both are equal. Starting with 36 and 24, what is the final number?
+= $(36, 24) \to (12, 24) \to (12, 12)$.
+= The numbers are equal, so stop.
+=> 12 (the GCD of 36 and 24)
+?eg How many subtractions does the repeated-subtraction method need for the GCD of 100 and 4, and how many divisions does Euclid's method need?
+= Repeated subtraction: $100 - 4 = 96$, then 92, and so on until 4, which takes 24 subtractions to reach $(4, 4)$.
+= Euclid's method: $100 = 25 \times 4 + 0$, which is 1 division.
+=> 24 subtractions against 1 division
+?eg Write an algorithm to decide whether a number $n$ is even.
+= Step 1: divide $n$ by 2 and find the remainder.
+= Step 2: if the remainder is 0, output "even"; otherwise output "odd".
+=> The algorithm uses one division and one decision
+
+@@dpp
+Q: Trace this algorithm and give the output: "Start with $a = 84$ and $b = 36$. While $b \ne 0$, replace $(a, b)$ by $(b, a \bmod b)$. Output $a$."
+A: 12.
+
+Q: Find the GCD of 150 and 60 using Euclid's algorithm.
+A: 30.
+
+Q: An algorithm repeatedly subtracts the smaller number from the larger until the two are equal. Start with 45 and 30 and give the final number.
+A: 15.
+
+Q: How many divisions does Euclid's method need to find the GCD of 21 and 14?
+A: 2 divisions ($21 = 1 \times 14 + 7$ and $14 = 2 \times 7 + 0$).
+
+Q: What is the output of the algorithm "start with $s = 0$ and $n = 1$; while $n \le 5$, set $s = s + n$ and $n = n + 1$; output $s$"?
+A: 15.
+
+Q: An algorithm for the sum of two numbers adds them digit by digit from the right with a carry. What is the carry when 8 and 7 are added in the units place?
+A: The sum is 15, so write 5 and carry 1.
+
+Q: Write the first two steps of an algorithm that finds the largest of three numbers $a$, $b$, $c$.
+A: One answer: compare $a$ and $b$ and keep the larger as $m$; then compare $m$ with $c$ and keep the larger.
+
+Q: Why must an algorithm always stop after a finite number of steps?
+A: An algorithm that never stops never gives an answer, so it cannot solve the problem.

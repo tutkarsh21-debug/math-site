@@ -1,0 +1,56 @@
+@minutes 12
+Q: Three angles of a quadrilateral are $90^\circ$, $80^\circ$ and $100^\circ$. The fourth angle is
+- $60^\circ$
+- $80^\circ$
+* $90^\circ$
+- $100^\circ$
+W: $360^\circ - (90^\circ + 80^\circ + 100^\circ) = 90^\circ$.
+
+Q: One angle of a parallelogram is $110^\circ$. An adjacent angle is
+- $110^\circ$
+* $70^\circ$
+- $90^\circ$
+- $250^\circ$
+W: Adjacent angles add up to $180^\circ$.
+
+Q: A rhombus has diagonals of 6 cm and 8 cm. Its area is
+- 14 square cm
+- 20 square cm
+* 24 square cm
+- 48 square cm
+W: $\dfrac{1}{2} \times 6 \times 8 = 24$.
+
+Q: A rectangle has a diagonal of 10 cm and one side of 6 cm. The other side is
+- 4 cm
+- 6 cm
+* 8 cm
+- 12 cm
+W: $\sqrt{100 - 36} = 8$.
+
+Q: The diagonals of a kite are 8 cm and 10 cm. Its area is
+- 18 square cm
+* 40 square cm
+- 80 square cm
+- 36 square cm
+W: $\dfrac{1}{2} \times 8 \times 10 = 40$.
+
+Q: The sum of the interior angles of a hexagon is
+- $540^\circ$
+* $720^\circ$
+- $900^\circ$
+- $360^\circ$
+W: $(6 - 2) \times 180^\circ = 720^\circ$.
+
+Q: The diagonals of a rhombus
+- are equal
+* bisect each other at right angles
+- are parallel
+- do not meet
+W: This is the characteristic property of a rhombus.
+
+Q: The diagonal of a square of side 4 cm is
+- 4 cm
+- 8 cm
+* $4\sqrt{2}$ cm
+- $16\sqrt{2}$ cm
+W: $\sqrt{16 + 16} = 4\sqrt{2}$.

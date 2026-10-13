@@ -1,0 +1,56 @@
+@minutes 12
+Q: Marks of 70 and 90 have equal weights. The weighted mean is
+- 70
+- 75
+* 80
+- 90
+W: With equal weights it is the simple mean $\dfrac{70 + 90}{2} = 80$.
+
+Q: 10 kg of an item at Rs 20 per kg is mixed with 10 kg at Rs 30 per kg. The cost per kg of the mixture is
+- Rs 20
+* Rs 25
+- Rs 28
+- Rs 30
+W: $\dfrac{200 + 300}{20} = 25$.
+
+Q: 30 students have an average mark of 40 and 20 students have an average mark of 60. The average of all 50 students is
+- 46
+* 48
+- 50
+- 52
+W: $\dfrac{1200 + 1200}{50} = 48$.
+
+Q: A student's average in 3 tests is 60. She scores 100 in the fourth test. The average of the four tests is
+- 65
+* 70
+- 75
+- 80
+W: Total $= 180 + 100 = 280$, and $\dfrac{280}{4} = 70$.
+
+Q: In a stacked bar of 120 people, 30 are in one part. That part is
+- 20%
+* 25%
+- 30%
+- 40%
+W: $\dfrac{30}{120} \times 100 = 25$.
+
+Q: Two kinds of tea cost Rs 30 and Rs 40 per kg. They are mixed to make a mixture costing Rs 36 per kg. The ratio of the quantity at Rs 30 to the quantity at Rs 40 is
+- $3 : 2$
+* $2 : 3$
+- $1 : 1$
+- $3 : 5$
+W: Taking quantities $2x$ and $3x$: $\dfrac{60x + 120x}{5x} = 36$. The ratio is $2 : 3$.
+
+Q: Five boys have an average weight of 40 kg and five girls have an average weight of 30 kg. The average weight of all ten is
+- 32 kg
+- 34 kg
+* 35 kg
+- 36 kg
+W: The groups are equal in size, so the mean is $\dfrac{40 + 30}{2} = 35$.
+
+Q: A weighted mean of the values 10, 20 and 30 can never be
+- 12
+- 20
+- 29
+* 35
+W: A weighted mean lies between the smallest and the largest value, so it cannot be more than 30.

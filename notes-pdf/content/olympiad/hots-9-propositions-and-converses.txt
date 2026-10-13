@@ -1,0 +1,54 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 9
+@title HOTS: Propositions and Converses (Class 9)
+@summary Higher order thinking questions on propositions, converses and counterexamples for Class 9: deciding whether a statement is true or false, writing converses and testing them, each with a full solution.
+
+# Solved HOTS questions
+- A **proposition** is a statement that is either true or false, but not both. The **converse** of "If $P$ then $Q$" is "If $Q$ then $P$". A statement and its converse can have different truth values. **One counterexample** is enough to show that a statement is false, but examples never prove that a statement is true for all cases.
+?eg Which of these are propositions: (a) $x + 3 = 5$; (b) 7 is a prime number; (c) Is it raining?; (d) the sum of any two odd numbers is even?
+= (a) is true for $x = 2$ and false for other $x$, so it is not a proposition until $x$ is given.
+= (b) is a true statement. (c) is a question, not a statement. (d) is a statement, and it is true (for example $3 + 5 = 8$; in general $(2m + 1) + (2n + 1) = 2(m + n + 1)$).
+=> (b) and (d) are propositions
+?eg Write the converse of "If a number is divisible by 6, then it is divisible by 3" and decide whether the converse is true.
+= The converse is "If a number is divisible by 3, then it is divisible by 6".
+= The number 9 is divisible by 3 but not by 6, so this is a counterexample.
+=> The converse is false
+?eg Show that the statement "All prime numbers are odd" is false.
+= We need one prime number which is not odd.
+= The number 2 is prime and even.
+=> 2 is a counterexample, so the statement is false
+?eg "If a quadrilateral is a rhombus, then its diagonals are perpendicular" is true. Is its converse true?
+= The converse: "If the diagonals of a quadrilateral are perpendicular, then it is a rhombus".
+= A kite with sides 3, 3, 5 and 5 has perpendicular diagonals but its sides are not all equal, so it is not a rhombus.
+=> The converse is false
+?eg "If $n$ is an even number, then $n^2$ is even." Write the converse and decide whether both are true.
+= Statement: if $n = 2m$ then $n^2 = 4m^2 = 2(2m^2)$, which is even. True.
+= Converse: "If $n^2$ is even, then $n$ is even". If $n$ were odd, then $n^2$ would be odd, so $n^2$ even forces $n$ even. True.
+=> Both are true
+
+@@dpp
+Q: Write the converse of "If $x = 3$, then $x^2 = 9$". Is the converse true?
+A: "If $x^2 = 9$, then $x = 3$". It is false, because $x = -3$ also gives $x^2 = 9$.
+
+Q: Give a counterexample to the statement "The square of every number is greater than the number itself".
+A: $x = 1$ (or $x = \dfrac{1}{2}$ or $x = 0$): $1^2 = 1$ is not greater than 1.
+
+Q: Is "$2 + 2 = 5$" a proposition?
+A: Yes. It is a false statement.
+
+Q: "If a triangle is equilateral, then it is isosceles" is true. Write its converse and decide whether it is true.
+A: "If a triangle is isosceles, then it is equilateral". False: a triangle with sides 5, 5 and 6 is a counterexample.
+
+Q: Write the contrapositive of "If it rains, then the ground is wet".
+A: "If the ground is not wet, then it did not rain".
+
+Q: Is the statement "Every rectangle is a square" true?
+A: False. A rectangle of sides 2 cm and 3 cm is a counterexample.
+
+Q: "If a number ends in 0, then it is divisible by 5" is true. Is its converse true?
+A: The converse is "If a number is divisible by 5, then it ends in 0". It is false: 15 is a counterexample.
+
+Q: Is the statement "$n^2 + n + 41$ is a prime number for every natural number $n$" true?
+A: False. For $n = 40$ the value is $1681 = 41^2$.

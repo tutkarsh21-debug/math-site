@@ -1,0 +1,56 @@
+@minutes 12
+Q: The number $0.555\ldots$ (5 repeating) equals
+- $\dfrac{5}{10}$
+- $\dfrac{5}{99}$
+* $\dfrac{5}{9}$
+- $\dfrac{55}{100}$
+W: Let $x = 0.555\ldots$, then $10x - x = 5$ and $x = \dfrac{5}{9}$.
+
+Q: The value of $\sqrt{18} \times \sqrt{2}$ is
+- 3
+* 6
+- 9
+- 36
+W: $\sqrt{36} = 6$.
+
+Q: Rationalising $\dfrac{1}{2 + \sqrt{3}}$ gives
+- $2 + \sqrt{3}$
+* $2 - \sqrt{3}$
+- $\dfrac{2 - \sqrt{3}}{7}$
+- $\sqrt{3} - 2$
+W: Multiplying the top and bottom by $2 - \sqrt{3}$ gives denominator $4 - 3 = 1$.
+
+Q: Which of these numbers is irrational?
+- 0.25
+- $\sqrt{25}$
+* $\sqrt{7}$
+- $\dfrac{22}{7}$
+W: 7 is not a perfect square, so $\sqrt{7}$ is irrational. The others are rational.
+
+Q: The decimal expansion of $\dfrac{3}{8}$ is
+- 0.38
+* 0.375
+- 0.3777...
+- 0.3125
+W: $3 \div 8 = 0.375$, which terminates.
+
+Q: The decimal expansion of $\dfrac{1}{7}$ is
+- terminating
+* non-terminating and repeating
+- non-terminating and non-repeating
+- 0.17
+W: $\dfrac{1}{7} = 0.142857142857\ldots$, which repeats.
+
+Q: The value of $(\sqrt{5} + \sqrt{2})(\sqrt{5} - \sqrt{2})$ is
+- 1
+- 7
+* 3
+- $\sqrt{3}$
+W: $(\sqrt{5})^2 - (\sqrt{2})^2 = 5 - 2 = 3$.
+
+Q: The value of $\sqrt{0.0004}$ is
+- 0.2
+* 0.02
+- 0.002
+- 0.04
+W: $0.02^2 = 0.0004$.

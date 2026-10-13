@@ -1,0 +1,56 @@
+@minutes 12
+Q: If $x + y = 12$ and $x - y = 4$, then $x =$
+- 4
+- 6
+* 8
+- 10
+W: Adding gives $2x = 16$, so $x = 8$.
+
+Q: The slope of the line through $(0, 1)$ and $(2, 5)$ is
+- 1
+* 2
+- 3
+- 4
+W: $\dfrac{5 - 1}{2 - 0} = 2$.
+
+Q: The line $y = 2x + 3$ passes through the point
+- $(1, 4)$
+* $(1, 5)$
+- $(2, 5)$
+- $(0, 2)$
+W: At $x = 1$, $y = 2 + 3 = 5$.
+
+Q: If $2x + y = 7$ and $x + y = 4$, then $xy =$
+- 2
+* 3
+- 6
+- 12
+W: Subtracting gives $x = 3$ and then $y = 1$, so $xy = 3$.
+
+Q: The sum of two numbers is 25 and their difference is 5. The larger number is
+- 10
+- 12
+* 15
+- 20
+W: $x = \dfrac{25 + 5}{2} = 15$.
+
+Q: The line $x + 2y = 6$ meets the y-axis at
+- $(6, 0)$
+- $(0, 6)$
+* $(0, 3)$
+- $(3, 0)$
+W: Putting $x = 0$ gives $2y = 6$, so $y = 3$.
+
+Q: The line $3x + 4y = 12$ meets the x-axis at
+- $(0, 3)$
+* $(4, 0)$
+- $(3, 0)$
+- $(0, 4)$
+W: Putting $y = 0$ gives $3x = 12$, so $x = 4$.
+
+Q: The number of solutions of the single equation $x + y = 5$ is
+- 1
+- 2
+- 5
+* infinitely many
+W: Every point on the line $x + y = 5$ is a solution.

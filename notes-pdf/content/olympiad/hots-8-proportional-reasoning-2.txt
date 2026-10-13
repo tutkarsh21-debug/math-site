@@ -1,0 +1,54 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 7
+@title HOTS: Proportional Reasoning 2 (Class 8)
+@summary Higher order thinking questions on proportional reasoning for Class 8: map scales, sharing in a three-part ratio, pie charts, inverse proportion and work done together, each with a full solution.
+
+# Solved HOTS questions
+- A map scale of $1 : 50\,000$ means 1 cm on the map is 50 000 cm = 0.5 km on the ground. Two quantities in **inverse proportion** have a fixed product (workers $\times$ days). When people work together, add their one-day work.
+?eg On a map with the scale $1 : 50\,000$, two towns are 4 cm apart. Find the real distance.
+= Real distance $= 4 \times 50\,000 = 200\,000$ cm.
+= $200\,000$ cm $= 2000$ m $= 2$ km.
+=> 2 km
+?eg Divide Rs 1200 in the ratio $2 : 3 : 5$.
+= Total parts $= 10$, so one part is Rs 120.
+= The shares are $2 \times 120$, $3 \times 120$ and $5 \times 120$.
+=> Rs 240, Rs 360 and Rs 600
+?eg In a pie chart of 500 students, the sector for cricket has a central angle of $72^\circ$. How many students chose cricket?
+= The fraction is $\dfrac{72}{360} = \dfrac{1}{5}$.
+= $\dfrac{1}{5} \times 500$.
+=> 100 students
+?eg 8 workers can finish a job in 15 days. How many days will 12 workers take?
+= The total work is $8 \times 15 = 120$ worker-days.
+= Days $= \dfrac{120}{12}$.
+=> 10 days
+?eg A can finish a job in 12 days and B in 6 days. How long will they take working together?
+= In one day A does $\dfrac{1}{12}$ and B does $\dfrac{1}{6}$ of the job. Together $\dfrac{1}{12} + \dfrac{2}{12} = \dfrac{3}{12} = \dfrac{1}{4}$.
+= So the job takes 4 days.
+=> 4 days
+
+@@dpp
+Q: On a map with the scale $1 : 200\,000$, two places are 3 cm apart. Find the real distance.
+A: 6 km.
+
+Q: Divide Rs 1500 in the ratio $1 : 2 : 3$.
+A: Rs 250, Rs 500 and Rs 750.
+
+Q: In a pie chart of 800 people, a sector has a central angle of $90^\circ$. How many people does it represent?
+A: 200.
+
+Q: 6 men can finish a job in 20 days. How many days will 10 men take?
+A: 12 days.
+
+Q: A can finish a job in 10 days and B in 15 days. How long will they take together?
+A: 6 days.
+
+Q: One pipe fills a tank in 6 hours and another in 3 hours. How long will both take together?
+A: 2 hours.
+
+Q: Two places are 7.5 km apart. How far apart are they on a map with the scale $1 : 150\,000$?
+A: 5 cm.
+
+Q: 15 men can dig a trench in 12 days. How many men are needed to dig it in 9 days?
+A: 20 men.

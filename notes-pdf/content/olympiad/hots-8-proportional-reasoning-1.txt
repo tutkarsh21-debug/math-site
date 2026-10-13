@@ -1,0 +1,53 @@
+@class Class 8
+@board HOTS
+@book Olympiad Preparation
+@chapter 6
+@title HOTS: Proportional Reasoning 1 (Class 8)
+@summary Higher order thinking questions on ratio and proportion for Class 8: sharing in a ratio, the rule of three, cross multiplication and unit conversions, each with a full solution.
+
+# Solved HOTS questions
+- The ratio $a : b$ compares two quantities of the same kind. Four numbers are in proportion if $a : b = c : d$, which means $ad = bc$ (cross multiplication). To share a quantity in the ratio $a : b$, divide it into $a + b$ equal parts.
+?eg Divide Rs 840 between A and B in the ratio $3 : 4$.
+= Total parts $= 7$. One part $= \dfrac{840}{7} = 120$.
+= A gets $3 \times 120$ and B gets $4 \times 120$.
+=> Rs 360 and Rs 480
+?eg If 8 pencils cost Rs 36, find the cost of 14 pencils.
+= Cost of 1 pencil $= \dfrac{36}{8} = 4.5$.
+= Cost of 14 pencils $= 14 \times 4.5$.
+=> Rs 63
+?eg Find $x$ if $5 : 8 = x : 24$.
+= Cross multiplying: $8x = 5 \times 24 = 120$.
+=> $x = 15$
+?eg The ratio of the ages of a mother and her daughter is $7 : 2$. The sum of their ages is 54 years. Find the daughter's age and how old the mother was when the daughter was born.
+= One part $= \dfrac{54}{9} = 6$ years. Mother is $42$ and daughter is $12$.
+= Mother's age at the daughter's birth $= 42 - 12$.
+=> The daughter is 12 and the mother was 30
+?eg A recipe for 4 people uses 300 g of flour. How much flour is needed for 10 people?
+= Flour for 1 person $= \dfrac{300}{4} = 75$ g.
+= For 10 people: $75 \times 10$.
+=> 750 g
+
+@@dpp
+Q: Divide Rs 1260 between A and B in the ratio $2 : 5$.
+A: Rs 360 and Rs 900.
+
+Q: If 12 notebooks cost Rs 90, find the cost of 20 notebooks.
+A: Rs 150.
+
+Q: Find $x$ if $7 : 3 = 35 : x$.
+A: $x = 15$.
+
+Q: The ratio of the ages of a father and his son is $8 : 3$ and the sum of their ages is 66 years. Find their ages.
+A: Father 48 years and son 18 years.
+
+Q: A recipe for 6 people uses 450 g of rice. How much rice is needed for 4 people?
+A: 300 g.
+
+Q: A car runs 150 km on 12 litres of petrol. How far does it run on 20 litres?
+A: 250 km.
+
+Q: Express the ratio of 45 minutes to 2 hours in its simplest form.
+A: $3 : 8$.
+
+Q: The sides of a rectangle are in the ratio $5 : 3$ and its perimeter is 64 cm. Find its sides.
+A: 20 cm and 12 cm.

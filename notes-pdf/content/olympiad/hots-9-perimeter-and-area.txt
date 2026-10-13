@@ -1,0 +1,56 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 6
+@title HOTS: Perimeter and Area (Class 9)
+@summary Higher order thinking questions on perimeter and area for Class 9: Heron's formula, quadrilaterals split into triangles, rhombuses and wires bent into new shapes, each with a full solution.
+
+# Solved HOTS questions
+- Tools: Heron's formula $\text{Area} = \sqrt{s(s - a)(s - b)(s - c)}$ with $s = \dfrac{a + b + c}{2}$; equilateral triangle of side $a$: area $\dfrac{\sqrt{3}}{4}a^2$; rhombus: area $= \dfrac{1}{2}d_1 d_2$, and the diagonals bisect each other at right angles. Split a quadrilateral into triangles. When a wire is bent into another shape, the **perimeter** stays the same.
+?eg Find the area of a triangle with sides 17 cm, 25 cm and 26 cm.
+= $s = \dfrac{17 + 25 + 26}{2} = 34$.
+= Area $= \sqrt{34 \times 17 \times 9 \times 8} = \sqrt{41\,616}$.
+= $204^2 = 41\,616$.
+=> 204 square cm
+?eg In quadrilateral ABCD, $\angle B = 90^\circ$, $AB = 3$ cm, $BC = 4$ cm, $CD = 12$ cm and $DA = 13$ cm. Find its area.
+= $AC = \sqrt{9 + 16} = 5$ cm. Area of triangle ABC $= \dfrac{1}{2} \times 3 \times 4 = 6$.
+= In triangle ACD: $5^2 + 12^2 = 25 + 144 = 169 = 13^2$, so the angle at C is $90^\circ$ and the area is $\dfrac{1}{2} \times 5 \times 12 = 30$.
+= Total area $= 6 + 30$.
+=> 36 square cm
+?eg The perimeter of an equilateral triangle is 60 cm. Find its area.
+= Side $= 20$ cm. Area $= \dfrac{\sqrt{3}}{4} \times 20^2 = 100\sqrt{3}$.
+=> $100\sqrt{3}$ square cm, about 173.2 square cm
+?eg A wire in the form of a square of side 22 cm is bent into a circle. Find the area of the circle (take $\pi = \dfrac{22}{7}$).
+= The length of the wire is $4 \times 22 = 88$ cm, so $2\pi r = 88$ and $r = 14$ cm.
+= Area $= \dfrac{22}{7} \times 14 \times 14 = 616$.
+=> 616 square cm
+?eg The perimeter of a rhombus is 52 cm and one diagonal is 24 cm. Find the other diagonal and the area.
+= Side $= 13$ cm. Half of the given diagonal is 12 cm.
+= Half of the other diagonal $= \sqrt{13^2 - 12^2} = 5$ cm, so the other diagonal is 10 cm.
+= Area $= \dfrac{1}{2} \times 24 \times 10 = 120$.
+=> 10 cm and 120 square cm
+
+@@dpp
+Q: Find the area of a triangle with sides 13 cm, 14 cm and 15 cm.
+A: 84 square cm.
+
+Q: In quadrilateral ABCD, $\angle B = 90^\circ$, $AB = 9$ cm, $BC = 12$ cm, $CD = 8$ cm and $DA = 17$ cm. Find its area.
+A: 114 square cm (the triangle ABC has area 54 and triangle ACD, with sides 15, 8 and 17, has area 60).
+
+Q: Find the area of an equilateral triangle of side 10 cm.
+A: $25\sqrt{3}$ square cm.
+
+Q: A wire in the form of a circle of radius 14 cm is bent into a square. Find the area of the square (take $\pi = \dfrac{22}{7}$).
+A: 484 square cm.
+
+Q: The perimeter of a rhombus is 40 cm and one diagonal is 12 cm. Find the other diagonal and the area.
+A: 16 cm and 96 square cm.
+
+Q: Find the area of a parallelogram with base 12 cm and height 7.5 cm.
+A: 90 square cm.
+
+Q: Find the area of a trapezium whose parallel sides are 10 cm and 14 cm and whose height is 6 cm.
+A: 72 square cm.
+
+Q: Find the area of an isosceles triangle with sides 5 cm, 5 cm and 6 cm.
+A: 12 square cm.

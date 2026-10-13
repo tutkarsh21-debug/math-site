@@ -1,0 +1,52 @@
+@class Class 9
+@board HOTS
+@book Olympiad Preparation
+@chapter 10
+@title HOTS: Understanding Data, Weighted Mean (Class 9)
+@summary Higher order thinking questions on the weighted mean for Class 9: weighted scores, mixtures, combining groups of different sizes, the score needed for a target average and reading shares from a stacked bar chart, each with a full solution.
+
+# Solved HOTS questions
+- The **weighted mean** of values $x_1, x_2, \ldots$ with weights $w_1, w_2, \ldots$ is $\dfrac{w_1 x_1 + w_2 x_2 + \cdots}{w_1 + w_2 + \cdots}$. When groups are of different sizes, the size is the weight. The weighted mean always lies between the smallest and the largest value.
+?eg A student's marks are 80 in a subject of weight 2, 70 in a subject of weight 3, and 90 in a subject of weight 5. Find the weighted mean.
+= $\dfrac{2 \times 80 + 3 \times 70 + 5 \times 90}{2 + 3 + 5} = \dfrac{160 + 210 + 450}{10}$.
+=> 82
+?eg 20 kg of rice costing Rs 40 per kg is mixed with 30 kg of rice costing Rs 50 per kg. Find the cost per kg of the mixture.
+= Total cost $= 20 \times 40 + 30 \times 50 = 800 + 1500 = 2300$.
+= Total quantity $= 50$ kg.
+=> Rs 46 per kg
+?eg In one class of 25 students the average mark is 72 and in another class of 15 students the average mark is 56. Find the average of all 40 students.
+= Total marks $= 25 \times 72 + 15 \times 56 = 1800 + 840 = 2640$.
+= Average $= \dfrac{2640}{40}$.
+=> 66
+?eg A student's average in 3 tests is 70. What must the mark be in the fourth test so that the average of the four tests is 75?
+= The four tests must total $4 \times 75 = 300$. The first three total $3 \times 70 = 210$.
+= The fourth mark is $300 - 210$.
+=> 90
+?eg In a stacked bar chart of 200 students, the bar for boys has height 120 and the bar for girls has height 80. What percentage of the students are girls?
+= Girls are $\dfrac{80}{200} \times 100$.
+=> 40%
+
+@@dpp
+Q: Marks of 60 and 80 have weights 1 and 3. Find the weighted mean.
+A: 75.
+
+Q: 10 kg of sugar at Rs 30 per kg is mixed with 15 kg at Rs 40 per kg. Find the cost per kg of the mixture.
+A: Rs 36 per kg.
+
+Q: 40 students have an average mark of 55 and another 10 students have an average mark of 80. Find the average of all 50 students.
+A: 60.
+
+Q: A student's average in 3 tests is 80. What mark is needed in the fourth test to raise the average to 82?
+A: 88.
+
+Q: In a survey of 150 people, 45 prefer tea. What percentage prefer tea?
+A: 30%.
+
+Q: 5 kg of tea at Rs 60 per kg is mixed with some tea at Rs 80 per kg so that the mixture costs Rs 70 per kg. How much of the Rs 80 tea is used?
+A: 5 kg.
+
+Q: A cyclist rides 20 km at 10 km/h and then 20 km at 20 km/h. Find the average speed for the whole ride.
+A: $\dfrac{40}{3}$ km/h, about 13.3 km/h (the total time is 3 hours).
+
+Q: Two groups of 10 students each have means 12 and 18. Find the mean of all 20 students.
+A: 15.
