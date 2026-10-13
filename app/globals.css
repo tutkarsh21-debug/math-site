@@ -1289,3 +1289,8 @@ button.wk-card:hover{border-color:var(--sun)}
 .chips{display:flex;flex-wrap:wrap;gap:.45rem}
 .chips a{display:inline-block;background:var(--card);color:var(--fg);border:1.5px solid var(--brand);border-radius:99px;padding:.3rem .8rem;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .15s,transform .15s}
 .chips a:hover{background:var(--brand);color:var(--on-brand);transform:translateY(-1px)}
+.oly-list{list-style:none;margin:0 0 .4rem;padding:0}
+.oly-list li{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem;padding:.45rem 0;border-top:1px solid var(--line)}
+.oly-list li:first-child{border-top:0}
+.oly-name{font-weight:600}
+.oly-grp .cta-row{margin:0}
