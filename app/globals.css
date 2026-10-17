@@ -1294,3 +1294,8 @@ button.wk-card:hover{border-color:var(--sun)}
 .oly-list li:first-child{border-top:0}
 .oly-name{font-weight:600}
 .oly-grp .cta-row{margin:0}
+
+/* ---- Chapter page: questions and answers ---- */
+.chapter-faq{margin-top:2rem}
+.chapter-faq h2{font-size:1.3rem;margin-bottom:.6rem}
+.chapter-faq summary{font-weight:700;cursor:pointer}

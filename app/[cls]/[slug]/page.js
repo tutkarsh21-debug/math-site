@@ -9,6 +9,7 @@ import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 import TOPICS from '@/lib/topics.json';
 import { DoneButton } from '@/components/Progress';
+import { chapterFaq } from '@/lib/faq';
 
 // Search results show about 155 characters, so longer descriptions are cut at a word.
 const short = (s, n = 155) => s.length <= n ? s : s.slice(0, s.lastIndexOf(' ', n - 1)).replace(/[,;:.\s]+$/, '') + '…';
@@ -56,11 +57,14 @@ export default async function Chapter({ params }) {
   const test = TESTS[`${p.cls}/${p.slug}`];
   const topics = TOPICS[`${p.cls}/${p.slug}`] || [];
   const url = `${SITE.url}/${p.cls}/${p.slug}`;
+  const faq = chapterFaq({ ch, c, board, ready, topics, test, cls: p.cls });
   return (<>
     <JsonLd data={breadcrumbs([[`${c.label} Maths`, `/${p.cls}`], [ch.title, `/${p.cls}/${p.slug}`]])} />
     <JsonLd data={{ '@context': 'https://schema.org', '@type': 'LearningResource', name: `${ch.title}: ${c.label} ${board} Maths notes`, url,
       description: ch.summary || undefined, inLanguage: 'en', isAccessibleForFree: true, educationalLevel: c.label,
       learningResourceType: ['Notes', 'Formula sheet', 'Practice problems'], teaches: topics, provider: { '@id': `${SITE.url}/#org` } }} />
+    {faq.length > 0 && <JsonLd data={{ '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }} />}
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href={`/${p.cls}`}>{c.label}</Link><span>/</span>{ch.title}</div>
       <h1>{ch.title} {c.label}</h1>
@@ -100,6 +104,10 @@ export default async function Chapter({ params }) {
           <h2>What this chapter covers</h2>
           <ul>{topics.map(t => <li key={t}>{t}</li>)}</ul>
           <p className="muted">The short notes explain each of these topics with solved examples, the formula bank lists every result on one sheet, and the DPP sheet gives practice questions with an answer key.{p.cls === 'class-10' ? ' Previous year board questions are arranged topic-wise with solutions.' : ''}</p>
+        </section>}
+        {faq.length > 0 && <section className="chapter-faq">
+          <h2>Questions about {ch.title}</h2>
+          {faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
         </section>}
         {test && <div className="banner" style={{marginTop:'2rem'}}>
           <div><h2>Chapter test</h2><p>{test.qs.length} questions · {test.minutes} minutes · instant score with explanations</p></div>
