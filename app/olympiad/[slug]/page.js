@@ -8,6 +8,7 @@ import { SITE } from '@/lib/data';
 import { OLY_TOPICS, findOlyTopic } from '@/lib/olympiad';
 import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
+import { olympiadFaq } from '@/lib/faq';
 
 export const generateStaticParams = () => OLY_TOPICS.map(t => ({ slug: t.slug }));
 
@@ -30,11 +31,14 @@ export default async function OlympiadTopic({ params }) {
   const { slug } = await params, t = findOlyTopic(slug); if (!t) notFound();
   const ready = PDFS[`olympiad/${slug}`] || [], test = TESTS[`olympiad/${slug}`];
   const tabs = TABS.filter(x => ready.includes(x.file));
+  const faq = olympiadFaq({ t, ready, test });
   const same = t.cls ? t.group.topics.filter(x => x.cls === t.cls) : t.group.topics, i = same.findIndex(x => x.slug === slug), prev = same[i - 1], next = same[i + 1];
   return (<>
     <JsonLd data={breadcrumbs([['Olympiad', '/olympiad'], [t.title, `/olympiad/${slug}`]])} />
     <JsonLd data={{ '@context': 'https://schema.org', '@type': 'LearningResource', name: `${t.title}: ${t.group.title}`, url: `${SITE.url}/olympiad/${slug}`,
       description: t.summary, inLanguage: 'en', isAccessibleForFree: true, learningResourceType: ['Notes', 'Practice problems'], provider: { '@id': `${SITE.url}/#org` } }} />
+    <JsonLd data={{ '@context': 'https://schema.org', '@type': 'FAQPage',
+      mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }} />
     <div className="page-head"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span><Link href="/olympiad">Olympiad</Link><span>/</span>{t.title}</div>
       <h1>{t.title}</h1>
@@ -63,6 +67,10 @@ export default async function OlympiadTopic({ params }) {
             </div></div>);
           })}
         </div>
+        <section className="chapter-faq">
+          <h2>Questions about {t.title}</h2>
+          {faq.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}
+        </section>
         {test && <div className="banner" style={{marginTop:'2rem'}}>
           <div><h2>{t.hots ? 'HOTS test' : 'Subject test'}</h2><p>{test.qs.length} questions · {test.minutes} minutes · instant score with explanations</p></div>
           <Link className="btn btn-sun" href={`/tests/olympiad/${slug}`}>Start test</Link>
