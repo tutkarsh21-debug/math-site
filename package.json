@@ -10,12 +10,14 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.131.0",
+    "@anthropic-ai/sdk": "0.131.0",
     "@opennextjs/cloudflare": "1.20.7",
-    "katex": "^0.16.11",
+    "katex": "0.16.47",
     "next": "16.3.8",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
-  "devDependencies": { "wrangler": "4.147.0" }
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
 }
