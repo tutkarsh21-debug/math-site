@@ -3,7 +3,7 @@ import { BOARDS, CLASSES } from '@/lib/data';
 import { OLY_GROUPS } from '@/lib/olympiad';
 import TESTS from '@/lib/tests.json';
 
-export const metadata = { title: 'Online Maths Test Series: Chapter Tests for Class 8, 9, 10',
+export const metadata = { title: 'Online Maths Test Series: Class 8, 9, 10',
   description: 'Free online chapter tests in Maths for Class 8, 9 and 10 (CBSE and ICSE). Timed multiple-choice tests with instant score and explanations.' };
 
 export default function Tests() {

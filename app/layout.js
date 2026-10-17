@@ -15,7 +15,7 @@ const manrope = Manrope({ subsets: ['latin'], weight: ['600', '700', '800'], var
 
 export const metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: `${SITE.name} | Class 8, 9, 10 Maths Notes, Tests and Classes for CBSE & ICSE`, template: `%s | ${SITE.name}` },
+  title: { default: `${SITE.name} | Maths for Class 8, 9, 10: Notes, Tests, Classes`, template: `%s | ${SITE.name}` },
   description: 'Free Maths notes, formula sheets, DPP and online tests for Class 8, 9 and 10 (CBSE and ICSE), with previous year questions, NCERT solutions and doubt help.',
   // Each page names its own address as the one to index, so copies on other addresses are not counted separately.
   alternates: { canonical: './' },

@@ -1,3 +1,4 @@
+import { fit } from '@/lib/seo';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { DoneTick } from '@/components/Progress';
@@ -13,7 +14,7 @@ export const generateStaticParams = () => Object.keys(CLASSES).map(cls => ({ cls
 export async function generateMetadata({ params }) {
   const { cls } = await params;
   const c = CLASSES[cls];
-  return c ? { title: `${c.label} Maths Notes, Formulas, DPP and Tests | CBSE & ICSE`, description: `${c.label} Maths for CBSE and ICSE: chapter-wise notes, formula banks, practice sheets, online tests, a practice generator and 1-to-1 live classes.` } : {};
+  return c ? { title: fit(`${c.label} Maths Notes, Formulas, DPP and Tests`, `${c.label} Maths Notes, DPP and Tests`), description: `${c.label} Maths for CBSE and ICSE: chapter-wise notes, formula banks, practice sheets, online tests, a practice generator and 1-to-1 live classes.` } : {};
 }
 
 // The steps of every chapter, the same for every class.

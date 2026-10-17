@@ -8,7 +8,7 @@ import PDFS from '@/lib/pdfs.json';
 import TESTS from '@/lib/tests.json';
 
 export const metadata = {
-  title: 'Practice: Custom Test Generator and Olympiad Practice Questions',
+  title: 'Maths Practice Test Generator, Class 8-10',
   description: 'Build your own Maths practice test with the class, chapters and difficulty you choose, or practise Olympiad questions: a DPP and a timed test for every mental ability, everyday mathematics and HOTS topic.',
 };
 

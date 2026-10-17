@@ -1,3 +1,4 @@
+import { fit } from '@/lib/seo';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -20,7 +21,7 @@ const TABS = [
 export async function generateMetadata({ params }) {
   const { slug } = await params, t = findOlyTopic(slug); if (!t) return {};
   const mat = t.group.id === 'mental-ability';
-  return { title: `${t.title}: ${t.hots ? 'Olympiad HOTS Questions with Solutions' : (mat ? 'Mental Ability Notes, DPP and Test' : 'Everyday Mathematics Notes, DPP and Test')}`,
+  return { title: fit(`${t.title}: ${t.hots ? 'Olympiad HOTS Questions with Solutions' : (mat ? 'Mental Ability Notes, DPP and Test' : 'Everyday Mathematics Notes, DPP and Test')}`, `${t.title}: ${t.hots ? 'Olympiad HOTS Questions' : (mat ? 'Mental Ability Notes and Test' : 'Everyday Maths Notes and Test')}`, `${t.title}: Olympiad Notes and Test`, `${t.title} Olympiad`, t.title),
     description: `${t.summary} Free PDF ${t.hots ? 'solved questions, a practice set' : 'short notes, quick rules, DPP'} and an online test for Olympiad preparation.`.slice(0, 300),
     alternates: { canonical: `/olympiad/${slug}` } };
 }

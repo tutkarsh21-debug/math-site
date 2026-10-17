@@ -4,7 +4,7 @@ import TalkToUs from '@/components/TalkToUs';
 import { CLASSES, FREE_DEMO, PARENT_LOGIN } from '@/lib/data';
 
 export const metadata = {
-  title: 'Weak in Maths? Start from the Basics | Class 8, 9, 10',
+  title: 'Weak in Maths? Start from the Basics',
   description: 'A step-by-step plan for a student who finds Maths hard: check your level, fix the gaps with short notes, practise, take tests, and then move on to the Olympiad. Free.',
 };
 

@@ -1,3 +1,4 @@
+import { fit } from '@/lib/seo';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -40,7 +41,8 @@ export async function generateMetadata({ params }) {
   const p = await params;
   const { c, ch } = find(p); if (!ch) return {};
   const what = `Free PDF notes, formula sheet, DPP${p.cls === 'class-10' ? ', previous year questions' : ''} and an online test`;
-  return { title: `${ch.title} ${c.label} ${ch.boards.join(' & ')} Notes, Formulas, DPP and Test`,
+  const b = ch.boards.join(' & ');
+  return { title: fit(`${ch.title} ${c.label} ${b} Notes, Formulas, DPP and Test`, `${ch.title} ${c.label} ${b}: Notes, DPP, Test`, `${ch.title} ${c.label} ${b} Notes`, `${ch.title} ${c.label} ${b}`, `${ch.title} ${c.label}`),
     description: short(`${c.label} ${ch.boards.join(' and ')} Maths, ${ch.title}: ${ch.summary ? ch.summary + ' ' : ''}${what}.`),
     alternates: { canonical: `/${p.cls}/${p.slug}` } };
 }

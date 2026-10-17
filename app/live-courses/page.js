@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Timetable from '@/components/Timetable';
 import { BOARDS, CLASSES, FREE_DEMO, LIVE, SITE } from '@/lib/data';
 
-export const metadata = { title: 'Live Maths Courses for Class 8, 9, 10 | CBSE & ICSE',
+export const metadata = { title: 'Live Maths Courses for Class 8, 9, 10',
   description: 'Live online Maths batches for Class 8, 9 and 10 (CBSE and ICSE), taught in Hinglish with doubt solving, notes and DPP.',
   alternates: { canonical: '/live-courses' } };
 

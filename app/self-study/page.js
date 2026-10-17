@@ -3,7 +3,7 @@ import ChapterSearch from '@/components/ChapterSearch';
 import { BOARDS, CLASSES } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 
-export const metadata = { title: 'Self Study: Maths Notes, Formula Bank, DPP and PYQ | Class 8, 9, 10',
+export const metadata = { title: 'Maths Notes, Formulas, DPP and PYQ: Class 8-10',
   description: 'Free Maths PDFs for Class 8, 9 and 10 (CBSE and ICSE): short notes, formula bank, DPP sheets and Class 10 previous year questions.' };
 
 const MATERIAL = [

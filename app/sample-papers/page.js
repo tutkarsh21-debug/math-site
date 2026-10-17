@@ -3,7 +3,7 @@ import PDFS from '@/lib/pdfs.json';
 import PAPERS from '@/lib/papers.json';
 import PdfLink from '@/components/PdfLink';
 
-export const metadata = { title: 'MathSetu Sample Papers for Class 8, 9, 10 Maths | CBSE & ICSE',
+export const metadata = { title: 'Maths Sample Papers with Solutions',
   description: 'MathSetu sample papers in Maths with full solutions, set on the pattern of the CBSE and ICSE exams.',
   alternates: { canonical: '/sample-papers' } };
 

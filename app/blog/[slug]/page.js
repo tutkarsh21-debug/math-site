@@ -1,3 +1,4 @@
+import { fit } from '@/lib/seo';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
@@ -7,7 +8,7 @@ import { POSTS } from '@/lib/posts';
 export const generateStaticParams = () => POSTS.map(p => ({ slug: p.slug }));
 export async function generateMetadata({ params }) {
   const { slug } = await params, p = POSTS.find(x => x.slug === slug);
-  return p ? { title: p.title, description: p.summary, openGraph: { type: 'article', title: p.title, description: p.summary, publishedTime: p.date, images: ['/og.png'] } } : {};
+  return p ? { title: fit(p.title), description: p.summary, openGraph: { type: 'article', title: p.title, description: p.summary, publishedTime: p.date, images: ['/og.png'] } } : {};
 }
 
 // Text may contain links to pages of this site, written [link text](/path).

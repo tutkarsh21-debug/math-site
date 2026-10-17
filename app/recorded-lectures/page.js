@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { BOARDS, CLASSES, SITE } from '@/lib/data';
 
-export const metadata = { title: 'Recorded Maths Video Lectures for Class 8, 9, 10 | CBSE & ICSE',
+export const metadata = { title: 'Recorded Maths Video Lectures, Class 8, 9, 10',
   description: 'Chapter-wise recorded Maths lectures in Hinglish for Class 8, 9 and 10, CBSE and ICSE. Watch any time.',
   alternates: { canonical: '/recorded-lectures' } };
 

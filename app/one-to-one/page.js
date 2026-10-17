@@ -4,7 +4,7 @@ import TalkToUs from '@/components/TalkToUs';
 import { O2O_FAQ, O2O_FEATURES, O2O_JOURNEY } from '@/lib/oneToOne';
 
 export const metadata = {
-  title: '1-to-1 Maths Tuition for Class 8, 9, 10 | CBSE & ICSE',
+  title: '1-to-1 Maths Tuition for Class 8, 9, 10',
   description: 'Live online 1-to-1 Maths tuition for Class 8, 9 and 10 (CBSE and ICSE): your own teacher, a plan that starts from the gaps, doubts between classes and practice that fits.',
   alternates: { canonical: '/one-to-one' },
 };

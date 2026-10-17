@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Timetable from '@/components/Timetable';
 
 export const metadata = {
-  title: 'MathSetu Studio: Live Classes, Recorded Lectures and 1-to-1 Classroom',
+  title: 'MathSetu Studio: Live and Recorded Classes',
   description: 'Three rooms in one place: watch the live class, learn from recorded lectures class by class, and join your 1-to-1 class. With a timetable of every class.',
   alternates: { canonical: '/studio' },
 };

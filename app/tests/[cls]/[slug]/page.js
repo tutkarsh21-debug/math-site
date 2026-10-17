@@ -1,3 +1,4 @@
+import { fit } from '@/lib/seo';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import JsonLd, { breadcrumbs } from '@/components/JsonLd';
@@ -23,8 +24,8 @@ export async function generateMetadata({ params }) {
   const p = await params, { c, ch, olympiad } = find(p);
   if (!ch) return {};
   return olympiad
-    ? { title: `${ch.title} Test | Olympiad ${ch.boards[0]}`, description: `Free online test on ${ch.title} for Olympiad preparation: 10 timed questions with answers and an explanation for each.` }
-    : { title: `${ch.title} MCQ Test | ${c.label} ${ch.boards[0]} Maths`, description: `Free online MCQ test for ${c.label} ${ch.boards[0]} Maths, ${ch.title}: 10 timed questions with answers and an explanation for each.` };
+    ? { title: fit(`${ch.title} Test | Olympiad ${ch.boards[0]}`, `${ch.title} Olympiad Test`, ch.title), description: `Free online test on ${ch.title} for Olympiad preparation: 10 timed questions with answers and an explanation for each.` }
+    : { title: fit(`${ch.title} MCQ Test | ${c.label} ${ch.boards[0]} Maths`, `${ch.title} MCQ Test | ${c.label} ${ch.boards[0]}`, `${ch.title} ${c.label} ${ch.boards[0]} Test`, `${ch.title} ${c.label} Test`, `${ch.title} Test`), description: `Free online MCQ test for ${c.label} ${ch.boards[0]} Maths, ${ch.title}: 10 timed questions with answers and an explanation for each.` };
 }
 
 export default async function TestPage({ params }) {

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import RecordedStudio from '@/components/RecordedStudio';
 
 export const metadata = {
-  title: 'Recorded Studio: Maths Lecture Playlists for Class 8, 9, 10',
+  title: 'Recorded Maths Lectures: Class 8, 9, 10',
   description: 'Recorded Maths lectures from the MathSetu YouTube channel, class by class. Pause, rewind and watch again.',
   alternates: { canonical: '/studio/recorded' },
 };
