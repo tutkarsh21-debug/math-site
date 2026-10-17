@@ -21,6 +21,8 @@ export const metadata = {
   alternates: { canonical: './' },
   openGraph: { siteName: SITE.name, type: 'website', locale: 'en_IN', images: [{ url: '/og.png', width: 1200, height: 630, alt: `${SITE.name}: Class 8, 9 and 10 Maths` }] },
   twitter: { card: 'summary_large_image', images: ['/og.png'] },
+  // Proves to Bing Webmaster Tools that this site is ours.
+  verification: { other: { 'msvalidate.01': 'B41070720977342D01253CB1310CFE42' } },
   // For the installed app on iPhones, which do not read everything from the manifest.
   appleWebApp: { capable: true, title: SITE.name, statusBarStyle: 'default' },
   icons: { apple: '/icons/icon-180.png' },
