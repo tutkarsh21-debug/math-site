@@ -1,7 +1,7 @@
 import { defineCloudflareConfig } from "@opennextjs/cloudflare";
-import kvIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/kv-incremental-cache";
+import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
 
-// Pages that are built ahead of time are remembered in a Cloudflare KV store (binding NEXT_INC_CACHE_KV, see wrangler.jsonc).
-// The first visit to a page builds it; every later visit is served from the store, so the server does not render the page again
-// and each request stays well inside Cloudflare's processing-time limit.
-export default defineCloudflareConfig({ incrementalCache: kvIncrementalCache });
+// Every page of this site is built ahead of time and never revalidated, so the built pages are shipped with the deploy as
+// static assets and read from there. The earlier setup copied every page into Cloudflare KV on each deploy, and the free KV
+// plan allows only 1,000 writes a day, so a third deploy in a day failed. This needs no writes at all.
+export default defineCloudflareConfig({ incrementalCache: staticAssetsIncrementalCache });
