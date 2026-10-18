@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { TEACHER_SIGNUP } from '@/lib/flags';
 import { useEffect, useMemo, useState } from 'react';
+import PasswordRequests from '@/components/PasswordRequests';
 import DashboardView, { Cards, band, dateOnly, when } from '@/components/Dashboard';
 
 const dayShort = k => new Date(`${k}T00:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
@@ -72,6 +73,7 @@ export default function AdminDashboard() {
       <Link className="btn btn-outline btn-sm" href="/admin/studio">Studio manager</Link>
       {TEACHER_SIGNUP && <Link className="btn btn-outline btn-sm" href="/admin/teachers">Teachers</Link>}
     </div>
+    <PasswordRequests />
     <p className="muted small">"Registered" means a student account was created. Only pages opened while logged in are counted here. For visitors who did not log in, see Web Analytics in your Cloudflare dashboard.</p>
 
     <section className="dash-sec">

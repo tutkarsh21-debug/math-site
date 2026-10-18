@@ -1,4 +1,5 @@
 'use client';
+import ChangePassword from '@/components/ChangePassword';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import DashboardView from '@/components/Dashboard';
@@ -85,6 +86,7 @@ export default function Account() {
     </div>
     {!me.admin && <DashboardView data={data} mode="student" />}
     {!me.admin && <div style={{ margin: '1rem 0' }}><Timetable scope="mine" title="My timetable" empty="No classes are scheduled for you yet. New live classes and 1-to-1 classes appear here, with the time and a Join button." /></div>}
+    <ChangePassword />
     {PARENT_LOGIN && <ParentAccess has={data.user.hasParentCode} since={data.user.parentCodeAt} onChange={on => setState(s => ({ data: { ...s.data, user: { ...s.data.user, hasParentCode: on, parentCodeAt: on ? Math.floor(Date.now() / 1000) : 0 } } }))} />}
   </>);
 }
