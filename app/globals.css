@@ -1299,3 +1299,14 @@ button.wk-card:hover{border-color:var(--sun)}
 .chapter-faq{margin-top:2rem}
 .chapter-faq h2{font-size:1.3rem;margin-bottom:.6rem}
 .chapter-faq summary{font-weight:700;cursor:pointer}
+
+/* ---- Self study and Olympiad listing pages ---- */
+.sp-steps.auto{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.ss-list{margin:.5rem 0 0;padding-left:1.1rem;color:var(--muted);font-size:.9rem}
+.oly-all{background:none;border:0;padding:3rem 0 2rem}
+.oly-all .section-head{margin-bottom:.8rem}
+.oly-all .oly-lead{margin:0 auto 1.6rem;text-align:center}
+.oly-grp{border-radius:22px;box-shadow:var(--shadow);padding:1.3rem 1.5rem 1.4rem}
+.oly-grp h3{font-size:1.25rem}
+.oly-grp .chips a{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:.4rem .95rem;font-weight:600;font-size:.92rem;text-decoration:none;color:var(--fg);transition:transform .15s,border-color .15s}
+.oly-grp .chips a:hover{transform:translateY(-2px);border-color:var(--sun);color:var(--sun)}

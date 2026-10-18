@@ -4,7 +4,8 @@ import { BOARDS, CLASSES } from '@/lib/data';
 import PDFS from '@/lib/pdfs.json';
 
 export const metadata = { title: 'Maths Notes, Formulas, DPP and PYQ: Class 8-10',
-  description: 'Free Maths PDFs for Class 8, 9 and 10 (CBSE and ICSE): short notes, formula bank, DPP sheets and Class 10 previous year questions.' };
+  description: 'Free Maths PDFs for Class 8, 9 and 10 (CBSE and ICSE): short notes, formula bank, DPP sheets and Class 10 previous year questions.',
+  alternates: { canonical: '/self-study' } };
 
 const MATERIAL = [
   { icon: '✎', title: 'Short Notes', text: 'Each topic explained in a few lines, with solved examples and common mistakes.' },
@@ -25,59 +26,64 @@ export default function SelfStudy() {
   const classes = Object.entries(CLASSES);
   const finder = classes.flatMap(([k, c]) => c.chapters.map(ch => ({ cls: k, label: c.label, boards: ch.boards, title: ch.title, slug: ch.slug })));
   return (<>
-    <div className="page-head"><div className="wrap">
+    <section className="sp-hero"><div className="wrap">
       <div className="crumbs"><Link href="/">Home</Link><span>/</span>Self Study</div>
-      <h1>Self Study (Class 8-10)</h1>
-      <p>Free PDFs for every chapter of CBSE and ICSE Maths. Pick your class and board, open a chapter and start.</p>
-    </div></div>
+      <span className="sp-eyebrow">Free · No sign-up · CBSE and ICSE</span>
+      <h1>Every chapter, <span className="h3-grad">ready to study</span></h1>
+      <p>Free PDFs for every chapter of Class 8, 9 and 10 Maths: short notes, a formula bank and a DPP sheet. Pick your class and board, open a chapter and start.</p>
+      <div className="cta-row" style={{ marginTop: '1.4rem' }}>
+        <Link className="btn btn-sun" href="#classes">Choose your class</Link>
+        <Link className="btn h3-ghost" href="/start">I am weak in maths</Link>
+      </div>
+    </div></section>
 
     <section className="section"><div className="wrap">
-      <div className="section-head"><h2>Find a chapter</h2></div>
+      <div className="section-head center"><span className="kicker">Search</span><h2>Find a chapter</h2></div>
       <ChapterSearch chapters={finder} />
-      <div className="section-head" style={{marginTop:'2rem'}}><h2>Or choose your class and board</h2></div>
-      <div className="grid">
+    </div></section>
+
+    <section className="section soft" id="classes"><div className="wrap">
+      <div className="section-head center"><span className="kicker">Your syllabus</span><h2>Choose your class and board</h2></div>
+      <div className="rl-classes">
         {classes.flatMap(([k, c]) => BOARDS.map(b => {
           const list = c.chapters.filter(ch => ch.boards.includes(b));
           if (!list.length) return null;
           const pyq = list.filter(ch => (PDFS[`${k}/${ch.slug}`] || []).includes('pyq')).length;
-          return (<Link key={k + b} href={`/${k}`} className="card course">
-            <span className="badge self">FREE</span>
+          return (<Link key={k + b} href={`/${k}`} className="rl-class reveal">
             <h3>{c.label} {b}</h3>
             <p>{list.length} chapters · {list[0].part}</p>
-            <ul>
-              <li>Short notes, formula bank and DPP for every chapter</li>
+            <ul className="ss-list">
+              <li>Notes, formula bank and DPP for every chapter</li>
               {pyq > 0 && <li>Previous year questions for {pyq} chapters</li>}
             </ul>
-            <span className="go">Open chapters →</span>
+            <span className="rl-status on">Open chapters →</span>
           </Link>);
         }))}
       </div>
     </div></section>
 
+    <section className="section"><div className="wrap">
+      <div className="section-head center"><span className="kicker">Inside every chapter</span><h2>What you get</h2></div>
+      <div className="sp-steps auto">
+        {MATERIAL.map(m => <div key={m.title} className="sp-step"><b aria-hidden="true">{m.icon}</b><h3>{m.title}</h3><p>{m.text}</p></div>)}
+      </div>
+    </div></section>
+
     <section className="section soft"><div className="wrap">
-      <div className="section-head"><h2>Papers and tests</h2></div>
+      <div className="section-head center"><span className="kicker">How to use it</span><h2>Four steps for every chapter</h2></div>
+      <div className="sp-steps">
+        {STEPS.map((s, i) => <div key={s.title} className="sp-step"><b>{i + 1}</b><h3>{s.title}</h3><p>{s.text}</p></div>)}
+      </div>
+    </div></section>
+
+    <section className="section"><div className="wrap">
+      <div className="section-head center"><span className="kicker">After the chapter</span><h2>Papers and tests</h2></div>
       <div className="grid">
         <Link href="/sample-papers" className="tile"><h3>Sample Papers</h3><span>Full-length MathSetu papers with solutions</span><span className="go">Open →</span></Link>
         <Link href="/tests" className="tile"><h3>Test Series</h3><span>Timed online chapter tests with instant score</span><span className="go">Open →</span></Link>
+        <Link href="/practice" className="tile"><h3>Practice Generator</h3><span>Make your own test on the topics you choose</span><span className="go">Open →</span></Link>
       </div>
-    </div></section>
-
-    <section className="section"><div className="wrap">
-      <div className="section-head"><h2>What each chapter has</h2></div>
-      <div className="grid">
-        {MATERIAL.map(m => <div key={m.title} className="card"><div className="icon" aria-hidden="true">{m.icon}</div><h3>{m.title}</h3><p>{m.text}</p></div>)}
-      </div>
-    </div></section>
-
-    <section className="section soft"><div className="wrap">
-      <div className="section-head"><h2>How to use it</h2></div>
-      <div className="grid steps">
-        {STEPS.map(s => <div key={s.title} className="step"><h3>{s.title}</h3><p>{s.text}</p></div>)}
-      </div>
-    </div></section>
-
-    <section className="section"><div className="wrap">
-      <div className="banner">
+      <div className="banner" style={{ marginTop: '2rem' }}>
         <div><h2>Preparing for SOF IMO?</h2><p>See what to study beyond the school syllabus.</p></div>
         <Link className="btn btn-sun" href="/olympiad">Olympiad preparation</Link>
       </div>
